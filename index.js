@@ -127,7 +127,7 @@ async function sendNotification(topic, title, message, priority = 3) {
 }
 
 async function main() {
-  const token = process.env.GITHUB_TOKEN;
+  const token = process.env.GH_PAT || process.env.GITHUB_TOKEN;
   const owner = process.env.REPO_OWNER;
   const repo = process.env.REPO_NAME;
   const ntfyTopic = process.env.NTFY_TOPIC;
