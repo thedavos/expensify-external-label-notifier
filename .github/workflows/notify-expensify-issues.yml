@@ -22,11 +22,11 @@ jobs:
       - name: Read repository issues
         run: node index.js
         env:
-          GITHUB_TOKEN: ${{ github.token }}
-          REPO_OWNER: ${{ github.repository_owner }}
-          REPO_NAME: ${{ github.event.repository.name }}
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          REPO_OWNER: ${{ secrets.REPO_OWNER }}
+          REPO_NAME: ${{ secrets.REPO_NAME }}
           NTFY_TOPIC: ${{ secrets.NTFY_TOPIC }}
-      
+
       - name: Commit updated issues file
         run: |
           git config --local user.email "action@github.com"
