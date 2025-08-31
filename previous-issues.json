@@ -666,6 +666,15 @@
         "description": "Apply this label when an issue is open to proposals by contributors"
       },
       {
+        "id": 3184150925,
+        "node_id": "MDU6TGFiZWwzMTg0MTUwOTI1",
+        "url": "https://api.github.com/repos/Expensify/App/labels/Overdue",
+        "name": "Overdue",
+        "color": "D93F0B",
+        "default": false,
+        "description": ""
+      },
+      {
         "id": 4664850679,
         "node_id": "LA_kwDOEQqHYc8AAAABFgv49w",
         "url": "https://api.github.com/repos/Expensify/App/labels/Bug",
@@ -743,9 +752,9 @@
       }
     ],
     "milestone": null,
-    "comments": 7,
+    "comments": 9,
     "created_at": "2025-08-28T14:17:55Z",
-    "updated_at": "2025-08-29T16:39:23Z",
+    "updated_at": "2025-08-31T20:09:48Z",
     "closed_at": null,
     "author_association": "NONE",
     "type": null,
