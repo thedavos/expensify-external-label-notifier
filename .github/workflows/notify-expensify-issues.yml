@@ -3,6 +3,7 @@ name: notify-expensify-issues.yml
 on:
   schedule:
     - cron: '0 * * * *' # Se ejecutará cada hora
+  workflow_dispatch: # Permite ejecución manual
 
 permissions:
   contents: write
