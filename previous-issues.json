@@ -311,9 +311,9 @@
       }
     ],
     "milestone": null,
-    "comments": 10,
+    "comments": 13,
     "created_at": "2025-08-29T23:30:22Z",
-    "updated_at": "2025-09-01T15:46:23Z",
+    "updated_at": "2025-09-01T18:16:06Z",
     "closed_at": null,
     "author_association": "NONE",
     "type": null,
@@ -408,15 +408,6 @@
         "description": "KSv2"
       },
       {
-        "id": 3136662525,
-        "node_id": "MDU6TGFiZWwzMTM2NjYyNTI1",
-        "url": "https://api.github.com/repos/Expensify/App/labels/Help%20Wanted",
-        "name": "Help Wanted",
-        "color": "CFC8F1",
-        "default": false,
-        "description": "Apply this label when an issue is open to proposals by contributors"
-      },
-      {
         "id": 4664850679,
         "node_id": "LA_kwDOEQqHYc8AAAABFgv49w",
         "url": "https://api.github.com/repos/Expensify/App/labels/Bug",
@@ -493,6 +484,27 @@
         "site_admin": false
       },
       {
+        "login": "sofi-a",
+        "id": 31987492,
+        "node_id": "MDQ6VXNlcjMxOTg3NDky",
+        "avatar_url": "https://avatars.githubusercontent.com/u/31987492?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/sofi-a",
+        "html_url": "https://github.com/sofi-a",
+        "followers_url": "https://api.github.com/users/sofi-a/followers",
+        "following_url": "https://api.github.com/users/sofi-a/following{/other_user}",
+        "gists_url": "https://api.github.com/users/sofi-a/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/sofi-a/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/sofi-a/subscriptions",
+        "organizations_url": "https://api.github.com/users/sofi-a/orgs",
+        "repos_url": "https://api.github.com/users/sofi-a/repos",
+        "events_url": "https://api.github.com/users/sofi-a/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/sofi-a/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      {
         "login": "lydiabarclay",
         "id": 195961549,
         "node_id": "U_kgDOC64izQ",
@@ -515,9 +527,9 @@
       }
     ],
     "milestone": null,
-    "comments": 20,
+    "comments": 22,
     "created_at": "2025-08-29T16:44:43Z",
-    "updated_at": "2025-09-01T17:11:59Z",
+    "updated_at": "2025-09-01T17:19:30Z",
     "closed_at": null,
     "author_association": "CONTRIBUTOR",
     "type": null,
