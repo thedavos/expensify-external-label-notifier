@@ -243,15 +243,6 @@
         "description": "Apply this label when an issue is open to proposals by contributors"
       },
       {
-        "id": 3184150925,
-        "node_id": "MDU6TGFiZWwzMTg0MTUwOTI1",
-        "url": "https://api.github.com/repos/Expensify/App/labels/Overdue",
-        "name": "Overdue",
-        "color": "D93F0B",
-        "default": false,
-        "description": ""
-      },
-      {
         "id": 4664850679,
         "node_id": "LA_kwDOEQqHYc8AAAABFgv49w",
         "url": "https://api.github.com/repos/Expensify/App/labels/Bug",
@@ -350,9 +341,9 @@
       }
     ],
     "milestone": null,
-    "comments": 16,
+    "comments": 18,
     "created_at": "2025-08-29T16:44:43Z",
-    "updated_at": "2025-09-01T06:30:06Z",
+    "updated_at": "2025-09-01T11:37:15Z",
     "closed_at": null,
     "author_association": "CONTRIBUTOR",
     "type": null,
@@ -368,7 +359,7 @@
       "blocking": 0,
       "total_blocking": 0
     },
-    "body": "# Problem\n\nWe've identified several places where we are not using our localization properly, leading to using formats that are not used in the selected locale.\n\nFor example this is with spanish language:\n<img width=\"314\" height=\"55\" alt=\"Image\" src=\"https://github.com/user-attachments/assets/b8897a0a-f9d9-47c4-80cd-80f1e047f941\" />\n\nIn spanish should be something like `19 ago, 2025 a las 12:02PM` or something like that.\n\n# Solution\n\nRemove any code that uses a hardcoded date format (not based on the locale) as long as the date is used to display information to users. Some examples (but please check if there are more places):\n- https://github.com/Expensify/App/blob/e091028680e8e21729421dee3ec0547880042f59/src/libs/DateUtils.ts#L252-L255\n- https://github.com/Expensify/App/blob/0db6a75d619ac9d6280cf28ec0d2138f2b0ef8b5/src/CONST/index.ts#L432-L453\n\nReplace all of then with the standardized [`dateStyle` and `timeStyle`](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Intl/DateTimeFormat/DateTimeFormat) (using one of the values \"full\", \"long\", \"medium\", and \"short\"), but let's inspect each case to make sure it makes sense to replace it and with which format exactly we want to replace it.\n\nAdditionally, change [this](https://github.com/Expensify/App/blob/e091028680e8e21729421dee3ec0547880042f59/src/libs/DateUtils.ts#L112) to use `getWeekInfo().firstDay` of the current locale and ensure the calendar component works properly, showing the correct start day according to the locale (FYI 99% sure [this](https://github.com/Expensify/App/blob/e091028680e8e21729421dee3ec0547880042f59/src/libs/DateUtils.ts#L121)  is wrong and 6 should be 7)\n\n<details><summary>Upwork Automation - Do Not Edit</summary>\n    <ul>\n        <li>Upwork Job URL: https://www.upwork.com/jobs/~021961470094099753846</li>\n        <li>Upwork Job ID: 1961470094099753846</li>\n        <li>Last Price Increase: 2025-08-29</li>\n    </ul>\n</details>",
+    "body": "# Problem\n\nWe've identified several places where we are not using our localization properly, leading to using formats that are not used in the selected locale.\n\nFor example this is with spanish language:\n<img width=\"314\" height=\"55\" alt=\"Image\" src=\"https://github.com/user-attachments/assets/b8897a0a-f9d9-47c4-80cd-80f1e047f941\" />\n\nIn spanish should be something like `19 ago, 2025 a las 12:02PM` or something like that.\n\n# Solution\n\nRemove any code that uses a hardcoded date format (not based on the locale) as long as the date is used to display information to users. Some examples (but please check if there are more places):\n- https://github.com/Expensify/App/blob/e091028680e8e21729421dee3ec0547880042f59/src/libs/DateUtils.ts#L252-L255\n- https://github.com/Expensify/App/blob/0db6a75d619ac9d6280cf28ec0d2138f2b0ef8b5/src/CONST/index.ts#L432-L453\n\nReplace all of then with the standardized [`dateStyle` and `timeStyle`](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Intl/DateTimeFormat/DateTimeFormat) (using one of the values \"full\", \"long\", \"medium\", and \"short\"), but let's inspect each case to make sure it makes sense to replace it and with which format exactly we want to replace it.\n\nAdditionally, change [this](https://github.com/Expensify/App/blob/e091028680e8e21729421dee3ec0547880042f59/src/libs/DateUtils.ts#L112) to use `getWeekInfo().firstDay` of the current locale and ensure the calendar component works properly, showing the correct start day according to the locale (FYI 99% sure [this](https://github.com/Expensify/App/blob/e091028680e8e21729421dee3ec0547880042f59/src/libs/DateUtils.ts#L121)  is wrong and 6 should be 7)\n\n<details><summary>Upwork Automation - Do Not Edit</summary>\n    <ul>\n        <li>Upwork Job URL: https://www.upwork.com/jobs/~021961470094099753846</li>\n        <li>Upwork Job ID: 1961470094099753846</li>\n        <li>Last Price Increase: 2025-08-29</li>\n    </ul>\n</details>\n\n<details><summary>Issue Owner</summary>Current Issue Owner: @</details>",
     "closed_by": null,
     "reactions": {
       "url": "https://api.github.com/repos/Expensify/App/issues/69562/reactions",
