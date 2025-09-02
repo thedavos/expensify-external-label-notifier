@@ -197,7 +197,7 @@
       "blocking": 0,
       "total_blocking": 0
     },
-    "body": "Coming from [this proposal](https://expensify.slack.com/archives/C05LX9D6E07/p1756733604890239)\n\n\nBackground: Current image optimization process relies on imgbot, which applies relatively mild compression. In addition, the home-background graphics are particularly large and account for the majority of the SignIn module’s size (~90%). Their complexity significantly increase the module’s load weight, delaying the initial experience for new users on slower networks.\n\nProblem: When image assets are oversized, they increase load times, which prevents users from quickly accessing core app features\n\nSolution:\nManually optimize SVGs: Use the latest SVGO 4.0.0 locally to compress SVG files more aggressively than the current imgbot GitHub action.\n\nRemove unused SVGs: Identify and delete SVGs that are imported but not used, as well as those not imported at all (e.g.,olddot-wireframe.svg, lounge.svg).\n\nSimplify complex illustrations: Work with the design team to explore consolidating multiple background images into a single, reusable graphic with a transparent background compatible across all platforms and device sizes. Consider recreating illustrations with fewer or less complex elements and make it reusable.\n\nThe heaviest assets after additional compression (above 100 KB) in the project include:\n- 759.22 KiB – empty-state_background-fade-dark.png\n- 756.22 KiB – empty-state_background-fade-light.png\n- 580.06 KiB – home-background--mobile-new.svg - iOS  (small screen)\n- 580.06 KiB – home-background--desktop.svg - iOS, desktop and web (large screen),\n- 420.18 KiB – home-background--android.svg - android (small screen)\n- 420.17 KiB – home-background--mobile.svg - desktop and web (small screen)\n- 260.87 KiB – fake-test-drive-employee-receipt.jpg\n- 141.10 KiB – eReceipt_background.svg\n\nExpected Outcome:\n- Additional compression provide:\n  - Web bundle total decrease of ~0.2 MB\n  - .apk zipped decrease of ~0.3 MB\n- If the home-background is reduced to a single 300 KB graphic:\n  - Reduce SignIn module size from ~1.48 MB to ~0.42 MB (~70%)\n  - Improve module load times by ~1000 ms (~10%) on a Fast 4G network\n\n\n\n<details><summary>Issue Owner</summary>Current Issue Owner: @c3024</details>",
+    "body": "Coming from [this proposal](https://expensify.slack.com/archives/C05LX9D6E07/p1756733604890239)\n\n\nBackground: Current image optimization process relies on imgbot, which applies relatively mild compression. In addition, the home-background graphics are particularly large and account for the majority of the SignIn module’s size (~90%). Their complexity significantly increase the module’s load weight, delaying the initial experience for new users on slower networks.\n\nProblem: When image assets are oversized, they increase load times, which prevents users from quickly accessing core app features\n\nSolution:\nManually optimize SVGs: Use the latest SVGO 4.0.0 locally to compress SVG files more aggressively than the current imgbot GitHub action.\n\nRemove unused SVGs: Identify and delete SVGs that are imported but not used, as well as those not imported at all (e.g.,olddot-wireframe.svg, lounge.svg).\n\nSimplify complex illustrations: Work with the design team to explore consolidating multiple background images into a single, reusable graphic with a transparent background compatible across all platforms and device sizes. Consider recreating illustrations with fewer or less complex elements and make it reusable.\n\nThe heaviest assets after additional compression (above 100 KB) in the project include:\n- 759.22 KiB – empty-state_background-fade-dark.png\n- 756.22 KiB ��� empty-state_background-fade-light.png\n- 580.06 KiB – home-background--mobile-new.svg - iOS  (small screen)\n- 580.06 KiB – home-background--desktop.svg - iOS, desktop and web (large screen),\n- 420.18 KiB – home-background--android.svg - android (small screen)\n- 420.17 KiB – home-background--mobile.svg - desktop and web (small screen)\n- 260.87 KiB – fake-test-drive-employee-receipt.jpg\n- 141.10 KiB – eReceipt_background.svg\n\nExpected Outcome:\n- Additional compression provide:\n  - Web bundle total decrease of ~0.2 MB\n  - .apk zipped decrease of ~0.3 MB\n- If the home-background is reduced to a single 300 KB graphic:\n  - Reduce SignIn module size from ~1.48 MB to ~0.42 MB (~70%)\n  - Improve module load times by ~1000 ms (~10%) on a Fast 4G network\n\n\n\n<details><summary>Issue Owner</summary>Current Issue Owner: @c3024</details>",
     "closed_by": null,
     "reactions": {
       "url": "https://api.github.com/repos/Expensify/App/issues/69628/reactions",
@@ -1223,9 +1223,9 @@
       }
     ],
     "milestone": null,
-    "comments": 8,
+    "comments": 9,
     "created_at": "2025-08-29T17:38:30Z",
-    "updated_at": "2025-09-02T10:41:33Z",
+    "updated_at": "2025-09-02T11:34:38Z",
     "closed_at": null,
     "author_association": "NONE",
     "type": null,
@@ -1787,9 +1787,9 @@
       }
     ],
     "milestone": null,
-    "comments": 8,
+    "comments": 9,
     "created_at": "2025-08-29T15:47:30Z",
-    "updated_at": "2025-09-01T03:40:17Z",
+    "updated_at": "2025-09-02T11:45:28Z",
     "closed_at": null,
     "author_association": "NONE",
     "type": null,
