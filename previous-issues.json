@@ -85,15 +85,6 @@
         "color": "93074F",
         "default": false,
         "description": "Something is broken. Auto assigns a BugZero manager."
-      },
-      {
-        "id": 6901200133,
-        "node_id": "LA_kwDOEQqHYc8AAAABm1f1BQ",
-        "url": "https://api.github.com/repos/Expensify/App/labels/DeployBlocker",
-        "name": "DeployBlocker",
-        "color": "D93F0B",
-        "default": false,
-        "description": "Indicates it should block deploying the API"
       }
     ],
     "state": "open",
@@ -182,12 +173,33 @@
         "type": "User",
         "user_view_type": "public",
         "site_admin": false
+      },
+      {
+        "login": "WojtekBoman",
+        "id": 47774969,
+        "node_id": "MDQ6VXNlcjQ3Nzc0OTY5",
+        "avatar_url": "https://avatars.githubusercontent.com/u/47774969?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/WojtekBoman",
+        "html_url": "https://github.com/WojtekBoman",
+        "followers_url": "https://api.github.com/users/WojtekBoman/followers",
+        "following_url": "https://api.github.com/users/WojtekBoman/following{/other_user}",
+        "gists_url": "https://api.github.com/users/WojtekBoman/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/WojtekBoman/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/WojtekBoman/subscriptions",
+        "organizations_url": "https://api.github.com/users/WojtekBoman/orgs",
+        "repos_url": "https://api.github.com/users/WojtekBoman/repos",
+        "events_url": "https://api.github.com/users/WojtekBoman/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/WojtekBoman/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
       }
     ],
     "milestone": null,
-    "comments": 14,
+    "comments": 15,
     "created_at": "2025-09-02T22:53:01Z",
-    "updated_at": "2025-09-03T06:15:20Z",
+    "updated_at": "2025-09-03T08:57:50Z",
     "closed_at": null,
     "author_association": "NONE",
     "type": null,
@@ -359,9 +371,9 @@
       }
     ],
     "milestone": null,
-    "comments": 3,
+    "comments": 4,
     "created_at": "2025-09-02T17:32:34Z",
-    "updated_at": "2025-09-02T20:18:40Z",
+    "updated_at": "2025-09-03T08:39:02Z",
     "closed_at": null,
     "author_association": "NONE",
     "type": null,
