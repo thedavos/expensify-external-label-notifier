@@ -137,9 +137,9 @@
       }
     ],
     "milestone": null,
-    "comments": 2,
+    "comments": 4,
     "created_at": "2025-09-05T14:34:16Z",
-    "updated_at": "2025-09-05T15:41:13Z",
+    "updated_at": "2025-09-05T16:32:27Z",
     "closed_at": null,
     "author_association": "CONTRIBUTOR",
     "type": null,
@@ -155,7 +155,7 @@
       "blocking": 0,
       "total_blocking": 0
     },
-    "body": "## Problem\nWhen using the iOS app in iPad with a connected keyboard (either bluetooth or the magic keyboard for iPad) there is no way to send a chat message using keyboard only, forcing the user to tap the send button.\n\n## Solution\nWe should follow the desktop implementation: Shift+Return for new line, Return (+any other modification key) for send.\n\n<details><summary>Issue Owner</summary>Current Issue Owner: @rushatgabhane</details>",
+    "body": "## Problem\nWhen using the iOS app in iPad with a connected keyboard (either bluetooth or the magic keyboard for iPad) there is no way to send a chat message using keyboard only, forcing the user to tap the send button.\n\n## Solution\nWe should follow the desktop implementation: Shift+Return for new line, Return (+any other modification key) for send.\n\n<details><summary>Issue Owner</summary>Current Issue Owner: @</details>",
     "closed_by": null,
     "reactions": {
       "url": "https://api.github.com/repos/Expensify/App/issues/69955/reactions",
