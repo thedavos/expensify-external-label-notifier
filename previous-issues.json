@@ -137,9 +137,9 @@
       }
     ],
     "milestone": null,
-    "comments": 4,
+    "comments": 5,
     "created_at": "2025-09-05T14:34:16Z",
-    "updated_at": "2025-09-05T16:32:27Z",
+    "updated_at": "2025-09-05T18:13:09Z",
     "closed_at": null,
     "author_association": "CONTRIBUTOR",
     "type": null,
@@ -616,7 +616,7 @@
     "id": 3383662890,
     "node_id": "I_kwDOEQqHYc7Jrpkq",
     "number": 69861,
-    "title": "Moved expense shows the \"hold\" message",
+    "title": "[$250] Moved expense shows the \"hold\" message",
     "user": {
       "login": "m-natarajan",
       "id": 38435837,
@@ -765,9 +765,9 @@
       }
     ],
     "milestone": null,
-    "comments": 6,
+    "comments": 9,
     "created_at": "2025-09-04T12:56:28Z",
-    "updated_at": "2025-09-05T11:17:47Z",
+    "updated_at": "2025-09-05T18:19:44Z",
     "closed_at": null,
     "author_association": "NONE",
     "type": null,
@@ -783,7 +783,7 @@
       "blocking": 0,
       "total_blocking": 0
     },
-    "body": "If you haven’t already, check out our [contributing guidelines](https://github.com/Expensify/ReactNativeChat/blob/main/contributingGuides/CONTRIBUTING.md) for onboarding and email contributors@expensify.com to request to join our Slack channel!\n___\n\n**Version Number:** 9.2.1-12\n**Reproducible in staging?:** Y\n**Reproducible in production?:** Y\n**If this was caught during regression testing, add the test name, ID and link from TestRail:**\n**Email or phone of affected tester (no customers):**\n**Logs:** https://stackoverflow.com/c/expensify/questions/4856\n**Expensify/Expensify Issue URL:**\n**Issue reported by:** @VickyStash\n**Slack conversation** (hyperlinked to channel name): [#Open source](https://expensify.slack.com/archives/C01GTK53T8Q/p1756980523424439)\n\n## Action Performed:\n1. Login with the new account.\n2. Create a workspace.\n3. In the workspace chat create 2 expenses and 1 additional report\n4. Open any 1-1 chat and create 2 expenses as well\n5. Go to Reports tab -> Reports\n6. Using checkboxes select the expense from 1-1 chat and put in on hold.\n7. Using checkboxes select the expense from workspace chat and Move it to the empty report from step 3.\n8. Go back to the chats tab to the workspace chat. See that the expense was moved successfully.\n## Expected Result:\nMoved expense shouldn't have \"This expense was put on hold.\" message\n## Actual Result:\nMoved expense has \"This expense was put on hold.\" message. It disappears if I open the expense and go back\n## Workaround:\nUnknown\n## Platforms:\nSelect the officially supported platforms where the issue was reproduced:\n- [ ] Android: App\n- [ ] Android: mWeb Chrome\n- [ ] iOS: App\n- [ ] iOS: mWeb Safari\n- [ ] iOS: mWeb Chrome\n- [x] Windows: Chrome\n- [x] MacOS: Chrome / Safari\n- [x] MacOS: Desktop\n\n<details>\n  <summary>Platforms Tested:</summary>\nOn which of our officially supported platforms was this issue tested:\n\n- [ ] Android: App\n- [ ] Android: mWeb Chrome\n- [ ] iOS: App\n- [ ] iOS: mWeb Safari\n- [ ] iOS: mWeb Chrome\n- [x] Windows: Chrome\n- [ ] MacOS: Chrome / Safari\n- [ ] MacOS: Desktop\n\n</details>\n\n## Screenshots/Videos\n\n<details>\n  <summary>Add any screenshot/video evidence</summary>\n\n\n</details>\n\nhttps://github.com/user-attachments/assets/f5ccbf91-0541-492b-bb5a-2e4694407d8e\n\n<img width=\"1531\" height=\"704\" alt=\"Image\" src=\"https://github.com/user-attachments/assets/b73de12a-c013-4fb5-869f-b0cd2ce52b6d\" />\n\n[View all open jobs on GitHub](https://github.com/Expensify/App/issues?q=is%3Aopen+is%3Aissue+label%3A%22Help+Wanted%22)\n\n\n<details><summary>Issue Owner</summary>Current Issue Owner: @akinwale</details>",
+    "body": "If you haven’t already, check out our [contributing guidelines](https://github.com/Expensify/ReactNativeChat/blob/main/contributingGuides/CONTRIBUTING.md) for onboarding and email contributors@expensify.com to request to join our Slack channel!\n___\n\n**Version Number:** 9.2.1-12\n**Reproducible in staging?:** Y\n**Reproducible in production?:** Y\n**If this was caught during regression testing, add the test name, ID and link from TestRail:**\n**Email or phone of affected tester (no customers):**\n**Logs:** https://stackoverflow.com/c/expensify/questions/4856\n**Expensify/Expensify Issue URL:**\n**Issue reported by:** @VickyStash\n**Slack conversation** (hyperlinked to channel name): [#Open source](https://expensify.slack.com/archives/C01GTK53T8Q/p1756980523424439)\n\n## Action Performed:\n1. Login with the new account.\n2. Create a workspace.\n3. In the workspace chat create 2 expenses and 1 additional report\n4. Open any 1-1 chat and create 2 expenses as well\n5. Go to Reports tab -> Reports\n6. Using checkboxes select the expense from 1-1 chat and put in on hold.\n7. Using checkboxes select the expense from workspace chat and Move it to the empty report from step 3.\n8. Go back to the chats tab to the workspace chat. See that the expense was moved successfully.\n## Expected Result:\nMoved expense shouldn't have \"This expense was put on hold.\" message\n## Actual Result:\nMoved expense has \"This expense was put on hold.\" message. It disappears if I open the expense and go back\n## Workaround:\nUnknown\n## Platforms:\nSelect the officially supported platforms where the issue was reproduced:\n- [ ] Android: App\n- [ ] Android: mWeb Chrome\n- [ ] iOS: App\n- [ ] iOS: mWeb Safari\n- [ ] iOS: mWeb Chrome\n- [x] Windows: Chrome\n- [x] MacOS: Chrome / Safari\n- [x] MacOS: Desktop\n\n<details>\n  <summary>Platforms Tested:</summary>\nOn which of our officially supported platforms was this issue tested:\n\n- [ ] Android: App\n- [ ] Android: mWeb Chrome\n- [ ] iOS: App\n- [ ] iOS: mWeb Safari\n- [ ] iOS: mWeb Chrome\n- [x] Windows: Chrome\n- [ ] MacOS: Chrome / Safari\n- [ ] MacOS: Desktop\n\n</details>\n\n## Screenshots/Videos\n\n<details>\n  <summary>Add any screenshot/video evidence</summary>\n\n\n</details>\n\nhttps://github.com/user-attachments/assets/f5ccbf91-0541-492b-bb5a-2e4694407d8e\n\n<img width=\"1531\" height=\"704\" alt=\"Image\" src=\"https://github.com/user-attachments/assets/b73de12a-c013-4fb5-869f-b0cd2ce52b6d\" />\n\n[View all open jobs on GitHub](https://github.com/Expensify/App/issues?q=is%3Aopen+is%3Aissue+label%3A%22Help+Wanted%22)\n\n\n<details><summary>Issue Owner</summary>Current Issue Owner: @</details>\n\n<details><summary>Issue Owner</summary>Current Issue Owner: @akinwale</details>",
     "closed_by": null,
     "reactions": {
       "url": "https://api.github.com/repos/Expensify/App/issues/69861/reactions",
