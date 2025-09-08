@@ -527,9 +527,9 @@
       }
     ],
     "milestone": null,
-    "comments": 12,
+    "comments": 13,
     "created_at": "2025-09-08T16:37:31Z",
-    "updated_at": "2025-09-08T17:09:31Z",
+    "updated_at": "2025-09-08T23:00:17Z",
     "closed_at": null,
     "author_association": "CONTRIBUTOR",
     "type": null,
@@ -922,7 +922,7 @@
     "milestone": null,
     "comments": 4,
     "created_at": "2025-09-08T14:15:25Z",
-    "updated_at": "2025-09-08T14:54:07Z",
+    "updated_at": "2025-09-08T22:26:56Z",
     "closed_at": null,
     "author_association": "CONTRIBUTOR",
     "type": null,
@@ -938,7 +938,7 @@
       "blocking": 0,
       "total_blocking": 0
     },
-    "body": "cc: @mountiny \n## Background\nIn our project we have two ways of passing styles to components:\n1. Using global styles defined in styles.ts\n2. Inline styling (eg. `style={{width: 100}}`)\n\nThe following approach is fine according to the [React Native documentation](https://reactnative.dev/docs/style). \nHowever, the implementation of `StyleSheet.create` on React Native and `react-native-web` differs. On React Native it basically does nothing and [returns the same JS object](https://github.com/facebook/react-native/blob/main/packages/react-native/Libraries/StyleSheet/StyleSheetExports.js#L191-L202) it receives as argument. That’s why the docs say it’s fine to use plain JS objects. But on react-native-web it triggers [CSS class compilation logic](https://github.com/necolas/react-native-web/blob/master/packages/react-native-web/src/exports/StyleSheet/index.js#L79-L97). Because of that some CSS props may not work as expected. One of the problematic props is `pointerEvents`, which is handled a bit differently while not passed via `StyleSheet.create`.\n\nAnother thing is that passing plain JS objects or inline styling on web is not very performant, thus we should use `StyleSheet.create` instead. This makes sure that `react-native-web` creates CSS classes that are attached to components.\n\n## Performance impact\nThe following measurements have been made on an example app, in order to focus only on the `style` performance.\n\n### Using StyleSheet.create reduces the render time by ~10% on web\nWhat’s important to indicate, in the example app I didn’t have any complex logic, without any major computation, which means it’s almost pure component render.\n\n\nPotential further improvements not to be prioritized now\n\n#### Removing array passed to style can save ~3% of the render time\nAlso pretty interesting metric, but not so spectacular, even though on Android the difference could reach to 7%. However, because it would require some major refactor I think we could leave it for now. Especially because we don’t use an array in every place where style prop gets passed. This means that its impact can be smaller, and I would like to do some bigger measurements in App before committing.\n\n\n<details><summary>Upwork Automation - Do Not Edit</summary>\n    <ul>\n        <li>Upwork Job URL: https://www.upwork.com/jobs/~021965063735657791708</li>\n        <li>Upwork Job ID: 1965063735657791708</li>\n        <li>Last Price Increase: 2025-09-08</li>\n    </ul>\n</details>",
+    "body": "cc: @mountiny \n## Background\nIn our project we have two ways of passing styles to components:\n1. Using global styles defined in styles.ts\n2. Inline styling (eg. `style={{width: 100}}`)\n\nThe following approach is fine according to the [React Native documentation](https://reactnative.dev/docs/style). \nHowever, the implementation of `StyleSheet.create` on React Native and `react-native-web` differs. On React Native it basically does nothing and [returns the same JS object](https://github.com/facebook/react-native/blob/main/packages/react-native/Libraries/StyleSheet/StyleSheetExports.js#L191-L202) it receives as argument. That’s why the docs say it’s fine to use plain JS objects. But on react-native-web it triggers [CSS class compilation logic](https://github.com/necolas/react-native-web/blob/master/packages/react-native-web/src/exports/StyleSheet/index.js#L79-L97). Because of that some CSS props may not work as expected. One of the problematic props is `pointerEvents`, which is handled a bit differently while not passed via `StyleSheet.create`.\n\nAnother thing is that passing plain JS objects or inline styling on web is not very performant, thus we should use `StyleSheet.create` instead. This makes sure that `react-native-web` creates CSS classes that are attached to components.\n\n## Performance impact\nThe following measurements have been made on an example app, in order to focus only on the `style` performance.\n\n### Using StyleSheet.create reduces the render time by ~10% on web\nWhat’s important to indicate, in the example app I didn’t have any complex logic, without any major computation, which means it’s almost pure component render.\n\n\nPotential further improvements not to be prioritized now\n\n#### Removing array passed to style can save ~3% of the render time\nAlso pretty interesting metric, but not so spectacular, even though on Android the difference could reach to 7%. However, because it would require some major refactor I think we could leave it for now. Especially because we don’t use an array in every place where style prop gets passed. This means that its impact can be smaller, and I would like to do some bigger measurements in App before committing.\n\n\n<details><summary>Upwork Automation - Do Not Edit</summary>\n    <ul>\n        <li>Upwork Job URL: https://www.upwork.com/jobs/~021965063735657791708</li>\n        <li>Upwork Job ID: 1965063735657791708</li>\n        <li>Last Price Increase: 2025-09-08</li>\n    </ul>\n</details>\n\n<details><summary>Issue Owner</summary>Current Issue Owner: @staszekscp</details>",
     "closed_by": null,
     "reactions": {
       "url": "https://api.github.com/repos/Expensify/App/issues/70099/reactions",
