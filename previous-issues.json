@@ -146,9 +146,9 @@
       }
     ],
     "milestone": null,
-    "comments": 10,
+    "comments": 11,
     "created_at": "2025-09-12T00:49:29Z",
-    "updated_at": "2025-09-12T12:11:16Z",
+    "updated_at": "2025-09-12T14:03:53Z",
     "closed_at": null,
     "author_association": "NONE",
     "type": null,
@@ -2122,6 +2122,27 @@
         "site_admin": false
       },
       {
+        "login": "techievivek",
+        "id": 35863227,
+        "node_id": "MDQ6VXNlcjM1ODYzMjI3",
+        "avatar_url": "https://avatars.githubusercontent.com/u/35863227?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/techievivek",
+        "html_url": "https://github.com/techievivek",
+        "followers_url": "https://api.github.com/users/techievivek/followers",
+        "following_url": "https://api.github.com/users/techievivek/following{/other_user}",
+        "gists_url": "https://api.github.com/users/techievivek/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/techievivek/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/techievivek/subscriptions",
+        "organizations_url": "https://api.github.com/users/techievivek/orgs",
+        "repos_url": "https://api.github.com/users/techievivek/repos",
+        "events_url": "https://api.github.com/users/techievivek/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/techievivek/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      {
         "login": "shubham1206agra",
         "id": 58412969,
         "node_id": "MDQ6VXNlcjU4NDEyOTY5",
@@ -2144,9 +2165,9 @@
       }
     ],
     "milestone": null,
-    "comments": 5,
+    "comments": 7,
     "created_at": "2025-09-11T08:45:42Z",
-    "updated_at": "2025-09-11T16:15:40Z",
+    "updated_at": "2025-09-12T14:15:11Z",
     "closed_at": null,
     "author_association": "NONE",
     "type": null,
@@ -2162,7 +2183,7 @@
       "blocking": 0,
       "total_blocking": 0
     },
-    "body": "If you haven’t already, check out our [contributing guidelines](https://github.com/Expensify/ReactNativeChat/blob/main/contributingGuides/CONTRIBUTING.md) for onboarding and email contributors@expensify.com to request to join our Slack channel!\n___\n\n**Version Number:** V9.2.9-0\n**Reproducible in staging?:** Yes\n**Reproducible in production?:** Yes\n**If this was caught during regression testing, add the test name, ID and link from TestRail:** https://test-management.browserstack.com/projects/2219752/test-runs/TR-746/folder/13176730/41237114/889703000\n**Email or phone of affected tester (no customers):** Slottwo1 bxvb@gmail.com\n**Issue reported by:** Applause Internal Team\n**Device used:** Redminote 10s android 13 phone\n**App Component:** Money Requests\n\n## Action Performed:\nPre-condition: Delete  expense report and move expense to self DM \n1. Launch app \n2. Create a report \n3. Add a Unreported expense \n4. Open the expense details \n5. Tap plus icon and add one more expense\n\n## Expected Result:\nExpense report page shows company spend & out of pocket expense briefly & must not  disappear.\n\n## Actual Result:\nExpense report page shows company spend & out of pocket expense briefly & disappears.\n\n## Workaround:\nUnknown\n\n## Platforms:\n- [x] Android: App\n- [ ] Android: mWeb Chrome\n- [ ] iOS: App\n- [ ] iOS: mWeb Safari\n- [ ] iOS: mWeb Chrome\n- [ ] Windows: Chrome\n- [ ] MacOS: Chrome / Safari\n- [ ] MacOS: Desktop\n\n## Screenshots/Videos\n\nhttps://github.com/user-attachments/assets/4f69d0ef-2c2c-4f8b-b0b3-4d77a7fc1b7f\n\n[View all open jobs on GitHub](https://github.com/Expensify/App/issues?q=is%3Aopen+is%3Aissue+label%3A%22Help+Wanted%22)\n<details><summary>Upwork Automation - Do Not Edit</summary>\n    <ul>\n        <li>Upwork Job URL: https://www.upwork.com/jobs/~021966173765118976960</li>\n        <li>Upwork Job ID: 1966173765118976960</li>\n        <li>Last Price Increase: 2025-09-11</li>\n    </ul>\n</details>\n\n<details><summary>Issue Owner</summary>Current Issue Owner: @shubham1206agra</details>",
+    "body": "If you haven’t already, check out our [contributing guidelines](https://github.com/Expensify/ReactNativeChat/blob/main/contributingGuides/CONTRIBUTING.md) for onboarding and email contributors@expensify.com to request to join our Slack channel!\n___\n\n**Version Number:** V9.2.9-0\n**Reproducible in staging?:** Yes\n**Reproducible in production?:** Yes\n**If this was caught during regression testing, add the test name, ID and link from TestRail:** https://test-management.browserstack.com/projects/2219752/test-runs/TR-746/folder/13176730/41237114/889703000\n**Email or phone of affected tester (no customers):** Slottwo1 bxvb@gmail.com\n**Issue reported by:** Applause Internal Team\n**Device used:** Redminote 10s android 13 phone\n**App Component:** Money Requests\n\n## Action Performed:\nPre-condition: Delete  expense report and move expense to self DM \n1. Launch app \n2. Create a report \n3. Add a Unreported expense \n4. Open the expense details \n5. Tap plus icon and add one more expense\n\n## Expected Result:\nExpense report page shows company spend & out of pocket expense briefly & must not  disappear.\n\n## Actual Result:\nExpense report page shows company spend & out of pocket expense briefly & disappears.\n\n## Workaround:\nUnknown\n\n## Platforms:\n- [x] Android: App\n- [ ] Android: mWeb Chrome\n- [ ] iOS: App\n- [ ] iOS: mWeb Safari\n- [ ] iOS: mWeb Chrome\n- [ ] Windows: Chrome\n- [ ] MacOS: Chrome / Safari\n- [ ] MacOS: Desktop\n\n## Screenshots/Videos\n\nhttps://github.com/user-attachments/assets/4f69d0ef-2c2c-4f8b-b0b3-4d77a7fc1b7f\n\n[View all open jobs on GitHub](https://github.com/Expensify/App/issues?q=is%3Aopen+is%3Aissue+label%3A%22Help+Wanted%22)\n<details><summary>Upwork Automation - Do Not Edit</summary>\n    <ul>\n        <li>Upwork Job URL: https://www.upwork.com/jobs/~021966173765118976960</li>\n        <li>Upwork Job ID: 1966173765118976960</li>\n        <li>Last Price Increase: 2025-09-11</li>\n    </ul>\n</details>\n\n<details><summary>Issue Owner</summary>Current Issue Owner: @techievivek</details>",
     "closed_by": null,
     "reactions": {
       "url": "https://api.github.com/repos/Expensify/App/issues/70365/reactions",
