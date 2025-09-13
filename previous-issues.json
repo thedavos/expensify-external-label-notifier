@@ -1363,6 +1363,27 @@
     },
     "assignees": [
       {
+        "login": "rafecolton",
+        "id": 1058475,
+        "node_id": "MDQ6VXNlcjEwNTg0NzU=",
+        "avatar_url": "https://avatars.githubusercontent.com/u/1058475?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/rafecolton",
+        "html_url": "https://github.com/rafecolton",
+        "followers_url": "https://api.github.com/users/rafecolton/followers",
+        "following_url": "https://api.github.com/users/rafecolton/following{/other_user}",
+        "gists_url": "https://api.github.com/users/rafecolton/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/rafecolton/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/rafecolton/subscriptions",
+        "organizations_url": "https://api.github.com/users/rafecolton/orgs",
+        "repos_url": "https://api.github.com/users/rafecolton/repos",
+        "events_url": "https://api.github.com/users/rafecolton/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/rafecolton/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      {
         "login": "VictoriaExpensify",
         "id": 54568958,
         "node_id": "MDQ6VXNlcjU0NTY4OTU4",
@@ -1406,9 +1427,9 @@
       }
     ],
     "milestone": null,
-    "comments": 10,
+    "comments": 12,
     "created_at": "2025-09-11T13:30:41Z",
-    "updated_at": "2025-09-13T01:55:09Z",
+    "updated_at": "2025-09-13T10:59:52Z",
     "closed_at": null,
     "author_association": "NONE",
     "type": null,
@@ -1424,7 +1445,7 @@
       "blocking": 0,
       "total_blocking": 0
     },
-    "body": "If you haven’t already, check out our [contributing guidelines](https://github.com/Expensify/ReactNativeChat/blob/main/contributingGuides/CONTRIBUTING.md) for onboarding and email contributors@expensify.com to request to join our Slack channel!\n___\n\n**Version Number:** v9.2.9-0\n**Reproducible in staging?:** Yes\n**Reproducible in production?:** Unable to validate in Prod\n**If this was caught during regression testing, add the test name, ID and link from TestRail:** https://test-management.browserstack.com/projects/2219752/test-runs/TR-749/folder/13176687/41236662/889705373?sort=%2Bidentifier\n**Email or phone of affected tester (no customers):** n/a\n**Issue reported by:** Applause Internal Team\n**Device used:** Mac 15.4.1/Safari, iPhone 13 iOS 18.6 Safari\n**App Component:** User Settings\n\n## Action Performed:\n1. Navigate to https://staging.new.expensify.com\n2. Login to any account that doesn't have a bank account added to it\n3. Navigate to Settings -> Wallet -> Enable wallet ->Add bank account\n4.Add a bank account to the user (Follow the Alberta Bobbeth instructions)\n5. Proceed to the  Date of birth page \n6. Click on the year\n7. Select any valid year from the list\n\n\n## Expected Result:\nThe year is displayed in the date picker\n\n## Actual Result:\nThe date picker is reloaded after selecting the year while enabling wallet\n\n## Workaround:\nUnknown\n\n## Platforms:\n- [ ] Android: App\n- [ ] Android: mWeb Chrome\n- [ ] iOS: App\n- [x] iOS: mWeb Safari\n- [ ] iOS: mWeb Chrome\n- [ ] Windows: Chrome\n- [x] MacOS: Safari\n- [ ] MacOS: Chrome\n- [ ] MacOS: Desktop\n\n## Screenshots/Videos\n\nhttps://github.com/user-attachments/assets/79cd8db2-8b49-48f0-b9bf-f846f7e5f6aa\n\n[View all open jobs on GitHub](https://github.com/Expensify/App/issues?q=is%3Aopen+is%3Aissue+label%3A%22Help+Wanted%22)\n<details><summary>Upwork Automation - Do Not Edit</summary>\n    <ul>\n        <li>Upwork Job URL: https://www.upwork.com/jobs/~021966333276838325163</li>\n        <li>Upwork Job ID: 1966333276838325163</li>\n        <li>Last Price Increase: 2025-09-12</li>\n    </ul>\n</details>\n\n<details><summary>Issue Owner</summary>Current Issue Owner: @linhvovan29546</details>",
+    "body": "If you haven’t already, check out our [contributing guidelines](https://github.com/Expensify/ReactNativeChat/blob/main/contributingGuides/CONTRIBUTING.md) for onboarding and email contributors@expensify.com to request to join our Slack channel!\n___\n\n**Version Number:** v9.2.9-0\n**Reproducible in staging?:** Yes\n**Reproducible in production?:** Unable to validate in Prod\n**If this was caught during regression testing, add the test name, ID and link from TestRail:** https://test-management.browserstack.com/projects/2219752/test-runs/TR-749/folder/13176687/41236662/889705373?sort=%2Bidentifier\n**Email or phone of affected tester (no customers):** n/a\n**Issue reported by:** Applause Internal Team\n**Device used:** Mac 15.4.1/Safari, iPhone 13 iOS 18.6 Safari\n**App Component:** User Settings\n\n## Action Performed:\n1. Navigate to https://staging.new.expensify.com\n2. Login to any account that doesn't have a bank account added to it\n3. Navigate to Settings -> Wallet -> Enable wallet ->Add bank account\n4.Add a bank account to the user (Follow the Alberta Bobbeth instructions)\n5. Proceed to the  Date of birth page \n6. Click on the year\n7. Select any valid year from the list\n\n\n## Expected Result:\nThe year is displayed in the date picker\n\n## Actual Result:\nThe date picker is reloaded after selecting the year while enabling wallet\n\n## Workaround:\nUnknown\n\n## Platforms:\n- [ ] Android: App\n- [ ] Android: mWeb Chrome\n- [ ] iOS: App\n- [x] iOS: mWeb Safari\n- [ ] iOS: mWeb Chrome\n- [ ] Windows: Chrome\n- [x] MacOS: Safari\n- [ ] MacOS: Chrome\n- [ ] MacOS: Desktop\n\n## Screenshots/Videos\n\nhttps://github.com/user-attachments/assets/79cd8db2-8b49-48f0-b9bf-f846f7e5f6aa\n\n[View all open jobs on GitHub](https://github.com/Expensify/App/issues?q=is%3Aopen+is%3Aissue+label%3A%22Help+Wanted%22)\n<details><summary>Upwork Automation - Do Not Edit</summary>\n    <ul>\n        <li>Upwork Job URL: https://www.upwork.com/jobs/~021966333276838325163</li>\n        <li>Upwork Job ID: 1966333276838325163</li>\n        <li>Last Price Increase: 2025-09-12</li>\n    </ul>\n</details>\n\n<details><summary>Issue Owner</summary>Current Issue Owner: @rafecolton</details>",
     "closed_by": null,
     "reactions": {
       "url": "https://api.github.com/repos/Expensify/App/issues/70395/reactions",
