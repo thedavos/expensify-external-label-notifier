@@ -134,12 +134,33 @@
         "type": "User",
         "user_view_type": "public",
         "site_admin": false
+      },
+      {
+        "login": "jasperhuangg",
+        "id": 31285285,
+        "node_id": "MDQ6VXNlcjMxMjg1Mjg1",
+        "avatar_url": "https://avatars.githubusercontent.com/u/31285285?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/jasperhuangg",
+        "html_url": "https://github.com/jasperhuangg",
+        "followers_url": "https://api.github.com/users/jasperhuangg/followers",
+        "following_url": "https://api.github.com/users/jasperhuangg/following{/other_user}",
+        "gists_url": "https://api.github.com/users/jasperhuangg/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/jasperhuangg/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/jasperhuangg/subscriptions",
+        "organizations_url": "https://api.github.com/users/jasperhuangg/orgs",
+        "repos_url": "https://api.github.com/users/jasperhuangg/repos",
+        "events_url": "https://api.github.com/users/jasperhuangg/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/jasperhuangg/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
       }
     ],
     "milestone": null,
-    "comments": 5,
+    "comments": 7,
     "created_at": "2025-09-13T15:57:31Z",
-    "updated_at": "2025-09-15T04:23:09Z",
+    "updated_at": "2025-09-15T08:10:42Z",
     "closed_at": null,
     "author_association": "NONE",
     "type": null,
@@ -155,7 +176,7 @@
       "blocking": 0,
       "total_blocking": 0
     },
-    "body": "If you haven’t already, check out our [contributing guidelines](https://github.com/Expensify/ReactNativeChat/blob/main/contributingGuides/CONTRIBUTING.md) for onboarding and email contributors@expensify.com to request to join our Slack channel!\n___\n\n**Version Number:** 9.2.13-1\n**Reproducible in staging?:** Y\n**Reproducible in production?:** Y\n**If this was caught during regression testing, add the test name, ID and link from TestRail:** N/A\n**Issue reported by:** Applause - Internal Team\n\n\n## Action Performed:\n1. Open a new incognito window and navigate to https://staging.chat.expensify.com/,\nsign in\n2. Create a chat with another account\n3. Tap + button - Add attachment - Choose file or Photo library\n4. Select 3 attachments (images, pdf files), send\n6. Open the preview of the last sent attachment, navigate back to the chat\n7. Tap + button again - Add attachment\n8. Select another attachment to send\n9. Observe the  attachment page\n\n## Expected Result:\nThe  attachment is displayed\n\n## Actual Result:\nInfinite loading spinner is displayed\n\n## Workaround:\nUnknown\n\n## Platforms:\nSelect the officially supported platforms where the issue was reproduced:\n- [ ] Android: App\n- [x] Android: mWeb Chrome\n- [ ] iOS: App\n- [x] iOS: mWeb Safari\n- [ ] iOS: mWeb Chrome\n- [ ] Windows: Chrome\n- [ ] MacOS: Chrome / Safari\n- [ ] MacOS: Desktop\n\n<details>\n  <summary>Platforms Tested:</summary>\nOn which of our officially supported platforms was this issue tested:\n\n- [ ] Android: App\n- [ ] Android: mWeb Chrome\n- [ ] iOS: App\n- [ ] iOS: mWeb Safari\n- [ ] iOS: mWeb Chrome\n- [ ] Windows: Chrome\n- [ ] MacOS: Chrome / Safari\n- [ ] MacOS: Desktop\n\n</details>\n\n## Screenshots/Videos\n\n<details>\n  <summary>Add any screenshot/video evidence</summary>\n\n\n</details> \n\nhttps://github.com/user-attachments/assets/7581413a-fedb-4230-8593-1e2f6fd9a3e3\n\n[View all open jobs on GitHub](https://github.com/Expensify/App/issues?q=is%3Aopen+is%3Aissue+label%3A%22Help+Wanted%22)\n\n<details><summary>Upwork Automation - Do Not Edit</summary>\n    <ul>\n        <li>Upwork Job URL: https://www.upwork.com/jobs/~021967443883365554925</li>\n        <li>Upwork Job ID: 1967443883365554925</li>\n        <li>Last Price Increase: 2025-09-15</li>\n    </ul>\n</details>\n\n<details><summary>Issue Owner</summary>Current Issue Owner: @rushatgabhane</details>",
+    "body": "If you haven’t already, check out our [contributing guidelines](https://github.com/Expensify/ReactNativeChat/blob/main/contributingGuides/CONTRIBUTING.md) for onboarding and email contributors@expensify.com to request to join our Slack channel!\n___\n\n**Version Number:** 9.2.13-1\n**Reproducible in staging?:** Y\n**Reproducible in production?:** Y\n**If this was caught during regression testing, add the test name, ID and link from TestRail:** N/A\n**Issue reported by:** Applause - Internal Team\n\n\n## Action Performed:\n1. Open a new incognito window and navigate to https://staging.chat.expensify.com/,\nsign in\n2. Create a chat with another account\n3. Tap + button - Add attachment - Choose file or Photo library\n4. Select 3 attachments (images, pdf files), send\n6. Open the preview of the last sent attachment, navigate back to the chat\n7. Tap + button again - Add attachment\n8. Select another attachment to send\n9. Observe the  attachment page\n\n## Expected Result:\nThe  attachment is displayed\n\n## Actual Result:\nInfinite loading spinner is displayed\n\n## Workaround:\nUnknown\n\n## Platforms:\nSelect the officially supported platforms where the issue was reproduced:\n- [ ] Android: App\n- [x] Android: mWeb Chrome\n- [ ] iOS: App\n- [x] iOS: mWeb Safari\n- [ ] iOS: mWeb Chrome\n- [ ] Windows: Chrome\n- [ ] MacOS: Chrome / Safari\n- [ ] MacOS: Desktop\n\n<details>\n  <summary>Platforms Tested:</summary>\nOn which of our officially supported platforms was this issue tested:\n\n- [ ] Android: App\n- [ ] Android: mWeb Chrome\n- [ ] iOS: App\n- [ ] iOS: mWeb Safari\n- [ ] iOS: mWeb Chrome\n- [ ] Windows: Chrome\n- [ ] MacOS: Chrome / Safari\n- [ ] MacOS: Desktop\n\n</details>\n\n## Screenshots/Videos\n\n<details>\n  <summary>Add any screenshot/video evidence</summary>\n\n\n</details> \n\nhttps://github.com/user-attachments/assets/7581413a-fedb-4230-8593-1e2f6fd9a3e3\n\n[View all open jobs on GitHub](https://github.com/Expensify/App/issues?q=is%3Aopen+is%3Aissue+label%3A%22Help+Wanted%22)\n\n<details><summary>Upwork Automation - Do Not Edit</summary>\n    <ul>\n        <li>Upwork Job URL: https://www.upwork.com/jobs/~021967443883365554925</li>\n        <li>Upwork Job ID: 1967443883365554925</li>\n        <li>Last Price Increase: 2025-09-15</li>\n    </ul>\n</details>\n\n<details><summary>Issue Owner</summary>Current Issue Owner: @jasperhuangg</details>",
     "closed_by": null,
     "reactions": {
       "url": "https://api.github.com/repos/Expensify/App/issues/70521/reactions",
@@ -1575,6 +1596,15 @@
         "description": "Apply this label when an issue is open to proposals by contributors"
       },
       {
+        "id": 3184150925,
+        "node_id": "MDU6TGFiZWwzMTg0MTUwOTI1",
+        "url": "https://api.github.com/repos/Expensify/App/labels/Overdue",
+        "name": "Overdue",
+        "color": "D93F0B",
+        "default": false,
+        "description": ""
+      },
+      {
         "id": 4664850679,
         "node_id": "LA_kwDOEQqHYc8AAAABFgv49w",
         "url": "https://api.github.com/repos/Expensify/App/labels/Bug",
@@ -1654,7 +1684,7 @@
     "milestone": null,
     "comments": 14,
     "created_at": "2025-09-12T00:49:29Z",
-    "updated_at": "2025-09-13T12:38:07Z",
+    "updated_at": "2025-09-15T08:12:32Z",
     "closed_at": null,
     "author_association": "NONE",
     "type": null,
