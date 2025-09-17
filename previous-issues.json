@@ -360,24 +360,6 @@
     },
     "labels": [
       {
-        "id": 2283143991,
-        "node_id": "MDU6TGFiZWwyMjgzMTQzOTkx",
-        "url": "https://api.github.com/repos/Expensify/App/labels/Reviewing",
-        "name": "Reviewing",
-        "color": "dddddd",
-        "default": false,
-        "description": "Has a PR in review"
-      },
-      {
-        "id": 2810597462,
-        "node_id": "MDU6TGFiZWwyODEwNTk3NDYy",
-        "url": "https://api.github.com/repos/Expensify/App/labels/DeployBlockerCash",
-        "name": "DeployBlockerCash",
-        "color": "000000",
-        "default": false,
-        "description": "This issue or pull request should block deployment"
-      },
-      {
         "id": 2873246102,
         "node_id": "MDU6TGFiZWwyODczMjQ2MTAy",
         "url": "https://api.github.com/repos/Expensify/App/labels/External",
@@ -396,11 +378,11 @@
         "description": ""
       },
       {
-        "id": 3008326907,
-        "node_id": "MDU6TGFiZWwzMDA4MzI2OTA3",
-        "url": "https://api.github.com/repos/Expensify/App/labels/Hourly",
-        "name": "Hourly",
-        "color": "EC0E2D",
+        "id": 2893455829,
+        "node_id": "MDU6TGFiZWwyODkzNDU1ODI5",
+        "url": "https://api.github.com/repos/Expensify/App/labels/Daily",
+        "name": "Daily",
+        "color": "eb6420",
         "default": false,
         "description": "KSv2"
       },
@@ -545,9 +527,9 @@
       }
     ],
     "milestone": null,
-    "comments": 17,
+    "comments": 19,
     "created_at": "2025-09-16T19:21:56Z",
-    "updated_at": "2025-09-17T15:42:13Z",
+    "updated_at": "2025-09-17T18:21:34Z",
     "closed_at": null,
     "author_association": "NONE",
     "type": null,
@@ -1112,9 +1094,9 @@
       }
     ],
     "milestone": null,
-    "comments": 3,
+    "comments": 4,
     "created_at": "2025-09-16T13:36:54Z",
-    "updated_at": "2025-09-16T14:31:20Z",
+    "updated_at": "2025-09-17T18:07:46Z",
     "closed_at": null,
     "author_association": "CONTRIBUTOR",
     "type": {
