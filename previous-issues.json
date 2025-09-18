@@ -107,9 +107,9 @@
       }
     ],
     "milestone": null,
-    "comments": 9,
+    "comments": 10,
     "created_at": "2025-09-17T22:44:33Z",
-    "updated_at": "2025-09-18T08:40:23Z",
+    "updated_at": "2025-09-18T10:30:41Z",
     "closed_at": null,
     "author_association": "CONTRIBUTOR",
     "type": null,
@@ -628,6 +628,27 @@
     },
     "assignees": [
       {
+        "login": "francoisl",
+        "id": 2229301,
+        "node_id": "MDQ6VXNlcjIyMjkzMDE=",
+        "avatar_url": "https://avatars.githubusercontent.com/u/2229301?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/francoisl",
+        "html_url": "https://github.com/francoisl",
+        "followers_url": "https://api.github.com/users/francoisl/followers",
+        "following_url": "https://api.github.com/users/francoisl/following{/other_user}",
+        "gists_url": "https://api.github.com/users/francoisl/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/francoisl/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/francoisl/subscriptions",
+        "organizations_url": "https://api.github.com/users/francoisl/orgs",
+        "repos_url": "https://api.github.com/users/francoisl/repos",
+        "events_url": "https://api.github.com/users/francoisl/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/francoisl/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      {
         "login": "heyjennahay",
         "id": 12088484,
         "node_id": "MDQ6VXNlcjEyMDg4NDg0",
@@ -671,9 +692,9 @@
       }
     ],
     "milestone": null,
-    "comments": 5,
+    "comments": 7,
     "created_at": "2025-09-17T02:36:52Z",
-    "updated_at": "2025-09-17T10:43:41Z",
+    "updated_at": "2025-09-18T10:38:02Z",
     "closed_at": null,
     "author_association": "NONE",
     "type": null,
@@ -689,7 +710,7 @@
       "blocking": 0,
       "total_blocking": 0
     },
-    "body": "If you haven’t already, check out our [contributing guidelines](https://github.com/Expensify/ReactNativeChat/blob/main/contributingGuides/CONTRIBUTING.md) for onboarding and email contributors@expensify.com to request to join our Slack channel!\n___\n\n**Version Number:** 9.2.15-0\n**Reproducible in staging?:** Yes\n**Reproducible in production?:** Yes\n**If this was caught during regression testing, add the test name, ID and link from TestRail:** https://test-management.browserstack.com/projects/2219752/test-runs/TR-828/folder/13176922/41237504/899332465\n**Email or phone of affected tester (no customers):** ibellicotest+1811@gmail.com\n**Issue reported by:** Applause Internal Team\n**Device used:** Motorola MotoG60 / Android 12 / Chrome ( mWeb)\n**App Component:** Search\n\n## Action Performed:\nPrerequisite: Account has at least one workspace.\n1. Open the staging.new.expensify.com website.\n2. Open any workspace chat.\n3. Create a manual expense.\n4. Navigate to \"Reports\" > \"Submit\"\n5. Note that footer displays the correct information on \"Expenses\" and \"Total Spend\" fields.\n6. Force offline using troubleshoot option.\n7. Open the just created expense.\n8. Edit the expense amount.\n9. Return to \"Reports\"\n10. Note that \"Total Spend\" field, still displays the old amount.\n11. Turn on internet connection.\n12. Note that \"Total Spend\" field, still displays the old amount.\n13. Navigate to a different section and return to \"Reports\" > \"Submit\"\n14. Note that \"Total Spend\" field is now updated.\n\n## Expected Result:\n\"Total Spend\" field displayed on footer on \"Submit\" section, should be automatically updated after editing the amount of an expense.\n\n## Actual Result:\n\"Total Spend\" field, displayed on footer on \"Submit\" section on \"Reports\", is not updated after editing the amount of an expense while offline and returning to online mode.\n\n## Workaround:\nUnknown\n\n## Platforms:\n- [ ] Android: App\n- [x] Android: mWeb Chrome\n- [ ] iOS: App\n- [ ] iOS: mWeb Safari\n- [ ] iOS: mWeb Chrome\n- [ ] Windows: Chrome\n- [ ] MacOS: Chrome / Safari\n- [ ] MacOS: Desktop\n\n## Screenshots/Videos\n\nhttps://github.com/user-attachments/assets/8602fa5e-dd8e-470c-a961-53423e69e61c\n\n[View all open jobs on GitHub](https://github.com/Expensify/App/issues?q=is%3Aopen+is%3Aissue+label%3A%22Help+Wanted%22)\n<details><summary>Upwork Automation - Do Not Edit</summary>\n    <ul>\n        <li>Upwork Job URL: https://www.upwork.com/jobs/~021968264549032274933</li>\n        <li>Upwork Job ID: 1968264549032274933</li>\n        <li>Last Price Increase: 2025-09-17</li>\n    </ul>\n</details>\n\n<details><summary>Issue Owner</summary>Current Issue Owner: @truph01</details>",
+    "body": "If you haven’t already, check out our [contributing guidelines](https://github.com/Expensify/ReactNativeChat/blob/main/contributingGuides/CONTRIBUTING.md) for onboarding and email contributors@expensify.com to request to join our Slack channel!\n___\n\n**Version Number:** 9.2.15-0\n**Reproducible in staging?:** Yes\n**Reproducible in production?:** Yes\n**If this was caught during regression testing, add the test name, ID and link from TestRail:** https://test-management.browserstack.com/projects/2219752/test-runs/TR-828/folder/13176922/41237504/899332465\n**Email or phone of affected tester (no customers):** ibellicotest+1811@gmail.com\n**Issue reported by:** Applause Internal Team\n**Device used:** Motorola MotoG60 / Android 12 / Chrome ( mWeb)\n**App Component:** Search\n\n## Action Performed:\nPrerequisite: Account has at least one workspace.\n1. Open the staging.new.expensify.com website.\n2. Open any workspace chat.\n3. Create a manual expense.\n4. Navigate to \"Reports\" > \"Submit\"\n5. Note that footer displays the correct information on \"Expenses\" and \"Total Spend\" fields.\n6. Force offline using troubleshoot option.\n7. Open the just created expense.\n8. Edit the expense amount.\n9. Return to \"Reports\"\n10. Note that \"Total Spend\" field, still displays the old amount.\n11. Turn on internet connection.\n12. Note that \"Total Spend\" field, still displays the old amount.\n13. Navigate to a different section and return to \"Reports\" > \"Submit\"\n14. Note that \"Total Spend\" field is now updated.\n\n## Expected Result:\n\"Total Spend\" field displayed on footer on \"Submit\" section, should be automatically updated after editing the amount of an expense.\n\n## Actual Result:\n\"Total Spend\" field, displayed on footer on \"Submit\" section on \"Reports\", is not updated after editing the amount of an expense while offline and returning to online mode.\n\n## Workaround:\nUnknown\n\n## Platforms:\n- [ ] Android: App\n- [x] Android: mWeb Chrome\n- [ ] iOS: App\n- [ ] iOS: mWeb Safari\n- [ ] iOS: mWeb Chrome\n- [ ] Windows: Chrome\n- [ ] MacOS: Chrome / Safari\n- [ ] MacOS: Desktop\n\n## Screenshots/Videos\n\nhttps://github.com/user-attachments/assets/8602fa5e-dd8e-470c-a961-53423e69e61c\n\n[View all open jobs on GitHub](https://github.com/Expensify/App/issues?q=is%3Aopen+is%3Aissue+label%3A%22Help+Wanted%22)\n<details><summary>Upwork Automation - Do Not Edit</summary>\n    <ul>\n        <li>Upwork Job URL: https://www.upwork.com/jobs/~021968264549032274933</li>\n        <li>Upwork Job ID: 1968264549032274933</li>\n        <li>Last Price Increase: 2025-09-17</li>\n    </ul>\n</details>\n\n<details><summary>Issue Owner</summary>Current Issue Owner: @francoisl</details>",
     "closed_by": null,
     "reactions": {
       "url": "https://api.github.com/repos/Expensify/App/issues/70713/reactions",
