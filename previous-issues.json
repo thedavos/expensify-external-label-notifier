@@ -9,7 +9,7 @@
     "id": 3431637904,
     "node_id": "I_kwDOEQqHYc7MiqOQ",
     "number": 70827,
-    "title": "[$250] Add a \"Track Distance\" option in the \"Add Expense\" menu for empty reports in the workspace chat",
+    "title": "[$250] Add a \"Track Distance\" option in the \"Add Expense\" menu",
     "user": {
       "login": "flaviadefaria",
       "id": 80457174,
@@ -163,7 +163,7 @@
     "milestone": null,
     "comments": 3,
     "created_at": "2025-09-18T19:12:38Z",
-    "updated_at": "2025-09-18T19:16:58Z",
+    "updated_at": "2025-09-18T20:54:59Z",
     "closed_at": null,
     "author_association": "CONTRIBUTOR",
     "type": null,
@@ -179,7 +179,7 @@
       "blocking": 0,
       "total_blocking": 0
     },
-    "body": "When there is an empty report in the workspace chat the user sees a green `Add expense` button: \n\n<img width=\"1491\" height=\"722\" alt=\"Image\" src=\"https://github.com/user-attachments/assets/090732d1-df4f-4732-8f14-04b6684e76b3\" />\n\n\nWe need to incorporate Manual distance creation also into this flow by doing the following:\n\n-  Add the `Track Distance` option to the menu and have it trigger the distance creation flow as outlined [here](https://docs.google.com/document/d/18oJEJDDjA0-CUMofFewwjCaGv98cFetCrnk70ANNM-0/edit?tab=t.0#bookmark=id.1ya3yr7159zx) for the Manual and Map tabs.\n- Update the `Create expense` flow so that the create modal no longer displays the `Distance` option - as detailed [here](https://docs.google.com/document/d/18oJEJDDjA0-CUMofFewwjCaGv98cFetCrnk70ANNM-0/edit?tab=t.0#bookmark=id.le2221p7wiyn).\n<details><summary>Upwork Automation - Do Not Edit</summary>\n    <ul>\n        <li>Upwork Job URL: https://www.upwork.com/jobs/~021968756028951522476</li>\n        <li>Upwork Job ID: 1968756028951522476</li>\n        <li>Last Price Increase: 2025-09-18</li>\n<li>Automatic offers: </li>\n<ul>\n<li>dominictb | Contributor | 108826926</li>\n</ul></li>\n    </ul>\n</details>",
+    "body": "When there is an empty report the user sees an`Add expense` button/option in:\n\n- The workspace chat\n- Reports primary action button\n- Report secondary action menu when there’s an expense added\n- And soon in the report empty state - being worked on https://github.com/Expensify/App/issues/64730:\n\nWe need to incorporate Manual distance creation into this flow by doing the following:\n\n-  Add the `Track Distance` option to the menu and have it trigger the distance creation flow as outlined [here](https://docs.google.com/document/d/18oJEJDDjA0-CUMofFewwjCaGv98cFetCrnk70ANNM-0/edit?tab=t.0#bookmark=id.1ya3yr7159zx) for the Manual and Map tabs.\n- Update the `Create expense` flow so that the create modal no longer displays the `Distance` option - as detailed [here](https://docs.google.com/document/d/18oJEJDDjA0-CUMofFewwjCaGv98cFetCrnk70ANNM-0/edit?tab=t.0#bookmark=id.le2221p7wiyn).\n\n<img width=\"1491\" height=\"722\" alt=\"Image\" src=\"https://github.com/user-attachments/assets/090732d1-df4f-4732-8f14-04b6684e76b3\" />\n\n<img width=\"1493\" height=\"718\" alt=\"Image\" src=\"https://github.com/user-attachments/assets/7e4ddf8b-406d-4ccc-a201-3f3f91a028c2\" />\n\n<img width=\"1490\" height=\"714\" alt=\"Image\" src=\"https://github.com/user-attachments/assets/406c0748-43fe-48bc-953a-cc516c6b02c9\" />\n\n\n<details><summary>Upwork Automation - Do Not Edit</summary>\n    <ul>\n        <li>Upwork Job URL: https://www.upwork.com/jobs/~021968756028951522476</li>\n        <li>Upwork Job ID: 1968756028951522476</li>\n        <li>Last Price Increase: 2025-09-18</li>\n<li>Automatic offers: </li>\n<ul>\n<li>dominictb | Contributor | 108826926</li>\n</ul></li>\n    </ul>\n</details>\n",
     "closed_by": null,
     "reactions": {
       "url": "https://api.github.com/repos/Expensify/App/issues/70827/reactions",
