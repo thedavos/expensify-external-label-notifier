@@ -42,6 +42,15 @@
         "description": "Added to denote the issue can be worked on by a contributor"
       },
       {
+        "id": 2893455829,
+        "node_id": "MDU6TGFiZWwyODkzNDU1ODI5",
+        "url": "https://api.github.com/repos/Expensify/App/labels/Daily",
+        "name": "Daily",
+        "color": "eb6420",
+        "default": false,
+        "description": "KSv2"
+      },
+      {
         "id": 3033757191,
         "node_id": "MDU6TGFiZWwzMDMzNzU3MTkx",
         "url": "https://api.github.com/repos/Expensify/App/labels/NewFeature",
@@ -170,9 +179,9 @@
       }
     ],
     "milestone": null,
-    "comments": 5,
+    "comments": 6,
     "created_at": "2025-09-19T22:55:21Z",
-    "updated_at": "2025-09-19T22:57:02Z",
+    "updated_at": "2025-09-20T01:21:32Z",
     "closed_at": null,
     "author_association": "CONTRIBUTOR",
     "type": null,
