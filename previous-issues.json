@@ -116,9 +116,9 @@
       }
     ],
     "milestone": null,
-    "comments": 2,
+    "comments": 8,
     "created_at": "2025-09-26T20:13:51Z",
-    "updated_at": "2025-09-26T20:17:02Z",
+    "updated_at": "2025-09-26T20:53:14Z",
     "closed_at": null,
     "author_association": "CONTRIBUTOR",
     "type": null,
@@ -134,7 +134,7 @@
       "blocking": 0,
       "total_blocking": 0
     },
-    "body": "## Background\nComing from [this convo](https://expensify.slack.com/archives/C03TME82F/p1758749625648629), we'd like to make it more apparent in the expense chat carousel view when expenses are added to a report.\n\n## Proposal\nMore specifically, new expenses should slide in **and** there should be a highlight that fades out slowly:\nhttps://github.com/user-attachments/assets/b9a19d05-b9b9-4776-aa2c-d0387f119512\n\ncc @Expensify/design \n\n<details><summary>Issue Owner</summary>Current Issue Owner: @rushatgabhane</details>",
+    "body": "## Background\nComing from [this convo](https://expensify.slack.com/archives/C03TME82F/p1758749625648629), we'd like to make it more apparent in the expense chat carousel view when expenses are added to a report.\n\n## Proposal\nMore specifically, new expenses should slide in **and** there should be a highlight that fades out slowly:\n\nhttps://github.com/user-attachments/assets/77216c3e-8434-4061-b065-737ef93480d4\n\ncc @Expensify/design \n\n<details><summary>Issue Owner</summary>Current Issue Owner: @rushatgabhane</details>",
     "closed_by": null,
     "reactions": {
       "url": "https://api.github.com/repos/Expensify/App/issues/71390/reactions",
