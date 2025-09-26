@@ -707,9 +707,9 @@
       }
     ],
     "milestone": null,
-    "comments": 13,
+    "comments": 14,
     "created_at": "2025-09-25T17:28:13Z",
-    "updated_at": "2025-09-25T20:52:18Z",
+    "updated_at": "2025-09-26T07:01:25Z",
     "closed_at": null,
     "author_association": "CONTRIBUTOR",
     "type": null,
@@ -777,6 +777,15 @@
     },
     "labels": [
       {
+        "id": 2283143991,
+        "node_id": "MDU6TGFiZWwyMjgzMTQzOTkx",
+        "url": "https://api.github.com/repos/Expensify/App/labels/Reviewing",
+        "name": "Reviewing",
+        "color": "dddddd",
+        "default": false,
+        "description": "Has a PR in review"
+      },
+      {
         "id": 2873246102,
         "node_id": "MDU6TGFiZWwyODczMjQ2MTAy",
         "url": "https://api.github.com/repos/Expensify/App/labels/External",
@@ -786,11 +795,11 @@
         "description": "Added to denote the issue can be worked on by a contributor"
       },
       {
-        "id": 2893455829,
-        "node_id": "MDU6TGFiZWwyODkzNDU1ODI5",
-        "url": "https://api.github.com/repos/Expensify/App/labels/Daily",
-        "name": "Daily",
-        "color": "eb6420",
+        "id": 2893515375,
+        "node_id": "MDU6TGFiZWwyODkzNTE1Mzc1",
+        "url": "https://api.github.com/repos/Expensify/App/labels/Weekly",
+        "name": "Weekly",
+        "color": "009800",
         "default": false,
         "description": "KSv2"
       },
@@ -895,7 +904,7 @@
     "milestone": null,
     "comments": 6,
     "created_at": "2025-09-25T16:12:01Z",
-    "updated_at": "2025-09-25T17:15:20Z",
+    "updated_at": "2025-09-26T07:00:59Z",
     "closed_at": null,
     "author_association": "CONTRIBUTOR",
     "type": null,
@@ -1750,7 +1759,7 @@
       "blocking": 0,
       "total_blocking": 0
     },
-    "body": "If you haven’t already, check out our [contributing guidelines](https://github.com/Expensify/ReactNativeChat/blob/main/contributingGuides/CONTRIBUTING.md) for onboarding and email contributors@expensify.com to request to join our Slack channel!\n___\n\n**Version Number:** 9.2.17-2\n**Reproducible in staging?:** Y\n**Reproducible in production?:** Y\n**If this was caught during regression testing, add the test name, ID and link from TestRail:** https://test-management.browserstack.com/projects/2219752/test-runs/TR-901/folder/13177029/41237789/912953950\n**Email or phone of affected tester (no customers):** ibellicotest+1844@gmail.com\n**Issue reported by:** Applause - Internal Team\n\n\n## Action Performed:\n1. Open the Expensify app\n2. Tap on FAB and select \"Create Expense\"\n3. Create a manual expense and submit it to a chat with an user with no existing conversation\n4. Once redirected to chat, return to \"Inbox\"\n5. Note that chat preview shows the expense details\n6. Tap on the search icon on the top right corner\n7. Note that chat preview, only shows receiver´s Email\n\n## Expected Result:\nAfter submitting an expense to a 1:1 conversation, chat preview should display the expense details on \"Inbox\" and also on \"Search\"\n\n## Actual Result:\nAfter submitting an expense to a 1:1 conversation, chat preview shows the expense details on \"Inbox\", but preview on \"Search\" only shows receiver��s Email\n\n## Workaround:\nUnknown\n\n## Platforms:\nSelect the officially supported platforms where the issue was reproduced:\n- [x] Android: App\n- [x] Android: mWeb Chrome\n- [ ] iOS: App\n- [ ] iOS: mWeb Safari\n- [ ] iOS: mWeb Chrome\n- [x] Windows: Chrome\n- [ ] MacOS: Chrome / Safari\n- [ ] MacOS: Desktop\n\n<details>\n  <summary>Platforms Tested:</summary>\nOn which of our officially supported platforms was this issue tested:\n\n- [ ] Android: App\n- [ ] Android: mWeb Chrome\n- [ ] iOS: App\n- [ ] iOS: mWeb Safari\n- [ ] iOS: mWeb Chrome\n- [ ] Windows: Chrome\n- [ ] MacOS: Chrome / Safari\n- [ ] MacOS: Desktop\n\n</details>\n\n## Screenshots/Videos\n\n<details>\n  <summary>Add any screenshot/video evidence</summary>\n\n\n</details> \n\nhttps://github.com/user-attachments/assets/7013ec13-48fb-49a2-afac-1a9e1ec698d6\n\n[View all open jobs on GitHub](https://github.com/Expensify/App/issues?q=is%3Aopen+is%3Aissue+label%3A%22Help+Wanted%22)\n\n<details><summary>Upwork Automation - Do Not Edit</summary>\n    <ul>\n        <li>Upwork Job URL: https://www.upwork.com/jobs/~021971193264091430257</li>\n        <li>Upwork Job ID: 1971193264091430257</li>\n        <li>Last Price Increase: 2025-09-25</li>\n    </ul>\n</details>\n\n<details><summary>Issue Owner</summary>Current Issue Owner: @ikevin127</details>",
+    "body": "If you haven’t already, check out our [contributing guidelines](https://github.com/Expensify/ReactNativeChat/blob/main/contributingGuides/CONTRIBUTING.md) for onboarding and email contributors@expensify.com to request to join our Slack channel!\n___\n\n**Version Number:** 9.2.17-2\n**Reproducible in staging?:** Y\n**Reproducible in production?:** Y\n**If this was caught during regression testing, add the test name, ID and link from TestRail:** https://test-management.browserstack.com/projects/2219752/test-runs/TR-901/folder/13177029/41237789/912953950\n**Email or phone of affected tester (no customers):** ibellicotest+1844@gmail.com\n**Issue reported by:** Applause - Internal Team\n\n\n## Action Performed:\n1. Open the Expensify app\n2. Tap on FAB and select \"Create Expense\"\n3. Create a manual expense and submit it to a chat with an user with no existing conversation\n4. Once redirected to chat, return to \"Inbox\"\n5. Note that chat preview shows the expense details\n6. Tap on the search icon on the top right corner\n7. Note that chat preview, only shows receiver´s Email\n\n## Expected Result:\nAfter submitting an expense to a 1:1 conversation, chat preview should display the expense details on \"Inbox\" and also on \"Search\"\n\n## Actual Result:\nAfter submitting an expense to a 1:1 conversation, chat preview shows the expense details on \"Inbox\", but preview on \"Search\" only shows receiver´s Email\n\n## Workaround:\nUnknown\n\n## Platforms:\nSelect the officially supported platforms where the issue was reproduced:\n- [x] Android: App\n- [x] Android: mWeb Chrome\n- [ ] iOS: App\n- [ ] iOS: mWeb Safari\n- [ ] iOS: mWeb Chrome\n- [x] Windows: Chrome\n- [ ] MacOS: Chrome / Safari\n- [ ] MacOS: Desktop\n\n<details>\n  <summary>Platforms Tested:</summary>\nOn which of our officially supported platforms was this issue tested:\n\n- [ ] Android: App\n- [ ] Android: mWeb Chrome\n- [ ] iOS: App\n- [ ] iOS: mWeb Safari\n- [ ] iOS: mWeb Chrome\n- [ ] Windows: Chrome\n- [ ] MacOS: Chrome / Safari\n- [ ] MacOS: Desktop\n\n</details>\n\n## Screenshots/Videos\n\n<details>\n  <summary>Add any screenshot/video evidence</summary>\n\n\n</details> \n\nhttps://github.com/user-attachments/assets/7013ec13-48fb-49a2-afac-1a9e1ec698d6\n\n[View all open jobs on GitHub](https://github.com/Expensify/App/issues?q=is%3Aopen+is%3Aissue+label%3A%22Help+Wanted%22)\n\n<details><summary>Upwork Automation - Do Not Edit</summary>\n    <ul>\n        <li>Upwork Job URL: https://www.upwork.com/jobs/~021971193264091430257</li>\n        <li>Upwork Job ID: 1971193264091430257</li>\n        <li>Last Price Increase: 2025-09-25</li>\n    </ul>\n</details>\n\n<details><summary>Issue Owner</summary>Current Issue Owner: @ikevin127</details>",
     "closed_by": null,
     "reactions": {
       "url": "https://api.github.com/repos/Expensify/App/issues/71226/reactions",
