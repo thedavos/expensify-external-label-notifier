@@ -432,11 +432,11 @@
         "description": "Added to denote the issue can be worked on by a contributor"
       },
       {
-        "id": 3008326907,
-        "node_id": "MDU6TGFiZWwzMDA4MzI2OTA3",
-        "url": "https://api.github.com/repos/Expensify/App/labels/Hourly",
-        "name": "Hourly",
-        "color": "EC0E2D",
+        "id": 2893455829,
+        "node_id": "MDU6TGFiZWwyODkzNDU1ODI5",
+        "url": "https://api.github.com/repos/Expensify/App/labels/Daily",
+        "name": "Daily",
+        "color": "eb6420",
         "default": false,
         "description": "KSv2"
       },
@@ -562,7 +562,7 @@
     "milestone": null,
     "comments": 15,
     "created_at": "2025-09-29T23:01:28Z",
-    "updated_at": "2025-09-30T07:58:13Z",
+    "updated_at": "2025-09-30T13:20:36Z",
     "closed_at": null,
     "author_association": "NONE",
     "type": null,
