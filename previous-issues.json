@@ -167,9 +167,9 @@
       }
     ],
     "milestone": null,
-    "comments": 16,
+    "comments": 19,
     "created_at": "2025-10-01T17:33:27Z",
-    "updated_at": "2025-10-01T19:11:10Z",
+    "updated_at": "2025-10-01T20:10:24Z",
     "closed_at": null,
     "author_association": "NONE",
     "type": null,
@@ -373,7 +373,7 @@
     "milestone": null,
     "comments": 8,
     "created_at": "2025-10-01T17:08:15Z",
-    "updated_at": "2025-10-01T19:14:22Z",
+    "updated_at": "2025-10-01T20:02:07Z",
     "closed_at": null,
     "author_association": "NONE",
     "type": null,
@@ -545,9 +545,9 @@
       }
     ],
     "milestone": null,
-    "comments": 7,
+    "comments": 8,
     "created_at": "2025-10-01T11:53:35Z",
-    "updated_at": "2025-10-01T17:17:24Z",
+    "updated_at": "2025-10-01T20:15:57Z",
     "closed_at": null,
     "author_association": "NONE",
     "type": null,
@@ -765,7 +765,7 @@
     "id": 3472783869,
     "node_id": "I_kwDOEQqHYc7O_nn9",
     "number": 71652,
-    "title": "[$50] Account setting - Unable to save private section informations",
+    "title": "[$250] Android mWeb - Account setting - Unable to save private section informations",
     "user": {
       "login": "mitarachim",
       "id": 181838622,
@@ -788,15 +788,6 @@
       "site_admin": false
     },
     "labels": [
-      {
-        "id": 2283143991,
-        "node_id": "MDU6TGFiZWwyMjgzMTQzOTkx",
-        "url": "https://api.github.com/repos/Expensify/App/labels/Reviewing",
-        "name": "Reviewing",
-        "color": "dddddd",
-        "default": false,
-        "description": "Has a PR in review"
-      },
       {
         "id": 2810597462,
         "node_id": "MDU6TGFiZWwyODEwNTk3NDYy",
@@ -832,6 +823,15 @@
         "color": "EC0E2D",
         "default": false,
         "description": "KSv2"
+      },
+      {
+        "id": 3136662525,
+        "node_id": "MDU6TGFiZWwzMTM2NjYyNTI1",
+        "url": "https://api.github.com/repos/Expensify/App/labels/Help%20Wanted",
+        "name": "Help Wanted",
+        "color": "CFC8F1",
+        "default": false,
+        "description": "Apply this label when an issue is open to proposals by contributors"
       },
       {
         "id": 4664850679,
@@ -974,9 +974,9 @@
       }
     ],
     "milestone": null,
-    "comments": 23,
+    "comments": 25,
     "created_at": "2025-10-01T09:32:46Z",
-    "updated_at": "2025-10-01T17:52:33Z",
+    "updated_at": "2025-10-01T19:19:53Z",
     "closed_at": null,
     "author_association": "NONE",
     "type": null,
@@ -1927,9 +1927,9 @@
       }
     ],
     "milestone": null,
-    "comments": 12,
+    "comments": 13,
     "created_at": "2025-09-30T14:56:34Z",
-    "updated_at": "2025-10-01T17:50:38Z",
+    "updated_at": "2025-10-01T19:53:32Z",
     "closed_at": null,
     "author_association": "CONTRIBUTOR",
     "type": null,
