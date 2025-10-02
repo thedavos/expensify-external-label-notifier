@@ -1036,6 +1036,27 @@
         "site_admin": false
       },
       {
+        "login": "pecanoro",
+        "id": 6474442,
+        "node_id": "MDQ6VXNlcjY0NzQ0NDI=",
+        "avatar_url": "https://avatars.githubusercontent.com/u/6474442?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/pecanoro",
+        "html_url": "https://github.com/pecanoro",
+        "followers_url": "https://api.github.com/users/pecanoro/followers",
+        "following_url": "https://api.github.com/users/pecanoro/following{/other_user}",
+        "gists_url": "https://api.github.com/users/pecanoro/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/pecanoro/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/pecanoro/subscriptions",
+        "organizations_url": "https://api.github.com/users/pecanoro/orgs",
+        "repos_url": "https://api.github.com/users/pecanoro/repos",
+        "events_url": "https://api.github.com/users/pecanoro/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/pecanoro/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      {
         "login": "brunovjk",
         "id": 95647348,
         "node_id": "U_kgDOBbN2dA",
@@ -1058,9 +1079,9 @@
       }
     ],
     "milestone": null,
-    "comments": 9,
+    "comments": 11,
     "created_at": "2025-09-30T20:34:38Z",
-    "updated_at": "2025-09-30T23:34:49Z",
+    "updated_at": "2025-10-02T01:49:33Z",
     "closed_at": null,
     "author_association": "CONTRIBUTOR",
     "type": null,
@@ -1076,7 +1097,7 @@
       "blocking": 0,
       "total_blocking": 0
     },
-    "body": "## Problem\n\nIn New Expensify, submitted reports have the status `Outstanding`. This word has multiple meanings in English, and our AI auto-translation into other languages doesn't always translate based on the correct definition. Examples:\n\n- Portuguese: `Excelente` (incorrect)\n- French: `Exceptionnel` (incorrect)\n- Spanish: `Pendiente` (correct)\n\n## Solution\n\nWe can add a context annotation in the /App/blob/main/src/languages/en.ts file. The annotation should say:\n\n```\n// @context meaning \"remaining to be paid, done, or dealt with\", not \"exceptionally good\"\noutstanding: 'Outstanding',\n```\n\nThen, retranslate that either with:\n\n`npx ts-node ./scripts/generateTranslations.ts --paths 'common.outstanding'`\n\nor commit the change and open a PR, or you can run it locally with:\n\n`npx ts-node ./scripts/generateTranslations.ts --compare-ref main`\n\n<details><summary>Issue Owner</summary>Current Issue Owner: @brunovjk</details>",
+    "body": "## Problem\n\nIn New Expensify, submitted reports have the status `Outstanding`. This word has multiple meanings in English, and our AI auto-translation into other languages doesn't always translate based on the correct definition. Examples:\n\n- Portuguese: `Excelente` (incorrect)\n- French: `Exceptionnel` (incorrect)\n- Spanish: `Pendiente` (correct)\n\n## Solution\n\nWe can add a context annotation in the /App/blob/main/src/languages/en.ts file. The annotation should say:\n\n```\n// @context meaning \"remaining to be paid, done, or dealt with\", not \"exceptionally good\"\noutstanding: 'Outstanding',\n```\n\nThen, retranslate that either with:\n\n`npx ts-node ./scripts/generateTranslations.ts --paths 'common.outstanding'`\n\nor commit the change and open a PR, or you can run it locally with:\n\n`npx ts-node ./scripts/generateTranslations.ts --compare-ref main`\n\n<details><summary>Issue Owner</summary>Current Issue Owner: @pecanoro</details>",
     "closed_by": null,
     "reactions": {
       "url": "https://api.github.com/repos/Expensify/App/issues/71613/reactions",
