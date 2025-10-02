@@ -185,9 +185,9 @@
       }
     ],
     "milestone": null,
-    "comments": 7,
+    "comments": 8,
     "created_at": "2025-10-02T08:32:48Z",
-    "updated_at": "2025-10-02T12:31:50Z",
+    "updated_at": "2025-10-02T13:05:41Z",
     "closed_at": null,
     "author_association": "NONE",
     "type": null,
@@ -889,6 +889,27 @@
     },
     "assignees": [
       {
+        "login": "AndrewGable",
+        "id": 2838819,
+        "node_id": "MDQ6VXNlcjI4Mzg4MTk=",
+        "avatar_url": "https://avatars.githubusercontent.com/u/2838819?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/AndrewGable",
+        "html_url": "https://github.com/AndrewGable",
+        "followers_url": "https://api.github.com/users/AndrewGable/followers",
+        "following_url": "https://api.github.com/users/AndrewGable/following{/other_user}",
+        "gists_url": "https://api.github.com/users/AndrewGable/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/AndrewGable/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/AndrewGable/subscriptions",
+        "organizations_url": "https://api.github.com/users/AndrewGable/orgs",
+        "repos_url": "https://api.github.com/users/AndrewGable/repos",
+        "events_url": "https://api.github.com/users/AndrewGable/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/AndrewGable/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      {
         "login": "jliexpensify",
         "id": 30815269,
         "node_id": "MDQ6VXNlcjMwODE1MjY5",
@@ -932,9 +953,9 @@
       }
     ],
     "milestone": null,
-    "comments": 8,
+    "comments": 10,
     "created_at": "2025-10-01T13:41:07Z",
-    "updated_at": "2025-10-02T05:03:44Z",
+    "updated_at": "2025-10-02T12:38:49Z",
     "closed_at": null,
     "author_association": "NONE",
     "type": null,
@@ -950,7 +971,7 @@
       "blocking": 0,
       "total_blocking": 0
     },
-    "body": "If you haven’t already, check out our [contributing guidelines](https://github.com/Expensify/ReactNativeChat/blob/main/contributingGuides/CONTRIBUTING.md) for onboarding and email contributors@expensify.com to request to join our Slack channel!\n___\n\n**Version Number:** 9.2.21-0\n**Reproducible in staging?:** Yes\n**Reproducible in production?:** Yes\n**If this was caught during regression testing, add the test name, ID and link from TestRail:** https://github.com/Expensify/App/pull/64056\n**Email or phone of affected tester (no customers):** applausetester+djdkskskksks@applause.expensifail.com\n**Issue reported by:** Applause Internal Team\n**Device used:** iPhone 15 Pro Max / iOS 26.0\n**App Component:** Other\n\n## Action Performed:\nPrecondition:\n- User is logged in.\n\n1. Long press on Expensify app on app home screen.\n2. Tap Log distance.\n\n## Expected Result:\nTrack distance flow will open.\n\n## Actual Result:\nCreate manual expense flow opens.\n\n## Workaround:\nUnknown\n\n## Platforms:\n- [x] Android: App\n- [ ] Android: mWeb Chrome\n- [x] iOS: App\n- [ ] iOS: mWeb Safari\n- [ ] iOS: mWeb Chrome\n- [ ] Windows: Chrome\n- [ ] MacOS: Chrome / Safari\n- [ ] MacOS: Desktop\n\n## Screenshots/Videos\n\nhttps://github.com/user-attachments/assets/9e6a2802-989a-43ec-9f77-13f2e6fff81e\n\n[View all open jobs on GitHub](https://github.com/Expensify/App/issues?q=is%3Aopen+is%3Aissue+label%3A%22Help+Wanted%22)\n<details><summary>Upwork Automation - Do Not Edit</summary>\n    <ul>\n        <li>Upwork Job URL: https://www.upwork.com/jobs/~021973614816427393780</li>\n        <li>Upwork Job ID: 1973614816427393780</li>\n        <li>Last Price Increase: 2025-10-02</li>\n    </ul>\n</details>\n\n<details><summary>Issue Owner</summary>Current Issue Owner: @dominictb</details>",
+    "body": "If you haven’t already, check out our [contributing guidelines](https://github.com/Expensify/ReactNativeChat/blob/main/contributingGuides/CONTRIBUTING.md) for onboarding and email contributors@expensify.com to request to join our Slack channel!\n___\n\n**Version Number:** 9.2.21-0\n**Reproducible in staging?:** Yes\n**Reproducible in production?:** Yes\n**If this was caught during regression testing, add the test name, ID and link from TestRail:** https://github.com/Expensify/App/pull/64056\n**Email or phone of affected tester (no customers):** applausetester+djdkskskksks@applause.expensifail.com\n**Issue reported by:** Applause Internal Team\n**Device used:** iPhone 15 Pro Max / iOS 26.0\n**App Component:** Other\n\n## Action Performed:\nPrecondition:\n- User is logged in.\n\n1. Long press on Expensify app on app home screen.\n2. Tap Log distance.\n\n## Expected Result:\nTrack distance flow will open.\n\n## Actual Result:\nCreate manual expense flow opens.\n\n## Workaround:\nUnknown\n\n## Platforms:\n- [x] Android: App\n- [ ] Android: mWeb Chrome\n- [x] iOS: App\n- [ ] iOS: mWeb Safari\n- [ ] iOS: mWeb Chrome\n- [ ] Windows: Chrome\n- [ ] MacOS: Chrome / Safari\n- [ ] MacOS: Desktop\n\n## Screenshots/Videos\n\nhttps://github.com/user-attachments/assets/9e6a2802-989a-43ec-9f77-13f2e6fff81e\n\n[View all open jobs on GitHub](https://github.com/Expensify/App/issues?q=is%3Aopen+is%3Aissue+label%3A%22Help+Wanted%22)\n<details><summary>Upwork Automation - Do Not Edit</summary>\n    <ul>\n        <li>Upwork Job URL: https://www.upwork.com/jobs/~021973614816427393780</li>\n        <li>Upwork Job ID: 1973614816427393780</li>\n        <li>Last Price Increase: 2025-10-02</li>\n    </ul>\n</details>\n\n<details><summary>Issue Owner</summary>Current Issue Owner: @AndrewGable</details>",
     "closed_by": null,
     "reactions": {
       "url": "https://api.github.com/repos/Expensify/App/issues/71672/reactions",
