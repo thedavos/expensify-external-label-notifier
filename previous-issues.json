@@ -176,7 +176,7 @@
       "blocking": 0,
       "total_blocking": 0
     },
-    "body": "If you haven’t already, check out our [contributing guidelines](https://github.com/Expensify/ReactNativeChat/blob/main/contributingGuides/CONTRIBUTING.md) for onboarding and email contributors@expensify.com to request to join our Slack channel!\n___\n\n**Version Number:** 9.2.21-2\n**Reproducible in staging?:** Y\n**Reproducible in production?:** Unable to validate in Prod\n**If this was caught during regression testing, add the test name, ID and link from TestRail:** https://github.com/Expensify/App/pull/70878\n**Issue reported by:** Applause - Internal Team\n\n\n## Action Performed:\n1. Sign in to ND with a new account, verify the account\n2. Navigate to Wallet, click Enable Wallet\n3. Press \"Add bank account\" green button, continue with the Regions bank\n4. When back in ND, on \"Choose your bank account\" RHP select \"Plaid Saving\", click Next\n5. Enter the name, click Next\n6. Select Date of birth, Next\n7. Click back arrow until you reached step 1\n8. On \"Choose your bank account\" RHP click Next\n9. On \"Confirm your bank account\" RHP click Confirm\n\n## Expected Result:\nUser is able to proceed with the flow, \"What's your legal name\" RHP opens\n\n## Actual Result:\nUser is not able to proceed, error \"Bank account can't be created, it looks like a bank account with the same information already exists in your account.\" is displayed. After refreshing the page User is finally moved to the next step\n\n## Workaround:\nUnknown\n\n## Platforms:\nSelect the officially supported platforms where the issue was reproduced:\n- [ ] Android: App\n- [ ] Android: mWeb Chrome\n- [x] iOS: App\n- [ ] iOS: mWeb Safari\n- [ ] iOS: mWeb Chrome\n- [x] Windows: Chrome\n- [x] MacOS: Chrome / Safari\n- [x] MacOS: Desktop\n\n<details>\n  <summary>Platforms Tested:</summary>\nOn which of our officially supported platforms was this issue tested:\n\n- [ ] Android: App\n- [ ] Android: mWeb Chrome\n- [ ] iOS: App\n- [ ] iOS: mWeb Safari\n- [ ] iOS: mWeb Chrome\n- [ ] Windows: Chrome\n- [ ] MacOS: Chrome / Safari\n- [ ] MacOS: Desktop\n\n</details>\n\n## Screenshots/Videos\n\n<details>\n  <summary>Add any screenshot/video evidence</summary>\n\n\n</details> \n\nhttps://github.com/user-attachments/assets/af647fa5-3d6c-4298-af7b-b673cdd3062c\n\n[View all open jobs on GitHub](https://github.com/Expensify/App/issues?q=is%3Aopen+is%3Aissue+label%3A%22Help+Wanted%22)\n\n<details><summary>Upwork Automation - Do Not Edit</summary>\n    <ul>\n        <li>Upwork Job URL: https://www.upwork.com/jobs/~021973441732615410481</li>\n        <li>Upwork Job ID: 1973441732615410481</li>\n        <li>Last Price Increase: 2025-10-01</li>\n<li>Automatic offers: </li>\n<ul>\n<li>dominictb | Contributor | 108974773</li>\n</ul></li>\n    </ul>\n</details>\n\n<details><summary>Issue Owner</summary>Current Issue Owner: @rushatgabhane</details>",
+    "body": "If you haven��t already, check out our [contributing guidelines](https://github.com/Expensify/ReactNativeChat/blob/main/contributingGuides/CONTRIBUTING.md) for onboarding and email contributors@expensify.com to request to join our Slack channel!\n___\n\n**Version Number:** 9.2.21-2\n**Reproducible in staging?:** Y\n**Reproducible in production?:** Unable to validate in Prod\n**If this was caught during regression testing, add the test name, ID and link from TestRail:** https://github.com/Expensify/App/pull/70878\n**Issue reported by:** Applause - Internal Team\n\n\n## Action Performed:\n1. Sign in to ND with a new account, verify the account\n2. Navigate to Wallet, click Enable Wallet\n3. Press \"Add bank account\" green button, continue with the Regions bank\n4. When back in ND, on \"Choose your bank account\" RHP select \"Plaid Saving\", click Next\n5. Enter the name, click Next\n6. Select Date of birth, Next\n7. Click back arrow until you reached step 1\n8. On \"Choose your bank account\" RHP click Next\n9. On \"Confirm your bank account\" RHP click Confirm\n\n## Expected Result:\nUser is able to proceed with the flow, \"What's your legal name\" RHP opens\n\n## Actual Result:\nUser is not able to proceed, error \"Bank account can't be created, it looks like a bank account with the same information already exists in your account.\" is displayed. After refreshing the page User is finally moved to the next step\n\n## Workaround:\nUnknown\n\n## Platforms:\nSelect the officially supported platforms where the issue was reproduced:\n- [ ] Android: App\n- [ ] Android: mWeb Chrome\n- [x] iOS: App\n- [ ] iOS: mWeb Safari\n- [ ] iOS: mWeb Chrome\n- [x] Windows: Chrome\n- [x] MacOS: Chrome / Safari\n- [x] MacOS: Desktop\n\n<details>\n  <summary>Platforms Tested:</summary>\nOn which of our officially supported platforms was this issue tested:\n\n- [ ] Android: App\n- [ ] Android: mWeb Chrome\n- [ ] iOS: App\n- [ ] iOS: mWeb Safari\n- [ ] iOS: mWeb Chrome\n- [ ] Windows: Chrome\n- [ ] MacOS: Chrome / Safari\n- [ ] MacOS: Desktop\n\n</details>\n\n## Screenshots/Videos\n\n<details>\n  <summary>Add any screenshot/video evidence</summary>\n\n\n</details> \n\nhttps://github.com/user-attachments/assets/af647fa5-3d6c-4298-af7b-b673cdd3062c\n\n[View all open jobs on GitHub](https://github.com/Expensify/App/issues?q=is%3Aopen+is%3Aissue+label%3A%22Help+Wanted%22)\n\n<details><summary>Upwork Automation - Do Not Edit</summary>\n    <ul>\n        <li>Upwork Job URL: https://www.upwork.com/jobs/~021973441732615410481</li>\n        <li>Upwork Job ID: 1973441732615410481</li>\n        <li>Last Price Increase: 2025-10-01</li>\n<li>Automatic offers: </li>\n<ul>\n<li>dominictb | Contributor | 108974773</li>\n</ul></li>\n    </ul>\n</details>\n\n<details><summary>Issue Owner</summary>Current Issue Owner: @rushatgabhane</details>",
     "closed_by": null,
     "reactions": {
       "url": "https://api.github.com/repos/Expensify/App/issues/71697/reactions",
@@ -362,9 +362,9 @@
       }
     ],
     "milestone": null,
-    "comments": 9,
+    "comments": 10,
     "created_at": "2025-10-01T17:08:15Z",
-    "updated_at": "2025-10-01T22:04:52Z",
+    "updated_at": "2025-10-02T07:03:46Z",
     "closed_at": null,
     "author_association": "NONE",
     "type": null,
@@ -1058,9 +1058,9 @@
       }
     ],
     "milestone": null,
-    "comments": 4,
+    "comments": 5,
     "created_at": "2025-10-01T04:00:38Z",
-    "updated_at": "2025-10-01T16:13:00Z",
+    "updated_at": "2025-10-02T07:18:05Z",
     "closed_at": null,
     "author_association": "NONE",
     "type": null,
