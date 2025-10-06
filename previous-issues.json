@@ -137,9 +137,9 @@
       }
     ],
     "milestone": null,
-    "comments": 7,
+    "comments": 8,
     "created_at": "2025-10-06T07:49:25Z",
-    "updated_at": "2025-10-06T08:24:17Z",
+    "updated_at": "2025-10-06T08:27:18Z",
     "closed_at": null,
     "author_association": "NONE",
     "type": null,
@@ -1366,15 +1366,6 @@
         "color": "eb6420",
         "default": false,
         "description": "KSv2"
-      },
-      {
-        "id": 3184150925,
-        "node_id": "MDU6TGFiZWwzMTg0MTUwOTI1",
-        "url": "https://api.github.com/repos/Expensify/App/labels/Overdue",
-        "name": "Overdue",
-        "color": "D93F0B",
-        "default": false,
-        "description": ""
       }
     ],
     "state": "open",
@@ -1487,9 +1478,9 @@
       }
     ],
     "milestone": null,
-    "comments": 4,
+    "comments": 5,
     "created_at": "2025-10-02T15:30:17Z",
-    "updated_at": "2025-10-06T08:24:46Z",
+    "updated_at": "2025-10-06T09:14:57Z",
     "closed_at": null,
     "author_association": "CONTRIBUTOR",
     "type": {
@@ -2684,9 +2675,9 @@
       }
     ],
     "milestone": null,
-    "comments": 7,
+    "comments": 8,
     "created_at": "2025-10-02T12:25:51Z",
-    "updated_at": "2025-10-03T06:31:51Z",
+    "updated_at": "2025-10-06T09:07:19Z",
     "closed_at": null,
     "author_association": "NONE",
     "type": null,
