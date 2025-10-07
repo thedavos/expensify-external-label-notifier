@@ -289,6 +289,27 @@
         "site_admin": false
       },
       {
+        "login": "amyevans",
+        "id": 7277067,
+        "node_id": "MDQ6VXNlcjcyNzcwNjc=",
+        "avatar_url": "https://avatars.githubusercontent.com/u/7277067?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/amyevans",
+        "html_url": "https://github.com/amyevans",
+        "followers_url": "https://api.github.com/users/amyevans/followers",
+        "following_url": "https://api.github.com/users/amyevans/following{/other_user}",
+        "gists_url": "https://api.github.com/users/amyevans/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/amyevans/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/amyevans/subscriptions",
+        "organizations_url": "https://api.github.com/users/amyevans/orgs",
+        "repos_url": "https://api.github.com/users/amyevans/repos",
+        "events_url": "https://api.github.com/users/amyevans/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/amyevans/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      {
         "login": "QichenZhu",
         "id": 57348009,
         "node_id": "MDQ6VXNlcjU3MzQ4MDA5",
@@ -311,9 +332,9 @@
       }
     ],
     "milestone": null,
-    "comments": 11,
+    "comments": 13,
     "created_at": "2025-10-06T19:53:41Z",
-    "updated_at": "2025-10-06T20:13:44Z",
+    "updated_at": "2025-10-07T02:49:15Z",
     "closed_at": null,
     "author_association": "CONTRIBUTOR",
     "type": null,
@@ -329,7 +350,7 @@
       "blocking": 0,
       "total_blocking": 0
     },
-    "body": "**Issue reported by:** @sakluger \n[Slack conversation](https://expensify.slack.com/archives/C03U7DCU4/p1759773230582839)\n\n## Problem\n\nIn the chat message action menu, `Copy to clipboard` is confusing and unclear when there is also a `Copy link` option.\n\n<img width=\"528\" height=\"501\" alt=\"Image\" src=\"https://github.com/user-attachments/assets/a19c0418-73ac-4794-bcba-c39ff9f6a5dc\" />\n\n## Solution\n\nWe should change `Copy to clipboard` to `Copy message`.\n\n## Action Performed:\n1. Send a message in any chat\n2. Hover over the sent message and click the three dots action menu\n<details><summary>Upwork Automation - Do Not Edit</summary>\n    <ul>\n        <li>Upwork Job URL: https://www.upwork.com/jobs/~021975288389132107353</li>\n        <li>Upwork Job ID: 1975288389132107353</li>\n        <li>Last Price Increase: 2025-10-06</li>\n    </ul>\n</details>\n\n<details><summary>Issue Owner</summary>Current Issue Owner: @QichenZhu</details>",
+    "body": "**Issue reported by:** @sakluger \n[Slack conversation](https://expensify.slack.com/archives/C03U7DCU4/p1759773230582839)\n\n## Problem\n\nIn the chat message action menu, `Copy to clipboard` is confusing and unclear when there is also a `Copy link` option.\n\n<img width=\"528\" height=\"501\" alt=\"Image\" src=\"https://github.com/user-attachments/assets/a19c0418-73ac-4794-bcba-c39ff9f6a5dc\" />\n\n## Solution\n\nWe should change `Copy to clipboard` to `Copy message`.\n\n## Action Performed:\n1. Send a message in any chat\n2. Hover over the sent message and click the three dots action menu\n<details><summary>Upwork Automation - Do Not Edit</summary>\n    <ul>\n        <li>Upwork Job URL: https://www.upwork.com/jobs/~021975288389132107353</li>\n        <li>Upwork Job ID: 1975288389132107353</li>\n        <li>Last Price Increase: 2025-10-06</li>\n    </ul>\n</details>\n\n<details><summary>Issue Owner</summary>Current Issue Owner: @amyevans</details>",
     "closed_by": null,
     "reactions": {
       "url": "https://api.github.com/repos/Expensify/App/issues/71928/reactions",
