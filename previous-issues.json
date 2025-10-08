@@ -237,15 +237,6 @@
         "description": "KSv2"
       },
       {
-        "id": 3033591345,
-        "node_id": "MDU6TGFiZWwzMDMzNTkxMzQ1",
-        "url": "https://api.github.com/repos/Expensify/App/labels/Planning",
-        "name": "Planning",
-        "color": "999999",
-        "default": false,
-        "description": "Changes still in the thought process"
-      },
-      {
         "id": 3033757191,
         "node_id": "MDU6TGFiZWwzMDMzNzU3MTkx",
         "url": "https://api.github.com/repos/Expensify/App/labels/NewFeature",
@@ -353,9 +344,9 @@
       }
     ],
     "milestone": null,
-    "comments": 10,
+    "comments": 14,
     "created_at": "2025-10-08T14:00:22Z",
-    "updated_at": "2025-10-08T18:21:45Z",
+    "updated_at": "2025-10-08T18:56:06Z",
     "closed_at": null,
     "author_association": "CONTRIBUTOR",
     "type": null,
@@ -371,7 +362,7 @@
       "blocking": 0,
       "total_blocking": 0
     },
-    "body": "Coming from [here](https://expensify.slack.com/archives/C07NMDKEFMH/p1759861399608339), we've received feedback from NewDot customers that they miss the OldDot report view where we group report expenses by category into distinct sections and show category-specific totals. We're thinking we can do this by adding a `Report layout` option in the `More` menu of a report. Notes on it: \n\n- Tapping it would open the option to group by category, tag, or none. \n- I expect none would remain the default. \n- The selection would be stick across reports. \n- We're also discussing a \"split by\" section that allows you to further organize reports by reimbursable/non-reimbursable expenses (shown in the mock below), but we are thinking we can skip implementing that for now and add it later if we see demand for it. Would still be nice to mock it for now, to ensure our design for categories/tags is forward compatible though.\n- We still need to mock how the report grouped by category or tag would look, but @shawnborton had the idea of using headers/totals similar to the second mock below, so that could be an option. \n\n<img width=\"2054\" height=\"1796\" alt=\"Image\" src=\"https://github.com/user-attachments/assets/33fdb316-6bc1-4ad1-8b5c-f2b88db1fc44\" />\n\n<img width=\"2880\" height=\"1624\" alt=\"Image\" src=\"https://github.com/user-attachments/assets/4c95d247-5f32-40f5-a6de-e94de34dda91\" />\n\ncc @Expensify/product-pr @Expensify/design \n<details><summary>Upwork Automation - Do Not Edit</summary>\n    <ul>\n        <li>Upwork Job URL: https://www.upwork.com/jobs/~021975924282133236969</li>\n        <li>Upwork Job ID: 1975924282133236969</li>\n        <li>Last Price Increase: 2025-10-08</li>\n    </ul>\n</details>\n\n<details><summary>Issue Owner</summary>Current Issue Owner: @shubham1206agra</details>",
+    "body": "Coming from [here](https://expensify.slack.com/archives/C07NMDKEFMH/p1759861399608339), we've received feedback from NewDot customers that they miss the OldDot report view where we group report expenses by category into distinct sections and show category-specific totals. We're thinking we can do this by adding a `Report layout` option in the `More` menu of a report. Notes on it: \n\n- Tapping it would open the option to group by category, tag, or none. \n- I expect none would remain the default. \n- The selection would be sticky across reports. \n- We're also discussing a \"split by\" section that allows you to further organize reports by reimbursable/non-reimbursable expenses (shown in the mock below), but we are thinking we can skip implementing that for now and add it later if we see demand for it.\n\n**Future RHP with Group by and Split by options:**\n<img width=\"2054\" height=\"1796\" alt=\"Image\" src=\"https://github.com/user-attachments/assets/33fdb316-6bc1-4ad1-8b5c-f2b88db1fc44\" />\n\n### Mocks for implementation now\n**Menu:**\n<img width=\"2800\" height=\"1624\" alt=\"Image\" src=\"https://github.com/user-attachments/assets/812f0722-6d90-484b-8f16-bae5930496a8\" />\n\n**Report layout RHP:**\n<img width=\"2800\" height=\"1624\" alt=\"Image\" src=\"https://github.com/user-attachments/assets/8802d104-8721-4568-add9-81483a399b3d\" />\n\n**Group by category:**\n<img width=\"2800\" height=\"1624\" alt=\"Image\" src=\"https://github.com/user-attachments/assets/81f714ac-1bb7-4cdf-b3eb-b98a2e141160\" />\n\n**A few specs to help with the headers:**\n<img width=\"1568\" height=\"1150\" alt=\"Image\" src=\"https://github.com/user-attachments/assets/c55bb6ea-3d7f-4e40-9b1d-9ea7500a07ba\" />\n\n**Bulk selecting a group (works the exact same as it does today, just with the added checkbox control in the group header):**\n<img width=\"2800\" height=\"1624\" alt=\"Image\" src=\"https://github.com/user-attachments/assets/642c24e2-5900-4e0f-a6b4-27c31d5c587e\" />\n\n**Mobile:**\n<img width=\"1918\" height=\"1654\" alt=\"Image\" src=\"https://github.com/user-attachments/assets/176dc780-cfe5-4ebe-bf0c-ddc5b1ef778e\" />\n\n**Mobile specs:**\n<img width=\"1320\" height=\"1138\" alt=\"Image\" src=\"https://github.com/user-attachments/assets/0f73f936-b754-4dae-ab6d-73b65cc47522\" />\n\ncc @Expensify/product-pr @Expensify/design \n<details><summary>Upwork Automation - Do Not Edit</summary>\n    <ul>\n        <li>Upwork Job URL: https://www.upwork.com/jobs/~021975924282133236969</li>\n        <li>Upwork Job ID: 1975924282133236969</li>\n        <li>Last Price Increase: 2025-10-08</li>\n    </ul>\n</details>\n\n<details><summary>Issue Owner</summary>Current Issue Owner: @shubham1206agra</details>",
     "closed_by": null,
     "reactions": {
       "url": "https://api.github.com/repos/Expensify/App/issues/72100/reactions",
@@ -1864,7 +1855,7 @@
     "milestone": null,
     "comments": 16,
     "created_at": "2025-10-08T01:12:41Z",
-    "updated_at": "2025-10-08T18:28:27Z",
+    "updated_at": "2025-10-08T19:07:03Z",
     "closed_at": null,
     "author_association": "CONTRIBUTOR",
     "type": null,
@@ -2058,9 +2049,9 @@
       }
     ],
     "milestone": null,
-    "comments": 18,
+    "comments": 19,
     "created_at": "2025-10-08T01:12:38Z",
-    "updated_at": "2025-10-08T16:52:22Z",
+    "updated_at": "2025-10-08T18:55:38Z",
     "closed_at": null,
     "author_association": "CONTRIBUTOR",
     "type": null,
@@ -2585,7 +2576,7 @@
     "milestone": null,
     "comments": 10,
     "created_at": "2025-10-08T01:12:29Z",
-    "updated_at": "2025-10-08T15:41:42Z",
+    "updated_at": "2025-10-08T18:57:09Z",
     "closed_at": null,
     "author_association": "CONTRIBUTOR",
     "type": null,
@@ -3708,9 +3699,9 @@
       }
     ],
     "milestone": null,
-    "comments": 10,
+    "comments": 12,
     "created_at": "2025-10-08T01:12:11Z",
-    "updated_at": "2025-10-08T17:07:38Z",
+    "updated_at": "2025-10-08T18:37:56Z",
     "closed_at": null,
     "author_association": "CONTRIBUTOR",
     "type": null,
