@@ -985,6 +985,27 @@
     },
     "assignees": [
       {
+        "login": "roryabraham",
+        "id": 47436092,
+        "node_id": "MDQ6VXNlcjQ3NDM2MDky",
+        "avatar_url": "https://avatars.githubusercontent.com/u/47436092?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/roryabraham",
+        "html_url": "https://github.com/roryabraham",
+        "followers_url": "https://api.github.com/users/roryabraham/followers",
+        "following_url": "https://api.github.com/users/roryabraham/following{/other_user}",
+        "gists_url": "https://api.github.com/users/roryabraham/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/roryabraham/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/roryabraham/subscriptions",
+        "organizations_url": "https://api.github.com/users/roryabraham/orgs",
+        "repos_url": "https://api.github.com/users/roryabraham/repos",
+        "events_url": "https://api.github.com/users/roryabraham/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/roryabraham/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      {
         "login": "Christinadobrzyn",
         "id": 51066321,
         "node_id": "MDQ6VXNlcjUxMDY2MzIx",
@@ -1028,9 +1049,9 @@
       }
     ],
     "milestone": null,
-    "comments": 6,
+    "comments": 8,
     "created_at": "2025-10-17T07:03:47Z",
-    "updated_at": "2025-10-17T16:51:06Z",
+    "updated_at": "2025-10-18T01:13:33Z",
     "closed_at": null,
     "author_association": "NONE",
     "type": null,
@@ -1046,7 +1067,7 @@
       "blocking": 0,
       "total_blocking": 0
     },
-    "body": "If you haven’t already, check out our [contributing guidelines](https://github.com/Expensify/ReactNativeChat/blob/main/contributingGuides/CONTRIBUTING.md) for onboarding and email contributors@expensify.com to request to join our Slack channel!\n___\n\n**Version Number:** V9.2.33-0\n**Reproducible in staging?:** Yes\n**Reproducible in production?:** Yes\n**If this was caught during regression testing, add the test name, ID and link from BrowserStack:** https://test-management.browserstack.com/projects/2219752/test-runs/TR-1351/folder/13176670/45748766/958155207\n**Email or phone of affected tester (no customers):** Slottwo1 fgg55@gmail.com\n**Issue reported by:** Applause Internal Team\n**Device used:** Redminote 10s android 13\n**App Component:** Money Requests\n\n## Action Performed:\n\n1. Go to workspace settings \n3. Enable per diem and import per diem file\n4. Open workpace chat \n5. Tap plus icon - create expense - per diem\n6. Select a start time - Enter end time - next\n7. Tap save without entering any data\n8. Enter quantity \n9. Tap fix the error displayed below\n\n## Expected Result:\nTapping fix the error musn't display subrate with blue border in per diem flow.\n\n## Actual Result:\nTapping fix the error displays subrate with blue border in per diem flow.\n\n## Workaround:\nUnknown\n\n## Platforms:\n- [ ] Android: App\n- [x] Android: mWeb Chrome\n- [ ] iOS: App\n- [ ] iOS: mWeb Safari\n- [ ] iOS: mWeb Chrome\n- [x] Windows: Chrome\n- [ ] MacOS: Chrome / Safari\n- [ ] MacOS: Desktop\n\n## Screenshots/Videos\n\nhttps://github.com/user-attachments/assets/830563dc-21ef-4616-9ed4-00148d37015b\n\n[View all open jobs on GitHub](https://github.com/Expensify/App/issues?q=is%3Aopen+is%3Aissue+label%3A%22Help+Wanted%22)\n<details><summary>Upwork Automation - Do Not Edit</summary>\n    <ul>\n        <li>Upwork Job URL: https://www.upwork.com/jobs/~021979228621542406965</li>\n        <li>Upwork Job ID: 1979228621542406965</li>\n        <li>Last Price Increase: 2025-10-17</li>\n    </ul>\n</details>\n\n<details><summary>Issue Owner</summary>Current Issue Owner: @ikevin127</details>",
+    "body": "If you haven’t already, check out our [contributing guidelines](https://github.com/Expensify/ReactNativeChat/blob/main/contributingGuides/CONTRIBUTING.md) for onboarding and email contributors@expensify.com to request to join our Slack channel!\n___\n\n**Version Number:** V9.2.33-0\n**Reproducible in staging?:** Yes\n**Reproducible in production?:** Yes\n**If this was caught during regression testing, add the test name, ID and link from BrowserStack:** https://test-management.browserstack.com/projects/2219752/test-runs/TR-1351/folder/13176670/45748766/958155207\n**Email or phone of affected tester (no customers):** Slottwo1 fgg55@gmail.com\n**Issue reported by:** Applause Internal Team\n**Device used:** Redminote 10s android 13\n**App Component:** Money Requests\n\n## Action Performed:\n\n1. Go to workspace settings \n3. Enable per diem and import per diem file\n4. Open workpace chat \n5. Tap plus icon - create expense - per diem\n6. Select a start time - Enter end time - next\n7. Tap save without entering any data\n8. Enter quantity \n9. Tap fix the error displayed below\n\n## Expected Result:\nTapping fix the error musn't display subrate with blue border in per diem flow.\n\n## Actual Result:\nTapping fix the error displays subrate with blue border in per diem flow.\n\n## Workaround:\nUnknown\n\n## Platforms:\n- [ ] Android: App\n- [x] Android: mWeb Chrome\n- [ ] iOS: App\n- [ ] iOS: mWeb Safari\n- [ ] iOS: mWeb Chrome\n- [x] Windows: Chrome\n- [ ] MacOS: Chrome / Safari\n- [ ] MacOS: Desktop\n\n## Screenshots/Videos\n\nhttps://github.com/user-attachments/assets/830563dc-21ef-4616-9ed4-00148d37015b\n\n[View all open jobs on GitHub](https://github.com/Expensify/App/issues?q=is%3Aopen+is%3Aissue+label%3A%22Help+Wanted%22)\n<details><summary>Upwork Automation - Do Not Edit</summary>\n    <ul>\n        <li>Upwork Job URL: https://www.upwork.com/jobs/~021979228621542406965</li>\n        <li>Upwork Job ID: 1979228621542406965</li>\n        <li>Last Price Increase: 2025-10-17</li>\n    </ul>\n</details>\n\n<details><summary>Issue Owner</summary>Current Issue Owner: @roryabraham</details>",
     "closed_by": null,
     "reactions": {
       "url": "https://api.github.com/repos/Expensify/App/issues/72839/reactions",
