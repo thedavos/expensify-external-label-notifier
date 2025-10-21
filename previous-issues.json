@@ -137,9 +137,9 @@
       }
     ],
     "milestone": null,
-    "comments": 5,
+    "comments": 6,
     "created_at": "2025-10-20T15:24:48Z",
-    "updated_at": "2025-10-20T17:23:33Z",
+    "updated_at": "2025-10-21T02:57:25Z",
     "closed_at": null,
     "author_association": "NONE",
     "type": null,
@@ -332,9 +332,9 @@
       }
     ],
     "milestone": null,
-    "comments": 8,
+    "comments": 12,
     "created_at": "2025-10-20T11:49:55Z",
-    "updated_at": "2025-10-20T23:13:15Z",
+    "updated_at": "2025-10-21T01:59:05Z",
     "closed_at": null,
     "author_association": "NONE",
     "type": null,
@@ -350,7 +350,7 @@
       "blocking": 0,
       "total_blocking": 0
     },
-    "body": "If you haven’t already, check out our [contributing guidelines](https://github.com/Expensify/ReactNativeChat/blob/main/contributingGuides/CONTRIBUTING.md) for onboarding and email contributors@expensify.com to request to join our Slack channel!\n___\n\n**Version Number:** 9.2.34-0 \n**Reproducible in staging?:** Y\n**Reproducible in production?:** Y\n**If this was caught during regression testing, add the test name, ID and link from TestRail:**\n**Email or phone of affected tester (no customers):**\n**Logs:** https://stackoverflow.com/c/expensify/questions/4856\n**Expensify/Expensify Issue URL:**\n**Issue reported by:** @mukhrr \n**Slack conversation** (hyperlinked to channel name): [#Open Source](https://expensify.slack.com/archives/C01GTK53T8Q/p1760859140008749)\n\n## Action Performed:\nPrecondition:\nHave card transactions created\n\n1. Go to https://staging.new.expensify.com/\n2. Go to a card transaction\n3. Split it and save\n4. Click to one of split expense\n5. Click Edit split\n6. Add one more split and make sure to match total of all splits\n7. Click Save\n\n## Expected Result:\nAll transactions in report should have a receipt and card icon/text\n\n## Actual Result:\nOnly some (previously touched: added and subtracted) transactions have receipt and card icon/text. The rest defaults to cash and no receipt\nRefreshing page makes it correct\n\n## Workaround:\nRefreshing page makes it correct\n\n## Platforms:\nSelect the officially supported platforms where the issue was reproduced:\n- [ ] Android: App\n- [ ] Android: mWeb Chrome\n- [ ] iOS: App\n- [ ] iOS: mWeb Safari\n- [ ] iOS: mWeb Chrome\n- [ ] Windows: Chrome\n- [x] MacOS: Chrome / Safari\n- [ ] MacOS: Desktop\n\n<details>\n  <summary>Platforms Tested:</summary>\nOn which of our officially supported platforms was this issue tested:\n\n- [ ] Android: App\n- [ ] Android: mWeb Chrome\n- [ ] iOS: App\n- [ ] iOS: mWeb Safari\n- [ ] iOS: mWeb Chrome\n- [x] Windows: Chrome\n- [ ] MacOS: Chrome / Safari\n- [ ] MacOS: Desktop\n\n</details>\n\n## Screenshots/Videos\n\n<details>\n  <summary>Add any screenshot/video evidence</summary>\n\n\n</details>\n\nhttps://github.com/user-attachments/assets/1748755f-b0a1-4bec-8f00-aab2e0430f99\n\nhttps://github.com/user-attachments/assets/b708cc6b-e124-487e-b60e-c227f4d846fd\n\n[View all open jobs on GitHub](https://github.com/Expensify/App/issues?q=is%3Aopen+is%3Aissue+label%3A%22Help+Wanted%22)\n\n<details><summary>Upwork Automation - Do Not Edit</summary>\n    <ul>\n        <li>Upwork Job URL: https://www.upwork.com/jobs/~021980242265245066836</li>\n        <li>Upwork Job ID: 1980242265245066836</li>\n        <li>Last Price Increase: 2025-10-20</li>\n    </ul>\n</details>\n\n<details><summary>Issue Owner</summary>Current Issue Owner: @ikevin127</details>",
+    "body": "If you haven’t already, check out our [contributing guidelines](https://github.com/Expensify/ReactNativeChat/blob/main/contributingGuides/CONTRIBUTING.md) for onboarding and email contributors@expensify.com to request to join our Slack channel!\n___\n\n**Version Number:** 9.2.34-0 \n**Reproducible in staging?:** Y\n**Reproducible in production?:** Y\n**If this was caught during regression testing, add the test name, ID and link from TestRail:**\n**Email or phone of affected tester (no customers):**\n**Logs:** https://stackoverflow.com/c/expensify/questions/4856\n**Expensify/Expensify Issue URL:**\n**Issue reported by:** @mukhrr \n**Slack conversation** (hyperlinked to channel name): [#Open Source](https://expensify.slack.com/archives/C01GTK53T8Q/p1760859140008749)\n\n## Action Performed:\nPrecondition:\nHave card transactions created\n\n1. Go to https://staging.new.expensify.com/\n2. Go to a card transaction\n3. Split it and save\n4. Click to one of split expense\n5. Click Edit split\n6. Add one more split and make sure to match total of all splits\n7. Click Save\n\n## Expected Result:\nAll transactions in report should have a receipt and card icon/text\n\n## Actual Result:\nOnly some (previously touched: added and subtracted) transactions have receipt and card icon/text. The rest defaults to cash and no receipt\nRefreshing page makes it correct\n\n## Workaround:\nRefreshing page makes it correct\n\n## Platforms:\nSelect the officially supported platforms where the issue was reproduced:\n- [ ] Android: App\n- [ ] Android: mWeb Chrome\n- [ ] iOS: App\n- [ ] iOS: mWeb Safari\n- [ ] iOS: mWeb Chrome\n- [ ] Windows: Chrome\n- [x] MacOS: Chrome / Safari\n- [ ] MacOS: Desktop\n\n<details>\n  <summary>Platforms Tested:</summary>\nOn which of our officially supported platforms was this issue tested:\n\n- [ ] Android: App\n- [ ] Android: mWeb Chrome\n- [ ] iOS: App\n- [ ] iOS: mWeb Safari\n- [ ] iOS: mWeb Chrome\n- [x] Windows: Chrome\n- [ ] MacOS: Chrome / Safari\n- [ ] MacOS: Desktop\n\n</details>\n\n## Screenshots/Videos\n\n<details>\n  <summary>Add any screenshot/video evidence</summary>\n\n\n</details>\n\nhttps://github.com/user-attachments/assets/1748755f-b0a1-4bec-8f00-aab2e0430f99\n\nhttps://github.com/user-attachments/assets/b708cc6b-e124-487e-b60e-c227f4d846fd\n\n[View all open jobs on GitHub](https://github.com/Expensify/App/issues?q=is%3Aopen+is%3Aissue+label%3A%22Help+Wanted%22)\n\n<details><summary>Upwork Automation - Do Not Edit</summary>\n    <ul>\n        <li>Upwork Job URL: https://www.upwork.com/jobs/~021980242265245066836</li>\n        <li>Upwork Job ID: 1980242265245066836</li>\n        <li>Last Price Increase: 2025-10-20</li>\n    </ul>\n</details>\n\n<details><summary>Issue Owner</summary>Current Issue Owner: @</details>",
     "closed_by": null,
     "reactions": {
       "url": "https://api.github.com/repos/Expensify/App/issues/72975/reactions",
@@ -1088,9 +1088,9 @@
       }
     ],
     "milestone": null,
-    "comments": 5,
+    "comments": 6,
     "created_at": "2025-10-19T16:24:44Z",
-    "updated_at": "2025-10-21T00:12:39Z",
+    "updated_at": "2025-10-21T02:07:02Z",
     "closed_at": null,
     "author_association": "NONE",
     "type": null,
