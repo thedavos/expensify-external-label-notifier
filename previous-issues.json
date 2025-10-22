@@ -1336,6 +1336,27 @@
     },
     "assignees": [
       {
+        "login": "deetergp",
+        "id": 766197,
+        "node_id": "MDQ6VXNlcjc2NjE5Nw==",
+        "avatar_url": "https://avatars.githubusercontent.com/u/766197?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/deetergp",
+        "html_url": "https://github.com/deetergp",
+        "followers_url": "https://api.github.com/users/deetergp/followers",
+        "following_url": "https://api.github.com/users/deetergp/following{/other_user}",
+        "gists_url": "https://api.github.com/users/deetergp/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/deetergp/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/deetergp/subscriptions",
+        "organizations_url": "https://api.github.com/users/deetergp/orgs",
+        "repos_url": "https://api.github.com/users/deetergp/repos",
+        "events_url": "https://api.github.com/users/deetergp/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/deetergp/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      {
         "login": "twisterdotcom",
         "id": 9133401,
         "node_id": "MDQ6VXNlcjkxMzM0MDE=",
@@ -1379,9 +1400,9 @@
       }
     ],
     "milestone": null,
-    "comments": 11,
+    "comments": 13,
     "created_at": "2025-10-21T03:26:14Z",
-    "updated_at": "2025-10-21T17:45:36Z",
+    "updated_at": "2025-10-22T03:26:03Z",
     "closed_at": null,
     "author_association": "NONE",
     "type": null,
@@ -1397,7 +1418,7 @@
       "blocking": 0,
       "total_blocking": 0
     },
-    "body": "If you haven’t already, check out our [contributing guidelines](https://github.com/Expensify/ReactNativeChat/blob/main/contributingGuides/CONTRIBUTING.md) for onboarding and email contributors@expensify.com to request to join our Slack channel!\n___\n\n**Version Number:** 9.2.34-0\n**Reproducible in staging?:** Yes\n**Reproducible in production?:** Yes\n**If this was caught during regression testing, add the test name, ID and link from BrowserStack:** https://test-management.browserstack.com/projects/2219752/test-runs/TR-1372/folder/13176710/41236938/962795958\n**Email or phone of affected tester (no customers):** N/A\n**Issue reported by:** Applause Internal Team\n**Device used:** Windows 10 / Chrome\n**App Component:** Other\n\n## Action Performed:\n1. On a conversation, click on the + button in the compose box\n2. Click on add attachment\n3. Upload a Video\n4. Click on the \"Send\" button.\n5. Click on the play button and hover the mouse over the video.\n6. Click on the three dots button -> Playback speed -> 0.25\n7. Click on the full screen button.\n8. Click on the three dots button -> Playback speed -> 0.75\n9. Minimize the video.\n10. Repeat step 6 and observe the selected playback speed.\n\n## Expected Result:\nThe playback speed should be updated to 0.75 speed selected in full screen mode.\n\n## Actual Result:\n0.25 speed still selected in the playback speed list after minimizing the video.\n\n## Workaround:\nUnknown\n\n## Platforms:\n- [ ] Android: App\n- [ ] Android: mWeb Chrome\n- [ ] iOS: App\n- [ ] iOS: mWeb Safari\n- [ ] iOS: mWeb Chrome\n- [x] Windows: Chrome\n- [x] MacOS: Chrome / Safari\n- [ ] MacOS: Desktop\n\n## Screenshots/Videos\n\nhttps://github.com/user-attachments/assets/a2b1a00d-48e6-41ed-92e3-7e7bbd9de38a\n\n[View all open jobs on GitHub](https://github.com/Expensify/App/issues?q=is%3Aopen+is%3Aissue+label%3A%22Help+Wanted%22)\n<details><summary>Upwork Automation - Do Not Edit</summary>\n    <ul>\n        <li>Upwork Job URL: https://www.upwork.com/jobs/~021980563613521161672</li>\n        <li>Upwork Job ID: 1980563613521161672</li>\n        <li>Last Price Increase: 2025-10-21</li>\n    </ul>\n</details>\n\n<details><summary>Issue Owner</summary>Current Issue Owner: @shubham1206agra</details>",
+    "body": "If you haven’t already, check out our [contributing guidelines](https://github.com/Expensify/ReactNativeChat/blob/main/contributingGuides/CONTRIBUTING.md) for onboarding and email contributors@expensify.com to request to join our Slack channel!\n___\n\n**Version Number:** 9.2.34-0\n**Reproducible in staging?:** Yes\n**Reproducible in production?:** Yes\n**If this was caught during regression testing, add the test name, ID and link from BrowserStack:** https://test-management.browserstack.com/projects/2219752/test-runs/TR-1372/folder/13176710/41236938/962795958\n**Email or phone of affected tester (no customers):** N/A\n**Issue reported by:** Applause Internal Team\n**Device used:** Windows 10 / Chrome\n**App Component:** Other\n\n## Action Performed:\n1. On a conversation, click on the + button in the compose box\n2. Click on add attachment\n3. Upload a Video\n4. Click on the \"Send\" button.\n5. Click on the play button and hover the mouse over the video.\n6. Click on the three dots button -> Playback speed -> 0.25\n7. Click on the full screen button.\n8. Click on the three dots button -> Playback speed -> 0.75\n9. Minimize the video.\n10. Repeat step 6 and observe the selected playback speed.\n\n## Expected Result:\nThe playback speed should be updated to 0.75 speed selected in full screen mode.\n\n## Actual Result:\n0.25 speed still selected in the playback speed list after minimizing the video.\n\n## Workaround:\nUnknown\n\n## Platforms:\n- [ ] Android: App\n- [ ] Android: mWeb Chrome\n- [ ] iOS: App\n- [ ] iOS: mWeb Safari\n- [ ] iOS: mWeb Chrome\n- [x] Windows: Chrome\n- [x] MacOS: Chrome / Safari\n- [ ] MacOS: Desktop\n\n## Screenshots/Videos\n\nhttps://github.com/user-attachments/assets/a2b1a00d-48e6-41ed-92e3-7e7bbd9de38a\n\n[View all open jobs on GitHub](https://github.com/Expensify/App/issues?q=is%3Aopen+is%3Aissue+label%3A%22Help+Wanted%22)\n<details><summary>Upwork Automation - Do Not Edit</summary>\n    <ul>\n        <li>Upwork Job URL: https://www.upwork.com/jobs/~021980563613521161672</li>\n        <li>Upwork Job ID: 1980563613521161672</li>\n        <li>Last Price Increase: 2025-10-21</li>\n    </ul>\n</details>\n\n<details><summary>Issue Owner</summary>Current Issue Owner: @deetergp</details>",
     "closed_by": null,
     "reactions": {
       "url": "https://api.github.com/repos/Expensify/App/issues/73050/reactions",
@@ -1553,9 +1574,9 @@
       }
     ],
     "milestone": null,
-    "comments": 4,
+    "comments": 5,
     "created_at": "2025-10-21T02:48:53Z",
-    "updated_at": "2025-10-21T23:44:44Z",
+    "updated_at": "2025-10-22T03:36:00Z",
     "closed_at": null,
     "author_association": "NONE",
     "type": null,
