@@ -514,6 +514,27 @@
     },
     "assignees": [
       {
+        "login": "puneetlath",
+        "id": 1371996,
+        "node_id": "MDQ6VXNlcjEzNzE5OTY=",
+        "avatar_url": "https://avatars.githubusercontent.com/u/1371996?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/puneetlath",
+        "html_url": "https://github.com/puneetlath",
+        "followers_url": "https://api.github.com/users/puneetlath/followers",
+        "following_url": "https://api.github.com/users/puneetlath/following{/other_user}",
+        "gists_url": "https://api.github.com/users/puneetlath/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/puneetlath/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/puneetlath/subscriptions",
+        "organizations_url": "https://api.github.com/users/puneetlath/orgs",
+        "repos_url": "https://api.github.com/users/puneetlath/repos",
+        "events_url": "https://api.github.com/users/puneetlath/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/puneetlath/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      {
         "login": "lschurr",
         "id": 33293730,
         "node_id": "MDQ6VXNlcjMzMjkzNzMw",
@@ -557,9 +578,9 @@
       }
     ],
     "milestone": null,
-    "comments": 5,
+    "comments": 7,
     "created_at": "2025-10-24T10:53:48Z",
-    "updated_at": "2025-10-24T18:50:07Z",
+    "updated_at": "2025-10-25T02:26:33Z",
     "closed_at": null,
     "author_association": "NONE",
     "type": null,
@@ -575,7 +596,7 @@
       "blocking": 0,
       "total_blocking": 0
     },
-    "body": "If you haven’t already, check out our [contributing guidelines](https://github.com/Expensify/ReactNativeChat/blob/main/contributingGuides/CONTRIBUTING.md) for onboarding and email contributors@expensify.com to request to join our Slack channel!\n___\n\n**Version Number:** 9.2.37-8\n**Reproducible in staging?:** Yes\n**Reproducible in production?:** Yes\n**If this was caught during regression testing, add the test name, ID and link from TestRail:**\n**Email or phone of affected tester (no customers):**\n**Logs:** https://stackoverflow.com/c/expensify/questions/4856\n**Expensify/Expensify Issue URL:**\n**Issue reported by:** @QichenZhu \n**Slack conversation** (hyperlinked to channel name): [#expensify_bugs](https://expensify.slack.com/archives/C049HHMV9SM/p1761277531273699)\n\n## Action Performed:\nPrecondition: At least 2 expenses in self DM.\n\n1. Go to https://staging.new.expensify.com/\n2. Open an expense in self DM\n3. Tap More > Merge\n4. Select another expense and Continue\n5. Choose any details and Continue\n6. Tap Merge expenses\n\n## Expected Result:\nNo canBeMissing errors in the console.\n\n## Actual Result:\nThere are two canBeMissing console errors:\n1. [Onyx] useOnyx returned no data for key with canBeMissing set to false for key policy_undefined\n2. [Onyx] useOnyx returned no data for key with canBeMissing set to false for key mergeTransaction_4792941280298311116\n## Workaround:\nCan the user still use Expensify without this being fixed? Have you informed them of the workaround?\n\n## Platforms:\nSelect the officially supported platforms where the issue was reproduced:\n- [ ] Android: App\n- [x] Android: mWeb Chrome\n- [ ] iOS: App\n- [ ] iOS: mWeb Safari\n- [ ] iOS: mWeb Chrome\n- [ ] Windows: Chrome\n- [ ] MacOS: Chrome / Safari\n- [ ] MacOS: Desktop\n\n<details>\n  <summary>Platforms Tested:</summary>\nOn which of our officially supported platforms was this issue tested:\n\n- [ ] Android: App\n- [x] Android: mWeb Chrome\n- [ ] iOS: App\n- [ ] iOS: mWeb Safari\n- [ ] iOS: mWeb Chrome\n- [ ] Windows: Chrome\n- [ ] MacOS: Chrome / Safari\n- [ ] MacOS: Desktop\n\n</details>\n\n## Screenshots/Videos\n\nhttps://github.com/user-attachments/assets/d73b1b37-cbc7-4b01-aa54-cc5853e3cbe6\n\n[View all open jobs on GitHub](https://github.com/Expensify/App/issues?q=is%3Aopen+is%3Aissue+label%3A%22Help+Wanted%22)\n\n<details><summary>Upwork Automation - Do Not Edit</summary>\n    <ul>\n        <li>Upwork Job URL: https://www.upwork.com/jobs/~021981795318329571536</li>\n        <li>Upwork Job ID: 1981795318329571536</li>\n        <li>Last Price Increase: 2025-10-24</li>\n    </ul>\n</details>\n\n<details><summary>Issue Owner</summary>Current Issue Owner: @bernhardoj</details>",
+    "body": "If you haven’t already, check out our [contributing guidelines](https://github.com/Expensify/ReactNativeChat/blob/main/contributingGuides/CONTRIBUTING.md) for onboarding and email contributors@expensify.com to request to join our Slack channel!\n___\n\n**Version Number:** 9.2.37-8\n**Reproducible in staging?:** Yes\n**Reproducible in production?:** Yes\n**If this was caught during regression testing, add the test name, ID and link from TestRail:**\n**Email or phone of affected tester (no customers):**\n**Logs:** https://stackoverflow.com/c/expensify/questions/4856\n**Expensify/Expensify Issue URL:**\n**Issue reported by:** @QichenZhu \n**Slack conversation** (hyperlinked to channel name): [#expensify_bugs](https://expensify.slack.com/archives/C049HHMV9SM/p1761277531273699)\n\n## Action Performed:\nPrecondition: At least 2 expenses in self DM.\n\n1. Go to https://staging.new.expensify.com/\n2. Open an expense in self DM\n3. Tap More > Merge\n4. Select another expense and Continue\n5. Choose any details and Continue\n6. Tap Merge expenses\n\n## Expected Result:\nNo canBeMissing errors in the console.\n\n## Actual Result:\nThere are two canBeMissing console errors:\n1. [Onyx] useOnyx returned no data for key with canBeMissing set to false for key policy_undefined\n2. [Onyx] useOnyx returned no data for key with canBeMissing set to false for key mergeTransaction_4792941280298311116\n## Workaround:\nCan the user still use Expensify without this being fixed? Have you informed them of the workaround?\n\n## Platforms:\nSelect the officially supported platforms where the issue was reproduced:\n- [ ] Android: App\n- [x] Android: mWeb Chrome\n- [ ] iOS: App\n- [ ] iOS: mWeb Safari\n- [ ] iOS: mWeb Chrome\n- [ ] Windows: Chrome\n- [ ] MacOS: Chrome / Safari\n- [ ] MacOS: Desktop\n\n<details>\n  <summary>Platforms Tested:</summary>\nOn which of our officially supported platforms was this issue tested:\n\n- [ ] Android: App\n- [x] Android: mWeb Chrome\n- [ ] iOS: App\n- [ ] iOS: mWeb Safari\n- [ ] iOS: mWeb Chrome\n- [ ] Windows: Chrome\n- [ ] MacOS: Chrome / Safari\n- [ ] MacOS: Desktop\n\n</details>\n\n## Screenshots/Videos\n\nhttps://github.com/user-attachments/assets/d73b1b37-cbc7-4b01-aa54-cc5853e3cbe6\n\n[View all open jobs on GitHub](https://github.com/Expensify/App/issues?q=is%3Aopen+is%3Aissue+label%3A%22Help+Wanted%22)\n\n<details><summary>Upwork Automation - Do Not Edit</summary>\n    <ul>\n        <li>Upwork Job URL: https://www.upwork.com/jobs/~021981795318329571536</li>\n        <li>Upwork Job ID: 1981795318329571536</li>\n        <li>Last Price Increase: 2025-10-24</li>\n    </ul>\n</details>\n\n<details><summary>Issue Owner</summary>Current Issue Owner: @puneetlath</details>",
     "closed_by": null,
     "reactions": {
       "url": "https://api.github.com/repos/Expensify/App/issues/73418/reactions",
