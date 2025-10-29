@@ -1399,6 +1399,27 @@
     },
     "assignees": [
       {
+        "login": "francoisl",
+        "id": 2229301,
+        "node_id": "MDQ6VXNlcjIyMjkzMDE=",
+        "avatar_url": "https://avatars.githubusercontent.com/u/2229301?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/francoisl",
+        "html_url": "https://github.com/francoisl",
+        "followers_url": "https://api.github.com/users/francoisl/followers",
+        "following_url": "https://api.github.com/users/francoisl/following{/other_user}",
+        "gists_url": "https://api.github.com/users/francoisl/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/francoisl/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/francoisl/subscriptions",
+        "organizations_url": "https://api.github.com/users/francoisl/orgs",
+        "repos_url": "https://api.github.com/users/francoisl/repos",
+        "events_url": "https://api.github.com/users/francoisl/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/francoisl/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      {
         "login": "NicMendonca",
         "id": 24947345,
         "node_id": "MDQ6VXNlcjI0OTQ3MzQ1",
@@ -1442,9 +1463,9 @@
       }
     ],
     "milestone": null,
-    "comments": 13,
+    "comments": 15,
     "created_at": "2025-10-28T17:24:27Z",
-    "updated_at": "2025-10-29T13:19:33Z",
+    "updated_at": "2025-10-29T14:41:36Z",
     "closed_at": null,
     "author_association": "NONE",
     "type": null,
@@ -1460,7 +1481,7 @@
       "blocking": 0,
       "total_blocking": 0
     },
-    "body": "If you haven’t already, check out our [contributing guidelines](https://github.com/Expensify/ReactNativeChat/blob/main/contributingGuides/CONTRIBUTING.md) for onboarding and email contributors@expensify.com to request to join our Slack channel!\n___\n\n**Version Number:** V9.2.39-0\n**Reproducible in staging?:** Yes\n**Reproducible in production?:** Yes\n**If this was caught during regression testing, add the test name, ID and link from BrowserStack:** retesting https://github.com/Expensify/Expensify/issues/528139\nhttps://test-management.browserstack.com/projects/2219752/folder/13176670/test-cases/41237109\n**Email or phone of affected tester (no customers):** Slottwo1@gmail.com\n**Issue reported by:** Applause Internal Team\n**Device used:** Redminote 10s android 13 phone\n**App Component:** Money Requests\n\n## Action Performed:\n1.Open the Expensify app.\n2.Open any workspace chat.\n3.Submit two expenses to it. (One of them, has to be distance expense)\n4.Open the report of the just created expenses.\n5.Tap on \"More\"\n6.Delete the report\n7.Return to LHN.\n8.Note that the preview of the distance expense report, it now shows correctly.\n9.Open Self DM.\n10.Note that expenses are now displayed on that chat\n11. Note distance receipt is displayed with empty space \n12. Open the distance expense \nNote that \"Distance\" field is displayed correctly,\n\n## Expected Result:\nIn \"Rate\" field,  \"Rate out of policy\" error must be shown.\n\n## Actual Result:\nIn \"Rate\" field,  \"Rate out of policy\" error is not shown.\n\n## Workaround:\nUnknown\n\n## Platforms:\n- [x] Android: App\n- [x] Android: mWeb Chrome\n- [ ] iOS: App\n- [ ] iOS: mWeb Safari\n- [ ] iOS: mWeb Chrome\n- [x] Windows: Chrome\n- [ ] MacOS: Chrome / Safari\n- [ ] MacOS: Desktop\n\n## Screenshots/Videos\n\nhttps://github.com/user-attachments/assets/44735f53-7ab3-4e2f-b1b6-cdb4edfa87e6\n\n[View all open jobs on GitHub](https://github.com/Expensify/App/issues?q=is%3Aopen+is%3Aissue+label%3A%22Help+Wanted%22)\n<details><summary>Upwork Automation - Do Not Edit</summary>\n    <ul>\n        <li>Upwork Job URL: https://www.upwork.com/jobs/~021983335586114224619</li>\n        <li>Upwork Job ID: 1983335586114224619</li>\n        <li>Last Price Increase: 2025-10-29</li>\n    </ul>\n</details>\n\n<details><summary>Issue Owner</summary>Current Issue Owner: @truph01</details>",
+    "body": "If you haven’t already, check out our [contributing guidelines](https://github.com/Expensify/ReactNativeChat/blob/main/contributingGuides/CONTRIBUTING.md) for onboarding and email contributors@expensify.com to request to join our Slack channel!\n___\n\n**Version Number:** V9.2.39-0\n**Reproducible in staging?:** Yes\n**Reproducible in production?:** Yes\n**If this was caught during regression testing, add the test name, ID and link from BrowserStack:** retesting https://github.com/Expensify/Expensify/issues/528139\nhttps://test-management.browserstack.com/projects/2219752/folder/13176670/test-cases/41237109\n**Email or phone of affected tester (no customers):** Slottwo1@gmail.com\n**Issue reported by:** Applause Internal Team\n**Device used:** Redminote 10s android 13 phone\n**App Component:** Money Requests\n\n## Action Performed:\n1.Open the Expensify app.\n2.Open any workspace chat.\n3.Submit two expenses to it. (One of them, has to be distance expense)\n4.Open the report of the just created expenses.\n5.Tap on \"More\"\n6.Delete the report\n7.Return to LHN.\n8.Note that the preview of the distance expense report, it now shows correctly.\n9.Open Self DM.\n10.Note that expenses are now displayed on that chat\n11. Note distance receipt is displayed with empty space \n12. Open the distance expense \nNote that \"Distance\" field is displayed correctly,\n\n## Expected Result:\nIn \"Rate\" field,  \"Rate out of policy\" error must be shown.\n\n## Actual Result:\nIn \"Rate\" field,  \"Rate out of policy\" error is not shown.\n\n## Workaround:\nUnknown\n\n## Platforms:\n- [x] Android: App\n- [x] Android: mWeb Chrome\n- [ ] iOS: App\n- [ ] iOS: mWeb Safari\n- [ ] iOS: mWeb Chrome\n- [x] Windows: Chrome\n- [ ] MacOS: Chrome / Safari\n- [ ] MacOS: Desktop\n\n## Screenshots/Videos\n\nhttps://github.com/user-attachments/assets/44735f53-7ab3-4e2f-b1b6-cdb4edfa87e6\n\n[View all open jobs on GitHub](https://github.com/Expensify/App/issues?q=is%3Aopen+is%3Aissue+label%3A%22Help+Wanted%22)\n<details><summary>Upwork Automation - Do Not Edit</summary>\n    <ul>\n        <li>Upwork Job URL: https://www.upwork.com/jobs/~021983335586114224619</li>\n        <li>Upwork Job ID: 1983335586114224619</li>\n        <li>Last Price Increase: 2025-10-29</li>\n    </ul>\n</details>\n\n<details><summary>Issue Owner</summary>Current Issue Owner: @francoisl</details>",
     "closed_by": null,
     "reactions": {
       "url": "https://api.github.com/repos/Expensify/App/issues/73680/reactions",
