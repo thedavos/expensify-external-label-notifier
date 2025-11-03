@@ -51,15 +51,6 @@
         "description": "KSv2"
       },
       {
-        "id": 3136662525,
-        "node_id": "MDU6TGFiZWwzMTM2NjYyNTI1",
-        "url": "https://api.github.com/repos/Expensify/App/labels/Help%20Wanted",
-        "name": "Help Wanted",
-        "color": "CFC8F1",
-        "default": false,
-        "description": "Apply this label when an issue is open to proposals by contributors"
-      },
-      {
         "id": 4664850679,
         "node_id": "LA_kwDOEQqHYc8AAAABFgv49w",
         "url": "https://api.github.com/repos/Expensify/App/labels/Bug",
@@ -179,9 +170,9 @@
       }
     ],
     "milestone": null,
-    "comments": 4,
+    "comments": 5,
     "created_at": "2025-11-03T13:39:36Z",
-    "updated_at": "2025-11-03T19:14:39Z",
+    "updated_at": "2025-11-03T20:49:26Z",
     "closed_at": null,
     "author_association": "CONTRIBUTOR",
     "type": null,
@@ -197,7 +188,7 @@
       "blocking": 0,
       "total_blocking": 0
     },
-    "body": "### Background\nThe `useShortMentionsList` hook is used in LiveMarkdown/Composer components to filter personal details for short mention suggestions (format @username).\n\nCurrently, this hook processes potentially thousands of user records to determine which users share the same private email domain as the current user. The hook calls areEmailsFromSamePrivateDomain() for each personal detail record, which internally performs domain extraction using Str.extractEmailDomain() twice per call - once for the current user’s email and once for each personal detail email. For accounts with large user bases, this results in thousands of redundant string operations during each render cycle, as the current user’s domain is extracted and checked repeatedly for every comparison.\n\n### Problem\nWhen user enters report or search screen, the mention list calculation blocks the main thread for several hundred milliseconds, which negatively impacts the performance of opening the report or navigating through bottom tabs.\n\n### Solution\nPre-extract the current user’s domain once per render cycle.\n- If the domain is public, skip all comparisons since no matches are possible.\n- If private, extract each personal detail’s domain once and compare it directly against the cached current user domain.\n\nOn account with ~27k personal details, computation time of useShortMentionList drops from ~390 ms to ~160 ms.\n<details><summary>Upwork Automation - Do Not Edit</summary>\n    <ul>\n        <li>Upwork Job URL: https://www.upwork.com/jobs/~021985341107447298680</li>\n        <li>Upwork Job ID: 1985341107447298680</li>\n        <li>Last Price Increase: 2025-11-03</li>\n    </ul>\n</details>\n\n<details><summary>Issue Owner</summary>Current Issue Owner: @jjcoffee</details>",
+    "body": "### Background\nThe `useShortMentionsList` hook is used in LiveMarkdown/Composer components to filter personal details for short mention suggestions (format @username).\n\nCurrently, this hook processes potentially thousands of user records to determine which users share the same private email domain as the current user. The hook calls areEmailsFromSamePrivateDomain() for each personal detail record, which internally performs domain extraction using Str.extractEmailDomain() twice per call - once for the current user’s email and once for each personal detail email. For accounts with large user bases, this results in thousands of redundant string operations during each render cycle, as the current user’s domain is extracted and checked repeatedly for every comparison.\n\n### Problem\nWhen user enters report or search screen, the mention list calculation blocks the main thread for several hundred milliseconds, which negatively impacts the performance of opening the report or navigating through bottom tabs.\n\n### Solution\nPre-extract the current user’s domain once per render cycle.\n- If the domain is public, skip all comparisons since no matches are possible.\n- If private, extract each personal detail’s domain once and compare it directly against the cached current user domain.\n\nOn account with ~27k personal details, computation time of useShortMentionList drops from ~390 ms to ~160 ms.\n<details><summary>Upwork Automation - Do Not Edit</summary>\n    <ul>\n        <li>Upwork Job URL: https://www.upwork.com/jobs/~021985341107447298680</li>\n        <li>Upwork Job ID: 1985341107447298680</li>\n        <li>Last Price Increase: 2025-11-03</li>\n    </ul>\n</details>\n\n<details><summary>Issue Owner</summary>Current Issue Owner: @jjcoffee</details>\n\n<details><summary>Issue Owner</summary>Current Issue Owner: @TMisiukiewicz</details>",
     "closed_by": null,
     "reactions": {
       "url": "https://api.github.com/repos/Expensify/App/issues/74088/reactions",
