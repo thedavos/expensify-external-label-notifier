@@ -1636,6 +1636,27 @@
         "site_admin": false
       },
       {
+        "login": "Gonals",
+        "id": 19366280,
+        "node_id": "MDQ6VXNlcjE5MzY2Mjgw",
+        "avatar_url": "https://avatars.githubusercontent.com/u/19366280?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/Gonals",
+        "html_url": "https://github.com/Gonals",
+        "followers_url": "https://api.github.com/users/Gonals/followers",
+        "following_url": "https://api.github.com/users/Gonals/following{/other_user}",
+        "gists_url": "https://api.github.com/users/Gonals/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/Gonals/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/Gonals/subscriptions",
+        "organizations_url": "https://api.github.com/users/Gonals/orgs",
+        "repos_url": "https://api.github.com/users/Gonals/repos",
+        "events_url": "https://api.github.com/users/Gonals/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/Gonals/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      {
         "login": "dukenv0307",
         "id": 129500732,
         "node_id": "U_kgDOB7gGPA",
@@ -1658,9 +1679,9 @@
       }
     ],
     "milestone": null,
-    "comments": 5,
+    "comments": 7,
     "created_at": "2025-11-06T00:18:00Z",
-    "updated_at": "2025-11-06T18:22:21Z",
+    "updated_at": "2025-11-07T04:23:07Z",
     "closed_at": null,
     "author_association": "NONE",
     "type": null,
@@ -1676,7 +1697,7 @@
       "blocking": 0,
       "total_blocking": 0
     },
-    "body": "If you haven’t already, check out our [contributing guidelines](https://github.com/Expensify/ReactNativeChat/blob/main/contributingGuides/CONTRIBUTING.md) for onboarding and email contributors@expensify.com to request to join our Slack channel!\n___\n\n**Version Number:** 9.2.45-1\n**Reproducible in staging?:** Y\n**Reproducible in production?:** Y\n**If this was caught during regression testing, add the test name, ID and link from TestRail:** N/A\n**Email or phone of affected tester (no customers):** gocemate+b2154962@gmail.com\n**Issue reported by:** Applause - Internal Team\n\n\n## Action Performed:\n1. Login with gmail account\n2. Complete the onboarding modal\n3. On Take as to test drive modal add email address and hit Start test drive button\n4. Complete the expense creating process\n5. Go to Reports and click on the expense\n6. Click on More button and select View details\n\n## Expected Result:\nExpense details should be clearly visible\n\n## Actual Result:\nView details expense page is messed\n\n## Workaround:\nUnknown\n\n## Platforms:\nSelect the officially supported platforms where the issue was reproduced:\n- [ ] Android: App\n- [ ] Android: mWeb Chrome\n- [ ] iOS: App\n- [ ] iOS: mWeb Safari\n- [ ] iOS: mWeb Chrome\n- [x] Windows: Chrome\n- [ ] MacOS: Chrome / Safari\n- [ ] MacOS: Desktop\n\n<details>\n  <summary>Platforms Tested:</summary>\nOn which of our officially supported platforms was this issue tested:\n\n- [ ] Android: App\n- [ ] Android: mWeb Chrome\n- [ ] iOS: App\n- [ ] iOS: mWeb Safari\n- [ ] iOS: mWeb Chrome\n- [ ] Windows: Chrome\n- [ ] MacOS: Chrome / Safari\n- [ ] MacOS: Desktop\n\n</details>\n\n## Screenshots/Videos\n\n<details>\n  <summary>Add any screenshot/video evidence</summary>\n\n\n</details> \n\nhttps://github.com/user-attachments/assets/0ab47785-0591-45a8-aad4-982c77857072\n\n[View all open jobs on GitHub](https://github.com/Expensify/App/issues?q=is%3Aopen+is%3Aissue+label%3A%22Help+Wanted%22)\n\n<details><summary>Upwork Automation - Do Not Edit</summary>\n    <ul>\n        <li>Upwork Job URL: https://www.upwork.com/jobs/~021986499365085930163</li>\n        <li>Upwork Job ID: 1986499365085930163</li>\n        <li>Last Price Increase: 2025-11-06</li>\n    </ul>\n</details>\n\n<details><summary>Issue Owner</summary>Current Issue Owner: @dukenv0307</details>",
+    "body": "If you haven’t already, check out our [contributing guidelines](https://github.com/Expensify/ReactNativeChat/blob/main/contributingGuides/CONTRIBUTING.md) for onboarding and email contributors@expensify.com to request to join our Slack channel!\n___\n\n**Version Number:** 9.2.45-1\n**Reproducible in staging?:** Y\n**Reproducible in production?:** Y\n**If this was caught during regression testing, add the test name, ID and link from TestRail:** N/A\n**Email or phone of affected tester (no customers):** gocemate+b2154962@gmail.com\n**Issue reported by:** Applause - Internal Team\n\n\n## Action Performed:\n1. Login with gmail account\n2. Complete the onboarding modal\n3. On Take as to test drive modal add email address and hit Start test drive button\n4. Complete the expense creating process\n5. Go to Reports and click on the expense\n6. Click on More button and select View details\n\n## Expected Result:\nExpense details should be clearly visible\n\n## Actual Result:\nView details expense page is messed\n\n## Workaround:\nUnknown\n\n## Platforms:\nSelect the officially supported platforms where the issue was reproduced:\n- [ ] Android: App\n- [ ] Android: mWeb Chrome\n- [ ] iOS: App\n- [ ] iOS: mWeb Safari\n- [ ] iOS: mWeb Chrome\n- [x] Windows: Chrome\n- [ ] MacOS: Chrome / Safari\n- [ ] MacOS: Desktop\n\n<details>\n  <summary>Platforms Tested:</summary>\nOn which of our officially supported platforms was this issue tested:\n\n- [ ] Android: App\n- [ ] Android: mWeb Chrome\n- [ ] iOS: App\n- [ ] iOS: mWeb Safari\n- [ ] iOS: mWeb Chrome\n- [ ] Windows: Chrome\n- [ ] MacOS: Chrome / Safari\n- [ ] MacOS: Desktop\n\n</details>\n\n## Screenshots/Videos\n\n<details>\n  <summary>Add any screenshot/video evidence</summary>\n\n\n</details> \n\nhttps://github.com/user-attachments/assets/0ab47785-0591-45a8-aad4-982c77857072\n\n[View all open jobs on GitHub](https://github.com/Expensify/App/issues?q=is%3Aopen+is%3Aissue+label%3A%22Help+Wanted%22)\n\n<details><summary>Upwork Automation - Do Not Edit</summary>\n    <ul>\n        <li>Upwork Job URL: https://www.upwork.com/jobs/~021986499365085930163</li>\n        <li>Upwork Job ID: 1986499365085930163</li>\n        <li>Last Price Increase: 2025-11-06</li>\n    </ul>\n</details>\n\n<details><summary>Issue Owner</summary>Current Issue Owner: @Gonals</details>",
     "closed_by": null,
     "reactions": {
       "url": "https://api.github.com/repos/Expensify/App/issues/74408/reactions",
