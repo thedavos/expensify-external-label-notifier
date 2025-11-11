@@ -137,9 +137,9 @@
       }
     ],
     "milestone": null,
-    "comments": 7,
+    "comments": 9,
     "created_at": "2025-11-10T22:51:01Z",
-    "updated_at": "2025-11-11T04:06:08Z",
+    "updated_at": "2025-11-11T08:03:36Z",
     "closed_at": null,
     "author_association": "NONE",
     "type": null,
@@ -332,9 +332,9 @@
       }
     ],
     "milestone": null,
-    "comments": 6,
+    "comments": 8,
     "created_at": "2025-11-10T22:46:28Z",
-    "updated_at": "2025-11-11T04:40:23Z",
+    "updated_at": "2025-11-11T08:22:47Z",
     "closed_at": null,
     "author_association": "NONE",
     "type": null,
@@ -350,7 +350,7 @@
       "blocking": 0,
       "total_blocking": 0
     },
-    "body": "If you haven’t already, check out our [contributing guidelines](https://github.com/Expensify/ReactNativeChat/blob/main/contributingGuides/CONTRIBUTING.md) for onboarding and email contributors@expensify.com to request to join our Slack channel!\n___\n\n**Version Number:** 9.2.48-1\n**Reproducible in staging?:** Y\n**Reproducible in production?:** Y\n**If this was caught during regression testing, add the test name, ID and link from TestRail:**\n**Email or phone of affected tester (no customers):**\n**Logs:** https://stackoverflow.com/c/expensify/questions/4856\n**Expensify/Expensify Issue URL:**\n**Issue reported by:** @neil-marcellini \n**Slack conversation** (hyperlinked to channel name): [#Expensify Bugs](https://expensify.slack.com/archives/C049HHMV9SM/p1762796370996579)\n\n## Action Performed:\n1. Go to any chat\n2. Copy this text \"PR review \"\n3. Press Shift + Enter to create a new line and type some text\n4. Move the cursor to the beginning of the line\n5. Paste the text\n## Expected Result:\nThe text is pasted exactly as is, so there's a space between \"review\" and the next word.\n## Actual Result:\nThe space is removed\n## Workaround:\nUnknown\n## Platforms:\nSelect the officially supported platforms where the issue was reproduced:\n- [ ] Android: App\n- [ ] Android: mWeb Chrome\n- [ ] iOS: App\n- [ ] iOS: mWeb Safari\n- [ ] iOS: mWeb Chrome\n- [ ] Windows: Chrome\n- [x] MacOS: Chrome / Safari\n- [ ] MacOS: Desktop\n\n<details>\n  <summary>Platforms Tested:</summary>\nOn which of our officially supported platforms was this issue tested:\n\n- [ ] Android: App\n- [ ] Android: mWeb Chrome\n- [ ] iOS: App\n- [ ] iOS: mWeb Safari\n- [ ] iOS: mWeb Chrome\n- [ ] Windows: Chrome\n- [x] MacOS: Chrome / Safari\n- [ ] MacOS: Desktop\n\n</details>\n\n## Screenshots/Videos\n\n<details>\n  <summary>Add any screenshot/video evidence</summary>\n\n\n</details>\n\nhttps://github.com/user-attachments/assets/f7ba657a-b485-4723-804e-b228f20f6ca8\n\n\nhttps://github.com/user-attachments/assets/6c28fa9f-f7b3-47f2-806b-05b68b41a95a\n\n[View all open jobs on GitHub](https://github.com/Expensify/App/issues?q=is%3Aopen+is%3Aissue+label%3A%22Help+Wanted%22)\n\n<details><summary>Upwork Automation - Do Not Edit</summary>\n    <ul>\n        <li>Upwork Job URL: https://www.upwork.com/jobs/~021988016102459008139</li>\n        <li>Upwork Job ID: 1988016102459008139</li>\n        <li>Last Price Increase: 2025-11-10</li>\n    </ul>\n</details>\n\n<details><summary>Issue Owner</summary>Current Issue Owner: @linhvovan29546</details>",
+    "body": "If you haven’t already, check out our [contributing guidelines](https://github.com/Expensify/ReactNativeChat/blob/main/contributingGuides/CONTRIBUTING.md) for onboarding and email contributors@expensify.com to request to join our Slack channel!\n___\n\n**Version Number:** 9.2.48-1\n**Reproducible in staging?:** Y\n**Reproducible in production?:** Y\n**If this was caught during regression testing, add the test name, ID and link from TestRail:**\n**Email or phone of affected tester (no customers):**\n**Logs:** https://stackoverflow.com/c/expensify/questions/4856\n**Expensify/Expensify Issue URL:**\n**Issue reported by:** @neil-marcellini \n**Slack conversation** (hyperlinked to channel name): [#Expensify Bugs](https://expensify.slack.com/archives/C049HHMV9SM/p1762796370996579)\n\n## Action Performed:\n1. Go to any chat\n2. Copy this text \"PR review \"\n3. Press Shift + Enter to create a new line and type some text\n4. Move the cursor to the beginning of the line\n5. Paste the text\n## Expected Result:\nThe text is pasted exactly as is, so there's a space between \"review\" and the next word.\n## Actual Result:\nThe space is removed\n## Workaround:\nUnknown\n## Platforms:\nSelect the officially supported platforms where the issue was reproduced:\n- [ ] Android: App\n- [ ] Android: mWeb Chrome\n- [ ] iOS: App\n- [ ] iOS: mWeb Safari\n- [ ] iOS: mWeb Chrome\n- [ ] Windows: Chrome\n- [x] MacOS: Chrome / Safari\n- [ ] MacOS: Desktop\n\n<details>\n  <summary>Platforms Tested:</summary>\nOn which of our officially supported platforms was this issue tested:\n\n- [ ] Android: App\n- [ ] Android: mWeb Chrome\n- [ ] iOS: App\n- [ ] iOS: mWeb Safari\n- [ ] iOS: mWeb Chrome\n- [ ] Windows: Chrome\n- [x] MacOS: Chrome / Safari\n- [ ] MacOS: Desktop\n\n</details>\n\n## Screenshots/Videos\n\n<details>\n  <summary>Add any screenshot/video evidence</summary>\n\n\n</details>\n\nhttps://github.com/user-attachments/assets/f7ba657a-b485-4723-804e-b228f20f6ca8\n\n\nhttps://github.com/user-attachments/assets/6c28fa9f-f7b3-47f2-806b-05b68b41a95a\n\n[View all open jobs on GitHub](https://github.com/Expensify/App/issues?q=is%3Aopen+is%3Aissue+label%3A%22Help+Wanted%22)\n\n<details><summary>Upwork Automation - Do Not Edit</summary>\n    <ul>\n        <li>Upwork Job URL: https://www.upwork.com/jobs/~021988016102459008139</li>\n        <li>Upwork Job ID: 1988016102459008139</li>\n        <li>Last Price Increase: 2025-11-10</li>\n    </ul>\n</details>\n\n<details><summary>Issue Owner</summary>Current Issue Owner: @</details>",
     "closed_by": null,
     "reactions": {
       "url": "https://api.github.com/repos/Expensify/App/issues/74749/reactions",
@@ -1093,7 +1093,7 @@
     "milestone": null,
     "comments": 11,
     "created_at": "2025-11-10T19:05:57Z",
-    "updated_at": "2025-11-11T07:19:12Z",
+    "updated_at": "2025-11-11T07:29:22Z",
     "closed_at": null,
     "author_association": "NONE",
     "type": null,
