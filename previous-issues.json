@@ -94,6 +94,27 @@
     },
     "assignees": [
       {
+        "login": "madmax330",
+        "id": 7016692,
+        "node_id": "MDQ6VXNlcjcwMTY2OTI=",
+        "avatar_url": "https://avatars.githubusercontent.com/u/7016692?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/madmax330",
+        "html_url": "https://github.com/madmax330",
+        "followers_url": "https://api.github.com/users/madmax330/followers",
+        "following_url": "https://api.github.com/users/madmax330/following{/other_user}",
+        "gists_url": "https://api.github.com/users/madmax330/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/madmax330/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/madmax330/subscriptions",
+        "organizations_url": "https://api.github.com/users/madmax330/orgs",
+        "repos_url": "https://api.github.com/users/madmax330/repos",
+        "events_url": "https://api.github.com/users/madmax330/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/madmax330/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      {
         "login": "twisterdotcom",
         "id": 9133401,
         "node_id": "MDQ6VXNlcjkxMzM0MDE=",
@@ -137,9 +158,9 @@
       }
     ],
     "milestone": null,
-    "comments": 9,
+    "comments": 11,
     "created_at": "2025-11-10T22:51:01Z",
-    "updated_at": "2025-11-11T08:03:36Z",
+    "updated_at": "2025-11-11T08:38:24Z",
     "closed_at": null,
     "author_association": "NONE",
     "type": null,
@@ -155,7 +176,7 @@
       "blocking": 0,
       "total_blocking": 0
     },
-    "body": "If you haven’t already, check out our [contributing guidelines](https://github.com/Expensify/ReactNativeChat/blob/main/contributingGuides/CONTRIBUTING.md) for onboarding and email contributors@expensify.com to request to join our Slack channel!\n___\n\n**Version Number:** 9.2.48-1\n**Reproducible in staging?:** Yes\n**Reproducible in production?:** \n**If this was caught during regression testing, add the test name, ID and link from BrowserStack:** EDGE cases\n**Email or phone of affected tester (no customers):** undefined\n**Issue reported by:** Applause Internal Team\n\n\n## Action Performed:\n1. Go to staging.new.expensify.com\n2. Go to Account > Wallet\n3. Right-click on the Balance field\n\n## Expected Result:\nContextual menu appears and the Copy to clipboard option is shown.\n\n## Actual Result:\nThe context menu does not appear when right-clicking the Balance field.\nAlso, there is no Copy to clipboard icon when hovering over the field.\n\n## Workaround:\nUnknown\n\n## Platforms:\n- [ ] Android: App\n- [ ] Android: mWeb Chrome\n- [ ] iOS: App\n- [ ] iOS: mWeb Safari\n- [ ] iOS: mWeb Chrome\n- [x] Windows: Chrome\n- [ ] MacOS: Chrome / Safari\n- [ ] MacOS: Desktop\n\n## Screenshots/Videos\n\nhttps://github.com/user-attachments/assets/9bfc213c-7e45-40ec-adb6-56745ac2a426\n\n[View all open jobs on GitHub](https://github.com/Expensify/App/issues?q=is%3Aopen+is%3Aissue+label%3A%22Help+Wanted%22)\n<details><summary>Upwork Automation - Do Not Edit</summary>\n    <ul>\n        <li>Upwork Job URL: https://www.upwork.com/jobs/~021988030360761700657</li>\n        <li>Upwork Job ID: 1988030360761700657</li>\n        <li>Last Price Increase: 2025-11-10</li>\n    </ul>\n</details>\n\n<details><summary>Issue Owner</summary>Current Issue Owner: @dominictb</details>",
+    "body": "If you haven’t already, check out our [contributing guidelines](https://github.com/Expensify/ReactNativeChat/blob/main/contributingGuides/CONTRIBUTING.md) for onboarding and email contributors@expensify.com to request to join our Slack channel!\n___\n\n**Version Number:** 9.2.48-1\n**Reproducible in staging?:** Yes\n**Reproducible in production?:** \n**If this was caught during regression testing, add the test name, ID and link from BrowserStack:** EDGE cases\n**Email or phone of affected tester (no customers):** undefined\n**Issue reported by:** Applause Internal Team\n\n\n## Action Performed:\n1. Go to staging.new.expensify.com\n2. Go to Account > Wallet\n3. Right-click on the Balance field\n\n## Expected Result:\nContextual menu appears and the Copy to clipboard option is shown.\n\n## Actual Result:\nThe context menu does not appear when right-clicking the Balance field.\nAlso, there is no Copy to clipboard icon when hovering over the field.\n\n## Workaround:\nUnknown\n\n## Platforms:\n- [ ] Android: App\n- [ ] Android: mWeb Chrome\n- [ ] iOS: App\n- [ ] iOS: mWeb Safari\n- [ ] iOS: mWeb Chrome\n- [x] Windows: Chrome\n- [ ] MacOS: Chrome / Safari\n- [ ] MacOS: Desktop\n\n## Screenshots/Videos\n\nhttps://github.com/user-attachments/assets/9bfc213c-7e45-40ec-adb6-56745ac2a426\n\n[View all open jobs on GitHub](https://github.com/Expensify/App/issues?q=is%3Aopen+is%3Aissue+label%3A%22Help+Wanted%22)\n<details><summary>Upwork Automation - Do Not Edit</summary>\n    <ul>\n        <li>Upwork Job URL: https://www.upwork.com/jobs/~021988030360761700657</li>\n        <li>Upwork Job ID: 1988030360761700657</li>\n        <li>Last Price Increase: 2025-11-10</li>\n    </ul>\n</details>\n\n<details><summary>Issue Owner</summary>Current Issue Owner: @madmax330</details>",
     "closed_by": null,
     "reactions": {
       "url": "https://api.github.com/repos/Expensify/App/issues/74750/reactions",
@@ -1093,7 +1114,7 @@
     "milestone": null,
     "comments": 11,
     "created_at": "2025-11-10T19:05:57Z",
-    "updated_at": "2025-11-11T07:29:22Z",
+    "updated_at": "2025-11-11T09:02:32Z",
     "closed_at": null,
     "author_association": "NONE",
     "type": null,
