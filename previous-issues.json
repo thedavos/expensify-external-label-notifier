@@ -1160,9 +1160,9 @@
       }
     ],
     "milestone": null,
-    "comments": 19,
+    "comments": 24,
     "created_at": "2025-11-14T16:39:51Z",
-    "updated_at": "2025-11-15T16:52:43Z",
+    "updated_at": "2025-11-16T16:17:18Z",
     "closed_at": null,
     "author_association": "CONTRIBUTOR",
     "type": null,
@@ -1178,7 +1178,7 @@
       "blocking": 0,
       "total_blocking": 0
     },
-    "body": "Let's update the Switch to Classic flow to make it a little easier for users to find and accomplish. We'll do this with these two steps: \n\n1. Let's move it out of the Troubleshoot menu and instead make it the first item in the General section of settings\n2. Let's take away the 3 question survey step and just leave the free text field step behind\n- The header text for the 3 question step is good though, so let's use that text in the free text step instead\n\n<img width=\"678\" height=\"826\" alt=\"Image\" src=\"https://github.com/user-attachments/assets/f2186a52-2f71-4572-a865-1700cb18767a\" />\n\n<img width=\"734\" height=\"1690\" alt=\"Image\" src=\"https://github.com/user-attachments/assets/9d2cf142-9c8b-4270-bf37-944a34e04693\" />\n\n<img width=\"738\" height=\"1704\" alt=\"Image\" src=\"https://github.com/user-attachments/assets/83aa78af-ec6e-41f2-9091-76eb1626198c\" />\n\n<details><summary>Issue Owner</summary>Current Issue Owner: @dukenv0307</details>",
+    "body": "Let's update the Switch to Classic flow to make it a little easier for users to find and accomplish. We'll do this with these two steps: \n\n1. Let's move it out of the Troubleshoot menu and instead make it the first item in the General section of settings\n2. Let's take away the 3 question survey step and just leave the free text field step behind\n- The header text for the 3 question step is good though, so let's use that text in the free text step instead\n\n<img width=\"678\" height=\"826\" alt=\"Image\" src=\"https://github.com/user-attachments/assets/f2186a52-2f71-4572-a865-1700cb18767a\" />\n\n<img width=\"734\" height=\"1690\" alt=\"Image\" src=\"https://github.com/user-attachments/assets/9d2cf142-9c8b-4270-bf37-944a34e04693\" />\n\n<img width=\"738\" height=\"1704\" alt=\"Image\" src=\"https://github.com/user-attachments/assets/83aa78af-ec6e-41f2-9091-76eb1626198c\" />\n\n<details><summary>Issue Owner</summary>Current Issue Owner: @</details>\n\n<details><summary>Issue Owner</summary>Current Issue Owner: @</details>",
     "closed_by": null,
     "reactions": {
       "url": "https://api.github.com/repos/Expensify/App/issues/75181/reactions",
