@@ -540,9 +540,9 @@
       }
     ],
     "milestone": null,
-    "comments": 14,
+    "comments": 16,
     "created_at": "2025-11-16T14:32:13Z",
-    "updated_at": "2025-11-17T08:36:20Z",
+    "updated_at": "2025-11-17T10:26:13Z",
     "closed_at": null,
     "author_association": "CONTRIBUTOR",
     "type": null,
@@ -559,7 +559,7 @@
       "blocking": 0,
       "total_blocking": 0
     },
-    "body": "### Background\n\nWe're migrating all icons and illustrations to use lazy loading to improve app startup performance by reducing the main bundle size. This is part of a larger initiative tracked in #74599.\n\n### What needs to be done\n\nMigrate the following icons and illustrations to use the lazy loading system:\n\n**Icons/Illustrations to migrate:**\n\n**Travel & Transportation:**\n\n- `Bed`\n- `Car`\n- `CarWithKey`\n- `Luggage`\n- `Plane`\n- `Suitcase`\n- `Train`\n- `Location`\n\n**Media & Entertainment:**\n\n- `Camera`\n- `Feed`\n- `History`\n- `Menu`\n- `Mute`\n- `VideoSlash`\n- `VolumeHigh`\n- `VolumeLow`\n- `Zoom`\n\n**Tools & Utilities:**\n\n- `Binoculars`\n- `Box`\n- `Crosshair`\n- `Globe`\n- `Hashtag`\n- `Key`\n- `Keyboard`\n- `Lightbulb`\n- `Lock`\n- `MagnifyingGlass`\n- `MagnifyingGlassSpyMouthClosed`\n- `Map`\n- `Meter`\n- `Megaphone`\n- `Monitor`\n- `Phone`\n- `Pencil`\n- `Unlock`\n\n### Migration Guide\nPlease follow the comprehensive migration guide here:\nhttps://github.com/Expensify/App/blob/main/contributingGuides/LAZY_ICONS_AND_ILLUSTRATIONS.md\n\n<details><summary>Upwork Automation - Do Not Edit</summary>\n    <ul>\n        <li>Upwork Job URL: https://www.upwork.com/jobs/~021990255745909478723</li>\n        <li>Upwork Job ID: 1990255745909478723</li>\n        <li>Last Price Increase: 2025-11-17</li>\n    </ul>\n</details>\n\n<details><summary>Issue Owner</summary>Current Issue Owner: @aimane-chnaif</details>",
+    "body": "### Background\n\nWe're migrating all icons and illustrations to use lazy loading to improve app startup performance by reducing the main bundle size. This is part of a larger initiative tracked in #74599.\n\n### What needs to be done\n\nMigrate the following icons and illustrations to use the lazy loading system:\n\n**Icons/Illustrations to migrate:**\n\n**Travel & Transportation:**\n\n- `Bed`\n- `Car`\n- `CarWithKey`\n- `Luggage`\n- `Plane`\n- `Suitcase`\n- `Train`\n- `Location`\n\n**Media & Entertainment:**\n\n- `Camera`\n- `Feed`\n- `History`\n- `Menu`\n- `Mute`\n- `VideoSlash`\n- `VolumeHigh`\n- `VolumeLow`\n- `Zoom`\n\n**Tools & Utilities:**\n\n- `Binoculars`\n- `Box`\n- `Crosshair`\n- `Globe`\n- `Hashtag`\n- `Key`\n- `Keyboard`\n- `Lightbulb`\n- `Lock`\n- `MagnifyingGlass`\n- `MagnifyingGlassSpyMouthClosed`\n- `Map`\n- `Meter`\n- `Megaphone`\n- `Monitor`\n- `Phone`\n- `Pencil`\n- `Unlock`\n\n### Migration Guide\nPlease follow the comprehensive migration guide here:\nhttps://github.com/Expensify/App/blob/main/contributingGuides/LAZY_ICONS_AND_ILLUSTRATIONS.md\n\n<details><summary>Upwork Automation - Do Not Edit</summary>\n    <ul>\n        <li>Upwork Job URL: https://www.upwork.com/jobs/~021990255745909478723</li>\n        <li>Upwork Job ID: 1990255745909478723</li>\n        <li>Last Price Increase: 2025-11-17</li>\n    </ul>\n</details>\n\n<details><summary>Issue Owner</summary>Current Issue Owner: @</details>",
     "closed_by": null,
     "reactions": {
       "url": "https://api.github.com/repos/Expensify/App/issues/75258/reactions",
@@ -1152,9 +1152,9 @@
       }
     ],
     "milestone": null,
-    "comments": 17,
+    "comments": 18,
     "created_at": "2025-11-16T14:27:01Z",
-    "updated_at": "2025-11-17T08:09:59Z",
+    "updated_at": "2025-11-17T10:37:21Z",
     "closed_at": null,
     "author_association": "CONTRIBUTOR",
     "type": null,
@@ -1764,9 +1764,9 @@
       }
     ],
     "milestone": null,
-    "comments": 6,
+    "comments": 7,
     "created_at": "2025-11-16T14:20:24Z",
-    "updated_at": "2025-11-17T03:20:08Z",
+    "updated_at": "2025-11-17T10:59:15Z",
     "closed_at": null,
     "author_association": "CONTRIBUTOR",
     "type": null,
@@ -3413,9 +3413,9 @@
       }
     ],
     "milestone": null,
-    "comments": 8,
+    "comments": 9,
     "created_at": "2025-11-14T18:54:53Z",
-    "updated_at": "2025-11-17T08:27:35Z",
+    "updated_at": "2025-11-17T10:55:04Z",
     "closed_at": null,
     "author_association": "NONE",
     "type": null,
