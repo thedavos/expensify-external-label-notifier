@@ -228,6 +228,15 @@
     },
     "labels": [
       {
+        "id": 2283143991,
+        "node_id": "MDU6TGFiZWwyMjgzMTQzOTkx",
+        "url": "https://api.github.com/repos/Expensify/App/labels/Reviewing",
+        "name": "Reviewing",
+        "color": "dddddd",
+        "default": false,
+        "description": "Has a PR in review"
+      },
+      {
         "id": 2810597462,
         "node_id": "MDU6TGFiZWwyODEwNTk3NDYy",
         "url": "https://api.github.com/repos/Expensify/App/labels/DeployBlockerCash",
@@ -371,9 +380,9 @@
       }
     ],
     "milestone": null,
-    "comments": 9,
+    "comments": 10,
     "created_at": "2025-11-18T14:12:23Z",
-    "updated_at": "2025-11-18T17:17:25Z",
+    "updated_at": "2025-11-18T17:45:49Z",
     "closed_at": null,
     "author_association": "NONE",
     "type": null,
