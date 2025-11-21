@@ -1221,6 +1221,7 @@
       "completed": 0,
       "percent_completed": 0
     },
+    "parent_issue_url": "https://api.github.com/repos/Expensify/Expensify/issues/523211",
     "issue_dependencies_summary": {
       "blocked_by": 0,
       "total_blocked_by": 0,
