@@ -357,7 +357,7 @@
     "id": 3675775368,
     "node_id": "I_kwDOEQqHYc7bF-GI",
     "number": 76303,
-    "title": "[$50] The app crashes when replace a PDF receipt and then attempt to reopen it",
+    "title": "[$250] The app crashes when replace a PDF receipt and then attempt to reopen it",
     "user": {
       "login": "m-natarajan",
       "id": 38435837,
@@ -381,15 +381,6 @@
     },
     "labels": [
       {
-        "id": 2810597462,
-        "node_id": "MDU6TGFiZWwyODEwNTk3NDYy",
-        "url": "https://api.github.com/repos/Expensify/App/labels/DeployBlockerCash",
-        "name": "DeployBlockerCash",
-        "color": "000000",
-        "default": false,
-        "description": "This issue or pull request should block deployment"
-      },
-      {
         "id": 2873246102,
         "node_id": "MDU6TGFiZWwyODczMjQ2MTAy",
         "url": "https://api.github.com/repos/Expensify/App/labels/External",
@@ -408,11 +399,11 @@
         "description": ""
       },
       {
-        "id": 3008326907,
-        "node_id": "MDU6TGFiZWwzMDA4MzI2OTA3",
-        "url": "https://api.github.com/repos/Expensify/App/labels/Hourly",
-        "name": "Hourly",
-        "color": "EC0E2D",
+        "id": 2893455829,
+        "node_id": "MDU6TGFiZWwyODkzNDU1ODI5",
+        "url": "https://api.github.com/repos/Expensify/App/labels/Daily",
+        "name": "Daily",
+        "color": "eb6420",
         "default": false,
         "description": "KSv2"
       },
@@ -524,9 +515,9 @@
       }
     ],
     "milestone": null,
-    "comments": 15,
+    "comments": 20,
     "created_at": "2025-11-28T19:43:21Z",
-    "updated_at": "2025-12-01T09:25:09Z",
+    "updated_at": "2025-12-01T10:24:48Z",
     "closed_at": null,
     "author_association": "NONE",
     "type": null,
@@ -542,7 +533,7 @@
       "blocking": 0,
       "total_blocking": 0
     },
-    "body": "If you haven’t already, check out our [contributing guidelines](https://github.com/Expensify/ReactNativeChat/blob/main/contributingGuides/CONTRIBUTING.md) for onboarding and email contributors@expensify.com to request to join our Slack channel!\n___\n\n**Version Number:** 9.2.66-0\n**Reproducible in staging?:** Y\n**Reproducible in production?:** N\n**If this was caught during regression testing, add the test name, ID and link from TestRail:**\n**Email or phone of affected tester (no customers):**\n**Logs:** https://stackoverflow.com/c/expensify/questions/4856\n**Expensify/Expensify Issue URL:**\n**Issue reported by:** @mountiny \n**Slack conversation** (hyperlinked to channel name): [#Expensify Bugs](https://expensify.slack.com/archives/C049HHMV9SM/p1764348734116249)\n\n## Action Performed:\n1. Create an expense by scanning a PDF receipt\n2. Click the receipt to view\n3. Click 3 dot menu and select Replace\n4. Upload a PDF receipt\n5. Click the receipt to view\n## Expected Result:\nReceipt opens without any issue\n## Actual Result:\nApp crashes\n## Workaround:\nUnknown\n## Platforms:\nSelect the officially supported platforms where the issue was reproduced:\n- [ ] Android: App\n- [ ] Android: mWeb Chrome\n- [ ] iOS: App\n- [ ] iOS: mWeb Safari\n- [ ] iOS: mWeb Chrome\n- [x] Windows: Chrome\n- [x] MacOS: Chrome / Safari\n- [ ] MacOS: Desktop\n\n<details>\n  <summary>Platforms Tested:</summary>\nOn which of our officially supported platforms was this issue tested:\n\n- [ ] Android: App\n- [ ] Android: mWeb Chrome\n- [ ] iOS: App\n- [ ] iOS: mWeb Safari\n- [ ] iOS: mWeb Chrome\n- [x] Windows: Chrome\n- [ ] MacOS: Chrome / Safari\n- [ ] MacOS: Desktop\n\n</details>\n\n## Screenshots/Videos\n\n<details>\n  <summary>Add any screenshot/video evidence</summary>\n\n\n</details>\n\n<img width=\"2430\" height=\"2382\" alt=\"Image\" src=\"https://github.com/user-attachments/assets/57ecf12a-736c-4e8a-948e-c0b5167ed45f\" />\n\n<img width=\"2986\" height=\"2602\" alt=\"Image\" src=\"https://github.com/user-attachments/assets/92ff757d-9609-4ef4-8b2f-971bb1be420f\" />\n\nhttps://github.com/user-attachments/assets/2db3445b-fbdd-45c0-9b04-f5a3da5ef3a4\n\n\n[View all open jobs on GitHub](https://github.com/Expensify/App/issues?q=is%3Aopen+is%3Aissue+label%3A%22Help+Wanted%22)\n\n<details><summary>Upwork Automation - Do Not Edit</summary>\n    <ul>\n        <li>Upwork Job URL: https://www.upwork.com/jobs/~021995263453813774199</li>\n        <li>Upwork Job ID: 1995263453813774199</li>\n        <li>Last Price Increase: 2025-11-30</li>\n    </ul>\n</details>\n\n<details><summary>Issue Owner</summary>Current Issue Owner: @QichenZhu</details>",
+    "body": "If you haven’t already, check out our [contributing guidelines](https://github.com/Expensify/ReactNativeChat/blob/main/contributingGuides/CONTRIBUTING.md) for onboarding and email contributors@expensify.com to request to join our Slack channel!\n___\n\n**Version Number:** 9.2.66-0\n**Reproducible in staging?:** Y\n**Reproducible in production?:** N\n**If this was caught during regression testing, add the test name, ID and link from TestRail:**\n**Email or phone of affected tester (no customers):**\n**Logs:** https://stackoverflow.com/c/expensify/questions/4856\n**Expensify/Expensify Issue URL:**\n**Issue reported by:** @mountiny \n**Slack conversation** (hyperlinked to channel name): [#Expensify Bugs](https://expensify.slack.com/archives/C049HHMV9SM/p1764348734116249)\n\n## Action Performed:\n1. Create an expense by scanning a PDF receipt\n2. Click the receipt to view\n3. Click 3 dot menu and select Replace\n4. Upload a PDF receipt\n5. Click the receipt to view\n## Expected Result:\nReceipt opens without any issue\n## Actual Result:\nApp crashes\n## Workaround:\nUnknown\n## Platforms:\nSelect the officially supported platforms where the issue was reproduced:\n- [ ] Android: App\n- [ ] Android: mWeb Chrome\n- [ ] iOS: App\n- [ ] iOS: mWeb Safari\n- [ ] iOS: mWeb Chrome\n- [x] Windows: Chrome\n- [x] MacOS: Chrome / Safari\n- [ ] MacOS: Desktop\n\n<details>\n  <summary>Platforms Tested:</summary>\nOn which of our officially supported platforms was this issue tested:\n\n- [ ] Android: App\n- [ ] Android: mWeb Chrome\n- [ ] iOS: App\n- [ ] iOS: mWeb Safari\n- [ ] iOS: mWeb Chrome\n- [x] Windows: Chrome\n- [ ] MacOS: Chrome / Safari\n- [ ] MacOS: Desktop\n\n</details>\n\n## Screenshots/Videos\n\n<details>\n  <summary>Add any screenshot/video evidence</summary>\n\n\n</details>\n\n<img width=\"2430\" height=\"2382\" alt=\"Image\" src=\"https://github.com/user-attachments/assets/57ecf12a-736c-4e8a-948e-c0b5167ed45f\" />\n\n<img width=\"2986\" height=\"2602\" alt=\"Image\" src=\"https://github.com/user-attachments/assets/92ff757d-9609-4ef4-8b2f-971bb1be420f\" />\n\nhttps://github.com/user-attachments/assets/2db3445b-fbdd-45c0-9b04-f5a3da5ef3a4\n\n\n[View all open jobs on GitHub](https://github.com/Expensify/App/issues?q=is%3Aopen+is%3Aissue+label%3A%22Help+Wanted%22)\n\n<details><summary>Upwork Automation - Do Not Edit</summary>\n    <ul>\n        <li>Upwork Job URL: https://www.upwork.com/jobs/~021995263453813774199</li>\n        <li>Upwork Job ID: 1995263453813774199</li>\n        <li>Last Price Increase: 2025-12-01</li>\n    </ul>\n</details>\n\n<details><summary>Issue Owner</summary>Current Issue Owner: @QichenZhu</details>",
     "closed_by": null,
     "reactions": {
       "url": "https://api.github.com/repos/Expensify/App/issues/76303/reactions",
@@ -593,6 +584,15 @@
       "site_admin": false
     },
     "labels": [
+      {
+        "id": 2283143991,
+        "node_id": "MDU6TGFiZWwyMjgzMTQzOTkx",
+        "url": "https://api.github.com/repos/Expensify/App/labels/Reviewing",
+        "name": "Reviewing",
+        "color": "dddddd",
+        "default": false,
+        "description": "Has a PR in review"
+      },
       {
         "id": 2810597462,
         "node_id": "MDU6TGFiZWwyODEwNTk3NDYy",
@@ -651,27 +651,48 @@
     "state": "open",
     "locked": false,
     "assignee": {
-      "login": "marcochavezf",
-      "id": 6829422,
-      "node_id": "MDQ6VXNlcjY4Mjk0MjI=",
-      "avatar_url": "https://avatars.githubusercontent.com/u/6829422?v=4",
+      "login": "mjasikowski",
+      "id": 4477538,
+      "node_id": "MDQ6VXNlcjQ0Nzc1Mzg=",
+      "avatar_url": "https://avatars.githubusercontent.com/u/4477538?v=4",
       "gravatar_id": "",
-      "url": "https://api.github.com/users/marcochavezf",
-      "html_url": "https://github.com/marcochavezf",
-      "followers_url": "https://api.github.com/users/marcochavezf/followers",
-      "following_url": "https://api.github.com/users/marcochavezf/following{/other_user}",
-      "gists_url": "https://api.github.com/users/marcochavezf/gists{/gist_id}",
-      "starred_url": "https://api.github.com/users/marcochavezf/starred{/owner}{/repo}",
-      "subscriptions_url": "https://api.github.com/users/marcochavezf/subscriptions",
-      "organizations_url": "https://api.github.com/users/marcochavezf/orgs",
-      "repos_url": "https://api.github.com/users/marcochavezf/repos",
-      "events_url": "https://api.github.com/users/marcochavezf/events{/privacy}",
-      "received_events_url": "https://api.github.com/users/marcochavezf/received_events",
+      "url": "https://api.github.com/users/mjasikowski",
+      "html_url": "https://github.com/mjasikowski",
+      "followers_url": "https://api.github.com/users/mjasikowski/followers",
+      "following_url": "https://api.github.com/users/mjasikowski/following{/other_user}",
+      "gists_url": "https://api.github.com/users/mjasikowski/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/mjasikowski/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/mjasikowski/subscriptions",
+      "organizations_url": "https://api.github.com/users/mjasikowski/orgs",
+      "repos_url": "https://api.github.com/users/mjasikowski/repos",
+      "events_url": "https://api.github.com/users/mjasikowski/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/mjasikowski/received_events",
       "type": "User",
       "user_view_type": "public",
       "site_admin": false
     },
     "assignees": [
+      {
+        "login": "mjasikowski",
+        "id": 4477538,
+        "node_id": "MDQ6VXNlcjQ0Nzc1Mzg=",
+        "avatar_url": "https://avatars.githubusercontent.com/u/4477538?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/mjasikowski",
+        "html_url": "https://github.com/mjasikowski",
+        "followers_url": "https://api.github.com/users/mjasikowski/followers",
+        "following_url": "https://api.github.com/users/mjasikowski/following{/other_user}",
+        "gists_url": "https://api.github.com/users/mjasikowski/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/mjasikowski/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/mjasikowski/subscriptions",
+        "organizations_url": "https://api.github.com/users/mjasikowski/orgs",
+        "repos_url": "https://api.github.com/users/mjasikowski/repos",
+        "events_url": "https://api.github.com/users/mjasikowski/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/mjasikowski/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
       {
         "login": "marcochavezf",
         "id": 6829422,
@@ -737,9 +758,9 @@
       }
     ],
     "milestone": null,
-    "comments": 10,
+    "comments": 11,
     "created_at": "2025-11-28T19:18:32Z",
-    "updated_at": "2025-11-30T05:10:21Z",
+    "updated_at": "2025-12-01T10:22:03Z",
     "closed_at": null,
     "author_association": "NONE",
     "type": null,
