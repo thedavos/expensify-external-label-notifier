@@ -1767,9 +1767,9 @@
       }
     ],
     "milestone": null,
-    "comments": 6,
+    "comments": 7,
     "created_at": "2025-12-03T22:00:54Z",
-    "updated_at": "2025-12-04T11:48:30Z",
+    "updated_at": "2025-12-04T14:59:11Z",
     "closed_at": null,
     "author_association": "CONTRIBUTOR",
     "type": {
@@ -1794,7 +1794,7 @@
       "blocking": 0,
       "total_blocking": 0
     },
-    "body": "### Problem\n\nCurrently when you view a report's details (and have the permissions necessary to edit the report title), you see a push row with the report title and subtitle in a single push row:\n\n<img width=\"748\" height=\"622\" alt=\"Image\" src=\"https://github.com/user-attachments/assets/3270c9f5-eeaa-4d8e-994b-304256cd2901\" />\n\nBut since you cannot edit the subtitle, it doesn't really make sense to include it in the push row. It also adds a second tap target to the push row that if accidentally tapped, could be super frustrating.\n\n### Solution\n\nLet's update this screen to have these be two _separate_ rows. Instead of a single title push row with all the info, let's have a Title push row with the report's title, and a **read-only** From push row that shows the subtitle details.\n\n<img width=\"1550\" height=\"936\" alt=\"Image\" src=\"https://github.com/user-attachments/assets/d5e336e2-8db3-47b8-95bf-bfb7f27ad384\" />\n<details><summary>Upwork Automation - Do Not Edit</summary>\n    <ul>\n        <li>Upwork Job URL: https://www.upwork.com/jobs/~021996339259157093777</li>\n        <li>Upwork Job ID: 1996339259157093777</li>\n        <li>Last Price Increase: 2025-12-03</li>\n    </ul>\n</details>\n\n<details><summary>Issue Owner</summary>Current Issue Owner: @Pujan92</details>",
+    "body": "### Problem\n\nCurrently when you view a report's details (and have the permissions necessary to edit the report title), you see a push row with the report title and subtitle in a single push row:\n\n<img width=\"748\" height=\"622\" alt=\"Image\" src=\"https://github.com/user-attachments/assets/3270c9f5-eeaa-4d8e-994b-304256cd2901\" />\n\nBut since you cannot edit the subtitle, it doesn't really make sense to include it in the push row. It also adds a second tap target to the push row that if accidentally tapped, could be super frustrating.\n\n### Solution\n\nLet's update this screen to have these be two _separate_ rows. Instead of a single title push row with all the info, let's have a Title push row with the report's title, and a **read-only** From push row that shows the subtitle details. This update should be applied to both _editable_ and _non-editable_ cases.\n\n**Editable Example:**\n<img width=\"1550\" height=\"936\" alt=\"Image\" src=\"https://github.com/user-attachments/assets/d5e336e2-8db3-47b8-95bf-bfb7f27ad384\" />\n\n**Non-editable Example:**\n<img width=\"1550\" height=\"936\" alt=\"Image\" src=\"https://github.com/user-attachments/assets/0242eae8-06f4-43c7-aaf5-60aef75654e8\" />\n\n\n<details><summary>Upwork Automation - Do Not Edit</summary>\n    <ul>\n        <li>Upwork Job URL: https://www.upwork.com/jobs/~021996339259157093777</li>\n        <li>Upwork Job ID: 1996339259157093777</li>\n        <li>Last Price Increase: 2025-12-03</li>\n    </ul>\n</details>\n\n<details><summary>Issue Owner</summary>Current Issue Owner: @Pujan92</details>",
     "closed_by": null,
     "reactions": {
       "url": "https://api.github.com/repos/Expensify/App/issues/76669/reactions",
@@ -2709,9 +2709,9 @@
       }
     ],
     "milestone": null,
-    "comments": 7,
+    "comments": 9,
     "created_at": "2025-12-03T16:48:19Z",
-    "updated_at": "2025-12-04T04:29:45Z",
+    "updated_at": "2025-12-04T15:15:21Z",
     "closed_at": null,
     "author_association": "NONE",
     "type": null,
