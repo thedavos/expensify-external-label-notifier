@@ -139,7 +139,7 @@
     "milestone": null,
     "comments": 4,
     "created_at": "2025-12-05T14:59:36Z",
-    "updated_at": "2025-12-05T16:27:30Z",
+    "updated_at": "2025-12-05T16:29:03Z",
     "closed_at": null,
     "author_association": "NONE",
     "type": null,
@@ -268,6 +268,27 @@
     },
     "assignees": [
       {
+        "login": "dangrous",
+        "id": 5487802,
+        "node_id": "MDQ6VXNlcjU0ODc4MDI=",
+        "avatar_url": "https://avatars.githubusercontent.com/u/5487802?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/dangrous",
+        "html_url": "https://github.com/dangrous",
+        "followers_url": "https://api.github.com/users/dangrous/followers",
+        "following_url": "https://api.github.com/users/dangrous/following{/other_user}",
+        "gists_url": "https://api.github.com/users/dangrous/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/dangrous/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/dangrous/subscriptions",
+        "organizations_url": "https://api.github.com/users/dangrous/orgs",
+        "repos_url": "https://api.github.com/users/dangrous/repos",
+        "events_url": "https://api.github.com/users/dangrous/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/dangrous/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      {
         "login": "jliexpensify",
         "id": 30815269,
         "node_id": "MDQ6VXNlcjMwODE1MjY5",
@@ -311,9 +332,9 @@
       }
     ],
     "milestone": null,
-    "comments": 8,
+    "comments": 11,
     "created_at": "2025-12-04T22:38:16Z",
-    "updated_at": "2025-12-05T15:32:55Z",
+    "updated_at": "2025-12-05T16:46:14Z",
     "closed_at": null,
     "author_association": "NONE",
     "type": null,
@@ -329,7 +350,7 @@
       "blocking": 0,
       "total_blocking": 0
     },
-    "body": "If you haven’t already, check out our [contributing guidelines](https://github.com/Expensify/ReactNativeChat/blob/main/contributingGuides/CONTRIBUTING.md) for onboarding and email contributors@expensify.com to request to join our Slack channel!\n___\n\n**Version Number:** 9.2.72-0\n**Reproducible in staging?:** Yes\n**Reproducible in production?:** Yes\n**If this was caught during regression testing, add the test name, ID and link from BrowserStack:** https://github.com/Expensify/App/pull/74541\n**Email or phone of affected tester (no customers):** ibellicotest+2154@gmail.com\n**Issue reported by:** Applause Internal Team\n**Device used:** Motorola MotoG60 / Android 12 / Chrome (mWeb / Hybrid app) - Windows 11 / Chrome\n**App Component:** Money Requests\n\n## Action Performed:\nPrerequisite: Account has at least one workspace.\n1. Open the Expensify app.\n2. Open any workspace chat.\n3. Create two manual expenses.\n4. Open the report.\n5. Long tap and select one of the expenses.\n6. Tap on dropdown menu and select \"Hold\"\n7. Enter any reason and hold the expense.\n8. Return to chat.\n9. Tap on \"Submit\" on report preview.\n10. Turn off internet connection.\n11. Tap on \"Approve\"\n12. Approve only the unheld amount.\n13. Note that held expense is moved to a new report and shows a \"Submit\" button on preview.\n14. Turn on internet connection.\n15. Note that \"Submit\" button changes to \"Approve\".\n\n## Expected Result:\nAfter partially approving report offline, preview of held expense should automatically display an \"Approve\" button.\n\n## Actual Result:\nAfter partially approving a report while offline, preview of held expense shows a \"Submit\" button, that changes to \"Approve\" when back online.\n\n## Workaround:\nUnknown\n\n## Platforms:\n- [x] Android: App\n- [x] Android: mWeb Chrome\n- [ ] iOS: App\n- [ ] iOS: mWeb Safari\n- [ ] iOS: mWeb Chrome\n- [x] Windows: Chrome\n- [ ] MacOS: Chrome / Safari\n- [ ] MacOS: Desktop\n\n## Screenshots/Videos\n\nhttps://github.com/user-attachments/assets/6aabf555-5847-484b-a4c3-323a565b75e7\n\n[View all open jobs on GitHub](https://github.com/Expensify/App/issues?q=is%3Aopen+is%3Aissue+label%3A%22Help+Wanted%22)\n<details><summary>Upwork Automation - Do Not Edit</summary>\n    <ul>\n        <li>Upwork Job URL: https://www.upwork.com/jobs/~021996731646343908370</li>\n        <li>Upwork Job ID: 1996731646343908370</li>\n        <li>Last Price Increase: 2025-12-05</li>\n    </ul>\n</details>\n\n<details><summary>Issue Owner</summary>Current Issue Owner: @situchan</details>",
+    "body": "If you haven’t already, check out our [contributing guidelines](https://github.com/Expensify/ReactNativeChat/blob/main/contributingGuides/CONTRIBUTING.md) for onboarding and email contributors@expensify.com to request to join our Slack channel!\n___\n\n**Version Number:** 9.2.72-0\n**Reproducible in staging?:** Yes\n**Reproducible in production?:** Yes\n**If this was caught during regression testing, add the test name, ID and link from BrowserStack:** https://github.com/Expensify/App/pull/74541\n**Email or phone of affected tester (no customers):** ibellicotest+2154@gmail.com\n**Issue reported by:** Applause Internal Team\n**Device used:** Motorola MotoG60 / Android 12 / Chrome (mWeb / Hybrid app) - Windows 11 / Chrome\n**App Component:** Money Requests\n\n## Action Performed:\nPrerequisite: Account has at least one workspace.\n1. Open the Expensify app.\n2. Open any workspace chat.\n3. Create two manual expenses.\n4. Open the report.\n5. Long tap and select one of the expenses.\n6. Tap on dropdown menu and select \"Hold\"\n7. Enter any reason and hold the expense.\n8. Return to chat.\n9. Tap on \"Submit\" on report preview.\n10. Turn off internet connection.\n11. Tap on \"Approve\"\n12. Approve only the unheld amount.\n13. Note that held expense is moved to a new report and shows a \"Submit\" button on preview.\n14. Turn on internet connection.\n15. Note that \"Submit\" button changes to \"Approve\".\n\n## Expected Result:\nAfter partially approving report offline, preview of held expense should automatically display an \"Approve\" button.\n\n## Actual Result:\nAfter partially approving a report while offline, preview of held expense shows a \"Submit\" button, that changes to \"Approve\" when back online.\n\n## Workaround:\nUnknown\n\n## Platforms:\n- [x] Android: App\n- [x] Android: mWeb Chrome\n- [ ] iOS: App\n- [ ] iOS: mWeb Safari\n- [ ] iOS: mWeb Chrome\n- [x] Windows: Chrome\n- [ ] MacOS: Chrome / Safari\n- [ ] MacOS: Desktop\n\n## Screenshots/Videos\n\nhttps://github.com/user-attachments/assets/6aabf555-5847-484b-a4c3-323a565b75e7\n\n[View all open jobs on GitHub](https://github.com/Expensify/App/issues?q=is%3Aopen+is%3Aissue+label%3A%22Help+Wanted%22)\n<details><summary>Upwork Automation - Do Not Edit</summary>\n    <ul>\n        <li>Upwork Job URL: https://www.upwork.com/jobs/~021996731646343908370</li>\n        <li>Upwork Job ID: 1996731646343908370</li>\n        <li>Last Price Increase: 2025-12-05</li>\n    </ul>\n</details>\n\n<details><summary>Issue Owner</summary>Current Issue Owner: @dangrous</details>",
     "closed_by": null,
     "reactions": {
       "url": "https://api.github.com/repos/Expensify/App/issues/76780/reactions",
