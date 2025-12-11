@@ -183,7 +183,7 @@
     "id": 3719207160,
     "node_id": "I_kwDOEQqHYc7drpj4",
     "number": 77357,
-    "title": "[$250] Androis 16 only - \"Add\" is displayed instead of \"Add approver\" on Change approver page",
+    "title": "[$250] Android 16 only - \"Add\" is displayed instead of \"Add approver\" on Change approver page",
     "user": {
       "login": "jponikarchuk",
       "id": 141990088,
@@ -332,9 +332,9 @@
       }
     ],
     "milestone": null,
-    "comments": 9,
+    "comments": 10,
     "created_at": "2025-12-11T12:30:25Z",
-    "updated_at": "2025-12-11T15:02:52Z",
+    "updated_at": "2025-12-11T18:35:38Z",
     "closed_at": null,
     "author_association": "NONE",
     "type": null,
