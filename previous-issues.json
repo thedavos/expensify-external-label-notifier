@@ -1357,6 +1357,27 @@
     },
     "assignees": [
       {
+        "login": "AndrewGable",
+        "id": 2838819,
+        "node_id": "MDQ6VXNlcjI4Mzg4MTk=",
+        "avatar_url": "https://avatars.githubusercontent.com/u/2838819?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/AndrewGable",
+        "html_url": "https://github.com/AndrewGable",
+        "followers_url": "https://api.github.com/users/AndrewGable/followers",
+        "following_url": "https://api.github.com/users/AndrewGable/following{/other_user}",
+        "gists_url": "https://api.github.com/users/AndrewGable/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/AndrewGable/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/AndrewGable/subscriptions",
+        "organizations_url": "https://api.github.com/users/AndrewGable/orgs",
+        "repos_url": "https://api.github.com/users/AndrewGable/repos",
+        "events_url": "https://api.github.com/users/AndrewGable/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/AndrewGable/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      {
         "login": "jliexpensify",
         "id": 30815269,
         "node_id": "MDQ6VXNlcjMwODE1MjY5",
@@ -1400,9 +1421,9 @@
       }
     ],
     "milestone": null,
-    "comments": 5,
+    "comments": 7,
     "created_at": "2025-12-11T16:14:23Z",
-    "updated_at": "2025-12-12T19:33:41Z",
+    "updated_at": "2025-12-13T00:42:10Z",
     "closed_at": null,
     "author_association": "NONE",
     "type": null,
@@ -1418,7 +1439,7 @@
       "blocking": 0,
       "total_blocking": 0
     },
-    "body": "If you haven’t already, check out our [contributing guidelines](https://github.com/Expensify/ReactNativeChat/blob/main/contributingGuides/CONTRIBUTING.md) for onboarding and email contributors@expensify.com to request to join our Slack channel!\n___\n\n**Version Number:** 9.2.75-0\n**Reproducible in staging?:** Yes\n**Reproducible in production?:** Yes\n**If this was caught during regression testing, add the test name, ID and link from BrowserStack:** https://test-management.browserstack.com/projects/2219752/folder/13176922/test-cases/41237504\n**Email or phone of affected tester (no customers):** N/A\n**Issue reported by:** Applause Internal Team\n**Bug source:** Regression TC Execution\n**Device used:** MacBook Air 15.6.1 Chrome, iPhone 15 iOS 26.1 Safari\n**App Component:** Money Requests\n\n## Action Performed:\n1. Sign in to ND\n2. Create a workspace\n3. Navigate to the workspace chat, create two expenses, do not open them\n4. Open Reports tab - Expenses, click any of the two expenses from step 3\n\n## Expected Result:\nReimbursable toggle is enabled in expense details\n\n## Actual Result:\nReimbursable toggle is disabled in expense details when opening expense in Reports for the first time\n\n## Workaround:\nUnknown\n\n## Platforms:\n- [ ] Android: App\n- [x] Android: mWeb Chrome\n- [ ] iOS: App\n- [ ] iOS: mWeb Safari\n- [ ] iOS: mWeb Chrome\n- [x] Windows: Chrome\n- [x] MacOS: Chrome / Safari\n\n## Screenshots/Videos\n\nhttps://github.com/user-attachments/assets/d1d9748e-cae5-4386-8368-9570c4028fe4\n\n[View all open jobs on GitHub](https://github.com/Expensify/App/issues?q=is%3Aopen+is%3Aissue+label%3A%22Help+Wanted%22)\n<details><summary>Upwork Automation - Do Not Edit</summary>\n    <ul>\n        <li>Upwork Job URL: https://www.upwork.com/jobs/~021999278343449727840</li>\n        <li>Upwork Job ID: 1999278343449727840</li>\n        <li>Last Price Increase: 2025-12-12</li>\n    </ul>\n</details>\n\n<details><summary>Issue Owner</summary>Current Issue Owner: @ikevin127</details>",
+    "body": "If you haven’t already, check out our [contributing guidelines](https://github.com/Expensify/ReactNativeChat/blob/main/contributingGuides/CONTRIBUTING.md) for onboarding and email contributors@expensify.com to request to join our Slack channel!\n___\n\n**Version Number:** 9.2.75-0\n**Reproducible in staging?:** Yes\n**Reproducible in production?:** Yes\n**If this was caught during regression testing, add the test name, ID and link from BrowserStack:** https://test-management.browserstack.com/projects/2219752/folder/13176922/test-cases/41237504\n**Email or phone of affected tester (no customers):** N/A\n**Issue reported by:** Applause Internal Team\n**Bug source:** Regression TC Execution\n**Device used:** MacBook Air 15.6.1 Chrome, iPhone 15 iOS 26.1 Safari\n**App Component:** Money Requests\n\n## Action Performed:\n1. Sign in to ND\n2. Create a workspace\n3. Navigate to the workspace chat, create two expenses, do not open them\n4. Open Reports tab - Expenses, click any of the two expenses from step 3\n\n## Expected Result:\nReimbursable toggle is enabled in expense details\n\n## Actual Result:\nReimbursable toggle is disabled in expense details when opening expense in Reports for the first time\n\n## Workaround:\nUnknown\n\n## Platforms:\n- [ ] Android: App\n- [x] Android: mWeb Chrome\n- [ ] iOS: App\n- [ ] iOS: mWeb Safari\n- [ ] iOS: mWeb Chrome\n- [x] Windows: Chrome\n- [x] MacOS: Chrome / Safari\n\n## Screenshots/Videos\n\nhttps://github.com/user-attachments/assets/d1d9748e-cae5-4386-8368-9570c4028fe4\n\n[View all open jobs on GitHub](https://github.com/Expensify/App/issues?q=is%3Aopen+is%3Aissue+label%3A%22Help+Wanted%22)\n<details><summary>Upwork Automation - Do Not Edit</summary>\n    <ul>\n        <li>Upwork Job URL: https://www.upwork.com/jobs/~021999278343449727840</li>\n        <li>Upwork Job ID: 1999278343449727840</li>\n        <li>Last Price Increase: 2025-12-12</li>\n    </ul>\n</details>\n\n<details><summary>Issue Owner</summary>Current Issue Owner: @AndrewGable</details>",
     "closed_by": null,
     "reactions": {
       "url": "https://api.github.com/repos/Expensify/App/issues/77402/reactions",
