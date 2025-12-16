@@ -225,7 +225,7 @@
     "id": 3734973299,
     "node_id": "I_kwDOEQqHYc7enytz",
     "number": 77760,
-    "title": "[$250] Full story: Clicking on Add expense > Track distance /Create expense leads to NotFound",
+    "title": "[$500] Full story: Clicking on Add expense > Track distance /Create expense leads to NotFound",
     "user": {
       "login": "m-natarajan",
       "id": 38435837,
@@ -362,9 +362,9 @@
       }
     ],
     "milestone": null,
-    "comments": 6,
+    "comments": 7,
     "created_at": "2025-12-16T14:14:28Z",
-    "updated_at": "2025-12-16T20:37:02Z",
+    "updated_at": "2025-12-16T21:59:35Z",
     "closed_at": null,
     "author_association": "NONE",
     "type": null,
@@ -408,7 +408,7 @@
     "id": 3734838060,
     "node_id": "I_kwDOEQqHYc7enRss",
     "number": 77756,
-    "title": "[$50] Card feed icon for USBank plaid card feed is not correct",
+    "title": "[$125] Card feed icon for USBank plaid card feed is not correct",
     "user": {
       "login": "m-natarajan",
       "id": 38435837,
@@ -536,9 +536,9 @@
       }
     ],
     "milestone": null,
-    "comments": 11,
+    "comments": 14,
     "created_at": "2025-12-16T13:40:10Z",
-    "updated_at": "2025-12-16T20:59:57Z",
+    "updated_at": "2025-12-16T22:12:44Z",
     "closed_at": null,
     "author_association": "NONE",
     "type": null,
