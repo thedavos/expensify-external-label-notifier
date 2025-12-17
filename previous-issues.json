@@ -350,9 +350,9 @@
       }
     ],
     "milestone": null,
-    "comments": 9,
+    "comments": 11,
     "created_at": "2025-12-17T15:34:25Z",
-    "updated_at": "2025-12-17T17:11:28Z",
+    "updated_at": "2025-12-17T18:06:42Z",
     "closed_at": null,
     "author_association": "CONTRIBUTOR",
     "type": null,
@@ -368,7 +368,7 @@
       "blocking": 0,
       "total_blocking": 0
     },
-    "body": "During https://github.com/Expensify/App/pull/76343 it was figured out that a navigation bug in iOS is fixed in the new version of react-native-pager-view. I decided we update the version in a different issue just so we can get the PR out and avoid any unintended consequences.\n<details><summary>Upwork Automation - Do Not Edit</summary>\n    <ul>\n        <li>Upwork Job URL: https://www.upwork.com/jobs/~022001316660815113017</li>\n        <li>Upwork Job ID: 2001316660815113017</li>\n        <li>Last Price Increase: 2025-12-17</li>\n    </ul>\n</details>\n\n<details><summary>Issue Owner</summary>Current Issue Owner: @</details>",
+    "body": "During https://github.com/Expensify/App/pull/76343 it was figured out that a navigation bug in iOS is fixed in the new version of react-native-pager-view. I decided we update the version in a different issue just so we can get the PR out and avoid any unintended consequences.\n<details><summary>Upwork Automation - Do Not Edit</summary>\n    <ul>\n        <li>Upwork Job URL: https://www.upwork.com/jobs/~022001316660815113017</li>\n        <li>Upwork Job ID: 2001316660815113017</li>\n        <li>Last Price Increase: 2025-12-17</li>\n    </ul>\n</details>\n\n<details><summary>Issue Owner</summary>Current Issue Owner: @</details>\n\n<details><summary>Issue Owner</summary>Current Issue Owner: @</details>",
     "closed_by": null,
     "reactions": {
       "url": "https://api.github.com/repos/Expensify/App/issues/77894/reactions",
@@ -746,9 +746,9 @@
       }
     ],
     "milestone": null,
-    "comments": 12,
+    "comments": 13,
     "created_at": "2025-12-17T03:16:39Z",
-    "updated_at": "2025-12-17T15:56:18Z",
+    "updated_at": "2025-12-17T18:06:11Z",
     "closed_at": null,
     "author_association": "NONE",
     "type": null,
