@@ -179,9 +179,9 @@
       }
     ],
     "milestone": null,
-    "comments": 8,
+    "comments": 9,
     "created_at": "2025-12-18T20:04:08Z",
-    "updated_at": "2025-12-18T20:07:27Z",
+    "updated_at": "2025-12-18T22:02:39Z",
     "closed_at": null,
     "author_association": "CONTRIBUTOR",
     "type": null,
@@ -197,7 +197,7 @@
       "blocking": 0,
       "total_blocking": 0
     },
-    "body": "\n**Expensify/Expensify Issue URL:** https://github.com/Expensify/Expensify/issues/576448\n\n## Expected Result:\n\nIn a user's status page, if they are set as the Vacation Delegate of anyone else, we want to show this so it's clear they have been set as someone's delegate.\n\nNote: users who are someone else's Vacation Delegate should NOT be able to set a delegate of their own (this follows OldDot behavior)\n\nAnother note: There are probably backend change associated with this (example: Making sure users get live updates when someone sets them as their vacation delegate). Note any of those changes that we may need to implement and we will find someone to implement 👍 \n\n## Screenshots/Videos\n\nPlan for NewDot:\n\n<img width=\"2570\" height=\"1864\" alt=\"Image\" src=\"https://github.com/user-attachments/assets/26c8ed2a-1d01-44e2-ab51-5dd94f22c534\" />\n\nSimilar view from OldDot:\n\n<img width=\"2088\" height=\"1042\" alt=\"Image\" src=\"https://github.com/user-attachments/assets/22ee2dc0-46cd-4307-ad30-9a5230c675bb\" />\n\n[View all open jobs on GitHub](https://github.com/Expensify/App/issues?q=is%3Aopen+is%3Aissue+label%3A%22Help+Wanted%22)\n\n<details><summary>Upwork Automation - Do Not Edit</summary>\n    <ul>\n        <li>Upwork Job URL: https://www.upwork.com/jobs/~022001745437992113713</li>\n        <li>Upwork Job ID: 2001745437992113713</li>\n        <li>Last Price Increase: 2025-12-18</li>\n    </ul>\n</details>",
+    "body": "\n**Expensify/Expensify Issue URL:** https://github.com/Expensify/Expensify/issues/576448\n\n## Expected Result:\n\nIn a user's status page, if they are set as the Vacation Delegate of anyone else, we want to show this so it's clear they have been set as someone's delegate.\n\nNote: users who are someone else's Vacation Delegate should NOT be able to set a delegate of their own (this follows OldDot behavior)\n\nAnother note: There are probably backend change associated with this (example: Making sure users get live updates when someone sets them as their vacation delegate). Note any of those changes that we may need to implement and we will find someone to implement 👍 \n\n## Screenshots/Videos\n\nPlan for NewDot:\n\n<img width=\"2570\" height=\"1864\" alt=\"Image\" src=\"https://github.com/user-attachments/assets/9aaaa943-c068-4dc6-b647-f9c0e4a9cab6\" />\n\nSimilar view from OldDot:\n\n<img width=\"2088\" height=\"1042\" alt=\"Image\" src=\"https://github.com/user-attachments/assets/22ee2dc0-46cd-4307-ad30-9a5230c675bb\" />\n\n[View all open jobs on GitHub](https://github.com/Expensify/App/issues?q=is%3Aopen+is%3Aissue+label%3A%22Help+Wanted%22)\n\n<details><summary>Upwork Automation - Do Not Edit</summary>\n    <ul>\n        <li>Upwork Job URL: https://www.upwork.com/jobs/~022001745437992113713</li>\n        <li>Upwork Job ID: 2001745437992113713</li>\n        <li>Last Price Increase: 2025-12-18</li>\n    </ul>\n</details>",
     "closed_by": null,
     "reactions": {
       "url": "https://api.github.com/repos/Expensify/App/issues/78037/reactions",
@@ -332,9 +332,9 @@
       }
     ],
     "milestone": null,
-    "comments": 7,
+    "comments": 8,
     "created_at": "2025-12-18T19:20:51Z",
-    "updated_at": "2025-12-18T19:56:47Z",
+    "updated_at": "2025-12-18T21:25:02Z",
     "closed_at": null,
     "author_association": "CONTRIBUTOR",
     "type": null,
