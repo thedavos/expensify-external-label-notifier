@@ -160,7 +160,7 @@
     "milestone": null,
     "comments": 2,
     "created_at": "2025-12-19T10:36:01Z",
-    "updated_at": "2025-12-19T10:37:45Z",
+    "updated_at": "2025-12-19T12:29:21Z",
     "closed_at": null,
     "author_association": "CONTRIBUTOR",
     "type": null,
@@ -176,7 +176,7 @@
       "blocking": 0,
       "total_blocking": 0
     },
-    "body": "Coming from this [report](https://expensify.slack.com/archives/C05LX9D6E07/p1764131632533319)\n\n### Problem\nWhen user runs into a situation where a report has RBR error and the composer is not showing for various reasons, we also do not show the RBR option to dismiss the error so they are stuck with the failing report\n\n\n### Solution\n\nEnsure that if there is a report with RBR, we always show the error and X to dismiss it that will clear this stale report\n\n<details><summary>Issue Owner</summary>Current Issue Owner: @</details>",
+    "body": "Coming from this [report](https://expensify.slack.com/archives/C05LX9D6E07/p1764131632533319)\n\n### Problem\nWhen user runs into a situation where a report has RBR error and the composer is not showing for various reasons, we also do not show the RBR option to dismiss the error so they are stuck with the failing report\n\n\n### Solution\n\nEnsure that if there is a report with RBR, we always show the error and X to dismiss it that will clear this stale report\n\n<details><summary>Issue Owner</summary>Current Issue Owner: @</details>\n\n<details><summary>Issue Owner</summary>Current Issue Owner: @truph01</details>",
     "closed_by": null,
     "reactions": {
       "url": "https://api.github.com/repos/Expensify/App/issues/78112/reactions",
@@ -362,9 +362,9 @@
       }
     ],
     "milestone": null,
-    "comments": 10,
+    "comments": 11,
     "created_at": "2025-12-19T06:41:30Z",
-    "updated_at": "2025-12-19T11:04:02Z",
+    "updated_at": "2025-12-19T12:38:25Z",
     "closed_at": null,
     "author_association": "NONE",
     "type": null,
@@ -1158,7 +1158,7 @@
     "id": 3744188322,
     "node_id": "I_kwDOEQqHYc7fK8ei",
     "number": 78013,
-    "title": "[$250] Workspace - App crashes after deleting workspace",
+    "title": "[Due for payment 2025-12-26] [$250] Workspace - App crashes after deleting workspace",
     "user": {
       "login": "jponikarchuk",
       "id": 141990088,
@@ -1182,15 +1182,6 @@
     },
     "labels": [
       {
-        "id": 2283143991,
-        "node_id": "MDU6TGFiZWwyMjgzMTQzOTkx",
-        "url": "https://api.github.com/repos/Expensify/App/labels/Reviewing",
-        "name": "Reviewing",
-        "color": "dddddd",
-        "default": false,
-        "description": "Has a PR in review"
-      },
-      {
         "id": 2873246102,
         "node_id": "MDU6TGFiZWwyODczMjQ2MTAy",
         "url": "https://api.github.com/repos/Expensify/App/labels/External",
@@ -1209,13 +1200,13 @@
         "description": "KSv2"
       },
       {
-        "id": 3136662525,
-        "node_id": "MDU6TGFiZWwzMTM2NjYyNTI1",
-        "url": "https://api.github.com/repos/Expensify/App/labels/Help%20Wanted",
-        "name": "Help Wanted",
-        "color": "CFC8F1",
+        "id": 3271255930,
+        "node_id": "MDU6TGFiZWwzMjcxMjU1OTMw",
+        "url": "https://api.github.com/repos/Expensify/App/labels/Awaiting%20Payment",
+        "name": "Awaiting Payment",
+        "color": "ededed",
         "default": false,
-        "description": "Apply this label when an issue is open to proposals by contributors"
+        "description": "Auto-added when associated PR is deployed to production"
       },
       {
         "id": 4664850679,
@@ -1316,9 +1307,9 @@
       }
     ],
     "milestone": null,
-    "comments": 11,
+    "comments": 16,
     "created_at": "2025-12-18T17:59:51Z",
-    "updated_at": "2025-12-19T10:55:26Z",
+    "updated_at": "2025-12-19T12:37:10Z",
     "closed_at": null,
     "author_association": "NONE",
     "type": null,
@@ -1334,7 +1325,7 @@
       "blocking": 0,
       "total_blocking": 0
     },
-    "body": "If you haven’t already, check out our [contributing guidelines](https://github.com/Expensify/ReactNativeChat/blob/main/contributingGuides/CONTRIBUTING.md) for onboarding and email contributors@expensify.com to request to join our Slack channel!\n___\n\n**Version Number:** 9.2.81-5\n**Reproducible in staging?:** Yes\n**Reproducible in production?:** Yes\n**If this was caught during regression testing, add the test name, ID and link from BrowserStack:** Exploratory\n**Email or phone of affected tester (no customers):** sjodinjsndoinjsnosij@gmail.com\n**Issue reported by:** Applause Internal Team\n**Bug source:** Exploratory - Significant User Experience Deterioration\n**Device used:** Mac 26.1 / Chrome\n**App Component:** Workspace Settings\n\n## Action Performed:\n1. Go to staging.new.expensify.com\n2. Go to workspace settings > Overview.\n3. Click More > Delete.\n4. Delete the workspace.\n\n## Expected Result:\nApp will not crash after deleting workspace.\n\n## Actual Result:\nApp crashes after deleting workspace.\n\n## Workaround:\nUnknown\n\n## Platforms:\n- [ ] Android: App\n- [ ] Android: mWeb Chrome\n- [ ] iOS: App\n- [ ] iOS: mWeb Safari\n- [ ] iOS: mWeb Chrome\n- [x] Windows: Chrome\n- [x] MacOS: Chrome / Safari\n\n## Screenshots/Videos\n\nhttps://github.com/user-attachments/assets/9abb93fe-c20d-4bee-9b50-50725dfdc511\n\n[logs.txt](https://github.com/user-attachments/files/24242194/logs.txt)\n\n[View all open jobs on GitHub](https://github.com/Expensify/App/issues?q=is%3Aopen+is%3Aissue+label%3A%22Help+Wanted%22)\n<details><summary>Upwork Automation - Do Not Edit</summary>\n    <ul>\n        <li>Upwork Job URL: https://www.upwork.com/jobs/~022001782468415804977</li>\n        <li>Upwork Job ID: 2001782468415804977</li>\n        <li>Last Price Increase: 2025-12-18</li>\n    </ul>\n</details>\n\n<details><summary>Issue Owner</summary>Current Issue Owner: @NikkiWines</details>",
+    "body": "If you haven’t already, check out our [contributing guidelines](https://github.com/Expensify/ReactNativeChat/blob/main/contributingGuides/CONTRIBUTING.md) for onboarding and email contributors@expensify.com to request to join our Slack channel!\n___\n\n**Version Number:** 9.2.81-5\n**Reproducible in staging?:** Yes\n**Reproducible in production?:** Yes\n**If this was caught during regression testing, add the test name, ID and link from BrowserStack:** Exploratory\n**Email or phone of affected tester (no customers):** sjodinjsndoinjsnosij@gmail.com\n**Issue reported by:** Applause Internal Team\n**Bug source:** Exploratory - Significant User Experience Deterioration\n**Device used:** Mac 26.1 / Chrome\n**App Component:** Workspace Settings\n\n## Action Performed:\n1. Go to staging.new.expensify.com\n2. Go to workspace settings > Overview.\n3. Click More > Delete.\n4. Delete the workspace.\n\n## Expected Result:\nApp will not crash after deleting workspace.\n\n## Actual Result:\nApp crashes after deleting workspace.\n\n## Workaround:\nUnknown\n\n## Platforms:\n- [ ] Android: App\n- [ ] Android: mWeb Chrome\n- [ ] iOS: App\n- [ ] iOS: mWeb Safari\n- [ ] iOS: mWeb Chrome\n- [x] Windows: Chrome\n- [x] MacOS: Chrome / Safari\n\n## Screenshots/Videos\n\nhttps://github.com/user-attachments/assets/9abb93fe-c20d-4bee-9b50-50725dfdc511\n\n[logs.txt](https://github.com/user-attachments/files/24242194/logs.txt)\n\n[View all open jobs on GitHub](https://github.com/Expensify/App/issues?q=is%3Aopen+is%3Aissue+label%3A%22Help+Wanted%22)\n<details><summary>Upwork Automation - Do Not Edit</summary>\n    <ul>\n        <li>Upwork Job URL: https://www.upwork.com/jobs/~022001782468415804977</li>\n        <li>Upwork Job ID: 2001782468415804977</li>\n        <li>Last Price Increase: 2025-12-18</li>\n    </ul>\n</details>\n\n<details><summary>Issue Owner</summary>Current Issue Owner: @twisterdotcom</details>",
     "closed_by": null,
     "reactions": {
       "url": "https://api.github.com/repos/Expensify/App/issues/78013/reactions",
