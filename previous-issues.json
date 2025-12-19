@@ -1460,9 +1460,9 @@
       }
     ],
     "milestone": null,
-    "comments": 12,
+    "comments": 14,
     "created_at": "2025-12-19T06:41:30Z",
-    "updated_at": "2025-12-19T13:37:35Z",
+    "updated_at": "2025-12-19T16:05:57Z",
     "closed_at": null,
     "author_association": "NONE",
     "type": null,
@@ -1847,9 +1847,9 @@
       }
     ],
     "milestone": null,
-    "comments": 7,
+    "comments": 9,
     "created_at": "2025-12-19T06:23:01Z",
-    "updated_at": "2025-12-19T14:33:18Z",
+    "updated_at": "2025-12-19T16:01:32Z",
     "closed_at": null,
     "author_association": "NONE",
     "type": null,
@@ -2048,7 +2048,7 @@
       "blocking": 0,
       "total_blocking": 0
     },
-    "body": "If you haven���t already, check out our [contributing guidelines](https://github.com/Expensify/ReactNativeChat/blob/main/contributingGuides/CONTRIBUTING.md) for onboarding and email contributors@expensify.com to request to join our Slack channel!\n___\n\n**Version Number:** 9.2.82-0\n**Reproducible in staging?:** Yes\n**Reproducible in production?:** Yes\n**If this was caught during regression testing, add the test name, ID and link from BrowserStack:** https://test-management.browserstack.com/projects/2219752/folder/13176703/test-cases/41236804\n**Email or phone of affected tester (no customers):** fischer9966+121826aadm@gmail.com\n**Issue reported by:** Applause Internal Team\n**Bug source:** Regression TC Execution\n**Device used:** iPhone 16 Pro / 26.1\n**App Component:** User Settings\n\n## Action Performed:\n1. Open iOS App\n2. Login and validate new gmail account\n3. Create new workspace\n4. Go to WS members and invite new user as member\n5. Open this user settings and change user role from Member to Admin\n\n## Expected Result:\nUser role can be changed successfully\n\n## Actual Result:\nApp crashes after admin changes user role from Member to Admin\n\n## Workaround:\nUnknown\n\n## Platforms:\n- [ ] Android: App\n- [ ] Android: mWeb Chrome\n- [x] iOS: App\n- [ ] iOS: mWeb Safari\n- [ ] iOS: mWeb Chrome\n- [ ] Windows: Chrome\n- [ ] MacOS: Chrome / Safari\n\n## Screenshots/Videos\n\nhttps://github.com/user-attachments/assets/29fc8118-c9b7-4e21-8861-f94b5140955a\n\n[logs.txt](https://github.com/user-attachments/files/24251342/logs.txt)\n\n[View all open jobs on GitHub](https://github.com/Expensify/App/issues?q=is%3Aopen+is%3Aissue+label%3A%22Help+Wanted%22)\n<details><summary>Upwork Automation - Do Not Edit</summary>\n    <ul>\n        <li>Upwork Job URL: https://www.upwork.com/jobs/~022002017426943090820</li>\n        <li>Upwork Job ID: 2002017426943090820</li>\n        <li>Last Price Increase: 2025-12-19</li>\n    </ul>\n</details>\n\n<details><summary>Issue Owner</summary>Current Issue Owner: @alitoshmatov</details>",
+    "body": "If you haven’t already, check out our [contributing guidelines](https://github.com/Expensify/ReactNativeChat/blob/main/contributingGuides/CONTRIBUTING.md) for onboarding and email contributors@expensify.com to request to join our Slack channel!\n___\n\n**Version Number:** 9.2.82-0\n**Reproducible in staging?:** Yes\n**Reproducible in production?:** Yes\n**If this was caught during regression testing, add the test name, ID and link from BrowserStack:** https://test-management.browserstack.com/projects/2219752/folder/13176703/test-cases/41236804\n**Email or phone of affected tester (no customers):** fischer9966+121826aadm@gmail.com\n**Issue reported by:** Applause Internal Team\n**Bug source:** Regression TC Execution\n**Device used:** iPhone 16 Pro / 26.1\n**App Component:** User Settings\n\n## Action Performed:\n1. Open iOS App\n2. Login and validate new gmail account\n3. Create new workspace\n4. Go to WS members and invite new user as member\n5. Open this user settings and change user role from Member to Admin\n\n## Expected Result:\nUser role can be changed successfully\n\n## Actual Result:\nApp crashes after admin changes user role from Member to Admin\n\n## Workaround:\nUnknown\n\n## Platforms:\n- [ ] Android: App\n- [ ] Android: mWeb Chrome\n- [x] iOS: App\n- [ ] iOS: mWeb Safari\n- [ ] iOS: mWeb Chrome\n- [ ] Windows: Chrome\n- [ ] MacOS: Chrome / Safari\n\n## Screenshots/Videos\n\nhttps://github.com/user-attachments/assets/29fc8118-c9b7-4e21-8861-f94b5140955a\n\n[logs.txt](https://github.com/user-attachments/files/24251342/logs.txt)\n\n[View all open jobs on GitHub](https://github.com/Expensify/App/issues?q=is%3Aopen+is%3Aissue+label%3A%22Help+Wanted%22)\n<details><summary>Upwork Automation - Do Not Edit</summary>\n    <ul>\n        <li>Upwork Job URL: https://www.upwork.com/jobs/~022002017426943090820</li>\n        <li>Upwork Job ID: 2002017426943090820</li>\n        <li>Last Price Increase: 2025-12-19</li>\n    </ul>\n</details>\n\n<details><summary>Issue Owner</summary>Current Issue Owner: @alitoshmatov</details>",
     "closed_by": null,
     "reactions": {
       "url": "https://api.github.com/repos/Expensify/App/issues/78093/reactions",
@@ -2636,9 +2636,9 @@
       }
     ],
     "milestone": null,
-    "comments": 10,
+    "comments": 11,
     "created_at": "2025-12-18T23:28:08Z",
-    "updated_at": "2025-12-19T14:54:50Z",
+    "updated_at": "2025-12-19T15:53:06Z",
     "closed_at": null,
     "author_association": "NONE",
     "type": null,
@@ -3218,9 +3218,9 @@
       }
     ],
     "milestone": null,
-    "comments": 12,
+    "comments": 15,
     "created_at": "2025-12-18T20:04:08Z",
-    "updated_at": "2025-12-19T03:10:53Z",
+    "updated_at": "2025-12-19T16:25:08Z",
     "closed_at": null,
     "author_association": "CONTRIBUTOR",
     "type": null,
@@ -3236,7 +3236,7 @@
       "blocking": 0,
       "total_blocking": 0
     },
-    "body": "\n**Expensify/Expensify Issue URL:** https://github.com/Expensify/Expensify/issues/576448\n\n## Expected Result:\n\nIn a user's status page, if they are set as the Vacation Delegate of anyone else, we want to show this so it's clear they have been set as someone's delegate.\n\nNote: users who are someone else's Vacation Delegate should NOT be able to set a delegate of their own (this follows OldDot behavior)\n\nAnother note: There are probably backend change associated with this (example: Making sure users get live updates when someone sets them as their vacation delegate). Note any of those changes that we may need to implement and we will find someone to implement 👍 \n\n## Screenshots/Videos\n\nPlan for NewDot:\n\n<img width=\"2570\" height=\"1864\" alt=\"Image\" src=\"https://github.com/user-attachments/assets/9aaaa943-c068-4dc6-b647-f9c0e4a9cab6\" />\n\nSimilar view from OldDot:\n\n<img width=\"2088\" height=\"1042\" alt=\"Image\" src=\"https://github.com/user-attachments/assets/22ee2dc0-46cd-4307-ad30-9a5230c675bb\" />\n\n[View all open jobs on GitHub](https://github.com/Expensify/App/issues?q=is%3Aopen+is%3Aissue+label%3A%22Help+Wanted%22)\n\n<details><summary>Upwork Automation - Do Not Edit</summary>\n    <ul>\n        <li>Upwork Job URL: https://www.upwork.com/jobs/~022001745437992113713</li>\n        <li>Upwork Job ID: 2001745437992113713</li>\n        <li>Last Price Increase: 2025-12-18</li>\n    </ul>\n</details>",
+    "body": "\n**Expensify/Expensify Issue URL:** https://github.com/Expensify/Expensify/issues/576448\n\n## Expected Result:\n\nIn a user's status page, if they are set as the Vacation Delegate of anyone else, we want to show this so it's clear they have been set as someone's delegate.\n\nNote: users who are someone else's Vacation Delegate should NOT be able to set a delegate of their own (this follows OldDot behavior)\n\nAnother note: There are probably backend change associated with this (example: Making sure users get live updates when someone sets them as their vacation delegate). Note any of those changes that we may need to implement and we will find someone to implement 👍 \n\n## Screenshots/Videos\n\nPlan for NewDot:\n\n<img width=\"2570\" height=\"1864\" alt=\"Image\" src=\"https://github.com/user-attachments/assets/9aaaa943-c068-4dc6-b647-f9c0e4a9cab6\" />\n\nSimilar view from OldDot:\n\n<img width=\"2088\" height=\"1042\" alt=\"Image\" src=\"https://github.com/user-attachments/assets/22ee2dc0-46cd-4307-ad30-9a5230c675bb\" />\n\n[View all open jobs on GitHub](https://github.com/Expensify/App/issues?q=is%3Aopen+is%3Aissue+label%3A%22Help+Wanted%22)\n\n<details><summary>Upwork Automation - Do Not Edit</summary>\n    <ul>\n        <li>Upwork Job URL: https://www.upwork.com/jobs/~022001745437992113713</li>\n        <li>Upwork Job ID: 2001745437992113713</li>\n        <li>Last Price Increase: 2025-12-18</li>\n    </ul>\n</details>\n\n<details><summary>Issue Owner</summary>Current Issue Owner: @</details>",
     "closed_by": null,
     "reactions": {
       "url": "https://api.github.com/repos/Expensify/App/issues/78037/reactions",
