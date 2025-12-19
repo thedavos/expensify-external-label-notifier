@@ -1060,6 +1060,27 @@
         "site_admin": false
       },
       {
+        "login": "jasperhuangg",
+        "id": 31285285,
+        "node_id": "MDQ6VXNlcjMxMjg1Mjg1",
+        "avatar_url": "https://avatars.githubusercontent.com/u/31285285?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/jasperhuangg",
+        "html_url": "https://github.com/jasperhuangg",
+        "followers_url": "https://api.github.com/users/jasperhuangg/followers",
+        "following_url": "https://api.github.com/users/jasperhuangg/following{/other_user}",
+        "gists_url": "https://api.github.com/users/jasperhuangg/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/jasperhuangg/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/jasperhuangg/subscriptions",
+        "organizations_url": "https://api.github.com/users/jasperhuangg/orgs",
+        "repos_url": "https://api.github.com/users/jasperhuangg/repos",
+        "events_url": "https://api.github.com/users/jasperhuangg/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/jasperhuangg/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      {
         "login": "bfitzexpensify",
         "id": 38236554,
         "node_id": "MDQ6VXNlcjM4MjM2NTU0",
@@ -1082,9 +1103,9 @@
       }
     ],
     "milestone": null,
-    "comments": 11,
+    "comments": 14,
     "created_at": "2025-12-18T17:04:22Z",
-    "updated_at": "2025-12-18T21:16:21Z",
+    "updated_at": "2025-12-19T08:58:12Z",
     "closed_at": null,
     "author_association": "CONTRIBUTOR",
     "type": null,
@@ -1100,7 +1121,7 @@
       "blocking": 0,
       "total_blocking": 0
     },
-    "body": "In the following scenario:\n - User is on Reports → To-do → Submit\n - User clicks Global Create > Scan (and workspace has a delayed submission frequency enabled)\n - No existing report exists\n\nThen the user confusingly sees $0.00 in the amount column. We should instead communicate that the receipt on the one-expense report is `Scanning`, like so. \n\n<img width=\"2800\" height=\"1624\" alt=\"Image\" src=\"https://github.com/user-attachments/assets/1cd62857-6c2c-41ee-97e3-1dff0832f768\" />\n\n<details><summary>Issue Owner</summary>Current Issue Owner: @jjcoffee</details>",
+    "body": "In the following scenario:\n - User is on Reports → To-do → Submit\n - User clicks Global Create > Scan (and workspace has a delayed submission frequency enabled)\n - No existing report exists\n\nThen the user confusingly sees $0.00 in the amount column. We should instead communicate that the receipt on the one-expense report is `Scanning`, like so. \n\n<img width=\"2800\" height=\"1624\" alt=\"Image\" src=\"https://github.com/user-attachments/assets/1cd62857-6c2c-41ee-97e3-1dff0832f768\" />\n\n<details><summary>Issue Owner</summary>Current Issue Owner: @jasperhuangg</details>",
     "closed_by": null,
     "reactions": {
       "url": "https://api.github.com/repos/Expensify/App/issues/78007/reactions",
