@@ -1576,6 +1576,27 @@
     },
     "assignees": [
       {
+        "login": "cead22",
+        "id": 165133,
+        "node_id": "MDQ6VXNlcjE2NTEzMw==",
+        "avatar_url": "https://avatars.githubusercontent.com/u/165133?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/cead22",
+        "html_url": "https://github.com/cead22",
+        "followers_url": "https://api.github.com/users/cead22/followers",
+        "following_url": "https://api.github.com/users/cead22/following{/other_user}",
+        "gists_url": "https://api.github.com/users/cead22/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/cead22/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/cead22/subscriptions",
+        "organizations_url": "https://api.github.com/users/cead22/orgs",
+        "repos_url": "https://api.github.com/users/cead22/repos",
+        "events_url": "https://api.github.com/users/cead22/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/cead22/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      {
         "login": "NicMendonca",
         "id": 24947345,
         "node_id": "MDQ6VXNlcjI0OTQ3MzQ1",
@@ -1619,9 +1640,9 @@
       }
     ],
     "milestone": null,
-    "comments": 4,
+    "comments": 6,
     "created_at": "2025-12-20T16:58:12Z",
-    "updated_at": "2025-12-22T16:01:04Z",
+    "updated_at": "2025-12-22T17:14:17Z",
     "closed_at": null,
     "author_association": "NONE",
     "type": null,
@@ -1637,7 +1658,7 @@
       "blocking": 0,
       "total_blocking": 0
     },
-    "body": "If you haven’t already, check out our [contributing guidelines](https://github.com/Expensify/ReactNativeChat/blob/main/contributingGuides/CONTRIBUTING.md) for onboarding and email contributors@expensify.com to request to join our Slack channel!\n___\n\n**Version Number:** 9.2.85-0\n**Reproducible in staging?:** Yes\n**Reproducible in production?:** Yes\n**If this was caught during regression testing, add the test name, ID and link from BrowserStack:** Exp https://test-management.browserstack.com/projects/2219752/test-runs/TR-2466/folder/13176890/41237385/1086557947\n**Email or phone of affected tester (no customers):** applausetester+201201kh@applause.expensifail.com\n**Issue reported by:** Applause Internal Team\n**Bug source:** Exploratory - Significant User Experience Deterioration\n**Device used:** Samsung Galaxy S25 FE / Android 16\n**App Component:** Workspace Settings\n\n## Action Performed:\nPrecondition:\n- Device font size is minimum.\n- Workspace is set up with Expensify card feature.\n- Workspace is connected to QBO.\n\n1. Launch Expensify app.\n2. Go to workspace settings > Accounting.\n3. Tap Card reconciliation.\n4. Enable Continuous Reconciliation if not enabled.\n5. Tap Reconciliation account.\n\n## Expected Result:\nReconciliation account page content will not be cut off when devicie font size is minimum.\n\n## Actual Result:\nReconciliation account page content is cut off when devicie font size is minimum.\n\n## Workaround:\nUnknown\n\n## Platforms:\n- [x] Android: App\n- [ ] Android: mWeb Chrome\n- [ ] iOS: App\n- [ ] iOS: mWeb Safari\n- [ ] iOS: mWeb Chrome\n- [ ] Windows: Chrome\n- [ ] MacOS: Chrome / Safari\n\n## Screenshots/Videos\n\nhttps://github.com/user-attachments/assets/956926d1-9e44-4cb6-87a2-21174675aabb\n\n<img width=\"358\" height=\"708\" alt=\"Image\" src=\"https://github.com/user-attachments/assets/5976eed3-dd22-47b3-a8c1-736ced6c8864\" />\n\n[View all open jobs on GitHub](https://github.com/Expensify/App/issues?q=is%3Aopen+is%3Aissue+label%3A%22Help+Wanted%22)\n<details><summary>Upwork Automation - Do Not Edit</summary>\n    <ul>\n        <li>Upwork Job URL: https://www.upwork.com/jobs/~022003117046288940233</li>\n        <li>Upwork Job ID: 2003117046288940233</li>\n        <li>Last Price Increase: 2025-12-22</li>\n    </ul>\n</details>\n\n<details><summary>Issue Owner</summary>Current Issue Owner: @ShridharGoel</details>",
+    "body": "If you haven’t already, check out our [contributing guidelines](https://github.com/Expensify/ReactNativeChat/blob/main/contributingGuides/CONTRIBUTING.md) for onboarding and email contributors@expensify.com to request to join our Slack channel!\n___\n\n**Version Number:** 9.2.85-0\n**Reproducible in staging?:** Yes\n**Reproducible in production?:** Yes\n**If this was caught during regression testing, add the test name, ID and link from BrowserStack:** Exp https://test-management.browserstack.com/projects/2219752/test-runs/TR-2466/folder/13176890/41237385/1086557947\n**Email or phone of affected tester (no customers):** applausetester+201201kh@applause.expensifail.com\n**Issue reported by:** Applause Internal Team\n**Bug source:** Exploratory - Significant User Experience Deterioration\n**Device used:** Samsung Galaxy S25 FE / Android 16\n**App Component:** Workspace Settings\n\n## Action Performed:\nPrecondition:\n- Device font size is minimum.\n- Workspace is set up with Expensify card feature.\n- Workspace is connected to QBO.\n\n1. Launch Expensify app.\n2. Go to workspace settings > Accounting.\n3. Tap Card reconciliation.\n4. Enable Continuous Reconciliation if not enabled.\n5. Tap Reconciliation account.\n\n## Expected Result:\nReconciliation account page content will not be cut off when devicie font size is minimum.\n\n## Actual Result:\nReconciliation account page content is cut off when devicie font size is minimum.\n\n## Workaround:\nUnknown\n\n## Platforms:\n- [x] Android: App\n- [ ] Android: mWeb Chrome\n- [ ] iOS: App\n- [ ] iOS: mWeb Safari\n- [ ] iOS: mWeb Chrome\n- [ ] Windows: Chrome\n- [ ] MacOS: Chrome / Safari\n\n## Screenshots/Videos\n\nhttps://github.com/user-attachments/assets/956926d1-9e44-4cb6-87a2-21174675aabb\n\n<img width=\"358\" height=\"708\" alt=\"Image\" src=\"https://github.com/user-attachments/assets/5976eed3-dd22-47b3-a8c1-736ced6c8864\" />\n\n[View all open jobs on GitHub](https://github.com/Expensify/App/issues?q=is%3Aopen+is%3Aissue+label%3A%22Help+Wanted%22)\n<details><summary>Upwork Automation - Do Not Edit</summary>\n    <ul>\n        <li>Upwork Job URL: https://www.upwork.com/jobs/~022003117046288940233</li>\n        <li>Upwork Job ID: 2003117046288940233</li>\n        <li>Last Price Increase: 2025-12-22</li>\n    </ul>\n</details>\n\n<details><summary>Issue Owner</summary>Current Issue Owner: @cead22</details>",
     "closed_by": null,
     "reactions": {
       "url": "https://api.github.com/repos/Expensify/App/issues/78218/reactions",
