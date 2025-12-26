@@ -58,15 +58,6 @@
         "color": "A52A2A",
         "default": false,
         "description": "Something to build that is a new item."
-      },
-      {
-        "id": 3136662525,
-        "node_id": "MDU6TGFiZWwzMTM2NjYyNTI1",
-        "url": "https://api.github.com/repos/Expensify/App/labels/Help%20Wanted",
-        "name": "Help Wanted",
-        "color": "CFC8F1",
-        "default": false,
-        "description": "Apply this label when an issue is open to proposals by contributors"
       }
     ],
     "state": "open",
@@ -134,12 +125,33 @@
         "type": "User",
         "user_view_type": "public",
         "site_admin": false
+      },
+      {
+        "login": "samranahm",
+        "id": 149153498,
+        "node_id": "U_kgDOCOPm2g",
+        "avatar_url": "https://avatars.githubusercontent.com/u/149153498?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/samranahm",
+        "html_url": "https://github.com/samranahm",
+        "followers_url": "https://api.github.com/users/samranahm/followers",
+        "following_url": "https://api.github.com/users/samranahm/following{/other_user}",
+        "gists_url": "https://api.github.com/users/samranahm/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/samranahm/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/samranahm/subscriptions",
+        "organizations_url": "https://api.github.com/users/samranahm/orgs",
+        "repos_url": "https://api.github.com/users/samranahm/repos",
+        "events_url": "https://api.github.com/users/samranahm/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/samranahm/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
       }
     ],
     "milestone": null,
-    "comments": 7,
+    "comments": 9,
     "created_at": "2025-12-25T20:22:18Z",
-    "updated_at": "2025-12-25T23:15:03Z",
+    "updated_at": "2025-12-26T05:45:07Z",
     "closed_at": null,
     "author_association": "CONTRIBUTOR",
     "type": {
@@ -165,7 +177,7 @@
       "blocking": 0,
       "total_blocking": 0
     },
-    "body": "# Part of the \"Explain Concierge AI actions\" project\n\nMain issue: https://github.com/Expensify/Expensify/issues/567869\n\n# Feature Description\n\n- For this feature we need to implement an \"Explain\" button in the frontend for **any report action** that has a `reasoning` field.\n- This button will exist in the right-click menu for now\n- To start it will be visible on the following report actions:\n  - Concierge auto-categorized something using AI\n  - Concierge auto-submitted a report\n- Not shown in mockup: When the user taps explain we will create a comment thread off of the system message\n- There should be a comment from the user's perspective that says: \"Please explain this to me.\"\n- Concierge should then respond with reason.\n\n**BE Changes are in development now.**\n<details><summary>Upwork Automation - Do Not Edit</summary>\n    <ul>\n        <li>Upwork Job URL: https://www.upwork.com/jobs/~022004286620315057042</li>\n        <li>Upwork Job ID: 2004286620315057042</li>\n        <li>Last Price Increase: 2025-12-25</li>\n    </ul>\n</details>\n\n<details><summary>Issue Owner</summary>Current Issue Owner: @eh2077</details>",
+    "body": "# Part of the \"Explain Concierge AI actions\" project\n\nMain issue: https://github.com/Expensify/Expensify/issues/567869\n\n# Feature Description\n\n- For this feature we need to implement an \"Explain\" button in the frontend for **any report action** that has a `reasoning` field.\n- This button will exist in the right-click menu for now\n- To start it will be visible on the following report actions:\n  - Concierge auto-categorized something using AI\n  - Concierge auto-submitted a report\n- Not shown in mockup: When the user taps explain we will create a comment thread off of the system message\n- There should be a comment from the user's perspective that says: \"Please explain this to me.\"\n- Concierge should then respond with reason.\n\n**BE Changes are in development now.**\n<details><summary>Upwork Automation - Do Not Edit</summary>\n    <ul>\n        <li>Upwork Job URL: https://www.upwork.com/jobs/~022004286620315057042</li>\n        <li>Upwork Job ID: 2004286620315057042</li>\n        <li>Last Price Increase: 2025-12-25</li>\n<li>Automatic offers: </li>\n<ul>\n<li>samranahm | Contributor | 109921480</li>\n</ul></li>\n    </ul>\n</details>\n\n<details><summary>Issue Owner</summary>Current Issue Owner: @eh2077</details>",
     "closed_by": null,
     "reactions": {
       "url": "https://api.github.com/repos/Expensify/App/issues/78464/reactions",
