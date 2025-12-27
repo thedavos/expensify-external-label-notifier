@@ -33,6 +33,15 @@
     },
     "labels": [
       {
+        "id": 2283143991,
+        "node_id": "MDU6TGFiZWwyMjgzMTQzOTkx",
+        "url": "https://api.github.com/repos/Expensify/App/labels/Reviewing",
+        "name": "Reviewing",
+        "color": "dddddd",
+        "default": false,
+        "description": "Has a PR in review"
+      },
+      {
         "id": 2873246102,
         "node_id": "MDU6TGFiZWwyODczMjQ2MTAy",
         "url": "https://api.github.com/repos/Expensify/App/labels/External",
@@ -42,11 +51,11 @@
         "description": "Added to denote the issue can be worked on by a contributor"
       },
       {
-        "id": 2893455829,
-        "node_id": "MDU6TGFiZWwyODkzNDU1ODI5",
-        "url": "https://api.github.com/repos/Expensify/App/labels/Daily",
-        "name": "Daily",
-        "color": "eb6420",
+        "id": 2893515375,
+        "node_id": "MDU6TGFiZWwyODkzNTE1Mzc1",
+        "url": "https://api.github.com/repos/Expensify/App/labels/Weekly",
+        "name": "Weekly",
+        "color": "009800",
         "default": false,
         "description": "KSv2"
       },
@@ -149,9 +158,9 @@
       }
     ],
     "milestone": null,
-    "comments": 9,
+    "comments": 10,
     "created_at": "2025-12-25T20:22:18Z",
-    "updated_at": "2025-12-26T05:45:07Z",
+    "updated_at": "2025-12-27T00:34:39Z",
     "closed_at": null,
     "author_association": "CONTRIBUTOR",
     "type": {
@@ -256,6 +265,15 @@
         "description": "Apply this label when an issue is open to proposals by contributors"
       },
       {
+        "id": 3184150925,
+        "node_id": "MDU6TGFiZWwzMTg0MTUwOTI1",
+        "url": "https://api.github.com/repos/Expensify/App/labels/Overdue",
+        "name": "Overdue",
+        "color": "D93F0B",
+        "default": false,
+        "description": ""
+      },
+      {
         "id": 4664850679,
         "node_id": "LA_kwDOEQqHYc8AAAABFgv49w",
         "url": "https://api.github.com/repos/Expensify/App/labels/Bug",
@@ -333,9 +351,9 @@
       }
     ],
     "milestone": null,
-    "comments": 13,
+    "comments": 14,
     "created_at": "2025-12-23T16:58:14Z",
-    "updated_at": "2025-12-25T11:07:59Z",
+    "updated_at": "2025-12-27T00:52:31Z",
     "closed_at": null,
     "author_association": "NONE",
     "type": null,
@@ -1071,180 +1089,6 @@
       "eyes": 0
     },
     "timeline_url": "https://api.github.com/repos/Expensify/App/issues/78359/timeline",
-    "performed_via_github_app": null,
-    "state_reason": null
-  },
-  {
-    "url": "https://api.github.com/repos/Expensify/App/issues/78356",
-    "repository_url": "https://api.github.com/repos/Expensify/App",
-    "labels_url": "https://api.github.com/repos/Expensify/App/issues/78356/labels{/name}",
-    "comments_url": "https://api.github.com/repos/Expensify/App/issues/78356/comments",
-    "events_url": "https://api.github.com/repos/Expensify/App/issues/78356/events",
-    "html_url": "https://github.com/Expensify/App/issues/78356",
-    "id": 3757061543,
-    "node_id": "I_kwDOEQqHYc7f8DWn",
-    "number": 78356,
-    "title": "[$250] \"Back button\" on Validate your bank account page does nothing",
-    "user": {
-      "login": "nlemma",
-      "id": 161635172,
-      "node_id": "U_kgDOCaJbZA",
-      "avatar_url": "https://avatars.githubusercontent.com/u/161635172?v=4",
-      "gravatar_id": "",
-      "url": "https://api.github.com/users/nlemma",
-      "html_url": "https://github.com/nlemma",
-      "followers_url": "https://api.github.com/users/nlemma/followers",
-      "following_url": "https://api.github.com/users/nlemma/following{/other_user}",
-      "gists_url": "https://api.github.com/users/nlemma/gists{/gist_id}",
-      "starred_url": "https://api.github.com/users/nlemma/starred{/owner}{/repo}",
-      "subscriptions_url": "https://api.github.com/users/nlemma/subscriptions",
-      "organizations_url": "https://api.github.com/users/nlemma/orgs",
-      "repos_url": "https://api.github.com/users/nlemma/repos",
-      "events_url": "https://api.github.com/users/nlemma/events{/privacy}",
-      "received_events_url": "https://api.github.com/users/nlemma/received_events",
-      "type": "User",
-      "user_view_type": "public",
-      "site_admin": false
-    },
-    "labels": [
-      {
-        "id": 2873246102,
-        "node_id": "MDU6TGFiZWwyODczMjQ2MTAy",
-        "url": "https://api.github.com/repos/Expensify/App/labels/External",
-        "name": "External",
-        "color": "a7b8ef",
-        "default": false,
-        "description": "Added to denote the issue can be worked on by a contributor"
-      },
-      {
-        "id": 2893455829,
-        "node_id": "MDU6TGFiZWwyODkzNDU1ODI5",
-        "url": "https://api.github.com/repos/Expensify/App/labels/Daily",
-        "name": "Daily",
-        "color": "eb6420",
-        "default": false,
-        "description": "KSv2"
-      },
-      {
-        "id": 3136662525,
-        "node_id": "MDU6TGFiZWwzMTM2NjYyNTI1",
-        "url": "https://api.github.com/repos/Expensify/App/labels/Help%20Wanted",
-        "name": "Help Wanted",
-        "color": "CFC8F1",
-        "default": false,
-        "description": "Apply this label when an issue is open to proposals by contributors"
-      },
-      {
-        "id": 4664850679,
-        "node_id": "LA_kwDOEQqHYc8AAAABFgv49w",
-        "url": "https://api.github.com/repos/Expensify/App/labels/Bug",
-        "name": "Bug",
-        "color": "93074F",
-        "default": false,
-        "description": "Something is broken. Auto assigns a BugZero manager."
-      }
-    ],
-    "state": "open",
-    "locked": false,
-    "assignee": {
-      "login": "sakluger",
-      "id": 5997400,
-      "node_id": "MDQ6VXNlcjU5OTc0MDA=",
-      "avatar_url": "https://avatars.githubusercontent.com/u/5997400?v=4",
-      "gravatar_id": "",
-      "url": "https://api.github.com/users/sakluger",
-      "html_url": "https://github.com/sakluger",
-      "followers_url": "https://api.github.com/users/sakluger/followers",
-      "following_url": "https://api.github.com/users/sakluger/following{/other_user}",
-      "gists_url": "https://api.github.com/users/sakluger/gists{/gist_id}",
-      "starred_url": "https://api.github.com/users/sakluger/starred{/owner}{/repo}",
-      "subscriptions_url": "https://api.github.com/users/sakluger/subscriptions",
-      "organizations_url": "https://api.github.com/users/sakluger/orgs",
-      "repos_url": "https://api.github.com/users/sakluger/repos",
-      "events_url": "https://api.github.com/users/sakluger/events{/privacy}",
-      "received_events_url": "https://api.github.com/users/sakluger/received_events",
-      "type": "User",
-      "user_view_type": "public",
-      "site_admin": false
-    },
-    "assignees": [
-      {
-        "login": "sakluger",
-        "id": 5997400,
-        "node_id": "MDQ6VXNlcjU5OTc0MDA=",
-        "avatar_url": "https://avatars.githubusercontent.com/u/5997400?v=4",
-        "gravatar_id": "",
-        "url": "https://api.github.com/users/sakluger",
-        "html_url": "https://github.com/sakluger",
-        "followers_url": "https://api.github.com/users/sakluger/followers",
-        "following_url": "https://api.github.com/users/sakluger/following{/other_user}",
-        "gists_url": "https://api.github.com/users/sakluger/gists{/gist_id}",
-        "starred_url": "https://api.github.com/users/sakluger/starred{/owner}{/repo}",
-        "subscriptions_url": "https://api.github.com/users/sakluger/subscriptions",
-        "organizations_url": "https://api.github.com/users/sakluger/orgs",
-        "repos_url": "https://api.github.com/users/sakluger/repos",
-        "events_url": "https://api.github.com/users/sakluger/events{/privacy}",
-        "received_events_url": "https://api.github.com/users/sakluger/received_events",
-        "type": "User",
-        "user_view_type": "public",
-        "site_admin": false
-      },
-      {
-        "login": "abzokhattab",
-        "id": 59809993,
-        "node_id": "MDQ6VXNlcjU5ODA5OTkz",
-        "avatar_url": "https://avatars.githubusercontent.com/u/59809993?v=4",
-        "gravatar_id": "",
-        "url": "https://api.github.com/users/abzokhattab",
-        "html_url": "https://github.com/abzokhattab",
-        "followers_url": "https://api.github.com/users/abzokhattab/followers",
-        "following_url": "https://api.github.com/users/abzokhattab/following{/other_user}",
-        "gists_url": "https://api.github.com/users/abzokhattab/gists{/gist_id}",
-        "starred_url": "https://api.github.com/users/abzokhattab/starred{/owner}{/repo}",
-        "subscriptions_url": "https://api.github.com/users/abzokhattab/subscriptions",
-        "organizations_url": "https://api.github.com/users/abzokhattab/orgs",
-        "repos_url": "https://api.github.com/users/abzokhattab/repos",
-        "events_url": "https://api.github.com/users/abzokhattab/events{/privacy}",
-        "received_events_url": "https://api.github.com/users/abzokhattab/received_events",
-        "type": "User",
-        "user_view_type": "public",
-        "site_admin": false
-      }
-    ],
-    "milestone": null,
-    "comments": 9,
-    "created_at": "2025-12-23T11:27:25Z",
-    "updated_at": "2025-12-25T13:51:39Z",
-    "closed_at": null,
-    "author_association": "NONE",
-    "type": null,
-    "active_lock_reason": null,
-    "sub_issues_summary": {
-      "total": 0,
-      "completed": 0,
-      "percent_completed": 0
-    },
-    "issue_dependencies_summary": {
-      "blocked_by": 0,
-      "total_blocked_by": 0,
-      "blocking": 0,
-      "total_blocking": 0
-    },
-    "body": "If you haven’t already, check out our [contributing guidelines](https://github.com/Expensify/ReactNativeChat/blob/main/contributingGuides/CONTRIBUTING.md) for onboarding and email contributors@expensify.com to request to join our Slack channel!\n___\n\n**Version Number:** 9.2.86-0\n**Reproducible in staging?:** Yes\n**Reproducible in production?:** Yes\n**If this was caught during regression testing, add the test name, ID and link from BrowserStack:** Exp around this area: https://test-management.browserstack.com/projects/2219752/test-runs/TR-2487/folder/13176706/41236839/1089918348\n**Email or phone of affected tester (no customers):** applausetester+en@applause.expensifail.com\n**Issue reported by:** Applause Internal Team\n**Bug source:** Exploratory - Significant User Experience Deterioration\n**Device used:** iPhone 15 Pro / 18.6.2\n**App Component:** Workspace Settings\n\n## Action Performed:\n1. Sign into a Beta enabled user that has validation on bank account disabled (Applausetester+en@applause.expensifail.com)\n2. Go to WS\n3. Tap Company Cards > Learn more > Finish setup\n4. Tap on the back button\n\n## Expected Result:\nBack button works and user can go back\n\n## Actual Result:\nNothing happens, the page freezes, even force closing the app does not fix the issue\n\n## Workaround:\nUnknown\n\n## Platforms:\n- [ ] Android: App\n- [ ] Android: mWeb Chrome\n- [x] iOS: App\n- [ ] iOS: mWeb Safari\n- [ ] iOS: mWeb Chrome\n- [ ] Windows: Chrome\n- [x] MacOS: Chrome / Safari\n\n## Screenshots/Videos\n\nhttps://github.com/user-attachments/assets/d5f706c9-80f8-488f-9893-1a4648bbf3cd\n\nhttps://github.com/user-attachments/assets/ba412373-2c30-4bee-b0e9-70ec0e31bff7\n\n[View all open jobs on GitHub](https://github.com/Expensify/App/issues?q=is%3Aopen+is%3Aissue+label%3A%22Help+Wanted%22)\n<details><summary>Upwork Automation - Do Not Edit</summary>\n    <ul>\n        <li>Upwork Job URL: https://www.upwork.com/jobs/~022003523141103142813</li>\n        <li>Upwork Job ID: 2003523141103142813</li>\n        <li>Last Price Increase: 2025-12-23</li>\n    </ul>\n</details>\n\n<details><summary>Issue Owner</summary>Current Issue Owner: @abzokhattab</details>",
-    "closed_by": null,
-    "reactions": {
-      "url": "https://api.github.com/repos/Expensify/App/issues/78356/reactions",
-      "total_count": 0,
-      "+1": 0,
-      "-1": 0,
-      "laugh": 0,
-      "hooray": 0,
-      "confused": 0,
-      "heart": 0,
-      "rocket": 0,
-      "eyes": 0
-    },
-    "timeline_url": "https://api.github.com/repos/Expensify/App/issues/78356/timeline",
     "performed_via_github_app": null,
     "state_reason": null
   }
