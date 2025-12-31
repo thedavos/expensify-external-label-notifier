@@ -167,9 +167,9 @@
       }
     ],
     "milestone": null,
-    "comments": 11,
+    "comments": 12,
     "created_at": "2025-12-30T18:05:15Z",
-    "updated_at": "2025-12-31T02:47:16Z",
+    "updated_at": "2025-12-31T06:28:57Z",
     "closed_at": null,
     "author_association": "NONE",
     "type": null,
@@ -1301,9 +1301,9 @@
       }
     ],
     "milestone": null,
-    "comments": 25,
+    "comments": 26,
     "created_at": "2025-12-30T02:19:34Z",
-    "updated_at": "2025-12-31T05:18:32Z",
+    "updated_at": "2025-12-31T05:34:11Z",
     "closed_at": null,
     "author_association": "CONTRIBUTOR",
     "type": null,
@@ -1810,6 +1810,27 @@
         "site_admin": false
       },
       {
+        "login": "neil-marcellini",
+        "id": 26260477,
+        "node_id": "MDQ6VXNlcjI2MjYwNDc3",
+        "avatar_url": "https://avatars.githubusercontent.com/u/26260477?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/neil-marcellini",
+        "html_url": "https://github.com/neil-marcellini",
+        "followers_url": "https://api.github.com/users/neil-marcellini/followers",
+        "following_url": "https://api.github.com/users/neil-marcellini/following{/other_user}",
+        "gists_url": "https://api.github.com/users/neil-marcellini/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/neil-marcellini/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/neil-marcellini/subscriptions",
+        "organizations_url": "https://api.github.com/users/neil-marcellini/orgs",
+        "repos_url": "https://api.github.com/users/neil-marcellini/repos",
+        "events_url": "https://api.github.com/users/neil-marcellini/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/neil-marcellini/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      {
         "login": "jayeshmangwani",
         "id": 35371050,
         "node_id": "MDQ6VXNlcjM1MzcxMDUw",
@@ -1832,9 +1853,9 @@
       }
     ],
     "milestone": null,
-    "comments": 7,
+    "comments": 9,
     "created_at": "2025-12-29T09:48:23Z",
-    "updated_at": "2025-12-30T14:53:42Z",
+    "updated_at": "2025-12-31T06:04:46Z",
     "closed_at": null,
     "author_association": "NONE",
     "type": null,
@@ -1850,7 +1871,7 @@
       "blocking": 0,
       "total_blocking": 0
     },
-    "body": "If you haven’t already, check out our [contributing guidelines](https://github.com/Expensify/ReactNativeChat/blob/main/contributingGuides/CONTRIBUTING.md) for onboarding and email contributors@expensify.com to request to join our Slack channel!\n___\n\n**Version Number:** v9.2.87-7\n**Reproducible in staging?:** Yes\n**Reproducible in production?:** Yes\n**If this was caught during regression testing, add the test name, ID and link from BrowserStack:** https://test-management.browserstack.com/projects/2219752/test-runs/TR-2545/41237957/1092911729?q=delete+workspace&issue_type=jira\n**Email or phone of affected tester (no customers):** applausetester+vq+2712@applause.expensifail.com\n**Issue reported by:** Applause Internal Team\n**Bug source:** Exploratory - Significant User Experience Deterioration\n**Device used:** Windows 10/Chrome\n**App Component:** Workspace Settings\n\n## Action Performed:\nPreconditions: Workspace has issued an Expensify card to the member\n1. Open the NewDot app\n2. Navigate to the Workspace Overview\n3. Click on the More button \n4. Select the Delete option\n5. Click on the Delete button and click on the Got it\n6. Navigate to the Workspace tab\n7. Click on the three dots button and select Delete \n8. Click on the Delete button and click on the Got it\n\n## Expected Result:\nStep 5: After clicking the \" Got it\" button, the Delete banner should dismiss like Step 8\n\n## Actual Result:\nThe Delete banner at step 5 still displays\n\n## Workaround:\nUnknown\n\n## Platforms:\n- [x] Android: App\n- [ ] Android: mWeb Chrome\n- [x] iOS: App\n- [ ] iOS: mWeb Safari\n- [ ] iOS: mWeb Chrome\n- [x] Windows: Chrome\n- [ ] MacOS: Chrome / Safari\n\n## Screenshots/Videos\n\nhttps://github.com/user-attachments/assets/818081b2-273f-4d9b-964e-2c4a488bb885\n\n[View all open jobs on GitHub](https://github.com/Expensify/App/issues?q=is%3Aopen+is%3Aissue+label%3A%22Help+Wanted%22)\n<details><summary>Upwork Automation - Do Not Edit</summary>\n    <ul>\n        <li>Upwork Job URL: https://www.upwork.com/jobs/~022005772487710361501</li>\n        <li>Upwork Job ID: 2005772487710361501</li>\n        <li>Last Price Increase: 2025-12-29</li>\n    </ul>\n</details>\n\n<details><summary>Issue Owner</summary>Current Issue Owner: @jayeshmangwani</details>",
+    "body": "If you haven’t already, check out our [contributing guidelines](https://github.com/Expensify/ReactNativeChat/blob/main/contributingGuides/CONTRIBUTING.md) for onboarding and email contributors@expensify.com to request to join our Slack channel!\n___\n\n**Version Number:** v9.2.87-7\n**Reproducible in staging?:** Yes\n**Reproducible in production?:** Yes\n**If this was caught during regression testing, add the test name, ID and link from BrowserStack:** https://test-management.browserstack.com/projects/2219752/test-runs/TR-2545/41237957/1092911729?q=delete+workspace&issue_type=jira\n**Email or phone of affected tester (no customers):** applausetester+vq+2712@applause.expensifail.com\n**Issue reported by:** Applause Internal Team\n**Bug source:** Exploratory - Significant User Experience Deterioration\n**Device used:** Windows 10/Chrome\n**App Component:** Workspace Settings\n\n## Action Performed:\nPreconditions: Workspace has issued an Expensify card to the member\n1. Open the NewDot app\n2. Navigate to the Workspace Overview\n3. Click on the More button \n4. Select the Delete option\n5. Click on the Delete button and click on the Got it\n6. Navigate to the Workspace tab\n7. Click on the three dots button and select Delete \n8. Click on the Delete button and click on the Got it\n\n## Expected Result:\nStep 5: After clicking the \" Got it\" button, the Delete banner should dismiss like Step 8\n\n## Actual Result:\nThe Delete banner at step 5 still displays\n\n## Workaround:\nUnknown\n\n## Platforms:\n- [x] Android: App\n- [ ] Android: mWeb Chrome\n- [x] iOS: App\n- [ ] iOS: mWeb Safari\n- [ ] iOS: mWeb Chrome\n- [x] Windows: Chrome\n- [ ] MacOS: Chrome / Safari\n\n## Screenshots/Videos\n\nhttps://github.com/user-attachments/assets/818081b2-273f-4d9b-964e-2c4a488bb885\n\n[View all open jobs on GitHub](https://github.com/Expensify/App/issues?q=is%3Aopen+is%3Aissue+label%3A%22Help+Wanted%22)\n<details><summary>Upwork Automation - Do Not Edit</summary>\n    <ul>\n        <li>Upwork Job URL: https://www.upwork.com/jobs/~022005772487710361501</li>\n        <li>Upwork Job ID: 2005772487710361501</li>\n        <li>Last Price Increase: 2025-12-29</li>\n    </ul>\n</details>\n\n<details><summary>Issue Owner</summary>Current Issue Owner: @neil-marcellini</details>",
     "closed_by": null,
     "reactions": {
       "url": "https://api.github.com/repos/Expensify/App/issues/78514/reactions",
