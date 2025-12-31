@@ -1417,15 +1417,6 @@
         "color": "eb6420",
         "default": false,
         "description": "KSv2"
-      },
-      {
-        "id": 3136662525,
-        "node_id": "MDU6TGFiZWwzMTM2NjYyNTI1",
-        "url": "https://api.github.com/repos/Expensify/App/labels/Help%20Wanted",
-        "name": "Help Wanted",
-        "color": "CFC8F1",
-        "default": false,
-        "description": "Apply this label when an issue is open to proposals by contributors"
       }
     ],
     "state": "open",
@@ -1493,12 +1484,33 @@
         "type": "User",
         "user_view_type": "public",
         "site_admin": false
+      },
+      {
+        "login": "abbasifaizan70",
+        "id": 58352279,
+        "node_id": "MDQ6VXNlcjU4MzUyMjc5",
+        "avatar_url": "https://avatars.githubusercontent.com/u/58352279?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/abbasifaizan70",
+        "html_url": "https://github.com/abbasifaizan70",
+        "followers_url": "https://api.github.com/users/abbasifaizan70/followers",
+        "following_url": "https://api.github.com/users/abbasifaizan70/following{/other_user}",
+        "gists_url": "https://api.github.com/users/abbasifaizan70/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/abbasifaizan70/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/abbasifaizan70/subscriptions",
+        "organizations_url": "https://api.github.com/users/abbasifaizan70/orgs",
+        "repos_url": "https://api.github.com/users/abbasifaizan70/repos",
+        "events_url": "https://api.github.com/users/abbasifaizan70/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/abbasifaizan70/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
       }
     ],
     "milestone": null,
-    "comments": 26,
+    "comments": 29,
     "created_at": "2025-12-30T02:19:34Z",
-    "updated_at": "2025-12-31T05:34:11Z",
+    "updated_at": "2025-12-31T18:32:35Z",
     "closed_at": null,
     "author_association": "CONTRIBUTOR",
     "type": null,
@@ -1514,7 +1526,7 @@
       "blocking": 0,
       "total_blocking": 0
     },
-    "body": "When a user chats with Concierge from the side panel (RHP), capture a simplified representation of the main app window content html and pass it as part of AddComment as a pageHTML parameter\n\n1. When the user sends a message in the side panel from Concierge or the admins room\n2. Capture simplified page html of the main body content (this would include things like semantic HTML elements (buttons, links, headings, menu items, inputs, etc.), visible text content from non-semantic containers, aria-label, href, alt, placeholder attributes where useful\n3. Wrap the output with page URL `<page url=\"/search?q=type:expense\"> ... extracted content ... </page>`\n4. Pass to AddComment API. Add pageHTML parameter to addComment() function and only populate when isInSidePanel is true\n\n<details><summary>Upwork Automation - Do Not Edit</summary>\n    <ul>\n        <li>Upwork Job URL: https://www.upwork.com/jobs/~022005826114541484946</li>\n        <li>Upwork Job ID: 2005826114541484946</li>\n        <li>Last Price Increase: 2025-12-30</li>\n    </ul>\n</details>\n\n<details><summary>Issue Owner</summary>Current Issue Owner: @QichenZhu</details>",
+    "body": "When a user chats with Concierge from the side panel (RHP), capture a simplified representation of the main app window content html and pass it as part of AddComment as a pageHTML parameter\n\n1. When the user sends a message in the side panel from Concierge or the admins room\n2. Capture simplified page html of the main body content (this would include things like semantic HTML elements (buttons, links, headings, menu items, inputs, etc.), visible text content from non-semantic containers, aria-label, href, alt, placeholder attributes where useful\n3. Wrap the output with page URL `<page url=\"/search?q=type:expense\"> ... extracted content ... </page>`\n4. Pass to AddComment API. Add pageHTML parameter to addComment() function and only populate when isInSidePanel is true\n\n<details><summary>Upwork Automation - Do Not Edit</summary>\n    <ul>\n        <li>Upwork Job URL: https://www.upwork.com/jobs/~022005826114541484946</li>\n        <li>Upwork Job ID: 2005826114541484946</li>\n        <li>Last Price Increase: 2025-12-30</li>\n<li>Automatic offers: </li>\n<ul>\n<li>QichenZhu | Reviewer | 109964002</li>\n</ul></li>\n    </ul>\n</details>\n\n<details><summary>Issue Owner</summary>Current Issue Owner: @QichenZhu</details>",
     "closed_by": null,
     "reactions": {
       "url": "https://api.github.com/repos/Expensify/App/issues/78564/reactions",
