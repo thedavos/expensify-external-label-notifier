@@ -637,6 +637,27 @@
     },
     "assignees": [
       {
+        "login": "NikkiWines",
+        "id": 16747822,
+        "node_id": "MDQ6VXNlcjE2NzQ3ODIy",
+        "avatar_url": "https://avatars.githubusercontent.com/u/16747822?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/NikkiWines",
+        "html_url": "https://github.com/NikkiWines",
+        "followers_url": "https://api.github.com/users/NikkiWines/followers",
+        "following_url": "https://api.github.com/users/NikkiWines/following{/other_user}",
+        "gists_url": "https://api.github.com/users/NikkiWines/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/NikkiWines/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/NikkiWines/subscriptions",
+        "organizations_url": "https://api.github.com/users/NikkiWines/orgs",
+        "repos_url": "https://api.github.com/users/NikkiWines/repos",
+        "events_url": "https://api.github.com/users/NikkiWines/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/NikkiWines/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      {
         "login": "bfitzexpensify",
         "id": 38236554,
         "node_id": "MDQ6VXNlcjM4MjM2NTU0",
@@ -680,9 +701,9 @@
       }
     ],
     "milestone": null,
-    "comments": 8,
+    "comments": 10,
     "created_at": "2026-01-01T08:44:27Z",
-    "updated_at": "2026-01-01T12:18:14Z",
+    "updated_at": "2026-01-03T22:53:24Z",
     "closed_at": null,
     "author_association": "NONE",
     "type": null,
@@ -698,7 +719,7 @@
       "blocking": 0,
       "total_blocking": 0
     },
-    "body": "If you haven’t already, check out our [contributing guidelines](https://github.com/Expensify/ReactNativeChat/blob/main/contributingGuides/CONTRIBUTING.md) for onboarding and email contributors@expensify.com to request to join our Slack channel!\n___\n\n**Version Number:** v9.2.90-0\n**Reproducible in staging?:** Yes\n**Reproducible in production?:** Yes\n**If this was caught during regression testing, add the test name, ID and link from BrowserStack:** https://test-management.browserstack.com/projects/2219752/test-runs/TR-2597/folder/13177079/41237920/1101375175\n**Email or phone of affected tester (no customers):** luongvu92@private.com\n**Issue reported by:** Applause Internal Team\n**Bug source:** Exploratory - Significant User Experience Deterioration\n**Device used:** Windows 10/Chrome\n**App Component:** Workspace Settings\n\n## Action Performed:\n1. Sign up for a new account in NewDot with a private domain account (Don't validate the account)\n2. Finish the onboarding with 1-10 members \n3. Navigate to the Workspace features\n4. Toggle on the Travel\n5. Click on the Travel ->  Let's Go button \n6. Click back on the RHP without entering the magic code\n\n## Expected Result:\nThe Let's go button is in the same status because the account isn't verified yet\n\n## Actual Result:\nThe Let's go button changed status to Request sent\n\n## Workaround:\nUnknown\n\n## Platforms:\n- [x] Android: App\n- [ ] Android: mWeb Chrome\n- [x] iOS: App\n- [ ] iOS: mWeb Safari\n- [ ] iOS: mWeb Chrome\n- [x] Windows: Chrome\n- [ ] MacOS: Chrome / Safari\n\n## Screenshots/Videos\n\nhttps://github.com/user-attachments/assets/b26bf497-b28f-404a-b4d1-26279b7836da\n\n[View all open jobs on GitHub](https://github.com/Expensify/App/issues?q=is%3Aopen+is%3Aissue+label%3A%22Help+Wanted%22)\n<details><summary>Upwork Automation - Do Not Edit</summary>\n    <ul>\n        <li>Upwork Job URL: https://www.upwork.com/jobs/~022006670805403073426</li>\n        <li>Upwork Job ID: 2006670805403073426</li>\n        <li>Last Price Increase: 2026-01-01</li>\n    </ul>\n</details>\n\n<details><summary>Issue Owner</summary>Current Issue Owner: @situchan</details>",
+    "body": "If you haven’t already, check out our [contributing guidelines](https://github.com/Expensify/ReactNativeChat/blob/main/contributingGuides/CONTRIBUTING.md) for onboarding and email contributors@expensify.com to request to join our Slack channel!\n___\n\n**Version Number:** v9.2.90-0\n**Reproducible in staging?:** Yes\n**Reproducible in production?:** Yes\n**If this was caught during regression testing, add the test name, ID and link from BrowserStack:** https://test-management.browserstack.com/projects/2219752/test-runs/TR-2597/folder/13177079/41237920/1101375175\n**Email or phone of affected tester (no customers):** luongvu92@private.com\n**Issue reported by:** Applause Internal Team\n**Bug source:** Exploratory - Significant User Experience Deterioration\n**Device used:** Windows 10/Chrome\n**App Component:** Workspace Settings\n\n## Action Performed:\n1. Sign up for a new account in NewDot with a private domain account (Don't validate the account)\n2. Finish the onboarding with 1-10 members \n3. Navigate to the Workspace features\n4. Toggle on the Travel\n5. Click on the Travel ->  Let's Go button \n6. Click back on the RHP without entering the magic code\n\n## Expected Result:\nThe Let's go button is in the same status because the account isn't verified yet\n\n## Actual Result:\nThe Let's go button changed status to Request sent\n\n## Workaround:\nUnknown\n\n## Platforms:\n- [x] Android: App\n- [ ] Android: mWeb Chrome\n- [x] iOS: App\n- [ ] iOS: mWeb Safari\n- [ ] iOS: mWeb Chrome\n- [x] Windows: Chrome\n- [ ] MacOS: Chrome / Safari\n\n## Screenshots/Videos\n\nhttps://github.com/user-attachments/assets/b26bf497-b28f-404a-b4d1-26279b7836da\n\n[View all open jobs on GitHub](https://github.com/Expensify/App/issues?q=is%3Aopen+is%3Aissue+label%3A%22Help+Wanted%22)\n<details><summary>Upwork Automation - Do Not Edit</summary>\n    <ul>\n        <li>Upwork Job URL: https://www.upwork.com/jobs/~022006670805403073426</li>\n        <li>Upwork Job ID: 2006670805403073426</li>\n        <li>Last Price Increase: 2026-01-01</li>\n    </ul>\n</details>\n\n<details><summary>Issue Owner</summary>Current Issue Owner: @NikkiWines</details>",
     "closed_by": null,
     "reactions": {
       "url": "https://api.github.com/repos/Expensify/App/issues/78750/reactions",
