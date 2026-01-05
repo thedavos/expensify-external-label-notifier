@@ -824,6 +824,27 @@
         "site_admin": false
       },
       {
+        "login": "mountiny",
+        "id": 36083550,
+        "node_id": "MDQ6VXNlcjM2MDgzNTUw",
+        "avatar_url": "https://avatars.githubusercontent.com/u/36083550?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/mountiny",
+        "html_url": "https://github.com/mountiny",
+        "followers_url": "https://api.github.com/users/mountiny/followers",
+        "following_url": "https://api.github.com/users/mountiny/following{/other_user}",
+        "gists_url": "https://api.github.com/users/mountiny/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/mountiny/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/mountiny/subscriptions",
+        "organizations_url": "https://api.github.com/users/mountiny/orgs",
+        "repos_url": "https://api.github.com/users/mountiny/repos",
+        "events_url": "https://api.github.com/users/mountiny/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/mountiny/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      {
         "login": "zanyrenney",
         "id": 56830058,
         "node_id": "MDQ6VXNlcjU2ODMwMDU4",
@@ -867,9 +888,9 @@
       }
     ],
     "milestone": null,
-    "comments": 4,
+    "comments": 6,
     "created_at": "2026-01-02T22:51:17Z",
-    "updated_at": "2026-01-03T08:20:11Z",
+    "updated_at": "2026-01-05T14:47:47Z",
     "closed_at": null,
     "author_association": "CONTRIBUTOR",
     "type": null,
@@ -885,7 +906,7 @@
       "blocking": 0,
       "total_blocking": 0
     },
-    "body": "# Problem\nThere are a lot of action files that use `getAuthToken()` and then add the auth token manually to the API parameters (perfect example [here](https://github.com/Expensify/App/blob/4074a7cf3aeb778c4ceca6d278a8e46335a101fe/src/libs/actions/Card.ts#L456)). This is an anti-pattern because the auth token is already added to the proper API commands further down in the network library [here](https://github.com/Expensify/App/blob/4074a7cf3aeb778c4ceca6d278a8e46335a101fe/src/libs/Network/enhanceParameters.ts#L60).\n\n# Solution\nFind all the references to `getAuthToken()` that can be removed, remove them, and ensure that the API commands still work properly.\n\n<details><summary>Issue Owner</summary>Current Issue Owner: @brunovjk</details>",
+    "body": "# Problem\nThere are a lot of action files that use `getAuthToken()` and then add the auth token manually to the API parameters (perfect example [here](https://github.com/Expensify/App/blob/4074a7cf3aeb778c4ceca6d278a8e46335a101fe/src/libs/actions/Card.ts#L456)). This is an anti-pattern because the auth token is already added to the proper API commands further down in the network library [here](https://github.com/Expensify/App/blob/4074a7cf3aeb778c4ceca6d278a8e46335a101fe/src/libs/Network/enhanceParameters.ts#L60).\n\n# Solution\nFind all the references to `getAuthToken()` that can be removed, remove them, and ensure that the API commands still work properly.\n\n<details><summary>Issue Owner</summary>Current Issue Owner: @mountiny</details>",
     "closed_by": null,
     "reactions": {
       "url": "https://api.github.com/repos/Expensify/App/issues/78797/reactions",
