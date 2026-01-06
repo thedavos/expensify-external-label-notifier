@@ -2699,6 +2699,27 @@
     },
     "assignees": [
       {
+        "login": "puneetlath",
+        "id": 1371996,
+        "node_id": "MDQ6VXNlcjEzNzE5OTY=",
+        "avatar_url": "https://avatars.githubusercontent.com/u/1371996?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/puneetlath",
+        "html_url": "https://github.com/puneetlath",
+        "followers_url": "https://api.github.com/users/puneetlath/followers",
+        "following_url": "https://api.github.com/users/puneetlath/following{/other_user}",
+        "gists_url": "https://api.github.com/users/puneetlath/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/puneetlath/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/puneetlath/subscriptions",
+        "organizations_url": "https://api.github.com/users/puneetlath/orgs",
+        "repos_url": "https://api.github.com/users/puneetlath/repos",
+        "events_url": "https://api.github.com/users/puneetlath/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/puneetlath/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      {
         "login": "zanyrenney",
         "id": 56830058,
         "node_id": "MDQ6VXNlcjU2ODMwMDU4",
@@ -2742,9 +2763,9 @@
       }
     ],
     "milestone": null,
-    "comments": 5,
+    "comments": 7,
     "created_at": "2026-01-02T07:05:20Z",
-    "updated_at": "2026-01-05T19:36:59Z",
+    "updated_at": "2026-01-06T08:16:13Z",
     "closed_at": null,
     "author_association": "NONE",
     "type": null,
@@ -2760,7 +2781,7 @@
       "blocking": 0,
       "total_blocking": 0
     },
-    "body": "If you haven’t already, check out our [contributing guidelines](https://github.com/Expensify/ReactNativeChat/blob/main/contributingGuides/CONTRIBUTING.md) for onboarding and email contributors@expensify.com to request to join our Slack channel!\n___\n\n**Version Number:** v9.2.90-0\n**Reproducible in staging?:** Yes\n**Reproducible in production?:** Yes\n**If this was caught during regression testing, add the test name, ID and link from BrowserStack:** https://github.com/Expensify/App/pull/76701\n**Email or phone of affected tester (no customers):** ndk.2303+171@gmail.com\n**Issue reported by:** Applause Internal Team\n**Bug source:** Exploratory - Critical User Impact\n**Device used:** Windows 11 Home/Chrome\n**App Component:** Money Requests\n\n## Action Performed:\nPrecondition:\n- Log in to the same account on OD and ND.\n- Account has a workspace.\n- The Individual WS is set as the default on OD.\n1. Go to staging.new.expensify.com\n2. Go to Reports > Expenses.\n3. Go to OD with the same account.\n4. In OD Create a reported scan expense.\n5. Go back to ND tab and wait for the scan expense to show up.\n6. While the receipt is still scanning, go back to OD and unreported the scan expense.\n7. Go to ND, in Reports > Expenses page, click on the scan expense\n\n## Expected Result:\nScan expense details page is opened\n\n## Actual Result:\n'It's not here' page is opened\n\n## Workaround:\nUnknown\n\n## Platforms:\n- [x] Android: App\n- [x] Android: mWeb Chrome\n- [x] iOS: App\n- [x] iOS: mWeb Safari\n- [x] iOS: mWeb Chrome\n- [x] Windows: Chrome\n- [x] MacOS: Chrome / Safari\n\n## Screenshots/Videos\n\nhttps://github.com/user-attachments/assets/b8cf0fba-d936-4a6b-8c3a-0e38a74bb5a9\n\n[View all open jobs on GitHub](https://github.com/Expensify/App/issues?q=is%3Aopen+is%3Aissue+label%3A%22Help+Wanted%22)\n<details><summary>Upwork Automation - Do Not Edit</summary>\n    <ul>\n        <li>Upwork Job URL: https://www.upwork.com/jobs/~022008261433800129740</li>\n        <li>Upwork Job ID: 2008261433800129740</li>\n        <li>Last Price Increase: 2026-01-05</li>\n    </ul>\n</details>\n\n<details><summary>Issue Owner</summary>Current Issue Owner: @linhvovan29546</details>",
+    "body": "If you haven’t already, check out our [contributing guidelines](https://github.com/Expensify/ReactNativeChat/blob/main/contributingGuides/CONTRIBUTING.md) for onboarding and email contributors@expensify.com to request to join our Slack channel!\n___\n\n**Version Number:** v9.2.90-0\n**Reproducible in staging?:** Yes\n**Reproducible in production?:** Yes\n**If this was caught during regression testing, add the test name, ID and link from BrowserStack:** https://github.com/Expensify/App/pull/76701\n**Email or phone of affected tester (no customers):** ndk.2303+171@gmail.com\n**Issue reported by:** Applause Internal Team\n**Bug source:** Exploratory - Critical User Impact\n**Device used:** Windows 11 Home/Chrome\n**App Component:** Money Requests\n\n## Action Performed:\nPrecondition:\n- Log in to the same account on OD and ND.\n- Account has a workspace.\n- The Individual WS is set as the default on OD.\n1. Go to staging.new.expensify.com\n2. Go to Reports > Expenses.\n3. Go to OD with the same account.\n4. In OD Create a reported scan expense.\n5. Go back to ND tab and wait for the scan expense to show up.\n6. While the receipt is still scanning, go back to OD and unreported the scan expense.\n7. Go to ND, in Reports > Expenses page, click on the scan expense\n\n## Expected Result:\nScan expense details page is opened\n\n## Actual Result:\n'It's not here' page is opened\n\n## Workaround:\nUnknown\n\n## Platforms:\n- [x] Android: App\n- [x] Android: mWeb Chrome\n- [x] iOS: App\n- [x] iOS: mWeb Safari\n- [x] iOS: mWeb Chrome\n- [x] Windows: Chrome\n- [x] MacOS: Chrome / Safari\n\n## Screenshots/Videos\n\nhttps://github.com/user-attachments/assets/b8cf0fba-d936-4a6b-8c3a-0e38a74bb5a9\n\n[View all open jobs on GitHub](https://github.com/Expensify/App/issues?q=is%3Aopen+is%3Aissue+label%3A%22Help+Wanted%22)\n<details><summary>Upwork Automation - Do Not Edit</summary>\n    <ul>\n        <li>Upwork Job URL: https://www.upwork.com/jobs/~022008261433800129740</li>\n        <li>Upwork Job ID: 2008261433800129740</li>\n        <li>Last Price Increase: 2026-01-05</li>\n    </ul>\n</details>\n\n<details><summary>Issue Owner</summary>Current Issue Owner: @puneetlath</details>",
     "closed_by": null,
     "reactions": {
       "url": "https://api.github.com/repos/Expensify/App/issues/78770/reactions",
