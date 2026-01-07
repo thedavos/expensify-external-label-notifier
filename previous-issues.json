@@ -137,9 +137,9 @@
       }
     ],
     "milestone": null,
-    "comments": 4,
+    "comments": 7,
     "created_at": "2026-01-07T17:21:28Z",
-    "updated_at": "2026-01-07T18:26:26Z",
+    "updated_at": "2026-01-07T19:19:16Z",
     "closed_at": null,
     "author_association": "NONE",
     "type": null,
@@ -462,15 +462,6 @@
         "description": "Item broken or needs improvement."
       },
       {
-        "id": 3136662525,
-        "node_id": "MDU6TGFiZWwzMTM2NjYyNTI1",
-        "url": "https://api.github.com/repos/Expensify/App/labels/Help%20Wanted",
-        "name": "Help Wanted",
-        "color": "CFC8F1",
-        "default": false,
-        "description": "Apply this label when an issue is open to proposals by contributors"
-      },
-      {
         "id": 4664850679,
         "node_id": "LA_kwDOEQqHYc8AAAABFgv49w",
         "url": "https://api.github.com/repos/Expensify/App/labels/Bug",
@@ -566,12 +557,33 @@
         "type": "User",
         "user_view_type": "public",
         "site_admin": false
+      },
+      {
+        "login": "TaduJR",
+        "id": 90861780,
+        "node_id": "MDQ6VXNlcjkwODYxNzgw",
+        "avatar_url": "https://avatars.githubusercontent.com/u/90861780?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/TaduJR",
+        "html_url": "https://github.com/TaduJR",
+        "followers_url": "https://api.github.com/users/TaduJR/followers",
+        "following_url": "https://api.github.com/users/TaduJR/following{/other_user}",
+        "gists_url": "https://api.github.com/users/TaduJR/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/TaduJR/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/TaduJR/subscriptions",
+        "organizations_url": "https://api.github.com/users/TaduJR/orgs",
+        "repos_url": "https://api.github.com/users/TaduJR/repos",
+        "events_url": "https://api.github.com/users/TaduJR/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/TaduJR/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
       }
     ],
     "milestone": null,
-    "comments": 11,
+    "comments": 14,
     "created_at": "2026-01-06T23:45:57Z",
-    "updated_at": "2026-01-07T09:08:57Z",
+    "updated_at": "2026-01-07T18:39:10Z",
     "closed_at": null,
     "author_association": "CONTRIBUTOR",
     "type": null,
@@ -587,7 +599,7 @@
       "blocking": 0,
       "total_blocking": 0
     },
-    "body": "### Problem\nThe [`verifySignedCommits`](https://github.com/Expensify/App/blob/65e7b60b533741f2/.github/actions/javascript/verifySignedCommits/verifySignedCommits.ts) workflow doesn't paginate commits, so if a PR has more than 30 commits ([default value](https://docs.github.com/en/rest/commits/commits?apiVersion=2022-11-28#list-commits) for `per_page`), it doesn't properly detect unsigned commits after the 30<sup>th</sup>.\n\n\n### Repro steps\n1. Create a fresh branch\n2. Create 30 signed commits, then an unsigned one (this assumes your git config already has signature enabled by default)\n    ```zsh\n    # Create 30 signed commits on a new branch\n    for i in {1..30}; do\n        git commit --allow-empty -m \"Test commit $i\"\n    done\n    \n    # Create an unsigned commit\n    git commit --no-gpg-sign --allow-empty -m \"Unsigned commit test\"\n    ```\n4. Run the `verifySignedCommits` workflow\n5. Notice that it passes\n\n\n[Example PR](https://github.com/Expensify/App-Test-Fork/pull/138) – [workflow passes](https://github.com/Expensify/App-Test-Fork/actions/runs/20764747441/job/59628267122) despite unsigned 31<sup>st</sup> commit\n\n\n### Solution\nUse octokit's pagination functionality to get all commits on the PR.\n<details><summary>Upwork Automation - Do Not Edit</summary>\n    <ul>\n        <li>Upwork Job URL: https://www.upwork.com/jobs/~022008688139822676909</li>\n        <li>Upwork Job ID: 2008688139822676909</li>\n        <li>Last Price Increase: 2026-01-06</li>\n    </ul>\n</details>\n\n<details><summary>Issue Owner</summary>Current Issue Owner: @</details>",
+    "body": "### Problem\nThe [`verifySignedCommits`](https://github.com/Expensify/App/blob/65e7b60b533741f2/.github/actions/javascript/verifySignedCommits/verifySignedCommits.ts) workflow doesn't paginate commits, so if a PR has more than 30 commits ([default value](https://docs.github.com/en/rest/commits/commits?apiVersion=2022-11-28#list-commits) for `per_page`), it doesn't properly detect unsigned commits after the 30<sup>th</sup>.\n\n\n### Repro steps\n1. Create a fresh branch\n2. Create 30 signed commits, then an unsigned one (this assumes your git config already has signature enabled by default)\n    ```zsh\n    # Create 30 signed commits on a new branch\n    for i in {1..30}; do\n        git commit --allow-empty -m \"Test commit $i\"\n    done\n    \n    # Create an unsigned commit\n    git commit --no-gpg-sign --allow-empty -m \"Unsigned commit test\"\n    ```\n4. Run the `verifySignedCommits` workflow\n5. Notice that it passes\n\n\n[Example PR](https://github.com/Expensify/App-Test-Fork/pull/138) – [workflow passes](https://github.com/Expensify/App-Test-Fork/actions/runs/20764747441/job/59628267122) despite unsigned 31<sup>st</sup> commit\n\n\n### Solution\nUse octokit's pagination functionality to get all commits on the PR.\n<details><summary>Upwork Automation - Do Not Edit</summary>\n    <ul>\n        <li>Upwork Job URL: https://www.upwork.com/jobs/~022008688139822676909</li>\n        <li>Upwork Job ID: 2008688139822676909</li>\n        <li>Last Price Increase: 2026-01-06</li>\n<li>Automatic offers: </li>\n<ul>\n<li>linhvovan29546 | Reviewer | 110029544</li>\n</ul></li>\n    </ul>\n</details>\n\n<details><summary>Issue Owner</summary>Current Issue Owner: @</details>",
     "closed_by": null,
     "reactions": {
       "url": "https://api.github.com/repos/Expensify/App/issues/78960/reactions",
