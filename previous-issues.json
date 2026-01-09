@@ -160,7 +160,7 @@
     "milestone": null,
     "comments": 10,
     "created_at": "2026-01-09T10:00:17Z",
-    "updated_at": "2026-01-09T13:26:59Z",
+    "updated_at": "2026-01-09T15:11:25Z",
     "closed_at": null,
     "author_association": "CONTRIBUTOR",
     "type": null,
@@ -176,7 +176,7 @@
       "blocking": 0,
       "total_blocking": 0
     },
-    "body": "Coming from this conversation in [migrate](https://expensify.slack.com/archives/C07NMDKEFMH/p1767873619904629).\n\n**Problem:** We've seen many users manually uploading receipts (mostly PDFs) that could have been emailed to receipts@ and scanned/automatically matched with card transactions.\n\n**Solution:** Update the empty receipt section of the RHP to educate users on the different routes for adding receipts to Expensify:\n\n<img width=\"720\" height=\"418\" alt=\"Image\" src=\"https://github.com/user-attachments/assets/3e135758-9570-4242-8d73-cd7151f308b3\" />\n\n\n\n<details><summary>Issue Owner</summary>Current Issue Owner: @DylanDylann</details>",
+    "body": "Coming from this conversation in [migrate](https://expensify.slack.com/archives/C07NMDKEFMH/p1767873619904629).\n\n**Problem:** We've seen many users manually uploading receipts (mostly PDFs) that could have been emailed to receipts@ and scanned/automatically matched with card transactions.\n\n**Solution:** Update the empty receipt section of the RHP to educate users on the different routes for adding receipts to Expensify:\n\n<img width=\"2800\" height=\"1624\" alt=\"Image\" src=\"https://github.com/user-attachments/assets/a494c3f2-cb09-4984-ae80-a2d5150ab673\" />\n\n\n<details><summary>Issue Owner</summary>Current Issue Owner: @DylanDylann</details>",
     "closed_by": null,
     "reactions": {
       "url": "https://api.github.com/repos/Expensify/App/issues/79189/reactions",
@@ -332,9 +332,9 @@
       }
     ],
     "milestone": null,
-    "comments": 7,
+    "comments": 9,
     "created_at": "2026-01-09T09:33:17Z",
-    "updated_at": "2026-01-09T14:11:12Z",
+    "updated_at": "2026-01-09T15:23:00Z",
     "closed_at": null,
     "author_association": "NONE",
     "type": null,
@@ -1118,9 +1118,9 @@
       }
     ],
     "milestone": null,
-    "comments": 21,
+    "comments": 22,
     "created_at": "2026-01-08T11:35:58Z",
-    "updated_at": "2026-01-09T13:38:46Z",
+    "updated_at": "2026-01-09T15:00:02Z",
     "closed_at": null,
     "author_association": "NONE",
     "type": null,
