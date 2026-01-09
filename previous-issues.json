@@ -1529,9 +1529,9 @@
       }
     ],
     "milestone": null,
-    "comments": 6,
+    "comments": 7,
     "created_at": "2026-01-09T19:03:06Z",
-    "updated_at": "2026-01-09T19:39:22Z",
+    "updated_at": "2026-01-09T23:14:25Z",
     "closed_at": null,
     "author_association": "MEMBER",
     "type": null,
@@ -3149,9 +3149,9 @@
       }
     ],
     "milestone": null,
-    "comments": 6,
+    "comments": 11,
     "created_at": "2026-01-09T17:50:36Z",
-    "updated_at": "2026-01-09T19:32:40Z",
+    "updated_at": "2026-01-09T23:16:44Z",
     "closed_at": null,
     "author_association": "CONTRIBUTOR",
     "type": null,
@@ -3167,7 +3167,7 @@
       "blocking": 0,
       "total_blocking": 0
     },
-    "body": "## Details\n\nWe recently improved the [FullscreenLoadingIndicator](https://github.com/Expensify/App/issues/69850#issuecomment-3542439439) by displaying a back button after 10 seconds to provide a recovery path in case of infinite loading. \n\nThe [WorkspaceReceiptPartnersPage](https://github.com/Expensify/App/blob/c99a23e84ff61ccd75fb0a9d02f0da1f7bf17599/src/pages/workspace/receiptPartners/WorkspaceReceiptPartnersPage.tsx#L248-L252) component appears to be a case where we should now be using `FullscreenLoadingIndicator` [instead](https://github.com/Expensify/App/blob/c99a23e84ff61ccd75fb0a9d02f0da1f7bf17599/src/pages/workspace/receiptPartners/WorkspaceReceiptPartnersPage.tsx#L248-L252) of `ActivityIndicator`. It looks like we render this before `HeaderWithBackButton ` is displayed, so there is a chance that the user gets stuck. \n\n_Parent [issue](https://github.com/Expensify/App/issues/69850) with more context._\n\n### Solution\n\nVerify this is the case and refactor the component to use `FullScreenLoadingIndicator`. to provide an escape recovery mechanism for users.\n<details><summary>Upwork Automation - Do Not Edit</summary>\n    <ul>\n        <li>Upwork Job URL: https://www.upwork.com/jobs/~022009684263007938026</li>\n        <li>Upwork Job ID: 2009684263007938026</li>\n        <li>Last Price Increase: 2026-01-09</li>\n    </ul>\n</details>\n\n<details><summary>Issue Owner</summary>Current Issue Owner: @ikevin127</details>",
+    "body": "## Details\n\nWe recently improved the [FullscreenLoadingIndicator](https://github.com/Expensify/App/issues/69850#issuecomment-3542439439) by displaying a back button after 10 seconds to provide a recovery path in case of infinite loading. \n\nThe [WorkspaceReceiptPartnersPage](https://github.com/Expensify/App/blob/c99a23e84ff61ccd75fb0a9d02f0da1f7bf17599/src/pages/workspace/receiptPartners/WorkspaceReceiptPartnersPage.tsx#L248-L252) component appears to be a case where we should now be using `FullscreenLoadingIndicator` [instead](https://github.com/Expensify/App/blob/c99a23e84ff61ccd75fb0a9d02f0da1f7bf17599/src/pages/workspace/receiptPartners/WorkspaceReceiptPartnersPage.tsx#L248-L252) of `ActivityIndicator`. It looks like we render this before `HeaderWithBackButton ` is displayed, so there is a chance that the user gets stuck. \n\n_Parent [issue](https://github.com/Expensify/App/issues/69850) with more context._\n\n### Solution\n\nVerify this is the case and refactor the component to use `FullScreenLoadingIndicator`. to provide an escape recovery mechanism for users.\n<details><summary>Upwork Automation - Do Not Edit</summary>\n    <ul>\n        <li>Upwork Job URL: https://www.upwork.com/jobs/~022009684263007938026</li>\n        <li>Upwork Job ID: 2009684263007938026</li>\n        <li>Last Price Increase: 2026-01-09</li>\n    </ul>\n</details>\n\n<details><summary>Issue Owner</summary>Current Issue Owner: @</details>",
     "closed_by": null,
     "reactions": {
       "url": "https://api.github.com/repos/Expensify/App/issues/79225/reactions",
