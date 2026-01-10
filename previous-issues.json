@@ -485,9 +485,9 @@
       }
     ],
     "milestone": null,
-    "comments": 7,
+    "comments": 8,
     "created_at": "2026-01-09T19:03:16Z",
-    "updated_at": "2026-01-09T21:11:51Z",
+    "updated_at": "2026-01-10T13:23:23Z",
     "closed_at": null,
     "author_association": "MEMBER",
     "type": null,
@@ -1183,7 +1183,7 @@
     "milestone": null,
     "comments": 7,
     "created_at": "2026-01-09T19:03:10Z",
-    "updated_at": "2026-01-10T12:17:19Z",
+    "updated_at": "2026-01-10T12:43:08Z",
     "closed_at": null,
     "author_association": "MEMBER",
     "type": null,
@@ -3707,7 +3707,7 @@
       "blocking": 0,
       "total_blocking": 0
     },
-    "body": "If you haven���t already, check out our [contributing guidelines](https://github.com/Expensify/ReactNativeChat/blob/main/contributingGuides/CONTRIBUTING.md) for onboarding and email contributors@expensify.com to request to join our Slack channel!\n___\n\n**Version Number:** 9.2.96-4\n**Reproducible in staging?:** Yes\n**Reproducible in production?:** Yes\n**If this was caught during regression testing, add the test name, ID and link from BrowserStack:** https://test-management.browserstack.com/projects/2219752/test-runs/TR-2733/folder/14961849/44236265/1113099972\n**Email or phone of affected tester (no customers):** sjdosnjdoisjoisjojd@gmail.com\n**Issue reported by:** Applause Internal Team\n**Bug source:** Exploratory - Significant User Experience Deterioration\n**Device used:** Mac 26.1 / Chrome\n**App Component:** Search\n\n## Action Performed:\n1. Go to staging.new.expensify.com\n2. Go to workspace chat.\n3. Create an expense.\n4. Go to Reports > Expenses.\n5. Click Filters.\n6. Click Group by > select From.\n7. Click Save > View results.\n8. Expand the row.\n9. Select the expense via checkbox.\n10. Click dropdown button > Export > Basic export.\n\n## Expected Result:\nThe expense can be exported when in group-by result.\n\n## Actual Result:\nExpense cannot be exported when in group-by result.\n\n## Workaround:\nUnknown\n\n## Platforms:\n- [x] Android: App\n- [ ] Android: mWeb Chrome\n- [x] iOS: App\n- [ ] iOS: mWeb Safari\n- [ ] iOS: mWeb Chrome\n- [ ] Windows: Chrome\n- [x] MacOS: Chrome / Safari\n\n## Screenshots/Videos\n\nhttps://github.com/user-attachments/assets/fa0d199a-767f-4adf-8af4-f441f4d56379\n\n[View all open jobs on GitHub](https://github.com/Expensify/App/issues?q=is%3Aopen+is%3Aissue+label%3A%22Help+Wanted%22)\n<details><summary>Upwork Automation - Do Not Edit</summary>\n    <ul>\n        <li>Upwork Job URL: https://www.upwork.com/jobs/~022009749332551839029</li>\n        <li>Upwork Job ID: 2009749332551839029</li>\n        <li>Last Price Increase: 2026-01-09</li>\n    </ul>\n</details>\n\n<details><summary>Issue Owner</summary>Current Issue Owner: @akinwale</details>",
+    "body": "If you haven’t already, check out our [contributing guidelines](https://github.com/Expensify/ReactNativeChat/blob/main/contributingGuides/CONTRIBUTING.md) for onboarding and email contributors@expensify.com to request to join our Slack channel!\n___\n\n**Version Number:** 9.2.96-4\n**Reproducible in staging?:** Yes\n**Reproducible in production?:** Yes\n**If this was caught during regression testing, add the test name, ID and link from BrowserStack:** https://test-management.browserstack.com/projects/2219752/test-runs/TR-2733/folder/14961849/44236265/1113099972\n**Email or phone of affected tester (no customers):** sjdosnjdoisjoisjojd@gmail.com\n**Issue reported by:** Applause Internal Team\n**Bug source:** Exploratory - Significant User Experience Deterioration\n**Device used:** Mac 26.1 / Chrome\n**App Component:** Search\n\n## Action Performed:\n1. Go to staging.new.expensify.com\n2. Go to workspace chat.\n3. Create an expense.\n4. Go to Reports > Expenses.\n5. Click Filters.\n6. Click Group by > select From.\n7. Click Save > View results.\n8. Expand the row.\n9. Select the expense via checkbox.\n10. Click dropdown button > Export > Basic export.\n\n## Expected Result:\nThe expense can be exported when in group-by result.\n\n## Actual Result:\nExpense cannot be exported when in group-by result.\n\n## Workaround:\nUnknown\n\n## Platforms:\n- [x] Android: App\n- [ ] Android: mWeb Chrome\n- [x] iOS: App\n- [ ] iOS: mWeb Safari\n- [ ] iOS: mWeb Chrome\n- [ ] Windows: Chrome\n- [x] MacOS: Chrome / Safari\n\n## Screenshots/Videos\n\nhttps://github.com/user-attachments/assets/fa0d199a-767f-4adf-8af4-f441f4d56379\n\n[View all open jobs on GitHub](https://github.com/Expensify/App/issues?q=is%3Aopen+is%3Aissue+label%3A%22Help+Wanted%22)\n<details><summary>Upwork Automation - Do Not Edit</summary>\n    <ul>\n        <li>Upwork Job URL: https://www.upwork.com/jobs/~022009749332551839029</li>\n        <li>Upwork Job ID: 2009749332551839029</li>\n        <li>Last Price Increase: 2026-01-09</li>\n    </ul>\n</details>\n\n<details><summary>Issue Owner</summary>Current Issue Owner: @akinwale</details>",
     "closed_by": null,
     "reactions": {
       "url": "https://api.github.com/repos/Expensify/App/issues/79194/reactions",
