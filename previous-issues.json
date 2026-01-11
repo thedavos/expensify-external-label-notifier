@@ -2878,6 +2878,27 @@
     },
     "assignees": [
       {
+        "login": "Valforte",
+        "id": 12853092,
+        "node_id": "MDQ6VXNlcjEyODUzMDky",
+        "avatar_url": "https://avatars.githubusercontent.com/u/12853092?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/Valforte",
+        "html_url": "https://github.com/Valforte",
+        "followers_url": "https://api.github.com/users/Valforte/followers",
+        "following_url": "https://api.github.com/users/Valforte/following{/other_user}",
+        "gists_url": "https://api.github.com/users/Valforte/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/Valforte/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/Valforte/subscriptions",
+        "organizations_url": "https://api.github.com/users/Valforte/orgs",
+        "repos_url": "https://api.github.com/users/Valforte/repos",
+        "events_url": "https://api.github.com/users/Valforte/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/Valforte/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      {
         "login": "mallenexpensify",
         "id": 22508304,
         "node_id": "MDQ6VXNlcjIyNTA4MzA0",
@@ -2921,9 +2942,9 @@
       }
     ],
     "milestone": null,
-    "comments": 11,
+    "comments": 13,
     "created_at": "2026-01-09T18:33:44Z",
-    "updated_at": "2026-01-10T11:30:18Z",
+    "updated_at": "2026-01-11T05:57:16Z",
     "closed_at": null,
     "author_association": "MEMBER",
     "type": null,
@@ -2939,7 +2960,7 @@
       "blocking": 0,
       "total_blocking": 0
     },
-    "body": "## Overview\n\nThis issue tracks color contrast accessibility problems that need to be fixed. Update color values for better contrast.\n\n## Context\n\nPart of the accessibility improvement effort tracked in https://github.com/Expensify/Expensify/issues/575078\n\n## Issues to Fix\n\n- https://github.com/Expensify/App/issues/77417 - Grey text fails contrast ratio against white background\n- https://github.com/Expensify/App/issues/77408 - White text on green button fails contrast ratio\n- https://github.com/Expensify/App/issues/77407 - White text on red buttons fails contrast ratio\n- https://github.com/Expensify/App/issues/77406 - White icon of camera on green button fails contrast ratio\n- https://github.com/Expensify/App/issues/77405 - White icon + on green fails contrast ratio\n- https://github.com/Expensify/App/issues/77403 - Grey icons on bright grey fails contrast ratio\n- https://github.com/Expensify/App/issues/77384 - White digits on orange fails contrast ratio\n- https://github.com/Expensify/App/issues/77366 - Grey link arrow icons on white fails contrast ratio\n- https://github.com/Expensify/App/issues/77332 - Bright grey progress bar on white fails contrast ratio\n- https://github.com/Expensify/App/issues/76918 - Bright yellow on yellow fails contrast ratio\n- https://github.com/Expensify/App/issues/76917 - White text on green fails contrast ratio\n- https://github.com/Expensify/App/issues/76916 - White text on red fails contrast ratio\n\n## Instructions\n\n**Suggested Fix:** Update color values for better contrast\n\n> **Note:** Discuss on Slack if you are unsure whether a sub-issue should be fixed or if you are unsure about the right fix / expected result. Ideally, create a single PR that will fix all the issues listed to minimize review time (more PRs only if necessary).\n<details><summary>Upwork Automation - Do Not Edit</summary>\n    <ul>\n        <li>Upwork Job URL: https://www.upwork.com/jobs/~022009703055888550126</li>\n        <li>Upwork Job ID: 2009703055888550126</li>\n        <li>Last Price Increase: 2026-01-09</li>\n    </ul>\n</details>\n\n<details><summary>Issue Owner</summary>Current Issue Owner: @jayeshmangwani</details>",
+    "body": "## Overview\n\nThis issue tracks color contrast accessibility problems that need to be fixed. Update color values for better contrast.\n\n## Context\n\nPart of the accessibility improvement effort tracked in https://github.com/Expensify/Expensify/issues/575078\n\n## Issues to Fix\n\n- https://github.com/Expensify/App/issues/77417 - Grey text fails contrast ratio against white background\n- https://github.com/Expensify/App/issues/77408 - White text on green button fails contrast ratio\n- https://github.com/Expensify/App/issues/77407 - White text on red buttons fails contrast ratio\n- https://github.com/Expensify/App/issues/77406 - White icon of camera on green button fails contrast ratio\n- https://github.com/Expensify/App/issues/77405 - White icon + on green fails contrast ratio\n- https://github.com/Expensify/App/issues/77403 - Grey icons on bright grey fails contrast ratio\n- https://github.com/Expensify/App/issues/77384 - White digits on orange fails contrast ratio\n- https://github.com/Expensify/App/issues/77366 - Grey link arrow icons on white fails contrast ratio\n- https://github.com/Expensify/App/issues/77332 - Bright grey progress bar on white fails contrast ratio\n- https://github.com/Expensify/App/issues/76918 - Bright yellow on yellow fails contrast ratio\n- https://github.com/Expensify/App/issues/76917 - White text on green fails contrast ratio\n- https://github.com/Expensify/App/issues/76916 - White text on red fails contrast ratio\n\n## Instructions\n\n**Suggested Fix:** Update color values for better contrast\n\n> **Note:** Discuss on Slack if you are unsure whether a sub-issue should be fixed or if you are unsure about the right fix / expected result. Ideally, create a single PR that will fix all the issues listed to minimize review time (more PRs only if necessary).\n<details><summary>Upwork Automation - Do Not Edit</summary>\n    <ul>\n        <li>Upwork Job URL: https://www.upwork.com/jobs/~022009703055888550126</li>\n        <li>Upwork Job ID: 2009703055888550126</li>\n        <li>Last Price Increase: 2026-01-09</li>\n    </ul>\n</details>\n\n<details><summary>Issue Owner</summary>Current Issue Owner: @Valforte</details>",
     "closed_by": null,
     "reactions": {
       "url": "https://api.github.com/repos/Expensify/App/issues/79228/reactions",
