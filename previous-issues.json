@@ -9,7 +9,7 @@
     "id": 3804043119,
     "node_id": "I_kwDOEQqHYc7ivRdv",
     "number": 79341,
-    "title": "[$250] Fix Badge Alignment on workspace members page",
+    "title": "[$100] Fix Badge Alignment on workspace members page",
     "user": {
       "login": "war-in",
       "id": 61014013,
@@ -158,9 +158,9 @@
       }
     ],
     "milestone": null,
-    "comments": 7,
+    "comments": 9,
     "created_at": "2026-01-12T12:07:35Z",
-    "updated_at": "2026-01-12T13:25:27Z",
+    "updated_at": "2026-01-12T17:18:05Z",
     "closed_at": null,
     "author_association": "CONTRIBUTOR",
     "type": null,
@@ -563,7 +563,7 @@
       "blocking": 0,
       "total_blocking": 0
     },
-    "body": "🚨 **Failure Summary** 🚨:\n\n- **📋 Job Name**: [test / test (job 4)](https://github.com/Expensify/App/actions/runs/20897095839/job/60037342586)\n- **🔧 Failure in Workflow**: Process new code merged to main\n- **��� Triggered by PR**: [PR Link](https://github.com/Expensify/App/pull/79286)\n- **👤 PR Author**: @chrispader\n- **🤝 Merged by**: @roryabraham\n- **🐛 Error Message**: \n failure: Process completed with exit code 1.\n\n\n⚠️ **Action Required** ⚠️:\n\n🛠️ A recent merge appears to have caused a failure in the job named [test / test (job 4)](https://github.com/Expensify/App/actions/runs/20897095839/job/60037342586).\nThis issue has been automatically created and labeled with `Workflow Failure` for investigation. \n\n👀 **Please look into the following**:\n1. **Why the PR caused the job to fail?**\n2. **Address any underlying issues.**\n\n🐛 We appreciate your help in squashing this bug!\n<details><summary>Upwork Automation - Do Not Edit</summary>\n    <ul>\n        <li>Upwork Job URL: https://www.upwork.com/jobs/~022010384006528248048</li>\n        <li>Upwork Job ID: 2010384006528248048</li>\n        <li>Last Price Increase: 2026-01-11</li>\n    </ul>\n</details>\n\n<details><summary>Issue Owner</summary>Current Issue Owner: @aimane-chnaif</details>",
+    "body": "🚨 **Failure Summary** 🚨:\n\n- **📋 Job Name**: [test / test (job 4)](https://github.com/Expensify/App/actions/runs/20897095839/job/60037342586)\n- **🔧 Failure in Workflow**: Process new code merged to main\n- **🔗 Triggered by PR**: [PR Link](https://github.com/Expensify/App/pull/79286)\n- **👤 PR Author**: @chrispader\n- **🤝 Merged by**: @roryabraham\n- **🐛 Error Message**: \n failure: Process completed with exit code 1.\n\n\n⚠️ **Action Required** ⚠️:\n\n🛠️ A recent merge appears to have caused a failure in the job named [test / test (job 4)](https://github.com/Expensify/App/actions/runs/20897095839/job/60037342586).\nThis issue has been automatically created and labeled with `Workflow Failure` for investigation. \n\n👀 **Please look into the following**:\n1. **Why the PR caused the job to fail?**\n2. **Address any underlying issues.**\n\n🐛 We appreciate your help in squashing this bug!\n<details><summary>Upwork Automation - Do Not Edit</summary>\n    <ul>\n        <li>Upwork Job URL: https://www.upwork.com/jobs/~022010384006528248048</li>\n        <li>Upwork Job ID: 2010384006528248048</li>\n        <li>Last Price Increase: 2026-01-11</li>\n    </ul>\n</details>\n\n<details><summary>Issue Owner</summary>Current Issue Owner: @aimane-chnaif</details>",
     "closed_by": null,
     "reactions": {
       "url": "https://api.github.com/repos/Expensify/App/issues/79297/reactions",
