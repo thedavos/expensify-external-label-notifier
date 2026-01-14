@@ -550,7 +550,7 @@
     "milestone": null,
     "comments": 3,
     "created_at": "2026-01-13T21:12:18Z",
-    "updated_at": "2026-01-13T21:12:33Z",
+    "updated_at": "2026-01-14T10:02:30Z",
     "closed_at": null,
     "author_association": "CONTRIBUTOR",
     "type": null,
@@ -566,7 +566,7 @@
       "blocking": 0,
       "total_blocking": 0
     },
-    "body": "## Proposal: Standardize Object Stability to Enable Modern Rendering\n\n### Background\nIn our current architecture, we utilize the useDeepCompareRef hook across 6 distinct locations to stabilize object references between renders using the fast-equals library. This hook is designed to perform deep equality comparisons and update a stored ref value synchronously during the render phase to prevent downstream useMemo or useEffect recomputations. With the introduction of React 18 and the React Compiler, the build pipeline now audits components for “render purity” and idempotency. The compiler’s static analysis identifies hooks that perform side effects—such as mutating a ref during render—and automatically opts those components out of memoization-based optimizations to prevent potential runtime instability.\n\n### Problem\nWhen components rely on useDeepCompareRef to stabilize references, if the hook performs synchronous mutations during the render phase, then the UI encounters inconsistent state updates that violate React’s idempotency requirements.\n\n### Solution\nReplace all instances of useDeepCompareRef with React-compliant useMemo patterns as detailed in this Pull Request and remove the src/hooks/useDeepCompareRef.ts hook entirely. This restores render purity across the identified components, enabling the React Compiler to perform automatic optimizations and ensuring long-term UI stability.\n\n#### Validation and Performance:\nPerformance testing confirms that replacing useDeepCompareRef with useMemo shows no regression in testable cases, with a 5-10% improvement in rendering efficiency in 3 cases (ReportScreen, useArchivedReportsIdSet, useSidebarOrderedReports). While WorkspaceWorkflowsApprovalsExpensesFromPage could not be verified due to lack of admin access, the standardized approach ensures the component is no longer bypassed by the React Compiler, allowing for future automated optimizations.\n\n<details><summary>Issue Owner</summary>Current Issue Owner: @dominictb</details>",
+    "body": "## Proposal: Standardize Object Stability to Enable Modern Rendering\n\n### Background\nIn our current architecture, we utilize the useDeepCompareRef hook across 6 distinct locations to stabilize object references between renders using the fast-equals library. This hook is designed to perform deep equality comparisons and update a stored ref value synchronously during the render phase to prevent downstream useMemo or useEffect recomputations. With the introduction of React 18 and the React Compiler, the build pipeline now audits components for “render purity” and idempotency. The compiler’s static analysis identifies hooks that perform side effects—such as mutating a ref during render—and automatically opts those components out of memoization-based optimizations to prevent potential runtime instability.\n\n### Problem\nWhen components rely on useDeepCompareRef to stabilize references, if the hook performs synchronous mutations during the render phase, then the UI encounters inconsistent state updates that violate React’s idempotency requirements.\n\n### Solution\nReplace all instances of useDeepCompareRef with React-compliant useMemo patterns as detailed in this Pull Request and remove the src/hooks/useDeepCompareRef.ts hook entirely. This restores render purity across the identified components, enabling the React Compiler to perform automatic optimizations and ensuring long-term UI stability.\n\n#### Validation and Performance:\nPerformance testing confirms that replacing useDeepCompareRef with useMemo shows no regression in testable cases, with a 5-10% improvement in rendering efficiency in 3 cases (ReportScreen, useArchivedReportsIdSet, useSidebarOrderedReports). While WorkspaceWorkflowsApprovalsExpensesFromPage could not be verified due to lack of admin access, the standardized approach ensures the component is no longer bypassed by the React Compiler, allowing for future automated optimizations.\n\n<details><summary>Issue Owner</summary>Current Issue Owner: @szymonzalarski98</details>",
     "closed_by": null,
     "reactions": {
       "url": "https://api.github.com/repos/Expensify/App/issues/79510/reactions",
@@ -966,6 +966,15 @@
     },
     "labels": [
       {
+        "id": 2283143991,
+        "node_id": "MDU6TGFiZWwyMjgzMTQzOTkx",
+        "url": "https://api.github.com/repos/Expensify/App/labels/Reviewing",
+        "name": "Reviewing",
+        "color": "dddddd",
+        "default": false,
+        "description": "Has a PR in review"
+      },
+      {
         "id": 2873246102,
         "node_id": "MDU6TGFiZWwyODczMjQ2MTAy",
         "url": "https://api.github.com/repos/Expensify/App/labels/External",
@@ -984,11 +993,11 @@
         "description": ""
       },
       {
-        "id": 2893455829,
-        "node_id": "MDU6TGFiZWwyODkzNDU1ODI5",
-        "url": "https://api.github.com/repos/Expensify/App/labels/Daily",
-        "name": "Daily",
-        "color": "eb6420",
+        "id": 2893515375,
+        "node_id": "MDU6TGFiZWwyODkzNTE1Mzc1",
+        "url": "https://api.github.com/repos/Expensify/App/labels/Weekly",
+        "name": "Weekly",
+        "color": "009800",
         "default": false,
         "description": "KSv2"
       },
@@ -1100,9 +1109,9 @@
       }
     ],
     "milestone": null,
-    "comments": 11,
+    "comments": 12,
     "created_at": "2026-01-13T09:58:35Z",
-    "updated_at": "2026-01-13T15:07:56Z",
+    "updated_at": "2026-01-14T10:10:27Z",
     "closed_at": null,
     "author_association": "NONE",
     "type": null,
