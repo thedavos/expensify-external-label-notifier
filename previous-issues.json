@@ -528,9 +528,9 @@
       }
     ],
     "milestone": null,
-    "comments": 9,
+    "comments": 11,
     "created_at": "2026-01-16T16:26:11Z",
-    "updated_at": "2026-01-16T17:24:19Z",
+    "updated_at": "2026-01-18T15:41:08Z",
     "closed_at": null,
     "author_association": "CONTRIBUTOR",
     "type": null,
@@ -547,7 +547,7 @@
       "blocking": 0,
       "total_blocking": 0
     },
-    "body": "### Problem\nWhen the version of `@fullstory/react-native` we use in our app is `^1.7.8`, if we try to upgrade to RN 0.82+, then we have errors.\n\n### Solution\nUpgrade `@fullstory/react-native` to latest.\n<details><summary>Upwork Automation - Do Not Edit</summary>\n    <ul>\n        <li>Upwork Job URL: https://www.upwork.com/jobs/~022012199733240980269</li>\n        <li>Upwork Job ID: 2012199733240980269</li>\n        <li>Last Price Increase: 2026-01-16</li>\n    </ul>\n</details>\n\n<details><summary>Issue Owner</summary>Current Issue Owner: @mkhutornyi</details>",
+    "body": "### Problem\nWhen the version of `@fullstory/react-native` we use in our app is `^1.7.8`, if we try to upgrade to RN 0.82+, then we have errors.\n\n### Solution\nUpgrade `@fullstory/react-native` to latest.\n<details><summary>Upwork Automation - Do Not Edit</summary>\n    <ul>\n        <li>Upwork Job URL: https://www.upwork.com/jobs/~022012199733240980269</li>\n        <li>Upwork Job ID: 2012199733240980269</li>\n        <li>Last Price Increase: 2026-01-16</li>\n    </ul>\n</details>\n\n<details><summary>Issue Owner</summary>Current Issue Owner: @</details>",
     "closed_by": null,
     "reactions": {
       "url": "https://api.github.com/repos/Expensify/App/issues/79774/reactions",
