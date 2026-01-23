@@ -311,9 +311,9 @@
       }
     ],
     "milestone": null,
-    "comments": 6,
+    "comments": 7,
     "created_at": "2026-01-23T16:55:02Z",
-    "updated_at": "2026-01-23T17:25:21Z",
+    "updated_at": "2026-01-23T21:16:22Z",
     "closed_at": null,
     "author_association": "NONE",
     "type": null,
@@ -2069,9 +2069,9 @@
       }
     ],
     "milestone": null,
-    "comments": 5,
+    "comments": 6,
     "created_at": "2026-01-23T15:14:19Z",
-    "updated_at": "2026-01-23T16:13:01Z",
+    "updated_at": "2026-01-23T21:16:58Z",
     "closed_at": null,
     "author_association": "NONE",
     "type": null,
@@ -2243,9 +2243,9 @@
       }
     ],
     "milestone": null,
-    "comments": 5,
+    "comments": 6,
     "created_at": "2026-01-23T14:55:12Z",
-    "updated_at": "2026-01-23T16:25:30Z",
+    "updated_at": "2026-01-23T21:14:12Z",
     "closed_at": null,
     "author_association": "NONE",
     "type": null,
@@ -2767,7 +2767,7 @@
     "milestone": null,
     "comments": 5,
     "created_at": "2026-01-23T13:57:40Z",
-    "updated_at": "2026-01-23T16:24:21Z",
+    "updated_at": "2026-01-23T20:50:48Z",
     "closed_at": null,
     "author_association": "NONE",
     "type": null,
@@ -2783,7 +2783,7 @@
       "blocking": 0,
       "total_blocking": 0
     },
-    "body": "If you haven’t already, check out our [contributing guidelines](https://github.com/Expensify/ReactNativeChat/blob/main/contributingGuides/CONTRIBUTING.md) for onboarding and email contributors@expensify.com to request to join our Slack channel!\n___\n\n**Version Number:** 9.3.6-0\n**Reproducible in staging?:** Yes\n**Reproducible in production?:** Yes\n**If this was caught during regression testing, add the test name, ID and link from BrowserStack:** https://github.com/Expensify/App/pull/79765\n**Email or phone of affected tester (no customers):** applausetester+210102abc@applause.expensifail.com\n**Issue reported by:** Applause Internal Team\n**Bug source:** Exploratory - Significant User Experience Deterioration\n**Device used:** Mac 26.1 / Chrome\n**App Component:** Workspace Settings\n\n## Action Performed:\nPrecondition:\n- Log in as domain admin which is not primary contact.\n\n1. Go to staging.new.expensify.com\n2. Go to Workspaces.\n3. Scroll to the bottom.\n4. Tap applause.expensifail.com domain.\n5. Go to Domain admins.\n6. Tap on your own profile.\n7. Tap Revoke access.\n8. Tap Remove.\n\n## Expected Result:\nUser will be redirected to Workspaces page after removing themselves as admin.\n\n## Actual Result:\nNot here page opens after removing themselves as admin.\n\n## Workaround:\nUnknown\n\n## Platforms:\n- [x] Android: App\n- [x] Android: mWeb Chrome\n- [x] iOS: App\n- [x] iOS: mWeb Safari\n- [x] iOS: mWeb Chrome\n- [x] Windows: Chrome\n- [x] MacOS: Chrome / Safari\n\n## Screenshots/Videos\n\nhttps://github.com/user-attachments/assets/a708e411-a0c0-46cb-b927-6c67e3e265b0\n\n[View all open jobs on GitHub](https://github.com/Expensify/App/issues?q=is%3Aopen+is%3Aissue+label%3A%22Help+Wanted%22)\n<details><summary>Upwork Automation - Do Not Edit</summary>\n    <ul>\n        <li>Upwork Job URL: https://www.upwork.com/jobs/~022014735920364075423</li>\n        <li>Upwork Job ID: 2014735920364075423</li>\n        <li>Last Price Increase: 2026-01-23</li>\n    </ul>\n</details>\n\n<details><summary>Issue Owner</summary>Current Issue Owner: @Krishna2323</details>",
+    "body": "If you haven’t already, check out our [contributing guidelines](https://github.com/Expensify/ReactNativeChat/blob/main/contributingGuides/CONTRIBUTING.md) for onboarding and email contributors@expensify.com to request to join our Slack channel!\n___\n\n**Version Number:** 9.3.6-0\n**Reproducible in staging?:** Yes\n**Reproducible in production?:** Yes\n**If this was caught during regression testing, add the test name, ID and link from BrowserStack:** https://github.com/Expensify/App/pull/79765\n**Email or phone of affected tester (no customers):** applausetester+210102abc@applause.expensifail.com\n**Issue reported by:** Applause Internal Team\n**Bug source:** Exploratory - Significant User Experience Deterioration\n**Device used:** Mac 26.1 / Chrome\n**App Component:** Workspace Settings\n\n## Action Performed:\nPrecondition:\n- Log in as domain admin which is not primary contact.\n\n1. Go to staging.new.expensify.com\n2. Go to Workspaces.\n3. Scroll to the bottom.\n4. Tap applause.expensifail.com domain.\n5. Go to Domain admins.\n6. Tap on your own profile.\n7. Tap Revoke access.\n8. Tap Remove.\n\n## Expected Result:\nUser will be redirected to Workspaces page after removing themselves as admin.\n\n## Actual Result:\nNot here page opens after removing themselves as admin.\n\n## Workaround:\nUnknown\n\n## Platforms:\n- [x] Android: App\n- [x] Android: mWeb Chrome\n- [x] iOS: App\n- [x] iOS: mWeb Safari\n- [x] iOS: mWeb Chrome\n- [x] Windows: Chrome\n- [x] MacOS: Chrome / Safari\n\n## Screenshots/Videos\n\nhttps://github.com/user-attachments/assets/a708e411-a0c0-46cb-b927-6c67e3e265b0\n\n[View all open jobs on GitHub](https://github.com/Expensify/App/issues?q=is%3Aopen+is%3Aissue+label%3A%22Help+Wanted%22)\n<details><summary>Upwork Automation - Do Not Edit</summary>\n    <ul>\n        <li>Upwork Job URL: https://www.upwork.com/jobs/~022014735920364075423</li>\n        <li>Upwork Job ID: 2014735920364075423</li>\n        <li>Last Price Increase: 2026-01-23</li>\n    </ul>\n</details>\n\n\n\n<details><summary>Issue Owner</summary>Current Issue Owner: @Krishna2323</details>",
     "closed_by": null,
     "reactions": {
       "url": "https://api.github.com/repos/Expensify/App/issues/80346/reactions",
