@@ -677,9 +677,9 @@
       }
     ],
     "milestone": null,
-    "comments": 4,
+    "comments": 5,
     "created_at": "2026-01-24T17:05:12Z",
-    "updated_at": "2026-01-24T17:11:11Z",
+    "updated_at": "2026-01-24T23:51:56Z",
     "closed_at": null,
     "author_association": "NONE",
     "type": null,
@@ -4346,9 +4346,9 @@
       }
     ],
     "milestone": null,
-    "comments": 7,
+    "comments": 9,
     "created_at": "2026-01-23T16:53:25Z",
-    "updated_at": "2026-01-24T23:17:47Z",
+    "updated_at": "2026-01-24T23:43:03Z",
     "closed_at": null,
     "author_association": "NONE",
     "type": null,
@@ -4721,7 +4721,7 @@
       "blocking": 0,
       "total_blocking": 0
     },
-    "body": "If you haven���t already, check out our [contributing guidelines](https://github.com/Expensify/ReactNativeChat/blob/main/contributingGuides/CONTRIBUTING.md) for onboarding and email contributors@expensify.com to request to join our Slack channel!\n___\n\n**Version Number:** 9.3.7-1\n**Reproducible in staging?:** Yes\n**Reproducible in production?:** Yes\n**If this was caught during regression testing, add the test name, ID and link from BrowserStack:** https://test-management.browserstack.com/projects/2219752/test-runs/TR-3370/folder/13176686/44007893/1145199543?sort=%2Bidentifier\n**Email or phone of affected tester (no customers):** n/a\n**Issue reported by:** Applause Internal Team\n**Bug source:** Regression TC Execution\n**Device used:** iPhone 13 ioS 26.2 Safari, Chrome\n**App Component:** Chat Report View\n\n## Action Performed:\n1. Go to https://staging.new.expensify.com\n2.Navigate to \"Reports\"\n3. Go to Reports section\n4.Open any report or create a new one\n5.On the report screen, tap the compose box\n\n## Expected Result:\nThe keyboard is opened, there is not blank space between the keyboard and compose box\n\n## Actual Result:\nEmpty space between keyboard and compose box after focusing the compose box\n\n## Workaround:\nUnknown\n\n## Platforms:\n- [ ] Android: App\n- [ ] Android: mWeb Chrome\n- [ ] iOS: App\n- [x] iOS: mWeb Safari\n- [ ] iOS: mWeb Chrome\n- [ ] Windows: Chrome\n- [ ] MacOS: Chrome / Safari\n\n## Screenshots/Videos\n\nhttps://github.com/user-attachments/assets/f4a9f224-b1a5-47d8-a9c5-150370bf2704\n\n[View all open jobs on GitHub](https://github.com/Expensify/App/issues?q=is%3Aopen+is%3Aissue+label%3A%22Help+Wanted%22)\n\n<details><summary>Issue Owner</summary>Current Issue Owner: @abdulrahuman5196</details>",
+    "body": "If you haven’t already, check out our [contributing guidelines](https://github.com/Expensify/ReactNativeChat/blob/main/contributingGuides/CONTRIBUTING.md) for onboarding and email contributors@expensify.com to request to join our Slack channel!\n___\n\n**Version Number:** 9.3.7-1\n**Reproducible in staging?:** Yes\n**Reproducible in production?:** Yes\n**If this was caught during regression testing, add the test name, ID and link from BrowserStack:** https://test-management.browserstack.com/projects/2219752/test-runs/TR-3370/folder/13176686/44007893/1145199543?sort=%2Bidentifier\n**Email or phone of affected tester (no customers):** n/a\n**Issue reported by:** Applause Internal Team\n**Bug source:** Regression TC Execution\n**Device used:** iPhone 13 ioS 26.2 Safari, Chrome\n**App Component:** Chat Report View\n\n## Action Performed:\n1. Go to https://staging.new.expensify.com\n2.Navigate to \"Reports\"\n3. Go to Reports section\n4.Open any report or create a new one\n5.On the report screen, tap the compose box\n\n## Expected Result:\nThe keyboard is opened, there is not blank space between the keyboard and compose box\n\n## Actual Result:\nEmpty space between keyboard and compose box after focusing the compose box\n\n## Workaround:\nUnknown\n\n## Platforms:\n- [ ] Android: App\n- [ ] Android: mWeb Chrome\n- [ ] iOS: App\n- [x] iOS: mWeb Safari\n- [ ] iOS: mWeb Chrome\n- [ ] Windows: Chrome\n- [ ] MacOS: Chrome / Safari\n\n## Screenshots/Videos\n\nhttps://github.com/user-attachments/assets/f4a9f224-b1a5-47d8-a9c5-150370bf2704\n\n[View all open jobs on GitHub](https://github.com/Expensify/App/issues?q=is%3Aopen+is%3Aissue+label%3A%22Help+Wanted%22)\n\n<details><summary>Issue Owner</summary>Current Issue Owner: @abdulrahuman5196</details>",
     "closed_by": null,
     "reactions": {
       "url": "https://api.github.com/repos/Expensify/App/issues/80376/reactions",
