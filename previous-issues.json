@@ -1281,6 +1281,15 @@
     },
     "labels": [
       {
+        "id": 2283143991,
+        "node_id": "MDU6TGFiZWwyMjgzMTQzOTkx",
+        "url": "https://api.github.com/repos/Expensify/App/labels/Reviewing",
+        "name": "Reviewing",
+        "color": "dddddd",
+        "default": false,
+        "description": "Has a PR in review"
+      },
+      {
         "id": 2873246102,
         "node_id": "MDU6TGFiZWwyODczMjQ2MTAy",
         "url": "https://api.github.com/repos/Expensify/App/labels/External",
@@ -1299,11 +1308,11 @@
         "description": ""
       },
       {
-        "id": 2893455829,
-        "node_id": "MDU6TGFiZWwyODkzNDU1ODI5",
-        "url": "https://api.github.com/repos/Expensify/App/labels/Daily",
-        "name": "Daily",
-        "color": "eb6420",
+        "id": 2893515375,
+        "node_id": "MDU6TGFiZWwyODkzNTE1Mzc1",
+        "url": "https://api.github.com/repos/Expensify/App/labels/Weekly",
+        "name": "Weekly",
+        "color": "009800",
         "default": false,
         "description": "KSv2"
       },
@@ -1427,9 +1436,9 @@
       }
     ],
     "milestone": null,
-    "comments": 10,
+    "comments": 11,
     "created_at": "2026-01-27T21:36:48Z",
-    "updated_at": "2026-01-28T10:35:30Z",
+    "updated_at": "2026-01-28T13:06:09Z",
     "closed_at": null,
     "author_association": "NONE",
     "type": null,
