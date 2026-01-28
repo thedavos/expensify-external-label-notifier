@@ -908,9 +908,9 @@
       }
     ],
     "milestone": null,
-    "comments": 5,
+    "comments": 6,
     "created_at": "2026-01-27T21:10:34Z",
-    "updated_at": "2026-01-28T01:23:55Z",
+    "updated_at": "2026-01-28T04:43:00Z",
     "closed_at": null,
     "author_association": "NONE",
     "type": null,
@@ -3052,6 +3052,27 @@
     },
     "assignees": [
       {
+        "login": "AndrewGable",
+        "id": 2838819,
+        "node_id": "MDQ6VXNlcjI4Mzg4MTk=",
+        "avatar_url": "https://avatars.githubusercontent.com/u/2838819?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/AndrewGable",
+        "html_url": "https://github.com/AndrewGable",
+        "followers_url": "https://api.github.com/users/AndrewGable/followers",
+        "following_url": "https://api.github.com/users/AndrewGable/following{/other_user}",
+        "gists_url": "https://api.github.com/users/AndrewGable/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/AndrewGable/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/AndrewGable/subscriptions",
+        "organizations_url": "https://api.github.com/users/AndrewGable/orgs",
+        "repos_url": "https://api.github.com/users/AndrewGable/repos",
+        "events_url": "https://api.github.com/users/AndrewGable/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/AndrewGable/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      {
         "login": "trjExpensify",
         "id": 16232057,
         "node_id": "MDQ6VXNlcjE2MjMyMDU3",
@@ -3095,9 +3116,9 @@
       }
     ],
     "milestone": null,
-    "comments": 11,
+    "comments": 13,
     "created_at": "2026-01-27T08:52:54Z",
-    "updated_at": "2026-01-27T10:16:48Z",
+    "updated_at": "2026-01-28T04:24:59Z",
     "closed_at": null,
     "author_association": "NONE",
     "type": null,
@@ -3113,7 +3134,7 @@
       "blocking": 0,
       "total_blocking": 0
     },
-    "body": "If you haven’t already, check out our [contributing guidelines](https://github.com/Expensify/ReactNativeChat/blob/main/contributingGuides/CONTRIBUTING.md) for onboarding and email contributors@expensify.com to request to join our Slack channel!\n___\n\n**Version Number:** V9.3.9-1\n**Reproducible in staging?:** Yes\n**Reproducible in production?:** Yes\n**If this was caught during regression testing, add the test name, ID and link from BrowserStack:** https://github.com/Expensify/App/pull/80003\n**Email or phone of affected tester (no customers):** dreamnitethedragon+yydyd373@gmail.com\n**Issue reported by:** Applause Internal Team\n**Bug source:** Exploratory - Significant User Experience Deterioration\n**Device used:** Redminote 10S Android 13\n**App Component:** Money Requests\n\n## Action Performed:\nPreconditiond: Per diem is enabled and rates are Imported\n1. Launch app\n2. Open workspace chat \n3. Create a per diem expense and any other expense\n4. Open the expense report page\n5. Note the label next to date in expense preview in workspace chat and expense reports page for per diem expense\n\n## Expected Result:\nLabel for per diem expense must be consistent in both workspace chat and expense reports page.\n\n## Actual Result:\nLabel \"per diem\" is shown in expense preview and \"cash\" in expense reports page for per diem expense.\n\n## Workaround:\nUnknown\n\n## Platforms:\n- [x] Android: App\n- [ ] Android: mWeb Chrome\n- [ ] iOS: App\n- [ ] iOS: mWeb Safari\n- [ ] iOS: mWeb Chrome\n- [ ] Windows: Chrome\n- [ ] MacOS: Chrome / Safari\n\n## Screenshots/Videos\n\nhttps://github.com/user-attachments/assets/d6208e12-1a13-47a5-8f09-f4561337947a\n\n[View all open jobs on GitHub](https://github.com/Expensify/App/issues?q=is%3Aopen+is%3Aissue+label%3A%22Help+Wanted%22)\n<details><summary>Upwork Automation - Do Not Edit</summary>\n    <ul>\n        <li>Upwork Job URL: https://www.upwork.com/jobs/~022016071928661057081</li>\n        <li>Upwork Job ID: 2016071928661057081</li>\n        <li>Last Price Increase: 2026-01-27</li>\n    </ul>\n</details>\n\n<details><summary>Issue Owner</summary>Current Issue Owner: @hungvu193</details>",
+    "body": "If you haven’t already, check out our [contributing guidelines](https://github.com/Expensify/ReactNativeChat/blob/main/contributingGuides/CONTRIBUTING.md) for onboarding and email contributors@expensify.com to request to join our Slack channel!\n___\n\n**Version Number:** V9.3.9-1\n**Reproducible in staging?:** Yes\n**Reproducible in production?:** Yes\n**If this was caught during regression testing, add the test name, ID and link from BrowserStack:** https://github.com/Expensify/App/pull/80003\n**Email or phone of affected tester (no customers):** dreamnitethedragon+yydyd373@gmail.com\n**Issue reported by:** Applause Internal Team\n**Bug source:** Exploratory - Significant User Experience Deterioration\n**Device used:** Redminote 10S Android 13\n**App Component:** Money Requests\n\n## Action Performed:\nPreconditiond: Per diem is enabled and rates are Imported\n1. Launch app\n2. Open workspace chat \n3. Create a per diem expense and any other expense\n4. Open the expense report page\n5. Note the label next to date in expense preview in workspace chat and expense reports page for per diem expense\n\n## Expected Result:\nLabel for per diem expense must be consistent in both workspace chat and expense reports page.\n\n## Actual Result:\nLabel \"per diem\" is shown in expense preview and \"cash\" in expense reports page for per diem expense.\n\n## Workaround:\nUnknown\n\n## Platforms:\n- [x] Android: App\n- [ ] Android: mWeb Chrome\n- [ ] iOS: App\n- [ ] iOS: mWeb Safari\n- [ ] iOS: mWeb Chrome\n- [ ] Windows: Chrome\n- [ ] MacOS: Chrome / Safari\n\n## Screenshots/Videos\n\nhttps://github.com/user-attachments/assets/d6208e12-1a13-47a5-8f09-f4561337947a\n\n[View all open jobs on GitHub](https://github.com/Expensify/App/issues?q=is%3Aopen+is%3Aissue+label%3A%22Help+Wanted%22)\n<details><summary>Upwork Automation - Do Not Edit</summary>\n    <ul>\n        <li>Upwork Job URL: https://www.upwork.com/jobs/~022016071928661057081</li>\n        <li>Upwork Job ID: 2016071928661057081</li>\n        <li>Last Price Increase: 2026-01-27</li>\n    </ul>\n</details>\n\n<details><summary>Issue Owner</summary>Current Issue Owner: @AndrewGable</details>",
     "closed_by": null,
     "reactions": {
       "url": "https://api.github.com/repos/Expensify/App/issues/80597/reactions",
