@@ -146,9 +146,9 @@
       }
     ],
     "milestone": null,
-    "comments": 7,
+    "comments": 10,
     "created_at": "2026-01-29T18:47:44Z",
-    "updated_at": "2026-01-29T18:49:57Z",
+    "updated_at": "2026-01-29T19:19:36Z",
     "closed_at": null,
     "author_association": "CONTRIBUTOR",
     "type": null,
@@ -225,11 +225,11 @@
         "description": "Added to denote the issue can be worked on by a contributor"
       },
       {
-        "id": 2893519945,
-        "node_id": "MDU6TGFiZWwyODkzNTE5OTQ1",
-        "url": "https://api.github.com/repos/Expensify/App/labels/Monthly",
-        "name": "Monthly",
-        "color": "5319e7",
+        "id": 2893455829,
+        "node_id": "MDU6TGFiZWwyODkzNDU1ODI5",
+        "url": "https://api.github.com/repos/Expensify/App/labels/Daily",
+        "name": "Daily",
+        "color": "eb6420",
         "default": false,
         "description": "KSv2"
       },
@@ -320,9 +320,9 @@
       }
     ],
     "milestone": null,
-    "comments": 3,
+    "comments": 6,
     "created_at": "2026-01-29T18:44:18Z",
-    "updated_at": "2026-01-29T18:44:58Z",
+    "updated_at": "2026-01-29T19:00:55Z",
     "closed_at": null,
     "author_association": "NONE",
     "type": null,
@@ -1461,11 +1461,11 @@
         "description": "Added to denote the issue can be worked on by a contributor"
       },
       {
-        "id": 2893455829,
-        "node_id": "MDU6TGFiZWwyODkzNDU1ODI5",
-        "url": "https://api.github.com/repos/Expensify/App/labels/Daily",
-        "name": "Daily",
-        "color": "eb6420",
+        "id": 2893519945,
+        "node_id": "MDU6TGFiZWwyODkzNTE5OTQ1",
+        "url": "https://api.github.com/repos/Expensify/App/labels/Monthly",
+        "name": "Monthly",
+        "color": "5319e7",
         "default": false,
         "description": "KSv2"
       },
@@ -1558,7 +1558,7 @@
     "milestone": null,
     "comments": 4,
     "created_at": "2026-01-29T14:29:51Z",
-    "updated_at": "2026-01-29T15:17:13Z",
+    "updated_at": "2026-01-29T18:53:21Z",
     "closed_at": null,
     "author_association": "NONE",
     "type": null,
