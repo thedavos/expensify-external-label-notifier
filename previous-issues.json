@@ -42,11 +42,11 @@
         "description": "Added to denote the issue can be worked on by a contributor"
       },
       {
-        "id": 2893515375,
-        "node_id": "MDU6TGFiZWwyODkzNTE1Mzc1",
-        "url": "https://api.github.com/repos/Expensify/App/labels/Weekly",
-        "name": "Weekly",
-        "color": "009800",
+        "id": 2893455829,
+        "node_id": "MDU6TGFiZWwyODkzNDU1ODI5",
+        "url": "https://api.github.com/repos/Expensify/App/labels/Daily",
+        "name": "Daily",
+        "color": "eb6420",
         "default": false,
         "description": "KSv2"
       },
@@ -137,9 +137,9 @@
       }
     ],
     "milestone": null,
-    "comments": 7,
+    "comments": 8,
     "created_at": "2026-01-30T01:51:56Z",
-    "updated_at": "2026-01-30T02:10:12Z",
+    "updated_at": "2026-01-30T05:01:46Z",
     "closed_at": null,
     "author_association": "CONTRIBUTOR",
     "type": null,
@@ -875,9 +875,9 @@
       }
     ],
     "milestone": null,
-    "comments": 3,
+    "comments": 4,
     "created_at": "2026-01-29T20:21:38Z",
-    "updated_at": "2026-01-29T21:09:52Z",
+    "updated_at": "2026-01-30T05:16:23Z",
     "closed_at": null,
     "author_association": "NONE",
     "type": null,
@@ -2992,7 +2992,7 @@
     "milestone": null,
     "comments": 4,
     "created_at": "2026-01-29T12:55:12Z",
-    "updated_at": "2026-01-29T14:07:43Z",
+    "updated_at": "2026-01-30T05:16:22Z",
     "closed_at": null,
     "author_association": "NONE",
     "type": null,
@@ -3008,7 +3008,7 @@
       "blocking": 0,
       "total_blocking": 0
     },
-    "body": "If you haven’t already, check out our [contributing guidelines](https://github.com/Expensify/ReactNativeChat/blob/main/contributingGuides/CONTRIBUTING.md) for onboarding and email contributors@expensify.com to request to join our Slack channel!\n___\n\n**Version Number:** 9.3.11-0\n**Reproducible in staging?:** Yes\n**Reproducible in production?:** Yes\n**If this was caught during regression testing, add the test name, ID and link from BrowserStack:** https://test-management.browserstack.com/projects/2219752/test-runs/TR-3777/folder/13176710/41236948/1155363570?sort=%2Bidentifier\n**Email or phone of affected tester (no customers):** applausetester+ab11@applause.expensifail.com\n**Issue reported by:** Applause Internal Team\n**Bug source:** Regression TC Execution\n**Device used:** Android\n**App Component:** Other\n\n## Action Performed:\n1. Clear cache and restart\n2. Go offline\n3. On a conversation, click on the + button in the compose box\n4. Click on add attachment\n5. Select the file via \"Choose file\" option\n6. Attempt to upload an attachment that is larger than the 24 MB limit\n\n## Expected Result:\nApp should not crash\n\n## Actual Result:\nApp crashes when attempting to upload larger image\n\n## Workaround:\nUnknown\n\n## Platforms:\n- [x] Android: App\n- [ ] Android: mWeb Chrome\n- [ ] iOS: App\n- [ ] iOS: mWeb Safari\n- [ ] iOS: mWeb Chrome\n- [ ] Windows: Chrome\n- [ ] MacOS: Chrome / Safari\n\n## Screenshots/Videos\n\n<!-- Failed to upload \"Bug7060797_1769689292481!crash_report.txt\" -->\n\nhttps://github.com/user-attachments/assets/c3cef0b6-9a8c-45b4-8daf-d74f1e633b56\n\n\n\n[View all open jobs on GitHub](https://github.com/Expensify/App/issues?q=is%3Aopen+is%3Aissue+label%3A%22Help+Wanted%22)\n\n<details><summary>Issue Owner</summary>Current Issue Owner: @truph01</details>",
+    "body": "If you haven’t already, check out our [contributing guidelines](https://github.com/Expensify/ReactNativeChat/blob/main/contributingGuides/CONTRIBUTING.md) for onboarding and email contributors@expensify.com to request to join our Slack channel!\n___\n\n**Version Number:** 9.3.11-0\n**Reproducible in staging?:** Yes\n**Reproducible in production?:** Yes\n**If this was caught during regression testing, add the test name, ID and link from BrowserStack:** https://test-management.browserstack.com/projects/2219752/test-runs/TR-3777/folder/13176710/41236948/1155363570?sort=%2Bidentifier\n**Email or phone of affected tester (no customers):** applausetester+ab11@applause.expensifail.com\n**Issue reported by:** Applause Internal Team\n**Bug source:** Regression TC Execution\n**Device used:** Android\n**App Component:** Other\n\n## Action Performed:\n1. Clear cache and restart\n2. Go offline\n3. On a conversation, click on the + button in the compose box\n4. Click on add attachment\n5. Select the file via \"Choose file\" option\n6. Attempt to upload an attachment that is larger than the 24 MB limit\n\n## Expected Result:\nApp should not crash\n\n## Actual Result:\nApp crashes when attempting to upload larger image\n\n## Workaround:\nUnknown\n\n## Platforms:\n- [x] Android: App\n- [ ] Android: mWeb Chrome\n- [ ] iOS: App\n- [ ] iOS: mWeb Safari\n- [ ] iOS: mWeb Chrome\n- [ ] Windows: Chrome\n- [ ] MacOS: Chrome / Safari\n\n## Screenshots/Videos\n\n\nhttps://github.com/user-attachments/assets/c3cef0b6-9a8c-45b4-8daf-d74f1e633b56\n\n\n\n[View all open jobs on GitHub](https://github.com/Expensify/App/issues?q=is%3Aopen+is%3Aissue+label%3A%22Help+Wanted%22)\n\n<details><summary>Issue Owner</summary>Current Issue Owner: @truph01</details>",
     "closed_by": null,
     "reactions": {
       "url": "https://api.github.com/repos/Expensify/App/issues/80881/reactions",
