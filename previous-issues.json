@@ -51,15 +51,6 @@
         "description": "KSv2"
       },
       {
-        "id": 3136662525,
-        "node_id": "MDU6TGFiZWwzMTM2NjYyNTI1",
-        "url": "https://api.github.com/repos/Expensify/App/labels/Help%20Wanted",
-        "name": "Help Wanted",
-        "color": "CFC8F1",
-        "default": false,
-        "description": "Apply this label when an issue is open to proposals by contributors"
-      },
-      {
         "id": 4664850679,
         "node_id": "LA_kwDOEQqHYc8AAAABFgv49w",
         "url": "https://api.github.com/repos/Expensify/App/labels/Bug",
@@ -136,6 +127,27 @@
         "site_admin": false
       },
       {
+        "login": "abbasifaizan70",
+        "id": 58352279,
+        "node_id": "MDQ6VXNlcjU4MzUyMjc5",
+        "avatar_url": "https://avatars.githubusercontent.com/u/58352279?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/abbasifaizan70",
+        "html_url": "https://github.com/abbasifaizan70",
+        "followers_url": "https://api.github.com/users/abbasifaizan70/followers",
+        "following_url": "https://api.github.com/users/abbasifaizan70/following{/other_user}",
+        "gists_url": "https://api.github.com/users/abbasifaizan70/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/abbasifaizan70/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/abbasifaizan70/subscriptions",
+        "organizations_url": "https://api.github.com/users/abbasifaizan70/orgs",
+        "repos_url": "https://api.github.com/users/abbasifaizan70/repos",
+        "events_url": "https://api.github.com/users/abbasifaizan70/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/abbasifaizan70/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      {
         "login": "brunovjk",
         "id": 95647348,
         "node_id": "U_kgDOBbN2dA",
@@ -158,9 +170,9 @@
       }
     ],
     "milestone": null,
-    "comments": 2,
+    "comments": 5,
     "created_at": "2026-02-04T21:23:46Z",
-    "updated_at": "2026-02-04T21:23:57Z",
+    "updated_at": "2026-02-04T21:52:10Z",
     "closed_at": null,
     "author_association": "CONTRIBUTOR",
     "type": null,
@@ -3838,7 +3850,7 @@
     "milestone": null,
     "comments": 15,
     "created_at": "2026-02-03T20:54:52Z",
-    "updated_at": "2026-02-04T19:10:05Z",
+    "updated_at": "2026-02-04T22:21:18Z",
     "closed_at": null,
     "author_association": "NONE",
     "type": null,
