@@ -58,15 +58,6 @@
         "color": "604c8d",
         "default": false,
         "description": "Item broken or needs improvement."
-      },
-      {
-        "id": 3136662525,
-        "node_id": "MDU6TGFiZWwzMTM2NjYyNTI1",
-        "url": "https://api.github.com/repos/Expensify/App/labels/Help%20Wanted",
-        "name": "Help Wanted",
-        "color": "CFC8F1",
-        "default": false,
-        "description": "Apply this label when an issue is open to proposals by contributors"
       }
     ],
     "state": "open",
@@ -134,12 +125,33 @@
         "type": "User",
         "user_view_type": "public",
         "site_admin": false
+      },
+      {
+        "login": "Krishna2323",
+        "id": 85894871,
+        "node_id": "MDQ6VXNlcjg1ODk0ODcx",
+        "avatar_url": "https://avatars.githubusercontent.com/u/85894871?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/Krishna2323",
+        "html_url": "https://github.com/Krishna2323",
+        "followers_url": "https://api.github.com/users/Krishna2323/followers",
+        "following_url": "https://api.github.com/users/Krishna2323/following{/other_user}",
+        "gists_url": "https://api.github.com/users/Krishna2323/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/Krishna2323/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/Krishna2323/subscriptions",
+        "organizations_url": "https://api.github.com/users/Krishna2323/orgs",
+        "repos_url": "https://api.github.com/users/Krishna2323/repos",
+        "events_url": "https://api.github.com/users/Krishna2323/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/Krishna2323/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
       }
     ],
     "milestone": null,
     "comments": 2,
     "created_at": "2026-02-05T19:28:02Z",
-    "updated_at": "2026-02-05T19:33:50Z",
+    "updated_at": "2026-02-05T20:14:32Z",
     "closed_at": null,
     "author_association": "CONTRIBUTOR",
     "type": null,
@@ -2122,9 +2134,9 @@
       }
     ],
     "milestone": null,
-    "comments": 10,
+    "comments": 11,
     "created_at": "2026-02-05T05:26:09Z",
-    "updated_at": "2026-02-05T13:34:39Z",
+    "updated_at": "2026-02-05T20:13:41Z",
     "closed_at": null,
     "author_association": "CONTRIBUTOR",
     "type": null,
