@@ -9,7 +9,7 @@
     "id": 3910983453,
     "node_id": "I_kwDOEQqHYc7pHN8d",
     "number": 81789,
-    "title": "Reports - Task cannot be opened from Reports > Task",
+    "title": "[$250] Reports - Task cannot be opened from Reports > Task",
     "user": {
       "login": "lanitochka17",
       "id": 78819774,
@@ -137,9 +137,9 @@
       }
     ],
     "milestone": null,
-    "comments": 3,
+    "comments": 5,
     "created_at": "2026-02-07T19:09:08Z",
-    "updated_at": "2026-02-07T19:12:10Z",
+    "updated_at": "2026-02-07T22:06:01Z",
     "closed_at": null,
     "author_association": "NONE",
     "type": null,
@@ -155,7 +155,7 @@
       "blocking": 0,
       "total_blocking": 0
     },
-    "body": "If you haven’t already, check out our [contributing guidelines](https://github.com/Expensify/ReactNativeChat/blob/main/contributingGuides/CONTRIBUTING.md) for onboarding and email contributors@expensify.com to request to join our Slack channel!\n___\n\n**Version Number:** 9.3.15-8\n**Reproducible in staging?:** Yes\n**Reproducible in production?:** Yes\n**If this was caught during regression testing, add the test name, ID and link from BrowserStack:** https://test-management.browserstack.com/projects/2219752/test-runs/TR-4454/55614645/1172745437?q=task&issue_type=jira\n**Email or phone of affected tester (no customers):** sddhonisjsoijdsido@gmail.com\n**Issue reported by:** Applause Internal Team\n**Bug source:** Exploratory - Significant User Experience Deterioration\n**Device used:** Mac 26.2 / Chrome\n**App Component:** Search\n\n## Action Performed:\n1. Go to staging.new.expensify.com\n2. Create a new Gmail account.\n3. Complete the onboarding with Track and budget expenses intent.\n4. Go to Reports > Expenses.\n5. Click Type > Task > Apply.\n6. Click on any task.\n\n## Expected Result:\nTask will be opened.\n\n## Actual Result:\nTask cannot be opened from Reports > Task.\n\n## Workaround:\nUnknown\n\n## Platforms:\n- [x] Android: App\n- [ ] Android: mWeb Chrome\n- [x] iOS: App\n- [ ] iOS: mWeb Safari\n- [ ] iOS: mWeb Chrome\n- [x] Windows: Chrome\n- [ ] MacOS: Chrome / Safari\n\n## Screenshots/Videos\n\nhttps://github.com/user-attachments/assets/da278ef9-7b0b-4cf1-9c16-dc17d94dbf85\n\n[View all open jobs on GitHub](https://github.com/Expensify/App/issues?q=is%3Aopen+is%3Aissue+label%3A%22Help+Wanted%22)\n\n<details><summary>Issue Owner</summary>Current Issue Owner: @rojiphil</details>",
+    "body": "If you haven’t already, check out our [contributing guidelines](https://github.com/Expensify/ReactNativeChat/blob/main/contributingGuides/CONTRIBUTING.md) for onboarding and email contributors@expensify.com to request to join our Slack channel!\n___\n\n**Version Number:** 9.3.15-8\n**Reproducible in staging?:** Yes\n**Reproducible in production?:** Yes\n**If this was caught during regression testing, add the test name, ID and link from BrowserStack:** https://test-management.browserstack.com/projects/2219752/test-runs/TR-4454/55614645/1172745437?q=task&issue_type=jira\n**Email or phone of affected tester (no customers):** sddhonisjsoijdsido@gmail.com\n**Issue reported by:** Applause Internal Team\n**Bug source:** Exploratory - Significant User Experience Deterioration\n**Device used:** Mac 26.2 / Chrome\n**App Component:** Search\n\n## Action Performed:\n1. Go to staging.new.expensify.com\n2. Create a new Gmail account.\n3. Complete the onboarding with Track and budget expenses intent.\n4. Go to Reports > Expenses.\n5. Click Type > Task > Apply.\n6. Click on any task.\n\n## Expected Result:\nTask will be opened.\n\n## Actual Result:\nTask cannot be opened from Reports > Task.\n\n## Workaround:\nUnknown\n\n## Platforms:\n- [x] Android: App\n- [ ] Android: mWeb Chrome\n- [x] iOS: App\n- [ ] iOS: mWeb Safari\n- [ ] iOS: mWeb Chrome\n- [x] Windows: Chrome\n- [ ] MacOS: Chrome / Safari\n\n## Screenshots/Videos\n\nhttps://github.com/user-attachments/assets/da278ef9-7b0b-4cf1-9c16-dc17d94dbf85\n\n[View all open jobs on GitHub](https://github.com/Expensify/App/issues?q=is%3Aopen+is%3Aissue+label%3A%22Help+Wanted%22)\n\n<details><summary>Issue Owner</summary>Current Issue Owner: @rojiphil</details>\n<details><summary>Upwork Automation - Do Not Edit</summary>\n    <ul>\n        <li>Upwork Job URL: https://www.upwork.com/jobs/~022020257760591516196</li>\n        <li>Upwork Job ID: 2020257760591516196</li>\n        <li>Last Price Increase: 2026-02-07</li>\n    </ul>\n</details>",
     "closed_by": null,
     "reactions": {
       "url": "https://api.github.com/repos/Expensify/App/issues/81789/reactions",
@@ -183,7 +183,7 @@
     "id": 3910898707,
     "node_id": "I_kwDOEQqHYc7pG5QT",
     "number": 81788,
-    "title": "Workspace - RHN currency list page does not open after clicking Update workspace currency",
+    "title": "[$250] Workspace - RHN currency list page does not open after clicking Update workspace currency",
     "user": {
       "login": "lanitochka17",
       "id": 78819774,
@@ -350,9 +350,9 @@
       }
     ],
     "milestone": null,
-    "comments": 7,
+    "comments": 11,
     "created_at": "2026-02-07T18:24:23Z",
-    "updated_at": "2026-02-07T18:30:46Z",
+    "updated_at": "2026-02-07T22:19:49Z",
     "closed_at": null,
     "author_association": "NONE",
     "type": null,
@@ -368,7 +368,7 @@
       "blocking": 0,
       "total_blocking": 0
     },
-    "body": "If you haven’t already, check out our [contributing guidelines](https://github.com/Expensify/ReactNativeChat/blob/main/contributingGuides/CONTRIBUTING.md) for onboarding and email contributors@expensify.com to request to join our Slack channel!\n___\n\n**Version Number:** v9.3.15-8\n**Reproducible in staging?:** Yes\n**Reproducible in production?:** No\n**If this was caught during regression testing, add the test name, ID and link from BrowserStack:** https://github.com/Expensify/Expensify/issues/588613\n**Email or phone of affected tester (no customers):** n/a\n**Issue reported by:** Applause Internal Team\n**Bug source:** Exploratory - Critical User Impact\n**Device used:** Mac 15.4.1 Safari, Chrome, iPhone 13 iOS 26.2.1 Safari\n**App Component:** Workspace Settings\n\n## Action Performed:\n1. Go to https://staging.new.expensify.com\n2.Create a workspace with a default currency other than USD\n3.Go to Workflows\n4. Click Add bank account\n5. On the Workspace currency not supported modal click Update workspace currency\n\n## Expected Result:\nClicking Update workspace currency opens the RHN page opens with the currency list\n\n## Actual Result:\nRHN currency list page does not open after clicking Update workspace currency\n\n## Workaround:\nUnknown\n\n## Platforms:\n- [ ] Android: App\n- [ ] Android: mWeb Chrome\n- [ ] iOS: App\n- [ ] iOS: mWeb Safari\n- [ ] iOS: mWeb Chrome\n- [x] Windows: Chrome\n- [ ] MacOS: Chrome / Safari\n\n## Screenshots/Videos\n\nhttps://github.com/user-attachments/assets/c625cb41-89b2-4a61-8151-e2c97c394567\n\n[View all open jobs on GitHub](https://github.com/Expensify/App/issues?q=is%3Aopen+is%3Aissue+label%3A%22Help+Wanted%22)",
+    "body": "If you haven’t already, check out our [contributing guidelines](https://github.com/Expensify/ReactNativeChat/blob/main/contributingGuides/CONTRIBUTING.md) for onboarding and email contributors@expensify.com to request to join our Slack channel!\n___\n\n**Version Number:** v9.3.15-8\n**Reproducible in staging?:** Yes\n**Reproducible in production?:** No\n**If this was caught during regression testing, add the test name, ID and link from BrowserStack:** https://github.com/Expensify/Expensify/issues/588613\n**Email or phone of affected tester (no customers):** n/a\n**Issue reported by:** Applause Internal Team\n**Bug source:** Exploratory - Critical User Impact\n**Device used:** Mac 15.4.1 Safari, Chrome, iPhone 13 iOS 26.2.1 Safari\n**App Component:** Workspace Settings\n\n## Action Performed:\n1. Go to https://staging.new.expensify.com\n2.Create a workspace with a default currency other than USD\n3.Go to Workflows\n4. Click Add bank account\n5. On the Workspace currency not supported modal click Update workspace currency\n\n## Expected Result:\nClicking Update workspace currency opens the RHN page opens with the currency list\n\n## Actual Result:\nRHN currency list page does not open after clicking Update workspace currency\n\n## Workaround:\nUnknown\n\n## Platforms:\n- [ ] Android: App\n- [ ] Android: mWeb Chrome\n- [ ] iOS: App\n- [ ] iOS: mWeb Safari\n- [ ] iOS: mWeb Chrome\n- [x] Windows: Chrome\n- [ ] MacOS: Chrome / Safari\n\n## Screenshots/Videos\n\nhttps://github.com/user-attachments/assets/c625cb41-89b2-4a61-8151-e2c97c394567\n\n[View all open jobs on GitHub](https://github.com/Expensify/App/issues?q=is%3Aopen+is%3Aissue+label%3A%22Help+Wanted%22)\n<details><summary>Upwork Automation - Do Not Edit</summary>\n    <ul>\n        <li>Upwork Job URL: https://www.upwork.com/jobs/~022020257715288970814</li>\n        <li>Upwork Job ID: 2020257715288970814</li>\n        <li>Last Price Increase: 2026-02-07</li>\n    </ul>\n</details>",
     "closed_by": null,
     "reactions": {
       "url": "https://api.github.com/repos/Expensify/App/issues/81788/reactions",
@@ -1075,7 +1075,7 @@
       "blocking": 0,
       "total_blocking": 0
     },
-    "body": "If you haven’t already, check out our [contributing guidelines](https://github.com/Expensify/ReactNativeChat/blob/main/contributingGuides/CONTRIBUTING.md) for onboarding and email contributors@expensify.com to request to join our Slack channel!\n___\n\n**Version Number:** 9.3.15-2\n**Reproducible in staging?:** Yes\n**Reproducible in production?:** Yes\n**If this was caught during regression testing, add the test name, ID and link from BrowserStack:** https://test-management.browserstack.com/projects/2219752/test-runs/TR-4568/folder/13176890/68638670/1174436521?sort=-identifier\n**Email or phone of affected tester (no customers):** biruknew45+exp11@gmail.com\n**Issue reported by:** Applause Internal Team\n**Bug source:** Regression TC Execution\n**Device used:** Web, mweb, android\n**App Component:** Workspace Settings\n\n## Action Performed:\nPrecondition -\nIssue a virtual card to an employee\nEmployee must use a new Gmail account (unvalidated)\n\n1. Go to https://staging.new.expensify.com/\n2. Login as an employee\n3. Go to the Accounts > Wallet\n4. Click on the virtual card assigned by the Admin\n5. Click on the \"Report virtual card fraud\" \n6. Deactivate the card\n7. Enter the magic code and click on \"Verify\"(request magic code again if the first one doesn't work)\n8. Close the RHP and see the virtual card\n9. Go to the workspace chat\n\n## Expected Result:\nStep 7: Magic code should work on the first attempt and shouldn’t show a “wrong magic code” error.\nStep 8: An error message shouldn’t appear below the assigned virtual card.\nStep 9: The card replacement system message should appear, and a card hyperlink should be shown.\n\n## Actual Result:\nStep 7: Magic code fails on first attempt with a “wrong magic code�� error.\nStep 8: An error message appears below the assigned virtual card.\nStep 9: The card replacement system message does not appear, and no card hyperlink is shown.\n\n## Workaround:\nUnknown\n\n## Platforms:\n- [x] Android: App\n- [x] Android: mWeb Chrome\n- [ ] iOS: App\n- [ ] iOS: mWeb Safari\n- [ ] iOS: mWeb Chrome\n- [x] Windows: Chrome\n- [x] MacOS: Chrome / Safari\n\n## Screenshots/Videos\n\nhttps://github.com/user-attachments/assets/a58ed666-2cb6-4220-801e-b76cc4b4fe28\n\n[View all open jobs on GitHub](https://github.com/Expensify/App/issues?q=is%3Aopen+is%3Aissue+label%3A%22Help+Wanted%22)\n\n<details><summary>Issue Owner</summary>Current Issue Owner: @brunovjk</details>",
+    "body": "If you haven’t already, check out our [contributing guidelines](https://github.com/Expensify/ReactNativeChat/blob/main/contributingGuides/CONTRIBUTING.md) for onboarding and email contributors@expensify.com to request to join our Slack channel!\n___\n\n**Version Number:** 9.3.15-2\n**Reproducible in staging?:** Yes\n**Reproducible in production?:** Yes\n**If this was caught during regression testing, add the test name, ID and link from BrowserStack:** https://test-management.browserstack.com/projects/2219752/test-runs/TR-4568/folder/13176890/68638670/1174436521?sort=-identifier\n**Email or phone of affected tester (no customers):** biruknew45+exp11@gmail.com\n**Issue reported by:** Applause Internal Team\n**Bug source:** Regression TC Execution\n**Device used:** Web, mweb, android\n**App Component:** Workspace Settings\n\n## Action Performed:\nPrecondition -\nIssue a virtual card to an employee\nEmployee must use a new Gmail account (unvalidated)\n\n1. Go to https://staging.new.expensify.com/\n2. Login as an employee\n3. Go to the Accounts > Wallet\n4. Click on the virtual card assigned by the Admin\n5. Click on the \"Report virtual card fraud\" \n6. Deactivate the card\n7. Enter the magic code and click on \"Verify\"(request magic code again if the first one doesn't work)\n8. Close the RHP and see the virtual card\n9. Go to the workspace chat\n\n## Expected Result:\nStep 7: Magic code should work on the first attempt and shouldn’t show a “wrong magic code” error.\nStep 8: An error message shouldn’t appear below the assigned virtual card.\nStep 9: The card replacement system message should appear, and a card hyperlink should be shown.\n\n## Actual Result:\nStep 7: Magic code fails on first attempt with a “wrong magic code” error.\nStep 8: An error message appears below the assigned virtual card.\nStep 9: The card replacement system message does not appear, and no card hyperlink is shown.\n\n## Workaround:\nUnknown\n\n## Platforms:\n- [x] Android: App\n- [x] Android: mWeb Chrome\n- [ ] iOS: App\n- [ ] iOS: mWeb Safari\n- [ ] iOS: mWeb Chrome\n- [x] Windows: Chrome\n- [x] MacOS: Chrome / Safari\n\n## Screenshots/Videos\n\nhttps://github.com/user-attachments/assets/a58ed666-2cb6-4220-801e-b76cc4b4fe28\n\n[View all open jobs on GitHub](https://github.com/Expensify/App/issues?q=is%3Aopen+is%3Aissue+label%3A%22Help+Wanted%22)\n\n<details><summary>Issue Owner</summary>Current Issue Owner: @brunovjk</details>",
     "closed_by": null,
     "reactions": {
       "url": "https://api.github.com/repos/Expensify/App/issues/81746/reactions",
@@ -1231,9 +1231,9 @@
       }
     ],
     "milestone": null,
-    "comments": 7,
+    "comments": 9,
     "created_at": "2026-02-06T19:15:08Z",
-    "updated_at": "2026-02-06T20:11:24Z",
+    "updated_at": "2026-02-07T21:52:30Z",
     "closed_at": null,
     "author_association": "CONTRIBUTOR",
     "type": null,
