@@ -137,9 +137,9 @@
       }
     ],
     "milestone": null,
-    "comments": 7,
+    "comments": 9,
     "created_at": "2026-02-11T01:58:20Z",
-    "updated_at": "2026-02-11T04:16:17Z",
+    "updated_at": "2026-02-11T05:11:58Z",
     "closed_at": null,
     "author_association": "CONTRIBUTOR",
     "type": null,
@@ -1007,9 +1007,9 @@
       }
     ],
     "milestone": null,
-    "comments": 3,
+    "comments": 4,
     "created_at": "2026-02-10T17:45:35Z",
-    "updated_at": "2026-02-10T17:45:50Z",
+    "updated_at": "2026-02-11T05:52:02Z",
     "closed_at": null,
     "author_association": "NONE",
     "type": null,
@@ -1181,9 +1181,9 @@
       }
     ],
     "milestone": null,
-    "comments": 3,
+    "comments": 4,
     "created_at": "2026-02-10T16:57:38Z",
-    "updated_at": "2026-02-10T16:57:55Z",
+    "updated_at": "2026-02-11T05:52:03Z",
     "closed_at": null,
     "author_association": "NONE",
     "type": null,
@@ -2705,7 +2705,7 @@
       "blocking": 0,
       "total_blocking": 0
     },
-    "body": "If you haven��t already, check out our [contributing guidelines](https://github.com/Expensify/ReactNativeChat/blob/main/contributingGuides/CONTRIBUTING.md) for onboarding and email contributors@expensify.com to request to join our Slack channel!\n___\n\n**Version Number:** 9.3.16-1\n**Reproducible in staging?:** Yes\n**Reproducible in production?:** No\n**If this was caught during regression testing, add the test name, ID and link from BrowserStack:** https://test-management.browserstack.com/projects/2219752/test-runs/TR-4875/folder/13176670/41237097/1179842714\n**Email or phone of affected tester (no customers):** jsodinjsodjsnodjsioj4@gmail.com\n**Issue reported by:** Applause Internal Team\n**Bug source:** Exploratory - Significant User Experience Deterioration\n**Device used:** Mac 26.2 / Chrome\n**App Component:** Money Requests\n\n## Action Performed:\n1. Go to staging.new.expensify.com\n2. Go to workspace chat.\n3. Create two expenses with the same amount.\n4. Open expense report.\n5. Click Review duplicates.\n6. Click Keep this one on the second expense.\n7. Select any detail and reach confirm page.\n8. Click Confirm.\n\n## Expected Result:\nRHP will not show not here page after keeping the second expense.\n\n## Actual Result:\nRHP shows not here page briefly after keeping the second expense.\n\n## Workaround:\nUnknown\n\n## Platforms:\n- [ ] Android: App\n- [ ] Android: mWeb Chrome\n- [ ] iOS: App\n- [ ] iOS: mWeb Safari\n- [ ] iOS: mWeb Chrome\n- [ ] Windows: Chrome\n- [x] MacOS: Chrome / Safari\n\n## Screenshots/Videos\n\nhttps://github.com/user-attachments/assets/8c07e66d-8a27-4e8c-8346-30e92e8747de\n\n[View all open jobs on GitHub](https://github.com/Expensify/App/issues?q=is%3Aopen+is%3Aissue+label%3A%22Help+Wanted%22)\n\n<details><summary>Issue Owner</summary>Current Issue Owner: @mkhutornyi</details>\n<details><summary>Upwork Automation - Do Not Edit</summary>\n    <ul>\n        <li>Upwork Job URL: https://www.upwork.com/jobs/~022021303037886215005</li>\n        <li>Upwork Job ID: 2021303037886215005</li>\n        <li>Last Price Increase: 2026-02-10</li>\n    </ul>\n</details>",
+    "body": "If you haven’t already, check out our [contributing guidelines](https://github.com/Expensify/ReactNativeChat/blob/main/contributingGuides/CONTRIBUTING.md) for onboarding and email contributors@expensify.com to request to join our Slack channel!\n___\n\n**Version Number:** 9.3.16-1\n**Reproducible in staging?:** Yes\n**Reproducible in production?:** No\n**If this was caught during regression testing, add the test name, ID and link from BrowserStack:** https://test-management.browserstack.com/projects/2219752/test-runs/TR-4875/folder/13176670/41237097/1179842714\n**Email or phone of affected tester (no customers):** jsodinjsodjsnodjsioj4@gmail.com\n**Issue reported by:** Applause Internal Team\n**Bug source:** Exploratory - Significant User Experience Deterioration\n**Device used:** Mac 26.2 / Chrome\n**App Component:** Money Requests\n\n## Action Performed:\n1. Go to staging.new.expensify.com\n2. Go to workspace chat.\n3. Create two expenses with the same amount.\n4. Open expense report.\n5. Click Review duplicates.\n6. Click Keep this one on the second expense.\n7. Select any detail and reach confirm page.\n8. Click Confirm.\n\n## Expected Result:\nRHP will not show not here page after keeping the second expense.\n\n## Actual Result:\nRHP shows not here page briefly after keeping the second expense.\n\n## Workaround:\nUnknown\n\n## Platforms:\n- [ ] Android: App\n- [ ] Android: mWeb Chrome\n- [ ] iOS: App\n- [ ] iOS: mWeb Safari\n- [ ] iOS: mWeb Chrome\n- [ ] Windows: Chrome\n- [x] MacOS: Chrome / Safari\n\n## Screenshots/Videos\n\nhttps://github.com/user-attachments/assets/8c07e66d-8a27-4e8c-8346-30e92e8747de\n\n[View all open jobs on GitHub](https://github.com/Expensify/App/issues?q=is%3Aopen+is%3Aissue+label%3A%22Help+Wanted%22)\n\n<details><summary>Issue Owner</summary>Current Issue Owner: @mkhutornyi</details>\n<details><summary>Upwork Automation - Do Not Edit</summary>\n    <ul>\n        <li>Upwork Job URL: https://www.upwork.com/jobs/~022021303037886215005</li>\n        <li>Upwork Job ID: 2021303037886215005</li>\n        <li>Last Price Increase: 2026-02-10</li>\n    </ul>\n</details>",
     "closed_by": null,
     "reactions": {
       "url": "https://api.github.com/repos/Expensify/App/issues/81968/reactions",
