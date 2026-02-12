@@ -320,9 +320,9 @@
       }
     ],
     "milestone": null,
-    "comments": 5,
+    "comments": 6,
     "created_at": "2026-02-11T21:26:20Z",
-    "updated_at": "2026-02-11T23:31:47Z",
+    "updated_at": "2026-02-12T00:43:41Z",
     "closed_at": null,
     "author_association": "NONE",
     "type": null,
@@ -512,7 +512,7 @@
       "blocking": 0,
       "total_blocking": 0
     },
-    "body": "If you haven’t already, check out our [contributing guidelines](https://github.com/Expensify/ReactNativeChat/blob/main/contributingGuides/CONTRIBUTING.md) for onboarding and email contributors@expensify.com to request to join our Slack channel!\n___\n\n**Version Number:**\n**Reproducible in staging?:** Needs Reproduction (Reproduction blocked)\n**Reproducible in production?:** Needs Reproduction\n**If this was caught during regression testing, add the test name, ID and link from BrowserStack:**\n**Email or phone of affected tester (no customers):**\n**Logs:** https://stackoverflow.com/c/expensify/questions/4856\n**Expensify/Expensify Issue URL:**\n**Issue reported by:** @AndrewGable \n**Slack conversation** (hyperlinked to channel name): [#Quality](https://expensify.slack.com/archives/C05LX9D6E07/p1770832351753919)\n\n## Action Performed:\n\n1. Have an active workspace with a billing balance due\n2. Delete the workspace without clearing the balance\n3. Attempt to close the account\n4. Observe the error message indicating money is owed\n5. Attempt to locate billing to clear the balance\n\n## Expected Result:\nWhen a user attempts to delete their last workspace while an outstanding balance exists:\nA “Pay and downgrade” prompt should appear clearly explaining:\nThere is an outstanding balance that must be paid before deleting the workspace.\nThe exact amount owed.\n## Actual Result:\nAccount closure is blocked due to unpaid balance.\nBilling UI is not accessible because there are no active workspaces.User has no visible way to resolve the outstanding amount.\n## Workaround:\nUnknown\n## Platforms:\nSelect the officially supported platforms where the issue was reproduced:\n- [ ] Android: App\n- [ ] Android: mWeb Chrome\n- [ ] iOS: App\n- [ ] iOS: mWeb Safari\n- [ ] iOS: mWeb Chrome\n- [x] Windows: Chrome\n- [x] MacOS: Chrome / Safari\n\n## Screenshots/Videos\n\n\n[View all open jobs on GitHub](https://github.com/Expensify/App/issues?q=is%3Aopen+is%3Aissue+label%3A%22Help+Wanted%22)\n\n\n<details><summary>Issue Owner</summary>Current Issue Owner: @Ollyws</details>\n<details><summary>Upwork Automation - Do Not Edit</summary>\n    <ul>\n        <li>Upwork Job URL: https://www.upwork.com/jobs/~022021695336821072279</li>\n        <li>Upwork Job ID: 2021695336821072279</li>\n        <li>Last Price Increase: 2026-02-11</li>\n    </ul>\n</details>",
+    "body": "If you haven���t already, check out our [contributing guidelines](https://github.com/Expensify/ReactNativeChat/blob/main/contributingGuides/CONTRIBUTING.md) for onboarding and email contributors@expensify.com to request to join our Slack channel!\n___\n\n**Version Number:**\n**Reproducible in staging?:** Needs Reproduction (Reproduction blocked)\n**Reproducible in production?:** Needs Reproduction\n**If this was caught during regression testing, add the test name, ID and link from BrowserStack:**\n**Email or phone of affected tester (no customers):**\n**Logs:** https://stackoverflow.com/c/expensify/questions/4856\n**Expensify/Expensify Issue URL:**\n**Issue reported by:** @AndrewGable \n**Slack conversation** (hyperlinked to channel name): [#Quality](https://expensify.slack.com/archives/C05LX9D6E07/p1770832351753919)\n\n## Action Performed:\n\n1. Have an active workspace with a billing balance due\n2. Delete the workspace without clearing the balance\n3. Attempt to close the account\n4. Observe the error message indicating money is owed\n5. Attempt to locate billing to clear the balance\n\n## Expected Result:\nWhen a user attempts to delete their last workspace while an outstanding balance exists:\nA “Pay and downgrade” prompt should appear clearly explaining:\nThere is an outstanding balance that must be paid before deleting the workspace.\nThe exact amount owed.\n## Actual Result:\nAccount closure is blocked due to unpaid balance.\nBilling UI is not accessible because there are no active workspaces.User has no visible way to resolve the outstanding amount.\n## Workaround:\nUnknown\n## Platforms:\nSelect the officially supported platforms where the issue was reproduced:\n- [ ] Android: App\n- [ ] Android: mWeb Chrome\n- [ ] iOS: App\n- [ ] iOS: mWeb Safari\n- [ ] iOS: mWeb Chrome\n- [x] Windows: Chrome\n- [x] MacOS: Chrome / Safari\n\n## Screenshots/Videos\n\n\n[View all open jobs on GitHub](https://github.com/Expensify/App/issues?q=is%3Aopen+is%3Aissue+label%3A%22Help+Wanted%22)\n\n\n<details><summary>Issue Owner</summary>Current Issue Owner: @Ollyws</details>\n<details><summary>Upwork Automation - Do Not Edit</summary>\n    <ul>\n        <li>Upwork Job URL: https://www.upwork.com/jobs/~022021695336821072279</li>\n        <li>Upwork Job ID: 2021695336821072279</li>\n        <li>Last Price Increase: 2026-02-11</li>\n    </ul>\n</details>",
     "closed_by": null,
     "reactions": {
       "url": "https://api.github.com/repos/Expensify/App/issues/82200/reactions",
@@ -668,9 +668,9 @@
       }
     ],
     "milestone": null,
-    "comments": 6,
+    "comments": 9,
     "created_at": "2026-02-11T21:07:47Z",
-    "updated_at": "2026-02-11T21:58:06Z",
+    "updated_at": "2026-02-12T00:35:28Z",
     "closed_at": null,
     "author_association": "NONE",
     "type": null,
@@ -842,9 +842,9 @@
       }
     ],
     "milestone": null,
-    "comments": 4,
+    "comments": 6,
     "created_at": "2026-02-11T20:50:05Z",
-    "updated_at": "2026-02-11T21:31:38Z",
+    "updated_at": "2026-02-12T01:11:08Z",
     "closed_at": null,
     "author_association": "NONE",
     "type": null,
@@ -1266,7 +1266,7 @@
     "id": 3928221665,
     "node_id": "I_kwDOEQqHYc7qI-fh",
     "number": 82174,
-    "title": "[$250] Android app interrupts my music whenever I send a message",
+    "title": "[$250] Android/iOS app interrupts my music whenever I send a message",
     "user": {
       "login": "chuckdries",
       "id": 1351436,
@@ -1394,9 +1394,9 @@
       }
     ],
     "milestone": null,
-    "comments": 6,
+    "comments": 7,
     "created_at": "2026-02-11T19:15:24Z",
-    "updated_at": "2026-02-11T19:42:29Z",
+    "updated_at": "2026-02-12T02:01:10Z",
     "closed_at": null,
     "author_association": "CONTRIBUTOR",
     "type": {
@@ -1421,7 +1421,7 @@
       "blocking": 0,
       "total_blocking": 0
     },
-    "body": "If you haven’t already, check out our [contributing guidelines](https://github.com/Expensify/ReactNativeChat/blob/main/contributingGuides/CONTRIBUTING.md) for onboarding and email contributors@expensify.com to request to join our Slack channel!\n___\n\n**Version Number:** 9.3.15\n**Reproducible in staging?:** yes\n**Reproducible in production?:** yes\n**If this was caught during regression testing, add the test name, ID and link from BrowserStack:**\n**Email or phone of affected tester (no customers):**\n**Logs:** https://stackoverflow.com/c/expensify/questions/4856\n**Expensify/Expensify Issue URL:**\n**Issue reported by:** @chuckdries \n**Slack conversation** (hyperlinked to channel name): [#expert-contributors](https://expensify.enterprise.slack.com/archives/C08CZDJFJ77/p1770765385588569)\n\n## Action Performed:\n1. Be listening to music on the device\n2. Send a message in any conversation (or approve a report, or mark a report as paid, or do anything else that makes sound)\n\n## Expected Result:\nNewdot's sounds should not interrupt my music\n\n## Actual Result:\nNewdot's sounds briefly mute the music that I am listening to\n\n## Workaround:\nNone\n\n## Platforms:\nSelect the officially supported platforms where the issue was reproduced:\n- [x] Android: App\n- [ ] Android: mWeb Chrome\n- [ ] iOS: App\n- [ ] iOS: mWeb Safari\n- [ ] iOS: mWeb Chrome\n- [ ] Windows: Chrome\n- [ ] MacOS: Chrome / Safari\n\n## Screenshots/Videos\n\nhttps://github.com/user-attachments/assets/33e348ee-e026-4065-ad86-97400bf25c25\n\n[View all open jobs on GitHub](https://github.com/Expensify/App/issues?q=is%3Aopen+is%3Aissue+label%3A%22Help+Wanted%22)\n\n\n<details><summary>Issue Owner</summary>Current Issue Owner: @thesahindia</details>\n<details><summary>Upwork Automation - Do Not Edit</summary>\n    <ul>\n        <li>Upwork Job URL: https://www.upwork.com/jobs/~022021664434483832916</li>\n        <li>Upwork Job ID: 2021664434483832916</li>\n        <li>Last Price Increase: 2026-02-11</li>\n    </ul>\n</details>",
+    "body": "If you haven’t already, check out our [contributing guidelines](https://github.com/Expensify/ReactNativeChat/blob/main/contributingGuides/CONTRIBUTING.md) for onboarding and email contributors@expensify.com to request to join our Slack channel!\n___\n\n**Version Number:** 9.3.15\n**Reproducible in staging?:** yes\n**Reproducible in production?:** yes\n**If this was caught during regression testing, add the test name, ID and link from BrowserStack:**\n**Email or phone of affected tester (no customers):**\n**Logs:** https://stackoverflow.com/c/expensify/questions/4856\n**Expensify/Expensify Issue URL:**\n**Issue reported by:** @chuckdries \n**Slack conversation** (hyperlinked to channel name): [#expert-contributors](https://expensify.enterprise.slack.com/archives/C08CZDJFJ77/p1770765385588569)\n\n## Action Performed:\n1. Be listening to music on the device\n2. Send a message in any conversation (or approve a report, or mark a report as paid, or do anything else that makes sound)\n\n## Expected Result:\nNewdot's sounds should not interrupt my music\n\n## Actual Result:\nNewdot's sounds briefly mute the music that I am listening to\n\n## Workaround:\nNone\n\n## Platforms:\nSelect the officially supported platforms where the issue was reproduced:\n- [x] Android: App\n- [ ] Android: mWeb Chrome\n- [x] iOS: App\n- [ ] iOS: mWeb Safari\n- [ ] iOS: mWeb Chrome\n- [ ] Windows: Chrome\n- [ ] MacOS: Chrome / Safari\n\n## Screenshots/Videos\n\nhttps://github.com/user-attachments/assets/33e348ee-e026-4065-ad86-97400bf25c25\n\n[View all open jobs on GitHub](https://github.com/Expensify/App/issues?q=is%3Aopen+is%3Aissue+label%3A%22Help+Wanted%22)\n\n\n<details><summary>Issue Owner</summary>Current Issue Owner: @thesahindia</details>\n<details><summary>Upwork Automation - Do Not Edit</summary>\n    <ul>\n        <li>Upwork Job URL: https://www.upwork.com/jobs/~022021664434483832916</li>\n        <li>Upwork Job ID: 2021664434483832916</li>\n        <li>Last Price Increase: 2026-02-11</li>\n    </ul>\n</details>",
     "closed_by": null,
     "reactions": {
       "url": "https://api.github.com/repos/Expensify/App/issues/82174/reactions",
@@ -2206,9 +2206,9 @@
       }
     ],
     "milestone": null,
-    "comments": 5,
+    "comments": 6,
     "created_at": "2026-02-11T14:42:25Z",
-    "updated_at": "2026-02-11T19:06:00Z",
+    "updated_at": "2026-02-12T00:55:25Z",
     "closed_at": null,
     "author_association": "NONE",
     "type": null,
