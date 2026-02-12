@@ -146,9 +146,9 @@
       }
     ],
     "milestone": null,
-    "comments": 4,
+    "comments": 9,
     "created_at": "2026-02-11T22:55:02Z",
-    "updated_at": "2026-02-11T22:55:16Z",
+    "updated_at": "2026-02-12T04:47:03Z",
     "closed_at": null,
     "author_association": "NONE",
     "type": null,
@@ -512,7 +512,7 @@
       "blocking": 0,
       "total_blocking": 0
     },
-    "body": "If you haven���t already, check out our [contributing guidelines](https://github.com/Expensify/ReactNativeChat/blob/main/contributingGuides/CONTRIBUTING.md) for onboarding and email contributors@expensify.com to request to join our Slack channel!\n___\n\n**Version Number:**\n**Reproducible in staging?:** Needs Reproduction (Reproduction blocked)\n**Reproducible in production?:** Needs Reproduction\n**If this was caught during regression testing, add the test name, ID and link from BrowserStack:**\n**Email or phone of affected tester (no customers):**\n**Logs:** https://stackoverflow.com/c/expensify/questions/4856\n**Expensify/Expensify Issue URL:**\n**Issue reported by:** @AndrewGable \n**Slack conversation** (hyperlinked to channel name): [#Quality](https://expensify.slack.com/archives/C05LX9D6E07/p1770832351753919)\n\n## Action Performed:\n\n1. Have an active workspace with a billing balance due\n2. Delete the workspace without clearing the balance\n3. Attempt to close the account\n4. Observe the error message indicating money is owed\n5. Attempt to locate billing to clear the balance\n\n## Expected Result:\nWhen a user attempts to delete their last workspace while an outstanding balance exists:\nA “Pay and downgrade” prompt should appear clearly explaining:\nThere is an outstanding balance that must be paid before deleting the workspace.\nThe exact amount owed.\n## Actual Result:\nAccount closure is blocked due to unpaid balance.\nBilling UI is not accessible because there are no active workspaces.User has no visible way to resolve the outstanding amount.\n## Workaround:\nUnknown\n## Platforms:\nSelect the officially supported platforms where the issue was reproduced:\n- [ ] Android: App\n- [ ] Android: mWeb Chrome\n- [ ] iOS: App\n- [ ] iOS: mWeb Safari\n- [ ] iOS: mWeb Chrome\n- [x] Windows: Chrome\n- [x] MacOS: Chrome / Safari\n\n## Screenshots/Videos\n\n\n[View all open jobs on GitHub](https://github.com/Expensify/App/issues?q=is%3Aopen+is%3Aissue+label%3A%22Help+Wanted%22)\n\n\n<details><summary>Issue Owner</summary>Current Issue Owner: @Ollyws</details>\n<details><summary>Upwork Automation - Do Not Edit</summary>\n    <ul>\n        <li>Upwork Job URL: https://www.upwork.com/jobs/~022021695336821072279</li>\n        <li>Upwork Job ID: 2021695336821072279</li>\n        <li>Last Price Increase: 2026-02-11</li>\n    </ul>\n</details>",
+    "body": "If you haven’t already, check out our [contributing guidelines](https://github.com/Expensify/ReactNativeChat/blob/main/contributingGuides/CONTRIBUTING.md) for onboarding and email contributors@expensify.com to request to join our Slack channel!\n___\n\n**Version Number:**\n**Reproducible in staging?:** Needs Reproduction (Reproduction blocked)\n**Reproducible in production?:** Needs Reproduction\n**If this was caught during regression testing, add the test name, ID and link from BrowserStack:**\n**Email or phone of affected tester (no customers):**\n**Logs:** https://stackoverflow.com/c/expensify/questions/4856\n**Expensify/Expensify Issue URL:**\n**Issue reported by:** @AndrewGable \n**Slack conversation** (hyperlinked to channel name): [#Quality](https://expensify.slack.com/archives/C05LX9D6E07/p1770832351753919)\n\n## Action Performed:\n\n1. Have an active workspace with a billing balance due\n2. Delete the workspace without clearing the balance\n3. Attempt to close the account\n4. Observe the error message indicating money is owed\n5. Attempt to locate billing to clear the balance\n\n## Expected Result:\nWhen a user attempts to delete their last workspace while an outstanding balance exists:\nA “Pay and downgrade” prompt should appear clearly explaining:\nThere is an outstanding balance that must be paid before deleting the workspace.\nThe exact amount owed.\n## Actual Result:\nAccount closure is blocked due to unpaid balance.\nBilling UI is not accessible because there are no active workspaces.User has no visible way to resolve the outstanding amount.\n## Workaround:\nUnknown\n## Platforms:\nSelect the officially supported platforms where the issue was reproduced:\n- [ ] Android: App\n- [ ] Android: mWeb Chrome\n- [ ] iOS: App\n- [ ] iOS: mWeb Safari\n- [ ] iOS: mWeb Chrome\n- [x] Windows: Chrome\n- [x] MacOS: Chrome / Safari\n\n## Screenshots/Videos\n\n\n[View all open jobs on GitHub](https://github.com/Expensify/App/issues?q=is%3Aopen+is%3Aissue+label%3A%22Help+Wanted%22)\n\n\n<details><summary>Issue Owner</summary>Current Issue Owner: @Ollyws</details>\n<details><summary>Upwork Automation - Do Not Edit</summary>\n    <ul>\n        <li>Upwork Job URL: https://www.upwork.com/jobs/~022021695336821072279</li>\n        <li>Upwork Job ID: 2021695336821072279</li>\n        <li>Last Price Increase: 2026-02-11</li>\n    </ul>\n</details>",
     "closed_by": null,
     "reactions": {
       "url": "https://api.github.com/repos/Expensify/App/issues/82200/reactions",
@@ -842,9 +842,9 @@
       }
     ],
     "milestone": null,
-    "comments": 6,
+    "comments": 7,
     "created_at": "2026-02-11T20:50:05Z",
-    "updated_at": "2026-02-12T01:11:08Z",
+    "updated_at": "2026-02-12T03:20:14Z",
     "closed_at": null,
     "author_association": "NONE",
     "type": null,
@@ -2932,9 +2932,9 @@
       }
     ],
     "milestone": null,
-    "comments": 11,
+    "comments": 13,
     "created_at": "2026-02-11T10:48:16Z",
-    "updated_at": "2026-02-11T15:56:10Z",
+    "updated_at": "2026-02-12T03:11:42Z",
     "closed_at": null,
     "author_association": "CONTRIBUTOR",
     "type": null,
