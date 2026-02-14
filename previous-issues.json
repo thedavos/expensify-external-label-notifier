@@ -390,9 +390,9 @@
       }
     ],
     "milestone": null,
-    "comments": 8,
+    "comments": 9,
     "created_at": "2026-02-13T21:08:34Z",
-    "updated_at": "2026-02-13T21:11:09Z",
+    "updated_at": "2026-02-14T01:04:35Z",
     "closed_at": null,
     "author_association": "NONE",
     "type": null,
@@ -850,6 +850,15 @@
     },
     "labels": [
       {
+        "id": 2283143991,
+        "node_id": "MDU6TGFiZWwyMjgzMTQzOTkx",
+        "url": "https://api.github.com/repos/Expensify/App/labels/Reviewing",
+        "name": "Reviewing",
+        "color": "dddddd",
+        "default": false,
+        "description": "Has a PR in review"
+      },
+      {
         "id": 2873246102,
         "node_id": "MDU6TGFiZWwyODczMjQ2MTAy",
         "url": "https://api.github.com/repos/Expensify/App/labels/External",
@@ -859,22 +868,13 @@
         "description": "Added to denote the issue can be worked on by a contributor"
       },
       {
-        "id": 2893455829,
-        "node_id": "MDU6TGFiZWwyODkzNDU1ODI5",
-        "url": "https://api.github.com/repos/Expensify/App/labels/Daily",
-        "name": "Daily",
-        "color": "eb6420",
+        "id": 2893515375,
+        "node_id": "MDU6TGFiZWwyODkzNTE1Mzc1",
+        "url": "https://api.github.com/repos/Expensify/App/labels/Weekly",
+        "name": "Weekly",
+        "color": "009800",
         "default": false,
         "description": "KSv2"
-      },
-      {
-        "id": 3136662525,
-        "node_id": "MDU6TGFiZWwzMTM2NjYyNTI1",
-        "url": "https://api.github.com/repos/Expensify/App/labels/Help%20Wanted",
-        "name": "Help Wanted",
-        "color": "CFC8F1",
-        "default": false,
-        "description": "Apply this label when an issue is open to proposals by contributors"
       },
       {
         "id": 4664850679,
@@ -932,27 +932,6 @@
         "site_admin": false
       },
       {
-        "login": "hungvu193",
-        "id": 16502320,
-        "node_id": "MDQ6VXNlcjE2NTAyMzIw",
-        "avatar_url": "https://avatars.githubusercontent.com/u/16502320?v=4",
-        "gravatar_id": "",
-        "url": "https://api.github.com/users/hungvu193",
-        "html_url": "https://github.com/hungvu193",
-        "followers_url": "https://api.github.com/users/hungvu193/followers",
-        "following_url": "https://api.github.com/users/hungvu193/following{/other_user}",
-        "gists_url": "https://api.github.com/users/hungvu193/gists{/gist_id}",
-        "starred_url": "https://api.github.com/users/hungvu193/starred{/owner}{/repo}",
-        "subscriptions_url": "https://api.github.com/users/hungvu193/subscriptions",
-        "organizations_url": "https://api.github.com/users/hungvu193/orgs",
-        "repos_url": "https://api.github.com/users/hungvu193/repos",
-        "events_url": "https://api.github.com/users/hungvu193/events{/privacy}",
-        "received_events_url": "https://api.github.com/users/hungvu193/received_events",
-        "type": "User",
-        "user_view_type": "public",
-        "site_admin": false
-      },
-      {
         "login": "dylanexpensify",
         "id": 60117248,
         "node_id": "MDQ6VXNlcjYwMTE3MjQ4",
@@ -972,12 +951,33 @@
         "type": "User",
         "user_view_type": "public",
         "site_admin": false
+      },
+      {
+        "login": "Krishna2323",
+        "id": 85894871,
+        "node_id": "MDQ6VXNlcjg1ODk0ODcx",
+        "avatar_url": "https://avatars.githubusercontent.com/u/85894871?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/Krishna2323",
+        "html_url": "https://github.com/Krishna2323",
+        "followers_url": "https://api.github.com/users/Krishna2323/followers",
+        "following_url": "https://api.github.com/users/Krishna2323/following{/other_user}",
+        "gists_url": "https://api.github.com/users/Krishna2323/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/Krishna2323/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/Krishna2323/subscriptions",
+        "organizations_url": "https://api.github.com/users/Krishna2323/orgs",
+        "repos_url": "https://api.github.com/users/Krishna2323/repos",
+        "events_url": "https://api.github.com/users/Krishna2323/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/Krishna2323/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
       }
     ],
     "milestone": null,
-    "comments": 4,
+    "comments": 6,
     "created_at": "2026-02-13T20:10:59Z",
-    "updated_at": "2026-02-13T23:05:40Z",
+    "updated_at": "2026-02-13T23:45:54Z",
     "closed_at": null,
     "author_association": "NONE",
     "type": null,
@@ -1150,9 +1150,9 @@
       }
     ],
     "milestone": null,
-    "comments": 4,
+    "comments": 5,
     "created_at": "2026-02-13T20:05:53Z",
-    "updated_at": "2026-02-13T20:32:10Z",
+    "updated_at": "2026-02-14T01:19:43Z",
     "closed_at": null,
     "author_association": "NONE",
     "type": null,
@@ -1382,7 +1382,7 @@
       "blocking": 0,
       "total_blocking": 0
     },
-    "body": "If you haven���t already, check out our [contributing guidelines](https://github.com/Expensify/ReactNativeChat/blob/main/contributingGuides/CONTRIBUTING.md) for onboarding and email contributors@expensify.com to request to join our Slack channel!\n___\n\n**Version Number:** 9.3.19-0\n**Reproducible in staging?:** Yes\n**Reproducible in production?:** No\n**If this was caught during regression testing, add the test name, ID and link from BrowserStack:** https://github.com/Expensify/App/pull/78354\n**Email or phone of affected tester (no customers):** oisdjoisjdiojisojsd@gmail.com\n**Issue reported by:** Applause Internal Team\n**Bug source:** Pull Request QA execution\n**Device used:** Mac 26.2 / Chrome\n**App Component:** Money Requests\n\n## Action Performed:\nPrecondition:\n- Invoice is enabled.\n- User has sent an invoice.\n\n1. Go to staging.new.expensify.com\n2. Open FAB > Send invoice.\n3. Enter amount > Next.\n4. Select invoice chat.\n5. On confirm page, click To field.\n6. Click RHP back button until you reach amount input page.\n7. Click Next.\n8. On confirm page, click To field.\n\n## Expected Result:\nInvoice chat will be selected.\n\n## Actual Result:\n\"Hidden\" is selected instead of invoice chat.\nIf user clicks on the \"Hidden\" chat, To field changes to Unavailable workspace.\n\n## Workaround:\nUnknown\n\n## Platforms:\n- [ ] Android: App\n- [ ] Android: mWeb Chrome\n- [ ] iOS: App\n- [ ] iOS: mWeb Safari\n- [ ] iOS: mWeb Chrome\n- [x] Windows: Chrome\n- [ ] MacOS: Chrome / Safari\n\n## Screenshots/Videos\n\nhttps://github.com/user-attachments/assets/ff406f7d-2c6a-4153-b7f9-d09dfbee7546\n\n[View all open jobs on GitHub](https://github.com/Expensify/App/issues?q=is%3Aopen+is%3Aissue+label%3A%22Help+Wanted%22)\n\n<details><summary>Issue Owner</summary>Current Issue Owner: @eh2077</details>",
+    "body": "If you haven’t already, check out our [contributing guidelines](https://github.com/Expensify/ReactNativeChat/blob/main/contributingGuides/CONTRIBUTING.md) for onboarding and email contributors@expensify.com to request to join our Slack channel!\n___\n\n**Version Number:** 9.3.19-0\n**Reproducible in staging?:** Yes\n**Reproducible in production?:** No\n**If this was caught during regression testing, add the test name, ID and link from BrowserStack:** https://github.com/Expensify/App/pull/78354\n**Email or phone of affected tester (no customers):** oisdjoisjdiojisojsd@gmail.com\n**Issue reported by:** Applause Internal Team\n**Bug source:** Pull Request QA execution\n**Device used:** Mac 26.2 / Chrome\n**App Component:** Money Requests\n\n## Action Performed:\nPrecondition:\n- Invoice is enabled.\n- User has sent an invoice.\n\n1. Go to staging.new.expensify.com\n2. Open FAB > Send invoice.\n3. Enter amount > Next.\n4. Select invoice chat.\n5. On confirm page, click To field.\n6. Click RHP back button until you reach amount input page.\n7. Click Next.\n8. On confirm page, click To field.\n\n## Expected Result:\nInvoice chat will be selected.\n\n## Actual Result:\n\"Hidden\" is selected instead of invoice chat.\nIf user clicks on the \"Hidden\" chat, To field changes to Unavailable workspace.\n\n## Workaround:\nUnknown\n\n## Platforms:\n- [ ] Android: App\n- [ ] Android: mWeb Chrome\n- [ ] iOS: App\n- [ ] iOS: mWeb Safari\n- [ ] iOS: mWeb Chrome\n- [x] Windows: Chrome\n- [ ] MacOS: Chrome / Safari\n\n## Screenshots/Videos\n\nhttps://github.com/user-attachments/assets/ff406f7d-2c6a-4153-b7f9-d09dfbee7546\n\n[View all open jobs on GitHub](https://github.com/Expensify/App/issues?q=is%3Aopen+is%3Aissue+label%3A%22Help+Wanted%22)\n\n<details><summary>Issue Owner</summary>Current Issue Owner: @eh2077</details>",
     "closed_by": null,
     "reactions": {
       "url": "https://api.github.com/repos/Expensify/App/issues/82459/reactions",
@@ -2471,7 +2471,7 @@
       "blocking": 0,
       "total_blocking": 0
     },
-    "body": "If you haven��t already, check out our [contributing guidelines](https://github.com/Expensify/ReactNativeChat/blob/main/contributingGuides/CONTRIBUTING.md) for onboarding and email contributors@expensify.com to request to join our Slack channel!\n___\n\n**Version Number:** 9.3.18-7\n**Reproducible in staging?:** Yes\n**Reproducible in production?:** Yes\n**If this was caught during regression testing, add the test name, ID and link from BrowserStack:**\n**Email or phone of affected tester (no customers):**\n**Logs:** https://stackoverflow.com/c/expensify/questions/4856\n**Expensify/Expensify Issue URL:**\n**Issue reported by:** @Pujan92 \n**Slack conversation** (hyperlinked to channel name): [#expensify_bugs](https://expensify.slack.com/archives/C049HHMV9SM/p1770977835874849)\n\n## Action Performed:\n1. Go to https://staging.new.expensify.com/\n2. Create/Open workspace with non-supported payment currency\n3. Go to Workflows\n4. Under payment section, click `Add bank account` option\n5. Click on button `Update workspace currency` in confirmation modal\n\n## Expected Result:\nIt should navigate to the workspace currency page\n\n## Actual Result:\nIt isn't navigating to the workspace currency page\n\n## Workaround:\nUnknown\n\n## Platforms:\nSelect the officially supported platforms where the issue was reproduced:\n- [ ] Android: App\n- [ ] Android: mWeb Chrome\n- [ ] iOS: App\n- [ ] iOS: mWeb Safari\n- [ ] iOS: mWeb Chrome\n- [x] Windows: Chrome\n- [ ] MacOS: Chrome / Safari\n\n## Screenshots/Videos\n\nhttps://github.com/user-attachments/assets/d43e9ecf-959f-4872-a748-177b84198209\n\nhttps://github.com/user-attachments/assets/b5b783c0-7a1d-40a0-800f-43ca94455ce6\n\n[View all open jobs on GitHub](https://github.com/Expensify/App/issues?q=is%3Aopen+is%3Aissue+label%3A%22Help+Wanted%22)\n\n\n<details><summary>Issue Owner</summary>Current Issue Owner: @akinwale</details>",
+    "body": "If you haven’t already, check out our [contributing guidelines](https://github.com/Expensify/ReactNativeChat/blob/main/contributingGuides/CONTRIBUTING.md) for onboarding and email contributors@expensify.com to request to join our Slack channel!\n___\n\n**Version Number:** 9.3.18-7\n**Reproducible in staging?:** Yes\n**Reproducible in production?:** Yes\n**If this was caught during regression testing, add the test name, ID and link from BrowserStack:**\n**Email or phone of affected tester (no customers):**\n**Logs:** https://stackoverflow.com/c/expensify/questions/4856\n**Expensify/Expensify Issue URL:**\n**Issue reported by:** @Pujan92 \n**Slack conversation** (hyperlinked to channel name): [#expensify_bugs](https://expensify.slack.com/archives/C049HHMV9SM/p1770977835874849)\n\n## Action Performed:\n1. Go to https://staging.new.expensify.com/\n2. Create/Open workspace with non-supported payment currency\n3. Go to Workflows\n4. Under payment section, click `Add bank account` option\n5. Click on button `Update workspace currency` in confirmation modal\n\n## Expected Result:\nIt should navigate to the workspace currency page\n\n## Actual Result:\nIt isn't navigating to the workspace currency page\n\n## Workaround:\nUnknown\n\n## Platforms:\nSelect the officially supported platforms where the issue was reproduced:\n- [ ] Android: App\n- [ ] Android: mWeb Chrome\n- [ ] iOS: App\n- [ ] iOS: mWeb Safari\n- [ ] iOS: mWeb Chrome\n- [x] Windows: Chrome\n- [ ] MacOS: Chrome / Safari\n\n## Screenshots/Videos\n\nhttps://github.com/user-attachments/assets/d43e9ecf-959f-4872-a748-177b84198209\n\nhttps://github.com/user-attachments/assets/b5b783c0-7a1d-40a0-800f-43ca94455ce6\n\n[View all open jobs on GitHub](https://github.com/Expensify/App/issues?q=is%3Aopen+is%3Aissue+label%3A%22Help+Wanted%22)\n\n\n<details><summary>Issue Owner</summary>Current Issue Owner: @akinwale</details>",
     "closed_by": null,
     "reactions": {
       "url": "https://api.github.com/repos/Expensify/App/issues/82435/reactions",
