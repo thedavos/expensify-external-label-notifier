@@ -312,9 +312,9 @@
       }
     ],
     "milestone": null,
-    "comments": 4,
+    "comments": 5,
     "created_at": "2026-02-18T11:06:23Z",
-    "updated_at": "2026-02-18T11:12:20Z",
+    "updated_at": "2026-02-18T12:07:38Z",
     "closed_at": null,
     "author_association": "NONE",
     "type": null,
@@ -487,9 +487,9 @@
       }
     ],
     "milestone": null,
-    "comments": 9,
+    "comments": 11,
     "created_at": "2026-02-18T10:00:49Z",
-    "updated_at": "2026-02-18T11:27:17Z",
+    "updated_at": "2026-02-18T11:42:58Z",
     "closed_at": null,
     "author_association": "NONE",
     "type": null,
@@ -1081,9 +1081,9 @@
       }
     ],
     "milestone": null,
-    "comments": 9,
+    "comments": 13,
     "created_at": "2026-02-17T14:34:12Z",
-    "updated_at": "2026-02-18T00:55:06Z",
+    "updated_at": "2026-02-18T12:07:45Z",
     "closed_at": null,
     "author_association": "NONE",
     "type": null,
@@ -1265,9 +1265,9 @@
       }
     ],
     "milestone": null,
-    "comments": 7,
+    "comments": 9,
     "created_at": "2026-02-17T14:22:39Z",
-    "updated_at": "2026-02-18T00:54:26Z",
+    "updated_at": "2026-02-18T12:07:46Z",
     "closed_at": null,
     "author_association": "NONE",
     "type": null,
@@ -1283,7 +1283,7 @@
       "blocking": 0,
       "total_blocking": 0
     },
-    "body": "If you haven’t already, check out our [contributing guidelines](https://github.com/Expensify/ReactNativeChat/blob/main/contributingGuides/CONTRIBUTING.md) for onboarding and email contributors@expensify.com to request to join our Slack channel!\n___\n\n**Version Number:** 9.3.20-4\n**Reproducible in staging?:** Y\n**Reproducible in production?:** Y\n**If this was caught during regression testing, add the test name, ID and link from BrowserStack:**\n**Email or phone of affected tester (no customers):**\n**Logs:** https://stackoverflow.com/c/expensify/questions/4856\n**Expensify/Expensify Issue URL:**\n**Issue reported by:** @twisterdotcom \n**Slack conversation** (hyperlinked to channel name): [#Expensify Bugs](https://expensify.slack.com/archives/C049HHMV9SM/p1771238613230259)\n\n## Action Performed:\n\n1. Create an expense\n2. Save the expense\n3. Open the expense for editing\n4. Tap/click on Date\n\n## Expected Result:\nThe date picker should open immediately upon tapping/clicking “Date”\nNo additional tap should be required\nThis behavior should be consistent anywhere in the app where a single Date field pushes to its own page — the picker should auto-open upon navigation.\n## Actual Result:\nUser is navigated to the Date page\nThe date picker does not open automatically\nUser must tap the date field again to open it\n## Workaround:\nUnknown\n## Platforms:\nSelect the officially supported platforms where the issue was reproduced:\n- [ ] Android: App\n- [ ] Android: mWeb Chrome\n- [x] iOS: App\n- [ ] iOS: mWeb Safari\n- [ ] iOS: mWeb Chrome\n- [ ] Windows: Chrome\n- [ ] MacOS: Chrome / Safari\n\n## Screenshots/Videos\n\n<img width=\"300\" height=\"900\" alt=\"Image\" src=\"https://github.com/user-attachments/assets/902e33dd-74a4-4aaa-b2c9-e50bccc5fd1d\" />\n\nhttps://github.com/user-attachments/assets/8a0db44b-b670-4581-a07c-cfd9a6656421\n\n[View all open jobs on GitHub](https://github.com/Expensify/App/issues?q=is%3Aopen+is%3Aissue+label%3A%22Help+Wanted%22)\n\n\n<details><summary>Issue Owner</summary>Current Issue Owner: @ShridharGoel</details>",
+    "body": "If you haven’t already, check out our [contributing guidelines](https://github.com/Expensify/ReactNativeChat/blob/main/contributingGuides/CONTRIBUTING.md) for onboarding and email contributors@expensify.com to request to join our Slack channel!\n___\n\n**Version Number:** 9.3.20-4\n**Reproducible in staging?:** Y\n**Reproducible in production?:** Y\n**If this was caught during regression testing, add the test name, ID and link from BrowserStack:**\n**Email or phone of affected tester (no customers):**\n**Logs:** https://stackoverflow.com/c/expensify/questions/4856\n**Expensify/Expensify Issue URL:**\n**Issue reported by:** @twisterdotcom \n**Slack conversation** (hyperlinked to channel name): [#Expensify Bugs](https://expensify.slack.com/archives/C049HHMV9SM/p1771238613230259)\n\n## Action Performed:\n\n1. Create an expense\n2. Save the expense\n3. Open the expense for editing\n4. Tap/click on Date\n\n## Expected Result:\nThe date picker should open immediately upon tapping/clicking “Date���\nNo additional tap should be required\nThis behavior should be consistent anywhere in the app where a single Date field pushes to its own page — the picker should auto-open upon navigation.\n## Actual Result:\nUser is navigated to the Date page\nThe date picker does not open automatically\nUser must tap the date field again to open it\n## Workaround:\nUnknown\n## Platforms:\nSelect the officially supported platforms where the issue was reproduced:\n- [ ] Android: App\n- [ ] Android: mWeb Chrome\n- [x] iOS: App\n- [ ] iOS: mWeb Safari\n- [ ] iOS: mWeb Chrome\n- [ ] Windows: Chrome\n- [ ] MacOS: Chrome / Safari\n\n## Screenshots/Videos\n\n<img width=\"300\" height=\"900\" alt=\"Image\" src=\"https://github.com/user-attachments/assets/902e33dd-74a4-4aaa-b2c9-e50bccc5fd1d\" />\n\nhttps://github.com/user-attachments/assets/8a0db44b-b670-4581-a07c-cfd9a6656421\n\n[View all open jobs on GitHub](https://github.com/Expensify/App/issues?q=is%3Aopen+is%3Aissue+label%3A%22Help+Wanted%22)\n\n\n<details><summary>Issue Owner</summary>Current Issue Owner: @ShridharGoel</details>",
     "closed_by": null,
     "reactions": {
       "url": "https://api.github.com/repos/Expensify/App/issues/82665/reactions",
