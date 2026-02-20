@@ -1031,6 +1031,15 @@
     },
     "labels": [
       {
+        "id": 2283143991,
+        "node_id": "MDU6TGFiZWwyMjgzMTQzOTkx",
+        "url": "https://api.github.com/repos/Expensify/App/labels/Reviewing",
+        "name": "Reviewing",
+        "color": "dddddd",
+        "default": false,
+        "description": "Has a PR in review"
+      },
+      {
         "id": 2873246102,
         "node_id": "MDU6TGFiZWwyODczMjQ2MTAy",
         "url": "https://api.github.com/repos/Expensify/App/labels/External",
@@ -1040,11 +1049,11 @@
         "description": "Added to denote the issue can be worked on by a contributor"
       },
       {
-        "id": 2893455829,
-        "node_id": "MDU6TGFiZWwyODkzNDU1ODI5",
-        "url": "https://api.github.com/repos/Expensify/App/labels/Daily",
-        "name": "Daily",
-        "color": "eb6420",
+        "id": 2893515375,
+        "node_id": "MDU6TGFiZWwyODkzNTE1Mzc1",
+        "url": "https://api.github.com/repos/Expensify/App/labels/Weekly",
+        "name": "Weekly",
+        "color": "009800",
         "default": false,
         "description": "KSv2"
       },
@@ -1179,7 +1188,7 @@
     "milestone": null,
     "comments": 7,
     "created_at": "2026-02-19T17:31:08Z",
-    "updated_at": "2026-02-19T17:39:36Z",
+    "updated_at": "2026-02-20T12:44:10Z",
     "closed_at": null,
     "author_association": "CONTRIBUTOR",
     "type": null,
@@ -1623,7 +1632,7 @@
     "id": 3963703526,
     "node_id": "I_kwDOEQqHYc7sQVDm",
     "number": 82957,
-    "title": "Export error message duplicated multiple times (appears once per transaction)",
+    "title": "[$250] Export error message duplicated multiple times (appears once per transaction)",
     "user": {
       "login": "m-natarajan",
       "id": 38435837,
@@ -1751,9 +1760,9 @@
       }
     ],
     "milestone": null,
-    "comments": 7,
+    "comments": 9,
     "created_at": "2026-02-19T15:56:50Z",
-    "updated_at": "2026-02-20T11:27:43Z",
+    "updated_at": "2026-02-20T12:30:44Z",
     "closed_at": null,
     "author_association": "NONE",
     "type": null,
@@ -1769,7 +1778,7 @@
       "blocking": 0,
       "total_blocking": 0
     },
-    "body": "If you haven’t already, check out our [contributing guidelines](https://github.com/Expensify/ReactNativeChat/blob/main/contributingGuides/CONTRIBUTING.md) for onboarding and email contributors@expensify.com to request to join our Slack channel!\n___\n\n**Version Number:** \n**Reproducible in staging?:** Needs Reproduction (Unable to reproduce)\n**Reproducible in production?:** Needs Reproduction\n**If this was caught during regression testing, add the test name, ID and link from BrowserStack:**\n**Email or phone of affected tester (no customers):**\n**Logs:** https://stackoverflow.com/c/expensify/questions/4856\n**Expensify/Expensify Issue URL:**\n**Issue reported by:** @cead22 @puneetlath \n**Slack conversation** (hyperlinked to channel name): [#Product](https://expensify.slack.com/archives/C03U7DCU4/p1771457120073899)\n\n## Action Performed:\n\n1. Open a report with multiple transactions\n2. Attempt to export the report to any accounting software\n3. Trigger an export error\n4. Observe the displayed error message\n\n## Expected Result:\nA single, concise error message should be displayed.\nThe error should not be duplicated per transaction.\n## Actual Result:\nError message is repeated multiple times.\nAppears once per transaction in the report.\n## Workaround:\nUnknown\n## Platforms:\nSelect the officially supported platforms where the issue was reproduced:\n- [ ] Android: App\n- [ ] Android: mWeb Chrome\n- [ ] iOS: App\n- [ ] iOS: mWeb Safari\n- [ ] iOS: mWeb Chrome\n- [x] Windows: Chrome\n- [x] MacOS: Chrome / Safari\n\n## Screenshots/Videos\n\nThe screenshot for the issue is in Slack [thread](https://expensify.slack.com/archives/C03U7DCU4/p1771457120073899)\n\n[View all open jobs on GitHub](https://github.com/Expensify/App/issues?q=is%3Aopen+is%3Aissue+label%3A%22Help+Wanted%22)\n\n\n<details><summary>Issue Owner</summary>Current Issue Owner: @dukenv0307</details>",
+    "body": "If you haven’t already, check out our [contributing guidelines](https://github.com/Expensify/ReactNativeChat/blob/main/contributingGuides/CONTRIBUTING.md) for onboarding and email contributors@expensify.com to request to join our Slack channel!\n___\n\n**Version Number:** \n**Reproducible in staging?:** Needs Reproduction (Unable to reproduce)\n**Reproducible in production?:** Needs Reproduction\n**If this was caught during regression testing, add the test name, ID and link from BrowserStack:**\n**Email or phone of affected tester (no customers):**\n**Logs:** https://stackoverflow.com/c/expensify/questions/4856\n**Expensify/Expensify Issue URL:**\n**Issue reported by:** @cead22 @puneetlath \n**Slack conversation** (hyperlinked to channel name): [#Product](https://expensify.slack.com/archives/C03U7DCU4/p1771457120073899)\n\n## Action Performed:\n\n1. Open a report with multiple transactions\n2. Attempt to export the report to any accounting software\n3. Trigger an export error\n4. Observe the displayed error message\n\n## Expected Result:\nA single, concise error message should be displayed.\nThe error should not be duplicated per transaction.\n## Actual Result:\nError message is repeated multiple times.\nAppears once per transaction in the report.\n## Workaround:\nUnknown\n## Platforms:\nSelect the officially supported platforms where the issue was reproduced:\n- [ ] Android: App\n- [ ] Android: mWeb Chrome\n- [ ] iOS: App\n- [ ] iOS: mWeb Safari\n- [ ] iOS: mWeb Chrome\n- [x] Windows: Chrome\n- [x] MacOS: Chrome / Safari\n\n## Screenshots/Videos\n\nThe screenshot for the issue is in Slack [thread](https://expensify.slack.com/archives/C03U7DCU4/p1771457120073899)\n\n[View all open jobs on GitHub](https://github.com/Expensify/App/issues?q=is%3Aopen+is%3Aissue+label%3A%22Help+Wanted%22)\n\n\n<details><summary>Issue Owner</summary>Current Issue Owner: @dukenv0307</details>\n<details><summary>Upwork Automation - Do Not Edit</summary>\n    <ul>\n        <li>Upwork Job URL: https://www.upwork.com/jobs/~022024824028873195502</li>\n        <li>Upwork Job ID: 2024824028873195502</li>\n        <li>Last Price Increase: 2026-02-20</li>\n    </ul>\n</details>",
     "closed_by": null,
     "reactions": {
       "url": "https://api.github.com/repos/Expensify/App/issues/82957/reactions",
@@ -2233,6 +2242,27 @@
     },
     "assignees": [
       {
+        "login": "iwiznia",
+        "id": 521248,
+        "node_id": "MDQ6VXNlcjUyMTI0OA==",
+        "avatar_url": "https://avatars.githubusercontent.com/u/521248?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/iwiznia",
+        "html_url": "https://github.com/iwiznia",
+        "followers_url": "https://api.github.com/users/iwiznia/followers",
+        "following_url": "https://api.github.com/users/iwiznia/following{/other_user}",
+        "gists_url": "https://api.github.com/users/iwiznia/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/iwiznia/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/iwiznia/subscriptions",
+        "organizations_url": "https://api.github.com/users/iwiznia/orgs",
+        "repos_url": "https://api.github.com/users/iwiznia/repos",
+        "events_url": "https://api.github.com/users/iwiznia/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/iwiznia/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      {
         "login": "bfitzexpensify",
         "id": 38236554,
         "node_id": "MDQ6VXNlcjM4MjM2NTU0",
@@ -2276,9 +2306,9 @@
       }
     ],
     "milestone": null,
-    "comments": 7,
+    "comments": 9,
     "created_at": "2026-02-19T15:21:02Z",
-    "updated_at": "2026-02-19T17:21:42Z",
+    "updated_at": "2026-02-20T12:34:59Z",
     "closed_at": null,
     "author_association": "NONE",
     "type": null,
@@ -2294,7 +2324,7 @@
       "blocking": 0,
       "total_blocking": 0
     },
-    "body": "If you haven’t already, check out our [contributing guidelines](https://github.com/Expensify/ReactNativeChat/blob/main/contributingGuides/CONTRIBUTING.md) for onboarding and email contributors@expensify.com to request to join our Slack channel!\n___\n\n**Version Number:** 9.3.22-2\n**Reproducible in staging?:** Y\n**Reproducible in production?:** Y\n**If this was caught during regression testing, add the test name, ID and link from BrowserStack:**\n**Email or phone of affected tester (no customers):**\n**Logs:** https://stackoverflow.com/c/expensify/questions/4856\n**Expensify/Expensify Issue URL:**\n**Issue reported by:** @Beamanator \n**Slack conversation** (hyperlinked to channel name): [#Expensify Bugs](https://expensify.slack.com/archives/C049HHMV9SM/p1771423107647349)\n\n## Action Performed:\n\n1. Create a new account\n2. Do not explicitly name the workspace\n3. Allow Harpoon email to trigger (after a few days)\n4. Observe subject line.\n\n## Expected Result:\nIf no proper workspace name exists, the subject should gracefully fall back to a cleaner default, such as:\nWhich expenses do you want to review ?\nAvoid email addresses as workspace names.\n## Actual Result:\nSubject line displays:\nWhich expenses do you want to review on your xyz@gmail.com's Workspace workspace?\n## Workaround:\nUnknown\n## Platforms:\nSelect the officially supported platforms where the issue was reproduced:\n- [ ] Android: App\n- [ ] Android: mWeb Chrome\n- [ ] iOS: App\n- [ ] iOS: mWeb Safari\n- [ ] iOS: mWeb Chrome\n- [x] Windows: Chrome\n- [x] MacOS: Chrome / Safari\n\n## Screenshots/Videos\n\n<img width=\"1535\" height=\"583\" alt=\"Image\" src=\"https://github.com/user-attachments/assets/d189636b-47f2-4f63-ad61-093e016dbd4b\" />\n\n[View all open jobs on GitHub](https://github.com/Expensify/App/issues?q=is%3Aopen+is%3Aissue+label%3A%22Help+Wanted%22)\n\n\n<details><summary>Issue Owner</summary>Current Issue Owner: @ChavdaSachin</details>",
+    "body": "If you haven’t already, check out our [contributing guidelines](https://github.com/Expensify/ReactNativeChat/blob/main/contributingGuides/CONTRIBUTING.md) for onboarding and email contributors@expensify.com to request to join our Slack channel!\n___\n\n**Version Number:** 9.3.22-2\n**Reproducible in staging?:** Y\n**Reproducible in production?:** Y\n**If this was caught during regression testing, add the test name, ID and link from BrowserStack:**\n**Email or phone of affected tester (no customers):**\n**Logs:** https://stackoverflow.com/c/expensify/questions/4856\n**Expensify/Expensify Issue URL:**\n**Issue reported by:** @Beamanator \n**Slack conversation** (hyperlinked to channel name): [#Expensify Bugs](https://expensify.slack.com/archives/C049HHMV9SM/p1771423107647349)\n\n## Action Performed:\n\n1. Create a new account\n2. Do not explicitly name the workspace\n3. Allow Harpoon email to trigger (after a few days)\n4. Observe subject line.\n\n## Expected Result:\nIf no proper workspace name exists, the subject should gracefully fall back to a cleaner default, such as:\nWhich expenses do you want to review ?\nAvoid email addresses as workspace names.\n## Actual Result:\nSubject line displays:\nWhich expenses do you want to review on your xyz@gmail.com's Workspace workspace?\n## Workaround:\nUnknown\n## Platforms:\nSelect the officially supported platforms where the issue was reproduced:\n- [ ] Android: App\n- [ ] Android: mWeb Chrome\n- [ ] iOS: App\n- [ ] iOS: mWeb Safari\n- [ ] iOS: mWeb Chrome\n- [x] Windows: Chrome\n- [x] MacOS: Chrome / Safari\n\n## Screenshots/Videos\n\n<img width=\"1535\" height=\"583\" alt=\"Image\" src=\"https://github.com/user-attachments/assets/d189636b-47f2-4f63-ad61-093e016dbd4b\" />\n\n[View all open jobs on GitHub](https://github.com/Expensify/App/issues?q=is%3Aopen+is%3Aissue+label%3A%22Help+Wanted%22)\n\n\n<details><summary>Issue Owner</summary>Current Issue Owner: @iwiznia</details>",
     "closed_by": null,
     "reactions": {
       "url": "https://api.github.com/repos/Expensify/App/issues/82946/reactions",
