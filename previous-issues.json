@@ -176,9 +176,9 @@
       }
     ],
     "milestone": null,
-    "comments": 10,
+    "comments": 11,
     "created_at": "2026-02-22T18:48:52Z",
-    "updated_at": "2026-02-22T19:25:14Z",
+    "updated_at": "2026-02-23T00:52:39Z",
     "closed_at": null,
     "author_association": "NONE",
     "type": null,
@@ -3839,6 +3839,15 @@
         "description": "KSv2"
       },
       {
+        "id": 3184150925,
+        "node_id": "MDU6TGFiZWwzMTg0MTUwOTI1",
+        "url": "https://api.github.com/repos/Expensify/App/labels/Overdue",
+        "name": "Overdue",
+        "color": "D93F0B",
+        "default": false,
+        "description": ""
+      },
+      {
         "id": 4664850679,
         "node_id": "LA_kwDOEQqHYc8AAAABFgv49w",
         "url": "https://api.github.com/repos/Expensify/App/labels/Bug",
@@ -3937,9 +3946,9 @@
       }
     ],
     "milestone": null,
-    "comments": 9,
+    "comments": 10,
     "created_at": "2026-02-20T16:50:43Z",
-    "updated_at": "2026-02-20T23:10:08Z",
+    "updated_at": "2026-02-23T00:59:10Z",
     "closed_at": null,
     "author_association": "NONE",
     "type": null,
@@ -4033,6 +4042,15 @@
         "color": "eb6420",
         "default": false,
         "description": "KSv2"
+      },
+      {
+        "id": 3184150925,
+        "node_id": "MDU6TGFiZWwzMTg0MTUwOTI1",
+        "url": "https://api.github.com/repos/Expensify/App/labels/Overdue",
+        "name": "Overdue",
+        "color": "D93F0B",
+        "default": false,
+        "description": ""
       },
       {
         "id": 4664850679,
@@ -4133,9 +4151,9 @@
       }
     ],
     "milestone": null,
-    "comments": 12,
+    "comments": 13,
     "created_at": "2026-02-20T16:48:24Z",
-    "updated_at": "2026-02-20T23:09:51Z",
+    "updated_at": "2026-02-23T00:58:35Z",
     "closed_at": null,
     "author_association": "NONE",
     "type": null,
@@ -4151,7 +4169,7 @@
       "blocking": 0,
       "total_blocking": 0
     },
-    "body": "If you haven���t already, check out our [contributing guidelines](https://github.com/Expensify/ReactNativeChat/blob/main/contributingGuides/CONTRIBUTING.md) for onboarding and email contributors@expensify.com to request to join our Slack channel!\n___\n\n**Version Number:** 9.3.24-1\n**Reproducible in staging?:** Yes\n**Reproducible in production?:** N/A - new feature, doesn't exist in prod\n**If this was caught during regression testing, add the test name, ID and link from BrowserStack:** https://github.com/Expensify/App/pull/71244\n**Email or phone of affected tester (no customers):** sjdsoijsoidjsndoinjsdoi@gmail.com\n**Issue reported by:** Applause Internal Team\n**Bug source:** Exploratory - Significant User Experience Deterioration\n**Device used:** Mac 26.2 / Chrome\n**App Component:** Money Requests\n\n## Action Performed:\nPrecondition:\n- Taxes are enabled.\n- Workspace has two tax rates - 5% and 10 %.\n\n1. Go to staging.new.expensify.com\n2. Go to workspace chat.\n3. Create an expense with 5% tax rate.\n4. Create an expense with 10% tax rate.\n5. Go to workspace settings > Taxes.\n6. Delete 10% tax rate.\n7. Go back to workspace chat.\n8. Open expense with 5% tax rate.\n9. Click More > Merge.\n10. Select the expense with 10% tax rate > Continue.\n11. Select all the details from the expense with 10% tax rate (select all the second options) > Next.\n12. Click Merge expenses.\n\n## Expected Result:\nTax field will show 10% with violation.\n\n## Actual Result:\nTax field is blank.\n\n## Workaround:\nUnknown\n\n## Platforms:\n- [ ] Android: App\n- [ ] Android: mWeb Chrome\n- [ ] iOS: App\n- [ ] iOS: mWeb Safari\n- [ ] iOS: mWeb Chrome\n- [ ] Windows: Chrome\n- [x] MacOS: Chrome / Safari\n\n## Screenshots/Videos\n\nhttps://github.com/user-attachments/assets/f9d1cb08-f892-41a7-b857-a6e1bfd7e238\n\n[View all open jobs on GitHub](https://github.com/Expensify/App/issues?q=is%3Aopen+is%3Aissue+label%3A%22Help+Wanted%22)\n\n<details><summary>Issue Owner</summary>Current Issue Owner: @aimane-chnaif</details>\n<details><summary>Upwork Automation - Do Not Edit</summary>\n    <ul>\n        <li>Upwork Job URL: https://www.upwork.com/jobs/~022024891872992580751</li>\n        <li>Upwork Job ID: 2024891872992580751</li>\n        <li>Last Price Increase: 2026-02-20</li>\n    </ul>\n</details>",
+    "body": "If you haven’t already, check out our [contributing guidelines](https://github.com/Expensify/ReactNativeChat/blob/main/contributingGuides/CONTRIBUTING.md) for onboarding and email contributors@expensify.com to request to join our Slack channel!\n___\n\n**Version Number:** 9.3.24-1\n**Reproducible in staging?:** Yes\n**Reproducible in production?:** N/A - new feature, doesn't exist in prod\n**If this was caught during regression testing, add the test name, ID and link from BrowserStack:** https://github.com/Expensify/App/pull/71244\n**Email or phone of affected tester (no customers):** sjdsoijsoidjsndoinjsdoi@gmail.com\n**Issue reported by:** Applause Internal Team\n**Bug source:** Exploratory - Significant User Experience Deterioration\n**Device used:** Mac 26.2 / Chrome\n**App Component:** Money Requests\n\n## Action Performed:\nPrecondition:\n- Taxes are enabled.\n- Workspace has two tax rates - 5% and 10 %.\n\n1. Go to staging.new.expensify.com\n2. Go to workspace chat.\n3. Create an expense with 5% tax rate.\n4. Create an expense with 10% tax rate.\n5. Go to workspace settings > Taxes.\n6. Delete 10% tax rate.\n7. Go back to workspace chat.\n8. Open expense with 5% tax rate.\n9. Click More > Merge.\n10. Select the expense with 10% tax rate > Continue.\n11. Select all the details from the expense with 10% tax rate (select all the second options) > Next.\n12. Click Merge expenses.\n\n## Expected Result:\nTax field will show 10% with violation.\n\n## Actual Result:\nTax field is blank.\n\n## Workaround:\nUnknown\n\n## Platforms:\n- [ ] Android: App\n- [ ] Android: mWeb Chrome\n- [ ] iOS: App\n- [ ] iOS: mWeb Safari\n- [ ] iOS: mWeb Chrome\n- [ ] Windows: Chrome\n- [x] MacOS: Chrome / Safari\n\n## Screenshots/Videos\n\nhttps://github.com/user-attachments/assets/f9d1cb08-f892-41a7-b857-a6e1bfd7e238\n\n[View all open jobs on GitHub](https://github.com/Expensify/App/issues?q=is%3Aopen+is%3Aissue+label%3A%22Help+Wanted%22)\n\n<details><summary>Issue Owner</summary>Current Issue Owner: @aimane-chnaif</details>\n<details><summary>Upwork Automation - Do Not Edit</summary>\n    <ul>\n        <li>Upwork Job URL: https://www.upwork.com/jobs/~022024891872992580751</li>\n        <li>Upwork Job ID: 2024891872992580751</li>\n        <li>Last Price Increase: 2026-02-20</li>\n    </ul>\n</details>",
     "closed_by": null,
     "reactions": {
       "url": "https://api.github.com/repos/Expensify/App/issues/83082/reactions",
