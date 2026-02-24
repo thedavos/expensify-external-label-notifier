@@ -499,9 +499,9 @@
       }
     ],
     "milestone": null,
-    "comments": 5,
+    "comments": 6,
     "created_at": "2026-02-24T00:00:07Z",
-    "updated_at": "2026-02-24T04:04:48Z",
+    "updated_at": "2026-02-24T05:07:42Z",
     "closed_at": null,
     "author_association": "NONE",
     "type": null,
@@ -1007,6 +1007,15 @@
     },
     "labels": [
       {
+        "id": 2283143991,
+        "node_id": "MDU6TGFiZWwyMjgzMTQzOTkx",
+        "url": "https://api.github.com/repos/Expensify/App/labels/Reviewing",
+        "name": "Reviewing",
+        "color": "dddddd",
+        "default": false,
+        "description": "Has a PR in review"
+      },
+      {
         "id": 2810597462,
         "node_id": "MDU6TGFiZWwyODEwNTk3NDYy",
         "url": "https://api.github.com/repos/Expensify/App/labels/DeployBlockerCash",
@@ -1152,7 +1161,7 @@
     "milestone": null,
     "comments": 10,
     "created_at": "2026-02-23T23:25:02Z",
-    "updated_at": "2026-02-24T04:26:38Z",
+    "updated_at": "2026-02-24T04:53:39Z",
     "closed_at": null,
     "author_association": "NONE",
     "type": null,
@@ -1792,9 +1801,9 @@
       }
     ],
     "milestone": null,
-    "comments": 10,
+    "comments": 11,
     "created_at": "2026-02-23T22:50:15Z",
-    "updated_at": "2026-02-23T22:56:39Z",
+    "updated_at": "2026-02-24T05:10:39Z",
     "closed_at": null,
     "author_association": "NONE",
     "type": null,
@@ -2006,9 +2015,9 @@
       }
     ],
     "milestone": null,
-    "comments": 8,
+    "comments": 10,
     "created_at": "2026-02-23T22:41:27Z",
-    "updated_at": "2026-02-23T22:48:28Z",
+    "updated_at": "2026-02-24T05:48:23Z",
     "closed_at": null,
     "author_association": "NONE",
     "type": null,
@@ -2024,7 +2033,7 @@
       "blocking": 0,
       "total_blocking": 0
     },
-    "body": "If you haven’t already, check out our [contributing guidelines](https://github.com/Expensify/ReactNativeChat/blob/main/contributingGuides/CONTRIBUTING.md) for onboarding and email contributors@expensify.com to request to join our Slack channel!\n___\n\n**Version Number:** 9.3.25-0\n**Reproducible in staging?:** Yes\n**Reproducible in production?:** No\n**If this was caught during regression testing, add the test name, ID and link from BrowserStack:** https://github.com/Expensify/App/pull/79766\n**Email or phone of affected tester (no customers):** jsodjsodnjoisjdosij@gmail.com\n**Issue reported by:** Applause Internal Team\n**Bug source:** Pull Request QA execution\n**Device used:** Mac 26.2 / Chrome\n**App Component:** Money Requests\n\n## Action Performed:\n1. Go to staging.new.expensify.com\n2. Create an expense in self DM.\n3. Create an expense in workspace chat.\n4. Go to Reports > Expenses.\n5. Open the workspace expense.\n6. Click More > Merge.\n7. Select self DM expense > Continue.\n8. Select second option in each section > Next > Merge expenses.\n→ Transaction thread opens.\n\n9. Create an expense in self DM.\n10. Create an expense in workspace chat.\n11. Go to Reports > Expenses.\n12. Select workspace expense via checkbox.\n13. Click dropdown button > Merge.\n14. Select self DM expense > Continue.\n15. Select second option in each section > Next > Merge expenses.\n\n## Expected Result:\nTransaction thread will open after merging expenses via bulk option (similar to Step 8).\n\n## Actual Result:\nSelf DM opens after merging expenses via bulk option.\n\n## Workaround:\nUnknown\n\n## Platforms:\n- [ ] Android: App\n- [ ] Android: mWeb Chrome\n- [ ] iOS: App\n- [ ] iOS: mWeb Safari\n- [ ] iOS: mWeb Chrome\n- [ ] Windows: Chrome\n- [x] MacOS: Chrome / Safari\n\n## Screenshots/Videos\n\nhttps://github.com/user-attachments/assets/aef54d64-c740-4fa5-9d8c-7dbacf9d3857\n\n[View all open jobs on GitHub](https://github.com/Expensify/App/issues?q=is%3Aopen+is%3Aissue+label%3A%22Help+Wanted%22)\n\n<details><summary>Issue Owner</summary>Current Issue Owner: @FitseTLT</details>\n<details><summary>Upwork Automation - Do Not Edit</summary>\n    <ul>\n        <li>Upwork Job URL: https://www.upwork.com/jobs/~022026066651163126006</li>\n        <li>Upwork Job ID: 2026066651163126006</li>\n        <li>Last Price Increase: 2026-02-23</li>\n    </ul>\n</details>",
+    "body": "If you haven��t already, check out our [contributing guidelines](https://github.com/Expensify/ReactNativeChat/blob/main/contributingGuides/CONTRIBUTING.md) for onboarding and email contributors@expensify.com to request to join our Slack channel!\n___\n\n**Version Number:** 9.3.25-0\n**Reproducible in staging?:** Yes\n**Reproducible in production?:** No\n**If this was caught during regression testing, add the test name, ID and link from BrowserStack:** https://github.com/Expensify/App/pull/79766\n**Email or phone of affected tester (no customers):** jsodjsodnjoisjdosij@gmail.com\n**Issue reported by:** Applause Internal Team\n**Bug source:** Pull Request QA execution\n**Device used:** Mac 26.2 / Chrome\n**App Component:** Money Requests\n\n## Action Performed:\n1. Go to staging.new.expensify.com\n2. Create an expense in self DM.\n3. Create an expense in workspace chat.\n4. Go to Reports > Expenses.\n5. Open the workspace expense.\n6. Click More > Merge.\n7. Select self DM expense > Continue.\n8. Select second option in each section > Next > Merge expenses.\n→ Transaction thread opens.\n\n9. Create an expense in self DM.\n10. Create an expense in workspace chat.\n11. Go to Reports > Expenses.\n12. Select workspace expense via checkbox.\n13. Click dropdown button > Merge.\n14. Select self DM expense > Continue.\n15. Select second option in each section > Next > Merge expenses.\n\n## Expected Result:\nTransaction thread will open after merging expenses via bulk option (similar to Step 8).\n\n## Actual Result:\nSelf DM opens after merging expenses via bulk option.\n\n## Workaround:\nUnknown\n\n## Platforms:\n- [ ] Android: App\n- [ ] Android: mWeb Chrome\n- [ ] iOS: App\n- [ ] iOS: mWeb Safari\n- [ ] iOS: mWeb Chrome\n- [ ] Windows: Chrome\n- [x] MacOS: Chrome / Safari\n\n## Screenshots/Videos\n\nhttps://github.com/user-attachments/assets/aef54d64-c740-4fa5-9d8c-7dbacf9d3857\n\n[View all open jobs on GitHub](https://github.com/Expensify/App/issues?q=is%3Aopen+is%3Aissue+label%3A%22Help+Wanted%22)\n\n<details><summary>Issue Owner</summary>Current Issue Owner: @FitseTLT</details>\n<details><summary>Upwork Automation - Do Not Edit</summary>\n    <ul>\n        <li>Upwork Job URL: https://www.upwork.com/jobs/~022026066651163126006</li>\n        <li>Upwork Job ID: 2026066651163126006</li>\n        <li>Last Price Increase: 2026-02-23</li>\n    </ul>\n</details>",
     "closed_by": null,
     "reactions": {
       "url": "https://api.github.com/repos/Expensify/App/issues/83257/reactions",
