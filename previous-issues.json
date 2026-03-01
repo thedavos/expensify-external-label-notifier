@@ -2956,9 +2956,9 @@
       }
     ],
     "milestone": null,
-    "comments": 9,
+    "comments": 10,
     "created_at": "2026-02-27T21:19:06Z",
-    "updated_at": "2026-02-27T23:19:47Z",
+    "updated_at": "2026-03-01T11:20:15Z",
     "closed_at": null,
     "assignee": {
       "login": "johncschuster",
@@ -4456,7 +4456,7 @@
     "milestone": null,
     "comments": 13,
     "created_at": "2026-02-27T18:18:33Z",
-    "updated_at": "2026-03-01T08:09:38Z",
+    "updated_at": "2026-03-01T10:53:53Z",
     "closed_at": null,
     "assignee": {
       "login": "trjExpensify",
