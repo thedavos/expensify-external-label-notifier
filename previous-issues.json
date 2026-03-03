@@ -1,5 +1,353 @@
 [
   {
+    "url": "https://api.github.com/repos/Expensify/App/issues/84043",
+    "repository_url": "https://api.github.com/repos/Expensify/App",
+    "labels_url": "https://api.github.com/repos/Expensify/App/issues/84043/labels{/name}",
+    "comments_url": "https://api.github.com/repos/Expensify/App/issues/84043/comments",
+    "events_url": "https://api.github.com/repos/Expensify/App/issues/84043/events",
+    "html_url": "https://github.com/Expensify/App/issues/84043",
+    "id": 4017179605,
+    "node_id": "I_kwDOEQqHYc7vcUvV",
+    "number": 84043,
+    "title": "[$250] Expense - Second Concierge report action missing and expense still approvable",
+    "user": {
+      "login": "lanitochka17",
+      "id": 78819774,
+      "node_id": "MDQ6VXNlcjc4ODE5Nzc0",
+      "avatar_url": "https://avatars.githubusercontent.com/u/78819774?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/lanitochka17",
+      "html_url": "https://github.com/lanitochka17",
+      "followers_url": "https://api.github.com/users/lanitochka17/followers",
+      "following_url": "https://api.github.com/users/lanitochka17/following{/other_user}",
+      "gists_url": "https://api.github.com/users/lanitochka17/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/lanitochka17/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/lanitochka17/subscriptions",
+      "organizations_url": "https://api.github.com/users/lanitochka17/orgs",
+      "repos_url": "https://api.github.com/users/lanitochka17/repos",
+      "events_url": "https://api.github.com/users/lanitochka17/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/lanitochka17/received_events",
+      "type": "User",
+      "user_view_type": "public",
+      "site_admin": false
+    },
+    "labels": [
+      {
+        "id": 2873246102,
+        "node_id": "MDU6TGFiZWwyODczMjQ2MTAy",
+        "url": "https://api.github.com/repos/Expensify/App/labels/External",
+        "name": "External",
+        "color": "a7b8ef",
+        "default": false,
+        "description": "Added to denote the issue can be worked on by a contributor"
+      },
+      {
+        "id": 2893455829,
+        "node_id": "MDU6TGFiZWwyODkzNDU1ODI5",
+        "url": "https://api.github.com/repos/Expensify/App/labels/Daily",
+        "name": "Daily",
+        "color": "eb6420",
+        "default": false,
+        "description": "KSv2"
+      },
+      {
+        "id": 3136662525,
+        "node_id": "MDU6TGFiZWwzMTM2NjYyNTI1",
+        "url": "https://api.github.com/repos/Expensify/App/labels/Help%20Wanted",
+        "name": "Help Wanted",
+        "color": "CFC8F1",
+        "default": false,
+        "description": "Apply this label when an issue is open to proposals by contributors"
+      },
+      {
+        "id": 4664850679,
+        "node_id": "LA_kwDOEQqHYc8AAAABFgv49w",
+        "url": "https://api.github.com/repos/Expensify/App/labels/Bug",
+        "name": "Bug",
+        "color": "93074F",
+        "default": false,
+        "description": "Something is broken. Auto assigns a BugZero manager."
+      }
+    ],
+    "state": "open",
+    "locked": false,
+    "assignees": [
+      {
+        "login": "eVoloshchak",
+        "id": 9059945,
+        "node_id": "MDQ6VXNlcjkwNTk5NDU=",
+        "avatar_url": "https://avatars.githubusercontent.com/u/9059945?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/eVoloshchak",
+        "html_url": "https://github.com/eVoloshchak",
+        "followers_url": "https://api.github.com/users/eVoloshchak/followers",
+        "following_url": "https://api.github.com/users/eVoloshchak/following{/other_user}",
+        "gists_url": "https://api.github.com/users/eVoloshchak/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/eVoloshchak/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/eVoloshchak/subscriptions",
+        "organizations_url": "https://api.github.com/users/eVoloshchak/orgs",
+        "repos_url": "https://api.github.com/users/eVoloshchak/repos",
+        "events_url": "https://api.github.com/users/eVoloshchak/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/eVoloshchak/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      {
+        "login": "sonialiap",
+        "id": 17131195,
+        "node_id": "MDQ6VXNlcjE3MTMxMTk1",
+        "avatar_url": "https://avatars.githubusercontent.com/u/17131195?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/sonialiap",
+        "html_url": "https://github.com/sonialiap",
+        "followers_url": "https://api.github.com/users/sonialiap/followers",
+        "following_url": "https://api.github.com/users/sonialiap/following{/other_user}",
+        "gists_url": "https://api.github.com/users/sonialiap/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/sonialiap/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/sonialiap/subscriptions",
+        "organizations_url": "https://api.github.com/users/sonialiap/orgs",
+        "repos_url": "https://api.github.com/users/sonialiap/repos",
+        "events_url": "https://api.github.com/users/sonialiap/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/sonialiap/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      }
+    ],
+    "milestone": null,
+    "comments": 5,
+    "created_at": "2026-03-03T15:04:53Z",
+    "updated_at": "2026-03-03T15:17:32Z",
+    "closed_at": null,
+    "assignee": {
+      "login": "sonialiap",
+      "id": 17131195,
+      "node_id": "MDQ6VXNlcjE3MTMxMTk1",
+      "avatar_url": "https://avatars.githubusercontent.com/u/17131195?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/sonialiap",
+      "html_url": "https://github.com/sonialiap",
+      "followers_url": "https://api.github.com/users/sonialiap/followers",
+      "following_url": "https://api.github.com/users/sonialiap/following{/other_user}",
+      "gists_url": "https://api.github.com/users/sonialiap/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/sonialiap/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/sonialiap/subscriptions",
+      "organizations_url": "https://api.github.com/users/sonialiap/orgs",
+      "repos_url": "https://api.github.com/users/sonialiap/repos",
+      "events_url": "https://api.github.com/users/sonialiap/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/sonialiap/received_events",
+      "type": "User",
+      "user_view_type": "public",
+      "site_admin": false
+    },
+    "author_association": "NONE",
+    "type": null,
+    "active_lock_reason": null,
+    "sub_issues_summary": {
+      "total": 0,
+      "completed": 0,
+      "percent_completed": 0
+    },
+    "issue_dependencies_summary": {
+      "blocked_by": 0,
+      "total_blocked_by": 0,
+      "blocking": 0,
+      "total_blocking": 0
+    },
+    "body": "If you haven’t already, check out our [contributing guidelines](https://github.com/Expensify/ReactNativeChat/blob/main/contributingGuides/CONTRIBUTING.md) for onboarding and email contributors@expensify.com to request to join our Slack channel!\n___\n\n**Version Number:** v9.3.28-1\n**Reproducible in staging?:** Yes\n**Reproducible in production?:** Yes\n**If this was caught during regression testing, add the test name, ID and link from BrowserStack:** https://github.com/Expensify/App/pull/83517\n**Email or phone of affected tester (no customers):** applausetester+rg_46@applause.expensifail.com applausetester+piyozx@applause.expensifail.com\n**Issue reported by:** Applause Internal Team\n**Bug source:** Pull Request QA execution\n**Device used:** Windows 11 / Chrome\n**App Component:** Money Requests\n\n## Action Performed:\nPreconditions:\nLogged in as applausetester+piyozx@applause.expensifail.com (Admin of WS) and applausetester+rg_46@applause.expensifail.com (member of WS) in two different environment (can be in incognito)\n\n1. (Member) navigate to workspace chat that the Admin of WS is applausetester+piyozx@applause.expensifail.com \n2. (Member) create a report and add an expense to the report\n3. (Member) click submit on the expense preview \n4. (Member) open the expense details\n5. (Member) Verify that a message shows in the report history saying \"failed to submit the report. Add at least one approver as an expense description\" and that the \"actor\" of the message is yourself\n6. (Member) Navigate to report tab, click on the expense that just created and fill the description of the expense with \"applausetester+piyozx@applause.expensifail.com\" (that is the admin of the workspace)\n6. (Member) Rename the report to \"AUTOAPPROVE_ERROR\"\n7. (Member) Click the submit button again\n8. (Member) Rename the report to APPROVE_ERROR\n9. (Admin) Navigate to the member's expense workspace chat\n10. (Admin) Approve the report on the expense preview and open the expense details\n\n## Expected Result:\n- in step 7, there should be two report action message from Concierge (1. \"report routed to applausetester+piyozx@applaise.expensifail.com due to custom approval workflow\"  2. \"failed to approve via workspace rules. This report cannot be approved\")\n- in step 10, the expense can't be approved and there's a report action saying from the admin \"failed to approve. This report cannot be approved\"\n\n## Actual Result:\n- in step 7, only the first report action message from Concierge displayed\n- in step 10, the expense can be approved and there's no report action saying from the admin\n\n## Workaround:\nUnknown\n\n## Platforms:\n- [x] Android: App\n- [ ] Android: mWeb Chrome\n- [x] iOS: App\n- [ ] iOS: mWeb Safari\n- [ ] iOS: mWeb Chrome\n- [x] Windows: Chrome\n- [ ] MacOS: Chrome / Safari\n\n## Screenshots/Videos\n\nhttps://github.com/user-attachments/assets/4f2f219d-bcad-4376-a98f-b849ed623738\n\n[View all open jobs on GitHub](https://github.com/Expensify/App/issues?q=is%3Aopen+is%3Aissue+label%3A%22Help+Wanted%22)\n\n<details><summary>Issue Owner</summary>Current Issue Owner: @eVoloshchak</details>\n<details><summary>Upwork Automation - Do Not Edit</summary>\n    <ul>\n        <li>Upwork Job URL: https://www.upwork.com/jobs/~022028851957312139881</li>\n        <li>Upwork Job ID: 2028851957312139881</li>\n        <li>Last Price Increase: 2026-03-03</li>\n    </ul>\n</details>",
+    "closed_by": null,
+    "reactions": {
+      "url": "https://api.github.com/repos/Expensify/App/issues/84043/reactions",
+      "total_count": 0,
+      "+1": 0,
+      "-1": 0,
+      "laugh": 0,
+      "hooray": 0,
+      "confused": 0,
+      "heart": 0,
+      "rocket": 0,
+      "eyes": 0
+    },
+    "timeline_url": "https://api.github.com/repos/Expensify/App/issues/84043/timeline",
+    "performed_via_github_app": null,
+    "state_reason": null
+  },
+  {
+    "url": "https://api.github.com/repos/Expensify/App/issues/84037",
+    "repository_url": "https://api.github.com/repos/Expensify/App",
+    "labels_url": "https://api.github.com/repos/Expensify/App/issues/84037/labels{/name}",
+    "comments_url": "https://api.github.com/repos/Expensify/App/issues/84037/comments",
+    "events_url": "https://api.github.com/repos/Expensify/App/issues/84037/events",
+    "html_url": "https://github.com/Expensify/App/issues/84037",
+    "id": 4016931427,
+    "node_id": "I_kwDOEQqHYc7vbYJj",
+    "number": 84037,
+    "title": "[$250] Expense - DEW submit actions show different content when copied",
+    "user": {
+      "login": "lanitochka17",
+      "id": 78819774,
+      "node_id": "MDQ6VXNlcjc4ODE5Nzc0",
+      "avatar_url": "https://avatars.githubusercontent.com/u/78819774?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/lanitochka17",
+      "html_url": "https://github.com/lanitochka17",
+      "followers_url": "https://api.github.com/users/lanitochka17/followers",
+      "following_url": "https://api.github.com/users/lanitochka17/following{/other_user}",
+      "gists_url": "https://api.github.com/users/lanitochka17/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/lanitochka17/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/lanitochka17/subscriptions",
+      "organizations_url": "https://api.github.com/users/lanitochka17/orgs",
+      "repos_url": "https://api.github.com/users/lanitochka17/repos",
+      "events_url": "https://api.github.com/users/lanitochka17/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/lanitochka17/received_events",
+      "type": "User",
+      "user_view_type": "public",
+      "site_admin": false
+    },
+    "labels": [
+      {
+        "id": 2873246102,
+        "node_id": "MDU6TGFiZWwyODczMjQ2MTAy",
+        "url": "https://api.github.com/repos/Expensify/App/labels/External",
+        "name": "External",
+        "color": "a7b8ef",
+        "default": false,
+        "description": "Added to denote the issue can be worked on by a contributor"
+      },
+      {
+        "id": 2893455829,
+        "node_id": "MDU6TGFiZWwyODkzNDU1ODI5",
+        "url": "https://api.github.com/repos/Expensify/App/labels/Daily",
+        "name": "Daily",
+        "color": "eb6420",
+        "default": false,
+        "description": "KSv2"
+      },
+      {
+        "id": 3136662525,
+        "node_id": "MDU6TGFiZWwzMTM2NjYyNTI1",
+        "url": "https://api.github.com/repos/Expensify/App/labels/Help%20Wanted",
+        "name": "Help Wanted",
+        "color": "CFC8F1",
+        "default": false,
+        "description": "Apply this label when an issue is open to proposals by contributors"
+      },
+      {
+        "id": 4664850679,
+        "node_id": "LA_kwDOEQqHYc8AAAABFgv49w",
+        "url": "https://api.github.com/repos/Expensify/App/labels/Bug",
+        "name": "Bug",
+        "color": "93074F",
+        "default": false,
+        "description": "Something is broken. Auto assigns a BugZero manager."
+      }
+    ],
+    "state": "open",
+    "locked": false,
+    "assignees": [
+      {
+        "login": "NicMendonca",
+        "id": 24947345,
+        "node_id": "MDQ6VXNlcjI0OTQ3MzQ1",
+        "avatar_url": "https://avatars.githubusercontent.com/u/24947345?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/NicMendonca",
+        "html_url": "https://github.com/NicMendonca",
+        "followers_url": "https://api.github.com/users/NicMendonca/followers",
+        "following_url": "https://api.github.com/users/NicMendonca/following{/other_user}",
+        "gists_url": "https://api.github.com/users/NicMendonca/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/NicMendonca/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/NicMendonca/subscriptions",
+        "organizations_url": "https://api.github.com/users/NicMendonca/orgs",
+        "repos_url": "https://api.github.com/users/NicMendonca/repos",
+        "events_url": "https://api.github.com/users/NicMendonca/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/NicMendonca/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      {
+        "login": "sobitneupane",
+        "id": 25876548,
+        "node_id": "MDQ6VXNlcjI1ODc2NTQ4",
+        "avatar_url": "https://avatars.githubusercontent.com/u/25876548?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/sobitneupane",
+        "html_url": "https://github.com/sobitneupane",
+        "followers_url": "https://api.github.com/users/sobitneupane/followers",
+        "following_url": "https://api.github.com/users/sobitneupane/following{/other_user}",
+        "gists_url": "https://api.github.com/users/sobitneupane/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/sobitneupane/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/sobitneupane/subscriptions",
+        "organizations_url": "https://api.github.com/users/sobitneupane/orgs",
+        "repos_url": "https://api.github.com/users/sobitneupane/repos",
+        "events_url": "https://api.github.com/users/sobitneupane/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/sobitneupane/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      }
+    ],
+    "milestone": null,
+    "comments": 7,
+    "created_at": "2026-03-03T14:18:05Z",
+    "updated_at": "2026-03-03T15:16:32Z",
+    "closed_at": null,
+    "assignee": {
+      "login": "NicMendonca",
+      "id": 24947345,
+      "node_id": "MDQ6VXNlcjI0OTQ3MzQ1",
+      "avatar_url": "https://avatars.githubusercontent.com/u/24947345?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/NicMendonca",
+      "html_url": "https://github.com/NicMendonca",
+      "followers_url": "https://api.github.com/users/NicMendonca/followers",
+      "following_url": "https://api.github.com/users/NicMendonca/following{/other_user}",
+      "gists_url": "https://api.github.com/users/NicMendonca/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/NicMendonca/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/NicMendonca/subscriptions",
+      "organizations_url": "https://api.github.com/users/NicMendonca/orgs",
+      "repos_url": "https://api.github.com/users/NicMendonca/repos",
+      "events_url": "https://api.github.com/users/NicMendonca/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/NicMendonca/received_events",
+      "type": "User",
+      "user_view_type": "public",
+      "site_admin": false
+    },
+    "author_association": "NONE",
+    "type": null,
+    "active_lock_reason": null,
+    "sub_issues_summary": {
+      "total": 0,
+      "completed": 0,
+      "percent_completed": 0
+    },
+    "issue_dependencies_summary": {
+      "blocked_by": 0,
+      "total_blocked_by": 0,
+      "blocking": 0,
+      "total_blocking": 0
+    },
+    "body": "If you haven’t already, check out our [contributing guidelines](https://github.com/Expensify/ReactNativeChat/blob/main/contributingGuides/CONTRIBUTING.md) for onboarding and email contributors@expensify.com to request to join our Slack channel!\n___\n\n**Version Number:** 9.3.28-1\n**Reproducible in staging?:** Yes\n**Reproducible in production?:** Yes\n**If this was caught during regression testing, add the test name, ID and link from BrowserStack:** https://github.com/Expensify/App/pull/83517\n**Email or phone of affected tester (no customers):** applausetester+ndk80@applause.expensifail.com\n**Issue reported by:** Applause Internal Team\n**Bug source:** Pull Request QA execution\n**Device used:** Mac 26.2 / Chrome\n**App Component:** Money Requests\n\n## Action Performed:\nPrecondition:\n- Log in to account (applausetester+ndk80@applause.expensifail.com) with a workspace that has a test DEW implementation enabled.\n\n1. Go to staging.new.expensify.com\n2. Go to workspace chat.\n3. Create an expense.\n4. Open the report.\n5. Click Submit.\n6. Click description, enter applausetester+ndk80@applause.expensifail.com and save it.\n7. Rename report to APPROVE_ERROR.\n8. Click Submit.\n9. Click Approve.\n10. Right click on \"failed to submit the report. Add at least one approver as an expense description\" system message > Copy to clipboard.\n11. Paste the content.\n12. Right click on \"failed to approve. This report cannot be approved\" system message > Copy to clipboard.\n13. Paste the content.\n\n## Expected Result:\nThe copied content will be the same as the system message.\n\n## Actual Result:\nThe copied content is different from the system message.\n\n## Workaround:\nUnknown\n\n## Platforms:\n- [x] Android: App\n- [ ] Android: mWeb Chrome\n- [x] iOS: App\n- [ ] iOS: mWeb Safari\n- [ ] iOS: mWeb Chrome\n- [x] Windows: Chrome\n- [ ] MacOS: Chrome / Safari\n\n## Screenshots/Videos\n\nhttps://github.com/user-attachments/assets/12813631-76ae-4ba0-a677-0c1180f0ad4f\n\n[View all open jobs on GitHub](https://github.com/Expensify/App/issues?q=is%3Aopen+is%3Aissue+label%3A%22Help+Wanted%22)\n\n<details><summary>Issue Owner</summary>Current Issue Owner: @sobitneupane</details>\n<details><summary>Upwork Automation - Do Not Edit</summary>\n    <ul>\n        <li>Upwork Job URL: https://www.upwork.com/jobs/~022028839454503753803</li>\n        <li>Upwork Job ID: 2028839454503753803</li>\n        <li>Last Price Increase: 2026-03-03</li>\n    </ul>\n</details>",
+    "closed_by": null,
+    "reactions": {
+      "url": "https://api.github.com/repos/Expensify/App/issues/84037/reactions",
+      "total_count": 0,
+      "+1": 0,
+      "-1": 0,
+      "laugh": 0,
+      "hooray": 0,
+      "confused": 0,
+      "heart": 0,
+      "rocket": 0,
+      "eyes": 0
+    },
+    "timeline_url": "https://api.github.com/repos/Expensify/App/issues/84037/timeline",
+    "performed_via_github_app": null,
+    "state_reason": null
+  },
+  {
     "url": "https://api.github.com/repos/Expensify/App/issues/84033",
     "repository_url": "https://api.github.com/repos/Expensify/App",
     "labels_url": "https://api.github.com/repos/Expensify/App/issues/84033/labels{/name}",
@@ -116,9 +464,9 @@
       }
     ],
     "milestone": null,
-    "comments": 4,
+    "comments": 5,
     "created_at": "2026-03-03T13:29:06Z",
-    "updated_at": "2026-03-03T13:39:00Z",
+    "updated_at": "2026-03-03T14:05:58Z",
     "closed_at": null,
     "assignee": {
       "login": "laurenreidexpensify",
@@ -171,8 +519,7 @@
     },
     "timeline_url": "https://api.github.com/repos/Expensify/App/issues/84033/timeline",
     "performed_via_github_app": null,
-    "state_reason": null,
-    "pinned_comment": null
+    "state_reason": null
   },
   {
     "url": "https://api.github.com/repos/Expensify/App/issues/84030",
@@ -291,9 +638,9 @@
       }
     ],
     "milestone": null,
-    "comments": 5,
+    "comments": 7,
     "created_at": "2026-03-03T13:05:48Z",
-    "updated_at": "2026-03-03T14:00:58Z",
+    "updated_at": "2026-03-03T15:25:47Z",
     "closed_at": null,
     "assignee": {
       "login": "jliexpensify",
@@ -346,8 +693,7 @@
     },
     "timeline_url": "https://api.github.com/repos/Expensify/App/issues/84030/timeline",
     "performed_via_github_app": null,
-    "state_reason": null,
-    "pinned_comment": null
+    "state_reason": null
   },
   {
     "url": "https://api.github.com/repos/Expensify/App/issues/84018",
@@ -521,8 +867,7 @@
     },
     "timeline_url": "https://api.github.com/repos/Expensify/App/issues/84018/timeline",
     "performed_via_github_app": null,
-    "state_reason": null,
-    "pinned_comment": null
+    "state_reason": null
   },
   {
     "url": "https://api.github.com/repos/Expensify/App/issues/84015",
@@ -705,8 +1050,7 @@
     },
     "timeline_url": "https://api.github.com/repos/Expensify/App/issues/84015/timeline",
     "performed_via_github_app": null,
-    "state_reason": null,
-    "pinned_comment": null
+    "state_reason": null
   },
   {
     "url": "https://api.github.com/repos/Expensify/App/issues/84010",
@@ -932,8 +1276,7 @@
     },
     "timeline_url": "https://api.github.com/repos/Expensify/App/issues/84010/timeline",
     "performed_via_github_app": null,
-    "state_reason": null,
-    "pinned_comment": null
+    "state_reason": null
   },
   {
     "url": "https://api.github.com/repos/Expensify/App/issues/84007",
@@ -1159,8 +1502,7 @@
     },
     "timeline_url": "https://api.github.com/repos/Expensify/App/issues/84007/timeline",
     "performed_via_github_app": null,
-    "state_reason": null,
-    "pinned_comment": null
+    "state_reason": null
   },
   {
     "url": "https://api.github.com/repos/Expensify/App/issues/84006",
@@ -1386,8 +1728,7 @@
     },
     "timeline_url": "https://api.github.com/repos/Expensify/App/issues/84006/timeline",
     "performed_via_github_app": null,
-    "state_reason": null,
-    "pinned_comment": null
+    "state_reason": null
   },
   {
     "url": "https://api.github.com/repos/Expensify/App/issues/83995",
@@ -1600,8 +1941,7 @@
     },
     "timeline_url": "https://api.github.com/repos/Expensify/App/issues/83995/timeline",
     "performed_via_github_app": null,
-    "state_reason": null,
-    "pinned_comment": null
+    "state_reason": null
   },
   {
     "url": "https://api.github.com/repos/Expensify/App/issues/83991",
@@ -1775,8 +2115,7 @@
     },
     "timeline_url": "https://api.github.com/repos/Expensify/App/issues/83991/timeline",
     "performed_via_github_app": null,
-    "state_reason": null,
-    "pinned_comment": null
+    "state_reason": null
   },
   {
     "url": "https://api.github.com/repos/Expensify/App/issues/83990",
@@ -2002,8 +2341,7 @@
     },
     "timeline_url": "https://api.github.com/repos/Expensify/App/issues/83990/timeline",
     "performed_via_github_app": null,
-    "state_reason": null,
-    "pinned_comment": null
+    "state_reason": null
   },
   {
     "url": "https://api.github.com/repos/Expensify/App/issues/83989",
@@ -2161,9 +2499,9 @@
       }
     ],
     "milestone": null,
-    "comments": 11,
+    "comments": 12,
     "created_at": "2026-03-03T06:00:13Z",
-    "updated_at": "2026-03-03T07:15:43Z",
+    "updated_at": "2026-03-03T14:59:22Z",
     "closed_at": null,
     "assignee": {
       "login": "yuwenmemon",
@@ -2216,8 +2554,7 @@
     },
     "timeline_url": "https://api.github.com/repos/Expensify/App/issues/83989/timeline",
     "performed_via_github_app": null,
-    "state_reason": null,
-    "pinned_comment": null
+    "state_reason": null
   },
   {
     "url": "https://api.github.com/repos/Expensify/App/issues/83988",
@@ -2442,8 +2779,7 @@
     },
     "timeline_url": "https://api.github.com/repos/Expensify/App/issues/83988/timeline",
     "performed_via_github_app": null,
-    "state_reason": null,
-    "pinned_comment": null
+    "state_reason": null
   },
   {
     "url": "https://api.github.com/repos/Expensify/App/issues/83987",
@@ -2652,9 +2988,9 @@
       }
     ],
     "milestone": null,
-    "comments": 13,
+    "comments": 15,
     "created_at": "2026-03-03T05:27:19Z",
-    "updated_at": "2026-03-03T13:53:58Z",
+    "updated_at": "2026-03-03T15:18:48Z",
     "closed_at": null,
     "assignee": {
       "login": "mananjadhav",
@@ -2707,8 +3043,7 @@
     },
     "timeline_url": "https://api.github.com/repos/Expensify/App/issues/83987/timeline",
     "performed_via_github_app": null,
-    "state_reason": null,
-    "pinned_comment": null
+    "state_reason": null
   },
   {
     "url": "https://api.github.com/repos/Expensify/App/issues/83985",
@@ -2942,8 +3277,7 @@
     },
     "timeline_url": "https://api.github.com/repos/Expensify/App/issues/83985/timeline",
     "performed_via_github_app": null,
-    "state_reason": null,
-    "pinned_comment": null
+    "state_reason": null
   },
   {
     "url": "https://api.github.com/repos/Expensify/App/issues/83982",
@@ -3165,222 +3499,7 @@
     },
     "timeline_url": "https://api.github.com/repos/Expensify/App/issues/83982/timeline",
     "performed_via_github_app": null,
-    "state_reason": null,
-    "pinned_comment": null
-  },
-  {
-    "url": "https://api.github.com/repos/Expensify/App/issues/83978",
-    "repository_url": "https://api.github.com/repos/Expensify/App",
-    "labels_url": "https://api.github.com/repos/Expensify/App/issues/83978/labels{/name}",
-    "comments_url": "https://api.github.com/repos/Expensify/App/issues/83978/comments",
-    "events_url": "https://api.github.com/repos/Expensify/App/issues/83978/events",
-    "html_url": "https://github.com/Expensify/App/issues/83978",
-    "id": 4014438453,
-    "node_id": "I_kwDOEQqHYc7vR3g1",
-    "number": 83978,
-    "title": "[$250] Add BA - Browser back button is redirecting to confirmation page from success page",
-    "user": {
-      "login": "mitarachim",
-      "id": 181838622,
-      "node_id": "U_kgDOCtajHg",
-      "avatar_url": "https://avatars.githubusercontent.com/u/181838622?v=4",
-      "gravatar_id": "",
-      "url": "https://api.github.com/users/mitarachim",
-      "html_url": "https://github.com/mitarachim",
-      "followers_url": "https://api.github.com/users/mitarachim/followers",
-      "following_url": "https://api.github.com/users/mitarachim/following{/other_user}",
-      "gists_url": "https://api.github.com/users/mitarachim/gists{/gist_id}",
-      "starred_url": "https://api.github.com/users/mitarachim/starred{/owner}{/repo}",
-      "subscriptions_url": "https://api.github.com/users/mitarachim/subscriptions",
-      "organizations_url": "https://api.github.com/users/mitarachim/orgs",
-      "repos_url": "https://api.github.com/users/mitarachim/repos",
-      "events_url": "https://api.github.com/users/mitarachim/events{/privacy}",
-      "received_events_url": "https://api.github.com/users/mitarachim/received_events",
-      "type": "User",
-      "user_view_type": "public",
-      "site_admin": false
-    },
-    "labels": [
-      {
-        "id": 2810597462,
-        "node_id": "MDU6TGFiZWwyODEwNTk3NDYy",
-        "url": "https://api.github.com/repos/Expensify/App/labels/DeployBlockerCash",
-        "name": "DeployBlockerCash",
-        "color": "000000",
-        "default": false,
-        "description": "This issue or pull request should block deployment"
-      },
-      {
-        "id": 2873246102,
-        "node_id": "MDU6TGFiZWwyODczMjQ2MTAy",
-        "url": "https://api.github.com/repos/Expensify/App/labels/External",
-        "name": "External",
-        "color": "a7b8ef",
-        "default": false,
-        "description": "Added to denote the issue can be worked on by a contributor"
-      },
-      {
-        "id": 2873635554,
-        "node_id": "MDU6TGFiZWwyODczNjM1NTU0",
-        "url": "https://api.github.com/repos/Expensify/App/labels/Engineering",
-        "name": "Engineering",
-        "color": "274073",
-        "default": false,
-        "description": ""
-      },
-      {
-        "id": 3008326907,
-        "node_id": "MDU6TGFiZWwzMDA4MzI2OTA3",
-        "url": "https://api.github.com/repos/Expensify/App/labels/Hourly",
-        "name": "Hourly",
-        "color": "EC0E2D",
-        "default": false,
-        "description": "KSv2"
-      },
-      {
-        "id": 3136662525,
-        "node_id": "MDU6TGFiZWwzMTM2NjYyNTI1",
-        "url": "https://api.github.com/repos/Expensify/App/labels/Help%20Wanted",
-        "name": "Help Wanted",
-        "color": "CFC8F1",
-        "default": false,
-        "description": "Apply this label when an issue is open to proposals by contributors"
-      },
-      {
-        "id": 4664850679,
-        "node_id": "LA_kwDOEQqHYc8AAAABFgv49w",
-        "url": "https://api.github.com/repos/Expensify/App/labels/Bug",
-        "name": "Bug",
-        "color": "93074F",
-        "default": false,
-        "description": "Something is broken. Auto assigns a BugZero manager."
-      }
-    ],
-    "state": "open",
-    "locked": false,
-    "assignees": [
-      {
-        "login": "arosiclair",
-        "id": 6833644,
-        "node_id": "MDQ6VXNlcjY4MzM2NDQ=",
-        "avatar_url": "https://avatars.githubusercontent.com/u/6833644?v=4",
-        "gravatar_id": "",
-        "url": "https://api.github.com/users/arosiclair",
-        "html_url": "https://github.com/arosiclair",
-        "followers_url": "https://api.github.com/users/arosiclair/followers",
-        "following_url": "https://api.github.com/users/arosiclair/following{/other_user}",
-        "gists_url": "https://api.github.com/users/arosiclair/gists{/gist_id}",
-        "starred_url": "https://api.github.com/users/arosiclair/starred{/owner}{/repo}",
-        "subscriptions_url": "https://api.github.com/users/arosiclair/subscriptions",
-        "organizations_url": "https://api.github.com/users/arosiclair/orgs",
-        "repos_url": "https://api.github.com/users/arosiclair/repos",
-        "events_url": "https://api.github.com/users/arosiclair/events{/privacy}",
-        "received_events_url": "https://api.github.com/users/arosiclair/received_events",
-        "type": "User",
-        "user_view_type": "public",
-        "site_admin": false
-      },
-      {
-        "login": "heyjennahay",
-        "id": 12088484,
-        "node_id": "MDQ6VXNlcjEyMDg4NDg0",
-        "avatar_url": "https://avatars.githubusercontent.com/u/12088484?v=4",
-        "gravatar_id": "",
-        "url": "https://api.github.com/users/heyjennahay",
-        "html_url": "https://github.com/heyjennahay",
-        "followers_url": "https://api.github.com/users/heyjennahay/followers",
-        "following_url": "https://api.github.com/users/heyjennahay/following{/other_user}",
-        "gists_url": "https://api.github.com/users/heyjennahay/gists{/gist_id}",
-        "starred_url": "https://api.github.com/users/heyjennahay/starred{/owner}{/repo}",
-        "subscriptions_url": "https://api.github.com/users/heyjennahay/subscriptions",
-        "organizations_url": "https://api.github.com/users/heyjennahay/orgs",
-        "repos_url": "https://api.github.com/users/heyjennahay/repos",
-        "events_url": "https://api.github.com/users/heyjennahay/events{/privacy}",
-        "received_events_url": "https://api.github.com/users/heyjennahay/received_events",
-        "type": "User",
-        "user_view_type": "public",
-        "site_admin": false
-      },
-      {
-        "login": "jjcoffee",
-        "id": 27287420,
-        "node_id": "MDQ6VXNlcjI3Mjg3NDIw",
-        "avatar_url": "https://avatars.githubusercontent.com/u/27287420?v=4",
-        "gravatar_id": "",
-        "url": "https://api.github.com/users/jjcoffee",
-        "html_url": "https://github.com/jjcoffee",
-        "followers_url": "https://api.github.com/users/jjcoffee/followers",
-        "following_url": "https://api.github.com/users/jjcoffee/following{/other_user}",
-        "gists_url": "https://api.github.com/users/jjcoffee/gists{/gist_id}",
-        "starred_url": "https://api.github.com/users/jjcoffee/starred{/owner}{/repo}",
-        "subscriptions_url": "https://api.github.com/users/jjcoffee/subscriptions",
-        "organizations_url": "https://api.github.com/users/jjcoffee/orgs",
-        "repos_url": "https://api.github.com/users/jjcoffee/repos",
-        "events_url": "https://api.github.com/users/jjcoffee/events{/privacy}",
-        "received_events_url": "https://api.github.com/users/jjcoffee/received_events",
-        "type": "User",
-        "user_view_type": "public",
-        "site_admin": false
-      }
-    ],
-    "milestone": null,
-    "comments": 11,
-    "created_at": "2026-03-03T03:12:46Z",
-    "updated_at": "2026-03-03T07:36:49Z",
-    "closed_at": null,
-    "assignee": {
-      "login": "arosiclair",
-      "id": 6833644,
-      "node_id": "MDQ6VXNlcjY4MzM2NDQ=",
-      "avatar_url": "https://avatars.githubusercontent.com/u/6833644?v=4",
-      "gravatar_id": "",
-      "url": "https://api.github.com/users/arosiclair",
-      "html_url": "https://github.com/arosiclair",
-      "followers_url": "https://api.github.com/users/arosiclair/followers",
-      "following_url": "https://api.github.com/users/arosiclair/following{/other_user}",
-      "gists_url": "https://api.github.com/users/arosiclair/gists{/gist_id}",
-      "starred_url": "https://api.github.com/users/arosiclair/starred{/owner}{/repo}",
-      "subscriptions_url": "https://api.github.com/users/arosiclair/subscriptions",
-      "organizations_url": "https://api.github.com/users/arosiclair/orgs",
-      "repos_url": "https://api.github.com/users/arosiclair/repos",
-      "events_url": "https://api.github.com/users/arosiclair/events{/privacy}",
-      "received_events_url": "https://api.github.com/users/arosiclair/received_events",
-      "type": "User",
-      "user_view_type": "public",
-      "site_admin": false
-    },
-    "author_association": "NONE",
-    "type": null,
-    "active_lock_reason": null,
-    "sub_issues_summary": {
-      "total": 0,
-      "completed": 0,
-      "percent_completed": 0
-    },
-    "issue_dependencies_summary": {
-      "blocked_by": 0,
-      "total_blocked_by": 0,
-      "blocking": 0,
-      "total_blocking": 0
-    },
-    "body": "If you haven’t already, check out our [contributing guidelines](https://github.com/Expensify/ReactNativeChat/blob/main/contributingGuides/CONTRIBUTING.md) for onboarding and email contributors@expensify.com to request to join our Slack channel!\n___\n\n**Version Number:** 9.3.28-0\n**Reproducible in staging?:** Yes\n**Reproducible in production?:** No\n**If this was caught during regression testing, add the test name, ID and link from BrowserStack:** https://github.com/Expensify/App/pull/81333\n**Email or phone of affected tester (no customers):** rogerjesusrosarioh+577@gmail.com\n**Issue reported by:** Applause Internal Team\n**Bug source:** Pull Request QA execution\n**Device used:** Web\n**App Component:** User Settings\n\n## Action Performed:\n1. Go to Account > Wallet > Add bank account\n2. Complete the flow and reach the confirmation page\n3. Accept the terms and click on \"Confirm\"\n4. In the success page, click on the browsers back button\n\n## Expected Result:\nPage should close the success RHP and open the \"Add bank account\" RHP.\n\n## Actual Result:\nWhen clicking on the browsers back button in the success page, it is redirecting back to the confirmation page.\n\n## Workaround:\nUnknown\n\n## Platforms:\n- [ ] Android: App\n- [ ] Android: mWeb Chrome\n- [ ] iOS: App\n- [ ] iOS: mWeb Safari\n- [ ] iOS: mWeb Chrome\n- [x] Windows: Chrome\n- [x] MacOS: Chrome / Safari\n\n## Screenshots/Videos\n\nhttps://github.com/user-attachments/assets/ca8eebec-f5eb-4f1b-9940-e3925341e8ab\n\n[View all open jobs on GitHub](https://github.com/Expensify/App/issues?q=is%3Aopen+is%3Aissue+label%3A%22Help+Wanted%22)\n\n<details><summary>Issue Owner</summary>Current Issue Owner: @jjcoffee</details>\n<details><summary>Upwork Automation - Do Not Edit</summary>\n    <ul>\n        <li>Upwork Job URL: https://www.upwork.com/jobs/~022028671427965931540</li>\n        <li>Upwork Job ID: 2028671427965931540</li>\n        <li>Last Price Increase: 2026-03-03</li>\n    </ul>\n</details>",
-    "closed_by": null,
-    "reactions": {
-      "url": "https://api.github.com/repos/Expensify/App/issues/83978/reactions",
-      "total_count": 0,
-      "+1": 0,
-      "-1": 0,
-      "laugh": 0,
-      "hooray": 0,
-      "confused": 0,
-      "heart": 0,
-      "rocket": 0,
-      "eyes": 0
-    },
-    "timeline_url": "https://api.github.com/repos/Expensify/App/issues/83978/timeline",
-    "performed_via_github_app": null,
-    "state_reason": null,
-    "pinned_comment": null
+    "state_reason": null
   },
   {
     "url": "https://api.github.com/repos/Expensify/App/issues/83976",
@@ -3602,8 +3721,7 @@
     },
     "timeline_url": "https://api.github.com/repos/Expensify/App/issues/83976/timeline",
     "performed_via_github_app": null,
-    "state_reason": null,
-    "pinned_comment": null
+    "state_reason": null
   },
   {
     "url": "https://api.github.com/repos/Expensify/App/issues/83974",
@@ -3825,8 +3943,7 @@
     },
     "timeline_url": "https://api.github.com/repos/Expensify/App/issues/83974/timeline",
     "performed_via_github_app": null,
-    "state_reason": null,
-    "pinned_comment": null
+    "state_reason": null
   },
   {
     "url": "https://api.github.com/repos/Expensify/App/issues/83973",
@@ -3862,15 +3979,6 @@
     },
     "labels": [
       {
-        "id": 2810597462,
-        "node_id": "MDU6TGFiZWwyODEwNTk3NDYy",
-        "url": "https://api.github.com/repos/Expensify/App/labels/DeployBlockerCash",
-        "name": "DeployBlockerCash",
-        "color": "000000",
-        "default": false,
-        "description": "This issue or pull request should block deployment"
-      },
-      {
         "id": 2873246102,
         "node_id": "MDU6TGFiZWwyODczMjQ2MTAy",
         "url": "https://api.github.com/repos/Expensify/App/labels/External",
@@ -3889,22 +3997,13 @@
         "description": ""
       },
       {
-        "id": 3008326907,
-        "node_id": "MDU6TGFiZWwzMDA4MzI2OTA3",
-        "url": "https://api.github.com/repos/Expensify/App/labels/Hourly",
-        "name": "Hourly",
-        "color": "EC0E2D",
+        "id": 2893455829,
+        "node_id": "MDU6TGFiZWwyODkzNDU1ODI5",
+        "url": "https://api.github.com/repos/Expensify/App/labels/Daily",
+        "name": "Daily",
+        "color": "eb6420",
         "default": false,
         "description": "KSv2"
-      },
-      {
-        "id": 3136662525,
-        "node_id": "MDU6TGFiZWwzMTM2NjYyNTI1",
-        "url": "https://api.github.com/repos/Expensify/App/labels/Help%20Wanted",
-        "name": "Help Wanted",
-        "color": "CFC8F1",
-        "default": false,
-        "description": "Apply this label when an issue is open to proposals by contributors"
       },
       {
         "id": 4664850679,
@@ -3962,6 +4061,27 @@
         "site_admin": false
       },
       {
+        "login": "mukhrr",
+        "id": 71601329,
+        "node_id": "MDQ6VXNlcjcxNjAxMzI5",
+        "avatar_url": "https://avatars.githubusercontent.com/u/71601329?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/mukhrr",
+        "html_url": "https://github.com/mukhrr",
+        "followers_url": "https://api.github.com/users/mukhrr/followers",
+        "following_url": "https://api.github.com/users/mukhrr/following{/other_user}",
+        "gists_url": "https://api.github.com/users/mukhrr/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/mukhrr/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/mukhrr/subscriptions",
+        "organizations_url": "https://api.github.com/users/mukhrr/orgs",
+        "repos_url": "https://api.github.com/users/mukhrr/repos",
+        "events_url": "https://api.github.com/users/mukhrr/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/mukhrr/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      {
         "login": "brunovjk",
         "id": 95647348,
         "node_id": "U_kgDOBbN2dA",
@@ -3984,9 +4104,9 @@
       }
     ],
     "milestone": null,
-    "comments": 13,
+    "comments": 15,
     "created_at": "2026-03-03T02:11:33Z",
-    "updated_at": "2026-03-03T10:51:08Z",
+    "updated_at": "2026-03-03T14:11:10Z",
     "closed_at": null,
     "assignee": {
       "login": "puneetlath",
@@ -4023,7 +4143,7 @@
       "blocking": 0,
       "total_blocking": 0
     },
-    "body": "If you haven’t already, check out our [contributing guidelines](https://github.com/Expensify/ReactNativeChat/blob/main/contributingGuides/CONTRIBUTING.md) for onboarding and email contributors@expensify.com to request to join our Slack channel!\n___\n\n**Version Number:** 9.3.28-0\n**Reproducible in staging?:** Yes\n**Reproducible in production?:** N/A - new feature, doesn't exist in prod\n**If this was caught during regression testing, add the test name, ID and link from BrowserStack:** https://github.com/Expensify/App/pull/83541\n**Email or phone of affected tester (no customers):** sdjsonijsiojdsonjsi@gmail.com\n**Issue reported by:** Applause Internal Team\n**Bug source:** Exploratory - Significant User Experience Deterioration\n**Device used:** Mac 26.2 / Chrome\n**App Component:** Search\n\n## Action Performed:\nPrecondition:\n- Have a workspace.\n\n1. Go to staging.new.expensify.com\n2. Go to Reports > Expenses.\n3. Click Create > Create report.\n4. Select workspace.\n5. On the report, click More > Delete > Delete.\n\n## Expected Result:\nApp will stay on Reports page.\n\n## Actual Result:\nApp returns to Inbox after deleting report created from Create button.\n\n## Workaround:\nUnknown\n\n## Platforms:\n- [ ] Android: App\n- [ ] Android: mWeb Chrome\n- [ ] iOS: App\n- [ ] iOS: mWeb Safari\n- [ ] iOS: mWeb Chrome\n- [ ] Windows: Chrome\n- [x] MacOS: Chrome / Safari\n\n## Screenshots/Videos\n\nhttps://github.com/user-attachments/assets/475beda1-5639-4973-a6fd-eb329243329e\n\n[View all open jobs on GitHub](https://github.com/Expensify/App/issues?q=is%3Aopen+is%3Aissue+label%3A%22Help+Wanted%22)\n\n<details><summary>Issue Owner</summary>Current Issue Owner: @brunovjk</details>\n<details><summary>Upwork Automation - Do Not Edit</summary>\n    <ul>\n        <li>Upwork Job URL: https://www.upwork.com/jobs/~022028656226994540564</li>\n        <li>Upwork Job ID: 2028656226994540564</li>\n        <li>Last Price Increase: 2026-03-03</li>\n    </ul>\n</details>",
+    "body": "If you haven’t already, check out our [contributing guidelines](https://github.com/Expensify/ReactNativeChat/blob/main/contributingGuides/CONTRIBUTING.md) for onboarding and email contributors@expensify.com to request to join our Slack channel!\n___\n\n**Version Number:** 9.3.28-0\n**Reproducible in staging?:** Yes\n**Reproducible in production?:** N/A - new feature, doesn't exist in prod\n**If this was caught during regression testing, add the test name, ID and link from BrowserStack:** https://github.com/Expensify/App/pull/83541\n**Email or phone of affected tester (no customers):** sdjsonijsiojdsonjsi@gmail.com\n**Issue reported by:** Applause Internal Team\n**Bug source:** Exploratory - Significant User Experience Deterioration\n**Device used:** Mac 26.2 / Chrome\n**App Component:** Search\n\n## Action Performed:\nPrecondition:\n- Have a workspace.\n\n1. Go to staging.new.expensify.com\n2. Go to Reports > Expenses.\n3. Click Create > Create report.\n4. Select workspace.\n5. On the report, click More > Delete > Delete.\n\n## Expected Result:\nApp will stay on Reports page.\n\n## Actual Result:\nApp returns to Inbox after deleting report created from Create button.\n\n## Workaround:\nUnknown\n\n## Platforms:\n- [ ] Android: App\n- [ ] Android: mWeb Chrome\n- [ ] iOS: App\n- [ ] iOS: mWeb Safari\n- [ ] iOS: mWeb Chrome\n- [ ] Windows: Chrome\n- [x] MacOS: Chrome / Safari\n\n## Screenshots/Videos\n\nhttps://github.com/user-attachments/assets/475beda1-5639-4973-a6fd-eb329243329e\n\n[View all open jobs on GitHub](https://github.com/Expensify/App/issues?q=is%3Aopen+is%3Aissue+label%3A%22Help+Wanted%22)\n\n<details><summary>Issue Owner</summary>Current Issue Owner: @mukhrr</details>\n<details><summary>Upwork Automation - Do Not Edit</summary>\n    <ul>\n        <li>Upwork Job URL: https://www.upwork.com/jobs/~022028656226994540564</li>\n        <li>Upwork Job ID: 2028656226994540564</li>\n        <li>Last Price Increase: 2026-03-03</li>\n    </ul>\n</details>",
     "closed_by": null,
     "reactions": {
       "url": "https://api.github.com/repos/Expensify/App/issues/83973/reactions",
@@ -4039,8 +4159,7 @@
     },
     "timeline_url": "https://api.github.com/repos/Expensify/App/issues/83973/timeline",
     "performed_via_github_app": null,
-    "state_reason": null,
-    "pinned_comment": null
+    "state_reason": null
   },
   {
     "url": "https://api.github.com/repos/Expensify/App/issues/83972",
@@ -4257,8 +4376,7 @@
     },
     "timeline_url": "https://api.github.com/repos/Expensify/App/issues/83972/timeline",
     "performed_via_github_app": null,
-    "state_reason": null,
-    "pinned_comment": null
+    "state_reason": null
   },
   {
     "url": "https://api.github.com/repos/Expensify/App/issues/83964",
@@ -4484,8 +4602,7 @@
     },
     "timeline_url": "https://api.github.com/repos/Expensify/App/issues/83964/timeline",
     "performed_via_github_app": null,
-    "state_reason": null,
-    "pinned_comment": null
+    "state_reason": null
   },
   {
     "url": "https://api.github.com/repos/Expensify/App/issues/83963",
@@ -4719,8 +4836,7 @@
     },
     "timeline_url": "https://api.github.com/repos/Expensify/App/issues/83963/timeline",
     "performed_via_github_app": null,
-    "state_reason": null,
-    "pinned_comment": null
+    "state_reason": null
   },
   {
     "url": "https://api.github.com/repos/Expensify/App/issues/83962",
@@ -4954,8 +5070,7 @@
     },
     "timeline_url": "https://api.github.com/repos/Expensify/App/issues/83962/timeline",
     "performed_via_github_app": null,
-    "state_reason": null,
-    "pinned_comment": null
+    "state_reason": null
   },
   {
     "url": "https://api.github.com/repos/Expensify/App/issues/83960",
@@ -5036,15 +5151,6 @@
         "description": "KSv2"
       },
       {
-        "id": 3136662525,
-        "node_id": "MDU6TGFiZWwzMTM2NjYyNTI1",
-        "url": "https://api.github.com/repos/Expensify/App/labels/Help%20Wanted",
-        "name": "Help Wanted",
-        "color": "CFC8F1",
-        "default": false,
-        "description": "Apply this label when an issue is open to proposals by contributors"
-      },
-      {
         "id": 4664850679,
         "node_id": "LA_kwDOEQqHYc8AAAABFgv49w",
         "url": "https://api.github.com/repos/Expensify/App/labels/Bug",
@@ -5119,12 +5225,33 @@
         "type": "User",
         "user_view_type": "public",
         "site_admin": false
+      },
+      {
+        "login": "mukhrr",
+        "id": 71601329,
+        "node_id": "MDQ6VXNlcjcxNjAxMzI5",
+        "avatar_url": "https://avatars.githubusercontent.com/u/71601329?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/mukhrr",
+        "html_url": "https://github.com/mukhrr",
+        "followers_url": "https://api.github.com/users/mukhrr/followers",
+        "following_url": "https://api.github.com/users/mukhrr/following{/other_user}",
+        "gists_url": "https://api.github.com/users/mukhrr/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/mukhrr/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/mukhrr/subscriptions",
+        "organizations_url": "https://api.github.com/users/mukhrr/orgs",
+        "repos_url": "https://api.github.com/users/mukhrr/repos",
+        "events_url": "https://api.github.com/users/mukhrr/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/mukhrr/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
       }
     ],
     "milestone": null,
-    "comments": 13,
+    "comments": 16,
     "created_at": "2026-03-02T23:47:43Z",
-    "updated_at": "2026-03-03T09:41:40Z",
+    "updated_at": "2026-03-03T14:14:49Z",
     "closed_at": null,
     "assignee": {
       "login": "puneetlath",
@@ -5161,7 +5288,7 @@
       "blocking": 0,
       "total_blocking": 0
     },
-    "body": "If you haven’t already, check out our [contributing guidelines](https://github.com/Expensify/ReactNativeChat/blob/main/contributingGuides/CONTRIBUTING.md) for onboarding and email contributors@expensify.com to request to join our Slack channel!\n___\n\n**Version Number:** 9.3.28-0\n**Reproducible in staging?:** Yes\n**Reproducible in production?:** N/A - new feature, doesn't exist in prod\n**If this was caught during regression testing, add the test name, ID and link from BrowserStack:** https://github.com/Expensify/App/pull/83541\n**Email or phone of affected tester (no customers):** isodjnosidjiojiojiso@gmail.com\n**Issue reported by:** Applause Internal Team\n**Bug source:** Exploratory - Significant User Experience Deterioration\n**Device used:** Mac 26.2 / Chrome\n**App Component:** Money Requests\n\n## Action Performed:\nPrecondition:\n- Have a default workspace.\n\n1. Go to staging.new.expensify.com\n2. Go to Reports > Expenses.\n3. Click Create.\n4. Click Create report.\n\n## Expected Result:\nWorkspace selector will not open because there is a default workspace.\n\n## Actual Result:\nWorkspace selector opens when there is a default workspace.\n\n## Workaround:\nUnknown\n\n## Platforms:\n- [ ] Android: App\n- [ ] Android: mWeb Chrome\n- [ ] iOS: App\n- [ ] iOS: mWeb Safari\n- [ ] iOS: mWeb Chrome\n- [x] Windows: Chrome\n- [x] MacOS: Chrome / Safari\n\n## Screenshots/Videos\n\nhttps://github.com/user-attachments/assets/af3bd048-e6c6-4b19-8206-0e3e2d770ca3\n\n[View all open jobs on GitHub](https://github.com/Expensify/App/issues?q=is%3Aopen+is%3Aissue+label%3A%22Help+Wanted%22)\n\n<details><summary>Issue Owner</summary>Current Issue Owner: @mananjadhav</details>\n<details><summary>Upwork Automation - Do Not Edit</summary>\n    <ul>\n        <li>Upwork Job URL: https://www.upwork.com/jobs/~022028619567946164255</li>\n        <li>Upwork Job ID: 2028619567946164255</li>\n        <li>Last Price Increase: 2026-03-02</li>\n    </ul>\n</details>",
+    "body": "If you haven’t already, check out our [contributing guidelines](https://github.com/Expensify/ReactNativeChat/blob/main/contributingGuides/CONTRIBUTING.md) for onboarding and email contributors@expensify.com to request to join our Slack channel!\n___\n\n**Version Number:** 9.3.28-0\n**Reproducible in staging?:** Yes\n**Reproducible in production?:** N/A - new feature, doesn't exist in prod\n**If this was caught during regression testing, add the test name, ID and link from BrowserStack:** https://github.com/Expensify/App/pull/83541\n**Email or phone of affected tester (no customers):** isodjnosidjiojiojiso@gmail.com\n**Issue reported by:** Applause Internal Team\n**Bug source:** Exploratory - Significant User Experience Deterioration\n**Device used:** Mac 26.2 / Chrome\n**App Component:** Money Requests\n\n## Action Performed:\nPrecondition:\n- Have a default workspace.\n\n1. Go to staging.new.expensify.com\n2. Go to Reports > Expenses.\n3. Click Create.\n4. Click Create report.\n\n## Expected Result:\nWorkspace selector will not open because there is a default workspace.\n\n## Actual Result:\nWorkspace selector opens when there is a default workspace.\n\n## Workaround:\nUnknown\n\n## Platforms:\n- [ ] Android: App\n- [ ] Android: mWeb Chrome\n- [ ] iOS: App\n- [ ] iOS: mWeb Safari\n- [ ] iOS: mWeb Chrome\n- [x] Windows: Chrome\n- [x] MacOS: Chrome / Safari\n\n## Screenshots/Videos\n\nhttps://github.com/user-attachments/assets/af3bd048-e6c6-4b19-8206-0e3e2d770ca3\n\n[View all open jobs on GitHub](https://github.com/Expensify/App/issues?q=is%3Aopen+is%3Aissue+label%3A%22Help+Wanted%22)\n\n<details><summary>Issue Owner</summary>Current Issue Owner: @mukhrr</details>\n<details><summary>Upwork Automation - Do Not Edit</summary>\n    <ul>\n        <li>Upwork Job URL: https://www.upwork.com/jobs/~022028619567946164255</li>\n        <li>Upwork Job ID: 2028619567946164255</li>\n        <li>Last Price Increase: 2026-03-02</li>\n    </ul>\n</details>",
     "closed_by": null,
     "reactions": {
       "url": "https://api.github.com/repos/Expensify/App/issues/83960/reactions",
@@ -5177,8 +5304,7 @@
     },
     "timeline_url": "https://api.github.com/repos/Expensify/App/issues/83960/timeline",
     "performed_via_github_app": null,
-    "state_reason": null,
-    "pinned_comment": null
+    "state_reason": null
   },
   {
     "url": "https://api.github.com/repos/Expensify/App/issues/83959",
@@ -5412,8 +5538,7 @@
     },
     "timeline_url": "https://api.github.com/repos/Expensify/App/issues/83959/timeline",
     "performed_via_github_app": null,
-    "state_reason": null,
-    "pinned_comment": null
+    "state_reason": null
   },
   {
     "url": "https://api.github.com/repos/Expensify/App/issues/83958",
@@ -5630,8 +5755,7 @@
     },
     "timeline_url": "https://api.github.com/repos/Expensify/App/issues/83958/timeline",
     "performed_via_github_app": null,
-    "state_reason": null,
-    "pinned_comment": null
+    "state_reason": null
   },
   {
     "url": "https://api.github.com/repos/Expensify/App/issues/83957",
@@ -5857,8 +5981,7 @@
     },
     "timeline_url": "https://api.github.com/repos/Expensify/App/issues/83957/timeline",
     "performed_via_github_app": null,
-    "state_reason": null,
-    "pinned_comment": null
+    "state_reason": null
   },
   {
     "url": "https://api.github.com/repos/Expensify/App/issues/83955",
@@ -6080,8 +6203,7 @@
     },
     "timeline_url": "https://api.github.com/repos/Expensify/App/issues/83955/timeline",
     "performed_via_github_app": null,
-    "state_reason": null,
-    "pinned_comment": null
+    "state_reason": null
   },
   {
     "url": "https://api.github.com/repos/Expensify/App/issues/83951",
@@ -6294,8 +6416,7 @@
     },
     "timeline_url": "https://api.github.com/repos/Expensify/App/issues/83951/timeline",
     "performed_via_github_app": null,
-    "state_reason": null,
-    "pinned_comment": null
+    "state_reason": null
   },
   {
     "url": "https://api.github.com/repos/Expensify/App/issues/83929",
@@ -6469,8 +6590,7 @@
     },
     "timeline_url": "https://api.github.com/repos/Expensify/App/issues/83929/timeline",
     "performed_via_github_app": null,
-    "state_reason": null,
-    "pinned_comment": null
+    "state_reason": null
   },
   {
     "url": "https://api.github.com/repos/Expensify/App/issues/83927",
@@ -6644,182 +6764,6 @@
     },
     "timeline_url": "https://api.github.com/repos/Expensify/App/issues/83927/timeline",
     "performed_via_github_app": null,
-    "state_reason": null,
-    "pinned_comment": null
-  },
-  {
-    "url": "https://api.github.com/repos/Expensify/App/issues/83916",
-    "repository_url": "https://api.github.com/repos/Expensify/App",
-    "labels_url": "https://api.github.com/repos/Expensify/App/issues/83916/labels{/name}",
-    "comments_url": "https://api.github.com/repos/Expensify/App/issues/83916/comments",
-    "events_url": "https://api.github.com/repos/Expensify/App/issues/83916/events",
-    "html_url": "https://github.com/Expensify/App/issues/83916",
-    "id": 4012446263,
-    "node_id": "I_kwDOEQqHYc7vKRI3",
-    "number": 83916,
-    "title": "[$250] Navigation - Unable to access IOU after logging in via link",
-    "user": {
-      "login": "lanitochka17",
-      "id": 78819774,
-      "node_id": "MDQ6VXNlcjc4ODE5Nzc0",
-      "avatar_url": "https://avatars.githubusercontent.com/u/78819774?v=4",
-      "gravatar_id": "",
-      "url": "https://api.github.com/users/lanitochka17",
-      "html_url": "https://github.com/lanitochka17",
-      "followers_url": "https://api.github.com/users/lanitochka17/followers",
-      "following_url": "https://api.github.com/users/lanitochka17/following{/other_user}",
-      "gists_url": "https://api.github.com/users/lanitochka17/gists{/gist_id}",
-      "starred_url": "https://api.github.com/users/lanitochka17/starred{/owner}{/repo}",
-      "subscriptions_url": "https://api.github.com/users/lanitochka17/subscriptions",
-      "organizations_url": "https://api.github.com/users/lanitochka17/orgs",
-      "repos_url": "https://api.github.com/users/lanitochka17/repos",
-      "events_url": "https://api.github.com/users/lanitochka17/events{/privacy}",
-      "received_events_url": "https://api.github.com/users/lanitochka17/received_events",
-      "type": "User",
-      "user_view_type": "public",
-      "site_admin": false
-    },
-    "labels": [
-      {
-        "id": 2873246102,
-        "node_id": "MDU6TGFiZWwyODczMjQ2MTAy",
-        "url": "https://api.github.com/repos/Expensify/App/labels/External",
-        "name": "External",
-        "color": "a7b8ef",
-        "default": false,
-        "description": "Added to denote the issue can be worked on by a contributor"
-      },
-      {
-        "id": 2893455829,
-        "node_id": "MDU6TGFiZWwyODkzNDU1ODI5",
-        "url": "https://api.github.com/repos/Expensify/App/labels/Daily",
-        "name": "Daily",
-        "color": "eb6420",
-        "default": false,
-        "description": "KSv2"
-      },
-      {
-        "id": 3136662525,
-        "node_id": "MDU6TGFiZWwzMTM2NjYyNTI1",
-        "url": "https://api.github.com/repos/Expensify/App/labels/Help%20Wanted",
-        "name": "Help Wanted",
-        "color": "CFC8F1",
-        "default": false,
-        "description": "Apply this label when an issue is open to proposals by contributors"
-      },
-      {
-        "id": 4664850679,
-        "node_id": "LA_kwDOEQqHYc8AAAABFgv49w",
-        "url": "https://api.github.com/repos/Expensify/App/labels/Bug",
-        "name": "Bug",
-        "color": "93074F",
-        "default": false,
-        "description": "Something is broken. Auto assigns a BugZero manager."
-      }
-    ],
-    "state": "open",
-    "locked": false,
-    "assignees": [
-      {
-        "login": "sobitneupane",
-        "id": 25876548,
-        "node_id": "MDQ6VXNlcjI1ODc2NTQ4",
-        "avatar_url": "https://avatars.githubusercontent.com/u/25876548?v=4",
-        "gravatar_id": "",
-        "url": "https://api.github.com/users/sobitneupane",
-        "html_url": "https://github.com/sobitneupane",
-        "followers_url": "https://api.github.com/users/sobitneupane/followers",
-        "following_url": "https://api.github.com/users/sobitneupane/following{/other_user}",
-        "gists_url": "https://api.github.com/users/sobitneupane/gists{/gist_id}",
-        "starred_url": "https://api.github.com/users/sobitneupane/starred{/owner}{/repo}",
-        "subscriptions_url": "https://api.github.com/users/sobitneupane/subscriptions",
-        "organizations_url": "https://api.github.com/users/sobitneupane/orgs",
-        "repos_url": "https://api.github.com/users/sobitneupane/repos",
-        "events_url": "https://api.github.com/users/sobitneupane/events{/privacy}",
-        "received_events_url": "https://api.github.com/users/sobitneupane/received_events",
-        "type": "User",
-        "user_view_type": "public",
-        "site_admin": false
-      },
-      {
-        "login": "joekaufmanexpensify",
-        "id": 54866469,
-        "node_id": "MDQ6VXNlcjU0ODY2NDY5",
-        "avatar_url": "https://avatars.githubusercontent.com/u/54866469?v=4",
-        "gravatar_id": "",
-        "url": "https://api.github.com/users/joekaufmanexpensify",
-        "html_url": "https://github.com/joekaufmanexpensify",
-        "followers_url": "https://api.github.com/users/joekaufmanexpensify/followers",
-        "following_url": "https://api.github.com/users/joekaufmanexpensify/following{/other_user}",
-        "gists_url": "https://api.github.com/users/joekaufmanexpensify/gists{/gist_id}",
-        "starred_url": "https://api.github.com/users/joekaufmanexpensify/starred{/owner}{/repo}",
-        "subscriptions_url": "https://api.github.com/users/joekaufmanexpensify/subscriptions",
-        "organizations_url": "https://api.github.com/users/joekaufmanexpensify/orgs",
-        "repos_url": "https://api.github.com/users/joekaufmanexpensify/repos",
-        "events_url": "https://api.github.com/users/joekaufmanexpensify/events{/privacy}",
-        "received_events_url": "https://api.github.com/users/joekaufmanexpensify/received_events",
-        "type": "User",
-        "user_view_type": "public",
-        "site_admin": false
-      }
-    ],
-    "milestone": null,
-    "comments": 6,
-    "created_at": "2026-03-02T17:32:52Z",
-    "updated_at": "2026-03-02T19:08:33Z",
-    "closed_at": null,
-    "assignee": {
-      "login": "joekaufmanexpensify",
-      "id": 54866469,
-      "node_id": "MDQ6VXNlcjU0ODY2NDY5",
-      "avatar_url": "https://avatars.githubusercontent.com/u/54866469?v=4",
-      "gravatar_id": "",
-      "url": "https://api.github.com/users/joekaufmanexpensify",
-      "html_url": "https://github.com/joekaufmanexpensify",
-      "followers_url": "https://api.github.com/users/joekaufmanexpensify/followers",
-      "following_url": "https://api.github.com/users/joekaufmanexpensify/following{/other_user}",
-      "gists_url": "https://api.github.com/users/joekaufmanexpensify/gists{/gist_id}",
-      "starred_url": "https://api.github.com/users/joekaufmanexpensify/starred{/owner}{/repo}",
-      "subscriptions_url": "https://api.github.com/users/joekaufmanexpensify/subscriptions",
-      "organizations_url": "https://api.github.com/users/joekaufmanexpensify/orgs",
-      "repos_url": "https://api.github.com/users/joekaufmanexpensify/repos",
-      "events_url": "https://api.github.com/users/joekaufmanexpensify/events{/privacy}",
-      "received_events_url": "https://api.github.com/users/joekaufmanexpensify/received_events",
-      "type": "User",
-      "user_view_type": "public",
-      "site_admin": false
-    },
-    "author_association": "NONE",
-    "type": null,
-    "active_lock_reason": null,
-    "sub_issues_summary": {
-      "total": 0,
-      "completed": 0,
-      "percent_completed": 0
-    },
-    "issue_dependencies_summary": {
-      "blocked_by": 0,
-      "total_blocked_by": 0,
-      "blocking": 0,
-      "total_blocking": 0
-    },
-    "body": "If you haven’t already, check out our [contributing guidelines](https://github.com/Expensify/ReactNativeChat/blob/main/contributingGuides/CONTRIBUTING.md) for onboarding and email contributors@expensify.com to request to join our Slack channel!\n___\n\n**Version Number:** undefined\n**Reproducible in staging?:** Yes\n**Reproducible in production?:** Yes\n**If this was caught during regression testing, add the test name, ID and link from BrowserStack:** undefined\n**Email or phone of affected tester (no customers):** undefined\n**Issue reported by:** Applause Internal Team\n**Bug source:** undefined\n**Device used:** undefined\n**App Component:** undefined\n\n## Action Performed:\n1. Create a IOU in a conversation\n2. Navigate to the IOU report (conversation)\n3. Copy the URL\n4. Log out of the app\n5. Navigate to the IOU URL\n6. Log in\n7. Verify you\\'re redirected to the correct IOU report after login\n\n## Expected Result:\nThe user should be redirected to the IOU directly.\n\n## Actual Result:\nWhen logging in via the link copied from IOU, the user is not redirected to the IOU report (conversation), but rather to the home page.\n\n## Workaround:\nUnknown\n\n## Platforms:\n- [ ] Android: App\n- [ ] Android: mWeb Chrome\n- [ ] iOS: App\n- [ ] iOS: mWeb Safari\n- [ ] iOS: mWeb Chrome\n- [x] Windows: Chrome\n- [ ] MacOS: Chrome / Safari\n\n## Screenshots/Videos\n\nhttps://github.com/user-attachments/assets/78a377d2-642b-4387-8b48-7e5c4ab2503d\n\n[View all open jobs on GitHub](https://github.com/Expensify/App/issues?q=is%3Aopen+is%3Aissue+label%3A%22Help+Wanted%22)\n\n<details><summary>Issue Owner</summary>Current Issue Owner: @sobitneupane</details>\n<details><summary>Upwork Automation - Do Not Edit</summary>\n    <ul>\n        <li>Upwork Job URL: https://www.upwork.com/jobs/~022028526585539277618</li>\n        <li>Upwork Job ID: 2028526585539277618</li>\n        <li>Last Price Increase: 2026-03-02</li>\n    </ul>\n</details>",
-    "closed_by": null,
-    "reactions": {
-      "url": "https://api.github.com/repos/Expensify/App/issues/83916/reactions",
-      "total_count": 0,
-      "+1": 0,
-      "-1": 0,
-      "laugh": 0,
-      "hooray": 0,
-      "confused": 0,
-      "heart": 0,
-      "rocket": 0,
-      "eyes": 0
-    },
-    "timeline_url": "https://api.github.com/repos/Expensify/App/issues/83916/timeline",
-    "performed_via_github_app": null,
-    "state_reason": null,
-    "pinned_comment": null
+    "state_reason": null
   }
 ]
