@@ -1,5 +1,150 @@
 [
   {
+    "url": "https://api.github.com/repos/Expensify/App/issues/84192",
+    "repository_url": "https://api.github.com/repos/Expensify/App",
+    "labels_url": "https://api.github.com/repos/Expensify/App/issues/84192/labels{/name}",
+    "comments_url": "https://api.github.com/repos/Expensify/App/issues/84192/comments",
+    "events_url": "https://api.github.com/repos/Expensify/App/issues/84192/events",
+    "html_url": "https://github.com/Expensify/App/issues/84192",
+    "id": 4024373097,
+    "node_id": "I_kwDOEQqHYc7v3w9p",
+    "number": 84192,
+    "title": "[$250] [Sentry] fix The database connection is closing issue",
+    "user": {
+      "login": "mountiny",
+      "id": 36083550,
+      "node_id": "MDQ6VXNlcjM2MDgzNTUw",
+      "avatar_url": "https://avatars.githubusercontent.com/u/36083550?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/mountiny",
+      "html_url": "https://github.com/mountiny",
+      "followers_url": "https://api.github.com/users/mountiny/followers",
+      "following_url": "https://api.github.com/users/mountiny/following{/other_user}",
+      "gists_url": "https://api.github.com/users/mountiny/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/mountiny/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/mountiny/subscriptions",
+      "organizations_url": "https://api.github.com/users/mountiny/orgs",
+      "repos_url": "https://api.github.com/users/mountiny/repos",
+      "events_url": "https://api.github.com/users/mountiny/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/mountiny/received_events",
+      "type": "User",
+      "user_view_type": "public",
+      "site_admin": false
+    },
+    "labels": [
+      {
+        "id": 2873246102,
+        "node_id": "MDU6TGFiZWwyODczMjQ2MTAy",
+        "url": "https://api.github.com/repos/Expensify/App/labels/External",
+        "name": "External",
+        "color": "a7b8ef",
+        "default": false,
+        "description": "Added to denote the issue can be worked on by a contributor"
+      },
+      {
+        "id": 2893455829,
+        "node_id": "MDU6TGFiZWwyODkzNDU1ODI5",
+        "url": "https://api.github.com/repos/Expensify/App/labels/Daily",
+        "name": "Daily",
+        "color": "eb6420",
+        "default": false,
+        "description": "KSv2"
+      },
+      {
+        "id": 4664850679,
+        "node_id": "LA_kwDOEQqHYc8AAAABFgv49w",
+        "url": "https://api.github.com/repos/Expensify/App/labels/Bug",
+        "name": "Bug",
+        "color": "93074F",
+        "default": false,
+        "description": "Something is broken. Auto assigns a BugZero manager."
+      }
+    ],
+    "state": "open",
+    "locked": false,
+    "assignees": [
+      {
+        "login": "Krishna2323",
+        "id": 85894871,
+        "node_id": "MDQ6VXNlcjg1ODk0ODcx",
+        "avatar_url": "https://avatars.githubusercontent.com/u/85894871?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/Krishna2323",
+        "html_url": "https://github.com/Krishna2323",
+        "followers_url": "https://api.github.com/users/Krishna2323/followers",
+        "following_url": "https://api.github.com/users/Krishna2323/following{/other_user}",
+        "gists_url": "https://api.github.com/users/Krishna2323/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/Krishna2323/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/Krishna2323/subscriptions",
+        "organizations_url": "https://api.github.com/users/Krishna2323/orgs",
+        "repos_url": "https://api.github.com/users/Krishna2323/repos",
+        "events_url": "https://api.github.com/users/Krishna2323/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/Krishna2323/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      }
+    ],
+    "milestone": null,
+    "comments": 3,
+    "created_at": "2026-03-04T21:57:07Z",
+    "updated_at": "2026-03-04T22:27:42Z",
+    "closed_at": null,
+    "assignee": {
+      "login": "Krishna2323",
+      "id": 85894871,
+      "node_id": "MDQ6VXNlcjg1ODk0ODcx",
+      "avatar_url": "https://avatars.githubusercontent.com/u/85894871?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/Krishna2323",
+      "html_url": "https://github.com/Krishna2323",
+      "followers_url": "https://api.github.com/users/Krishna2323/followers",
+      "following_url": "https://api.github.com/users/Krishna2323/following{/other_user}",
+      "gists_url": "https://api.github.com/users/Krishna2323/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/Krishna2323/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/Krishna2323/subscriptions",
+      "organizations_url": "https://api.github.com/users/Krishna2323/orgs",
+      "repos_url": "https://api.github.com/users/Krishna2323/repos",
+      "events_url": "https://api.github.com/users/Krishna2323/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/Krishna2323/received_events",
+      "type": "User",
+      "user_view_type": "public",
+      "site_admin": false
+    },
+    "author_association": "CONTRIBUTOR",
+    "type": null,
+    "active_lock_reason": null,
+    "sub_issues_summary": {
+      "total": 0,
+      "completed": 0,
+      "percent_completed": 0
+    },
+    "issue_dependencies_summary": {
+      "blocked_by": 0,
+      "total_blocked_by": 0,
+      "blocking": 0,
+      "total_blocking": 0
+    },
+    "body": "Sentry issue https://expensify.sentry.io/issues/7092239780\n\nThread https://expensify.slack.com/archives/C05LX9D6E07/p1770496102994319\n\n### Please re-state the problem that we are trying to solve in this issue.\n\nWhen Onyx operations attempt to create an IndexedDB transaction, the browser may have already closed the database connection, causing:\nInvalidStateError: Failed to execute 'transaction' on 'IDBDatabase': The database connection is closing.\n\n\n\nThis affects ~58,700 occurrences across 430 users on all browsers (Chrome: 31K, Safari: 18K, Firefox: 5K, Mobile Safari: 3K, Edge: 1K). The error is an unhandled promise rejection.\n\n\n\n### What is the root cause of that problem?\n\n\n\nThe existing db.onclose handler (line 22) sets dbp = undefined when the browser closes the connection, which protects future calls to getDB(). However, any operations that have already resolved the dbp promise still hold a stale db reference and proceed to call db.transaction() at line 59 — which throws InvalidStateError on the now-closing connection.\n\n\n\nThis can be triggered by:\n\n• The browser closing idle IDB connections (Safari is especially aggressive, but Chrome/Firefox do this too under memory pressure or tab suspension)\n• Another tab triggering a version upgrade (versionchange event — currently unhandled)\n• The verifyStoreExists path closing the DB (line 39) while concurrent operations still hold the old reference\n\n### What changes do you think we should make in order to solve the problem?\n\n\n\nAll changes are in lib/storage/providers/IDBKeyValProvider/createStore.ts:\n\n1. Retry mechanism with a single retry on InvalidStateError\n   — Extract the transaction chain (getDB → verifyStoreExists → db.transaction) into openTransactionAndExecute()\n   — Wrap the call in .catch(): if the error is InvalidStateError, reset dbp = undefined and retry once with a fresh connection\n   — If the retry also fails, the error is thrown normally and still surfaces in Sentry exactly as it does today\n\n\n\n2. Diagnostic logging on every retry (does NOT hide the issue)\n   — Log at alert level with: dbName, storeName, txMode, and closedBy\n   — closedBy tracks why the connection was closed: 'browser' (user-agent closed it), 'versionchange' (cross-tab upgrade), 'verifyStoreExists' (missing store path), or 'unknown'\n   — This gives us more visibility than today (where we only get a crash count with no context)\n\n\n\n3. onversionchange handler\n   — When another tab triggers a DB version upgrade, proactively close the connection and reset dbp\n   — Without this, cross-tab upgrades can block indefinitely and in-flight operations crash on the stale connection\n\n\n\n4. onclose handler now logs\n   — The existing onclose handler now logs when the browser unexpectedly closes the connection, giving us data on browser-initiated closures even when no retry is needed\n\n\n\n### Key safety guarantees:\n\n• Data is never lost — the transaction fails before any data is written; the retry completes successfully with a valid connection\n• Only one retry is attempted — no infinite loops\n• If the retry fails, the error propagates normally and Sentry captures it as before\n• Normal operations (no InvalidStateError) are completely unaffected — zero performance impact\n• The closedBy logging gives us instrumentation to continue investigating the root cause of the spike\n\n\ncc @fabioh8010 \n\n<details><summary>Issue Owner</summary>Current Issue Owner: @Krishna2323</details>\n<details><summary>Upwork Automation - Do Not Edit</summary>\n    <ul>\n        <li>Upwork Job URL: https://www.upwork.com/jobs/~022029317821194916452</li>\n        <li>Upwork Job ID: 2029317821194916452</li>\n        <li>Last Price Increase: 2026-03-04</li>\n    </ul>\n</details>",
+    "closed_by": null,
+    "reactions": {
+      "url": "https://api.github.com/repos/Expensify/App/issues/84192/reactions",
+      "total_count": 0,
+      "+1": 0,
+      "-1": 0,
+      "laugh": 0,
+      "hooray": 0,
+      "confused": 0,
+      "heart": 0,
+      "rocket": 0,
+      "eyes": 0
+    },
+    "timeline_url": "https://api.github.com/repos/Expensify/App/issues/84192/timeline",
+    "performed_via_github_app": null,
+    "state_reason": null,
+    "pinned_comment": null
+  },
+  {
     "url": "https://api.github.com/repos/Expensify/App/issues/84184",
     "repository_url": "https://api.github.com/repos/Expensify/App",
     "labels_url": "https://api.github.com/repos/Expensify/App/issues/84184/labels{/name}",
@@ -987,13 +1132,13 @@
         "description": "Item broken or needs improvement."
       },
       {
-        "id": 3172234733,
-        "node_id": "MDU6TGFiZWwzMTcyMjM0NzMz",
-        "url": "https://api.github.com/repos/Expensify/App/labels/Task",
-        "name": "Task",
-        "color": "ededed",
+        "id": 3136662525,
+        "node_id": "MDU6TGFiZWwzMTM2NjYyNTI1",
+        "url": "https://api.github.com/repos/Expensify/App/labels/Help%20Wanted",
+        "name": "Help Wanted",
+        "color": "CFC8F1",
         "default": false,
-        "description": null
+        "description": "Apply this label when an issue is open to proposals by contributors"
       }
     ],
     "state": "open",
@@ -1064,9 +1209,9 @@
       }
     ],
     "milestone": null,
-    "comments": 10,
+    "comments": 11,
     "created_at": "2026-03-04T11:43:35Z",
-    "updated_at": "2026-03-04T21:14:29Z",
+    "updated_at": "2026-03-04T21:37:26Z",
     "closed_at": null,
     "assignee": {
       "login": "dannymcclain",
@@ -1103,7 +1248,7 @@
       "blocking": 0,
       "total_blocking": 0
     },
-    "body": "Problem: when a new user goes through this very common flow:\n\n1. Concierge helps with how to create an expense\n2. User creates the expense, lands in the workspace chat\n3. They then create a report via global create\n4. Next they try to add the expense they just created\n\nHowever, they can't find it, and end up confused.\n\nSolution: let's update the option under `Add expense` from `Add unreported expense` to `Add existing expense`. If clicked, we then would show the user expenses that are either unreported or on draft reports to select to bring to the report.\n\nImage for reference:\n\n<img width=\"377\" height=\"236\" alt=\"Image\" src=\"https://github.com/user-attachments/assets/f7e2989a-0da6-40fa-83ef-3e8049c65096\" />\n\n<details><summary>Issue Owner</summary>Current Issue Owner: @sobitneupane</details>\n<details><summary>Upwork Automation - Do Not Edit</summary>\n    <ul>\n        <li>Upwork Job URL: https://www.upwork.com/jobs/~022029160872573889435</li>\n        <li>Upwork Job ID: 2029160872573889435</li>\n        <li>Last Price Increase: 2026-03-04</li>\n    </ul>\n</details>",
+    "body": "Problem: when a new user goes through this very common flow:\n\n1. Concierge helps with how to create an expense\n2. User creates the expense, lands in the workspace chat\n3. They then create a report via global create\n4. Next they try to add the expense they just created\n\nHowever, they can't find it, and end up confused.\n\nSolution: \n\n- Change the menu item (and page title) from “Add unreported expenses” to “Add existing expenses”\n- Add the expense `Status` exposed filter right-aligned atop the RHP table with the values of the applicable states for this flow: “Unreported” and “Draft”. The default is not filtered by status. \n  Note: \"Select all\" will be right-aligned and is already in motion via [this issue](https://github.com/Expensify/App/issues/83741).\n- Don’t show expenses in the RHP list that are already on the draft report you actioned this flow from.\n\nMock references:\n\n<img width=\"377\" height=\"236\" alt=\"Image\" src=\"https://github.com/user-attachments/assets/f7e2989a-0da6-40fa-83ef-3e8049c65096\" />\n\n<img width=\"2560\" height=\"1624\" alt=\"Image\" src=\"https://github.com/user-attachments/assets/d6862351-6ef2-4538-97e7-61b6f9596b75\" />\n\n<img width=\"2560\" height=\"1624\" alt=\"Image\" src=\"https://github.com/user-attachments/assets/11212817-c18d-49c4-85db-c35926c44d13\" />\n\n<img width=\"2560\" height=\"1624\" alt=\"Image\" src=\"https://github.com/user-attachments/assets/4c31da4c-6d33-41ac-aaf0-ab20cd4b4dfe\" />\n\n<img width=\"2560\" height=\"1624\" alt=\"Image\" src=\"https://github.com/user-attachments/assets/fdef396b-62e5-422e-8e7c-80ff98db4cb5\" />\n\n<details><summary>Issue Owner</summary>Current Issue Owner: @sobitneupane</details>\n<details><summary>Upwork Automation - Do Not Edit</summary>\n    <ul>\n        <li>Upwork Job URL: https://www.upwork.com/jobs/~022029160872573889435</li>\n        <li>Upwork Job ID: 2029160872573889435</li>\n        <li>Last Price Increase: 2026-03-04</li>\n    </ul>\n</details>",
     "closed_by": null,
     "reactions": {
       "url": "https://api.github.com/repos/Expensify/App/issues/84130/reactions",
@@ -1729,22 +1874,13 @@
         "description": "Added to denote the issue can be worked on by a contributor"
       },
       {
-        "id": 2893515375,
-        "node_id": "MDU6TGFiZWwyODkzNTE1Mzc1",
-        "url": "https://api.github.com/repos/Expensify/App/labels/Weekly",
-        "name": "Weekly",
-        "color": "009800",
+        "id": 2893455829,
+        "node_id": "MDU6TGFiZWwyODkzNDU1ODI5",
+        "url": "https://api.github.com/repos/Expensify/App/labels/Daily",
+        "name": "Daily",
+        "color": "eb6420",
         "default": false,
         "description": "KSv2"
-      },
-      {
-        "id": 3136662525,
-        "node_id": "MDU6TGFiZWwzMTM2NjYyNTI1",
-        "url": "https://api.github.com/repos/Expensify/App/labels/Help%20Wanted",
-        "name": "Help Wanted",
-        "color": "CFC8F1",
-        "default": false,
-        "description": "Apply this label when an issue is open to proposals by contributors"
       },
       {
         "id": 4664850679,
@@ -1823,27 +1959,6 @@
         "site_admin": false
       },
       {
-        "login": "QichenZhu",
-        "id": 57348009,
-        "node_id": "MDQ6VXNlcjU3MzQ4MDA5",
-        "avatar_url": "https://avatars.githubusercontent.com/u/57348009?v=4",
-        "gravatar_id": "",
-        "url": "https://api.github.com/users/QichenZhu",
-        "html_url": "https://github.com/QichenZhu",
-        "followers_url": "https://api.github.com/users/QichenZhu/followers",
-        "following_url": "https://api.github.com/users/QichenZhu/following{/other_user}",
-        "gists_url": "https://api.github.com/users/QichenZhu/gists{/gist_id}",
-        "starred_url": "https://api.github.com/users/QichenZhu/starred{/owner}{/repo}",
-        "subscriptions_url": "https://api.github.com/users/QichenZhu/subscriptions",
-        "organizations_url": "https://api.github.com/users/QichenZhu/orgs",
-        "repos_url": "https://api.github.com/users/QichenZhu/repos",
-        "events_url": "https://api.github.com/users/QichenZhu/events{/privacy}",
-        "received_events_url": "https://api.github.com/users/QichenZhu/received_events",
-        "type": "User",
-        "user_view_type": "public",
-        "site_admin": false
-      },
-      {
         "login": "dominictb",
         "id": 165644294,
         "node_id": "U_kgDOCd-IBg",
@@ -1866,9 +1981,9 @@
       }
     ],
     "milestone": null,
-    "comments": 5,
+    "comments": 6,
     "created_at": "2026-03-03T20:43:23Z",
-    "updated_at": "2026-03-04T15:40:18Z",
+    "updated_at": "2026-03-04T22:02:31Z",
     "closed_at": null,
     "assignee": {
       "login": "CortneyOfstad",
