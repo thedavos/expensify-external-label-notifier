@@ -291,9 +291,9 @@
       }
     ],
     "milestone": null,
-    "comments": 6,
+    "comments": 7,
     "created_at": "2026-03-05T07:56:00Z",
-    "updated_at": "2026-03-05T10:07:16Z",
+    "updated_at": "2026-03-05T11:02:53Z",
     "closed_at": null,
     "assignee": {
       "login": "dylanexpensify",
@@ -466,9 +466,9 @@
       }
     ],
     "milestone": null,
-    "comments": 7,
+    "comments": 8,
     "created_at": "2026-03-05T07:39:35Z",
-    "updated_at": "2026-03-05T08:11:33Z",
+    "updated_at": "2026-03-05T11:01:13Z",
     "closed_at": null,
     "assignee": {
       "login": "bfitzexpensify",
