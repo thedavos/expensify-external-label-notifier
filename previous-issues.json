@@ -1,5 +1,201 @@
 [
   {
+    "url": "https://api.github.com/repos/Expensify/App/issues/84496",
+    "repository_url": "https://api.github.com/repos/Expensify/App",
+    "labels_url": "https://api.github.com/repos/Expensify/App/issues/84496/labels{/name}",
+    "comments_url": "https://api.github.com/repos/Expensify/App/issues/84496/comments",
+    "events_url": "https://api.github.com/repos/Expensify/App/issues/84496/events",
+    "html_url": "https://github.com/Expensify/App/issues/84496",
+    "id": 4038408562,
+    "node_id": "I_kwDOEQqHYc7wtTly",
+    "number": 84496,
+    "title": "[$250] Add a quick filter for workspace merchant rules",
+    "user": {
+      "login": "JmillsExpensify",
+      "id": 1127863,
+      "node_id": "MDQ6VXNlcjExMjc4NjM=",
+      "avatar_url": "https://avatars.githubusercontent.com/u/1127863?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/JmillsExpensify",
+      "html_url": "https://github.com/JmillsExpensify",
+      "followers_url": "https://api.github.com/users/JmillsExpensify/followers",
+      "following_url": "https://api.github.com/users/JmillsExpensify/following{/other_user}",
+      "gists_url": "https://api.github.com/users/JmillsExpensify/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/JmillsExpensify/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/JmillsExpensify/subscriptions",
+      "organizations_url": "https://api.github.com/users/JmillsExpensify/orgs",
+      "repos_url": "https://api.github.com/users/JmillsExpensify/repos",
+      "events_url": "https://api.github.com/users/JmillsExpensify/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/JmillsExpensify/received_events",
+      "type": "User",
+      "user_view_type": "public",
+      "site_admin": false
+    },
+    "labels": [
+      {
+        "id": 2873246102,
+        "node_id": "MDU6TGFiZWwyODczMjQ2MTAy",
+        "url": "https://api.github.com/repos/Expensify/App/labels/External",
+        "name": "External",
+        "color": "a7b8ef",
+        "default": false,
+        "description": "Added to denote the issue can be worked on by a contributor"
+      },
+      {
+        "id": 2893455829,
+        "node_id": "MDU6TGFiZWwyODkzNDU1ODI5",
+        "url": "https://api.github.com/repos/Expensify/App/labels/Daily",
+        "name": "Daily",
+        "color": "eb6420",
+        "default": false,
+        "description": "KSv2"
+      },
+      {
+        "id": 3033757191,
+        "node_id": "MDU6TGFiZWwzMDMzNzU3MTkx",
+        "url": "https://api.github.com/repos/Expensify/App/labels/NewFeature",
+        "name": "NewFeature",
+        "color": "A52A2A",
+        "default": false,
+        "description": "Something to build that is a new item."
+      },
+      {
+        "id": 3136662525,
+        "node_id": "MDU6TGFiZWwzMTM2NjYyNTI1",
+        "url": "https://api.github.com/repos/Expensify/App/labels/Help%20Wanted",
+        "name": "Help Wanted",
+        "color": "CFC8F1",
+        "default": false,
+        "description": "Apply this label when an issue is open to proposals by contributors"
+      }
+    ],
+    "state": "open",
+    "locked": false,
+    "assignees": [
+      {
+        "login": "JmillsExpensify",
+        "id": 1127863,
+        "node_id": "MDQ6VXNlcjExMjc4NjM=",
+        "avatar_url": "https://avatars.githubusercontent.com/u/1127863?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/JmillsExpensify",
+        "html_url": "https://github.com/JmillsExpensify",
+        "followers_url": "https://api.github.com/users/JmillsExpensify/followers",
+        "following_url": "https://api.github.com/users/JmillsExpensify/following{/other_user}",
+        "gists_url": "https://api.github.com/users/JmillsExpensify/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/JmillsExpensify/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/JmillsExpensify/subscriptions",
+        "organizations_url": "https://api.github.com/users/JmillsExpensify/orgs",
+        "repos_url": "https://api.github.com/users/JmillsExpensify/repos",
+        "events_url": "https://api.github.com/users/JmillsExpensify/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/JmillsExpensify/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      {
+        "login": "shawnborton",
+        "id": 2319350,
+        "node_id": "MDQ6VXNlcjIzMTkzNTA=",
+        "avatar_url": "https://avatars.githubusercontent.com/u/2319350?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/shawnborton",
+        "html_url": "https://github.com/shawnborton",
+        "followers_url": "https://api.github.com/users/shawnborton/followers",
+        "following_url": "https://api.github.com/users/shawnborton/following{/other_user}",
+        "gists_url": "https://api.github.com/users/shawnborton/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/shawnborton/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/shawnborton/subscriptions",
+        "organizations_url": "https://api.github.com/users/shawnborton/orgs",
+        "repos_url": "https://api.github.com/users/shawnborton/repos",
+        "events_url": "https://api.github.com/users/shawnborton/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/shawnborton/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      {
+        "login": "Krishna2323",
+        "id": 85894871,
+        "node_id": "MDQ6VXNlcjg1ODk0ODcx",
+        "avatar_url": "https://avatars.githubusercontent.com/u/85894871?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/Krishna2323",
+        "html_url": "https://github.com/Krishna2323",
+        "followers_url": "https://api.github.com/users/Krishna2323/followers",
+        "following_url": "https://api.github.com/users/Krishna2323/following{/other_user}",
+        "gists_url": "https://api.github.com/users/Krishna2323/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/Krishna2323/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/Krishna2323/subscriptions",
+        "organizations_url": "https://api.github.com/users/Krishna2323/orgs",
+        "repos_url": "https://api.github.com/users/Krishna2323/repos",
+        "events_url": "https://api.github.com/users/Krishna2323/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/Krishna2323/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      }
+    ],
+    "milestone": null,
+    "comments": 4,
+    "created_at": "2026-03-07T12:49:59Z",
+    "updated_at": "2026-03-07T12:50:16Z",
+    "closed_at": null,
+    "assignee": {
+      "login": "JmillsExpensify",
+      "id": 1127863,
+      "node_id": "MDQ6VXNlcjExMjc4NjM=",
+      "avatar_url": "https://avatars.githubusercontent.com/u/1127863?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/JmillsExpensify",
+      "html_url": "https://github.com/JmillsExpensify",
+      "followers_url": "https://api.github.com/users/JmillsExpensify/followers",
+      "following_url": "https://api.github.com/users/JmillsExpensify/following{/other_user}",
+      "gists_url": "https://api.github.com/users/JmillsExpensify/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/JmillsExpensify/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/JmillsExpensify/subscriptions",
+      "organizations_url": "https://api.github.com/users/JmillsExpensify/orgs",
+      "repos_url": "https://api.github.com/users/JmillsExpensify/repos",
+      "events_url": "https://api.github.com/users/JmillsExpensify/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/JmillsExpensify/received_events",
+      "type": "User",
+      "user_view_type": "public",
+      "site_admin": false
+    },
+    "author_association": "CONTRIBUTOR",
+    "type": null,
+    "active_lock_reason": null,
+    "sub_issues_summary": {
+      "total": 0,
+      "completed": 0,
+      "percent_completed": 0
+    },
+    "issue_dependencies_summary": {
+      "blocked_by": 0,
+      "total_blocked_by": 0,
+      "blocking": 0,
+      "total_blocking": 0
+    },
+    "body": "Similar to [functionality and logic](https://github.com/Expensify/App/pull/81803) recently added for approval workflows, let's add a quick search filter for merchant rules. \n\n<img width=\"2800\" height=\"1624\" alt=\"Image\" src=\"https://github.com/user-attachments/assets/a76baad2-a511-4f5d-9cf4-6c77fc0cc839\" />\n\n**Design and product details:**\n - The quick filter appears when a user more than 3 distinct merchant rules\n - The search input search the merchant corresponding tot to the merchant rule\n - We'll use \"contains\" logic for the search query\n\n<details><summary>Issue Owner</summary>Current Issue Owner: @Krishna2323</details>\n<details><summary>Upwork Automation - Do Not Edit</summary>\n    <ul>\n        <li>Upwork Job URL: https://www.upwork.com/jobs/~022030264761383308755</li>\n        <li>Upwork Job ID: 2030264761383308755</li>\n        <li>Last Price Increase: 2026-03-07</li>\n    </ul>\n</details>",
+    "closed_by": null,
+    "reactions": {
+      "url": "https://api.github.com/repos/Expensify/App/issues/84496/reactions",
+      "total_count": 0,
+      "+1": 0,
+      "-1": 0,
+      "laugh": 0,
+      "hooray": 0,
+      "confused": 0,
+      "heart": 0,
+      "rocket": 0,
+      "eyes": 0
+    },
+    "timeline_url": "https://api.github.com/repos/Expensify/App/issues/84496/timeline",
+    "performed_via_github_app": null,
+    "state_reason": null,
+    "pinned_comment": null
+  },
+  {
     "url": "https://api.github.com/repos/Expensify/App/issues/84492",
     "repository_url": "https://api.github.com/repos/Expensify/App",
     "labels_url": "https://api.github.com/repos/Expensify/App/issues/84492/labels{/name}",
@@ -171,7 +367,8 @@
     },
     "timeline_url": "https://api.github.com/repos/Expensify/App/issues/84492/timeline",
     "performed_via_github_app": null,
-    "state_reason": null
+    "state_reason": null,
+    "pinned_comment": null
   },
   {
     "url": "https://api.github.com/repos/Expensify/App/issues/84490",
@@ -345,7 +542,8 @@
     },
     "timeline_url": "https://api.github.com/repos/Expensify/App/issues/84490/timeline",
     "performed_via_github_app": null,
-    "state_reason": null
+    "state_reason": null,
+    "pinned_comment": null
   },
   {
     "url": "https://api.github.com/repos/Expensify/App/issues/84489",
@@ -519,7 +717,8 @@
     },
     "timeline_url": "https://api.github.com/repos/Expensify/App/issues/84489/timeline",
     "performed_via_github_app": null,
-    "state_reason": null
+    "state_reason": null,
+    "pinned_comment": null
   },
   {
     "url": "https://api.github.com/repos/Expensify/App/issues/84449",
@@ -693,7 +892,8 @@
     },
     "timeline_url": "https://api.github.com/repos/Expensify/App/issues/84449/timeline",
     "performed_via_github_app": null,
-    "state_reason": null
+    "state_reason": null,
+    "pinned_comment": null
   },
   {
     "url": "https://api.github.com/repos/Expensify/App/issues/84443",
@@ -867,7 +1067,8 @@
     },
     "timeline_url": "https://api.github.com/repos/Expensify/App/issues/84443/timeline",
     "performed_via_github_app": null,
-    "state_reason": null
+    "state_reason": null,
+    "pinned_comment": null
   },
   {
     "url": "https://api.github.com/repos/Expensify/App/issues/84442",
@@ -1041,7 +1242,8 @@
     },
     "timeline_url": "https://api.github.com/repos/Expensify/App/issues/84442/timeline",
     "performed_via_github_app": null,
-    "state_reason": null
+    "state_reason": null,
+    "pinned_comment": null
   },
   {
     "url": "https://api.github.com/repos/Expensify/App/issues/84436",
@@ -1215,7 +1417,8 @@
     },
     "timeline_url": "https://api.github.com/repos/Expensify/App/issues/84436/timeline",
     "performed_via_github_app": null,
-    "state_reason": null
+    "state_reason": null,
+    "pinned_comment": null
   },
   {
     "url": "https://api.github.com/repos/Expensify/App/issues/84434",
@@ -1428,7 +1631,8 @@
     },
     "timeline_url": "https://api.github.com/repos/Expensify/App/issues/84434/timeline",
     "performed_via_github_app": null,
-    "state_reason": null
+    "state_reason": null,
+    "pinned_comment": null
   },
   {
     "url": "https://api.github.com/repos/Expensify/App/issues/84427",
@@ -1602,7 +1806,8 @@
     },
     "timeline_url": "https://api.github.com/repos/Expensify/App/issues/84427/timeline",
     "performed_via_github_app": null,
-    "state_reason": null
+    "state_reason": null,
+    "pinned_comment": null
   },
   {
     "url": "https://api.github.com/repos/Expensify/App/issues/84419",
@@ -1776,7 +1981,8 @@
     },
     "timeline_url": "https://api.github.com/repos/Expensify/App/issues/84419/timeline",
     "performed_via_github_app": null,
-    "state_reason": null
+    "state_reason": null,
+    "pinned_comment": null
   },
   {
     "url": "https://api.github.com/repos/Expensify/App/issues/84417",
@@ -1950,7 +2156,8 @@
     },
     "timeline_url": "https://api.github.com/repos/Expensify/App/issues/84417/timeline",
     "performed_via_github_app": null,
-    "state_reason": null
+    "state_reason": null,
+    "pinned_comment": null
   },
   {
     "url": "https://api.github.com/repos/Expensify/App/issues/84401",
@@ -2133,7 +2340,8 @@
     },
     "timeline_url": "https://api.github.com/repos/Expensify/App/issues/84401/timeline",
     "performed_via_github_app": null,
-    "state_reason": null
+    "state_reason": null,
+    "pinned_comment": null
   },
   {
     "url": "https://api.github.com/repos/Expensify/App/issues/84393",
@@ -2337,7 +2545,8 @@
     },
     "timeline_url": "https://api.github.com/repos/Expensify/App/issues/84393/timeline",
     "performed_via_github_app": null,
-    "state_reason": null
+    "state_reason": null,
+    "pinned_comment": null
   },
   {
     "url": "https://api.github.com/repos/Expensify/App/issues/84383",
@@ -2481,180 +2690,7 @@
     },
     "timeline_url": "https://api.github.com/repos/Expensify/App/issues/84383/timeline",
     "performed_via_github_app": null,
-    "state_reason": null
-  },
-  {
-    "url": "https://api.github.com/repos/Expensify/App/issues/84379",
-    "repository_url": "https://api.github.com/repos/Expensify/App",
-    "labels_url": "https://api.github.com/repos/Expensify/App/issues/84379/labels{/name}",
-    "comments_url": "https://api.github.com/repos/Expensify/App/issues/84379/comments",
-    "events_url": "https://api.github.com/repos/Expensify/App/issues/84379/events",
-    "html_url": "https://github.com/Expensify/App/issues/84379",
-    "id": 4033111596,
-    "node_id": "I_kwDOEQqHYc7wZGYs",
-    "number": 84379,
-    "title": "[$250] Workflow - Members with existing approval workflow appear in new approval flow",
-    "user": {
-      "login": "jponikarchuk",
-      "id": 141990088,
-      "node_id": "U_kgDOCHaYyA",
-      "avatar_url": "https://avatars.githubusercontent.com/u/141990088?v=4",
-      "gravatar_id": "",
-      "url": "https://api.github.com/users/jponikarchuk",
-      "html_url": "https://github.com/jponikarchuk",
-      "followers_url": "https://api.github.com/users/jponikarchuk/followers",
-      "following_url": "https://api.github.com/users/jponikarchuk/following{/other_user}",
-      "gists_url": "https://api.github.com/users/jponikarchuk/gists{/gist_id}",
-      "starred_url": "https://api.github.com/users/jponikarchuk/starred{/owner}{/repo}",
-      "subscriptions_url": "https://api.github.com/users/jponikarchuk/subscriptions",
-      "organizations_url": "https://api.github.com/users/jponikarchuk/orgs",
-      "repos_url": "https://api.github.com/users/jponikarchuk/repos",
-      "events_url": "https://api.github.com/users/jponikarchuk/events{/privacy}",
-      "received_events_url": "https://api.github.com/users/jponikarchuk/received_events",
-      "type": "User",
-      "user_view_type": "public",
-      "site_admin": false
-    },
-    "labels": [
-      {
-        "id": 2873246102,
-        "node_id": "MDU6TGFiZWwyODczMjQ2MTAy",
-        "url": "https://api.github.com/repos/Expensify/App/labels/External",
-        "name": "External",
-        "color": "a7b8ef",
-        "default": false,
-        "description": "Added to denote the issue can be worked on by a contributor"
-      },
-      {
-        "id": 2893455829,
-        "node_id": "MDU6TGFiZWwyODkzNDU1ODI5",
-        "url": "https://api.github.com/repos/Expensify/App/labels/Daily",
-        "name": "Daily",
-        "color": "eb6420",
-        "default": false,
-        "description": "KSv2"
-      },
-      {
-        "id": 3136662525,
-        "node_id": "MDU6TGFiZWwzMTM2NjYyNTI1",
-        "url": "https://api.github.com/repos/Expensify/App/labels/Help%20Wanted",
-        "name": "Help Wanted",
-        "color": "CFC8F1",
-        "default": false,
-        "description": "Apply this label when an issue is open to proposals by contributors"
-      },
-      {
-        "id": 4664850679,
-        "node_id": "LA_kwDOEQqHYc8AAAABFgv49w",
-        "url": "https://api.github.com/repos/Expensify/App/labels/Bug",
-        "name": "Bug",
-        "color": "93074F",
-        "default": false,
-        "description": "Something is broken. Auto assigns a BugZero manager."
-      }
-    ],
-    "state": "open",
-    "locked": false,
-    "assignees": [
-      {
-        "login": "eVoloshchak",
-        "id": 9059945,
-        "node_id": "MDQ6VXNlcjkwNTk5NDU=",
-        "avatar_url": "https://avatars.githubusercontent.com/u/9059945?v=4",
-        "gravatar_id": "",
-        "url": "https://api.github.com/users/eVoloshchak",
-        "html_url": "https://github.com/eVoloshchak",
-        "followers_url": "https://api.github.com/users/eVoloshchak/followers",
-        "following_url": "https://api.github.com/users/eVoloshchak/following{/other_user}",
-        "gists_url": "https://api.github.com/users/eVoloshchak/gists{/gist_id}",
-        "starred_url": "https://api.github.com/users/eVoloshchak/starred{/owner}{/repo}",
-        "subscriptions_url": "https://api.github.com/users/eVoloshchak/subscriptions",
-        "organizations_url": "https://api.github.com/users/eVoloshchak/orgs",
-        "repos_url": "https://api.github.com/users/eVoloshchak/repos",
-        "events_url": "https://api.github.com/users/eVoloshchak/events{/privacy}",
-        "received_events_url": "https://api.github.com/users/eVoloshchak/received_events",
-        "type": "User",
-        "user_view_type": "public",
-        "site_admin": false
-      },
-      {
-        "login": "brianlee-expensify",
-        "id": 222075006,
-        "node_id": "U_kgDODTyYfg",
-        "avatar_url": "https://avatars.githubusercontent.com/u/222075006?v=4",
-        "gravatar_id": "",
-        "url": "https://api.github.com/users/brianlee-expensify",
-        "html_url": "https://github.com/brianlee-expensify",
-        "followers_url": "https://api.github.com/users/brianlee-expensify/followers",
-        "following_url": "https://api.github.com/users/brianlee-expensify/following{/other_user}",
-        "gists_url": "https://api.github.com/users/brianlee-expensify/gists{/gist_id}",
-        "starred_url": "https://api.github.com/users/brianlee-expensify/starred{/owner}{/repo}",
-        "subscriptions_url": "https://api.github.com/users/brianlee-expensify/subscriptions",
-        "organizations_url": "https://api.github.com/users/brianlee-expensify/orgs",
-        "repos_url": "https://api.github.com/users/brianlee-expensify/repos",
-        "events_url": "https://api.github.com/users/brianlee-expensify/events{/privacy}",
-        "received_events_url": "https://api.github.com/users/brianlee-expensify/received_events",
-        "type": "User",
-        "user_view_type": "public",
-        "site_admin": false
-      }
-    ],
-    "milestone": null,
-    "comments": 13,
-    "created_at": "2026-03-06T09:12:05Z",
-    "updated_at": "2026-03-06T10:59:29Z",
-    "closed_at": null,
-    "assignee": {
-      "login": "brianlee-expensify",
-      "id": 222075006,
-      "node_id": "U_kgDODTyYfg",
-      "avatar_url": "https://avatars.githubusercontent.com/u/222075006?v=4",
-      "gravatar_id": "",
-      "url": "https://api.github.com/users/brianlee-expensify",
-      "html_url": "https://github.com/brianlee-expensify",
-      "followers_url": "https://api.github.com/users/brianlee-expensify/followers",
-      "following_url": "https://api.github.com/users/brianlee-expensify/following{/other_user}",
-      "gists_url": "https://api.github.com/users/brianlee-expensify/gists{/gist_id}",
-      "starred_url": "https://api.github.com/users/brianlee-expensify/starred{/owner}{/repo}",
-      "subscriptions_url": "https://api.github.com/users/brianlee-expensify/subscriptions",
-      "organizations_url": "https://api.github.com/users/brianlee-expensify/orgs",
-      "repos_url": "https://api.github.com/users/brianlee-expensify/repos",
-      "events_url": "https://api.github.com/users/brianlee-expensify/events{/privacy}",
-      "received_events_url": "https://api.github.com/users/brianlee-expensify/received_events",
-      "type": "User",
-      "user_view_type": "public",
-      "site_admin": false
-    },
-    "author_association": "NONE",
-    "type": null,
-    "active_lock_reason": null,
-    "sub_issues_summary": {
-      "total": 0,
-      "completed": 0,
-      "percent_completed": 0
-    },
-    "issue_dependencies_summary": {
-      "blocked_by": 0,
-      "total_blocked_by": 0,
-      "blocking": 0,
-      "total_blocking": 0
-    },
-    "body": "If you haven’t already, check out our [contributing guidelines](https://github.com/Expensify/ReactNativeChat/blob/main/contributingGuides/CONTRIBUTING.md) for onboarding and email contributors@expensify.com to request to join our Slack channel!\n___\n\n**Version Number:** v9.3.32-0\n**Reproducible in staging?:** Yes\n**Reproducible in production?:** Yes\n**If this was caught during regression testing, add the test name, ID and link from BrowserStack:** https://test-management.browserstack.com/projects/2219752/test-runs/TR-7762/folder/13176709/41236912/1232117774?sort=%2Bidentifier\n**Email or phone of affected tester (no customers):** N/A\n**Issue reported by:** Applause Internal Team\n**Bug source:** Regression TC Execution\n**Device used:** Windows 11/ Chrome\n**App Component:** Workspace Settings\n\n## Action Performed:\nPre-requisite: \nUser has a control workspace with 3 or more member in the workspace.\n\nSteps:\n1. sign in to staging.new.expensify.com with an account that fulfils the pre-requisite above\n2. Navigate to Workspace > Workspace settings > Workflows\n3. Enable approvals (If not enabled)\n4. Click on add approvals\n5. Select 1 or 2 members in the \"Expenses from\" RHP and click Next\n6. Add approver and finish the flow\n7. Click on add approvals again\n\n## Expected Result:\nMembers from step 5 should not be displayed as a workflow already exists for the members.\n\n## Actual Result:\nMembers with an existing approvals flow are displayed in the \"Expenses from\" RHP when adding a new approval.\n\n## Workaround:\nUnknown\n\n## Platforms:\n- [x] Android: App\n- [ ] Android: mWeb Chrome\n- [ ] iOS: App\n- [ ] iOS: mWeb Safari\n- [ ] iOS: mWeb Chrome\n- [x] Windows: Chrome\n- [ ] MacOS: Chrome / Safari\n\n## Screenshots/Videos\n\nhttps://github.com/user-attachments/assets/cb48a2a1-ac2b-4abd-af14-93a6e7bd1921\n\n[View all open jobs on GitHub](https://github.com/Expensify/App/issues?q=is%3Aopen+is%3Aissue+label%3A%22Help+Wanted%22)\n\n<details><summary>Issue Owner</summary>Current Issue Owner: @eVoloshchak</details>\n<details><summary>Upwork Automation - Do Not Edit</summary>\n    <ul>\n        <li>Upwork Job URL: https://www.upwork.com/jobs/~022029848713770960608</li>\n        <li>Upwork Job ID: 2029848713770960608</li>\n        <li>Last Price Increase: 2026-03-06</li>\n    </ul>\n</details>",
-    "closed_by": null,
-    "reactions": {
-      "url": "https://api.github.com/repos/Expensify/App/issues/84379/reactions",
-      "total_count": 0,
-      "+1": 0,
-      "-1": 0,
-      "laugh": 0,
-      "hooray": 0,
-      "confused": 0,
-      "heart": 0,
-      "rocket": 0,
-      "eyes": 0
-    },
-    "timeline_url": "https://api.github.com/repos/Expensify/App/issues/84379/timeline",
-    "performed_via_github_app": null,
-    "state_reason": null
+    "state_reason": null,
+    "pinned_comment": null
   }
 ]
