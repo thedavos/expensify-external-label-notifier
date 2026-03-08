@@ -201,7 +201,8 @@
     },
     "timeline_url": "https://api.github.com/repos/Expensify/App/issues/84496/timeline",
     "performed_via_github_app": null,
-    "state_reason": null
+    "state_reason": null,
+    "pinned_comment": null
   },
   {
     "url": "https://api.github.com/repos/Expensify/App/issues/84492",
@@ -375,7 +376,8 @@
     },
     "timeline_url": "https://api.github.com/repos/Expensify/App/issues/84492/timeline",
     "performed_via_github_app": null,
-    "state_reason": null
+    "state_reason": null,
+    "pinned_comment": null
   },
   {
     "url": "https://api.github.com/repos/Expensify/App/issues/84490",
@@ -549,7 +551,8 @@
     },
     "timeline_url": "https://api.github.com/repos/Expensify/App/issues/84490/timeline",
     "performed_via_github_app": null,
-    "state_reason": null
+    "state_reason": null,
+    "pinned_comment": null
   },
   {
     "url": "https://api.github.com/repos/Expensify/App/issues/84489",
@@ -723,7 +726,8 @@
     },
     "timeline_url": "https://api.github.com/repos/Expensify/App/issues/84489/timeline",
     "performed_via_github_app": null,
-    "state_reason": null
+    "state_reason": null,
+    "pinned_comment": null
   },
   {
     "url": "https://api.github.com/repos/Expensify/App/issues/84449",
@@ -897,7 +901,8 @@
     },
     "timeline_url": "https://api.github.com/repos/Expensify/App/issues/84449/timeline",
     "performed_via_github_app": null,
-    "state_reason": null
+    "state_reason": null,
+    "pinned_comment": null
   },
   {
     "url": "https://api.github.com/repos/Expensify/App/issues/84443",
@@ -1071,7 +1076,8 @@
     },
     "timeline_url": "https://api.github.com/repos/Expensify/App/issues/84443/timeline",
     "performed_via_github_app": null,
-    "state_reason": null
+    "state_reason": null,
+    "pinned_comment": null
   },
   {
     "url": "https://api.github.com/repos/Expensify/App/issues/84442",
@@ -1245,7 +1251,8 @@
     },
     "timeline_url": "https://api.github.com/repos/Expensify/App/issues/84442/timeline",
     "performed_via_github_app": null,
-    "state_reason": null
+    "state_reason": null,
+    "pinned_comment": null
   },
   {
     "url": "https://api.github.com/repos/Expensify/App/issues/84436",
@@ -1419,7 +1426,8 @@
     },
     "timeline_url": "https://api.github.com/repos/Expensify/App/issues/84436/timeline",
     "performed_via_github_app": null,
-    "state_reason": null
+    "state_reason": null,
+    "pinned_comment": null
   },
   {
     "url": "https://api.github.com/repos/Expensify/App/issues/84434",
@@ -1632,7 +1640,8 @@
     },
     "timeline_url": "https://api.github.com/repos/Expensify/App/issues/84434/timeline",
     "performed_via_github_app": null,
-    "state_reason": null
+    "state_reason": null,
+    "pinned_comment": null
   },
   {
     "url": "https://api.github.com/repos/Expensify/App/issues/84427",
@@ -1806,7 +1815,8 @@
     },
     "timeline_url": "https://api.github.com/repos/Expensify/App/issues/84427/timeline",
     "performed_via_github_app": null,
-    "state_reason": null
+    "state_reason": null,
+    "pinned_comment": null
   },
   {
     "url": "https://api.github.com/repos/Expensify/App/issues/84419",
@@ -1980,7 +1990,8 @@
     },
     "timeline_url": "https://api.github.com/repos/Expensify/App/issues/84419/timeline",
     "performed_via_github_app": null,
-    "state_reason": null
+    "state_reason": null,
+    "pinned_comment": null
   },
   {
     "url": "https://api.github.com/repos/Expensify/App/issues/84417",
@@ -2154,7 +2165,8 @@
     },
     "timeline_url": "https://api.github.com/repos/Expensify/App/issues/84417/timeline",
     "performed_via_github_app": null,
-    "state_reason": null
+    "state_reason": null,
+    "pinned_comment": null
   },
   {
     "url": "https://api.github.com/repos/Expensify/App/issues/84401",
@@ -2337,6 +2349,7 @@
     },
     "timeline_url": "https://api.github.com/repos/Expensify/App/issues/84401/timeline",
     "performed_via_github_app": null,
-    "state_reason": null
+    "state_reason": null,
+    "pinned_comment": null
   }
 ]
