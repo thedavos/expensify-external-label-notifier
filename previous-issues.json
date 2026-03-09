@@ -1,5 +1,180 @@
 [
   {
+    "url": "https://api.github.com/repos/Expensify/App/issues/84587",
+    "repository_url": "https://api.github.com/repos/Expensify/App",
+    "labels_url": "https://api.github.com/repos/Expensify/App/issues/84587/labels{/name}",
+    "comments_url": "https://api.github.com/repos/Expensify/App/issues/84587/comments",
+    "events_url": "https://api.github.com/repos/Expensify/App/issues/84587/events",
+    "html_url": "https://github.com/Expensify/App/issues/84587",
+    "id": 4045235789,
+    "node_id": "I_kwDOEQqHYc7xHWZN",
+    "number": 84587,
+    "title": "[$250] Newly created account not appearing in HubSpot",
+    "user": {
+      "login": "nlemma",
+      "id": 161635172,
+      "node_id": "U_kgDOCaJbZA",
+      "avatar_url": "https://avatars.githubusercontent.com/u/161635172?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/nlemma",
+      "html_url": "https://github.com/nlemma",
+      "followers_url": "https://api.github.com/users/nlemma/followers",
+      "following_url": "https://api.github.com/users/nlemma/following{/other_user}",
+      "gists_url": "https://api.github.com/users/nlemma/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/nlemma/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/nlemma/subscriptions",
+      "organizations_url": "https://api.github.com/users/nlemma/orgs",
+      "repos_url": "https://api.github.com/users/nlemma/repos",
+      "events_url": "https://api.github.com/users/nlemma/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/nlemma/received_events",
+      "type": "User",
+      "user_view_type": "public",
+      "site_admin": false
+    },
+    "labels": [
+      {
+        "id": 2873246102,
+        "node_id": "MDU6TGFiZWwyODczMjQ2MTAy",
+        "url": "https://api.github.com/repos/Expensify/App/labels/External",
+        "name": "External",
+        "color": "a7b8ef",
+        "default": false,
+        "description": "Added to denote the issue can be worked on by a contributor"
+      },
+      {
+        "id": 2893455829,
+        "node_id": "MDU6TGFiZWwyODkzNDU1ODI5",
+        "url": "https://api.github.com/repos/Expensify/App/labels/Daily",
+        "name": "Daily",
+        "color": "eb6420",
+        "default": false,
+        "description": "KSv2"
+      },
+      {
+        "id": 3136662525,
+        "node_id": "MDU6TGFiZWwzMTM2NjYyNTI1",
+        "url": "https://api.github.com/repos/Expensify/App/labels/Help%20Wanted",
+        "name": "Help Wanted",
+        "color": "CFC8F1",
+        "default": false,
+        "description": "Apply this label when an issue is open to proposals by contributors"
+      },
+      {
+        "id": 4664850679,
+        "node_id": "LA_kwDOEQqHYc8AAAABFgv49w",
+        "url": "https://api.github.com/repos/Expensify/App/labels/Bug",
+        "name": "Bug",
+        "color": "93074F",
+        "default": false,
+        "description": "Something is broken. Auto assigns a BugZero manager."
+      }
+    ],
+    "state": "open",
+    "locked": false,
+    "assignees": [
+      {
+        "login": "garrettmknight",
+        "id": 1529980,
+        "node_id": "MDQ6VXNlcjE1Mjk5ODA=",
+        "avatar_url": "https://avatars.githubusercontent.com/u/1529980?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/garrettmknight",
+        "html_url": "https://github.com/garrettmknight",
+        "followers_url": "https://api.github.com/users/garrettmknight/followers",
+        "following_url": "https://api.github.com/users/garrettmknight/following{/other_user}",
+        "gists_url": "https://api.github.com/users/garrettmknight/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/garrettmknight/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/garrettmknight/subscriptions",
+        "organizations_url": "https://api.github.com/users/garrettmknight/orgs",
+        "repos_url": "https://api.github.com/users/garrettmknight/repos",
+        "events_url": "https://api.github.com/users/garrettmknight/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/garrettmknight/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      {
+        "login": "ChavdaSachin",
+        "id": 81917707,
+        "node_id": "MDQ6VXNlcjgxOTE3NzA3",
+        "avatar_url": "https://avatars.githubusercontent.com/u/81917707?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/ChavdaSachin",
+        "html_url": "https://github.com/ChavdaSachin",
+        "followers_url": "https://api.github.com/users/ChavdaSachin/followers",
+        "following_url": "https://api.github.com/users/ChavdaSachin/following{/other_user}",
+        "gists_url": "https://api.github.com/users/ChavdaSachin/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/ChavdaSachin/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/ChavdaSachin/subscriptions",
+        "organizations_url": "https://api.github.com/users/ChavdaSachin/orgs",
+        "repos_url": "https://api.github.com/users/ChavdaSachin/repos",
+        "events_url": "https://api.github.com/users/ChavdaSachin/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/ChavdaSachin/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      }
+    ],
+    "milestone": null,
+    "comments": 4,
+    "created_at": "2026-03-09T12:11:47Z",
+    "updated_at": "2026-03-09T12:22:29Z",
+    "closed_at": null,
+    "assignee": {
+      "login": "garrettmknight",
+      "id": 1529980,
+      "node_id": "MDQ6VXNlcjE1Mjk5ODA=",
+      "avatar_url": "https://avatars.githubusercontent.com/u/1529980?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/garrettmknight",
+      "html_url": "https://github.com/garrettmknight",
+      "followers_url": "https://api.github.com/users/garrettmknight/followers",
+      "following_url": "https://api.github.com/users/garrettmknight/following{/other_user}",
+      "gists_url": "https://api.github.com/users/garrettmknight/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/garrettmknight/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/garrettmknight/subscriptions",
+      "organizations_url": "https://api.github.com/users/garrettmknight/orgs",
+      "repos_url": "https://api.github.com/users/garrettmknight/repos",
+      "events_url": "https://api.github.com/users/garrettmknight/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/garrettmknight/received_events",
+      "type": "User",
+      "user_view_type": "public",
+      "site_admin": false
+    },
+    "author_association": "NONE",
+    "type": null,
+    "active_lock_reason": null,
+    "sub_issues_summary": {
+      "total": 0,
+      "completed": 0,
+      "percent_completed": 0
+    },
+    "issue_dependencies_summary": {
+      "blocked_by": 0,
+      "total_blocked_by": 0,
+      "blocking": 0,
+      "total_blocking": 0
+    },
+    "body": "If you haven’t already, check out our [contributing guidelines](https://github.com/Expensify/ReactNativeChat/blob/main/contributingGuides/CONTRIBUTING.md) for onboarding and email contributors@expensify.com to request to join our Slack channel!\n___\n\n**Version Number:** v9.3.33-1\n**Reproducible in staging?:** Yes\n**Reproducible in production?:** Yes\n**If this was caught during regression testing, add the test name, ID and link from BrowserStack:** https://test-management.browserstack.com/projects/2219752/test-runs/TR-7842/folder/13176690/41236736/1234373111?sort=%2Bidentifier\n**Email or phone of affected tester (no customers):** applausetester.hubspot_test112@applause.expensify.com\n**Issue reported by:** Applause Internal Team\n**Bug source:** Regression TC Execution\n**Device used:** Web\n**App Component:** Other\n\n## Action Performed:\n1. Go to to NewDot\n2. In the email box - Enter an email with the following format: applausetester.hubspot_[anything]@applause.expensify.com (e.g: applausetester.hubspot_igtest@applause.expensify.com)\n3. Select the \"Manage a small team (1-10)\" option\n4. Select \"Xero\" and create account\n5. Navigate to Hubspot.com\n6. Log in with applausetester@applause.expensifail.com \n7. Search for the account you logged in with - Should be displayed as a contact\n8. Open the contact profile\n9. Verify the account displayed in contact profile\n\n## Expected Result:\nThe newly created account should displayed in HubSpot.\n\n## Actual Result:\nThe newly created account does not appear in HubSpot.\n\n## Workaround:\nUnknown\n\n## Platforms:\n- [ ] Android: App\n- [ ] Android: mWeb Chrome\n- [ ] iOS: App\n- [ ] iOS: mWeb Safari\n- [ ] iOS: mWeb Chrome\n- [x] Windows: Chrome\n- [x] MacOS: Chrome / Safari\n\n## Screenshots/Videos\n\nhttps://github.com/user-attachments/assets/dd47917b-b441-4731-b370-5445b227e17f\n\n[View all open jobs on GitHub](https://github.com/Expensify/App/issues?q=is%3Aopen+is%3Aissue+label%3A%22Help+Wanted%22)\n\n<details><summary>Issue Owner</summary>Current Issue Owner: @ChavdaSachin</details>\n<details><summary>Upwork Automation - Do Not Edit</summary>\n    <ul>\n        <li>Upwork Job URL: https://www.upwork.com/jobs/~022030982546750198096</li>\n        <li>Upwork Job ID: 2030982546750198096</li>\n        <li>Last Price Increase: 2026-03-09</li>\n    </ul>\n</details>",
+    "closed_by": null,
+    "reactions": {
+      "url": "https://api.github.com/repos/Expensify/App/issues/84587/reactions",
+      "total_count": 0,
+      "+1": 0,
+      "-1": 0,
+      "laugh": 0,
+      "hooray": 0,
+      "confused": 0,
+      "heart": 0,
+      "rocket": 0,
+      "eyes": 0
+    },
+    "timeline_url": "https://api.github.com/repos/Expensify/App/issues/84587/timeline",
+    "performed_via_github_app": null,
+    "state_reason": null,
+    "pinned_comment": null
+  },
+  {
     "url": "https://api.github.com/repos/Expensify/App/issues/84555",
     "repository_url": "https://api.github.com/repos/Expensify/App",
     "labels_url": "https://api.github.com/repos/Expensify/App/issues/84555/labels{/name}",
@@ -51,13 +226,13 @@
         "description": "KSv2"
       },
       {
-        "id": 3136662525,
-        "node_id": "MDU6TGFiZWwzMTM2NjYyNTI1",
-        "url": "https://api.github.com/repos/Expensify/App/labels/Help%20Wanted",
-        "name": "Help Wanted",
-        "color": "CFC8F1",
+        "id": 3033600822,
+        "node_id": "MDU6TGFiZWwzMDMzNjAwODIy",
+        "url": "https://api.github.com/repos/Expensify/App/labels/Needs%20Reproduction",
+        "name": "Needs Reproduction",
+        "color": "5319e7",
         "default": false,
-        "description": "Apply this label when an issue is open to proposals by contributors"
+        "description": "Reproducible steps needed"
       },
       {
         "id": 4664850679,
@@ -116,9 +291,9 @@
       }
     ],
     "milestone": null,
-    "comments": 5,
+    "comments": 15,
     "created_at": "2026-03-09T10:43:51Z",
-    "updated_at": "2026-03-09T11:30:48Z",
+    "updated_at": "2026-03-09T12:56:37Z",
     "closed_at": null,
     "assignee": {
       "login": "lydiabarclay",
@@ -291,9 +466,9 @@
       }
     ],
     "milestone": null,
-    "comments": 17,
+    "comments": 19,
     "created_at": "2026-03-09T07:23:39Z",
-    "updated_at": "2026-03-09T10:29:17Z",
+    "updated_at": "2026-03-09T12:14:26Z",
     "closed_at": null,
     "assignee": {
       "login": "dylanexpensify",
@@ -496,9 +671,9 @@
       }
     ],
     "milestone": null,
-    "comments": 22,
+    "comments": 24,
     "created_at": "2026-03-07T12:49:59Z",
-    "updated_at": "2026-03-09T10:20:15Z",
+    "updated_at": "2026-03-09T12:40:09Z",
     "closed_at": null,
     "assignee": {
       "login": "JmillsExpensify",
@@ -790,6 +965,15 @@
         "description": "Apply this label when an issue is open to proposals by contributors"
       },
       {
+        "id": 3184150925,
+        "node_id": "MDU6TGFiZWwzMTg0MTUwOTI1",
+        "url": "https://api.github.com/repos/Expensify/App/labels/Overdue",
+        "name": "Overdue",
+        "color": "D93F0B",
+        "default": false,
+        "description": ""
+      },
+      {
         "id": 4664850679,
         "node_id": "LA_kwDOEQqHYc8AAAABFgv49w",
         "url": "https://api.github.com/repos/Expensify/App/labels/Bug",
@@ -846,9 +1030,9 @@
       }
     ],
     "milestone": null,
-    "comments": 12,
+    "comments": 13,
     "created_at": "2026-03-07T11:29:46Z",
-    "updated_at": "2026-03-09T10:20:17Z",
+    "updated_at": "2026-03-09T12:13:30Z",
     "closed_at": null,
     "assignee": {
       "login": "JmillsExpensify",
@@ -1021,9 +1205,9 @@
       }
     ],
     "milestone": null,
-    "comments": 19,
+    "comments": 20,
     "created_at": "2026-03-07T11:10:49Z",
-    "updated_at": "2026-03-09T10:41:20Z",
+    "updated_at": "2026-03-09T12:13:31Z",
     "closed_at": null,
     "assignee": {
       "login": "RachCHopkins",
