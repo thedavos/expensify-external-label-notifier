@@ -291,9 +291,9 @@
       }
     ],
     "milestone": null,
-    "comments": 5,
+    "comments": 9,
     "created_at": "2026-03-09T21:02:03Z",
-    "updated_at": "2026-03-09T22:19:52Z",
+    "updated_at": "2026-03-09T22:56:53Z",
     "closed_at": null,
     "assignee": {
       "login": "brianlee-expensify",
@@ -330,7 +330,7 @@
       "blocking": 0,
       "total_blocking": 0
     },
-    "body": "If you haven’t already, check out our [contributing guidelines](https://github.com/Expensify/ReactNativeChat/blob/main/contributingGuides/CONTRIBUTING.md) for onboarding and email contributors@expensify.com to request to join our Slack channel!\n___\n\n**Version Number:** 9.3.33-5\n**Reproducible in staging?:** Y\n**Reproducible in production?:** Y\n**If this was caught during regression testing, add the test name, ID and link from BrowserStack:**\n**Email or phone of affected tester (no customers):**\n**Logs:** https://stackoverflow.com/c/expensify/questions/4856\n**Expensify/Expensify Issue URL:**\n**Issue reported by:** @puneetlath \n**Slack conversation** (hyperlinked to channel name): [#Expensify Bugs](https://expensify.slack.com/archives/C049HHMV9SM/p1772734153324959)\n\n## Action Performed:\n\n1. Add a workspace member as a non-admin Approver\n2. Ensure the workspace has more than 2 members \n3. Navigate to the Reports > Insights section as non-admin approver\n4. Look for the “Top Spenders” insight\n\n## Expected Result:\nThe “Top Spenders” insight should be visible to Approvers, since they review and approve expenses.\n## Actual Result:\nThe “Top Spenders” insight does not appear for the approver.\n## Workaround:\nUnknown\n## Platforms:\nSelect the officially supported platforms where the issue was reproduced:\n- [ ] Android: App\n- [ ] Android: mWeb Chrome\n- [ ] iOS: App\n- [ ] iOS: mWeb Safari\n- [ ] iOS: mWeb Chrome\n- [x] Windows: Chrome\n- [x] MacOS: Chrome / Safari\n\n## Screenshots/Videos\n\n<img width=\"806\" height=\"478\" alt=\"Image\" src=\"https://github.com/user-attachments/assets/ef0a1a24-4b28-4678-8992-cb26cd9fb270\" />\n\n\nhttps://github.com/user-attachments/assets/069d410b-88a0-4c38-936f-e0125fcb81fa\n\n[View all open jobs on GitHub](https://github.com/Expensify/App/issues?q=is%3Aopen+is%3Aissue+label%3A%22Help+Wanted%22)\n\n\n<details><summary>Issue Owner</summary>Current Issue Owner: @huult</details>\n<details><summary>Upwork Automation - Do Not Edit</summary>\n    <ul>\n        <li>Upwork Job URL: https://www.upwork.com/jobs/~022031115012093712717</li>\n        <li>Upwork Job ID: 2031115012093712717</li>\n        <li>Last Price Increase: 2026-03-09</li>\n    </ul>\n</details>",
+    "body": "If you haven’t already, check out our [contributing guidelines](https://github.com/Expensify/ReactNativeChat/blob/main/contributingGuides/CONTRIBUTING.md) for onboarding and email contributors@expensify.com to request to join our Slack channel!\n___\n\n**Version Number:** 9.3.33-5\n**Reproducible in staging?:** Y\n**Reproducible in production?:** Y\n**If this was caught during regression testing, add the test name, ID and link from BrowserStack:**\n**Email or phone of affected tester (no customers):**\n**Logs:** https://stackoverflow.com/c/expensify/questions/4856\n**Expensify/Expensify Issue URL:**\n**Issue reported by:** @puneetlath \n**Slack conversation** (hyperlinked to channel name): [#Expensify Bugs](https://expensify.slack.com/archives/C049HHMV9SM/p1772734153324959)\n\n## Action Performed:\n\n1. Add a workspace member as a non-admin Approver\n2. Ensure the workspace has more than 2 members \n3. Navigate to the Reports > Insights section as non-admin approver\n4. Look for the “Top Spenders” insight\n\n## Expected Result:\nThe ���Top Spenders” insight should be visible to Approvers, since they review and approve expenses.\n## Actual Result:\nThe “Top Spenders” insight does not appear for the approver.\n## Workaround:\nUnknown\n## Platforms:\nSelect the officially supported platforms where the issue was reproduced:\n- [ ] Android: App\n- [ ] Android: mWeb Chrome\n- [ ] iOS: App\n- [ ] iOS: mWeb Safari\n- [ ] iOS: mWeb Chrome\n- [x] Windows: Chrome\n- [x] MacOS: Chrome / Safari\n\n## Screenshots/Videos\n\n<img width=\"806\" height=\"478\" alt=\"Image\" src=\"https://github.com/user-attachments/assets/ef0a1a24-4b28-4678-8992-cb26cd9fb270\" />\n\n\nhttps://github.com/user-attachments/assets/069d410b-88a0-4c38-936f-e0125fcb81fa\n\n[View all open jobs on GitHub](https://github.com/Expensify/App/issues?q=is%3Aopen+is%3Aissue+label%3A%22Help+Wanted%22)\n\n\n<details><summary>Issue Owner</summary>Current Issue Owner: @huult</details>\n<details><summary>Upwork Automation - Do Not Edit</summary>\n    <ul>\n        <li>Upwork Job URL: https://www.upwork.com/jobs/~022031115012093712717</li>\n        <li>Upwork Job ID: 2031115012093712717</li>\n        <li>Last Price Increase: 2026-03-09</li>\n    </ul>\n</details>",
     "closed_by": null,
     "reactions": {
       "url": "https://api.github.com/repos/Expensify/App/issues/84635/reactions",
@@ -704,9 +704,9 @@
       }
     ],
     "milestone": null,
-    "comments": 9,
+    "comments": 10,
     "created_at": "2026-03-09T18:20:42Z",
-    "updated_at": "2026-03-09T21:50:12Z",
+    "updated_at": "2026-03-09T22:49:29Z",
     "closed_at": null,
     "assignee": {
       "login": "elirangoshen",
@@ -1230,9 +1230,9 @@
       }
     ],
     "milestone": null,
-    "comments": 4,
+    "comments": 6,
     "created_at": "2026-03-09T17:44:37Z",
-    "updated_at": "2026-03-09T17:50:15Z",
+    "updated_at": "2026-03-09T22:55:59Z",
     "closed_at": null,
     "assignee": {
       "login": "johncschuster",
