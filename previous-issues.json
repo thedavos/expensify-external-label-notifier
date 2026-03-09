@@ -116,9 +116,9 @@
       }
     ],
     "milestone": null,
-    "comments": 4,
+    "comments": 5,
     "created_at": "2026-03-09T21:19:14Z",
-    "updated_at": "2026-03-09T21:25:51Z",
+    "updated_at": "2026-03-09T22:24:18Z",
     "closed_at": null,
     "assignee": {
       "login": "mallenexpensify",
@@ -291,9 +291,9 @@
       }
     ],
     "milestone": null,
-    "comments": 4,
+    "comments": 5,
     "created_at": "2026-03-09T21:02:03Z",
-    "updated_at": "2026-03-09T21:08:51Z",
+    "updated_at": "2026-03-09T22:19:52Z",
     "closed_at": null,
     "assignee": {
       "login": "brianlee-expensify",
@@ -606,15 +606,6 @@
         "description": "KSv2"
       },
       {
-        "id": 3136662525,
-        "node_id": "MDU6TGFiZWwzMTM2NjYyNTI1",
-        "url": "https://api.github.com/repos/Expensify/App/labels/Help%20Wanted",
-        "name": "Help Wanted",
-        "color": "CFC8F1",
-        "default": false,
-        "description": "Apply this label when an issue is open to proposals by contributors"
-      },
-      {
         "id": 4664850679,
         "node_id": "LA_kwDOEQqHYc8AAAABFgv49w",
         "url": "https://api.github.com/repos/Expensify/App/labels/Bug",
@@ -713,9 +704,9 @@
       }
     ],
     "milestone": null,
-    "comments": 7,
+    "comments": 9,
     "created_at": "2026-03-09T18:20:42Z",
-    "updated_at": "2026-03-09T21:20:19Z",
+    "updated_at": "2026-03-09T21:50:12Z",
     "closed_at": null,
     "assignee": {
       "login": "elirangoshen",
@@ -753,7 +744,7 @@
       "blocking": 0,
       "total_blocking": 0
     },
-    "body": "# Proposal: Defer some non-critical Onyx subscriptions to after the splash screen hides\n\n## Background\nThe Expensify app uses Onyx, a custom key-value persistence layer built for offline-first functionality. When the app launches, Onyx reads data and delivers it to subscribers. The splash screen is shown during this initialization period and hides only when three conditions are satisfied: the navigation tree is ready, a public room check has completed, and the preferred locale has loaded from storage. `Expensify.tsx` is the root component of the application — the moment it is imported by the module system, every file it statically imports is also evaluated, including files whose sole purpose is to register Onyx collection subscriptions.\n\n## Problem\nWhen the app starts cold, if Onyx processes non-critical full-collection subscriptions alongside the reads that gate the splash screen, the splash takes longer to hide than the critical path alone would require.\n\nFour modules — `UnreadIndicatorUpdater`, `replaceOptimisticReportWithActualReport`, `registerPaginationConfig`, and `subscribeToPushNotifications` — immediately register 13 Onyx subscriptions at module load time, including full `COLLECTION.REPORT`, `COLLECTION.REPORT_ACTIONS`, `COLLECTION.REPORT_NAME_VALUE_PAIRS`, and `COLLECTION.REPORT_ACTIONS_PAGES` reads with `waitForCollectionCallback: true`, that compete with the critical-path reads gating the splash screen.\n\n## Solution\n\n1. Remove the static imports of these four modules from `Expensify.tsx`\n2. Add a `useEffect` to `SplashScreenStateContext` that dynamically imports those modules. `useEffect` is appropriate precisely because this is a side-effect of the state transition.\n\n```diff\ndiff --git a/src/SplashScreenStateContext.tsx b/src/SplashScreenStateContext.tsx\nindex 39b8db625b6..3be02c7f7fa 100644\n--- a/src/SplashScreenStateContext.tsx\n+++ b/src/SplashScreenStateContext.tsx\n@@ -1,4 +1,4 @@\n-import React, {useContext, useState} from 'react';\n+import React, {useContext, useEffect, useState} from 'react';\n import type {ValueOf} from 'type-fest';\n import CONST from './CONST';\n import type ChildrenProps from './types/utils/ChildrenProps';\n@@ -21,15 +21,26 @@ const SplashScreenActionsContext = React.createContext<SplashScreenActionsContex\n     setSplashScreenState: () => {},\n });\n \n+function loadPostSplashScreenModules() {\n+    import('./libs/actions/replaceOptimisticReportWithActualReport');\n+    import('./libs/Notification/PushNotification/subscribeToPushNotifications');\n+    import('./libs/registerPaginationConfig');\n+    import('./libs/UnreadIndicatorUpdater');\n+}\n+\n function SplashScreenStateContextProvider({children}: ChildrenProps) {\n     const [splashScreenState, setSplashScreenState] = useState<SplashScreenState>(CONST.BOOT_SPLASH_STATE.VISIBLE);\n \n-    // Because of the React Compiler we don't need to memoize it manually\n-    // eslint-disable-next-line react/jsx-no-constructed-context-values\n-    const stateValue = {splashScreenState};\n+    // Load post-splash-screen modules when the splash screen is hidden\n+    useEffect(() => {\n+        if (splashScreenState !== CONST.BOOT_SPLASH_STATE.HIDDEN) {\n+            return;\n+        }\n+        loadPostSplashScreenModules();\n+    }, [splashScreenState]);\n \n-    // Because of the React Compiler we don't need to memoize it manually\n-    // eslint-disable-next-line react/jsx-no-constructed-context-values\n+    // Because of the React Compiler we don't need to memoize these context values manually\n+    const stateValue = {splashScreenState};\n     const actionsValue = {setSplashScreenState};\n \n     return (\n```\n\nThis is safe because all collection subscriptions in these modules use `waitForCollectionCallback: true`, meaning Onyx delivers a complete snapshot of all currently stored data as the first callback when they subscribe — no incremental updates are missed regardless of when the modules load. The unread badge count (UnreadIndicatorUpdater) and pagination config (registerPaginationConfig) are invisible and unused while the splash is showing. The optimistic report replacement logic only activates on an API response containing a preexistingReportID, which cannot arrive before the splash hides on a cold start. Push notification handlers (subscribeToPushNotifications) use Navigation.waitForProtectedRoutes() internally, so they are already gated on navigation readiness. The deferral is driven entirely by the render tree — no `callbacks` or `requestAnimationFrame` wrappers are needed.\n\n<details><summary>Issue Owner</summary>Current Issue Owner: @jayeshmangwani</details>\n<details><summary>Upwork Automation - Do Not Edit</summary>\n    <ul>\n        <li>Upwork Job URL: https://www.upwork.com/jobs/~022031072748505234230</li>\n        <li>Upwork Job ID: 2031072748505234230</li>\n        <li>Last Price Increase: 2026-03-09</li>\n    </ul>\n</details>",
+    "body": "# Proposal: Defer some non-critical Onyx subscriptions to after the splash screen hides\n\n## Background\nThe Expensify app uses Onyx, a custom key-value persistence layer built for offline-first functionality. When the app launches, Onyx reads data and delivers it to subscribers. The splash screen is shown during this initialization period and hides only when three conditions are satisfied: the navigation tree is ready, a public room check has completed, and the preferred locale has loaded from storage. `Expensify.tsx` is the root component of the application — the moment it is imported by the module system, every file it statically imports is also evaluated, including files whose sole purpose is to register Onyx collection subscriptions.\n\n## Problem\nWhen the app starts cold, if Onyx processes non-critical full-collection subscriptions alongside the reads that gate the splash screen, the splash takes longer to hide than the critical path alone would require.\n\nFour modules — `UnreadIndicatorUpdater`, `replaceOptimisticReportWithActualReport`, `registerPaginationConfig`, and `subscribeToPushNotifications` — immediately register 13 Onyx subscriptions at module load time, including full `COLLECTION.REPORT`, `COLLECTION.REPORT_ACTIONS`, `COLLECTION.REPORT_NAME_VALUE_PAIRS`, and `COLLECTION.REPORT_ACTIONS_PAGES` reads with `waitForCollectionCallback: true`, that compete with the critical-path reads gating the splash screen.\n\n## Solution\n\n1. Remove the static imports of these four modules from `Expensify.tsx`\n2. Add a `useEffect` to `SplashScreenStateContext` that dynamically imports those modules. `useEffect` is appropriate precisely because this is a side-effect of the state transition.\n\n```diff\ndiff --git a/src/SplashScreenStateContext.tsx b/src/SplashScreenStateContext.tsx\nindex 39b8db625b6..3be02c7f7fa 100644\n--- a/src/SplashScreenStateContext.tsx\n+++ b/src/SplashScreenStateContext.tsx\n@@ -1,4 +1,4 @@\n-import React, {useContext, useState} from 'react';\n+import React, {useContext, useEffect, useState} from 'react';\n import type {ValueOf} from 'type-fest';\n import CONST from './CONST';\n import type ChildrenProps from './types/utils/ChildrenProps';\n@@ -21,15 +21,26 @@ const SplashScreenActionsContext = React.createContext<SplashScreenActionsContex\n     setSplashScreenState: () => {},\n });\n \n+function loadPostSplashScreenModules() {\n+    import('./libs/actions/replaceOptimisticReportWithActualReport');\n+    import('./libs/Notification/PushNotification/subscribeToPushNotifications');\n+    import('./libs/registerPaginationConfig');\n+    import('./libs/UnreadIndicatorUpdater');\n+}\n+\n function SplashScreenStateContextProvider({children}: ChildrenProps) {\n     const [splashScreenState, setSplashScreenState] = useState<SplashScreenState>(CONST.BOOT_SPLASH_STATE.VISIBLE);\n \n-    // Because of the React Compiler we don't need to memoize it manually\n-    // eslint-disable-next-line react/jsx-no-constructed-context-values\n-    const stateValue = {splashScreenState};\n+    // Load post-splash-screen modules when the splash screen is hidden\n+    useEffect(() => {\n+        if (splashScreenState !== CONST.BOOT_SPLASH_STATE.HIDDEN) {\n+            return;\n+        }\n+        loadPostSplashScreenModules();\n+    }, [splashScreenState]);\n \n-    // Because of the React Compiler we don't need to memoize it manually\n-    // eslint-disable-next-line react/jsx-no-constructed-context-values\n+    // Because of the React Compiler we don't need to memoize these context values manually\n+    const stateValue = {splashScreenState};\n     const actionsValue = {setSplashScreenState};\n \n     return (\n```\n\nThis is safe because all collection subscriptions in these modules use `waitForCollectionCallback: true`, meaning Onyx delivers a complete snapshot of all currently stored data as the first callback when they subscribe — no incremental updates are missed regardless of when the modules load. The unread badge count (UnreadIndicatorUpdater) and pagination config (registerPaginationConfig) are invisible and unused while the splash is showing. The optimistic report replacement logic only activates on an API response containing a preexistingReportID, which cannot arrive before the splash hides on a cold start. Push notification handlers (subscribeToPushNotifications) use Navigation.waitForProtectedRoutes() internally, so they are already gated on navigation readiness. The deferral is driven entirely by the render tree — no `callbacks` or `requestAnimationFrame` wrappers are needed.\n\n<details><summary>Issue Owner</summary>Current Issue Owner: @elirangoshen</details>\n<details><summary>Upwork Automation - Do Not Edit</summary>\n    <ul>\n        <li>Upwork Job URL: https://www.upwork.com/jobs/~022031072748505234230</li>\n        <li>Upwork Job ID: 2031072748505234230</li>\n        <li>Last Price Increase: 2026-03-09</li>\n    </ul>\n</details>",
     "closed_by": null,
     "reactions": {
       "url": "https://api.github.com/repos/Expensify/App/issues/84624/reactions",
