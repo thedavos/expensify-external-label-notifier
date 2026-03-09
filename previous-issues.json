@@ -1153,6 +1153,27 @@
     "locked": false,
     "assignees": [
       {
+        "login": "mollfpr",
+        "id": 25520267,
+        "node_id": "MDQ6VXNlcjI1NTIwMjY3",
+        "avatar_url": "https://avatars.githubusercontent.com/u/25520267?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/mollfpr",
+        "html_url": "https://github.com/mollfpr",
+        "followers_url": "https://api.github.com/users/mollfpr/followers",
+        "following_url": "https://api.github.com/users/mollfpr/following{/other_user}",
+        "gists_url": "https://api.github.com/users/mollfpr/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/mollfpr/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/mollfpr/subscriptions",
+        "organizations_url": "https://api.github.com/users/mollfpr/orgs",
+        "repos_url": "https://api.github.com/users/mollfpr/repos",
+        "events_url": "https://api.github.com/users/mollfpr/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/mollfpr/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      {
         "login": "stephanieelliott",
         "id": 31225194,
         "node_id": "MDQ6VXNlcjMxMjI1MTk0",
@@ -1196,9 +1217,9 @@
       }
     ],
     "milestone": null,
-    "comments": 6,
+    "comments": 8,
     "created_at": "2026-03-06T19:06:27Z",
-    "updated_at": "2026-03-06T22:36:08Z",
+    "updated_at": "2026-03-09T02:04:34Z",
     "closed_at": null,
     "assignee": {
       "login": "stephanieelliott",
@@ -1235,7 +1256,7 @@
       "blocking": 0,
       "total_blocking": 0
     },
-    "body": "If you haven’t already, check out our [contributing guidelines](https://github.com/Expensify/ReactNativeChat/blob/main/contributingGuides/CONTRIBUTING.md) for onboarding and email contributors@expensify.com to request to join our Slack channel!\n___\n\n**Version Number:** v9.3.32-2\n**Reproducible in staging?:** Yes\n**Reproducible in production?:** Yes\n**If this was caught during regression testing, add the test name, ID and link from BrowserStack:** https://test-management.browserstack.com/projects/2219752/folder/13176922/test-cases/48111055\n**Email or phone of affected tester (no customers):** N/A\n**Issue reported by:** Applause Internal Team\n**Bug source:** Regression TC Execution\n**Device used:** Windows 11 / Chrome, Android 13 / Xiaomi Poco F5, iOS 15.8.3 / iPhone 7 Plus\n**App Component:** Search\n\n## Action Performed:\n1. Create a few manual expenses\n2. Navigate to Reports\n3. Open the Advanced filters Right-Hand Panel (RHP)\n4. Try to find the Action filter\n\n## Expected Result:\nUI Action filters is available on the advance filter\n\n## Actual Result:\nUI Action filters is missing\nNote:\n- Action filter is available on the search suggestion\n\n## Workaround:\nUnknown\n\n## Platforms:\n- [ ] Android: App\n- [ ] Android: mWeb Chrome\n- [ ] iOS: App\n- [ ] iOS: mWeb Safari\n- [ ] iOS: mWeb Chrome\n- [x] Windows: Chrome\n- [ ] MacOS: Chrome / Safari\n\n## Screenshots/Videos\n\nhttps://github.com/user-attachments/assets/b689ae14-62d5-43e7-b6ef-24831133cdf7\n\n[View all open jobs on GitHub](https://github.com/Expensify/App/issues?q=is%3Aopen+is%3Aissue+label%3A%22Help+Wanted%22)\n\n<details><summary>Issue Owner</summary>Current Issue Owner: @eh2077</details>\n<details><summary>Upwork Automation - Do Not Edit</summary>\n    <ul>\n        <li>Upwork Job URL: https://www.upwork.com/jobs/~022029998286754851195</li>\n        <li>Upwork Job ID: 2029998286754851195</li>\n        <li>Last Price Increase: 2026-03-06</li>\n    </ul>\n</details>",
+    "body": "If you haven’t already, check out our [contributing guidelines](https://github.com/Expensify/ReactNativeChat/blob/main/contributingGuides/CONTRIBUTING.md) for onboarding and email contributors@expensify.com to request to join our Slack channel!\n___\n\n**Version Number:** v9.3.32-2\n**Reproducible in staging?:** Yes\n**Reproducible in production?:** Yes\n**If this was caught during regression testing, add the test name, ID and link from BrowserStack:** https://test-management.browserstack.com/projects/2219752/folder/13176922/test-cases/48111055\n**Email or phone of affected tester (no customers):** N/A\n**Issue reported by:** Applause Internal Team\n**Bug source:** Regression TC Execution\n**Device used:** Windows 11 / Chrome, Android 13 / Xiaomi Poco F5, iOS 15.8.3 / iPhone 7 Plus\n**App Component:** Search\n\n## Action Performed:\n1. Create a few manual expenses\n2. Navigate to Reports\n3. Open the Advanced filters Right-Hand Panel (RHP)\n4. Try to find the Action filter\n\n## Expected Result:\nUI Action filters is available on the advance filter\n\n## Actual Result:\nUI Action filters is missing\nNote:\n- Action filter is available on the search suggestion\n\n## Workaround:\nUnknown\n\n## Platforms:\n- [ ] Android: App\n- [ ] Android: mWeb Chrome\n- [ ] iOS: App\n- [ ] iOS: mWeb Safari\n- [ ] iOS: mWeb Chrome\n- [x] Windows: Chrome\n- [ ] MacOS: Chrome / Safari\n\n## Screenshots/Videos\n\nhttps://github.com/user-attachments/assets/b689ae14-62d5-43e7-b6ef-24831133cdf7\n\n[View all open jobs on GitHub](https://github.com/Expensify/App/issues?q=is%3Aopen+is%3Aissue+label%3A%22Help+Wanted%22)\n\n<details><summary>Issue Owner</summary>Current Issue Owner: @mollfpr</details>\n<details><summary>Upwork Automation - Do Not Edit</summary>\n    <ul>\n        <li>Upwork Job URL: https://www.upwork.com/jobs/~022029998286754851195</li>\n        <li>Upwork Job ID: 2029998286754851195</li>\n        <li>Last Price Increase: 2026-03-06</li>\n    </ul>\n</details>",
     "closed_by": null,
     "reactions": {
       "url": "https://api.github.com/repos/Expensify/App/issues/84442/reactions",
