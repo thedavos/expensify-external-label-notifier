@@ -116,9 +116,9 @@
       }
     ],
     "milestone": null,
-    "comments": 7,
+    "comments": 9,
     "created_at": "2026-03-10T21:58:58Z",
-    "updated_at": "2026-03-11T00:17:41Z",
+    "updated_at": "2026-03-11T05:14:31Z",
     "closed_at": null,
     "assignee": {
       "login": "CortneyOfstad",
@@ -520,9 +520,9 @@
       }
     ],
     "milestone": null,
-    "comments": 5,
+    "comments": 7,
     "created_at": "2026-03-10T21:30:42Z",
-    "updated_at": "2026-03-10T22:18:57Z",
+    "updated_at": "2026-03-11T05:20:23Z",
     "closed_at": null,
     "assignee": {
       "login": "RachCHopkins",
@@ -872,7 +872,7 @@
     "milestone": null,
     "comments": 8,
     "created_at": "2026-03-10T19:36:19Z",
-    "updated_at": "2026-03-11T04:26:40Z",
+    "updated_at": "2026-03-11T05:27:18Z",
     "closed_at": null,
     "assignee": {
       "login": "NicMendonca",
@@ -2104,9 +2104,9 @@
       }
     ],
     "milestone": null,
-    "comments": 6,
+    "comments": 7,
     "created_at": "2026-03-10T13:53:22Z",
-    "updated_at": "2026-03-10T14:24:30Z",
+    "updated_at": "2026-03-11T05:33:00Z",
     "closed_at": null,
     "assignee": {
       "login": "heyjennahay",
@@ -2411,6 +2411,27 @@
     "locked": false,
     "assignees": [
       {
+        "login": "dangrous",
+        "id": 5487802,
+        "node_id": "MDQ6VXNlcjU0ODc4MDI=",
+        "avatar_url": "https://avatars.githubusercontent.com/u/5487802?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/dangrous",
+        "html_url": "https://github.com/dangrous",
+        "followers_url": "https://api.github.com/users/dangrous/followers",
+        "following_url": "https://api.github.com/users/dangrous/following{/other_user}",
+        "gists_url": "https://api.github.com/users/dangrous/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/dangrous/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/dangrous/subscriptions",
+        "organizations_url": "https://api.github.com/users/dangrous/orgs",
+        "repos_url": "https://api.github.com/users/dangrous/repos",
+        "events_url": "https://api.github.com/users/dangrous/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/dangrous/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      {
         "login": "jliexpensify",
         "id": 30815269,
         "node_id": "MDQ6VXNlcjMwODE1MjY5",
@@ -2454,9 +2475,9 @@
       }
     ],
     "milestone": null,
-    "comments": 15,
+    "comments": 17,
     "created_at": "2026-03-10T12:23:34Z",
-    "updated_at": "2026-03-10T22:47:19Z",
+    "updated_at": "2026-03-11T04:56:44Z",
     "closed_at": null,
     "assignee": {
       "login": "jliexpensify",
@@ -2493,7 +2514,7 @@
       "blocking": 0,
       "total_blocking": 0
     },
-    "body": "If you haven’t already, check out our [contributing guidelines](https://github.com/Expensify/ReactNativeChat/blob/main/contributingGuides/CONTRIBUTING.md) for onboarding and email contributors@expensify.com to request to join our Slack channel!\n___\n\n**Version Number:** v9.3.34-0\n**Reproducible in staging?:** Yes\n**Reproducible in production?:** Yes\n**If this was caught during regression testing, add the test name, ID and link from BrowserStack:** https://test-management.browserstack.com/projects/2219752/test-runs/TR-8203/folder/13176681/41237000/1238926380\n**Email or phone of affected tester (no customers):** N/A\n**Issue reported by:** Applause Internal Team\n**Bug source:** Regression TC Execution\n**Device used:** Web\n**App Component:** Other\n\n## Action Performed:\n1. Go to any chat\n2. type @ in the compose box\n3. Press ESC key\n4. Try to keep typing in compose box\n\n## Expected Result:\nCompose box should remain focused after closing the suggestion list with ESC key.\n\n## Actual Result:\nUser has to click on the compose box to keep typing after closing the suggestion list with ESC key.\n\n## Workaround:\nUnknown\n\n## Platforms:\n- [ ] Android: App\n- [ ] Android: mWeb Chrome\n- [ ] iOS: App\n- [ ] iOS: mWeb Safari\n- [ ] iOS: mWeb Chrome\n- [x] Windows: Chrome\n- [ ] MacOS: Chrome / Safari\n\n## Screenshots/Videos\n\nhttps://github.com/user-attachments/assets/2f270a5d-dcfd-44d6-a83e-95f955756308\n\n[View all open jobs on GitHub](https://github.com/Expensify/App/issues?q=is%3Aopen+is%3Aissue+label%3A%22Help+Wanted%22)\n\n<details><summary>Issue Owner</summary>Current Issue Owner: @linhvovan29546</details>\n<details><summary>Upwork Automation - Do Not Edit</summary>\n    <ul>\n        <li>Upwork Job URL: https://www.upwork.com/jobs/~022031347825262773234</li>\n        <li>Upwork Job ID: 2031347825262773234</li>\n        <li>Last Price Increase: 2026-03-10</li>\n    </ul>\n</details>",
+    "body": "If you haven’t already, check out our [contributing guidelines](https://github.com/Expensify/ReactNativeChat/blob/main/contributingGuides/CONTRIBUTING.md) for onboarding and email contributors@expensify.com to request to join our Slack channel!\n___\n\n**Version Number:** v9.3.34-0\n**Reproducible in staging?:** Yes\n**Reproducible in production?:** Yes\n**If this was caught during regression testing, add the test name, ID and link from BrowserStack:** https://test-management.browserstack.com/projects/2219752/test-runs/TR-8203/folder/13176681/41237000/1238926380\n**Email or phone of affected tester (no customers):** N/A\n**Issue reported by:** Applause Internal Team\n**Bug source:** Regression TC Execution\n**Device used:** Web\n**App Component:** Other\n\n## Action Performed:\n1. Go to any chat\n2. type @ in the compose box\n3. Press ESC key\n4. Try to keep typing in compose box\n\n## Expected Result:\nCompose box should remain focused after closing the suggestion list with ESC key.\n\n## Actual Result:\nUser has to click on the compose box to keep typing after closing the suggestion list with ESC key.\n\n## Workaround:\nUnknown\n\n## Platforms:\n- [ ] Android: App\n- [ ] Android: mWeb Chrome\n- [ ] iOS: App\n- [ ] iOS: mWeb Safari\n- [ ] iOS: mWeb Chrome\n- [x] Windows: Chrome\n- [ ] MacOS: Chrome / Safari\n\n## Screenshots/Videos\n\nhttps://github.com/user-attachments/assets/2f270a5d-dcfd-44d6-a83e-95f955756308\n\n[View all open jobs on GitHub](https://github.com/Expensify/App/issues?q=is%3Aopen+is%3Aissue+label%3A%22Help+Wanted%22)\n\n<details><summary>Issue Owner</summary>Current Issue Owner: @dangrous</details>\n<details><summary>Upwork Automation - Do Not Edit</summary>\n    <ul>\n        <li>Upwork Job URL: https://www.upwork.com/jobs/~022031347825262773234</li>\n        <li>Upwork Job ID: 2031347825262773234</li>\n        <li>Last Price Increase: 2026-03-10</li>\n    </ul>\n</details>",
     "closed_by": null,
     "reactions": {
       "url": "https://api.github.com/repos/Expensify/App/issues/84737/reactions",
