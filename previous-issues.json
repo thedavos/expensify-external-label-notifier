@@ -466,9 +466,9 @@
       }
     ],
     "milestone": null,
-    "comments": 9,
+    "comments": 11,
     "created_at": "2026-03-10T21:58:58Z",
-    "updated_at": "2026-03-11T05:14:31Z",
+    "updated_at": "2026-03-11T08:26:06Z",
     "closed_at": null,
     "assignee": {
       "login": "CortneyOfstad",
@@ -695,9 +695,9 @@
       }
     ],
     "milestone": null,
-    "comments": 4,
+    "comments": 5,
     "created_at": "2026-03-10T21:39:27Z",
-    "updated_at": "2026-03-10T21:46:56Z",
+    "updated_at": "2026-03-11T08:29:29Z",
     "closed_at": null,
     "assignee": {
       "login": "joekaufmanexpensify",
@@ -1920,9 +1920,9 @@
       }
     ],
     "milestone": null,
-    "comments": 9,
+    "comments": 10,
     "created_at": "2026-03-10T14:59:52Z",
-    "updated_at": "2026-03-10T15:57:44Z",
+    "updated_at": "2026-03-11T07:47:41Z",
     "closed_at": null,
     "assignee": {
       "login": "lydiabarclay",
