@@ -95,9 +95,9 @@
       }
     ],
     "milestone": null,
-    "comments": 9,
+    "comments": 10,
     "created_at": "2026-03-12T00:14:26Z",
-    "updated_at": "2026-03-12T02:07:40Z",
+    "updated_at": "2026-03-12T06:21:42Z",
     "closed_at": null,
     "assignee": {
       "login": "linhvovan29546",
@@ -596,9 +596,9 @@
       }
     ],
     "milestone": null,
-    "comments": 8,
+    "comments": 10,
     "created_at": "2026-03-11T22:37:43Z",
-    "updated_at": "2026-03-12T02:12:52Z",
+    "updated_at": "2026-03-12T06:16:33Z",
     "closed_at": null,
     "assignee": {
       "login": "dubielzyk-expensify",
@@ -750,9 +750,9 @@
       }
     ],
     "milestone": null,
-    "comments": 8,
+    "comments": 9,
     "created_at": "2026-03-11T19:05:45Z",
-    "updated_at": "2026-03-12T01:34:29Z",
+    "updated_at": "2026-03-12T06:52:00Z",
     "closed_at": null,
     "assignee": {
       "login": "bernhardoj",
