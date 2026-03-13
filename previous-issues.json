@@ -258,9 +258,9 @@
       }
     ],
     "milestone": null,
-    "comments": 5,
+    "comments": 6,
     "created_at": "2026-03-12T20:19:13Z",
-    "updated_at": "2026-03-13T02:15:38Z",
+    "updated_at": "2026-03-13T07:24:04Z",
     "closed_at": null,
     "assignee": {
       "login": "brunovjk",
@@ -412,9 +412,9 @@
       }
     ],
     "milestone": null,
-    "comments": 5,
+    "comments": 7,
     "created_at": "2026-03-12T17:58:41Z",
-    "updated_at": "2026-03-12T19:07:41Z",
+    "updated_at": "2026-03-13T07:29:43Z",
     "closed_at": null,
     "assignee": {
       "login": "abdulrahuman5196",
@@ -566,9 +566,9 @@
       }
     ],
     "milestone": null,
-    "comments": 5,
+    "comments": 6,
     "created_at": "2026-03-12T17:52:17Z",
-    "updated_at": "2026-03-12T19:35:04Z",
+    "updated_at": "2026-03-13T07:38:25Z",
     "closed_at": null,
     "assignee": {
       "login": "ShridharGoel",
