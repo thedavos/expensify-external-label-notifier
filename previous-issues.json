@@ -1226,6 +1226,27 @@
     "locked": false,
     "assignees": [
       {
+        "login": "dangrous",
+        "id": 5487802,
+        "node_id": "MDQ6VXNlcjU0ODc4MDI=",
+        "avatar_url": "https://avatars.githubusercontent.com/u/5487802?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/dangrous",
+        "html_url": "https://github.com/dangrous",
+        "followers_url": "https://api.github.com/users/dangrous/followers",
+        "following_url": "https://api.github.com/users/dangrous/following{/other_user}",
+        "gists_url": "https://api.github.com/users/dangrous/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/dangrous/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/dangrous/subscriptions",
+        "organizations_url": "https://api.github.com/users/dangrous/orgs",
+        "repos_url": "https://api.github.com/users/dangrous/repos",
+        "events_url": "https://api.github.com/users/dangrous/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/dangrous/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      {
         "login": "ikevin127",
         "id": 56457735,
         "node_id": "MDQ6VXNlcjU2NDU3NzM1",
@@ -1248,9 +1269,9 @@
       }
     ],
     "milestone": null,
-    "comments": 7,
+    "comments": 9,
     "created_at": "2026-03-13T11:29:30Z",
-    "updated_at": "2026-03-14T19:21:29Z",
+    "updated_at": "2026-03-15T00:02:26Z",
     "closed_at": null,
     "assignee": {
       "login": "ikevin127",
@@ -1287,7 +1308,7 @@
       "blocking": 0,
       "total_blocking": 0
     },
-    "body": "If you haven’t already, check out our [contributing guidelines](https://github.com/Expensify/ReactNativeChat/blob/main/contributingGuides/CONTRIBUTING.md) for onboarding and email contributors@expensify.com to request to join our Slack channel!\n___\n\n**Version Number:** 9.3.37-0\n**Reproducible in staging?:** Yes\n**Reproducible in production?:** Yes\n**If this was caught during regression testing, add the test name, ID and link from BrowserStack:** https://github.com/Expensify/Expensify/issues/361404\n**Email or phone of affected tester (no customers):** N/A\n**Issue reported by:** Applause Internal Team\n**Bug source:** Regression TC Execution\n**Device used:** Windows Windows 11\n**App Component:** Other\n\n## Action Performed:\nPrecondition:\n- As user A, create a group chat with user B and user C, then create a task in the group without an assignee.\n\n1. As user B, go to the group and click on the checkbox of the task report without opening the task report\n2. Verify that the checkbox is disabled.\n3. Open the task report and go back\n4. Click on the checkbox of the task report to complete the task\n5. Verify that the task is completed\n\n## Expected Result:\nThe user should be able to complete the task via the checkbox after opening it and going back, even if not explicitly assigned.\n\n## Actual Result:\nA user who is not assigned to the task cannot complete it.\n\n## Workaround:\nUnknown\n\n## Platforms:\n- [ ] Android: App\n- [ ] Android: mWeb Chrome\n- [ ] iOS: App\n- [ ] iOS: mWeb Safari\n- [ ] iOS: mWeb Chrome\n- [x] Windows: Chrome\n- [x] MacOS: Chrome / Safari\n\n## Screenshots/Videos\n\nhttps://github.com/user-attachments/assets/c85f0989-4698-4f5a-baa9-6eee1a69c681\n\n[View all open jobs on GitHub](https://github.com/Expensify/App/issues?q=is%3Aopen+is%3Aissue+label%3A%22Help+Wanted%22)\n\n<details><summary>Issue Owner</summary>Current Issue Owner: @ikevin127</details>\n<details><summary>Upwork Automation - Do Not Edit</summary>\n    <ul>\n        <li>Upwork Job URL: https://www.upwork.com/jobs/~022032420834152542234</li>\n        <li>Upwork Job ID: 2032420834152542234</li>\n        <li>Last Price Increase: 2026-03-13</li>\n    </ul>\n</details>",
+    "body": "If you haven’t already, check out our [contributing guidelines](https://github.com/Expensify/ReactNativeChat/blob/main/contributingGuides/CONTRIBUTING.md) for onboarding and email contributors@expensify.com to request to join our Slack channel!\n___\n\n**Version Number:** 9.3.37-0\n**Reproducible in staging?:** Yes\n**Reproducible in production?:** Yes\n**If this was caught during regression testing, add the test name, ID and link from BrowserStack:** https://github.com/Expensify/Expensify/issues/361404\n**Email or phone of affected tester (no customers):** N/A\n**Issue reported by:** Applause Internal Team\n**Bug source:** Regression TC Execution\n**Device used:** Windows Windows 11\n**App Component:** Other\n\n## Action Performed:\nPrecondition:\n- As user A, create a group chat with user B and user C, then create a task in the group without an assignee.\n\n1. As user B, go to the group and click on the checkbox of the task report without opening the task report\n2. Verify that the checkbox is disabled.\n3. Open the task report and go back\n4. Click on the checkbox of the task report to complete the task\n5. Verify that the task is completed\n\n## Expected Result:\nThe user should be able to complete the task via the checkbox after opening it and going back, even if not explicitly assigned.\n\n## Actual Result:\nA user who is not assigned to the task cannot complete it.\n\n## Workaround:\nUnknown\n\n## Platforms:\n- [ ] Android: App\n- [ ] Android: mWeb Chrome\n- [ ] iOS: App\n- [ ] iOS: mWeb Safari\n- [ ] iOS: mWeb Chrome\n- [x] Windows: Chrome\n- [x] MacOS: Chrome / Safari\n\n## Screenshots/Videos\n\nhttps://github.com/user-attachments/assets/c85f0989-4698-4f5a-baa9-6eee1a69c681\n\n[View all open jobs on GitHub](https://github.com/Expensify/App/issues?q=is%3Aopen+is%3Aissue+label%3A%22Help+Wanted%22)\n\n<details><summary>Issue Owner</summary>Current Issue Owner: @dangrous</details>\n<details><summary>Upwork Automation - Do Not Edit</summary>\n    <ul>\n        <li>Upwork Job URL: https://www.upwork.com/jobs/~022032420834152542234</li>\n        <li>Upwork Job ID: 2032420834152542234</li>\n        <li>Last Price Increase: 2026-03-13</li>\n    </ul>\n</details>",
     "closed_by": null,
     "reactions": {
       "url": "https://api.github.com/repos/Expensify/App/issues/85220/reactions",
