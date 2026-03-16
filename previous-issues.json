@@ -1,5 +1,159 @@
 [
   {
+    "url": "https://api.github.com/repos/Expensify/App/issues/85334",
+    "repository_url": "https://api.github.com/repos/Expensify/App",
+    "labels_url": "https://api.github.com/repos/Expensify/App/issues/85334/labels{/name}",
+    "comments_url": "https://api.github.com/repos/Expensify/App/issues/85334/comments",
+    "events_url": "https://api.github.com/repos/Expensify/App/issues/85334/events",
+    "html_url": "https://github.com/Expensify/App/issues/85334",
+    "id": 4080733497,
+    "node_id": "I_kwDOEQqHYc7zOw05",
+    "number": 85334,
+    "title": "[$250] Onboarding - Couldn’t add work email modal shown",
+    "user": {
+      "login": "jponikarchuk",
+      "id": 141990088,
+      "node_id": "U_kgDOCHaYyA",
+      "avatar_url": "https://avatars.githubusercontent.com/u/141990088?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/jponikarchuk",
+      "html_url": "https://github.com/jponikarchuk",
+      "followers_url": "https://api.github.com/users/jponikarchuk/followers",
+      "following_url": "https://api.github.com/users/jponikarchuk/following{/other_user}",
+      "gists_url": "https://api.github.com/users/jponikarchuk/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/jponikarchuk/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/jponikarchuk/subscriptions",
+      "organizations_url": "https://api.github.com/users/jponikarchuk/orgs",
+      "repos_url": "https://api.github.com/users/jponikarchuk/repos",
+      "events_url": "https://api.github.com/users/jponikarchuk/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/jponikarchuk/received_events",
+      "type": "User",
+      "user_view_type": "public",
+      "site_admin": false
+    },
+    "labels": [
+      {
+        "id": 2873246102,
+        "node_id": "MDU6TGFiZWwyODczMjQ2MTAy",
+        "url": "https://api.github.com/repos/Expensify/App/labels/External",
+        "name": "External",
+        "color": "a7b8ef",
+        "default": false,
+        "description": "Added to denote the issue can be worked on by a contributor"
+      },
+      {
+        "id": 2893455829,
+        "node_id": "MDU6TGFiZWwyODkzNDU1ODI5",
+        "url": "https://api.github.com/repos/Expensify/App/labels/Daily",
+        "name": "Daily",
+        "color": "eb6420",
+        "default": false,
+        "description": "KSv2"
+      },
+      {
+        "id": 3136662525,
+        "node_id": "MDU6TGFiZWwzMTM2NjYyNTI1",
+        "url": "https://api.github.com/repos/Expensify/App/labels/Help%20Wanted",
+        "name": "Help Wanted",
+        "color": "CFC8F1",
+        "default": false,
+        "description": "Apply this label when an issue is open to proposals by contributors"
+      },
+      {
+        "id": 4664850679,
+        "node_id": "LA_kwDOEQqHYc8AAAABFgv49w",
+        "url": "https://api.github.com/repos/Expensify/App/labels/Bug",
+        "name": "Bug",
+        "color": "93074F",
+        "default": false,
+        "description": "Something is broken. Auto assigns a BugZero manager."
+      }
+    ],
+    "state": "open",
+    "locked": false,
+    "assignees": [
+      {
+        "login": "abzokhattab",
+        "id": 59809993,
+        "node_id": "MDQ6VXNlcjU5ODA5OTkz",
+        "avatar_url": "https://avatars.githubusercontent.com/u/59809993?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/abzokhattab",
+        "html_url": "https://github.com/abzokhattab",
+        "followers_url": "https://api.github.com/users/abzokhattab/followers",
+        "following_url": "https://api.github.com/users/abzokhattab/following{/other_user}",
+        "gists_url": "https://api.github.com/users/abzokhattab/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/abzokhattab/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/abzokhattab/subscriptions",
+        "organizations_url": "https://api.github.com/users/abzokhattab/orgs",
+        "repos_url": "https://api.github.com/users/abzokhattab/repos",
+        "events_url": "https://api.github.com/users/abzokhattab/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/abzokhattab/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      }
+    ],
+    "milestone": null,
+    "comments": 11,
+    "created_at": "2026-03-16T07:28:25Z",
+    "updated_at": "2026-03-16T08:49:49Z",
+    "closed_at": null,
+    "assignee": {
+      "login": "abzokhattab",
+      "id": 59809993,
+      "node_id": "MDQ6VXNlcjU5ODA5OTkz",
+      "avatar_url": "https://avatars.githubusercontent.com/u/59809993?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/abzokhattab",
+      "html_url": "https://github.com/abzokhattab",
+      "followers_url": "https://api.github.com/users/abzokhattab/followers",
+      "following_url": "https://api.github.com/users/abzokhattab/following{/other_user}",
+      "gists_url": "https://api.github.com/users/abzokhattab/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/abzokhattab/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/abzokhattab/subscriptions",
+      "organizations_url": "https://api.github.com/users/abzokhattab/orgs",
+      "repos_url": "https://api.github.com/users/abzokhattab/repos",
+      "events_url": "https://api.github.com/users/abzokhattab/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/abzokhattab/received_events",
+      "type": "User",
+      "user_view_type": "public",
+      "site_admin": false
+    },
+    "author_association": "NONE",
+    "type": null,
+    "active_lock_reason": null,
+    "sub_issues_summary": {
+      "total": 0,
+      "completed": 0,
+      "percent_completed": 0
+    },
+    "issue_dependencies_summary": {
+      "blocked_by": 0,
+      "total_blocked_by": 0,
+      "blocking": 0,
+      "total_blocking": 0
+    },
+    "body": "If you haven’t already, check out our [contributing guidelines](https://github.com/Expensify/ReactNativeChat/blob/main/contributingGuides/CONTRIBUTING.md) for onboarding and email contributors@expensify.com to request to join our Slack channel!\n___\n\n**Version Number:** v9.3.37-9\n**Reproducible in staging?:** Yes\n**Reproducible in production?:** Yes\n**If this was caught during regression testing, add the test name, ID and link from BrowserStack:** KI retest https://github.com/Expensify/App/issues/78292\n**Email or phone of affected tester (no customers):** new public account\n**Issue reported by:** Applause Internal Team\n**Bug source:** Regression TC Execution\n**Device used:** MacOS Monterey 12.7.4 / Chrome\n**App Component:** Other\n\n## Action Performed:\nPrecondition:\non the web browser logged in with OD >> create a workspace and add expensifail account B as a member\n\nSteps to reproduce:\n\n1. Open the link www.staging.new.expensify.com\n2. Create a new account with a public domain email address\n3.In the modal “What’s your work email?”, enter the email address of account B (the same account invited in OD)\n4. Click \"Add work email\"\n5, Enter magic code\n\n## Expected Result:\nEmail added. User can proceed with onboarding.\n\n## Actual Result:\nModal shown:\nCouldn’t add work email\nWe couldn’t add applausetester+bp1503mem2@applause.expensifail.com. Please try again later in Settings or chat with Concierge for guidance.\n\n## Workaround:\nUnknown\n\n## Platforms:\n- [ ] Android: App\n- [ ] Android: mWeb Chrome\n- [ ] iOS: App\n- [ ] iOS: mWeb Safari\n- [ ] iOS: mWeb Chrome\n- [x] Windows: Chrome\n- [x] MacOS: Chrome / Safari\n\n## Screenshots/Videos\n\nhttps://github.com/user-attachments/assets/90a7575e-547f-4d45-8b1e-93bda5eac2bc\n\n[View all open jobs on GitHub](https://github.com/Expensify/App/issues?q=is%3Aopen+is%3Aissue+label%3A%22Help+Wanted%22)\n\n<details><summary>Issue Owner</summary>Current Issue Owner: @abzokhattab</details>\n<details><summary>Upwork Automation - Do Not Edit</summary>\n    <ul>\n        <li>Upwork Job URL: https://www.upwork.com/jobs/~022033447793495213009</li>\n        <li>Upwork Job ID: 2033447793495213009</li>\n        <li>Last Price Increase: 2026-03-16</li>\n    </ul>\n</details>",
+    "closed_by": null,
+    "reactions": {
+      "url": "https://api.github.com/repos/Expensify/App/issues/85334/reactions",
+      "total_count": 0,
+      "+1": 0,
+      "-1": 0,
+      "laugh": 0,
+      "hooray": 0,
+      "confused": 0,
+      "heart": 0,
+      "rocket": 0,
+      "eyes": 0
+    },
+    "timeline_url": "https://api.github.com/repos/Expensify/App/issues/85334/timeline",
+    "performed_via_github_app": null,
+    "state_reason": null,
+    "pinned_comment": null
+  },
+  {
     "url": "https://api.github.com/repos/Expensify/App/issues/85320",
     "repository_url": "https://api.github.com/repos/Expensify/App",
     "labels_url": "https://api.github.com/repos/Expensify/App/issues/85320/labels{/name}",
@@ -95,9 +249,9 @@
       }
     ],
     "milestone": null,
-    "comments": 8,
+    "comments": 12,
     "created_at": "2026-03-15T23:28:49Z",
-    "updated_at": "2026-03-16T07:18:55Z",
+    "updated_at": "2026-03-16T08:57:47Z",
     "closed_at": null,
     "assignee": {
       "login": "abdulrahuman5196",
@@ -843,7 +997,7 @@
       "blocking": 0,
       "total_blocking": 0
     },
-    "body": "Coming from [this proposal](https://expensify.slack.com/archives/C08CZDJFJ77/p1773412243054479)\n\n### Background\nThe application consists of several tabs:\n• Home\n• Inbox\n• Reports\n�� Workspaces\n• Account\nEach of these tabs (without home) has its own nested navigation flow implemented using stack navigators.\nSome tabs contain heavy screens, particularly Inbox, Reports, and Workspaces, where complex views and large datasets are rendered.\nCurrently, navigation uses a root stack navigator, where each top-level tab is pushed as a screen. As a result, switching between tabs repeatedly mounts and unmounts entire navigators, because every time we navigate to a tab, we are pushing a new screen.\nThis introduces unnecessary overhead and makes tab switching slower than expected, especially when moving frequently between heavy screens.\n\n### Problem\nWhen users switch between tabs, the stack-based architecture recreates navigators and screens.\nThis leads to:\n• unnecessary mounting and unmounting\n• increased navigation latency\n• reduced perceived responsiveness when switching between heavy screens\n\n### Solution\nIntroduce a Bottom Tab Navigator inside the root stack navigator to represent the main application areas.\nThe root stack navigator remains, and continues to handle global flows such as:\n• modals\n• RHP screens\n• other global navigation states\nInside the root stack we introduce a Bottom Tab Navigator that contains the main areas of the app.\n\nNavigation structure\n\n```\nRoot Stack Navigator\n│\n├��� Bottom Tab Navigator\n│   ├─ Home Stack\n│   ├─ Inbox Stack\n|      ├─Report\n│   ├─ Reports Stack\n│   ├─ Workspaces Stack\n|      ├─Workspace initial page\n│   └─ Settings Stack\n│\n├─ RHP Screens\n└─ Modal ScreensEach tab keeps its existing stack navigator.\n```\n\nBecause tab navigators keep screens mounted, switching between tabs does not recreate navigators, which significantly reduces navigation work.\nAdditional Improvements\nThis approach also allows us to:\n• freeze screens when they lose focus to prevent background work\n• centralize the top-level tab bar in one place\n• reduce navigation overhead between heavy screens\n• make tab transitions more predictable and consistent\n\nMeasured Improvements\nWeb: ~40% faster tab switching\niOS: ~80% faster tab switching\nAndroid: ~80% faster tab switching\n\n### Result\nThis aligns the navigation architecture better with how the application is structured:\n• tabs represent top-level areas of the app\n• tab switching becomes significantly faster\n• heavy screens (Inbox, Reports, Workspaces) no longer remount unnecessarily\n• background screens are frozen when blurred\n• navigation UI becomes more consistent\nOverall, this should significantly improve responsiveness when switching between tabs.\n\nHere is a [draft](https://github.com/Expensify/App/pull/85234) PR. Please feel free to generate an ad-hoc build and test it. Tab switching should already be working. There are still some bugs that we are currently working on, but during testing you can focus mainly on verifying the tab switching.\n\n\n\n<details><summary>Issue Owner</summary>Current Issue Owner: @ZhenjaHorbach</details>\n<details><summary>Upwork Automation - Do Not Edit</summary>\n    <ul>\n        <li>Upwork Job URL: https://www.upwork.com/jobs/~022032516596565029852</li>\n        <li>Upwork Job ID: 2032516596565029852</li>\n        <li>Last Price Increase: 2026-03-13</li>\n    </ul>\n</details>",
+    "body": "Coming from [this proposal](https://expensify.slack.com/archives/C08CZDJFJ77/p1773412243054479)\n\n### Background\nThe application consists of several tabs:\n• Home\n• Inbox\n• Reports\n• Workspaces\n• Account\nEach of these tabs (without home) has its own nested navigation flow implemented using stack navigators.\nSome tabs contain heavy screens, particularly Inbox, Reports, and Workspaces, where complex views and large datasets are rendered.\nCurrently, navigation uses a root stack navigator, where each top-level tab is pushed as a screen. As a result, switching between tabs repeatedly mounts and unmounts entire navigators, because every time we navigate to a tab, we are pushing a new screen.\nThis introduces unnecessary overhead and makes tab switching slower than expected, especially when moving frequently between heavy screens.\n\n### Problem\nWhen users switch between tabs, the stack-based architecture recreates navigators and screens.\nThis leads to:\n• unnecessary mounting and unmounting\n• increased navigation latency\n• reduced perceived responsiveness when switching between heavy screens\n\n### Solution\nIntroduce a Bottom Tab Navigator inside the root stack navigator to represent the main application areas.\nThe root stack navigator remains, and continues to handle global flows such as:\n• modals\n• RHP screens\n• other global navigation states\nInside the root stack we introduce a Bottom Tab Navigator that contains the main areas of the app.\n\nNavigation structure\n\n```\nRoot Stack Navigator\n│\n├─ Bottom Tab Navigator\n│   ├─ Home Stack\n│   ├─ Inbox Stack\n|      ├─Report\n│   ├─ Reports Stack\n│   ├─ Workspaces Stack\n|      ├─Workspace initial page\n│   └─ Settings Stack\n│\n├─ RHP Screens\n└─ Modal ScreensEach tab keeps its existing stack navigator.\n```\n\nBecause tab navigators keep screens mounted, switching between tabs does not recreate navigators, which significantly reduces navigation work.\nAdditional Improvements\nThis approach also allows us to:\n• freeze screens when they lose focus to prevent background work\n• centralize the top-level tab bar in one place\n• reduce navigation overhead between heavy screens\n• make tab transitions more predictable and consistent\n\nMeasured Improvements\nWeb: ~40% faster tab switching\niOS: ~80% faster tab switching\nAndroid: ~80% faster tab switching\n\n### Result\nThis aligns the navigation architecture better with how the application is structured:\n• tabs represent top-level areas of the app\n• tab switching becomes significantly faster\n• heavy screens (Inbox, Reports, Workspaces) no longer remount unnecessarily\n• background screens are frozen when blurred\n• navigation UI becomes more consistent\nOverall, this should significantly improve responsiveness when switching between tabs.\n\nHere is a [draft](https://github.com/Expensify/App/pull/85234) PR. Please feel free to generate an ad-hoc build and test it. Tab switching should already be working. There are still some bugs that we are currently working on, but during testing you can focus mainly on verifying the tab switching.\n\n\n\n<details><summary>Issue Owner</summary>Current Issue Owner: @ZhenjaHorbach</details>\n<details><summary>Upwork Automation - Do Not Edit</summary>\n    <ul>\n        <li>Upwork Job URL: https://www.upwork.com/jobs/~022032516596565029852</li>\n        <li>Upwork Job ID: 2032516596565029852</li>\n        <li>Last Price Increase: 2026-03-13</li>\n    </ul>\n</details>",
     "closed_by": null,
     "reactions": {
       "url": "https://api.github.com/repos/Expensify/App/issues/85260/reactions",
@@ -1086,6 +1240,15 @@
         "description": "Apply this label when an issue is open to proposals by contributors"
       },
       {
+        "id": 3184150925,
+        "node_id": "MDU6TGFiZWwzMTg0MTUwOTI1",
+        "url": "https://api.github.com/repos/Expensify/App/labels/Overdue",
+        "name": "Overdue",
+        "color": "D93F0B",
+        "default": false,
+        "description": ""
+      },
+      {
         "id": 4664850679,
         "node_id": "LA_kwDOEQqHYc8AAAABFgv49w",
         "url": "https://api.github.com/repos/Expensify/App/labels/Bug",
@@ -1121,9 +1284,9 @@
       }
     ],
     "milestone": null,
-    "comments": 8,
+    "comments": 10,
     "created_at": "2026-03-13T15:07:09Z",
-    "updated_at": "2026-03-14T19:19:17Z",
+    "updated_at": "2026-03-16T07:26:09Z",
     "closed_at": null,
     "assignee": {
       "login": "bernhardoj",
@@ -1477,7 +1640,7 @@
       "blocking": 0,
       "total_blocking": 0
     },
-    "body": "If you haven’t already, check out our [contributing guidelines](https://github.com/Expensify/ReactNativeChat/blob/main/contributingGuides/CONTRIBUTING.md) for onboarding and email contributors@expensify.com to request to join our Slack channel!\n___\n\n**Version Number:** 9.3.37-0\n**Reproducible in staging?:** Yes\n**Reproducible in production?:** Yes\n**If this was caught during regression testing, add the test name, ID and link from BrowserStack:** https://github.com/Expensify/Expensify/issues/578881\n**Email or phone of affected tester (no customers):** N/A\n**Issue reported by:** Applause Internal Team\n**Bug source:** Regression TC Execution\n**Device used:** Windows Windows 10\n**App Component:** Other\n\n## Action Performed:\n1. Login with a new account\n2. Create workspace\n3. Disable Submission frequency in workflows section\n4. In workspace create one empty report\n5. Click FAB > Create expense\n6. Enter any amount > press Next\n\n## Expected Result:\nThe workspace chat is selected in the to field and that report field has value None but is editable\n\n## Actual Result:\nSelf DM is selected as a destination instead of workspace chat when creating an expense via FAB after disabling submission frequency.\nWhen changing the to field to the workspace chat, report field doesn't value None and is not editable\n\n## Workaround:\nUnknown\n\n## Platforms:\n- [ ] Android: App\n- [ ] Android: mWeb Chrome\n- [ ] iOS: App\n- [ ] iOS: mWeb Safari\n- [ ] iOS: mWeb Chrome\n- [x] Windows: Chrome\n- [x] MacOS: Chrome / Safari\n\n## Screenshots/Videos\n\nhttps://github.com/user-attachments/assets/82126640-2c05-45ad-a258-e3d02e58008a\n\n[View all open jobs on GitHub](https://github.com/Expensify/App/issues?q=is%3Aopen+is%3Aissue+label%3A%22Help+Wanted%22)\n\n<details><summary>Issue Owner</summary>Current Issue Owner: @bernhardoj</details>\n<details><summary>Upwork Automation - Do Not Edit</summary>\n    <ul>\n        <li>Upwork Job URL: https://www.upwork.com/jobs/~022032431749625189668</li>\n        <li>Upwork Job ID: 2032431749625189668</li>\n        <li>Last Price Increase: 2026-03-13</li>\n    </ul>\n</details>",
+    "body": "If you haven���t already, check out our [contributing guidelines](https://github.com/Expensify/ReactNativeChat/blob/main/contributingGuides/CONTRIBUTING.md) for onboarding and email contributors@expensify.com to request to join our Slack channel!\n___\n\n**Version Number:** 9.3.37-0\n**Reproducible in staging?:** Yes\n**Reproducible in production?:** Yes\n**If this was caught during regression testing, add the test name, ID and link from BrowserStack:** https://github.com/Expensify/Expensify/issues/578881\n**Email or phone of affected tester (no customers):** N/A\n**Issue reported by:** Applause Internal Team\n**Bug source:** Regression TC Execution\n**Device used:** Windows Windows 10\n**App Component:** Other\n\n## Action Performed:\n1. Login with a new account\n2. Create workspace\n3. Disable Submission frequency in workflows section\n4. In workspace create one empty report\n5. Click FAB > Create expense\n6. Enter any amount > press Next\n\n## Expected Result:\nThe workspace chat is selected in the to field and that report field has value None but is editable\n\n## Actual Result:\nSelf DM is selected as a destination instead of workspace chat when creating an expense via FAB after disabling submission frequency.\nWhen changing the to field to the workspace chat, report field doesn't value None and is not editable\n\n## Workaround:\nUnknown\n\n## Platforms:\n- [ ] Android: App\n- [ ] Android: mWeb Chrome\n- [ ] iOS: App\n- [ ] iOS: mWeb Safari\n- [ ] iOS: mWeb Chrome\n- [x] Windows: Chrome\n- [x] MacOS: Chrome / Safari\n\n## Screenshots/Videos\n\nhttps://github.com/user-attachments/assets/82126640-2c05-45ad-a258-e3d02e58008a\n\n[View all open jobs on GitHub](https://github.com/Expensify/App/issues?q=is%3Aopen+is%3Aissue+label%3A%22Help+Wanted%22)\n\n<details><summary>Issue Owner</summary>Current Issue Owner: @bernhardoj</details>\n<details><summary>Upwork Automation - Do Not Edit</summary>\n    <ul>\n        <li>Upwork Job URL: https://www.upwork.com/jobs/~022032431749625189668</li>\n        <li>Upwork Job ID: 2032431749625189668</li>\n        <li>Last Price Increase: 2026-03-13</li>\n    </ul>\n</details>",
     "closed_by": null,
     "reactions": {
       "url": "https://api.github.com/repos/Expensify/App/issues/85224/reactions",
