@@ -95,9 +95,9 @@
       }
     ],
     "milestone": null,
-    "comments": 4,
+    "comments": 5,
     "created_at": "2026-03-17T00:01:55Z",
-    "updated_at": "2026-03-17T00:15:11Z",
+    "updated_at": "2026-03-17T03:38:34Z",
     "closed_at": null,
     "assignee": {
       "login": "DylanDylann",
@@ -249,9 +249,9 @@
       }
     ],
     "milestone": null,
-    "comments": 3,
+    "comments": 4,
     "created_at": "2026-03-16T23:59:50Z",
-    "updated_at": "2026-03-17T00:15:43Z",
+    "updated_at": "2026-03-17T03:58:15Z",
     "closed_at": null,
     "assignee": {
       "login": "mkhutornyi",
@@ -341,6 +341,15 @@
     },
     "labels": [
       {
+        "id": 2283143991,
+        "node_id": "MDU6TGFiZWwyMjgzMTQzOTkx",
+        "url": "https://api.github.com/repos/Expensify/App/labels/Reviewing",
+        "name": "Reviewing",
+        "color": "dddddd",
+        "default": false,
+        "description": "Has a PR in review"
+      },
+      {
         "id": 2873246102,
         "node_id": "MDU6TGFiZWwyODczMjQ2MTAy",
         "url": "https://api.github.com/repos/Expensify/App/labels/External",
@@ -350,11 +359,11 @@
         "description": "Added to denote the issue can be worked on by a contributor"
       },
       {
-        "id": 2893455829,
-        "node_id": "MDU6TGFiZWwyODkzNDU1ODI5",
-        "url": "https://api.github.com/repos/Expensify/App/labels/Daily",
-        "name": "Daily",
-        "color": "eb6420",
+        "id": 2893515375,
+        "node_id": "MDU6TGFiZWwyODkzNTE1Mzc1",
+        "url": "https://api.github.com/repos/Expensify/App/labels/Weekly",
+        "name": "Weekly",
+        "color": "009800",
         "default": false,
         "description": "KSv2"
       },
@@ -403,9 +412,9 @@
       }
     ],
     "milestone": null,
-    "comments": 3,
+    "comments": 7,
     "created_at": "2026-03-16T23:08:37Z",
-    "updated_at": "2026-03-16T23:17:10Z",
+    "updated_at": "2026-03-17T04:02:43Z",
     "closed_at": null,
     "assignee": {
       "login": "truph01",
@@ -711,9 +720,9 @@
       }
     ],
     "milestone": null,
-    "comments": 4,
+    "comments": 9,
     "created_at": "2026-03-16T21:05:00Z",
-    "updated_at": "2026-03-16T21:39:08Z",
+    "updated_at": "2026-03-17T04:00:11Z",
     "closed_at": null,
     "assignee": {
       "login": "dukenv0307",
@@ -803,6 +812,15 @@
     },
     "labels": [
       {
+        "id": 2283143991,
+        "node_id": "MDU6TGFiZWwyMjgzMTQzOTkx",
+        "url": "https://api.github.com/repos/Expensify/App/labels/Reviewing",
+        "name": "Reviewing",
+        "color": "dddddd",
+        "default": false,
+        "description": "Has a PR in review"
+      },
+      {
         "id": 2873246102,
         "node_id": "MDU6TGFiZWwyODczMjQ2MTAy",
         "url": "https://api.github.com/repos/Expensify/App/labels/External",
@@ -812,11 +830,11 @@
         "description": "Added to denote the issue can be worked on by a contributor"
       },
       {
-        "id": 2893455829,
-        "node_id": "MDU6TGFiZWwyODkzNDU1ODI5",
-        "url": "https://api.github.com/repos/Expensify/App/labels/Daily",
-        "name": "Daily",
-        "color": "eb6420",
+        "id": 2893515375,
+        "node_id": "MDU6TGFiZWwyODkzNTE1Mzc1",
+        "url": "https://api.github.com/repos/Expensify/App/labels/Weekly",
+        "name": "Weekly",
+        "color": "009800",
         "default": false,
         "description": "KSv2"
       },
@@ -888,7 +906,7 @@
     "milestone": null,
     "comments": 4,
     "created_at": "2026-03-16T19:49:57Z",
-    "updated_at": "2026-03-16T20:25:50Z",
+    "updated_at": "2026-03-17T04:11:52Z",
     "closed_at": null,
     "assignee": {
       "login": "TMisiukiewicz",
@@ -1299,9 +1317,9 @@
       }
     ],
     "milestone": null,
-    "comments": 11,
+    "comments": 13,
     "created_at": "2026-03-16T15:56:55Z",
-    "updated_at": "2026-03-16T22:17:24Z",
+    "updated_at": "2026-03-17T04:19:30Z",
     "closed_at": null,
     "assignee": {
       "login": "luacmartins",
