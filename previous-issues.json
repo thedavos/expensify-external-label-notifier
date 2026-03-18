@@ -33,6 +33,15 @@
     },
     "labels": [
       {
+        "id": 2283143991,
+        "node_id": "MDU6TGFiZWwyMjgzMTQzOTkx",
+        "url": "https://api.github.com/repos/Expensify/App/labels/Reviewing",
+        "name": "Reviewing",
+        "color": "dddddd",
+        "default": false,
+        "description": "Has a PR in review"
+      },
+      {
         "id": 2873246102,
         "node_id": "MDU6TGFiZWwyODczMjQ2MTAy",
         "url": "https://api.github.com/repos/Expensify/App/labels/External",
@@ -42,22 +51,13 @@
         "description": "Added to denote the issue can be worked on by a contributor"
       },
       {
-        "id": 2893455829,
-        "node_id": "MDU6TGFiZWwyODkzNDU1ODI5",
-        "url": "https://api.github.com/repos/Expensify/App/labels/Daily",
-        "name": "Daily",
-        "color": "eb6420",
+        "id": 2893515375,
+        "node_id": "MDU6TGFiZWwyODkzNTE1Mzc1",
+        "url": "https://api.github.com/repos/Expensify/App/labels/Weekly",
+        "name": "Weekly",
+        "color": "009800",
         "default": false,
         "description": "KSv2"
-      },
-      {
-        "id": 3136662525,
-        "node_id": "MDU6TGFiZWwzMTM2NjYyNTI1",
-        "url": "https://api.github.com/repos/Expensify/App/labels/Help%20Wanted",
-        "name": "Help Wanted",
-        "color": "CFC8F1",
-        "default": false,
-        "description": "Apply this label when an issue is open to proposals by contributors"
       },
       {
         "id": 4664850679,
@@ -139,7 +139,7 @@
     "milestone": null,
     "comments": 3,
     "created_at": "2026-03-18T11:59:58Z",
-    "updated_at": "2026-03-18T12:03:24Z",
+    "updated_at": "2026-03-18T14:16:31Z",
     "closed_at": null,
     "assignee": {
       "login": "mjasikowski",
@@ -247,15 +247,6 @@
         "description": "KSv2"
       },
       {
-        "id": 3136662525,
-        "node_id": "MDU6TGFiZWwzMTM2NjYyNTI1",
-        "url": "https://api.github.com/repos/Expensify/App/labels/Help%20Wanted",
-        "name": "Help Wanted",
-        "color": "CFC8F1",
-        "default": false,
-        "description": "Apply this label when an issue is open to proposals by contributors"
-      },
-      {
         "id": 4664850679,
         "node_id": "LA_kwDOEQqHYc8AAAABFgv49w",
         "url": "https://api.github.com/repos/Expensify/App/labels/Bug",
@@ -335,7 +326,7 @@
     "milestone": null,
     "comments": 3,
     "created_at": "2026-03-18T11:43:25Z",
-    "updated_at": "2026-03-18T11:49:29Z",
+    "updated_at": "2026-03-18T14:16:49Z",
     "closed_at": null,
     "assignee": {
       "login": "jmusial",
@@ -372,7 +363,7 @@
       "blocking": 0,
       "total_blocking": 0
     },
-    "body": "Proposal [here](https://expensify.slack.com/archives/C05LX9D6E07/p1773739287361259)\n\n### Background\nThe root Expensify component serves two roles: it orchestrates application lifecycle (Onyx migration, splash screen, navigation, authentication) and renders six global UI elements that stay mounted for the entire session — GrowlNotification, DelegateNoAccessModalProvider, EmojiPicker, UpdateAppModal, ProactiveAppReviewModalManager, and ScreenShareRequestModal. These modals are stateless relative to the parent; they manage visibility internally or via imperative refs.\n\nExpensify subscribes to five Onyx keys, several of which (LAST_VISITED_PATH, LAST_ROUTE) update during routine navigation. Because eslint-disable directives in the component cause React Compiler to bail out, every re-render produces fresh JSX references for all children — forcing React to walk each child fiber even when nothing changed. Profiling on web and iOS confirms the six modal fibers appear in 97–99% of commits, each costing ~0.5–2ms of reconciliation self-time despite their render functions being ~0.1ms no-ops.\n\n### Problem\nWhen Expensify re-renders due to routine navigation-driven Onyx updates, if React reconciles the six co-located global modal subtrees that have no dependency on the changed state, then ~3–8ms of JS thread time per commit is wasted on fiber traversal that produces zero visual changes.\n\n### Solution\nMove the six global modals out of Expensify and into a dedicated `React.memo`-wrapped child component. The new component owns only the state it needs (a single rarely-changing prop and one Onyx subscription), so `React.memo`'s shallow comparison bails out on virtually every parent re-render — letting React skip the entire modal subtree instead of walking it. This eliminates ~3–8ms of wasted reconciliation per commit without changing any modal behaviour or visual output.\n\nMeasured improvements\n- ~ 20% for web\n- ~7 % for native\n\nScenario & measurements in the :thread:\nDraft PR [here](https://github.com/Expensify/App/pull/85449)\n\n<details><summary>Issue Owner</summary>Current Issue Owner: @ShridharGoel</details>\n<details><summary>Upwork Automation - Do Not Edit</summary>\n    <ul>\n        <li>Upwork Job URL: https://www.upwork.com/jobs/~022034235732288543075</li>\n        <li>Upwork Job ID: 2034235732288543075</li>\n        <li>Last Price Increase: 2026-03-18</li>\n    </ul>\n</details>",
+    "body": "Proposal [here](https://expensify.slack.com/archives/C05LX9D6E07/p1773739287361259)\n\n### Background\nThe root Expensify component serves two roles: it orchestrates application lifecycle (Onyx migration, splash screen, navigation, authentication) and renders six global UI elements that stay mounted for the entire session — GrowlNotification, DelegateNoAccessModalProvider, EmojiPicker, UpdateAppModal, ProactiveAppReviewModalManager, and ScreenShareRequestModal. These modals are stateless relative to the parent; they manage visibility internally or via imperative refs.\n\nExpensify subscribes to five Onyx keys, several of which (LAST_VISITED_PATH, LAST_ROUTE) update during routine navigation. Because eslint-disable directives in the component cause React Compiler to bail out, every re-render produces fresh JSX references for all children — forcing React to walk each child fiber even when nothing changed. Profiling on web and iOS confirms the six modal fibers appear in 97–99% of commits, each costing ~0.5–2ms of reconciliation self-time despite their render functions being ~0.1ms no-ops.\n\n### Problem\nWhen Expensify re-renders due to routine navigation-driven Onyx updates, if React reconciles the six co-located global modal subtrees that have no dependency on the changed state, then ~3–8ms of JS thread time per commit is wasted on fiber traversal that produces zero visual changes.\n\n### Solution\nMove the six global modals out of Expensify and into a dedicated `React.memo`-wrapped child component. The new component owns only the state it needs (a single rarely-changing prop and one Onyx subscription), so `React.memo`'s shallow comparison bails out on virtually every parent re-render — letting React skip the entire modal subtree instead of walking it. This eliminates ~3–8ms of wasted reconciliation per commit without changing any modal behaviour or visual output.\n\nMeasured improvements\n- ~ 20% for web\n- ~7 % for native\n\nScenario & measurements in the :thread:\nDraft PR [here](https://github.com/Expensify/App/pull/85449)\n\n<details><summary>Issue Owner</summary>Current Issue Owner: @jmusial</details>\n<details><summary>Upwork Automation - Do Not Edit</summary>\n    <ul>\n        <li>Upwork Job URL: https://www.upwork.com/jobs/~022034235732288543075</li>\n        <li>Upwork Job ID: 2034235732288543075</li>\n        <li>Last Price Increase: 2026-03-18</li>\n    </ul>\n</details>",
     "closed_by": null,
     "reactions": {
       "url": "https://api.github.com/repos/Expensify/App/issues/85634/reactions",
@@ -1741,27 +1732,6 @@
     "locked": false,
     "assignees": [
       {
-        "login": "arosiclair",
-        "id": 6833644,
-        "node_id": "MDQ6VXNlcjY4MzM2NDQ=",
-        "avatar_url": "https://avatars.githubusercontent.com/u/6833644?v=4",
-        "gravatar_id": "",
-        "url": "https://api.github.com/users/arosiclair",
-        "html_url": "https://github.com/arosiclair",
-        "followers_url": "https://api.github.com/users/arosiclair/followers",
-        "following_url": "https://api.github.com/users/arosiclair/following{/other_user}",
-        "gists_url": "https://api.github.com/users/arosiclair/gists{/gist_id}",
-        "starred_url": "https://api.github.com/users/arosiclair/starred{/owner}{/repo}",
-        "subscriptions_url": "https://api.github.com/users/arosiclair/subscriptions",
-        "organizations_url": "https://api.github.com/users/arosiclair/orgs",
-        "repos_url": "https://api.github.com/users/arosiclair/repos",
-        "events_url": "https://api.github.com/users/arosiclair/events{/privacy}",
-        "received_events_url": "https://api.github.com/users/arosiclair/received_events",
-        "type": "User",
-        "user_view_type": "public",
-        "site_admin": false
-      },
-      {
         "login": "grgia",
         "id": 38015950,
         "node_id": "MDQ6VXNlcjM4MDE1OTUw",
@@ -1805,9 +1775,9 @@
       }
     ],
     "milestone": null,
-    "comments": 9,
+    "comments": 10,
     "created_at": "2026-03-17T15:30:28Z",
-    "updated_at": "2026-03-18T00:33:57Z",
+    "updated_at": "2026-03-18T13:32:56Z",
     "closed_at": null,
     "assignee": {
       "login": "grgia",
@@ -1844,7 +1814,7 @@
       "blocking": 0,
       "total_blocking": 0
     },
-    "body": "**Expensify/Expensify Issue URL:** https://github.com/Expensify/Expensify/issues/603735\n**Slack conversation:** https://expensify.slack.com/archives/C03U7DCU4/p1771944902661119?thread_ts=1771944902.661119&cid=C03U7DCU4\n\n---\n\n## Action Performed\n\n1. Open a report that has multiple expenses, where at least one expense has an RBR indicator (violation, hold, field error, receipt error, etc.)\n2. Look at the expense carousel in the report preview\n\n## Expected Result\n\nThe expense that requires action (has RBR) should appear **first** in the carousel so the user can immediately identify and act on it.\n\n## Actual Result\n\nExpenses appear in backend insertion order. RBR-flagged expenses can be buried at position 5+ in the carousel, making them easy to miss entirely — especially since only the first 11 are shown.\n\n## Root Cause\n\nThere is no RBR-aware sorting anywhere in the transaction display path:\n\n1. **Carousel** — [`MoneyRequestReportPreviewContent.tsx:~506`](https://github.com/Expensify/App/blob/main/src/components/ReportActionItem/MoneyRequestReportPreview/MoneyRequestReportPreviewContent.tsx#L506) does `transactions.slice(0, 11)` with no sort beforehand.\n2. **Report transaction list** — [`MoneyRequestReportTransactionList.tsx:~325`](https://github.com/Expensify/App/blob/main/src/components/MoneyRequestReportView/MoneyRequestReportTransactionList.tsx#L325) sorts by date/column only; `visualOrderTransactionIDs` (which drives RHP carousel navigation) inherits this non-RBR-aware order.\n\nThe data flows from Onyx derived store → `Object.values()` (insertion order) → carousel/list — no step prioritizes actionable items.\n\n## Proposed Fix\n\nSort RBR-flagged transactions to the front in both locations:\n\n- **Carousel:** Sort `transactions` by RBR status before the `.slice(0, 11)` in `MoneyRequestReportPreviewContent`.\n- **Transaction list:** Use RBR status as a primary sort key in `MoneyRequestReportTransactionList`, with the existing date/column sort as secondary.\n\n### Existing infrastructure to reuse\n- [`shouldShowRBR`](https://github.com/Expensify/App/blob/main/src/libs/TransactionPreviewUtils.ts#L411-L425) from `TransactionPreviewUtils.createTransactionPreviewConditionals()`\n- `filteredViolations` already computed per-transaction in `MoneyRequestReportTransactionList` (~lines 216-237)\n- Report-level RBR prioritization pattern in [`SidebarUtils.ts:~533`](https://github.com/Expensify/App/blob/main/src/libs/SidebarUtils.ts#L533-L535)\n\n## Open Questions\n\n- Should RBR-first sorting override a user-selected column sort (date, merchant, etc.) in the report view, or only apply as the default?\n- Should sorting be centralized in `useReportWithTransactionsAndViolations` so all consumers benefit?\n\n## Platforms\n\n- [x] Android: App\n- [x] Android: mWeb Chrome\n- [x] iOS: App\n- [x] iOS: mWeb Safari\n- [x] iOS: mWeb Chrome\n- [x] Windows: Chrome\n- [x] MacOS: Chrome / Safari\n\n\n<details><summary>Issue Owner</summary>Current Issue Owner: @arosiclair</details>\n<details><summary>Upwork Automation - Do Not Edit</summary>\n    <ul>\n        <li>Upwork Job URL: https://www.upwork.com/jobs/~022033929183187241566</li>\n        <li>Upwork Job ID: 2033929183187241566</li>\n        <li>Last Price Increase: 2026-03-17</li>\n    </ul>\n</details>",
+    "body": "**Expensify/Expensify Issue URL:** https://github.com/Expensify/Expensify/issues/603735\n**Slack conversation:** https://expensify.slack.com/archives/C03U7DCU4/p1771944902661119?thread_ts=1771944902.661119&cid=C03U7DCU4\n\n---\n\n## Action Performed\n\n1. Open a report that has multiple expenses, where at least one expense has an RBR indicator (violation, hold, field error, receipt error, etc.)\n2. Look at the expense carousel in the report preview\n\n## Expected Result\n\nThe expense that requires action (has RBR) should appear **first** in the carousel so the user can immediately identify and act on it.\n\n## Actual Result\n\nExpenses appear in backend insertion order. RBR-flagged expenses can be buried at position 5+ in the carousel, making them easy to miss entirely — especially since only the first 11 are shown.\n\n## Root Cause\n\nThere is no RBR-aware sorting anywhere in the transaction display path:\n\n1. **Carousel** — [`MoneyRequestReportPreviewContent.tsx:~506`](https://github.com/Expensify/App/blob/main/src/components/ReportActionItem/MoneyRequestReportPreview/MoneyRequestReportPreviewContent.tsx#L506) does `transactions.slice(0, 11)` with no sort beforehand.\n2. **Report transaction list** — [`MoneyRequestReportTransactionList.tsx:~325`](https://github.com/Expensify/App/blob/main/src/components/MoneyRequestReportView/MoneyRequestReportTransactionList.tsx#L325) sorts by date/column only; `visualOrderTransactionIDs` (which drives RHP carousel navigation) inherits this non-RBR-aware order.\n\nThe data flows from Onyx derived store → `Object.values()` (insertion order) → carousel/list — no step prioritizes actionable items.\n\n## Proposed Fix\n\nSort RBR-flagged transactions to the front in both locations:\n\n- **Carousel:** Sort `transactions` by RBR status before the `.slice(0, 11)` in `MoneyRequestReportPreviewContent`.\n- **Transaction list:** Use RBR status as a primary sort key in `MoneyRequestReportTransactionList`, with the existing date/column sort as secondary.\n\n### Existing infrastructure to reuse\n- [`shouldShowRBR`](https://github.com/Expensify/App/blob/main/src/libs/TransactionPreviewUtils.ts#L411-L425) from `TransactionPreviewUtils.createTransactionPreviewConditionals()`\n- `filteredViolations` already computed per-transaction in `MoneyRequestReportTransactionList` (~lines 216-237)\n- Report-level RBR prioritization pattern in [`SidebarUtils.ts:~533`](https://github.com/Expensify/App/blob/main/src/libs/SidebarUtils.ts#L533-L535)\n\n## Open Questions\n\n- Should RBR-first sorting override a user-selected column sort (date, merchant, etc.) in the report view, or only apply as the default?\n- Should sorting be centralized in `useReportWithTransactionsAndViolations` so all consumers benefit?\n\n## Platforms\n\n- [x] Android: App\n- [x] Android: mWeb Chrome\n- [x] iOS: App\n- [x] iOS: mWeb Safari\n- [x] iOS: mWeb Chrome\n- [x] Windows: Chrome\n- [x] MacOS: Chrome / Safari\n\n\n<details><summary>Issue Owner</summary>Current Issue Owner: @grgia</details>\n<details><summary>Upwork Automation - Do Not Edit</summary>\n    <ul>\n        <li>Upwork Job URL: https://www.upwork.com/jobs/~022033929183187241566</li>\n        <li>Upwork Job ID: 2033929183187241566</li>\n        <li>Last Price Increase: 2026-03-17</li>\n    </ul>\n</details>",
     "closed_by": null,
     "reactions": {
       "url": "https://api.github.com/repos/Expensify/App/issues/85553/reactions",
