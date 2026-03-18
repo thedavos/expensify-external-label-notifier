@@ -95,9 +95,9 @@
       }
     ],
     "milestone": null,
-    "comments": 6,
+    "comments": 10,
     "created_at": "2026-03-17T20:47:52Z",
-    "updated_at": "2026-03-17T23:00:38Z",
+    "updated_at": "2026-03-18T02:03:52Z",
     "closed_at": null,
     "assignee": {
       "login": "ShridharGoel",
@@ -857,6 +857,27 @@
     "locked": false,
     "assignees": [
       {
+        "login": "arosiclair",
+        "id": 6833644,
+        "node_id": "MDQ6VXNlcjY4MzM2NDQ=",
+        "avatar_url": "https://avatars.githubusercontent.com/u/6833644?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/arosiclair",
+        "html_url": "https://github.com/arosiclair",
+        "followers_url": "https://api.github.com/users/arosiclair/followers",
+        "following_url": "https://api.github.com/users/arosiclair/following{/other_user}",
+        "gists_url": "https://api.github.com/users/arosiclair/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/arosiclair/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/arosiclair/subscriptions",
+        "organizations_url": "https://api.github.com/users/arosiclair/orgs",
+        "repos_url": "https://api.github.com/users/arosiclair/repos",
+        "events_url": "https://api.github.com/users/arosiclair/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/arosiclair/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      {
         "login": "grgia",
         "id": 38015950,
         "node_id": "MDQ6VXNlcjM4MDE1OTUw",
@@ -900,9 +921,9 @@
       }
     ],
     "milestone": null,
-    "comments": 7,
+    "comments": 9,
     "created_at": "2026-03-17T15:30:28Z",
-    "updated_at": "2026-03-17T23:07:58Z",
+    "updated_at": "2026-03-18T00:33:57Z",
     "closed_at": null,
     "assignee": {
       "login": "grgia",
@@ -939,7 +960,7 @@
       "blocking": 0,
       "total_blocking": 0
     },
-    "body": "**Expensify/Expensify Issue URL:** https://github.com/Expensify/Expensify/issues/603735\n**Slack conversation:** https://expensify.slack.com/archives/C03U7DCU4/p1771944902661119?thread_ts=1771944902.661119&cid=C03U7DCU4\n\n---\n\n## Action Performed\n\n1. Open a report that has multiple expenses, where at least one expense has an RBR indicator (violation, hold, field error, receipt error, etc.)\n2. Look at the expense carousel in the report preview\n\n## Expected Result\n\nThe expense that requires action (has RBR) should appear **first** in the carousel so the user can immediately identify and act on it.\n\n## Actual Result\n\nExpenses appear in backend insertion order. RBR-flagged expenses can be buried at position 5+ in the carousel, making them easy to miss entirely — especially since only the first 11 are shown.\n\n## Root Cause\n\nThere is no RBR-aware sorting anywhere in the transaction display path:\n\n1. **Carousel** — [`MoneyRequestReportPreviewContent.tsx:~506`](https://github.com/Expensify/App/blob/main/src/components/ReportActionItem/MoneyRequestReportPreview/MoneyRequestReportPreviewContent.tsx#L506) does `transactions.slice(0, 11)` with no sort beforehand.\n2. **Report transaction list** — [`MoneyRequestReportTransactionList.tsx:~325`](https://github.com/Expensify/App/blob/main/src/components/MoneyRequestReportView/MoneyRequestReportTransactionList.tsx#L325) sorts by date/column only; `visualOrderTransactionIDs` (which drives RHP carousel navigation) inherits this non-RBR-aware order.\n\nThe data flows from Onyx derived store → `Object.values()` (insertion order) → carousel/list — no step prioritizes actionable items.\n\n## Proposed Fix\n\nSort RBR-flagged transactions to the front in both locations:\n\n- **Carousel:** Sort `transactions` by RBR status before the `.slice(0, 11)` in `MoneyRequestReportPreviewContent`.\n- **Transaction list:** Use RBR status as a primary sort key in `MoneyRequestReportTransactionList`, with the existing date/column sort as secondary.\n\n### Existing infrastructure to reuse\n- [`shouldShowRBR`](https://github.com/Expensify/App/blob/main/src/libs/TransactionPreviewUtils.ts#L411-L425) from `TransactionPreviewUtils.createTransactionPreviewConditionals()`\n- `filteredViolations` already computed per-transaction in `MoneyRequestReportTransactionList` (~lines 216-237)\n- Report-level RBR prioritization pattern in [`SidebarUtils.ts:~533`](https://github.com/Expensify/App/blob/main/src/libs/SidebarUtils.ts#L533-L535)\n\n## Open Questions\n\n- Should RBR-first sorting override a user-selected column sort (date, merchant, etc.) in the report view, or only apply as the default?\n- Should sorting be centralized in `useReportWithTransactionsAndViolations` so all consumers benefit?\n\n## Platforms\n\n- [x] Android: App\n- [x] Android: mWeb Chrome\n- [x] iOS: App\n- [x] iOS: mWeb Safari\n- [x] iOS: mWeb Chrome\n- [x] Windows: Chrome\n- [x] MacOS: Chrome / Safari\n\n\n<details><summary>Issue Owner</summary>Current Issue Owner: @ikevin127</details>\n<details><summary>Upwork Automation - Do Not Edit</summary>\n    <ul>\n        <li>Upwork Job URL: https://www.upwork.com/jobs/~022033929183187241566</li>\n        <li>Upwork Job ID: 2033929183187241566</li>\n        <li>Last Price Increase: 2026-03-17</li>\n    </ul>\n</details>",
+    "body": "**Expensify/Expensify Issue URL:** https://github.com/Expensify/Expensify/issues/603735\n**Slack conversation:** https://expensify.slack.com/archives/C03U7DCU4/p1771944902661119?thread_ts=1771944902.661119&cid=C03U7DCU4\n\n---\n\n## Action Performed\n\n1. Open a report that has multiple expenses, where at least one expense has an RBR indicator (violation, hold, field error, receipt error, etc.)\n2. Look at the expense carousel in the report preview\n\n## Expected Result\n\nThe expense that requires action (has RBR) should appear **first** in the carousel so the user can immediately identify and act on it.\n\n## Actual Result\n\nExpenses appear in backend insertion order. RBR-flagged expenses can be buried at position 5+ in the carousel, making them easy to miss entirely — especially since only the first 11 are shown.\n\n## Root Cause\n\nThere is no RBR-aware sorting anywhere in the transaction display path:\n\n1. **Carousel** — [`MoneyRequestReportPreviewContent.tsx:~506`](https://github.com/Expensify/App/blob/main/src/components/ReportActionItem/MoneyRequestReportPreview/MoneyRequestReportPreviewContent.tsx#L506) does `transactions.slice(0, 11)` with no sort beforehand.\n2. **Report transaction list** — [`MoneyRequestReportTransactionList.tsx:~325`](https://github.com/Expensify/App/blob/main/src/components/MoneyRequestReportView/MoneyRequestReportTransactionList.tsx#L325) sorts by date/column only; `visualOrderTransactionIDs` (which drives RHP carousel navigation) inherits this non-RBR-aware order.\n\nThe data flows from Onyx derived store → `Object.values()` (insertion order) → carousel/list — no step prioritizes actionable items.\n\n## Proposed Fix\n\nSort RBR-flagged transactions to the front in both locations:\n\n- **Carousel:** Sort `transactions` by RBR status before the `.slice(0, 11)` in `MoneyRequestReportPreviewContent`.\n- **Transaction list:** Use RBR status as a primary sort key in `MoneyRequestReportTransactionList`, with the existing date/column sort as secondary.\n\n### Existing infrastructure to reuse\n- [`shouldShowRBR`](https://github.com/Expensify/App/blob/main/src/libs/TransactionPreviewUtils.ts#L411-L425) from `TransactionPreviewUtils.createTransactionPreviewConditionals()`\n- `filteredViolations` already computed per-transaction in `MoneyRequestReportTransactionList` (~lines 216-237)\n- Report-level RBR prioritization pattern in [`SidebarUtils.ts:~533`](https://github.com/Expensify/App/blob/main/src/libs/SidebarUtils.ts#L533-L535)\n\n## Open Questions\n\n- Should RBR-first sorting override a user-selected column sort (date, merchant, etc.) in the report view, or only apply as the default?\n- Should sorting be centralized in `useReportWithTransactionsAndViolations` so all consumers benefit?\n\n## Platforms\n\n- [x] Android: App\n- [x] Android: mWeb Chrome\n- [x] iOS: App\n- [x] iOS: mWeb Safari\n- [x] iOS: mWeb Chrome\n- [x] Windows: Chrome\n- [x] MacOS: Chrome / Safari\n\n\n<details><summary>Issue Owner</summary>Current Issue Owner: @arosiclair</details>\n<details><summary>Upwork Automation - Do Not Edit</summary>\n    <ul>\n        <li>Upwork Job URL: https://www.upwork.com/jobs/~022033929183187241566</li>\n        <li>Upwork Job ID: 2033929183187241566</li>\n        <li>Last Price Increase: 2026-03-17</li>\n    </ul>\n</details>",
     "closed_by": null,
     "reactions": {
       "url": "https://api.github.com/repos/Expensify/App/issues/85553/reactions",
