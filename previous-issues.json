@@ -33,11 +33,20 @@
     },
     "labels": [
       {
-        "id": 2893455829,
-        "node_id": "MDU6TGFiZWwyODkzNDU1ODI5",
-        "url": "https://api.github.com/repos/Expensify/App/labels/Daily",
-        "name": "Daily",
-        "color": "eb6420",
+        "id": 2283143991,
+        "node_id": "MDU6TGFiZWwyMjgzMTQzOTkx",
+        "url": "https://api.github.com/repos/Expensify/App/labels/Reviewing",
+        "name": "Reviewing",
+        "color": "dddddd",
+        "default": false,
+        "description": "Has a PR in review"
+      },
+      {
+        "id": 2893515375,
+        "node_id": "MDU6TGFiZWwyODkzNTE1Mzc1",
+        "url": "https://api.github.com/repos/Expensify/App/labels/Weekly",
+        "name": "Weekly",
+        "color": "009800",
         "default": false,
         "description": "KSv2"
       },
@@ -109,7 +118,7 @@
     "milestone": null,
     "comments": 6,
     "created_at": "2026-03-19T08:43:50Z",
-    "updated_at": "2026-03-19T09:08:28Z",
+    "updated_at": "2026-03-19T11:06:47Z",
     "closed_at": null,
     "assignee": {
       "login": "c3024",
@@ -834,9 +843,9 @@
       }
     ],
     "milestone": null,
-    "comments": 23,
+    "comments": 29,
     "created_at": "2026-03-18T15:17:48Z",
-    "updated_at": "2026-03-19T10:27:23Z",
+    "updated_at": "2026-03-19T11:32:18Z",
     "closed_at": null,
     "assignee": {
       "login": "MonilBhavsar",
