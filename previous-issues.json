@@ -33,6 +33,15 @@
     },
     "labels": [
       {
+        "id": 2283143991,
+        "node_id": "MDU6TGFiZWwyMjgzMTQzOTkx",
+        "url": "https://api.github.com/repos/Expensify/App/labels/Reviewing",
+        "name": "Reviewing",
+        "color": "dddddd",
+        "default": false,
+        "description": "Has a PR in review"
+      },
+      {
         "id": 2873246102,
         "node_id": "MDU6TGFiZWwyODczMjQ2MTAy",
         "url": "https://api.github.com/repos/Expensify/App/labels/External",
@@ -42,22 +51,13 @@
         "description": "Added to denote the issue can be worked on by a contributor"
       },
       {
-        "id": 2893455829,
-        "node_id": "MDU6TGFiZWwyODkzNDU1ODI5",
-        "url": "https://api.github.com/repos/Expensify/App/labels/Daily",
-        "name": "Daily",
-        "color": "eb6420",
+        "id": 2893515375,
+        "node_id": "MDU6TGFiZWwyODkzNTE1Mzc1",
+        "url": "https://api.github.com/repos/Expensify/App/labels/Weekly",
+        "name": "Weekly",
+        "color": "009800",
         "default": false,
         "description": "KSv2"
-      },
-      {
-        "id": 3136662525,
-        "node_id": "MDU6TGFiZWwzMTM2NjYyNTI1",
-        "url": "https://api.github.com/repos/Expensify/App/labels/Help%20Wanted",
-        "name": "Help Wanted",
-        "color": "CFC8F1",
-        "default": false,
-        "description": "Apply this label when an issue is open to proposals by contributors"
       },
       {
         "id": 4664850679,
@@ -72,6 +72,27 @@
     "state": "open",
     "locked": false,
     "assignees": [
+      {
+        "login": "MariaHCD",
+        "id": 12268372,
+        "node_id": "MDQ6VXNlcjEyMjY4Mzcy",
+        "avatar_url": "https://avatars.githubusercontent.com/u/12268372?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/MariaHCD",
+        "html_url": "https://github.com/MariaHCD",
+        "followers_url": "https://api.github.com/users/MariaHCD/followers",
+        "following_url": "https://api.github.com/users/MariaHCD/following{/other_user}",
+        "gists_url": "https://api.github.com/users/MariaHCD/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/MariaHCD/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/MariaHCD/subscriptions",
+        "organizations_url": "https://api.github.com/users/MariaHCD/orgs",
+        "repos_url": "https://api.github.com/users/MariaHCD/repos",
+        "events_url": "https://api.github.com/users/MariaHCD/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/MariaHCD/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
       {
         "login": "mkhutornyi",
         "id": 97676131,
@@ -95,9 +116,9 @@
       }
     ],
     "milestone": null,
-    "comments": 3,
+    "comments": 7,
     "created_at": "2026-03-20T18:59:37Z",
-    "updated_at": "2026-03-20T19:06:17Z",
+    "updated_at": "2026-03-20T20:25:14Z",
     "closed_at": null,
     "assignee": {
       "login": "mkhutornyi",
@@ -1369,9 +1390,9 @@
       }
     ],
     "milestone": null,
-    "comments": 6,
+    "comments": 7,
     "created_at": "2026-03-20T10:29:56Z",
-    "updated_at": "2026-03-20T12:32:36Z",
+    "updated_at": "2026-03-20T19:56:42Z",
     "closed_at": null,
     "assignee": {
       "login": "situchan",
@@ -1831,9 +1852,9 @@
       }
     ],
     "milestone": null,
-    "comments": 8,
+    "comments": 12,
     "created_at": "2026-03-20T07:29:03Z",
-    "updated_at": "2026-03-20T13:27:49Z",
+    "updated_at": "2026-03-20T20:30:57Z",
     "closed_at": null,
     "assignee": {
       "login": "jayeshmangwani",
@@ -4500,160 +4521,6 @@
       "eyes": 0
     },
     "timeline_url": "https://api.github.com/repos/Expensify/App/issues/85805/timeline",
-    "performed_via_github_app": null,
-    "state_reason": null,
-    "pinned_comment": null
-  },
-  {
-    "url": "https://api.github.com/repos/Expensify/App/issues/85799",
-    "repository_url": "https://api.github.com/repos/Expensify/App",
-    "labels_url": "https://api.github.com/repos/Expensify/App/issues/85799/labels{/name}",
-    "comments_url": "https://api.github.com/repos/Expensify/App/issues/85799/comments",
-    "events_url": "https://api.github.com/repos/Expensify/App/issues/85799/events",
-    "html_url": "https://github.com/Expensify/App/issues/85799",
-    "id": 4101460182,
-    "node_id": "I_kwDOEQqHYc70d1DW",
-    "number": 85799,
-    "title": "[$250] Expense - Tooltip \"Try it out\" remains in incorrect position when recipients list is filtered",
-    "user": {
-      "login": "jponikarchuk",
-      "id": 141990088,
-      "node_id": "U_kgDOCHaYyA",
-      "avatar_url": "https://avatars.githubusercontent.com/u/141990088?v=4",
-      "gravatar_id": "",
-      "url": "https://api.github.com/users/jponikarchuk",
-      "html_url": "https://github.com/jponikarchuk",
-      "followers_url": "https://api.github.com/users/jponikarchuk/followers",
-      "following_url": "https://api.github.com/users/jponikarchuk/following{/other_user}",
-      "gists_url": "https://api.github.com/users/jponikarchuk/gists{/gist_id}",
-      "starred_url": "https://api.github.com/users/jponikarchuk/starred{/owner}{/repo}",
-      "subscriptions_url": "https://api.github.com/users/jponikarchuk/subscriptions",
-      "organizations_url": "https://api.github.com/users/jponikarchuk/orgs",
-      "repos_url": "https://api.github.com/users/jponikarchuk/repos",
-      "events_url": "https://api.github.com/users/jponikarchuk/events{/privacy}",
-      "received_events_url": "https://api.github.com/users/jponikarchuk/received_events",
-      "type": "User",
-      "user_view_type": "public",
-      "site_admin": false
-    },
-    "labels": [
-      {
-        "id": 2873246102,
-        "node_id": "MDU6TGFiZWwyODczMjQ2MTAy",
-        "url": "https://api.github.com/repos/Expensify/App/labels/External",
-        "name": "External",
-        "color": "a7b8ef",
-        "default": false,
-        "description": "Added to denote the issue can be worked on by a contributor"
-      },
-      {
-        "id": 2893455829,
-        "node_id": "MDU6TGFiZWwyODkzNDU1ODI5",
-        "url": "https://api.github.com/repos/Expensify/App/labels/Daily",
-        "name": "Daily",
-        "color": "eb6420",
-        "default": false,
-        "description": "KSv2"
-      },
-      {
-        "id": 3136662525,
-        "node_id": "MDU6TGFiZWwzMTM2NjYyNTI1",
-        "url": "https://api.github.com/repos/Expensify/App/labels/Help%20Wanted",
-        "name": "Help Wanted",
-        "color": "CFC8F1",
-        "default": false,
-        "description": "Apply this label when an issue is open to proposals by contributors"
-      },
-      {
-        "id": 4664850679,
-        "node_id": "LA_kwDOEQqHYc8AAAABFgv49w",
-        "url": "https://api.github.com/repos/Expensify/App/labels/Bug",
-        "name": "Bug",
-        "color": "93074F",
-        "default": false,
-        "description": "Something is broken. Auto assigns a BugZero manager."
-      }
-    ],
-    "state": "open",
-    "locked": false,
-    "assignees": [
-      {
-        "login": "jayeshmangwani",
-        "id": 35371050,
-        "node_id": "MDQ6VXNlcjM1MzcxMDUw",
-        "avatar_url": "https://avatars.githubusercontent.com/u/35371050?v=4",
-        "gravatar_id": "",
-        "url": "https://api.github.com/users/jayeshmangwani",
-        "html_url": "https://github.com/jayeshmangwani",
-        "followers_url": "https://api.github.com/users/jayeshmangwani/followers",
-        "following_url": "https://api.github.com/users/jayeshmangwani/following{/other_user}",
-        "gists_url": "https://api.github.com/users/jayeshmangwani/gists{/gist_id}",
-        "starred_url": "https://api.github.com/users/jayeshmangwani/starred{/owner}{/repo}",
-        "subscriptions_url": "https://api.github.com/users/jayeshmangwani/subscriptions",
-        "organizations_url": "https://api.github.com/users/jayeshmangwani/orgs",
-        "repos_url": "https://api.github.com/users/jayeshmangwani/repos",
-        "events_url": "https://api.github.com/users/jayeshmangwani/events{/privacy}",
-        "received_events_url": "https://api.github.com/users/jayeshmangwani/received_events",
-        "type": "User",
-        "user_view_type": "public",
-        "site_admin": false
-      }
-    ],
-    "milestone": null,
-    "comments": 10,
-    "created_at": "2026-03-19T12:48:05Z",
-    "updated_at": "2026-03-20T11:26:21Z",
-    "closed_at": null,
-    "assignee": {
-      "login": "jayeshmangwani",
-      "id": 35371050,
-      "node_id": "MDQ6VXNlcjM1MzcxMDUw",
-      "avatar_url": "https://avatars.githubusercontent.com/u/35371050?v=4",
-      "gravatar_id": "",
-      "url": "https://api.github.com/users/jayeshmangwani",
-      "html_url": "https://github.com/jayeshmangwani",
-      "followers_url": "https://api.github.com/users/jayeshmangwani/followers",
-      "following_url": "https://api.github.com/users/jayeshmangwani/following{/other_user}",
-      "gists_url": "https://api.github.com/users/jayeshmangwani/gists{/gist_id}",
-      "starred_url": "https://api.github.com/users/jayeshmangwani/starred{/owner}{/repo}",
-      "subscriptions_url": "https://api.github.com/users/jayeshmangwani/subscriptions",
-      "organizations_url": "https://api.github.com/users/jayeshmangwani/orgs",
-      "repos_url": "https://api.github.com/users/jayeshmangwani/repos",
-      "events_url": "https://api.github.com/users/jayeshmangwani/events{/privacy}",
-      "received_events_url": "https://api.github.com/users/jayeshmangwani/received_events",
-      "type": "User",
-      "user_view_type": "public",
-      "site_admin": false
-    },
-    "author_association": "NONE",
-    "type": null,
-    "active_lock_reason": null,
-    "sub_issues_summary": {
-      "total": 0,
-      "completed": 0,
-      "percent_completed": 0
-    },
-    "issue_dependencies_summary": {
-      "blocked_by": 0,
-      "total_blocked_by": 0,
-      "blocking": 0,
-      "total_blocking": 0
-    },
-    "body": "If you haven’t already, check out our [contributing guidelines](https://github.com/Expensify/ReactNativeChat/blob/main/contributingGuides/CONTRIBUTING.md) for onboarding and email contributors@expensify.com to request to join our Slack channel!\n___\n\n**Version Number:** 9.3.40-4\n**Reproducible in staging?:** Yes\n**Reproducible in production?:** Yes\n**If this was caught during regression testing, add the test name, ID and link from BrowserStack:** https://test-management.browserstack.com/projects/2219752/test-runs/TR-10401/folder/13176924/41237577/1260626241\n**Email or phone of affected tester (no customers):** Hohovemgo+boss1803267@gmail.com\n**Issue reported by:** Applause Internal Team\n**Bug source:** Regression TC Execution\n**Device used:** Mac/Safari, iPhone 15 Pro Max/ioS 26.3, Pixel 6/Android 16\n**App Component:** Money Requests\n\n## Action Performed:\n1. Open the app\n2. Sign up with a new account\n3. Select the \"Track\" intent during the onboarding flow\n4. Tap the FAB button\n5. Select \"Manual\"\n6. Enter any amount and tap \"Continue\"\n7. Type \"manager\" in the search input field\n\n## Expected Result:\nTooltip \"Try it out\" is displayed next to the Manager item and correctly follows it when the recipients list is updated or filtered, maintaining proper alignment without any visual gaps.\n\n## Actual Result:\nTooltip \"Try it out\" remains in its original position when the recipients list is filtered, while the Manager item moves in the list, causing misalignment and a visible gap between the tooltip and the item.\n\n## Workaround:\nUnknown\n\n## Platforms:\n- [x] Android: App\n- [ ] Android: mWeb Chrome\n- [x] iOS: App\n- [ ] iOS: mWeb Safari\n- [ ] iOS: mWeb Chrome\n- [x] Windows: Chrome\n- [x] MacOS: Chrome / Safari\n\n## Screenshots/Videos\n\nhttps://github.com/user-attachments/assets/6bea83fb-84ab-418b-9357-a3be6e583a72\n\n[View all open jobs on GitHub](https://github.com/Expensify/App/issues?q=is%3Aopen+is%3Aissue+label%3A%22Help+Wanted%22)\n\n<details><summary>Issue Owner</summary>Current Issue Owner: @jayeshmangwani</details>\n<details><summary>Upwork Automation - Do Not Edit</summary>\n    <ul>\n        <li>Upwork Job URL: https://www.upwork.com/jobs/~022034615061209274058</li>\n        <li>Upwork Job ID: 2034615061209274058</li>\n        <li>Last Price Increase: 2026-03-19</li>\n    </ul>\n</details>",
-    "closed_by": null,
-    "reactions": {
-      "url": "https://api.github.com/repos/Expensify/App/issues/85799/reactions",
-      "total_count": 0,
-      "+1": 0,
-      "-1": 0,
-      "laugh": 0,
-      "hooray": 0,
-      "confused": 0,
-      "heart": 0,
-      "rocket": 0,
-      "eyes": 0
-    },
-    "timeline_url": "https://api.github.com/repos/Expensify/App/issues/85799/timeline",
     "performed_via_github_app": null,
     "state_reason": null,
     "pinned_comment": null
