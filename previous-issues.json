@@ -433,9 +433,9 @@
       }
     ],
     "milestone": null,
-    "comments": 15,
+    "comments": 17,
     "created_at": "2026-03-20T18:52:01Z",
-    "updated_at": "2026-03-21T11:10:36Z",
+    "updated_at": "2026-03-21T11:37:22Z",
     "closed_at": null,
     "assignee": {
       "login": "FitseTLT",
@@ -741,9 +741,9 @@
       }
     ],
     "milestone": null,
-    "comments": 5,
+    "comments": 7,
     "created_at": "2026-03-20T17:33:40Z",
-    "updated_at": "2026-03-20T19:30:20Z",
+    "updated_at": "2026-03-21T12:32:56Z",
     "closed_at": null,
     "assignee": {
       "login": "sobitneupane",
@@ -895,9 +895,9 @@
       }
     ],
     "milestone": null,
-    "comments": 5,
+    "comments": 8,
     "created_at": "2026-03-20T17:23:01Z",
-    "updated_at": "2026-03-20T18:39:34Z",
+    "updated_at": "2026-03-21T12:31:56Z",
     "closed_at": null,
     "assignee": {
       "login": "ShridharGoel",
@@ -3202,7 +3202,7 @@
       "blocking": 0,
       "total_blocking": 0
     },
-    "body": "If you haven’t already, check out our [contributing guidelines](https://github.com/Expensify/ReactNativeChat/blob/main/contributingGuides/CONTRIBUTING.md) for onboarding and email contributors@expensify.com to request to join our Slack channel!\n___\n\n**Version Number:**\n**Reproducible in staging?:** Needs Reproduction (Unable to reproduce)\n**Reproducible in production?:** Needs Reproduction\n**If this was caught during regression testing, add the test name, ID and link from BrowserStack:**\n**Email or phone of affected tester (no customers):**\n**Logs:** https://stackoverflow.com/c/expensify/questions/4856\n**Expensify/Expensify Issue URL:**\n**Issue reported by:** @twisterdotcom \n**Slack conversation** (hyperlinked to channel name): [#Expensify Bugs](https://expensify.slack.com/archives/C049HHMV9SM/p1773912516497039)\n\n## Action Performed:\n\n1. Log into New Expensify\n2. Navigate to the Home screen\n3. Observe the “Pay 3 Reports” notification\n4. Click “Begin.”\n5. Observe the resulting screen.\n\n## Expected Result:\nThe notification should only appear if there are actual reports requiring payment\nClicking “Begin” should navigate to a clear list of payable reports\nIf no reports exist, the notification should not be shown\n## Actual Result:\nThe user sees a “Pay 3 Reports” notification despite having no reports to pay\nClicking “Begin” leads to an empty screen\nThe notification continues to reappear.\n## Workaround:\nUnknown\n## Platforms:\nSelect the officially supported platforms where the issue was reproduced:\n- [ ] Android: App\n- [ ] Android: mWeb Chrome\n- [ ] iOS: App\n- [ ] iOS: mWeb Safari\n- [ ] iOS: mWeb Chrome\n- [x] Windows: Chrome\n- [x] MacOS: Chrome / Safari\n\n## Screenshots/Videos\n\nThe video for the issue is in Slack [thread](https://expensify.slack.com/archives/C049HHMV9SM/p1773912516497039)\n\n[View all open jobs on GitHub](https://github.com/Expensify/App/issues?q=is%3Aopen+is%3Aissue+label%3A%22Help+Wanted%22)\n\n\n<details><summary>Issue Owner</summary>Current Issue Owner: @Krishna2323</details>\n<details><summary>Upwork Automation - Do Not Edit</summary>\n    <ul>\n        <li>Upwork Job URL: https://www.upwork.com/jobs/~022034721717276535787</li>\n        <li>Upwork Job ID: 2034721717276535787</li>\n        <li>Last Price Increase: 2026-03-19</li>\n    </ul>\n</details>",
+    "body": "If you haven’t already, check out our [contributing guidelines](https://github.com/Expensify/ReactNativeChat/blob/main/contributingGuides/CONTRIBUTING.md) for onboarding and email contributors@expensify.com to request to join our Slack channel!\n___\n\n**Version Number:**\n**Reproducible in staging?:** Needs Reproduction (Unable to reproduce)\n**Reproducible in production?:** Needs Reproduction\n**If this was caught during regression testing, add the test name, ID and link from BrowserStack:**\n**Email or phone of affected tester (no customers):**\n**Logs:** https://stackoverflow.com/c/expensify/questions/4856\n**Expensify/Expensify Issue URL:**\n**Issue reported by:** @twisterdotcom \n**Slack conversation** (hyperlinked to channel name): [#Expensify Bugs](https://expensify.slack.com/archives/C049HHMV9SM/p1773912516497039)\n\n## Action Performed:\n\n1. Log into New Expensify\n2. Navigate to the Home screen\n3. Observe the “Pay 3 Reports” notification\n4. Click “Begin.”\n5. Observe the resulting screen.\n\n## Expected Result:\nThe notification should only appear if there are actual reports requiring payment\nClicking “Begin” should navigate to a clear list of payable reports\nIf no reports exist, the notification should not be shown\n## Actual Result:\nThe user sees a “Pay 3 Reports” notification despite having no reports to pay\nClicking “Begin�� leads to an empty screen\nThe notification continues to reappear.\n## Workaround:\nUnknown\n## Platforms:\nSelect the officially supported platforms where the issue was reproduced:\n- [ ] Android: App\n- [ ] Android: mWeb Chrome\n- [ ] iOS: App\n- [ ] iOS: mWeb Safari\n- [ ] iOS: mWeb Chrome\n- [x] Windows: Chrome\n- [x] MacOS: Chrome / Safari\n\n## Screenshots/Videos\n\nThe video for the issue is in Slack [thread](https://expensify.slack.com/archives/C049HHMV9SM/p1773912516497039)\n\n[View all open jobs on GitHub](https://github.com/Expensify/App/issues?q=is%3Aopen+is%3Aissue+label%3A%22Help+Wanted%22)\n\n\n<details><summary>Issue Owner</summary>Current Issue Owner: @Krishna2323</details>\n<details><summary>Upwork Automation - Do Not Edit</summary>\n    <ul>\n        <li>Upwork Job URL: https://www.upwork.com/jobs/~022034721717276535787</li>\n        <li>Upwork Job ID: 2034721717276535787</li>\n        <li>Last Price Increase: 2026-03-19</li>\n    </ul>\n</details>",
     "closed_by": null,
     "reactions": {
       "url": "https://api.github.com/repos/Expensify/App/issues/85861/reactions",
@@ -3816,15 +3816,6 @@
         "description": "KSv2"
       },
       {
-        "id": 3136662525,
-        "node_id": "MDU6TGFiZWwzMTM2NjYyNTI1",
-        "url": "https://api.github.com/repos/Expensify/App/labels/Help%20Wanted",
-        "name": "Help Wanted",
-        "color": "CFC8F1",
-        "default": false,
-        "description": "Apply this label when an issue is open to proposals by contributors"
-      },
-      {
         "id": 4664850679,
         "node_id": "LA_kwDOEQqHYc8AAAABFgv49w",
         "url": "https://api.github.com/repos/Expensify/App/labels/Bug",
@@ -3857,30 +3848,51 @@
         "type": "User",
         "user_view_type": "public",
         "site_admin": false
+      },
+      {
+        "login": "dominictb",
+        "id": 165644294,
+        "node_id": "U_kgDOCd-IBg",
+        "avatar_url": "https://avatars.githubusercontent.com/u/165644294?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/dominictb",
+        "html_url": "https://github.com/dominictb",
+        "followers_url": "https://api.github.com/users/dominictb/followers",
+        "following_url": "https://api.github.com/users/dominictb/following{/other_user}",
+        "gists_url": "https://api.github.com/users/dominictb/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/dominictb/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/dominictb/subscriptions",
+        "organizations_url": "https://api.github.com/users/dominictb/orgs",
+        "repos_url": "https://api.github.com/users/dominictb/repos",
+        "events_url": "https://api.github.com/users/dominictb/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/dominictb/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
       }
     ],
     "milestone": null,
     "comments": 5,
     "created_at": "2026-03-19T17:33:15Z",
-    "updated_at": "2026-03-21T04:58:03Z",
+    "updated_at": "2026-03-21T12:05:12Z",
     "closed_at": null,
     "assignee": {
-      "login": "ShridharGoel",
-      "id": 35566748,
-      "node_id": "MDQ6VXNlcjM1NTY2NzQ4",
-      "avatar_url": "https://avatars.githubusercontent.com/u/35566748?v=4",
+      "login": "dominictb",
+      "id": 165644294,
+      "node_id": "U_kgDOCd-IBg",
+      "avatar_url": "https://avatars.githubusercontent.com/u/165644294?v=4",
       "gravatar_id": "",
-      "url": "https://api.github.com/users/ShridharGoel",
-      "html_url": "https://github.com/ShridharGoel",
-      "followers_url": "https://api.github.com/users/ShridharGoel/followers",
-      "following_url": "https://api.github.com/users/ShridharGoel/following{/other_user}",
-      "gists_url": "https://api.github.com/users/ShridharGoel/gists{/gist_id}",
-      "starred_url": "https://api.github.com/users/ShridharGoel/starred{/owner}{/repo}",
-      "subscriptions_url": "https://api.github.com/users/ShridharGoel/subscriptions",
-      "organizations_url": "https://api.github.com/users/ShridharGoel/orgs",
-      "repos_url": "https://api.github.com/users/ShridharGoel/repos",
-      "events_url": "https://api.github.com/users/ShridharGoel/events{/privacy}",
-      "received_events_url": "https://api.github.com/users/ShridharGoel/received_events",
+      "url": "https://api.github.com/users/dominictb",
+      "html_url": "https://github.com/dominictb",
+      "followers_url": "https://api.github.com/users/dominictb/followers",
+      "following_url": "https://api.github.com/users/dominictb/following{/other_user}",
+      "gists_url": "https://api.github.com/users/dominictb/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/dominictb/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/dominictb/subscriptions",
+      "organizations_url": "https://api.github.com/users/dominictb/orgs",
+      "repos_url": "https://api.github.com/users/dominictb/repos",
+      "events_url": "https://api.github.com/users/dominictb/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/dominictb/received_events",
       "type": "User",
       "user_view_type": "public",
       "site_admin": false
@@ -3899,7 +3911,7 @@
       "blocking": 0,
       "total_blocking": 0
     },
-    "body": "If you haven’t already, check out our [contributing guidelines](https://github.com/Expensify/ReactNativeChat/blob/main/contributingGuides/CONTRIBUTING.md) for onboarding and email contributors@expensify.com to request to join our Slack channel!\n___\n\n**Version Number:** 9.3.40-8\n**Reproducible in staging?:** Yes\n**Reproducible in production?:** Yes\n**If this was caught during regression testing, add the test name, ID and link from BrowserStack:** https://github.com/Expensify/Expensify/issues/547393\n**Email or phone of affected tester (no customers):** N/A\n**Issue reported by:** Applause Internal Team\n\n## Action Performed:\nPrecondition:\nUser has tryNewDot NVP classicRedirect.dismissed = true\n\n1. Create a new workspace > Enable Accounting.\n2. Go to Accounting > Sage Intacct > Enter wrong credentials for Sage Intacct.\n3. Go to LHN to check for the latest report\n\n## Expected Result:\nVerify that the Integration Sync Failed link points to Old dot.\n\n## Actual Result:\nNo Integration Sync Failed link in #admin room when failing Sage Intacct connect\n\n## Workaround:\nUnknown\n\n## Platforms:\n- [ ] Android: App\n- [ ] Android: mWeb Chrome\n- [ ] iOS: App\n- [ ] iOS: mWeb Safari\n- [ ] iOS: mWeb Chrome\n- [x] Windows: Chrome\n- [ ] MacOS: Chrome / Safari\n\n## Screenshots/Videos\n\nhttps://github.com/user-attachments/assets/7ebe1147-b661-457a-9699-a33d2fe80b3e\n\n[View all open jobs on GitHub](https://github.com/Expensify/App/issues?q=is%3Aopen+is%3Aissue+label%3A%22Help+Wanted%22)\n\n<details><summary>Issue Owner</summary>Current Issue Owner: @ShridharGoel</details>\n<details><summary>Upwork Automation - Do Not Edit</summary>\n    <ul>\n        <li>Upwork Job URL: https://www.upwork.com/jobs/~022034688548416436241</li>\n        <li>Upwork Job ID: 2034688548416436241</li>\n        <li>Last Price Increase: 2026-03-19</li>\n    </ul>\n</details>",
+    "body": "If you haven’t already, check out our [contributing guidelines](https://github.com/Expensify/ReactNativeChat/blob/main/contributingGuides/CONTRIBUTING.md) for onboarding and email contributors@expensify.com to request to join our Slack channel!\n___\n\n**Version Number:** 9.3.40-8\n**Reproducible in staging?:** Yes\n**Reproducible in production?:** Yes\n**If this was caught during regression testing, add the test name, ID and link from BrowserStack:** https://github.com/Expensify/Expensify/issues/547393\n**Email or phone of affected tester (no customers):** N/A\n**Issue reported by:** Applause Internal Team\n\n## Action Performed:\nPrecondition:\nUser has tryNewDot NVP classicRedirect.dismissed = true\n\n1. Create a new workspace > Enable Accounting.\n2. Go to Accounting > Sage Intacct > Enter wrong credentials for Sage Intacct.\n3. Go to LHN to check for the latest report\n\n## Expected Result:\nVerify that the Integration Sync Failed link points to Old dot.\n\n## Actual Result:\nNo Integration Sync Failed link in #admin room when failing Sage Intacct connect\n\n## Workaround:\nUnknown\n\n## Platforms:\n- [ ] Android: App\n- [ ] Android: mWeb Chrome\n- [ ] iOS: App\n- [ ] iOS: mWeb Safari\n- [ ] iOS: mWeb Chrome\n- [x] Windows: Chrome\n- [ ] MacOS: Chrome / Safari\n\n## Screenshots/Videos\n\nhttps://github.com/user-attachments/assets/7ebe1147-b661-457a-9699-a33d2fe80b3e\n\n[View all open jobs on GitHub](https://github.com/Expensify/App/issues?q=is%3Aopen+is%3Aissue+label%3A%22Help+Wanted%22)\n\n<details><summary>Issue Owner</summary>Current Issue Owner: @dominictb</details>\n<details><summary>Upwork Automation - Do Not Edit</summary>\n    <ul>\n        <li>Upwork Job URL: https://www.upwork.com/jobs/~022034688548416436241</li>\n        <li>Upwork Job ID: 2034688548416436241</li>\n        <li>Last Price Increase: 2026-03-19</li>\n    </ul>\n</details>",
     "closed_by": null,
     "reactions": {
       "url": "https://api.github.com/repos/Expensify/App/issues/85839/reactions",
