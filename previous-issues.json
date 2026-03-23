@@ -1189,6 +1189,15 @@
     },
     "labels": [
       {
+        "id": 2283143991,
+        "node_id": "MDU6TGFiZWwyMjgzMTQzOTkx",
+        "url": "https://api.github.com/repos/Expensify/App/labels/Reviewing",
+        "name": "Reviewing",
+        "color": "dddddd",
+        "default": false,
+        "description": "Has a PR in review"
+      },
+      {
         "id": 2873246102,
         "node_id": "MDU6TGFiZWwyODczMjQ2MTAy",
         "url": "https://api.github.com/repos/Expensify/App/labels/External",
@@ -1198,11 +1207,11 @@
         "description": "Added to denote the issue can be worked on by a contributor"
       },
       {
-        "id": 2893455829,
-        "node_id": "MDU6TGFiZWwyODkzNDU1ODI5",
-        "url": "https://api.github.com/repos/Expensify/App/labels/Daily",
-        "name": "Daily",
-        "color": "eb6420",
+        "id": 2893515375,
+        "node_id": "MDU6TGFiZWwyODkzNTE1Mzc1",
+        "url": "https://api.github.com/repos/Expensify/App/labels/Weekly",
+        "name": "Weekly",
+        "color": "009800",
         "default": false,
         "description": "KSv2"
       },
@@ -1253,7 +1262,7 @@
     "milestone": null,
     "comments": 18,
     "created_at": "2026-03-20T17:23:01Z",
-    "updated_at": "2026-03-23T00:27:25Z",
+    "updated_at": "2026-03-23T04:16:49Z",
     "closed_at": null,
     "assignee": {
       "login": "ShridharGoel",
@@ -1518,6 +1527,15 @@
     },
     "labels": [
       {
+        "id": 2283143991,
+        "node_id": "MDU6TGFiZWwyMjgzMTQzOTkx",
+        "url": "https://api.github.com/repos/Expensify/App/labels/Reviewing",
+        "name": "Reviewing",
+        "color": "dddddd",
+        "default": false,
+        "description": "Has a PR in review"
+      },
+      {
         "id": 2873246102,
         "node_id": "MDU6TGFiZWwyODczMjQ2MTAy",
         "url": "https://api.github.com/repos/Expensify/App/labels/External",
@@ -1527,11 +1545,11 @@
         "description": "Added to denote the issue can be worked on by a contributor"
       },
       {
-        "id": 2893455829,
-        "node_id": "MDU6TGFiZWwyODkzNDU1ODI5",
-        "url": "https://api.github.com/repos/Expensify/App/labels/Daily",
-        "name": "Daily",
-        "color": "eb6420",
+        "id": 2893515375,
+        "node_id": "MDU6TGFiZWwyODkzNTE1Mzc1",
+        "url": "https://api.github.com/repos/Expensify/App/labels/Weekly",
+        "name": "Weekly",
+        "color": "009800",
         "default": false,
         "description": "KSv2"
       },
@@ -1603,7 +1621,7 @@
     "milestone": null,
     "comments": 16,
     "created_at": "2026-03-20T13:15:18Z",
-    "updated_at": "2026-03-21T17:37:49Z",
+    "updated_at": "2026-03-23T04:47:09Z",
     "closed_at": null,
     "assignee": {
       "login": "stitesExpensify",
@@ -1856,6 +1874,15 @@
     },
     "labels": [
       {
+        "id": 2283143991,
+        "node_id": "MDU6TGFiZWwyMjgzMTQzOTkx",
+        "url": "https://api.github.com/repos/Expensify/App/labels/Reviewing",
+        "name": "Reviewing",
+        "color": "dddddd",
+        "default": false,
+        "description": "Has a PR in review"
+      },
+      {
         "id": 2873246102,
         "node_id": "MDU6TGFiZWwyODczMjQ2MTAy",
         "url": "https://api.github.com/repos/Expensify/App/labels/External",
@@ -1865,11 +1892,11 @@
         "description": "Added to denote the issue can be worked on by a contributor"
       },
       {
-        "id": 2893455829,
-        "node_id": "MDU6TGFiZWwyODkzNDU1ODI5",
-        "url": "https://api.github.com/repos/Expensify/App/labels/Daily",
-        "name": "Daily",
-        "color": "eb6420",
+        "id": 2893515375,
+        "node_id": "MDU6TGFiZWwyODkzNTE1Mzc1",
+        "url": "https://api.github.com/repos/Expensify/App/labels/Weekly",
+        "name": "Weekly",
+        "color": "009800",
         "default": false,
         "description": "KSv2"
       },
@@ -1881,15 +1908,6 @@
         "color": "CFC8F1",
         "default": false,
         "description": "Apply this label when an issue is open to proposals by contributors"
-      },
-      {
-        "id": 3184150925,
-        "node_id": "MDU6TGFiZWwzMTg0MTUwOTI1",
-        "url": "https://api.github.com/repos/Expensify/App/labels/Overdue",
-        "name": "Overdue",
-        "color": "D93F0B",
-        "default": false,
-        "description": ""
       },
       {
         "id": 4664850679,
@@ -1929,7 +1947,7 @@
     "milestone": null,
     "comments": 14,
     "created_at": "2026-03-20T10:29:56Z",
-    "updated_at": "2026-03-22T13:12:17Z",
+    "updated_at": "2026-03-23T04:46:49Z",
     "closed_at": null,
     "assignee": {
       "login": "situchan",
@@ -2144,169 +2162,6 @@
       "eyes": 0
     },
     "timeline_url": "https://api.github.com/repos/Expensify/App/issues/85924/timeline",
-    "performed_via_github_app": null,
-    "state_reason": null,
-    "pinned_comment": null
-  },
-  {
-    "url": "https://api.github.com/repos/Expensify/App/issues/85910",
-    "repository_url": "https://api.github.com/repos/Expensify/App",
-    "labels_url": "https://api.github.com/repos/Expensify/App/issues/85910/labels{/name}",
-    "comments_url": "https://api.github.com/repos/Expensify/App/issues/85910/comments",
-    "events_url": "https://api.github.com/repos/Expensify/App/issues/85910/events",
-    "html_url": "https://github.com/Expensify/App/issues/85910",
-    "id": 4106478685,
-    "node_id": "I_kwDOEQqHYc70w-Rd",
-    "number": 85910,
-    "title": "[$250] Expense - \"Amount - converted\" and Total are shown when submitter opens rejected expense",
-    "user": {
-      "login": "jponikarchuk",
-      "id": 141990088,
-      "node_id": "U_kgDOCHaYyA",
-      "avatar_url": "https://avatars.githubusercontent.com/u/141990088?v=4",
-      "gravatar_id": "",
-      "url": "https://api.github.com/users/jponikarchuk",
-      "html_url": "https://github.com/jponikarchuk",
-      "followers_url": "https://api.github.com/users/jponikarchuk/followers",
-      "following_url": "https://api.github.com/users/jponikarchuk/following{/other_user}",
-      "gists_url": "https://api.github.com/users/jponikarchuk/gists{/gist_id}",
-      "starred_url": "https://api.github.com/users/jponikarchuk/starred{/owner}{/repo}",
-      "subscriptions_url": "https://api.github.com/users/jponikarchuk/subscriptions",
-      "organizations_url": "https://api.github.com/users/jponikarchuk/orgs",
-      "repos_url": "https://api.github.com/users/jponikarchuk/repos",
-      "events_url": "https://api.github.com/users/jponikarchuk/events{/privacy}",
-      "received_events_url": "https://api.github.com/users/jponikarchuk/received_events",
-      "type": "User",
-      "user_view_type": "public",
-      "site_admin": false
-    },
-    "labels": [
-      {
-        "id": 2873246102,
-        "node_id": "MDU6TGFiZWwyODczMjQ2MTAy",
-        "url": "https://api.github.com/repos/Expensify/App/labels/External",
-        "name": "External",
-        "color": "a7b8ef",
-        "default": false,
-        "description": "Added to denote the issue can be worked on by a contributor"
-      },
-      {
-        "id": 2893455829,
-        "node_id": "MDU6TGFiZWwyODkzNDU1ODI5",
-        "url": "https://api.github.com/repos/Expensify/App/labels/Daily",
-        "name": "Daily",
-        "color": "eb6420",
-        "default": false,
-        "description": "KSv2"
-      },
-      {
-        "id": 3136662525,
-        "node_id": "MDU6TGFiZWwzMTM2NjYyNTI1",
-        "url": "https://api.github.com/repos/Expensify/App/labels/Help%20Wanted",
-        "name": "Help Wanted",
-        "color": "CFC8F1",
-        "default": false,
-        "description": "Apply this label when an issue is open to proposals by contributors"
-      },
-      {
-        "id": 3184150925,
-        "node_id": "MDU6TGFiZWwzMTg0MTUwOTI1",
-        "url": "https://api.github.com/repos/Expensify/App/labels/Overdue",
-        "name": "Overdue",
-        "color": "D93F0B",
-        "default": false,
-        "description": ""
-      },
-      {
-        "id": 4664850679,
-        "node_id": "LA_kwDOEQqHYc8AAAABFgv49w",
-        "url": "https://api.github.com/repos/Expensify/App/labels/Bug",
-        "name": "Bug",
-        "color": "93074F",
-        "default": false,
-        "description": "Something is broken. Auto assigns a BugZero manager."
-      }
-    ],
-    "state": "open",
-    "locked": false,
-    "assignees": [
-      {
-        "login": "eVoloshchak",
-        "id": 9059945,
-        "node_id": "MDQ6VXNlcjkwNTk5NDU=",
-        "avatar_url": "https://avatars.githubusercontent.com/u/9059945?v=4",
-        "gravatar_id": "",
-        "url": "https://api.github.com/users/eVoloshchak",
-        "html_url": "https://github.com/eVoloshchak",
-        "followers_url": "https://api.github.com/users/eVoloshchak/followers",
-        "following_url": "https://api.github.com/users/eVoloshchak/following{/other_user}",
-        "gists_url": "https://api.github.com/users/eVoloshchak/gists{/gist_id}",
-        "starred_url": "https://api.github.com/users/eVoloshchak/starred{/owner}{/repo}",
-        "subscriptions_url": "https://api.github.com/users/eVoloshchak/subscriptions",
-        "organizations_url": "https://api.github.com/users/eVoloshchak/orgs",
-        "repos_url": "https://api.github.com/users/eVoloshchak/repos",
-        "events_url": "https://api.github.com/users/eVoloshchak/events{/privacy}",
-        "received_events_url": "https://api.github.com/users/eVoloshchak/received_events",
-        "type": "User",
-        "user_view_type": "public",
-        "site_admin": false
-      }
-    ],
-    "milestone": null,
-    "comments": 18,
-    "created_at": "2026-03-20T08:05:23Z",
-    "updated_at": "2026-03-22T21:14:55Z",
-    "closed_at": null,
-    "assignee": {
-      "login": "eVoloshchak",
-      "id": 9059945,
-      "node_id": "MDQ6VXNlcjkwNTk5NDU=",
-      "avatar_url": "https://avatars.githubusercontent.com/u/9059945?v=4",
-      "gravatar_id": "",
-      "url": "https://api.github.com/users/eVoloshchak",
-      "html_url": "https://github.com/eVoloshchak",
-      "followers_url": "https://api.github.com/users/eVoloshchak/followers",
-      "following_url": "https://api.github.com/users/eVoloshchak/following{/other_user}",
-      "gists_url": "https://api.github.com/users/eVoloshchak/gists{/gist_id}",
-      "starred_url": "https://api.github.com/users/eVoloshchak/starred{/owner}{/repo}",
-      "subscriptions_url": "https://api.github.com/users/eVoloshchak/subscriptions",
-      "organizations_url": "https://api.github.com/users/eVoloshchak/orgs",
-      "repos_url": "https://api.github.com/users/eVoloshchak/repos",
-      "events_url": "https://api.github.com/users/eVoloshchak/events{/privacy}",
-      "received_events_url": "https://api.github.com/users/eVoloshchak/received_events",
-      "type": "User",
-      "user_view_type": "public",
-      "site_admin": false
-    },
-    "author_association": "NONE",
-    "type": null,
-    "active_lock_reason": null,
-    "sub_issues_summary": {
-      "total": 0,
-      "completed": 0,
-      "percent_completed": 0
-    },
-    "issue_dependencies_summary": {
-      "blocked_by": 0,
-      "total_blocked_by": 0,
-      "blocking": 0,
-      "total_blocking": 0
-    },
-    "body": "If you haven’t already, check out our [contributing guidelines](https://github.com/Expensify/ReactNativeChat/blob/main/contributingGuides/CONTRIBUTING.md) for onboarding and email contributors@expensify.com to request to join our Slack channel!\n___\n\n**Version Number:** 9.3.41-0\n**Reproducible in staging?:** Yes\n**Reproducible in production?:** Yes\n**If this was caught during regression testing, add the test name, ID and link from BrowserStack:** https://test-management.browserstack.com/projects/2219752/folder/27754595/test-cases/77995734\n**Email or phone of affected tester (no customers):** N/A\n**Issue reported by:** Applause Internal Team\n**Bug source:** Regression TC Execution\n**Device used:** MacBook Air 15.7.4 Chrome, iPhone 15 iOS 26.3.1\n**App Component:** Money Requests\n\n## Action Performed:\n1. As a workspace admin, set the\"Submissions Frequency\" to Daily, invite a Member (Submitter)\n2. As a member, create two manual expenses in the workspace chat, submit the report\n3. As the Admin, reject one of the expenses\n4. As the Member, open the rejected expense details\n\n## Expected Result:\n\"Total\" and \"Amount - Converted\" are not displayed since the currency was not changed\n\n## Actual Result:\n\"Total\" and \"Amount - Converted\" are displayed in the rejected expense details, when Submitter opens it foe the first time. on iOS the Member is logged out\n\n## Workaround:\nUnknown\n\n## Platforms:\n- [ ] Android: App\n- [ ] Android: mWeb Chrome\n- [x] iOS: App\n- [ ] iOS: mWeb Safari\n- [ ] iOS: mWeb Chrome\n- [x] Windows: Chrome\n- [x] MacOS: Chrome / Safari\n\n## Screenshots/Videos\n\nhttps://github.com/user-attachments/assets/ccb456e3-ae93-43e1-a7e7-bfd2b984b1b7\n\n[View all open jobs on GitHub](https://github.com/Expensify/App/issues?q=is%3Aopen+is%3Aissue+label%3A%22Help+Wanted%22)\n\n<details><summary>Issue Owner</summary>Current Issue Owner: @eVoloshchak</details>\n<details><summary>Upwork Automation - Do Not Edit</summary>\n    <ul>\n        <li>Upwork Job URL: https://www.upwork.com/jobs/~022034909098162173969</li>\n        <li>Upwork Job ID: 2034909098162173969</li>\n        <li>Last Price Increase: 2026-03-20</li>\n    </ul>\n</details>",
-    "closed_by": null,
-    "reactions": {
-      "url": "https://api.github.com/repos/Expensify/App/issues/85910/reactions",
-      "total_count": 0,
-      "+1": 0,
-      "-1": 0,
-      "laugh": 0,
-      "hooray": 0,
-      "confused": 0,
-      "heart": 0,
-      "rocket": 0,
-      "eyes": 0
-    },
-    "timeline_url": "https://api.github.com/repos/Expensify/App/issues/85910/timeline",
     "performed_via_github_app": null,
     "state_reason": null,
     "pinned_comment": null
