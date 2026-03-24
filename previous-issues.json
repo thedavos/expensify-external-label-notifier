@@ -1,5 +1,159 @@
 [
   {
+    "url": "https://api.github.com/repos/Expensify/App/issues/86235",
+    "repository_url": "https://api.github.com/repos/Expensify/App",
+    "labels_url": "https://api.github.com/repos/Expensify/App/issues/86235/labels{/name}",
+    "comments_url": "https://api.github.com/repos/Expensify/App/issues/86235/comments",
+    "events_url": "https://api.github.com/repos/Expensify/App/issues/86235/events",
+    "html_url": "https://github.com/Expensify/App/issues/86235",
+    "id": 4128810421,
+    "node_id": "I_kwDOEQqHYc72GKW1",
+    "number": 86235,
+    "title": "[$250] Search - Multi-word merchants are not searchable using keywords",
+    "user": {
+      "login": "nlemma",
+      "id": 161635172,
+      "node_id": "U_kgDOCaJbZA",
+      "avatar_url": "https://avatars.githubusercontent.com/u/161635172?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/nlemma",
+      "html_url": "https://github.com/nlemma",
+      "followers_url": "https://api.github.com/users/nlemma/followers",
+      "following_url": "https://api.github.com/users/nlemma/following{/other_user}",
+      "gists_url": "https://api.github.com/users/nlemma/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/nlemma/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/nlemma/subscriptions",
+      "organizations_url": "https://api.github.com/users/nlemma/orgs",
+      "repos_url": "https://api.github.com/users/nlemma/repos",
+      "events_url": "https://api.github.com/users/nlemma/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/nlemma/received_events",
+      "type": "User",
+      "user_view_type": "public",
+      "site_admin": false
+    },
+    "labels": [
+      {
+        "id": 2873246102,
+        "node_id": "MDU6TGFiZWwyODczMjQ2MTAy",
+        "url": "https://api.github.com/repos/Expensify/App/labels/External",
+        "name": "External",
+        "color": "a7b8ef",
+        "default": false,
+        "description": "Added to denote the issue can be worked on by a contributor"
+      },
+      {
+        "id": 2893455829,
+        "node_id": "MDU6TGFiZWwyODkzNDU1ODI5",
+        "url": "https://api.github.com/repos/Expensify/App/labels/Daily",
+        "name": "Daily",
+        "color": "eb6420",
+        "default": false,
+        "description": "KSv2"
+      },
+      {
+        "id": 3136662525,
+        "node_id": "MDU6TGFiZWwzMTM2NjYyNTI1",
+        "url": "https://api.github.com/repos/Expensify/App/labels/Help%20Wanted",
+        "name": "Help Wanted",
+        "color": "CFC8F1",
+        "default": false,
+        "description": "Apply this label when an issue is open to proposals by contributors"
+      },
+      {
+        "id": 4664850679,
+        "node_id": "LA_kwDOEQqHYc8AAAABFgv49w",
+        "url": "https://api.github.com/repos/Expensify/App/labels/Bug",
+        "name": "Bug",
+        "color": "93074F",
+        "default": false,
+        "description": "Something is broken. Auto assigns a BugZero manager."
+      }
+    ],
+    "state": "open",
+    "locked": false,
+    "assignees": [
+      {
+        "login": "ikevin127",
+        "id": 56457735,
+        "node_id": "MDQ6VXNlcjU2NDU3NzM1",
+        "avatar_url": "https://avatars.githubusercontent.com/u/56457735?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/ikevin127",
+        "html_url": "https://github.com/ikevin127",
+        "followers_url": "https://api.github.com/users/ikevin127/followers",
+        "following_url": "https://api.github.com/users/ikevin127/following{/other_user}",
+        "gists_url": "https://api.github.com/users/ikevin127/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/ikevin127/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/ikevin127/subscriptions",
+        "organizations_url": "https://api.github.com/users/ikevin127/orgs",
+        "repos_url": "https://api.github.com/users/ikevin127/repos",
+        "events_url": "https://api.github.com/users/ikevin127/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/ikevin127/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      }
+    ],
+    "milestone": null,
+    "comments": 3,
+    "created_at": "2026-03-24T15:35:08Z",
+    "updated_at": "2026-03-24T15:47:17Z",
+    "closed_at": null,
+    "assignee": {
+      "login": "ikevin127",
+      "id": 56457735,
+      "node_id": "MDQ6VXNlcjU2NDU3NzM1",
+      "avatar_url": "https://avatars.githubusercontent.com/u/56457735?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/ikevin127",
+      "html_url": "https://github.com/ikevin127",
+      "followers_url": "https://api.github.com/users/ikevin127/followers",
+      "following_url": "https://api.github.com/users/ikevin127/following{/other_user}",
+      "gists_url": "https://api.github.com/users/ikevin127/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/ikevin127/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/ikevin127/subscriptions",
+      "organizations_url": "https://api.github.com/users/ikevin127/orgs",
+      "repos_url": "https://api.github.com/users/ikevin127/repos",
+      "events_url": "https://api.github.com/users/ikevin127/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/ikevin127/received_events",
+      "type": "User",
+      "user_view_type": "public",
+      "site_admin": false
+    },
+    "author_association": "NONE",
+    "type": null,
+    "active_lock_reason": null,
+    "sub_issues_summary": {
+      "total": 0,
+      "completed": 0,
+      "percent_completed": 0
+    },
+    "issue_dependencies_summary": {
+      "blocked_by": 0,
+      "total_blocked_by": 0,
+      "blocking": 0,
+      "total_blocking": 0
+    },
+    "body": "If you haven’t already, check out our [contributing guidelines](https://github.com/Expensify/ReactNativeChat/blob/main/contributingGuides/CONTRIBUTING.md) for onboarding and email contributors@expensify.com to request to join our Slack channel!\n___\n\n**Version Number:** v9.3.43-0\n**Reproducible in staging?:** Yes\n**Reproducible in production?:** Yes\n**If this was caught during regression testing, add the test name, ID and link from BrowserStack:** https://test-management.browserstack.com/projects/2219752/test-runs/TR-12779/folder/13176922/41237512/1276031929?sort=%2Bidentifier\n**Email or phone of affected tester (no customers):** n/a\n**Issue reported by:** Applause Internal Team\n**Bug source:** Regression TC Execution\n**Device used:** Mac 15.4.1 Safari/Chrome, iPhone 13 iOS 26.3.1\n**App Component:** Search\n\n## Action Performed:\n1. Go to https://staging.new.expensify.com\n2. Navigate to a conversation\n3. Submit a expense with the merchant set to “Coffee shop”\n4. Navigate to another conversation\n5. Click on the Search icon on the header of the conversation (should be top right)\n6. Type “merchant:coffee” and enter\n\n## Expected Result:\nExpenses matching the entered keyword are displayed\n\n## Actual Result:\nMulti-word merchants are not searchable using keywords\n\n## Workaround:\nUnknown\n\n## Platforms:\n- [ ] Android: App\n- [ ] Android: mWeb Chrome\n- [x] iOS: App\n- [ ] iOS: mWeb Safari\n- [ ] iOS: mWeb Chrome\n- [x] Windows: Chrome\n- [x] MacOS: Chrome / Safari\n\n## Screenshots/Videos\n\nhttps://github.com/user-attachments/assets/53f3dd3e-c884-4b68-b234-b60f90cc1675\n\n[View all open jobs on GitHub](https://github.com/Expensify/App/issues?q=is%3Aopen+is%3Aissue+label%3A%22Help+Wanted%22)\n\n<details><summary>Issue Owner</summary>Current Issue Owner: @ikevin127</details>\n<details><summary>Upwork Automation - Do Not Edit</summary>\n    <ul>\n        <li>Upwork Job URL: https://www.upwork.com/jobs/~022036469900322154796</li>\n        <li>Upwork Job ID: 2036469900322154796</li>\n        <li>Last Price Increase: 2026-03-24</li>\n    </ul>\n</details>",
+    "closed_by": null,
+    "reactions": {
+      "url": "https://api.github.com/repos/Expensify/App/issues/86235/reactions",
+      "total_count": 0,
+      "+1": 0,
+      "-1": 0,
+      "laugh": 0,
+      "hooray": 0,
+      "confused": 0,
+      "heart": 0,
+      "rocket": 0,
+      "eyes": 0
+    },
+    "timeline_url": "https://api.github.com/repos/Expensify/App/issues/86235/timeline",
+    "performed_via_github_app": null,
+    "state_reason": null,
+    "pinned_comment": null
+  },
+  {
     "url": "https://api.github.com/repos/Expensify/App/issues/86228",
     "repository_url": "https://api.github.com/repos/Expensify/App",
     "labels_url": "https://api.github.com/repos/Expensify/App/issues/86228/labels{/name}",
@@ -82,6 +236,27 @@
     "locked": false,
     "assignees": [
       {
+        "login": "francoisl",
+        "id": 2229301,
+        "node_id": "MDQ6VXNlcjIyMjkzMDE=",
+        "avatar_url": "https://avatars.githubusercontent.com/u/2229301?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/francoisl",
+        "html_url": "https://github.com/francoisl",
+        "followers_url": "https://api.github.com/users/francoisl/followers",
+        "following_url": "https://api.github.com/users/francoisl/following{/other_user}",
+        "gists_url": "https://api.github.com/users/francoisl/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/francoisl/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/francoisl/subscriptions",
+        "organizations_url": "https://api.github.com/users/francoisl/orgs",
+        "repos_url": "https://api.github.com/users/francoisl/repos",
+        "events_url": "https://api.github.com/users/francoisl/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/francoisl/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      {
         "login": "shawnborton",
         "id": 2319350,
         "node_id": "MDQ6VXNlcjIzMTkzNTA=",
@@ -125,9 +300,9 @@
       }
     ],
     "milestone": null,
-    "comments": 4,
+    "comments": 7,
     "created_at": "2026-03-24T14:25:59Z",
-    "updated_at": "2026-03-24T14:41:12Z",
+    "updated_at": "2026-03-24T15:08:45Z",
     "closed_at": null,
     "assignee": {
       "login": "shawnborton",
@@ -164,7 +339,7 @@
       "blocking": 0,
       "total_blocking": 0
     },
-    "body": "If you haven’t already, check out our [contributing guidelines](https://github.com/Expensify/ReactNativeChat/blob/main/contributingGuides/CONTRIBUTING.md) for onboarding and email contributors@expensify.com to request to join our Slack channel!\n___\n\n**Version Number:** 9.3.43-0 \n**Reproducible in staging?:** Y\n**Reproducible in production?:** Y\n**If this was caught during regression testing, add the test name, ID and link from BrowserStack:**\n**Email or phone of affected tester (no customers):**\n**Logs:** https://stackoverflow.com/c/expensify/questions/4856\n**Expensify/Expensify Issue URL:**\n**Issue reported by:** @timothysmall\n**Slack conversation** (hyperlinked to channel name): [#Expensify Bugs](https://expensify.slack.com/archives/C049HHMV9SM/p1774286881123369)\n\n## Action Performed:\n1. Create an expense using multi level tags\n2. Go to Expenses > Filters\n3. Filter by tag (South) \n4. View expenses visible\n5. Shows expenses also containing the \"California\" parent tag\n\n## Expected Result:\nTo only see expenses containing the \"South\" tag\n## Actual Result:\nShows expenses also containing the \"California\" parent tag\n## Workaround:\nUnknown\n## Platforms:\nSelect the officially supported platforms where the issue was reproduced:\n- [ ] Android: App\n- [ ] Android: mWeb Chrome\n- [ ] iOS: App\n- [ ] iOS: mWeb Safari\n- [ ] iOS: mWeb Chrome\n- [x] Windows: Chrome\n- [x] MacOS: Chrome / Safari\n\n## Screenshots/Videos\n\nhttps://github.com/user-attachments/assets/7e7e0778-44cf-4549-a283-ff6c9ce7ab1a\n\n[View all open jobs on GitHub](https://github.com/Expensify/App/issues?q=is%3Aopen+is%3Aissue+label%3A%22Help+Wanted%22)\n\n\n<details><summary>Issue Owner</summary>Current Issue Owner: @parasharrajat</details>\n<details><summary>Upwork Automation - Do Not Edit</summary>\n    <ul>\n        <li>Upwork Job URL: https://www.upwork.com/jobs/~022036453269533007549</li>\n        <li>Upwork Job ID: 2036453269533007549</li>\n        <li>Last Price Increase: 2026-03-24</li>\n    </ul>\n</details>",
+    "body": "If you haven’t already, check out our [contributing guidelines](https://github.com/Expensify/ReactNativeChat/blob/main/contributingGuides/CONTRIBUTING.md) for onboarding and email contributors@expensify.com to request to join our Slack channel!\n___\n\n**Version Number:** 9.3.43-0 \n**Reproducible in staging?:** Y\n**Reproducible in production?:** Y\n**If this was caught during regression testing, add the test name, ID and link from BrowserStack:**\n**Email or phone of affected tester (no customers):**\n**Logs:** https://stackoverflow.com/c/expensify/questions/4856\n**Expensify/Expensify Issue URL:**\n**Issue reported by:** @timothysmall\n**Slack conversation** (hyperlinked to channel name): [#Expensify Bugs](https://expensify.slack.com/archives/C049HHMV9SM/p1774286881123369)\n\n## Action Performed:\n1. Create an expense using multi level tags\n2. Go to Expenses > Filters\n3. Filter by tag (South) \n4. View expenses visible\n5. Shows expenses also containing the \"California\" parent tag\n\n## Expected Result:\nTo only see expenses containing the \"South\" tag\n## Actual Result:\nShows expenses also containing the \"California\" parent tag\n## Workaround:\nUnknown\n## Platforms:\nSelect the officially supported platforms where the issue was reproduced:\n- [ ] Android: App\n- [ ] Android: mWeb Chrome\n- [ ] iOS: App\n- [ ] iOS: mWeb Safari\n- [ ] iOS: mWeb Chrome\n- [x] Windows: Chrome\n- [x] MacOS: Chrome / Safari\n\n## Screenshots/Videos\n\nhttps://github.com/user-attachments/assets/7e7e0778-44cf-4549-a283-ff6c9ce7ab1a\n\n[View all open jobs on GitHub](https://github.com/Expensify/App/issues?q=is%3Aopen+is%3Aissue+label%3A%22Help+Wanted%22)\n\n\n<details><summary>Issue Owner</summary>Current Issue Owner: @francoisl</details>\n<details><summary>Upwork Automation - Do Not Edit</summary>\n    <ul>\n        <li>Upwork Job URL: https://www.upwork.com/jobs/~022036453269533007549</li>\n        <li>Upwork Job ID: 2036453269533007549</li>\n        <li>Last Price Increase: 2026-03-24</li>\n    </ul>\n</details>",
     "closed_by": null,
     "reactions": {
       "url": "https://api.github.com/repos/Expensify/App/issues/86228/reactions",
@@ -445,9 +620,9 @@
       }
     ],
     "milestone": null,
-    "comments": 15,
+    "comments": 16,
     "created_at": "2026-03-24T11:58:33Z",
-    "updated_at": "2026-03-24T14:43:05Z",
+    "updated_at": "2026-03-24T15:01:56Z",
     "closed_at": null,
     "assignee": {
       "login": "dukenv0307",
@@ -1659,9 +1834,9 @@
       }
     ],
     "milestone": null,
-    "comments": 16,
+    "comments": 18,
     "created_at": "2026-03-23T14:59:19Z",
-    "updated_at": "2026-03-24T10:26:59Z",
+    "updated_at": "2026-03-24T16:12:42Z",
     "closed_at": null,
     "assignee": {
       "login": "dangrous",
