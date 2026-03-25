@@ -504,6 +504,15 @@
     },
     "labels": [
       {
+        "id": 2283143991,
+        "node_id": "MDU6TGFiZWwyMjgzMTQzOTkx",
+        "url": "https://api.github.com/repos/Expensify/App/labels/Reviewing",
+        "name": "Reviewing",
+        "color": "dddddd",
+        "default": false,
+        "description": "Has a PR in review"
+      },
+      {
         "id": 2873246102,
         "node_id": "MDU6TGFiZWwyODczMjQ2MTAy",
         "url": "https://api.github.com/repos/Expensify/App/labels/External",
@@ -513,11 +522,11 @@
         "description": "Added to denote the issue can be worked on by a contributor"
       },
       {
-        "id": 2893455829,
-        "node_id": "MDU6TGFiZWwyODkzNDU1ODI5",
-        "url": "https://api.github.com/repos/Expensify/App/labels/Daily",
-        "name": "Daily",
-        "color": "eb6420",
+        "id": 2893515375,
+        "node_id": "MDU6TGFiZWwyODkzNTE1Mzc1",
+        "url": "https://api.github.com/repos/Expensify/App/labels/Weekly",
+        "name": "Weekly",
+        "color": "009800",
         "default": false,
         "description": "KSv2"
       },
@@ -554,12 +563,33 @@
         "type": "User",
         "user_view_type": "public",
         "site_admin": false
+      },
+      {
+        "login": "inimaga",
+        "id": 24917864,
+        "node_id": "MDQ6VXNlcjI0OTE3ODY0",
+        "avatar_url": "https://avatars.githubusercontent.com/u/24917864?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/inimaga",
+        "html_url": "https://github.com/inimaga",
+        "followers_url": "https://api.github.com/users/inimaga/followers",
+        "following_url": "https://api.github.com/users/inimaga/following{/other_user}",
+        "gists_url": "https://api.github.com/users/inimaga/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/inimaga/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/inimaga/subscriptions",
+        "organizations_url": "https://api.github.com/users/inimaga/orgs",
+        "repos_url": "https://api.github.com/users/inimaga/repos",
+        "events_url": "https://api.github.com/users/inimaga/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/inimaga/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
       }
     ],
     "milestone": null,
-    "comments": 14,
+    "comments": 15,
     "created_at": "2026-03-24T16:30:11Z",
-    "updated_at": "2026-03-25T07:38:40Z",
+    "updated_at": "2026-03-25T08:40:16Z",
     "closed_at": null,
     "assignee": {
       "login": "huult",
@@ -1192,15 +1222,6 @@
         "description": "KSv2"
       },
       {
-        "id": 3136662525,
-        "node_id": "MDU6TGFiZWwzMTM2NjYyNTI1",
-        "url": "https://api.github.com/repos/Expensify/App/labels/Help%20Wanted",
-        "name": "Help Wanted",
-        "color": "CFC8F1",
-        "default": false,
-        "description": "Apply this label when an issue is open to proposals by contributors"
-      },
-      {
         "id": 4664850679,
         "node_id": "LA_kwDOEQqHYc8AAAABFgv49w",
         "url": "https://api.github.com/repos/Expensify/App/labels/Bug",
@@ -1236,9 +1257,9 @@
       }
     ],
     "milestone": null,
-    "comments": 21,
+    "comments": 34,
     "created_at": "2026-03-24T11:58:33Z",
-    "updated_at": "2026-03-25T07:48:38Z",
+    "updated_at": "2026-03-25T08:44:17Z",
     "closed_at": null,
     "assignee": {
       "login": "dukenv0307",
