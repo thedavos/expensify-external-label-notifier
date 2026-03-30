@@ -1425,6 +1425,15 @@
         "color": "93074F",
         "default": false,
         "description": "Something is broken. Auto assigns a BugZero manager."
+      },
+      {
+        "id": 9515372815,
+        "node_id": "LA_kwDOEQqHYc8AAAACNykRDw",
+        "url": "https://api.github.com/repos/Expensify/App/labels/Accessibility",
+        "name": "Accessibility",
+        "color": "e3ad50",
+        "default": false,
+        "description": "Issues affecting WACG accessibility on any platform."
       }
     ],
     "state": "open",
@@ -1455,7 +1464,7 @@
     "milestone": null,
     "comments": 21,
     "created_at": "2026-03-28T17:47:18Z",
-    "updated_at": "2026-03-30T11:56:01Z",
+    "updated_at": "2026-03-30T20:02:31Z",
     "closed_at": null,
     "assignee": {
       "login": "ZhenjaHorbach",
