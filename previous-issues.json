@@ -73,6 +73,27 @@
     "locked": false,
     "assignees": [
       {
+        "login": "rlinoz",
+        "id": 5201282,
+        "node_id": "MDQ6VXNlcjUyMDEyODI=",
+        "avatar_url": "https://avatars.githubusercontent.com/u/5201282?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/rlinoz",
+        "html_url": "https://github.com/rlinoz",
+        "followers_url": "https://api.github.com/users/rlinoz/followers",
+        "following_url": "https://api.github.com/users/rlinoz/following{/other_user}",
+        "gists_url": "https://api.github.com/users/rlinoz/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/rlinoz/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/rlinoz/subscriptions",
+        "organizations_url": "https://api.github.com/users/rlinoz/orgs",
+        "repos_url": "https://api.github.com/users/rlinoz/repos",
+        "events_url": "https://api.github.com/users/rlinoz/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/rlinoz/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      {
         "login": "brunovjk",
         "id": 95647348,
         "node_id": "U_kgDOBbN2dA",
@@ -95,9 +116,9 @@
       }
     ],
     "milestone": null,
-    "comments": 9,
+    "comments": 14,
     "created_at": "2026-03-30T09:52:35Z",
-    "updated_at": "2026-03-30T10:20:59Z",
+    "updated_at": "2026-03-30T13:13:27Z",
     "closed_at": null,
     "assignee": {
       "login": "brunovjk",
@@ -134,7 +155,7 @@
       "blocking": 0,
       "total_blocking": 0
     },
-    "body": "If you haven’t already, check out our [contributing guidelines](https://github.com/Expensify/ReactNativeChat/blob/main/contributingGuides/CONTRIBUTING.md) for onboarding and email contributors@expensify.com to request to join our Slack channel!\n___\n\n**Version Number:** 9.3.50-2\n**Reproducible in staging?:** Yes\n**Reproducible in production?:** \n**If this was caught during regression testing, add the test name, ID and link from BrowserStack:** https://github.com/Expensify/Expensify/issues/509485\n**Email or phone of affected tester (no customers):** undefined\n**Issue reported by:** Applause Internal Team\n**Bug source:** undefined\n**Device used:** undefined\n**App Component:** undefined\n\n## Action Performed:\n1. Go to staging.new.expensify.com\n2. Go to Account > Profile > Contact methods.\n3. Tap New contact method.\n4. Enter magic code.\n5. Enter any email > Add.\n6. On magic code page, tap on the input to open the keyboard.\n7. Tap 3-dot menu on the top right.\n\n## Expected Result:\nEmpty space will not appear on the modal with \"Remove\" option.\n\n## Actual Result:\nHuge empty space appears on the modal with \"Remove\" option.\n\n## Workaround:\nUnknown\n\n## Platforms:\n- [ ] Android: App\n- [ ] Android: mWeb Chrome\n- [ ] iOS: App\n- [x] iOS: mWeb Safari\n- [ ] iOS: mWeb Chrome\n- [ ] Windows: Chrome\n- [ ] MacOS: Chrome / Safari\n\n## Screenshots/Videos\n\n<img width=\"359\" height=\"722\" alt=\"Image\" src=\"https://github.com/user-attachments/assets/d8af950f-365d-40e9-81fb-7bed66ee77f5\" />\n\nhttps://github.com/user-attachments/assets/2677f638-a3ac-4ca7-9d2e-0e2d1961a3bd\n\nhttps://github.com/user-attachments/assets/9983acd5-9fdb-44a1-b9c5-8ed8a27d377a\n\n[View all open jobs on GitHub](https://github.com/Expensify/App/issues?q=is%3Aopen+is%3Aissue+label%3A%22Help+Wanted%22)\n\n<details><summary>Issue Owner</summary>Current Issue Owner: @brunovjk</details>\n<details><summary>Upwork Automation - Do Not Edit</summary>\n    <ul>\n        <li>Upwork Job URL: https://www.upwork.com/jobs/~022038558018328273470</li>\n        <li>Upwork Job ID: 2038558018328273470</li>\n        <li>Last Price Increase: 2026-03-30</li>\n    </ul>\n</details>",
+    "body": "If you haven’t already, check out our [contributing guidelines](https://github.com/Expensify/ReactNativeChat/blob/main/contributingGuides/CONTRIBUTING.md) for onboarding and email contributors@expensify.com to request to join our Slack channel!\n___\n\n**Version Number:** 9.3.50-2\n**Reproducible in staging?:** Yes\n**Reproducible in production?:** \n**If this was caught during regression testing, add the test name, ID and link from BrowserStack:** https://github.com/Expensify/Expensify/issues/509485\n**Email or phone of affected tester (no customers):** undefined\n**Issue reported by:** Applause Internal Team\n**Bug source:** undefined\n**Device used:** undefined\n**App Component:** undefined\n\n## Action Performed:\n1. Go to staging.new.expensify.com\n2. Go to Account > Profile > Contact methods.\n3. Tap New contact method.\n4. Enter magic code.\n5. Enter any email > Add.\n6. On magic code page, tap on the input to open the keyboard.\n7. Tap 3-dot menu on the top right.\n\n## Expected Result:\nEmpty space will not appear on the modal with \"Remove\" option.\n\n## Actual Result:\nHuge empty space appears on the modal with \"Remove\" option.\n\n## Workaround:\nUnknown\n\n## Platforms:\n- [ ] Android: App\n- [ ] Android: mWeb Chrome\n- [ ] iOS: App\n- [x] iOS: mWeb Safari\n- [ ] iOS: mWeb Chrome\n- [ ] Windows: Chrome\n- [ ] MacOS: Chrome / Safari\n\n## Screenshots/Videos\n\n<img width=\"359\" height=\"722\" alt=\"Image\" src=\"https://github.com/user-attachments/assets/d8af950f-365d-40e9-81fb-7bed66ee77f5\" />\n\nhttps://github.com/user-attachments/assets/2677f638-a3ac-4ca7-9d2e-0e2d1961a3bd\n\nhttps://github.com/user-attachments/assets/9983acd5-9fdb-44a1-b9c5-8ed8a27d377a\n\n[View all open jobs on GitHub](https://github.com/Expensify/App/issues?q=is%3Aopen+is%3Aissue+label%3A%22Help+Wanted%22)\n\n<details><summary>Issue Owner</summary>Current Issue Owner: @rlinoz</details>\n<details><summary>Upwork Automation - Do Not Edit</summary>\n    <ul>\n        <li>Upwork Job URL: https://www.upwork.com/jobs/~022038558018328273470</li>\n        <li>Upwork Job ID: 2038558018328273470</li>\n        <li>Last Price Increase: 2026-03-30</li>\n    </ul>\n</details>",
     "closed_by": null,
     "reactions": {
       "url": "https://api.github.com/repos/Expensify/App/issues/86639/reactions",
@@ -249,9 +270,9 @@
       }
     ],
     "milestone": null,
-    "comments": 21,
+    "comments": 23,
     "created_at": "2026-03-30T06:52:01Z",
-    "updated_at": "2026-03-30T10:27:34Z",
+    "updated_at": "2026-03-30T13:20:52Z",
     "closed_at": null,
     "assignee": {
       "login": "hoangzinh",
@@ -557,9 +578,9 @@
       }
     ],
     "milestone": null,
-    "comments": 20,
+    "comments": 21,
     "created_at": "2026-03-28T17:47:18Z",
-    "updated_at": "2026-03-30T09:41:54Z",
+    "updated_at": "2026-03-30T11:56:01Z",
     "closed_at": null,
     "assignee": {
       "login": "ZhenjaHorbach",
@@ -1482,6 +1503,15 @@
         "description": "Apply this label when an issue is open to proposals by contributors"
       },
       {
+        "id": 3184150925,
+        "node_id": "MDU6TGFiZWwzMTg0MTUwOTI1",
+        "url": "https://api.github.com/repos/Expensify/App/labels/Overdue",
+        "name": "Overdue",
+        "color": "D93F0B",
+        "default": false,
+        "description": ""
+      },
+      {
         "id": 4664850679,
         "node_id": "LA_kwDOEQqHYc8AAAABFgv49w",
         "url": "https://api.github.com/repos/Expensify/App/labels/Bug",
@@ -1519,7 +1549,7 @@
     "milestone": null,
     "comments": 8,
     "created_at": "2026-03-28T00:11:42Z",
-    "updated_at": "2026-03-29T06:12:51Z",
+    "updated_at": "2026-03-30T11:36:12Z",
     "closed_at": null,
     "assignee": {
       "login": "jayeshmangwani",
@@ -2510,9 +2540,9 @@
       }
     ],
     "milestone": null,
-    "comments": 27,
+    "comments": 30,
     "created_at": "2026-03-27T13:44:29Z",
-    "updated_at": "2026-03-30T09:49:10Z",
+    "updated_at": "2026-03-30T12:21:48Z",
     "closed_at": null,
     "assignee": {
       "login": "cretadn22",
