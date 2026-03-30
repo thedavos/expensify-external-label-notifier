@@ -1409,15 +1409,6 @@
         "description": "KSv2"
       },
       {
-        "id": 3136662525,
-        "node_id": "MDU6TGFiZWwzMTM2NjYyNTI1",
-        "url": "https://api.github.com/repos/Expensify/App/labels/Help%20Wanted",
-        "name": "Help Wanted",
-        "color": "CFC8F1",
-        "default": false,
-        "description": "Apply this label when an issue is open to proposals by contributors"
-      },
-      {
         "id": 4664850679,
         "node_id": "LA_kwDOEQqHYc8AAAABFgv49w",
         "url": "https://api.github.com/repos/Expensify/App/labels/Bug",
@@ -1459,12 +1450,33 @@
         "type": "User",
         "user_view_type": "public",
         "site_admin": false
+      },
+      {
+        "login": "Krishna2323",
+        "id": 85894871,
+        "node_id": "MDQ6VXNlcjg1ODk0ODcx",
+        "avatar_url": "https://avatars.githubusercontent.com/u/85894871?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/Krishna2323",
+        "html_url": "https://github.com/Krishna2323",
+        "followers_url": "https://api.github.com/users/Krishna2323/followers",
+        "following_url": "https://api.github.com/users/Krishna2323/following{/other_user}",
+        "gists_url": "https://api.github.com/users/Krishna2323/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/Krishna2323/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/Krishna2323/subscriptions",
+        "organizations_url": "https://api.github.com/users/Krishna2323/orgs",
+        "repos_url": "https://api.github.com/users/Krishna2323/repos",
+        "events_url": "https://api.github.com/users/Krishna2323/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/Krishna2323/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
       }
     ],
     "milestone": null,
-    "comments": 21,
+    "comments": 22,
     "created_at": "2026-03-28T17:47:18Z",
-    "updated_at": "2026-03-30T20:02:31Z",
+    "updated_at": "2026-03-30T21:27:56Z",
     "closed_at": null,
     "assignee": {
       "login": "ZhenjaHorbach",
@@ -1501,7 +1513,7 @@
       "blocking": 0,
       "total_blocking": 0
     },
-    "body": "If you haven’t already, check out our [contributing guidelines](https://github.com/Expensify/ReactNativeChat/blob/main/contributingGuides/CONTRIBUTING.md) for onboarding and email contributors@expensify.com to request to join our Slack channel!\n___\n\n**Version Number:** 9.3.50-2\n**Reproducible in staging?:** Y\n**Reproducible in production?:** Y\n**If this was caught during regression testing, add the test name, ID and link from BrowserStack:**\n**Email or phone of affected tester (no customers):**\n**Logs:** https://stackoverflow.com/c/expensify/questions/4856\n**Expensify/Expensify Issue URL:**\n**Issue reported by:** @rushatgabhane \n**Slack conversation** (hyperlinked to channel name): [#Expensify Bugs](https://expensify.slack.com/archives/C049HHMV9SM/p1774705817976729)\n\n## Action Performed:\n\n1. Create a new expense\n2. Enter an amount on the RHP\n3. Click Next\n4. On the Confirm Details RHP:\n5. Use TAB to navigate to the “To:” field\n6. Press Enter\n\n## Expected Result:\nPressing Enter on the “To:” field should open the Choose Recipient RHP screen\n## Actual Result:\nNo action occurs when pressing Enter\nThe “To:” field is not keyboard-activatable (appears “dead”)\n## Workaround:\nUnknown\n## Platforms:\nSelect the officially supported platforms where the issue was reproduced:\n- [ ] Android: App\n- [ ] Android: mWeb Chrome\n- [ ] iOS: App\n- [ ] iOS: mWeb Safari\n- [ ] iOS: mWeb Chrome\n- [x] Windows: Chrome\n- [x] MacOS: Chrome / Safari\n\n## Screenshots/Videos\n\nhttps://github.com/user-attachments/assets/e020cdcc-2b4c-4d75-845f-a6fe0a00ea92\n\n[View all open jobs on GitHub](https://github.com/Expensify/App/issues?q=is%3Aopen+is%3Aissue+label%3A%22Help+Wanted%22)\n\n\n<details><summary>Issue Owner</summary>Current Issue Owner: @ZhenjaHorbach</details>\n<details><summary>Upwork Automation - Do Not Edit</summary>\n    <ul>\n        <li>Upwork Job URL: https://www.upwork.com/jobs/~022037951518228554302</li>\n        <li>Upwork Job ID: 2037951518228554302</li>\n        <li>Last Price Increase: 2026-03-28</li>\n    </ul>\n</details>",
+    "body": "If you haven’t already, check out our [contributing guidelines](https://github.com/Expensify/ReactNativeChat/blob/main/contributingGuides/CONTRIBUTING.md) for onboarding and email contributors@expensify.com to request to join our Slack channel!\n___\n\n**Version Number:** 9.3.50-2\n**Reproducible in staging?:** Y\n**Reproducible in production?:** Y\n**If this was caught during regression testing, add the test name, ID and link from BrowserStack:**\n**Email or phone of affected tester (no customers):**\n**Logs:** https://stackoverflow.com/c/expensify/questions/4856\n**Expensify/Expensify Issue URL:**\n**Issue reported by:** @rushatgabhane \n**Slack conversation** (hyperlinked to channel name): [#Expensify Bugs](https://expensify.slack.com/archives/C049HHMV9SM/p1774705817976729)\n\n## Action Performed:\n\n1. Create a new expense\n2. Enter an amount on the RHP\n3. Click Next\n4. On the Confirm Details RHP:\n5. Use TAB to navigate to the “To:” field\n6. Press Enter\n\n## Expected Result:\nPressing Enter on the “To:” field should open the Choose Recipient RHP screen\n## Actual Result:\nNo action occurs when pressing Enter\nThe “To:” field is not keyboard-activatable (appears “dead”)\n## Workaround:\nUnknown\n## Platforms:\nSelect the officially supported platforms where the issue was reproduced:\n- [ ] Android: App\n- [ ] Android: mWeb Chrome\n- [ ] iOS: App\n- [ ] iOS: mWeb Safari\n- [ ] iOS: mWeb Chrome\n- [x] Windows: Chrome\n- [x] MacOS: Chrome / Safari\n\n## Screenshots/Videos\n\nhttps://github.com/user-attachments/assets/e020cdcc-2b4c-4d75-845f-a6fe0a00ea92\n\n[View all open jobs on GitHub](https://github.com/Expensify/App/issues?q=is%3Aopen+is%3Aissue+label%3A%22Help+Wanted%22)\n\n\n<details><summary>Issue Owner</summary>Current Issue Owner: @Krishna2323</details>\n<details><summary>Upwork Automation - Do Not Edit</summary>\n    <ul>\n        <li>Upwork Job URL: https://www.upwork.com/jobs/~022037951518228554302</li>\n        <li>Upwork Job ID: 2037951518228554302</li>\n        <li>Last Price Increase: 2026-03-28</li>\n    </ul>\n</details>",
     "closed_by": null,
     "reactions": {
       "url": "https://api.github.com/repos/Expensify/App/issues/86612/reactions",
@@ -3107,9 +3119,9 @@
       }
     ],
     "milestone": null,
-    "comments": 6,
+    "comments": 7,
     "created_at": "2026-03-27T17:35:11Z",
-    "updated_at": "2026-03-30T08:10:52Z",
+    "updated_at": "2026-03-30T21:22:47Z",
     "closed_at": null,
     "assignee": {
       "login": "neil-marcellini",
@@ -3270,9 +3282,9 @@
       }
     ],
     "milestone": null,
-    "comments": 17,
+    "comments": 18,
     "created_at": "2026-03-27T17:31:44Z",
-    "updated_at": "2026-03-30T03:44:46Z",
+    "updated_at": "2026-03-30T21:22:44Z",
     "closed_at": null,
     "assignee": {
       "login": "sobitneupane",
