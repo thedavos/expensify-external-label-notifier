@@ -95,9 +95,9 @@
       }
     ],
     "milestone": null,
-    "comments": 7,
+    "comments": 8,
     "created_at": "2026-04-01T15:49:15Z",
-    "updated_at": "2026-04-01T16:12:04Z",
+    "updated_at": "2026-04-01T17:05:38Z",
     "closed_at": null,
     "assignee": {
       "login": "abzokhattab",
@@ -412,9 +412,9 @@
       }
     ],
     "milestone": null,
-    "comments": 11,
+    "comments": 12,
     "created_at": "2026-04-01T15:16:44Z",
-    "updated_at": "2026-04-01T16:08:19Z",
+    "updated_at": "2026-04-01T17:29:56Z",
     "closed_at": null,
     "assignee": {
       "login": "suneox",
@@ -720,9 +720,9 @@
       }
     ],
     "milestone": null,
-    "comments": 10,
+    "comments": 12,
     "created_at": "2026-04-01T12:21:54Z",
-    "updated_at": "2026-04-01T15:30:37Z",
+    "updated_at": "2026-04-01T17:17:23Z",
     "closed_at": null,
     "assignee": {
       "login": "dmkt9",
@@ -1215,9 +1215,9 @@
       }
     ],
     "milestone": null,
-    "comments": 11,
+    "comments": 12,
     "created_at": "2026-04-01T10:09:11Z",
-    "updated_at": "2026-04-01T10:48:03Z",
+    "updated_at": "2026-04-01T17:42:00Z",
     "closed_at": null,
     "assignee": {
       "login": "Ollyws",
@@ -1850,7 +1850,7 @@
     "id": 4182804506,
     "node_id": "I_kwDOEQqHYc75UIga",
     "number": 86809,
-    "title": "Reports - Report RHP is empty after merging expenses offline",
+    "title": "[$250] Reports - Report RHP is empty after merging expenses offline",
     "user": {
       "login": "lanitochka17",
       "id": 78819774,
@@ -1966,9 +1966,9 @@
       }
     ],
     "milestone": null,
-    "comments": 10,
+    "comments": 14,
     "created_at": "2026-03-31T22:39:03Z",
-    "updated_at": "2026-04-01T16:56:35Z",
+    "updated_at": "2026-04-01T17:06:40Z",
     "closed_at": null,
     "assignee": {
       "login": "neil-marcellini",
@@ -2005,7 +2005,7 @@
       "blocking": 0,
       "total_blocking": 0
     },
-    "body": "If you haven’t already, check out our [contributing guidelines](https://github.com/Expensify/ReactNativeChat/blob/main/contributingGuides/CONTRIBUTING.md) for onboarding and email contributors@expensify.com to request to join our Slack channel!\n___\n\n**Version Number:** 9.3.51-0\n**Reproducible in staging?:** Yes\n**Reproducible in production?:** No\n**If this was caught during regression testing, add the test name, ID and link from BrowserStack:** https://github.com/Expensify/App/pull/82232\n**Email or phone of affected tester (no customers):** snodijosdnjoijiosnj@gmail.com\n**Issue reported by:** Applause Internal Team\n**Bug source:** Exploratory - Significant User Experience Deterioration\n**Device used:** Mac 26.2 / Chrome\n**App Component:** Chat Report View\n\n## Action Performed:\n1. Go to staging.new.expensify.com\n2. Go to workspace chat.\n3. Create two reports with an expense in each report.\n4. Go to Reports > Reports.\n5. Go offline.\n6. Open any report from Step 3.\n7. Click More > Merge.\n8. Select the other expense from Step 3 > Continue.\n9. Select all the second options for each section.\n10. Click Continue > Merge expenses.\n\n## Expected Result:\nReport RHP will open with expense details after merging expenses offline.\n\n## Actual Result:\nReport RHP is empty after merging expenses offline.\n\n## Workaround:\nUnknown\n\n## Platforms:\n- [ ] Android: App\n- [ ] Android: mWeb Chrome\n- [ ] iOS: App\n- [ ] iOS: mWeb Safari\n- [ ] iOS: mWeb Chrome\n- [x] Windows: Chrome\n- [ ] MacOS: Chrome / Safari\n\n## Screenshots/Videos\n\nhttps://github.com/user-attachments/assets/59dcaa20-5c72-40ef-b9fa-c2596361ce76\n\n[View all open jobs on GitHub](https://github.com/Expensify/App/issues?q=is%3Aopen+is%3Aissue+label%3A%22Help+Wanted%22)",
+    "body": "If you haven’t already, check out our [contributing guidelines](https://github.com/Expensify/ReactNativeChat/blob/main/contributingGuides/CONTRIBUTING.md) for onboarding and email contributors@expensify.com to request to join our Slack channel!\n___\n\n**Version Number:** 9.3.51-0\n**Reproducible in staging?:** Yes\n**Reproducible in production?:** No\n**If this was caught during regression testing, add the test name, ID and link from BrowserStack:** https://github.com/Expensify/App/pull/82232\n**Email or phone of affected tester (no customers):** snodijosdnjoijiosnj@gmail.com\n**Issue reported by:** Applause Internal Team\n**Bug source:** Exploratory - Significant User Experience Deterioration\n**Device used:** Mac 26.2 / Chrome\n**App Component:** Chat Report View\n\n## Action Performed:\n1. Go to staging.new.expensify.com\n2. Go to workspace chat.\n3. Create two reports with an expense in each report.\n4. Go to Reports > Reports.\n5. Go offline.\n6. Open any report from Step 3.\n7. Click More > Merge.\n8. Select the other expense from Step 3 > Continue.\n9. Select all the second options for each section.\n10. Click Continue > Merge expenses.\n\n## Expected Result:\nReport RHP will open with expense details after merging expenses offline.\n\n## Actual Result:\nReport RHP is empty after merging expenses offline.\n\n## Workaround:\nUnknown\n\n## Platforms:\n- [ ] Android: App\n- [ ] Android: mWeb Chrome\n- [ ] iOS: App\n- [ ] iOS: mWeb Safari\n- [ ] iOS: mWeb Chrome\n- [x] Windows: Chrome\n- [ ] MacOS: Chrome / Safari\n\n## Screenshots/Videos\n\nhttps://github.com/user-attachments/assets/59dcaa20-5c72-40ef-b9fa-c2596361ce76\n\n[View all open jobs on GitHub](https://github.com/Expensify/App/issues?q=is%3Aopen+is%3Aissue+label%3A%22Help+Wanted%22)\n\n<details><summary>Issue Owner</summary>Current Issue Owner: @ZhenjaHorbach</details>\n<details><summary>Upwork Automation - Do Not Edit</summary>\n    <ul>\n        <li>Upwork Job URL: https://www.upwork.com/jobs/~022039386466954350225</li>\n        <li>Upwork Job ID: 2039386466954350225</li>\n        <li>Last Price Increase: 2026-04-01</li>\n    </ul>\n</details>",
     "closed_by": null,
     "reactions": {
       "url": "https://api.github.com/repos/Expensify/App/issues/86809/reactions",
