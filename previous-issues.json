@@ -1,5 +1,159 @@
 [
   {
+    "url": "https://api.github.com/repos/Expensify/App/issues/87039",
+    "repository_url": "https://api.github.com/repos/Expensify/App",
+    "labels_url": "https://api.github.com/repos/Expensify/App/issues/87039/labels{/name}",
+    "comments_url": "https://api.github.com/repos/Expensify/App/issues/87039/comments",
+    "events_url": "https://api.github.com/repos/Expensify/App/issues/87039/events",
+    "html_url": "https://github.com/Expensify/App/issues/87039",
+    "id": 4197563781,
+    "node_id": "I_kwDOEQqHYc76Mb2F",
+    "number": 87039,
+    "title": "[$250] Reports-The newly added expense is not briefly highlighted when created on the Reports page",
+    "user": {
+      "login": "mitarachim",
+      "id": 181838622,
+      "node_id": "U_kgDOCtajHg",
+      "avatar_url": "https://avatars.githubusercontent.com/u/181838622?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/mitarachim",
+      "html_url": "https://github.com/mitarachim",
+      "followers_url": "https://api.github.com/users/mitarachim/followers",
+      "following_url": "https://api.github.com/users/mitarachim/following{/other_user}",
+      "gists_url": "https://api.github.com/users/mitarachim/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/mitarachim/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/mitarachim/subscriptions",
+      "organizations_url": "https://api.github.com/users/mitarachim/orgs",
+      "repos_url": "https://api.github.com/users/mitarachim/repos",
+      "events_url": "https://api.github.com/users/mitarachim/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/mitarachim/received_events",
+      "type": "User",
+      "user_view_type": "public",
+      "site_admin": false
+    },
+    "labels": [
+      {
+        "id": 2873246102,
+        "node_id": "MDU6TGFiZWwyODczMjQ2MTAy",
+        "url": "https://api.github.com/repos/Expensify/App/labels/External",
+        "name": "External",
+        "color": "a7b8ef",
+        "default": false,
+        "description": "Added to denote the issue can be worked on by a contributor"
+      },
+      {
+        "id": 2893455829,
+        "node_id": "MDU6TGFiZWwyODkzNDU1ODI5",
+        "url": "https://api.github.com/repos/Expensify/App/labels/Daily",
+        "name": "Daily",
+        "color": "eb6420",
+        "default": false,
+        "description": "KSv2"
+      },
+      {
+        "id": 3136662525,
+        "node_id": "MDU6TGFiZWwzMTM2NjYyNTI1",
+        "url": "https://api.github.com/repos/Expensify/App/labels/Help%20Wanted",
+        "name": "Help Wanted",
+        "color": "CFC8F1",
+        "default": false,
+        "description": "Apply this label when an issue is open to proposals by contributors"
+      },
+      {
+        "id": 4664850679,
+        "node_id": "LA_kwDOEQqHYc8AAAABFgv49w",
+        "url": "https://api.github.com/repos/Expensify/App/labels/Bug",
+        "name": "Bug",
+        "color": "93074F",
+        "default": false,
+        "description": "Something is broken. Auto assigns a BugZero manager."
+      }
+    ],
+    "state": "open",
+    "locked": false,
+    "assignees": [
+      {
+        "login": "mananjadhav",
+        "id": 3069065,
+        "node_id": "MDQ6VXNlcjMwNjkwNjU=",
+        "avatar_url": "https://avatars.githubusercontent.com/u/3069065?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/mananjadhav",
+        "html_url": "https://github.com/mananjadhav",
+        "followers_url": "https://api.github.com/users/mananjadhav/followers",
+        "following_url": "https://api.github.com/users/mananjadhav/following{/other_user}",
+        "gists_url": "https://api.github.com/users/mananjadhav/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/mananjadhav/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/mananjadhav/subscriptions",
+        "organizations_url": "https://api.github.com/users/mananjadhav/orgs",
+        "repos_url": "https://api.github.com/users/mananjadhav/repos",
+        "events_url": "https://api.github.com/users/mananjadhav/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/mananjadhav/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      }
+    ],
+    "milestone": null,
+    "comments": 14,
+    "created_at": "2026-04-03T00:15:39Z",
+    "updated_at": "2026-04-03T01:14:39Z",
+    "closed_at": null,
+    "assignee": {
+      "login": "mananjadhav",
+      "id": 3069065,
+      "node_id": "MDQ6VXNlcjMwNjkwNjU=",
+      "avatar_url": "https://avatars.githubusercontent.com/u/3069065?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/mananjadhav",
+      "html_url": "https://github.com/mananjadhav",
+      "followers_url": "https://api.github.com/users/mananjadhav/followers",
+      "following_url": "https://api.github.com/users/mananjadhav/following{/other_user}",
+      "gists_url": "https://api.github.com/users/mananjadhav/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/mananjadhav/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/mananjadhav/subscriptions",
+      "organizations_url": "https://api.github.com/users/mananjadhav/orgs",
+      "repos_url": "https://api.github.com/users/mananjadhav/repos",
+      "events_url": "https://api.github.com/users/mananjadhav/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/mananjadhav/received_events",
+      "type": "User",
+      "user_view_type": "public",
+      "site_admin": false
+    },
+    "author_association": "NONE",
+    "type": null,
+    "active_lock_reason": null,
+    "sub_issues_summary": {
+      "total": 0,
+      "completed": 0,
+      "percent_completed": 0
+    },
+    "issue_dependencies_summary": {
+      "blocked_by": 0,
+      "total_blocked_by": 0,
+      "blocking": 0,
+      "total_blocking": 0
+    },
+    "body": "If you haven’t already, check out our [contributing guidelines](https://github.com/Expensify/ReactNativeChat/blob/main/contributingGuides/CONTRIBUTING.md) for onboarding and email contributors@expensify.com to request to join our Slack channel!\n___\n\n**Version Number:** v9.3.52-0\n**Reproducible in staging?:** Yes\n**Reproducible in production?:** Yes\n**If this was caught during regression testing, add the test name, ID and link from BrowserStack:** https://test-management.browserstack.com/projects/2219752/test-runs/TR-15785/folder/13176922/41237518/1302281144?sort=%2Bidentifier\n**Email or phone of affected tester (no customers):** n/a\n**Issue reported by:** Applause Internal Team\n**Bug source:** Regression TC Execution\n**Device used:** Mac 15.4.1 Safari/Chrome\n**App Component:** Search\n\n## Action Performed:\n1. Go to https://staging.new.expensify.com\n2. Navigate to the Reports tab\n3. Click the global create button (FAB) > Create expense > Submit an expense\n\n## Expected Result:\nThe newly added expense appears in the table and the row is briefly highlighted to draw attention to it.\n\n## Actual Result:\nThe newly added expense is not briefly highlighted when created on the Reports page\n\n## Workaround:\nUnknown\n\n## Platforms:\n- [ ] Android: App\n- [ ] Android: mWeb Chrome\n- [ ] iOS: App\n- [ ] iOS: mWeb Safari\n- [ ] iOS: mWeb Chrome\n- [ ] Windows: Chrome\n- [x] MacOS: Chrome / Safari\n\n## Screenshots/Videos\n\nhttps://github.com/user-attachments/assets/26156f0c-bb3e-4110-93b8-c50b4ad845f9\n\n[View all open jobs on GitHub](https://github.com/Expensify/App/issues?q=is%3Aopen+is%3Aissue+label%3A%22Help+Wanted%22)\n\n<details><summary>Issue Owner</summary>Current Issue Owner: @mananjadhav</details>\n<details><summary>Upwork Automation - Do Not Edit</summary>\n    <ul>\n        <li>Upwork Job URL: https://www.upwork.com/jobs/~022039865083201964728</li>\n        <li>Upwork Job ID: 2039865083201964728</li>\n        <li>Last Price Increase: 2026-04-03</li>\n    </ul>\n</details>",
+    "closed_by": null,
+    "reactions": {
+      "url": "https://api.github.com/repos/Expensify/App/issues/87039/reactions",
+      "total_count": 0,
+      "+1": 0,
+      "-1": 0,
+      "laugh": 0,
+      "hooray": 0,
+      "confused": 0,
+      "heart": 0,
+      "rocket": 0,
+      "eyes": 0
+    },
+    "timeline_url": "https://api.github.com/repos/Expensify/App/issues/87039/timeline",
+    "performed_via_github_app": null,
+    "state_reason": null,
+    "pinned_comment": null
+  },
+  {
     "url": "https://api.github.com/repos/Expensify/App/issues/87033",
     "repository_url": "https://api.github.com/repos/Expensify/App",
     "labels_url": "https://api.github.com/repos/Expensify/App/issues/87033/labels{/name}",
@@ -95,9 +249,9 @@
       }
     ],
     "milestone": null,
-    "comments": 8,
+    "comments": 12,
     "created_at": "2026-04-02T23:11:01Z",
-    "updated_at": "2026-04-02T23:22:22Z",
+    "updated_at": "2026-04-03T02:24:25Z",
     "closed_at": null,
     "assignee": {
       "login": "sobitneupane",
@@ -134,7 +288,7 @@
       "blocking": 0,
       "total_blocking": 0
     },
-    "body": "If you haven���t already, check out our [contributing guidelines](https://github.com/Expensify/ReactNativeChat/blob/main/contributingGuides/CONTRIBUTING.md) for onboarding and email contributors@expensify.com to request to join our Slack channel!\n___\n\n**Version Number:** v9.3.52-0\n**Reproducible in staging?:** Yes\n**Reproducible in production?:** Yes\n**If this was caught during regression testing, add the test name, ID and link from BrowserStack:** https://github.com/Expensify/App/pull/81548\n**Email or phone of affected tester (no customers):** testpayment935@gmail.com\n**Issue reported by:** Applause Internal Team\n**Bug source:** Pull Request QA execution\n**Device used:** Windows 11 pro /Chrome\n**App Component:** Workspace Settings\n\n## Action Performed:\n1. Navigate to staging.new.expensify.com\n2. Log in as a workspace admin on staging.\n3. Navigate to Workspace Settings → Categories.\n4. Export the categories CSV.\n5. Modify the CSV by:\n6. Adding at least one new category\n7. Re-import the CSV via More → Import spreadsheet.\n\n## Expected Result:\nThe enabled category should remain enabled after importing new category\n\n## Actual Result:\nThe all category become disabled \nThe enabled category CSV changed the enabled input to a capital letter\n\n## Workaround:\nUnknown\n\n## Platforms:\n- [ ] Android: App\n- [ ] Android: mWeb Chrome\n- [ ] iOS: App\n- [ ] iOS: mWeb Safari\n- [ ] iOS: mWeb Chrome\n- [x] Windows: Chrome\n- [ ] MacOS: Chrome / Safari\n\n## Screenshots/Videos\n\nhttps://github.com/user-attachments/assets/62cad91a-6ef7-47ba-9d62-5984d0d4d668\n\n[View all open jobs on GitHub](https://github.com/Expensify/App/issues?q=is%3Aopen+is%3Aissue+label%3A%22Help+Wanted%22)\n\n<details><summary>Issue Owner</summary>Current Issue Owner: @sobitneupane</details>\n<details><summary>Upwork Automation - Do Not Edit</summary>\n    <ul>\n        <li>Upwork Job URL: https://www.upwork.com/jobs/~022039844386983496376</li>\n        <li>Upwork Job ID: 2039844386983496376</li>\n        <li>Last Price Increase: 2026-04-02</li>\n    </ul>\n</details>",
+    "body": "If you haven’t already, check out our [contributing guidelines](https://github.com/Expensify/ReactNativeChat/blob/main/contributingGuides/CONTRIBUTING.md) for onboarding and email contributors@expensify.com to request to join our Slack channel!\n___\n\n**Version Number:** v9.3.52-0\n**Reproducible in staging?:** Yes\n**Reproducible in production?:** Yes\n**If this was caught during regression testing, add the test name, ID and link from BrowserStack:** https://github.com/Expensify/App/pull/81548\n**Email or phone of affected tester (no customers):** testpayment935@gmail.com\n**Issue reported by:** Applause Internal Team\n**Bug source:** Pull Request QA execution\n**Device used:** Windows 11 pro /Chrome\n**App Component:** Workspace Settings\n\n## Action Performed:\n1. Navigate to staging.new.expensify.com\n2. Log in as a workspace admin on staging.\n3. Navigate to Workspace Settings → Categories.\n4. Export the categories CSV.\n5. Modify the CSV by:\n6. Adding at least one new category\n7. Re-import the CSV via More → Import spreadsheet.\n\n## Expected Result:\nThe enabled category should remain enabled after importing new category\n\n## Actual Result:\nThe all category become disabled \nThe enabled category CSV changed the enabled input to a capital letter\n\n## Workaround:\nUnknown\n\n## Platforms:\n- [ ] Android: App\n- [ ] Android: mWeb Chrome\n- [ ] iOS: App\n- [ ] iOS: mWeb Safari\n- [ ] iOS: mWeb Chrome\n- [x] Windows: Chrome\n- [ ] MacOS: Chrome / Safari\n\n## Screenshots/Videos\n\nhttps://github.com/user-attachments/assets/62cad91a-6ef7-47ba-9d62-5984d0d4d668\n\n[View all open jobs on GitHub](https://github.com/Expensify/App/issues?q=is%3Aopen+is%3Aissue+label%3A%22Help+Wanted%22)\n\n<details><summary>Issue Owner</summary>Current Issue Owner: @sobitneupane</details>\n<details><summary>Upwork Automation - Do Not Edit</summary>\n    <ul>\n        <li>Upwork Job URL: https://www.upwork.com/jobs/~022039844386983496376</li>\n        <li>Upwork Job ID: 2039844386983496376</li>\n        <li>Last Price Increase: 2026-04-02</li>\n    </ul>\n</details>",
     "closed_by": null,
     "reactions": {
       "url": "https://api.github.com/repos/Expensify/App/issues/87033/reactions",
@@ -578,9 +732,9 @@
       }
     ],
     "milestone": null,
-    "comments": 14,
+    "comments": 16,
     "created_at": "2026-04-02T12:42:00Z",
-    "updated_at": "2026-04-02T21:54:12Z",
+    "updated_at": "2026-04-03T00:40:05Z",
     "closed_at": null,
     "assignee": {
       "login": "Krishna2323",
