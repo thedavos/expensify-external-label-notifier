@@ -116,9 +116,9 @@
       }
     ],
     "milestone": null,
-    "comments": 7,
+    "comments": 11,
     "created_at": "2026-04-03T16:36:04Z",
-    "updated_at": "2026-04-03T16:39:19Z",
+    "updated_at": "2026-04-03T16:45:56Z",
     "closed_at": null,
     "assignee": {
       "login": "blimpich",
@@ -270,9 +270,9 @@
       }
     ],
     "milestone": null,
-    "comments": 14,
+    "comments": 19,
     "created_at": "2026-04-03T15:12:35Z",
-    "updated_at": "2026-04-03T15:30:30Z",
+    "updated_at": "2026-04-03T17:29:55Z",
     "closed_at": null,
     "assignee": {
       "login": "FitseTLT",
@@ -904,9 +904,9 @@
       }
     ],
     "milestone": null,
-    "comments": 8,
+    "comments": 10,
     "created_at": "2026-04-03T14:14:53Z",
-    "updated_at": "2026-04-03T16:15:11Z",
+    "updated_at": "2026-04-03T16:54:47Z",
     "closed_at": null,
     "assignee": {
       "login": "dmkt9",
