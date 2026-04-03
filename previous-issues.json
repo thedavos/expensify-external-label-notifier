@@ -33,6 +33,15 @@
     },
     "labels": [
       {
+        "id": 2283143991,
+        "node_id": "MDU6TGFiZWwyMjgzMTQzOTkx",
+        "url": "https://api.github.com/repos/Expensify/App/labels/Reviewing",
+        "name": "Reviewing",
+        "color": "dddddd",
+        "default": false,
+        "description": "Has a PR in review"
+      },
+      {
         "id": 2873246102,
         "node_id": "MDU6TGFiZWwyODczMjQ2MTAy",
         "url": "https://api.github.com/repos/Expensify/App/labels/External",
@@ -42,22 +51,13 @@
         "description": "Added to denote the issue can be worked on by a contributor"
       },
       {
-        "id": 2893455829,
-        "node_id": "MDU6TGFiZWwyODkzNDU1ODI5",
-        "url": "https://api.github.com/repos/Expensify/App/labels/Daily",
-        "name": "Daily",
-        "color": "eb6420",
+        "id": 2893515375,
+        "node_id": "MDU6TGFiZWwyODkzNTE1Mzc1",
+        "url": "https://api.github.com/repos/Expensify/App/labels/Weekly",
+        "name": "Weekly",
+        "color": "009800",
         "default": false,
         "description": "KSv2"
-      },
-      {
-        "id": 3136662525,
-        "node_id": "MDU6TGFiZWwzMTM2NjYyNTI1",
-        "url": "https://api.github.com/repos/Expensify/App/labels/Help%20Wanted",
-        "name": "Help Wanted",
-        "color": "CFC8F1",
-        "default": false,
-        "description": "Apply this label when an issue is open to proposals by contributors"
       },
       {
         "id": 4664850679,
@@ -92,33 +92,12 @@
         "type": "User",
         "user_view_type": "public",
         "site_admin": false
-      },
-      {
-        "login": "jjcoffee",
-        "id": 27287420,
-        "node_id": "MDQ6VXNlcjI3Mjg3NDIw",
-        "avatar_url": "https://avatars.githubusercontent.com/u/27287420?v=4",
-        "gravatar_id": "",
-        "url": "https://api.github.com/users/jjcoffee",
-        "html_url": "https://github.com/jjcoffee",
-        "followers_url": "https://api.github.com/users/jjcoffee/followers",
-        "following_url": "https://api.github.com/users/jjcoffee/following{/other_user}",
-        "gists_url": "https://api.github.com/users/jjcoffee/gists{/gist_id}",
-        "starred_url": "https://api.github.com/users/jjcoffee/starred{/owner}{/repo}",
-        "subscriptions_url": "https://api.github.com/users/jjcoffee/subscriptions",
-        "organizations_url": "https://api.github.com/users/jjcoffee/orgs",
-        "repos_url": "https://api.github.com/users/jjcoffee/repos",
-        "events_url": "https://api.github.com/users/jjcoffee/events{/privacy}",
-        "received_events_url": "https://api.github.com/users/jjcoffee/received_events",
-        "type": "User",
-        "user_view_type": "public",
-        "site_admin": false
       }
     ],
     "milestone": null,
-    "comments": 11,
+    "comments": 12,
     "created_at": "2026-04-03T16:36:04Z",
-    "updated_at": "2026-04-03T16:45:56Z",
+    "updated_at": "2026-04-03T18:08:56Z",
     "closed_at": null,
     "assignee": {
       "login": "blimpich",
@@ -2051,9 +2030,9 @@
       }
     ],
     "milestone": null,
-    "comments": 9,
+    "comments": 10,
     "created_at": "2026-04-03T06:48:02Z",
-    "updated_at": "2026-04-03T08:14:01Z",
+    "updated_at": "2026-04-03T18:24:09Z",
     "closed_at": null,
     "assignee": {
       "login": "ZhenjaHorbach",
