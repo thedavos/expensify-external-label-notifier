@@ -1538,7 +1538,7 @@
       "blocking": 0,
       "total_blocking": 0
     },
-    "body": "If you haven’t already, check out our [contributing guidelines](https://github.com/Expensify/ReactNativeChat/blob/main/contributingGuides/CONTRIBUTING.md) for onboarding and email contributors@expensify.com to request to join our Slack channel!\n___\n\n**Version Number:** 9.3.52-0\n**Reproducible in staging?:** Yes\n**Reproducible in production?:** Yes\n**If this was caught during regression testing, add the test name, ID and link from BrowserStack:** https://github.com/Expensify/Expensify/issues/505793\n**Email or phone of affected tester (no customers):** applausetester+rg_travel20@applause.expensifail.com\n**Issue reported by:** Applause Internal Team\n**Bug source:** Regression TC Execution\n**Device used:** Windows Windows 11\n\n## Action Performed:\n1. Book a hotel that has a free cancellation policy\n2. Go to the details in Expensify\n3. Look at the cancellation policy and compare it to Spotnana\n\n## Expected Result:\nCancellation policy date in NewDot should be the same as the cancellation policy in Spotnana\n\n## Actual Result:\nCancellation policy date in NewDot is different from the cancellation policy in Spotnana\n\n## Workaround:\nUnknown\n\n## Platforms:\n- [ ] Android: App\n- [ ] Android: mWeb Chrome\n- [ ] iOS: App\n- [ ] iOS: mWeb Safari\n- [ ] iOS: mWeb Chrome\n- [x] Windows: Chrome\n- [x] MacOS: Chrome / Safari\n\n## Screenshots/Videos\n\nhttps://github.com/user-attachments/assets/5f195857-702e-4cc0-a611-24b2ad2a6865\n\n[View all open jobs on GitHub](https://github.com/Expensify/App/issues?q=is%3Aopen+is%3Aissue+label%3A%22Help+Wanted%22)\n\n<details><summary>Issue Owner</summary>Current Issue Owner: @eh2077</details>\n<details><summary>Upwork Automation - Do Not Edit</summary>\n    <ul>\n        <li>Upwork Job URL: https://www.upwork.com/jobs/~022040036443421264568</li>\n        <li>Upwork Job ID: 2040036443421264568</li>\n        <li>Last Price Increase: 2026-04-03</li>\n    </ul>\n</details>",
+    "body": "If you haven���t already, check out our [contributing guidelines](https://github.com/Expensify/ReactNativeChat/blob/main/contributingGuides/CONTRIBUTING.md) for onboarding and email contributors@expensify.com to request to join our Slack channel!\n___\n\n**Version Number:** 9.3.52-0\n**Reproducible in staging?:** Yes\n**Reproducible in production?:** Yes\n**If this was caught during regression testing, add the test name, ID and link from BrowserStack:** https://github.com/Expensify/Expensify/issues/505793\n**Email or phone of affected tester (no customers):** applausetester+rg_travel20@applause.expensifail.com\n**Issue reported by:** Applause Internal Team\n**Bug source:** Regression TC Execution\n**Device used:** Windows Windows 11\n\n## Action Performed:\n1. Book a hotel that has a free cancellation policy\n2. Go to the details in Expensify\n3. Look at the cancellation policy and compare it to Spotnana\n\n## Expected Result:\nCancellation policy date in NewDot should be the same as the cancellation policy in Spotnana\n\n## Actual Result:\nCancellation policy date in NewDot is different from the cancellation policy in Spotnana\n\n## Workaround:\nUnknown\n\n## Platforms:\n- [ ] Android: App\n- [ ] Android: mWeb Chrome\n- [ ] iOS: App\n- [ ] iOS: mWeb Safari\n- [ ] iOS: mWeb Chrome\n- [x] Windows: Chrome\n- [x] MacOS: Chrome / Safari\n\n## Screenshots/Videos\n\nhttps://github.com/user-attachments/assets/5f195857-702e-4cc0-a611-24b2ad2a6865\n\n[View all open jobs on GitHub](https://github.com/Expensify/App/issues?q=is%3Aopen+is%3Aissue+label%3A%22Help+Wanted%22)\n\n<details><summary>Issue Owner</summary>Current Issue Owner: @eh2077</details>\n<details><summary>Upwork Automation - Do Not Edit</summary>\n    <ul>\n        <li>Upwork Job URL: https://www.upwork.com/jobs/~022040036443421264568</li>\n        <li>Upwork Job ID: 2040036443421264568</li>\n        <li>Last Price Increase: 2026-04-03</li>\n    </ul>\n</details>",
     "closed_by": null,
     "reactions": {
       "url": "https://api.github.com/repos/Expensify/App/issues/87076/reactions",
@@ -1627,6 +1627,15 @@
         "description": "Apply this label when an issue is open to proposals by contributors"
       },
       {
+        "id": 3184150925,
+        "node_id": "MDU6TGFiZWwzMTg0MTUwOTI1",
+        "url": "https://api.github.com/repos/Expensify/App/labels/Overdue",
+        "name": "Overdue",
+        "color": "D93F0B",
+        "default": false,
+        "description": ""
+      },
+      {
         "id": 4664850679,
         "node_id": "LA_kwDOEQqHYc8AAAABFgv49w",
         "url": "https://api.github.com/repos/Expensify/App/labels/Bug",
@@ -1704,9 +1713,9 @@
       }
     ],
     "milestone": null,
-    "comments": 15,
+    "comments": 17,
     "created_at": "2026-04-03T11:15:52Z",
-    "updated_at": "2026-04-03T12:39:22Z",
+    "updated_at": "2026-04-05T12:38:58Z",
     "closed_at": null,
     "assignee": {
       "login": "JmillsExpensify",
@@ -1814,11 +1823,11 @@
         "description": "Added to denote the issue can be worked on by a contributor"
       },
       {
-        "id": 2893515375,
-        "node_id": "MDU6TGFiZWwyODkzNTE1Mzc1",
-        "url": "https://api.github.com/repos/Expensify/App/labels/Weekly",
-        "name": "Weekly",
-        "color": "009800",
+        "id": 2893455829,
+        "node_id": "MDU6TGFiZWwyODkzNDU1ODI5",
+        "url": "https://api.github.com/repos/Expensify/App/labels/Daily",
+        "name": "Daily",
+        "color": "eb6420",
         "default": false,
         "description": "KSv2"
       },
@@ -1867,9 +1876,9 @@
       }
     ],
     "milestone": null,
-    "comments": 16,
+    "comments": 17,
     "created_at": "2026-04-03T09:58:02Z",
-    "updated_at": "2026-04-03T14:56:37Z",
+    "updated_at": "2026-04-05T11:58:51Z",
     "closed_at": null,
     "assignee": {
       "login": "DylanDylann",
