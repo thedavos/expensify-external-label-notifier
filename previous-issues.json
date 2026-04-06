@@ -1,5 +1,180 @@
 [
   {
+    "url": "https://api.github.com/repos/Expensify/App/issues/87148",
+    "repository_url": "https://api.github.com/repos/Expensify/App",
+    "labels_url": "https://api.github.com/repos/Expensify/App/issues/87148/labels{/name}",
+    "comments_url": "https://api.github.com/repos/Expensify/App/issues/87148/comments",
+    "events_url": "https://api.github.com/repos/Expensify/App/issues/87148/events",
+    "html_url": "https://github.com/Expensify/App/issues/87148",
+    "id": 4209159512,
+    "node_id": "I_kwDOEQqHYc764q1Y",
+    "number": 87148,
+    "title": "[$250] Add confirmation dialog to bulk pay to prevent accidental reimbursement",
+    "user": {
+      "login": "MelvinBot",
+      "id": 12432488,
+      "node_id": "MDQ6VXNlcjEyNDMyNDg4",
+      "avatar_url": "https://avatars.githubusercontent.com/u/12432488?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/MelvinBot",
+      "html_url": "https://github.com/MelvinBot",
+      "followers_url": "https://api.github.com/users/MelvinBot/followers",
+      "following_url": "https://api.github.com/users/MelvinBot/following{/other_user}",
+      "gists_url": "https://api.github.com/users/MelvinBot/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/MelvinBot/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/MelvinBot/subscriptions",
+      "organizations_url": "https://api.github.com/users/MelvinBot/orgs",
+      "repos_url": "https://api.github.com/users/MelvinBot/repos",
+      "events_url": "https://api.github.com/users/MelvinBot/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/MelvinBot/received_events",
+      "type": "User",
+      "user_view_type": "public",
+      "site_admin": false
+    },
+    "labels": [
+      {
+        "id": 2873246102,
+        "node_id": "MDU6TGFiZWwyODczMjQ2MTAy",
+        "url": "https://api.github.com/repos/Expensify/App/labels/External",
+        "name": "External",
+        "color": "a7b8ef",
+        "default": false,
+        "description": "Added to denote the issue can be worked on by a contributor"
+      },
+      {
+        "id": 2893455829,
+        "node_id": "MDU6TGFiZWwyODkzNDU1ODI5",
+        "url": "https://api.github.com/repos/Expensify/App/labels/Daily",
+        "name": "Daily",
+        "color": "eb6420",
+        "default": false,
+        "description": "KSv2"
+      },
+      {
+        "id": 3136662525,
+        "node_id": "MDU6TGFiZWwzMTM2NjYyNTI1",
+        "url": "https://api.github.com/repos/Expensify/App/labels/Help%20Wanted",
+        "name": "Help Wanted",
+        "color": "CFC8F1",
+        "default": false,
+        "description": "Apply this label when an issue is open to proposals by contributors"
+      },
+      {
+        "id": 4664850679,
+        "node_id": "LA_kwDOEQqHYc8AAAABFgv49w",
+        "url": "https://api.github.com/repos/Expensify/App/labels/Bug",
+        "name": "Bug",
+        "color": "93074F",
+        "default": false,
+        "description": "Something is broken. Auto assigns a BugZero manager."
+      }
+    ],
+    "state": "open",
+    "locked": false,
+    "assignees": [
+      {
+        "login": "bernhardoj",
+        "id": 50919443,
+        "node_id": "MDQ6VXNlcjUwOTE5NDQz",
+        "avatar_url": "https://avatars.githubusercontent.com/u/50919443?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/bernhardoj",
+        "html_url": "https://github.com/bernhardoj",
+        "followers_url": "https://api.github.com/users/bernhardoj/followers",
+        "following_url": "https://api.github.com/users/bernhardoj/following{/other_user}",
+        "gists_url": "https://api.github.com/users/bernhardoj/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/bernhardoj/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/bernhardoj/subscriptions",
+        "organizations_url": "https://api.github.com/users/bernhardoj/orgs",
+        "repos_url": "https://api.github.com/users/bernhardoj/repos",
+        "events_url": "https://api.github.com/users/bernhardoj/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/bernhardoj/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      {
+        "login": "MarioExpensify",
+        "id": 179851020,
+        "node_id": "U_kgDOCrhPDA",
+        "avatar_url": "https://avatars.githubusercontent.com/u/179851020?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/MarioExpensify",
+        "html_url": "https://github.com/MarioExpensify",
+        "followers_url": "https://api.github.com/users/MarioExpensify/followers",
+        "following_url": "https://api.github.com/users/MarioExpensify/following{/other_user}",
+        "gists_url": "https://api.github.com/users/MarioExpensify/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/MarioExpensify/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/MarioExpensify/subscriptions",
+        "organizations_url": "https://api.github.com/users/MarioExpensify/orgs",
+        "repos_url": "https://api.github.com/users/MarioExpensify/repos",
+        "events_url": "https://api.github.com/users/MarioExpensify/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/MarioExpensify/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      }
+    ],
+    "milestone": null,
+    "comments": 17,
+    "created_at": "2026-04-06T02:32:47Z",
+    "updated_at": "2026-04-06T05:05:24Z",
+    "closed_at": null,
+    "assignee": {
+      "login": "bernhardoj",
+      "id": 50919443,
+      "node_id": "MDQ6VXNlcjUwOTE5NDQz",
+      "avatar_url": "https://avatars.githubusercontent.com/u/50919443?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/bernhardoj",
+      "html_url": "https://github.com/bernhardoj",
+      "followers_url": "https://api.github.com/users/bernhardoj/followers",
+      "following_url": "https://api.github.com/users/bernhardoj/following{/other_user}",
+      "gists_url": "https://api.github.com/users/bernhardoj/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/bernhardoj/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/bernhardoj/subscriptions",
+      "organizations_url": "https://api.github.com/users/bernhardoj/orgs",
+      "repos_url": "https://api.github.com/users/bernhardoj/repos",
+      "events_url": "https://api.github.com/users/bernhardoj/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/bernhardoj/received_events",
+      "type": "User",
+      "user_view_type": "public",
+      "site_admin": false
+    },
+    "author_association": "CONTRIBUTOR",
+    "type": null,
+    "active_lock_reason": null,
+    "sub_issues_summary": {
+      "total": 0,
+      "completed": 0,
+      "percent_completed": 0
+    },
+    "issue_dependencies_summary": {
+      "blocked_by": 0,
+      "total_blocked_by": 0,
+      "blocking": 0,
+      "total_blocking": 0
+    },
+    "body": "**Tracking issue:** https://github.com/Expensify/Expensify/issues/620708\n\n## Problem\n\nWhen users bulk-pay expense reports from the Search tab, the system silently uses the workspace's `lastPaymentMethod` and triggers reimbursement **without any confirmation or warning**. If `lastPaymentMethod` is already set (which it is after any prior payment), clicking \"Pay\" on bulk-selected reports fires immediately — no payment method display, no \"are you sure?\" prompt.\n\nThis causes accidental reimbursements, particularly during migrations when aged, previously-reimbursed reports surface on To-Do lists.\n\n## Expected Behavior\n\nBulk pay should always display a confirmation dialog showing:\n1. The number of reports being paid\n2. The payment method that will be used\n3. An explicit confirm/cancel choice\n\nThis should apply regardless of whether `lastPaymentMethod` is already set.\n\n## Current Code Path\n\n1. User selects reports → clicks \"Pay\" in `SearchBulkActionsButton.tsx`\n2. `getPayOption()` in `src/libs/actions/Search.ts` checks if every selected report's policy has `lastPaymentMethod` set\n3. If yes → `isFirstTimePayment=false` → Pay button has no submenu, clicking it calls `onBulkPaySelected(undefined)` directly in `src/hooks/useSearchBulkActions.ts`\n4. `onBulkPaySelected` resolves payment method per-item via `getLastPolicyPaymentMethod()`, builds `PaymentData[]`, and calls `payMoneyRequestOnSearch()` — no confirmation dialog anywhere in this path\n5. `payMoneyRequestOnSearch` sends `PAY_MONEY_REQUEST_ON_SEARCH` API command immediately\n\n## Proposed Solution\n\nAdd a confirmation dialog to `onBulkPaySelected` in `src/hooks/useSearchBulkActions.ts` (around lines 546-680). Before building the `paymentData` array and calling `payMoneyRequestOnSearch`, show a modal that displays the payment method and report count, requiring explicit user confirmation.\n\nMay also need to consider restricting bulk pay to a single workspace or single report type to avoid complexity with multi-workspace/multi-type scenarios.\n\n## Debugging Info\n\n- FullStory recording: https://app.fullstory.com/ui/o-1WN56P-na1/session/6553482153689515839:6217744384821814442!5556498591218861780 (see 49-minute mark)\n- Example affected report: R00FWKsKkTF3 (Long ID: 3388979033658921)\n- Related closed issues: https://github.com/Expensify/Expensify/issues/608462, https://github.com/Expensify/Expensify/issues/615738\n\n\n<details><summary>Issue Owner</summary>Current Issue Owner: @MarioExpensify</details>\n<details><summary>Upwork Automation - Do Not Edit</summary>\n    <ul>\n        <li>Upwork Job URL: https://www.upwork.com/jobs/~022040990130870170990</li>\n        <li>Upwork Job ID: 2040990130870170990</li>\n        <li>Last Price Increase: 2026-04-06</li>\n    </ul>\n</details>",
+    "closed_by": null,
+    "reactions": {
+      "url": "https://api.github.com/repos/Expensify/App/issues/87148/reactions",
+      "total_count": 0,
+      "+1": 0,
+      "-1": 0,
+      "laugh": 0,
+      "hooray": 0,
+      "confused": 0,
+      "heart": 0,
+      "rocket": 0,
+      "eyes": 0
+    },
+    "timeline_url": "https://api.github.com/repos/Expensify/App/issues/87148/timeline",
+    "performed_via_github_app": null,
+    "state_reason": null,
+    "pinned_comment": null
+  },
+  {
     "url": "https://api.github.com/repos/Expensify/App/issues/87137",
     "repository_url": "https://api.github.com/repos/Expensify/App",
     "labels_url": "https://api.github.com/repos/Expensify/App/issues/87137/labels{/name}",
@@ -258,9 +433,9 @@
       }
     ],
     "milestone": null,
-    "comments": 18,
+    "comments": 20,
     "created_at": "2026-04-04T17:31:53Z",
-    "updated_at": "2026-04-06T01:48:59Z",
+    "updated_at": "2026-04-06T05:07:59Z",
     "closed_at": null,
     "assignee": {
       "login": "Eskalifer1",
@@ -531,6 +706,15 @@
         "description": "Apply this label when an issue is open to proposals by contributors"
       },
       {
+        "id": 3184150925,
+        "node_id": "MDU6TGFiZWwzMTg0MTUwOTI1",
+        "url": "https://api.github.com/repos/Expensify/App/labels/Overdue",
+        "name": "Overdue",
+        "color": "D93F0B",
+        "default": false,
+        "description": ""
+      },
+      {
         "id": 4664850679,
         "node_id": "LA_kwDOEQqHYc8AAAABFgv49w",
         "url": "https://api.github.com/repos/Expensify/App/labels/Bug",
@@ -566,9 +750,9 @@
       }
     ],
     "milestone": null,
-    "comments": 22,
+    "comments": 23,
     "created_at": "2026-04-03T15:12:35Z",
-    "updated_at": "2026-04-05T06:59:58Z",
+    "updated_at": "2026-04-06T03:03:27Z",
     "closed_at": null,
     "assignee": {
       "login": "FitseTLT",
@@ -1011,6 +1195,15 @@
         "description": "Apply this label when an issue is open to proposals by contributors"
       },
       {
+        "id": 3184150925,
+        "node_id": "MDU6TGFiZWwzMTg0MTUwOTI1",
+        "url": "https://api.github.com/repos/Expensify/App/labels/Overdue",
+        "name": "Overdue",
+        "color": "D93F0B",
+        "default": false,
+        "description": ""
+      },
+      {
         "id": 4664850679,
         "node_id": "LA_kwDOEQqHYc8AAAABFgv49w",
         "url": "https://api.github.com/repos/Expensify/App/labels/Bug",
@@ -1046,9 +1239,9 @@
       }
     ],
     "milestone": null,
-    "comments": 16,
+    "comments": 18,
     "created_at": "2026-04-03T14:22:06Z",
-    "updated_at": "2026-04-05T10:20:44Z",
+    "updated_at": "2026-04-06T03:58:38Z",
     "closed_at": null,
     "assignee": {
       "login": "Krishna2323",
@@ -1372,9 +1565,9 @@
       }
     ],
     "milestone": null,
-    "comments": 16,
+    "comments": 17,
     "created_at": "2026-04-03T12:18:51Z",
-    "updated_at": "2026-04-05T19:18:58Z",
+    "updated_at": "2026-04-06T04:13:49Z",
     "closed_at": null,
     "assignee": {
       "login": "dmkt9",
