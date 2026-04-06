@@ -137,9 +137,9 @@
       }
     ],
     "milestone": null,
-    "comments": 24,
+    "comments": 26,
     "created_at": "2026-04-06T02:32:47Z",
-    "updated_at": "2026-04-06T07:03:58Z",
+    "updated_at": "2026-04-06T08:29:59Z",
     "closed_at": null,
     "assignee": {
       "login": "bernhardoj",
@@ -291,9 +291,9 @@
       }
     ],
     "milestone": null,
-    "comments": 15,
+    "comments": 17,
     "created_at": "2026-04-04T18:03:28Z",
-    "updated_at": "2026-04-05T09:56:32Z",
+    "updated_at": "2026-04-06T08:18:10Z",
     "closed_at": null,
     "assignee": {
       "login": "Eskalifer1",
@@ -1075,6 +1075,27 @@
     "locked": false,
     "assignees": [
       {
+        "login": "chuckdries",
+        "id": 1351436,
+        "node_id": "MDQ6VXNlcjEzNTE0MzY=",
+        "avatar_url": "https://avatars.githubusercontent.com/u/1351436?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/chuckdries",
+        "html_url": "https://github.com/chuckdries",
+        "followers_url": "https://api.github.com/users/chuckdries/followers",
+        "following_url": "https://api.github.com/users/chuckdries/following{/other_user}",
+        "gists_url": "https://api.github.com/users/chuckdries/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/chuckdries/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/chuckdries/subscriptions",
+        "organizations_url": "https://api.github.com/users/chuckdries/orgs",
+        "repos_url": "https://api.github.com/users/chuckdries/repos",
+        "events_url": "https://api.github.com/users/chuckdries/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/chuckdries/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      {
         "login": "Eskalifer1",
         "id": 66723620,
         "node_id": "MDQ6VXNlcjY2NzIzNjIw",
@@ -1097,9 +1118,9 @@
       }
     ],
     "milestone": null,
-    "comments": 14,
+    "comments": 16,
     "created_at": "2026-04-03T14:51:31Z",
-    "updated_at": "2026-04-06T07:36:56Z",
+    "updated_at": "2026-04-06T07:48:16Z",
     "closed_at": null,
     "assignee": {
       "login": "Eskalifer1",
@@ -1136,7 +1157,7 @@
       "blocking": 0,
       "total_blocking": 0
     },
-    "body": "If you haven’t already, check out our [contributing guidelines](https://github.com/Expensify/ReactNativeChat/blob/main/contributingGuides/CONTRIBUTING.md) for onboarding and email contributors@expensify.com to request to join our Slack channel!\n___\n\n**Version Number:** \n**Reproducible in staging?:** Needs Reproduction (Unable to reproduce)\n**Reproducible in production?:** Needs reproduction\n**If this was caught during regression testing, add the test name, ID and link from BrowserStack:**\n**Email or phone of affected tester (no customers):**\n**Logs:** https://stackoverflow.com/c/expensify/questions/4856\n**Expensify/Expensify Issue URL:**\n**Issue reported by:** @JamieMcElroy\n**Slack conversation** (hyperlinked to channel name): [#Expensify Bugs](https://expensify.slack.com/archives/C049HHMV9SM/p1775165185925889)\n\n## Action Performed:\n\n1. Submit an expense/report from an employee account\n2. As an admin/finance, reject the expense (e.g., >45 days old policy violation)\n3. Observe: Expense is removed from the report\n4. Wait or refresh the report\n5. Observe: Concierge re-adds the expense or receipt to the report\n6. In some cases, the report is resubmitted automatically\n\n## Expected Result:\nOnce an expense is rejected, it should:\nRemain rejected unless the employee manually edits/resubmits\nConcierge should:\nNot re-add rejected expenses\nNot submit reports automatically when Scheduled Submit is disabled\n## Actual Result:\nConcierge:\nRe-adds rejected expenses to reports\nRecreates or reattaches receipts\nResubmits reports automatically in some cases\n## Workaround:\nUnknown\n\n## Platforms:\nSelect the officially supported platforms where the issue was reproduced:\n- [ ] Android: App\n- [ ] Android: mWeb Chrome\n- [ ] iOS: App\n- [ ] iOS: mWeb Safari\n- [ ] iOS: mWeb Chrome\n- [x] Windows: Chrome\n- [x] MacOS: Chrome / Safari\n\n## Screenshots/Videos\n\nThe screenshots for the issue are in Slack [thread](https://expensify.slack.com/archives/C049HHMV9SM/p1775165185925889)\n\n[View all open jobs on GitHub](https://github.com/Expensify/App/issues?q=is%3Aopen+is%3Aissue+label%3A%22Help+Wanted%22)\n\n\n<details><summary>Issue Owner</summary>Current Issue Owner: @Eskalifer1</details>\n<details><summary>Upwork Automation - Do Not Edit</summary>\n    <ul>\n        <li>Upwork Job URL: https://www.upwork.com/jobs/~022040081536571719352</li>\n        <li>Upwork Job ID: 2040081536571719352</li>\n        <li>Last Price Increase: 2026-04-03</li>\n    </ul>\n</details>",
+    "body": "If you haven’t already, check out our [contributing guidelines](https://github.com/Expensify/ReactNativeChat/blob/main/contributingGuides/CONTRIBUTING.md) for onboarding and email contributors@expensify.com to request to join our Slack channel!\n___\n\n**Version Number:** \n**Reproducible in staging?:** Needs Reproduction (Unable to reproduce)\n**Reproducible in production?:** Needs reproduction\n**If this was caught during regression testing, add the test name, ID and link from BrowserStack:**\n**Email or phone of affected tester (no customers):**\n**Logs:** https://stackoverflow.com/c/expensify/questions/4856\n**Expensify/Expensify Issue URL:**\n**Issue reported by:** @JamieMcElroy\n**Slack conversation** (hyperlinked to channel name): [#Expensify Bugs](https://expensify.slack.com/archives/C049HHMV9SM/p1775165185925889)\n\n## Action Performed:\n\n1. Submit an expense/report from an employee account\n2. As an admin/finance, reject the expense (e.g., >45 days old policy violation)\n3. Observe: Expense is removed from the report\n4. Wait or refresh the report\n5. Observe: Concierge re-adds the expense or receipt to the report\n6. In some cases, the report is resubmitted automatically\n\n## Expected Result:\nOnce an expense is rejected, it should:\nRemain rejected unless the employee manually edits/resubmits\nConcierge should:\nNot re-add rejected expenses\nNot submit reports automatically when Scheduled Submit is disabled\n## Actual Result:\nConcierge:\nRe-adds rejected expenses to reports\nRecreates or reattaches receipts\nResubmits reports automatically in some cases\n## Workaround:\nUnknown\n\n## Platforms:\nSelect the officially supported platforms where the issue was reproduced:\n- [ ] Android: App\n- [ ] Android: mWeb Chrome\n- [ ] iOS: App\n- [ ] iOS: mWeb Safari\n- [ ] iOS: mWeb Chrome\n- [x] Windows: Chrome\n- [x] MacOS: Chrome / Safari\n\n## Screenshots/Videos\n\nThe screenshots for the issue are in Slack [thread](https://expensify.slack.com/archives/C049HHMV9SM/p1775165185925889)\n\n[View all open jobs on GitHub](https://github.com/Expensify/App/issues?q=is%3Aopen+is%3Aissue+label%3A%22Help+Wanted%22)\n\n\n<details><summary>Issue Owner</summary>Current Issue Owner: @chuckdries</details>\n<details><summary>Upwork Automation - Do Not Edit</summary>\n    <ul>\n        <li>Upwork Job URL: https://www.upwork.com/jobs/~022040081536571719352</li>\n        <li>Upwork Job ID: 2040081536571719352</li>\n        <li>Last Price Increase: 2026-04-03</li>\n    </ul>\n</details>",
     "closed_by": null,
     "reactions": {
       "url": "https://api.github.com/repos/Expensify/App/issues/87095/reactions",
@@ -2445,7 +2466,7 @@
     "milestone": null,
     "comments": 16,
     "created_at": "2026-04-03T08:10:34Z",
-    "updated_at": "2026-04-06T07:09:57Z",
+    "updated_at": "2026-04-06T08:41:55Z",
     "closed_at": null,
     "assignee": {
       "login": "FitseTLT",
