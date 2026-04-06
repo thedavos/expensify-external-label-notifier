@@ -608,9 +608,9 @@
       }
     ],
     "milestone": null,
-    "comments": 18,
+    "comments": 21,
     "created_at": "2026-04-03T22:24:28Z",
-    "updated_at": "2026-04-06T13:00:08Z",
+    "updated_at": "2026-04-06T14:15:57Z",
     "closed_at": null,
     "assignee": {
       "login": "Krishna2323",
@@ -1272,9 +1272,9 @@
       }
     ],
     "milestone": null,
-    "comments": 19,
+    "comments": 20,
     "created_at": "2026-04-03T14:22:06Z",
-    "updated_at": "2026-04-06T13:00:17Z",
+    "updated_at": "2026-04-06T13:34:00Z",
     "closed_at": null,
     "assignee": {
       "login": "Krishna2323",
@@ -1880,15 +1880,6 @@
         "description": "Apply this label when an issue is open to proposals by contributors"
       },
       {
-        "id": 3184150925,
-        "node_id": "MDU6TGFiZWwzMTg0MTUwOTI1",
-        "url": "https://api.github.com/repos/Expensify/App/labels/Overdue",
-        "name": "Overdue",
-        "color": "D93F0B",
-        "default": false,
-        "description": ""
-      },
-      {
         "id": 4664850679,
         "node_id": "LA_kwDOEQqHYc8AAAABFgv49w",
         "url": "https://api.github.com/repos/Expensify/App/labels/Bug",
@@ -1966,9 +1957,9 @@
       }
     ],
     "milestone": null,
-    "comments": 18,
+    "comments": 19,
     "created_at": "2026-04-03T11:15:52Z",
-    "updated_at": "2026-04-06T11:12:55Z",
+    "updated_at": "2026-04-06T13:58:13Z",
     "closed_at": null,
     "assignee": {
       "login": "JmillsExpensify",
@@ -2989,160 +2980,6 @@
       "eyes": 0
     },
     "timeline_url": "https://api.github.com/repos/Expensify/App/issues/87039/timeline",
-    "performed_via_github_app": null,
-    "state_reason": null,
-    "pinned_comment": null
-  },
-  {
-    "url": "https://api.github.com/repos/Expensify/App/issues/87033",
-    "repository_url": "https://api.github.com/repos/Expensify/App",
-    "labels_url": "https://api.github.com/repos/Expensify/App/issues/87033/labels{/name}",
-    "comments_url": "https://api.github.com/repos/Expensify/App/issues/87033/comments",
-    "events_url": "https://api.github.com/repos/Expensify/App/issues/87033/events",
-    "html_url": "https://github.com/Expensify/App/issues/87033",
-    "id": 4197399230,
-    "node_id": "I_kwDOEQqHYc76Lzq-",
-    "number": 87033,
-    "title": "[$250] Categories - Re-imported categories become disabled after adding new category",
-    "user": {
-      "login": "vincdargento",
-      "id": 35436778,
-      "node_id": "MDQ6VXNlcjM1NDM2Nzc4",
-      "avatar_url": "https://avatars.githubusercontent.com/u/35436778?v=4",
-      "gravatar_id": "",
-      "url": "https://api.github.com/users/vincdargento",
-      "html_url": "https://github.com/vincdargento",
-      "followers_url": "https://api.github.com/users/vincdargento/followers",
-      "following_url": "https://api.github.com/users/vincdargento/following{/other_user}",
-      "gists_url": "https://api.github.com/users/vincdargento/gists{/gist_id}",
-      "starred_url": "https://api.github.com/users/vincdargento/starred{/owner}{/repo}",
-      "subscriptions_url": "https://api.github.com/users/vincdargento/subscriptions",
-      "organizations_url": "https://api.github.com/users/vincdargento/orgs",
-      "repos_url": "https://api.github.com/users/vincdargento/repos",
-      "events_url": "https://api.github.com/users/vincdargento/events{/privacy}",
-      "received_events_url": "https://api.github.com/users/vincdargento/received_events",
-      "type": "User",
-      "user_view_type": "public",
-      "site_admin": false
-    },
-    "labels": [
-      {
-        "id": 2873246102,
-        "node_id": "MDU6TGFiZWwyODczMjQ2MTAy",
-        "url": "https://api.github.com/repos/Expensify/App/labels/External",
-        "name": "External",
-        "color": "a7b8ef",
-        "default": false,
-        "description": "Added to denote the issue can be worked on by a contributor"
-      },
-      {
-        "id": 2893455829,
-        "node_id": "MDU6TGFiZWwyODkzNDU1ODI5",
-        "url": "https://api.github.com/repos/Expensify/App/labels/Daily",
-        "name": "Daily",
-        "color": "eb6420",
-        "default": false,
-        "description": "KSv2"
-      },
-      {
-        "id": 3136662525,
-        "node_id": "MDU6TGFiZWwzMTM2NjYyNTI1",
-        "url": "https://api.github.com/repos/Expensify/App/labels/Help%20Wanted",
-        "name": "Help Wanted",
-        "color": "CFC8F1",
-        "default": false,
-        "description": "Apply this label when an issue is open to proposals by contributors"
-      },
-      {
-        "id": 4664850679,
-        "node_id": "LA_kwDOEQqHYc8AAAABFgv49w",
-        "url": "https://api.github.com/repos/Expensify/App/labels/Bug",
-        "name": "Bug",
-        "color": "93074F",
-        "default": false,
-        "description": "Something is broken. Auto assigns a BugZero manager."
-      }
-    ],
-    "state": "open",
-    "locked": false,
-    "assignees": [
-      {
-        "login": "sobitneupane",
-        "id": 25876548,
-        "node_id": "MDQ6VXNlcjI1ODc2NTQ4",
-        "avatar_url": "https://avatars.githubusercontent.com/u/25876548?v=4",
-        "gravatar_id": "",
-        "url": "https://api.github.com/users/sobitneupane",
-        "html_url": "https://github.com/sobitneupane",
-        "followers_url": "https://api.github.com/users/sobitneupane/followers",
-        "following_url": "https://api.github.com/users/sobitneupane/following{/other_user}",
-        "gists_url": "https://api.github.com/users/sobitneupane/gists{/gist_id}",
-        "starred_url": "https://api.github.com/users/sobitneupane/starred{/owner}{/repo}",
-        "subscriptions_url": "https://api.github.com/users/sobitneupane/subscriptions",
-        "organizations_url": "https://api.github.com/users/sobitneupane/orgs",
-        "repos_url": "https://api.github.com/users/sobitneupane/repos",
-        "events_url": "https://api.github.com/users/sobitneupane/events{/privacy}",
-        "received_events_url": "https://api.github.com/users/sobitneupane/received_events",
-        "type": "User",
-        "user_view_type": "public",
-        "site_admin": false
-      }
-    ],
-    "milestone": null,
-    "comments": 14,
-    "created_at": "2026-04-02T23:11:01Z",
-    "updated_at": "2026-04-03T15:49:03Z",
-    "closed_at": null,
-    "assignee": {
-      "login": "sobitneupane",
-      "id": 25876548,
-      "node_id": "MDQ6VXNlcjI1ODc2NTQ4",
-      "avatar_url": "https://avatars.githubusercontent.com/u/25876548?v=4",
-      "gravatar_id": "",
-      "url": "https://api.github.com/users/sobitneupane",
-      "html_url": "https://github.com/sobitneupane",
-      "followers_url": "https://api.github.com/users/sobitneupane/followers",
-      "following_url": "https://api.github.com/users/sobitneupane/following{/other_user}",
-      "gists_url": "https://api.github.com/users/sobitneupane/gists{/gist_id}",
-      "starred_url": "https://api.github.com/users/sobitneupane/starred{/owner}{/repo}",
-      "subscriptions_url": "https://api.github.com/users/sobitneupane/subscriptions",
-      "organizations_url": "https://api.github.com/users/sobitneupane/orgs",
-      "repos_url": "https://api.github.com/users/sobitneupane/repos",
-      "events_url": "https://api.github.com/users/sobitneupane/events{/privacy}",
-      "received_events_url": "https://api.github.com/users/sobitneupane/received_events",
-      "type": "User",
-      "user_view_type": "public",
-      "site_admin": false
-    },
-    "author_association": "NONE",
-    "type": null,
-    "active_lock_reason": null,
-    "sub_issues_summary": {
-      "total": 0,
-      "completed": 0,
-      "percent_completed": 0
-    },
-    "issue_dependencies_summary": {
-      "blocked_by": 0,
-      "total_blocked_by": 0,
-      "blocking": 0,
-      "total_blocking": 0
-    },
-    "body": "If you haven’t already, check out our [contributing guidelines](https://github.com/Expensify/ReactNativeChat/blob/main/contributingGuides/CONTRIBUTING.md) for onboarding and email contributors@expensify.com to request to join our Slack channel!\n___\n\n**Version Number:** v9.3.52-0\n**Reproducible in staging?:** Yes\n**Reproducible in production?:** Yes\n**If this was caught during regression testing, add the test name, ID and link from BrowserStack:** https://github.com/Expensify/App/pull/81548\n**Email or phone of affected tester (no customers):** testpayment935@gmail.com\n**Issue reported by:** Applause Internal Team\n**Bug source:** Pull Request QA execution\n**Device used:** Windows 11 pro /Chrome\n**App Component:** Workspace Settings\n\n## Action Performed:\n1. Navigate to staging.new.expensify.com\n2. Log in as a workspace admin on staging.\n3. Navigate to Workspace Settings → Categories.\n4. Export the categories CSV.\n5. Modify the CSV by:\n6. Adding at least one new category\n7. Re-import the CSV via More → Import spreadsheet.\n\n## Expected Result:\nThe enabled category should remain enabled after importing new category\n\n## Actual Result:\nThe all category become disabled \nThe enabled category CSV changed the enabled input to a capital letter\n\n## Workaround:\nUnknown\n\n## Platforms:\n- [ ] Android: App\n- [ ] Android: mWeb Chrome\n- [ ] iOS: App\n- [ ] iOS: mWeb Safari\n- [ ] iOS: mWeb Chrome\n- [x] Windows: Chrome\n- [ ] MacOS: Chrome / Safari\n\n## Screenshots/Videos\n\nhttps://github.com/user-attachments/assets/62cad91a-6ef7-47ba-9d62-5984d0d4d668\n\n[View all open jobs on GitHub](https://github.com/Expensify/App/issues?q=is%3Aopen+is%3Aissue+label%3A%22Help+Wanted%22)\n\n<details><summary>Issue Owner</summary>Current Issue Owner: @sobitneupane</details>\n<details><summary>Upwork Automation - Do Not Edit</summary>\n    <ul>\n        <li>Upwork Job URL: https://www.upwork.com/jobs/~022039844386983496376</li>\n        <li>Upwork Job ID: 2039844386983496376</li>\n        <li>Last Price Increase: 2026-04-02</li>\n    </ul>\n</details>",
-    "closed_by": null,
-    "reactions": {
-      "url": "https://api.github.com/repos/Expensify/App/issues/87033/reactions",
-      "total_count": 0,
-      "+1": 0,
-      "-1": 0,
-      "laugh": 0,
-      "hooray": 0,
-      "confused": 0,
-      "heart": 0,
-      "rocket": 0,
-      "eyes": 0
-    },
-    "timeline_url": "https://api.github.com/repos/Expensify/App/issues/87033/timeline",
     "performed_via_github_app": null,
     "state_reason": null,
     "pinned_comment": null
