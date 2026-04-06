@@ -1554,15 +1554,6 @@
         "description": "Apply this label when an issue is open to proposals by contributors"
       },
       {
-        "id": 3184150925,
-        "node_id": "MDU6TGFiZWwzMTg0MTUwOTI1",
-        "url": "https://api.github.com/repos/Expensify/App/labels/Overdue",
-        "name": "Overdue",
-        "color": "D93F0B",
-        "default": false,
-        "description": ""
-      },
-      {
         "id": 4664850679,
         "node_id": "LA_kwDOEQqHYc8AAAABFgv49w",
         "url": "https://api.github.com/repos/Expensify/App/labels/Bug",
@@ -1598,9 +1589,9 @@
       }
     ],
     "milestone": null,
-    "comments": 17,
+    "comments": 20,
     "created_at": "2026-04-03T12:18:51Z",
-    "updated_at": "2026-04-06T04:13:49Z",
+    "updated_at": "2026-04-06T14:56:01Z",
     "closed_at": null,
     "assignee": {
       "login": "dmkt9",
@@ -2322,7 +2313,7 @@
       "blocking": 0,
       "total_blocking": 0
     },
-    "body": "If you haven’t already, check out our [contributing guidelines](https://github.com/Expensify/ReactNativeChat/blob/main/contributingGuides/CONTRIBUTING.md) for onboarding and email contributors@expensify.com to request to join our Slack channel!\n___\n\n**Version Number:** 9.3.52-0\n**Reproducible in staging?:** Yes\n**Reproducible in production?:** Yes\n**If this was caught during regression testing, add the test name, ID and link from BrowserStack:** https://github.com/Expensify/App/pull/86469\n**Email or phone of affected tester (no customers):** ndk.2303+274@gmail.com\n**Issue reported by:** Applause Internal Team\n**Bug source:** Pull Request QA execution\n**Device used:** Windows 11 Home/Chrome\n**App Component:** Money Requests\n\n## Action Performed:\nPreconditions:\n- Create a $100 expense\n- Split the expense into $60 and $40 expenses\n- Send a comment to expense report: \"1\"\n- Send each splited thread expense a child comment: \"2\" and \"3\"\n1. Open https://staging.new.expensify.com/\n2. Navigate to report expense\n3. Go offline\n4. Open $40 splited expense\n5. Delete the expense\n6. Go online\n7. Navigate to workspace chat\n\n## Expected Result:\nExpense report will be restored into single mode and expense preview is displayed\n\n## Actual Result:\nexpense preview is empty\n\n## Workaround:\nUnknown\n\n## Platforms:\n- [ ] Android: App\n- [ ] Android: mWeb Chrome\n- [ ] iOS: App\n- [ ] iOS: mWeb Safari\n- [ ] iOS: mWeb Chrome\n- [x] Windows: Chrome\n- [x] MacOS: Chrome / Safari\n\n## Screenshots/Videos\n\nhttps://github.com/user-attachments/assets/f93ebe9c-8219-4ffb-ae3d-a6909d259035\n\n[View all open jobs on GitHub](https://github.com/Expensify/App/issues?q=is%3Aopen+is%3Aissue+label%3A%22Help+Wanted%22)\n\n<details><summary>Issue Owner</summary>Current Issue Owner: @truph01</details>\n<details><summary>Upwork Automation - Do Not Edit</summary>\n    <ul>\n        <li>Upwork Job URL: https://www.upwork.com/jobs/~022040002863174356285</li>\n        <li>Upwork Job ID: 2040002863174356285</li>\n        <li>Last Price Increase: 2026-04-03</li>\n    </ul>\n</details>",
+    "body": "If you haven���t already, check out our [contributing guidelines](https://github.com/Expensify/ReactNativeChat/blob/main/contributingGuides/CONTRIBUTING.md) for onboarding and email contributors@expensify.com to request to join our Slack channel!\n___\n\n**Version Number:** 9.3.52-0\n**Reproducible in staging?:** Yes\n**Reproducible in production?:** Yes\n**If this was caught during regression testing, add the test name, ID and link from BrowserStack:** https://github.com/Expensify/App/pull/86469\n**Email or phone of affected tester (no customers):** ndk.2303+274@gmail.com\n**Issue reported by:** Applause Internal Team\n**Bug source:** Pull Request QA execution\n**Device used:** Windows 11 Home/Chrome\n**App Component:** Money Requests\n\n## Action Performed:\nPreconditions:\n- Create a $100 expense\n- Split the expense into $60 and $40 expenses\n- Send a comment to expense report: \"1\"\n- Send each splited thread expense a child comment: \"2\" and \"3\"\n1. Open https://staging.new.expensify.com/\n2. Navigate to report expense\n3. Go offline\n4. Open $40 splited expense\n5. Delete the expense\n6. Go online\n7. Navigate to workspace chat\n\n## Expected Result:\nExpense report will be restored into single mode and expense preview is displayed\n\n## Actual Result:\nexpense preview is empty\n\n## Workaround:\nUnknown\n\n## Platforms:\n- [ ] Android: App\n- [ ] Android: mWeb Chrome\n- [ ] iOS: App\n- [ ] iOS: mWeb Safari\n- [ ] iOS: mWeb Chrome\n- [x] Windows: Chrome\n- [x] MacOS: Chrome / Safari\n\n## Screenshots/Videos\n\nhttps://github.com/user-attachments/assets/f93ebe9c-8219-4ffb-ae3d-a6909d259035\n\n[View all open jobs on GitHub](https://github.com/Expensify/App/issues?q=is%3Aopen+is%3Aissue+label%3A%22Help+Wanted%22)\n\n<details><summary>Issue Owner</summary>Current Issue Owner: @truph01</details>\n<details><summary>Upwork Automation - Do Not Edit</summary>\n    <ul>\n        <li>Upwork Job URL: https://www.upwork.com/jobs/~022040002863174356285</li>\n        <li>Upwork Job ID: 2040002863174356285</li>\n        <li>Last Price Increase: 2026-04-03</li>\n    </ul>\n</details>",
     "closed_by": null,
     "reactions": {
       "url": "https://api.github.com/repos/Expensify/App/issues/87065/reactions",
