@@ -1413,6 +1413,27 @@
     "locked": false,
     "assignees": [
       {
+        "login": "arosiclair",
+        "id": 6833644,
+        "node_id": "MDQ6VXNlcjY4MzM2NDQ=",
+        "avatar_url": "https://avatars.githubusercontent.com/u/6833644?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/arosiclair",
+        "html_url": "https://github.com/arosiclair",
+        "followers_url": "https://api.github.com/users/arosiclair/followers",
+        "following_url": "https://api.github.com/users/arosiclair/following{/other_user}",
+        "gists_url": "https://api.github.com/users/arosiclair/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/arosiclair/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/arosiclair/subscriptions",
+        "organizations_url": "https://api.github.com/users/arosiclair/orgs",
+        "repos_url": "https://api.github.com/users/arosiclair/repos",
+        "events_url": "https://api.github.com/users/arosiclair/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/arosiclair/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      {
         "login": "dmkt9",
         "id": 208698323,
         "node_id": "U_kgDODHB70w",
@@ -1435,9 +1456,9 @@
       }
     ],
     "milestone": null,
-    "comments": 18,
+    "comments": 20,
     "created_at": "2026-04-03T14:14:53Z",
-    "updated_at": "2026-04-06T06:49:10Z",
+    "updated_at": "2026-04-06T16:27:09Z",
     "closed_at": null,
     "assignee": {
       "login": "dmkt9",
@@ -1474,7 +1495,7 @@
       "blocking": 0,
       "total_blocking": 0
     },
-    "body": "If you haven’t already, check out our [contributing guidelines](https://github.com/Expensify/ReactNativeChat/blob/main/contributingGuides/CONTRIBUTING.md) for onboarding and email contributors@expensify.com to request to join our Slack channel!\n___\n\n**Version Number:** v9.3.52-0\n**Reproducible in staging?:** Yes\n**Reproducible in production?:** Yes\n**If this was caught during regression testing, add the test name, ID and link from BrowserStack:** https://test-management.browserstack.com/projects/2219752/test-runs/TR-15787/folder/13176685/41236605/1302282810\n**Email or phone of affected tester (no customers):** lekima20+640204@gmail.com\n**Issue reported by:** Applause Internal Team\n**Bug source:** Exploratory - Significant User Experience Deterioration\n**Device used:** iPhone 16 pro/ 26.3, Samsung A25/android 16, Win 11/Chrome\n**App Component:** Chat Report View\n\n## Action Performed:\n1. Open app on iOS\n2. Create a room with 2 lines description\n3. Observe description on the header\n4. Similar create a room with 2 lines description on web and android\n\n## Expected Result:\nThe two-line description should be displayed in the same format on web, Android, and iOS.\n\n## Actual Result:\nOn iOS, the header displays only the first line of the description. On android, the header displays ... On web, the header displays the full description content on a single line.\n\n## Workaround:\nUnknown\n\n## Platforms:\n- [x] Android: App\n- [ ] Android: mWeb Chrome\n- [x] iOS: App\n- [ ] iOS: mWeb Safari\n- [ ] iOS: mWeb Chrome\n- [x] Windows: Chrome\n- [ ] MacOS: Chrome / Safari\n\n## Screenshots/Videos\n\n<img width=\"1920\" height=\"1080\" alt=\"Image\" src=\"https://github.com/user-attachments/assets/9bc67bca-342b-4808-935e-7b948683b7df\" />\n\n<img width=\"1920\" height=\"1080\" alt=\"Image\" src=\"https://github.com/user-attachments/assets/34c7b033-5fa6-4357-983e-52e4794368ab\" />\n\n<img width=\"1920\" height=\"1080\" alt=\"Image\" src=\"https://github.com/user-attachments/assets/a987ca6c-8862-4a06-b8ed-96dc78b887e8\" />\n\nhttps://github.com/user-attachments/assets/21991af1-f513-4f10-b6f1-f4b0230b6908\n\n[View all open jobs on GitHub](https://github.com/Expensify/App/issues?q=is%3Aopen+is%3Aissue+label%3A%22Help+Wanted%22)\n\n<details><summary>Issue Owner</summary>Current Issue Owner: @dmkt9</details>\n<details><summary>Upwork Automation - Do Not Edit</summary>\n    <ul>\n        <li>Upwork Job URL: https://www.upwork.com/jobs/~022040071453062843064</li>\n        <li>Upwork Job ID: 2040071453062843064</li>\n        <li>Last Price Increase: 2026-04-03</li>\n    </ul>\n</details>",
+    "body": "If you haven’t already, check out our [contributing guidelines](https://github.com/Expensify/ReactNativeChat/blob/main/contributingGuides/CONTRIBUTING.md) for onboarding and email contributors@expensify.com to request to join our Slack channel!\n___\n\n**Version Number:** v9.3.52-0\n**Reproducible in staging?:** Yes\n**Reproducible in production?:** Yes\n**If this was caught during regression testing, add the test name, ID and link from BrowserStack:** https://test-management.browserstack.com/projects/2219752/test-runs/TR-15787/folder/13176685/41236605/1302282810\n**Email or phone of affected tester (no customers):** lekima20+640204@gmail.com\n**Issue reported by:** Applause Internal Team\n**Bug source:** Exploratory - Significant User Experience Deterioration\n**Device used:** iPhone 16 pro/ 26.3, Samsung A25/android 16, Win 11/Chrome\n**App Component:** Chat Report View\n\n## Action Performed:\n1. Open app on iOS\n2. Create a room with 2 lines description\n3. Observe description on the header\n4. Similar create a room with 2 lines description on web and android\n\n## Expected Result:\nThe two-line description should be displayed in the same format on web, Android, and iOS.\n\n## Actual Result:\nOn iOS, the header displays only the first line of the description. On android, the header displays ... On web, the header displays the full description content on a single line.\n\n## Workaround:\nUnknown\n\n## Platforms:\n- [x] Android: App\n- [ ] Android: mWeb Chrome\n- [x] iOS: App\n- [ ] iOS: mWeb Safari\n- [ ] iOS: mWeb Chrome\n- [x] Windows: Chrome\n- [ ] MacOS: Chrome / Safari\n\n## Screenshots/Videos\n\n<img width=\"1920\" height=\"1080\" alt=\"Image\" src=\"https://github.com/user-attachments/assets/9bc67bca-342b-4808-935e-7b948683b7df\" />\n\n<img width=\"1920\" height=\"1080\" alt=\"Image\" src=\"https://github.com/user-attachments/assets/34c7b033-5fa6-4357-983e-52e4794368ab\" />\n\n<img width=\"1920\" height=\"1080\" alt=\"Image\" src=\"https://github.com/user-attachments/assets/a987ca6c-8862-4a06-b8ed-96dc78b887e8\" />\n\nhttps://github.com/user-attachments/assets/21991af1-f513-4f10-b6f1-f4b0230b6908\n\n[View all open jobs on GitHub](https://github.com/Expensify/App/issues?q=is%3Aopen+is%3Aissue+label%3A%22Help+Wanted%22)\n\n<details><summary>Issue Owner</summary>Current Issue Owner: @arosiclair</details>\n<details><summary>Upwork Automation - Do Not Edit</summary>\n    <ul>\n        <li>Upwork Job URL: https://www.upwork.com/jobs/~022040071453062843064</li>\n        <li>Upwork Job ID: 2040071453062843064</li>\n        <li>Last Price Increase: 2026-04-03</li>\n    </ul>\n</details>",
     "closed_by": null,
     "reactions": {
       "url": "https://api.github.com/repos/Expensify/App/issues/87093/reactions",
@@ -1948,9 +1969,9 @@
       }
     ],
     "milestone": null,
-    "comments": 19,
+    "comments": 20,
     "created_at": "2026-04-03T11:15:52Z",
-    "updated_at": "2026-04-06T13:58:13Z",
+    "updated_at": "2026-04-06T16:29:06Z",
     "closed_at": null,
     "assignee": {
       "login": "JmillsExpensify",
@@ -2313,7 +2334,7 @@
       "blocking": 0,
       "total_blocking": 0
     },
-    "body": "If you haven���t already, check out our [contributing guidelines](https://github.com/Expensify/ReactNativeChat/blob/main/contributingGuides/CONTRIBUTING.md) for onboarding and email contributors@expensify.com to request to join our Slack channel!\n___\n\n**Version Number:** 9.3.52-0\n**Reproducible in staging?:** Yes\n**Reproducible in production?:** Yes\n**If this was caught during regression testing, add the test name, ID and link from BrowserStack:** https://github.com/Expensify/App/pull/86469\n**Email or phone of affected tester (no customers):** ndk.2303+274@gmail.com\n**Issue reported by:** Applause Internal Team\n**Bug source:** Pull Request QA execution\n**Device used:** Windows 11 Home/Chrome\n**App Component:** Money Requests\n\n## Action Performed:\nPreconditions:\n- Create a $100 expense\n- Split the expense into $60 and $40 expenses\n- Send a comment to expense report: \"1\"\n- Send each splited thread expense a child comment: \"2\" and \"3\"\n1. Open https://staging.new.expensify.com/\n2. Navigate to report expense\n3. Go offline\n4. Open $40 splited expense\n5. Delete the expense\n6. Go online\n7. Navigate to workspace chat\n\n## Expected Result:\nExpense report will be restored into single mode and expense preview is displayed\n\n## Actual Result:\nexpense preview is empty\n\n## Workaround:\nUnknown\n\n## Platforms:\n- [ ] Android: App\n- [ ] Android: mWeb Chrome\n- [ ] iOS: App\n- [ ] iOS: mWeb Safari\n- [ ] iOS: mWeb Chrome\n- [x] Windows: Chrome\n- [x] MacOS: Chrome / Safari\n\n## Screenshots/Videos\n\nhttps://github.com/user-attachments/assets/f93ebe9c-8219-4ffb-ae3d-a6909d259035\n\n[View all open jobs on GitHub](https://github.com/Expensify/App/issues?q=is%3Aopen+is%3Aissue+label%3A%22Help+Wanted%22)\n\n<details><summary>Issue Owner</summary>Current Issue Owner: @truph01</details>\n<details><summary>Upwork Automation - Do Not Edit</summary>\n    <ul>\n        <li>Upwork Job URL: https://www.upwork.com/jobs/~022040002863174356285</li>\n        <li>Upwork Job ID: 2040002863174356285</li>\n        <li>Last Price Increase: 2026-04-03</li>\n    </ul>\n</details>",
+    "body": "If you haven’t already, check out our [contributing guidelines](https://github.com/Expensify/ReactNativeChat/blob/main/contributingGuides/CONTRIBUTING.md) for onboarding and email contributors@expensify.com to request to join our Slack channel!\n___\n\n**Version Number:** 9.3.52-0\n**Reproducible in staging?:** Yes\n**Reproducible in production?:** Yes\n**If this was caught during regression testing, add the test name, ID and link from BrowserStack:** https://github.com/Expensify/App/pull/86469\n**Email or phone of affected tester (no customers):** ndk.2303+274@gmail.com\n**Issue reported by:** Applause Internal Team\n**Bug source:** Pull Request QA execution\n**Device used:** Windows 11 Home/Chrome\n**App Component:** Money Requests\n\n## Action Performed:\nPreconditions:\n- Create a $100 expense\n- Split the expense into $60 and $40 expenses\n- Send a comment to expense report: \"1\"\n- Send each splited thread expense a child comment: \"2\" and \"3\"\n1. Open https://staging.new.expensify.com/\n2. Navigate to report expense\n3. Go offline\n4. Open $40 splited expense\n5. Delete the expense\n6. Go online\n7. Navigate to workspace chat\n\n## Expected Result:\nExpense report will be restored into single mode and expense preview is displayed\n\n## Actual Result:\nexpense preview is empty\n\n## Workaround:\nUnknown\n\n## Platforms:\n- [ ] Android: App\n- [ ] Android: mWeb Chrome\n- [ ] iOS: App\n- [ ] iOS: mWeb Safari\n- [ ] iOS: mWeb Chrome\n- [x] Windows: Chrome\n- [x] MacOS: Chrome / Safari\n\n## Screenshots/Videos\n\nhttps://github.com/user-attachments/assets/f93ebe9c-8219-4ffb-ae3d-a6909d259035\n\n[View all open jobs on GitHub](https://github.com/Expensify/App/issues?q=is%3Aopen+is%3Aissue+label%3A%22Help+Wanted%22)\n\n<details><summary>Issue Owner</summary>Current Issue Owner: @truph01</details>\n<details><summary>Upwork Automation - Do Not Edit</summary>\n    <ul>\n        <li>Upwork Job URL: https://www.upwork.com/jobs/~022040002863174356285</li>\n        <li>Upwork Job ID: 2040002863174356285</li>\n        <li>Last Price Increase: 2026-04-03</li>\n    </ul>\n</details>",
     "closed_by": null,
     "reactions": {
       "url": "https://api.github.com/repos/Expensify/App/issues/87065/reactions",
