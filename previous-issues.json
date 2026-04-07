@@ -95,9 +95,9 @@
       }
     ],
     "milestone": null,
-    "comments": 4,
+    "comments": 8,
     "created_at": "2026-04-07T19:46:03Z",
-    "updated_at": "2026-04-07T19:55:32Z",
+    "updated_at": "2026-04-07T20:14:12Z",
     "closed_at": null,
     "assignee": {
       "login": "mananjadhav",
@@ -722,6 +722,27 @@
     "locked": false,
     "assignees": [
       {
+        "login": "blimpich",
+        "id": 17171674,
+        "node_id": "MDQ6VXNlcjE3MTcxNjc0",
+        "avatar_url": "https://avatars.githubusercontent.com/u/17171674?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/blimpich",
+        "html_url": "https://github.com/blimpich",
+        "followers_url": "https://api.github.com/users/blimpich/followers",
+        "following_url": "https://api.github.com/users/blimpich/following{/other_user}",
+        "gists_url": "https://api.github.com/users/blimpich/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/blimpich/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/blimpich/subscriptions",
+        "organizations_url": "https://api.github.com/users/blimpich/orgs",
+        "repos_url": "https://api.github.com/users/blimpich/repos",
+        "events_url": "https://api.github.com/users/blimpich/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/blimpich/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      {
         "login": "abzokhattab",
         "id": 59809993,
         "node_id": "MDQ6VXNlcjU5ODA5OTkz",
@@ -744,9 +765,9 @@
       }
     ],
     "milestone": null,
-    "comments": 17,
+    "comments": 24,
     "created_at": "2026-04-07T16:29:27Z",
-    "updated_at": "2026-04-07T18:39:57Z",
+    "updated_at": "2026-04-07T20:26:59Z",
     "closed_at": null,
     "assignee": {
       "login": "abzokhattab",
@@ -783,7 +804,7 @@
       "blocking": 0,
       "total_blocking": 0
     },
-    "body": "If you haven’t already, check out our [contributing guidelines](https://github.com/Expensify/ReactNativeChat/blob/main/contributingGuides/CONTRIBUTING.md) for onboarding and email contributors@expensify.com to request to join our Slack channel!\n___\n\n**Version Number:** 9.3.53-5\n**Reproducible in staging?:** Yes\n**Reproducible in production?:** Yes\n**If this was caught during regression testing, add the test name, ID and link from BrowserStack:** https://github.com/Expensify/App/pull/86743\n**Email or phone of affected tester (no customers):** jsdjosidjiojisojio3@gmail.com\n**Issue reported by:** Applause Internal Team\n**Bug source:** Exploratory - Significant User Experience Deterioration\n**Device used:** Mac 26.2 / Chrome\n**App Component:** Workspace Settings\n\n## Action Performed:\nPrecondition:\n- Enable Rules in More features.\n\n1. Go to staging.new.expensify.com\n2. Go to workspace settings > Rules\n3. Click Add merchant rule.\n4. Create a merchant rule that changes merchant to anything when merchant is gy.\n\n## Expected Result:\n'g' and 'y' will not cut off on the rule row (similar issue was fixed https://github.com/Expensify/App/pull/84187)\n\n## Actual Result:\n'g' and 'y' are cut off on the rule row.\n\n## Workaround:\nUnknown\n\n## Platforms:\n- [ ] Android: App\n- [ ] Android: mWeb Chrome\n- [ ] iOS: App\n- [ ] iOS: mWeb Safari\n- [ ] iOS: mWeb Chrome\n- [x] Windows: Chrome\n- [ ] MacOS: Chrome / Safari\n\n## Screenshots/Videos\n\n<img width=\"1440\" height=\"900\" alt=\"Image\" src=\"https://github.com/user-attachments/assets/47ac29a5-ff36-4ac2-b580-cd923991d345\" />\n\n[View all open jobs on GitHub](https://github.com/Expensify/App/issues?q=is%3Aopen+is%3Aissue+label%3A%22Help+Wanted%22)\n\n<details><summary>Issue Owner</summary>Current Issue Owner: @abzokhattab</details>\n<details><summary>Upwork Automation - Do Not Edit</summary>\n    <ul>\n        <li>Upwork Job URL: https://www.upwork.com/jobs/~022041555165238675505</li>\n        <li>Upwork Job ID: 2041555165238675505</li>\n        <li>Last Price Increase: 2026-04-07</li>\n    </ul>\n</details>",
+    "body": "If you haven’t already, check out our [contributing guidelines](https://github.com/Expensify/ReactNativeChat/blob/main/contributingGuides/CONTRIBUTING.md) for onboarding and email contributors@expensify.com to request to join our Slack channel!\n___\n\n**Version Number:** 9.3.53-5\n**Reproducible in staging?:** Yes\n**Reproducible in production?:** Yes\n**If this was caught during regression testing, add the test name, ID and link from BrowserStack:** https://github.com/Expensify/App/pull/86743\n**Email or phone of affected tester (no customers):** jsdjosidjiojisojio3@gmail.com\n**Issue reported by:** Applause Internal Team\n**Bug source:** Exploratory - Significant User Experience Deterioration\n**Device used:** Mac 26.2 / Chrome\n**App Component:** Workspace Settings\n\n## Action Performed:\nPrecondition:\n- Enable Rules in More features.\n\n1. Go to staging.new.expensify.com\n2. Go to workspace settings > Rules\n3. Click Add merchant rule.\n4. Create a merchant rule that changes merchant to anything when merchant is gy.\n\n## Expected Result:\n'g' and 'y' will not cut off on the rule row (similar issue was fixed https://github.com/Expensify/App/pull/84187)\n\n## Actual Result:\n'g' and 'y' are cut off on the rule row.\n\n## Workaround:\nUnknown\n\n## Platforms:\n- [ ] Android: App\n- [ ] Android: mWeb Chrome\n- [ ] iOS: App\n- [ ] iOS: mWeb Safari\n- [ ] iOS: mWeb Chrome\n- [x] Windows: Chrome\n- [ ] MacOS: Chrome / Safari\n\n## Screenshots/Videos\n\n<img width=\"1440\" height=\"900\" alt=\"Image\" src=\"https://github.com/user-attachments/assets/47ac29a5-ff36-4ac2-b580-cd923991d345\" />\n\n[View all open jobs on GitHub](https://github.com/Expensify/App/issues?q=is%3Aopen+is%3Aissue+label%3A%22Help+Wanted%22)\n\n<details><summary>Issue Owner</summary>Current Issue Owner: @blimpich</details>\n<details><summary>Upwork Automation - Do Not Edit</summary>\n    <ul>\n        <li>Upwork Job URL: https://www.upwork.com/jobs/~022041555165238675505</li>\n        <li>Upwork Job ID: 2041555165238675505</li>\n        <li>Last Price Increase: 2026-04-07</li>\n    </ul>\n</details>",
     "closed_by": null,
     "reactions": {
       "url": "https://api.github.com/repos/Expensify/App/issues/87270/reactions",
