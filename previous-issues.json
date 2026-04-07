@@ -261,9 +261,9 @@
       }
     ],
     "milestone": null,
-    "comments": 10,
+    "comments": 13,
     "created_at": "2026-04-07T16:29:27Z",
-    "updated_at": "2026-04-07T16:45:12Z",
+    "updated_at": "2026-04-07T17:24:15Z",
     "closed_at": null,
     "assignee": {
       "login": "abzokhattab",
@@ -599,9 +599,9 @@
       }
     ],
     "milestone": null,
-    "comments": 5,
+    "comments": 6,
     "created_at": "2026-04-07T11:39:16Z",
-    "updated_at": "2026-04-07T12:43:39Z",
+    "updated_at": "2026-04-07T17:15:07Z",
     "closed_at": null,
     "assignee": {
       "login": "cristipaval",
@@ -753,9 +753,9 @@
       }
     ],
     "milestone": null,
-    "comments": 14,
+    "comments": 15,
     "created_at": "2026-04-07T11:27:16Z",
-    "updated_at": "2026-04-07T15:53:40Z",
+    "updated_at": "2026-04-07T17:59:18Z",
     "closed_at": null,
     "assignee": {
       "login": "Pujan92",
