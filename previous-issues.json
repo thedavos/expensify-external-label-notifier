@@ -104,9 +104,9 @@
       }
     ],
     "milestone": null,
-    "comments": 5,
+    "comments": 8,
     "created_at": "2026-04-09T18:16:16Z",
-    "updated_at": "2026-04-09T18:27:52Z",
+    "updated_at": "2026-04-09T19:57:39Z",
     "closed_at": null,
     "assignee": {
       "login": "sobitneupane",
@@ -130,7 +130,6 @@
       "site_admin": false
     },
     "author_association": "CONTRIBUTOR",
-    "issue_field_values": [],
     "type": null,
     "active_lock_reason": null,
     "sub_issues_summary": {
@@ -215,15 +214,6 @@
         "description": "KSv2"
       },
       {
-        "id": 3136662525,
-        "node_id": "MDU6TGFiZWwzMTM2NjYyNTI1",
-        "url": "https://api.github.com/repos/Expensify/App/labels/Help%20Wanted",
-        "name": "Help Wanted",
-        "color": "CFC8F1",
-        "default": false,
-        "description": "Apply this label when an issue is open to proposals by contributors"
-      },
-      {
         "id": 4664850679,
         "node_id": "LA_kwDOEQqHYc8AAAABFgv49w",
         "url": "https://api.github.com/repos/Expensify/App/labels/Bug",
@@ -301,9 +291,9 @@
       }
     ],
     "milestone": null,
-    "comments": 7,
+    "comments": 8,
     "created_at": "2026-04-09T16:50:16Z",
-    "updated_at": "2026-04-09T17:40:20Z",
+    "updated_at": "2026-04-09T20:41:29Z",
     "closed_at": null,
     "assignee": {
       "login": "jmusial",
@@ -327,7 +317,6 @@
       "site_admin": false
     },
     "author_association": "CONTRIBUTOR",
-    "issue_field_values": [],
     "type": null,
     "active_lock_reason": null,
     "sub_issues_summary": {
@@ -342,7 +331,7 @@
       "blocking": 0,
       "total_blocking": 0
     },
-    "body": "Coming from https://expensify.slack.com/archives/C05LX9D6E07/p1775743804085649\n\n### Background\nSearchUIUtils.ts powers the Search feature by transforming raw API data into renderable list items. Before processing individual results, the two main functions (getTransactionsSections and getReportSections) need to derive several pieces of metadata -- key classification, column visibility flags, violation maps, and action lookup tables -- each computed by a separate helper that iterates over the entire Object.keys(data).\n\n### Problem\nThe data object is traversed 7+ times by independent helpers (getShouldShowMerchant, buildLastExportedActionByReportIDMap, shouldShowYear, getWideAmountIndicators, getViolations, createReportActionsLookupMaps) before real work begins, and report-level violation checks (hasAnyViolations + hasVisibleViolationsForUser) double-iterate the same violations per report row. This redundant work is a measurable bottleneck on large result sets.\n\n### Solution\nA new classifyAndPreprocess(data) function replaces all 6 helpers with a single pass that produces every derived structure at once, and a new computeViolationFlags() merges the two violation checks into one loop with early exit.\n\nPerformance gains\n| Function                             | Previous Avg (ms) | Current Avg (ms) | Δ (ms) | Improvement |\n|-------------------------------|----------------------|---------------------|---------|-----------------|\n| getReportSections            | ~10.9                     | ~8.55                    | -2.35   | ~21.6%          |\n| getTransactionsSections   | ~0.96                     | ~0.75                    | -0.21   | ~21.9%         |\n\nBranch and scenario in the :thread:\n\n<details><summary>Issue Owner</summary>Current Issue Owner: @dmkt9</details>\n<details><summary>Upwork Automation - Do Not Edit</summary>\n    <ul>\n        <li>Upwork Job URL: https://www.upwork.com/jobs/~022042284992765893152</li>\n        <li>Upwork Job ID: 2042284992765893152</li>\n        <li>Last Price Increase: 2026-04-09</li>\n    </ul>\n</details>",
+    "body": "Coming from https://expensify.slack.com/archives/C05LX9D6E07/p1775743804085649\n\n### Background\nSearchUIUtils.ts powers the Search feature by transforming raw API data into renderable list items. Before processing individual results, the two main functions (getTransactionsSections and getReportSections) need to derive several pieces of metadata -- key classification, column visibility flags, violation maps, and action lookup tables -- each computed by a separate helper that iterates over the entire Object.keys(data).\n\n### Problem\nThe data object is traversed 7+ times by independent helpers (getShouldShowMerchant, buildLastExportedActionByReportIDMap, shouldShowYear, getWideAmountIndicators, getViolations, createReportActionsLookupMaps) before real work begins, and report-level violation checks (hasAnyViolations + hasVisibleViolationsForUser) double-iterate the same violations per report row. This redundant work is a measurable bottleneck on large result sets.\n\n### Solution\nA new classifyAndPreprocess(data) function replaces all 6 helpers with a single pass that produces every derived structure at once, and a new computeViolationFlags() merges the two violation checks into one loop with early exit.\n\nPerformance gains\n| Function                             | Previous Avg (ms) | Current Avg (ms) | Δ (ms) | Improvement |\n|-------------------------------|----------------------|---------------------|---------|-----------------|\n| getReportSections            | ~10.9                     | ~8.55                    | -2.35   | ~21.6%          |\n| getTransactionsSections   | ~0.96                     | ~0.75                    | -0.21   | ~21.9%         |\n\nBranch and scenario in the :thread:\n\n<details><summary>Issue Owner</summary>Current Issue Owner: @jmusial</details>\n<details><summary>Upwork Automation - Do Not Edit</summary>\n    <ul>\n        <li>Upwork Job URL: https://www.upwork.com/jobs/~022042284992765893152</li>\n        <li>Upwork Job ID: 2042284992765893152</li>\n        <li>Last Price Increase: 2026-04-09</li>\n    </ul>\n</details>",
     "closed_by": null,
     "reactions": {
       "url": "https://api.github.com/repos/Expensify/App/issues/87521/reactions",
@@ -457,9 +446,9 @@
       }
     ],
     "milestone": null,
-    "comments": 11,
+    "comments": 13,
     "created_at": "2026-04-09T16:36:51Z",
-    "updated_at": "2026-04-09T18:34:11Z",
+    "updated_at": "2026-04-09T20:19:37Z",
     "closed_at": null,
     "assignee": {
       "login": "nyomanjyotisa",
@@ -483,7 +472,6 @@
       "site_admin": false
     },
     "author_association": "NONE",
-    "issue_field_values": [],
     "type": null,
     "active_lock_reason": null,
     "sub_issues_summary": {
@@ -612,9 +600,9 @@
       }
     ],
     "milestone": null,
-    "comments": 8,
+    "comments": 9,
     "created_at": "2026-04-09T16:31:40Z",
-    "updated_at": "2026-04-09T17:17:48Z",
+    "updated_at": "2026-04-09T20:03:44Z",
     "closed_at": null,
     "assignee": {
       "login": "thelullabyy",
@@ -638,7 +626,6 @@
       "site_admin": false
     },
     "author_association": "NONE",
-    "issue_field_values": [],
     "type": null,
     "active_lock_reason": null,
     "sub_issues_summary": {
@@ -793,7 +780,6 @@
       "site_admin": false
     },
     "author_association": "NONE",
-    "issue_field_values": [],
     "type": null,
     "active_lock_reason": null,
     "sub_issues_summary": {
@@ -957,7 +943,6 @@
       "site_admin": false
     },
     "author_association": "NONE",
-    "issue_field_values": [],
     "type": null,
     "active_lock_reason": null,
     "sub_issues_summary": {
@@ -1112,7 +1097,6 @@
       "site_admin": false
     },
     "author_association": "NONE",
-    "issue_field_values": [],
     "type": null,
     "active_lock_reason": null,
     "sub_issues_summary": {
@@ -1330,7 +1314,6 @@
       "site_admin": false
     },
     "author_association": "CONTRIBUTOR",
-    "issue_field_values": [],
     "type": null,
     "active_lock_reason": null,
     "sub_issues_summary": {
@@ -1485,7 +1468,6 @@
       "site_admin": false
     },
     "author_association": "NONE",
-    "issue_field_values": [],
     "type": null,
     "active_lock_reason": null,
     "sub_issues_summary": {
@@ -1640,7 +1622,6 @@
       "site_admin": false
     },
     "author_association": "NONE",
-    "issue_field_values": [],
     "type": null,
     "active_lock_reason": null,
     "sub_issues_summary": {
@@ -1816,7 +1797,6 @@
       "site_admin": false
     },
     "author_association": "NONE",
-    "issue_field_values": [],
     "type": null,
     "active_lock_reason": null,
     "sub_issues_summary": {
@@ -1971,7 +1951,6 @@
       "site_admin": false
     },
     "author_association": "NONE",
-    "issue_field_values": [],
     "type": null,
     "active_lock_reason": null,
     "sub_issues_summary": {
@@ -2126,7 +2105,6 @@
       "site_admin": false
     },
     "author_association": "NONE",
-    "issue_field_values": [],
     "type": null,
     "active_lock_reason": null,
     "sub_issues_summary": {
@@ -2155,161 +2133,6 @@
       "eyes": 0
     },
     "timeline_url": "https://api.github.com/repos/Expensify/App/issues/87469/timeline",
-    "performed_via_github_app": null,
-    "state_reason": null,
-    "pinned_comment": null
-  },
-  {
-    "url": "https://api.github.com/repos/Expensify/App/issues/87467",
-    "repository_url": "https://api.github.com/repos/Expensify/App",
-    "labels_url": "https://api.github.com/repos/Expensify/App/issues/87467/labels{/name}",
-    "comments_url": "https://api.github.com/repos/Expensify/App/issues/87467/comments",
-    "events_url": "https://api.github.com/repos/Expensify/App/issues/87467/events",
-    "html_url": "https://github.com/Expensify/App/issues/87467",
-    "id": 4230805851,
-    "node_id": "I_kwDOEQqHYc78LPlb",
-    "number": 87467,
-    "title": "[$250] Notifications - A notification is received by submitter when admin edits expense description",
-    "user": {
-      "login": "jponikarchuk",
-      "id": 141990088,
-      "node_id": "U_kgDOCHaYyA",
-      "avatar_url": "https://avatars.githubusercontent.com/u/141990088?v=4",
-      "gravatar_id": "",
-      "url": "https://api.github.com/users/jponikarchuk",
-      "html_url": "https://github.com/jponikarchuk",
-      "followers_url": "https://api.github.com/users/jponikarchuk/followers",
-      "following_url": "https://api.github.com/users/jponikarchuk/following{/other_user}",
-      "gists_url": "https://api.github.com/users/jponikarchuk/gists{/gist_id}",
-      "starred_url": "https://api.github.com/users/jponikarchuk/starred{/owner}{/repo}",
-      "subscriptions_url": "https://api.github.com/users/jponikarchuk/subscriptions",
-      "organizations_url": "https://api.github.com/users/jponikarchuk/orgs",
-      "repos_url": "https://api.github.com/users/jponikarchuk/repos",
-      "events_url": "https://api.github.com/users/jponikarchuk/events{/privacy}",
-      "received_events_url": "https://api.github.com/users/jponikarchuk/received_events",
-      "type": "User",
-      "user_view_type": "public",
-      "site_admin": false
-    },
-    "labels": [
-      {
-        "id": 2873246102,
-        "node_id": "MDU6TGFiZWwyODczMjQ2MTAy",
-        "url": "https://api.github.com/repos/Expensify/App/labels/External",
-        "name": "External",
-        "color": "a7b8ef",
-        "default": false,
-        "description": "Added to denote the issue can be worked on by a contributor"
-      },
-      {
-        "id": 2893455829,
-        "node_id": "MDU6TGFiZWwyODkzNDU1ODI5",
-        "url": "https://api.github.com/repos/Expensify/App/labels/Daily",
-        "name": "Daily",
-        "color": "eb6420",
-        "default": false,
-        "description": "KSv2"
-      },
-      {
-        "id": 3136662525,
-        "node_id": "MDU6TGFiZWwzMTM2NjYyNTI1",
-        "url": "https://api.github.com/repos/Expensify/App/labels/Help%20Wanted",
-        "name": "Help Wanted",
-        "color": "CFC8F1",
-        "default": false,
-        "description": "Apply this label when an issue is open to proposals by contributors"
-      },
-      {
-        "id": 4664850679,
-        "node_id": "LA_kwDOEQqHYc8AAAABFgv49w",
-        "url": "https://api.github.com/repos/Expensify/App/labels/Bug",
-        "name": "Bug",
-        "color": "93074F",
-        "default": false,
-        "description": "Something is broken. Auto assigns a BugZero manager."
-      }
-    ],
-    "state": "open",
-    "locked": false,
-    "assignees": [
-      {
-        "login": "bernhardoj",
-        "id": 50919443,
-        "node_id": "MDQ6VXNlcjUwOTE5NDQz",
-        "avatar_url": "https://avatars.githubusercontent.com/u/50919443?v=4",
-        "gravatar_id": "",
-        "url": "https://api.github.com/users/bernhardoj",
-        "html_url": "https://github.com/bernhardoj",
-        "followers_url": "https://api.github.com/users/bernhardoj/followers",
-        "following_url": "https://api.github.com/users/bernhardoj/following{/other_user}",
-        "gists_url": "https://api.github.com/users/bernhardoj/gists{/gist_id}",
-        "starred_url": "https://api.github.com/users/bernhardoj/starred{/owner}{/repo}",
-        "subscriptions_url": "https://api.github.com/users/bernhardoj/subscriptions",
-        "organizations_url": "https://api.github.com/users/bernhardoj/orgs",
-        "repos_url": "https://api.github.com/users/bernhardoj/repos",
-        "events_url": "https://api.github.com/users/bernhardoj/events{/privacy}",
-        "received_events_url": "https://api.github.com/users/bernhardoj/received_events",
-        "type": "User",
-        "user_view_type": "public",
-        "site_admin": false
-      }
-    ],
-    "milestone": null,
-    "comments": 9,
-    "created_at": "2026-04-09T08:43:30Z",
-    "updated_at": "2026-04-09T17:48:06Z",
-    "closed_at": null,
-    "assignee": {
-      "login": "bernhardoj",
-      "id": 50919443,
-      "node_id": "MDQ6VXNlcjUwOTE5NDQz",
-      "avatar_url": "https://avatars.githubusercontent.com/u/50919443?v=4",
-      "gravatar_id": "",
-      "url": "https://api.github.com/users/bernhardoj",
-      "html_url": "https://github.com/bernhardoj",
-      "followers_url": "https://api.github.com/users/bernhardoj/followers",
-      "following_url": "https://api.github.com/users/bernhardoj/following{/other_user}",
-      "gists_url": "https://api.github.com/users/bernhardoj/gists{/gist_id}",
-      "starred_url": "https://api.github.com/users/bernhardoj/starred{/owner}{/repo}",
-      "subscriptions_url": "https://api.github.com/users/bernhardoj/subscriptions",
-      "organizations_url": "https://api.github.com/users/bernhardoj/orgs",
-      "repos_url": "https://api.github.com/users/bernhardoj/repos",
-      "events_url": "https://api.github.com/users/bernhardoj/events{/privacy}",
-      "received_events_url": "https://api.github.com/users/bernhardoj/received_events",
-      "type": "User",
-      "user_view_type": "public",
-      "site_admin": false
-    },
-    "author_association": "NONE",
-    "issue_field_values": [],
-    "type": null,
-    "active_lock_reason": null,
-    "sub_issues_summary": {
-      "total": 0,
-      "completed": 0,
-      "percent_completed": 0
-    },
-    "issue_dependencies_summary": {
-      "blocked_by": 0,
-      "total_blocked_by": 0,
-      "blocking": 0,
-      "total_blocking": 0
-    },
-    "body": "If you haven’t already, check out our [contributing guidelines](https://github.com/Expensify/ReactNativeChat/blob/main/contributingGuides/CONTRIBUTING.md) for onboarding and email contributors@expensify.com to request to join our Slack channel!\n___\n\n**Version Number:** 9.3.55-0\n**Reproducible in staging?:** Yes\n**Reproducible in production?:** Yes\n**If this was caught during regression testing, add the test name, ID and link from BrowserStack:** https://github.com/Expensify/App/pull/87034\n**Email or phone of affected tester (no customers):** ibellicotest+2250@gmail.com\n**Issue reported by:** Applause Internal Team\n**Bug source:** Pull Request QA execution\n**Device used:** Motorola MotoG60 / Android 12 (Hybrid app)\n**App Component:** Notifications\n\n## Action Performed:\nPrerequisite: Require two accounts in a policy, a submitter and a manager. (User A as submitter and User B as manager/owner)\n1. Open the Expensify app as User A.\n2. Open workspace chat where User B is manager.\n3. Create a manual expense.\n4. Open report of the just created expense and send a message.\n5. Navigate away from report to \"Inbox\"\n6. As User B, open the expense created by User A.\n7. Tap on \"Description\" field, add a description and save.\n8. As User A, note that a notification is received showing that manager just edited the description of the expense.\n\n## Expected Result:\nNotifications shouldn´t be received for non-actionable actions on a report, such as the edition of description.\n\n## Actual Result:\nSubmitter of a workspace receives a notification after the manager edits the description of an expense.\n\n## Workaround:\nUnknown\n\n## Platforms:\n- [x] Android: App\n- [ ] Android: mWeb Chrome\n- [x] iOS: App\n- [ ] iOS: mWeb Safari\n- [ ] iOS: mWeb Chrome\n- [ ] Windows: Chrome\n- [ ] MacOS: Chrome / Safari\n\n## Screenshots/Videos\n\nhttps://github.com/user-attachments/assets/14fb86f7-0e91-4b9e-8637-28c6fa54a550\n\n[View all open jobs on GitHub](https://github.com/Expensify/App/issues?q=is%3Aopen+is%3Aissue+label%3A%22Help+Wanted%22)\n\n<details><summary>Issue Owner</summary>Current Issue Owner: @bernhardoj</details>\n<details><summary>Upwork Automation - Do Not Edit</summary>\n    <ul>\n        <li>Upwork Job URL: https://www.upwork.com/jobs/~022042163892991660040</li>\n        <li>Upwork Job ID: 2042163892991660040</li>\n        <li>Last Price Increase: 2026-04-09</li>\n    </ul>\n</details>",
-    "closed_by": null,
-    "reactions": {
-      "url": "https://api.github.com/repos/Expensify/App/issues/87467/reactions",
-      "total_count": 0,
-      "+1": 0,
-      "-1": 0,
-      "laugh": 0,
-      "hooray": 0,
-      "confused": 0,
-      "heart": 0,
-      "rocket": 0,
-      "eyes": 0
-    },
-    "timeline_url": "https://api.github.com/repos/Expensify/App/issues/87467/timeline",
     "performed_via_github_app": null,
     "state_reason": null,
     "pinned_comment": null
@@ -2511,7 +2334,6 @@
       "site_admin": false
     },
     "author_association": "CONTRIBUTOR",
-    "issue_field_values": [],
     "type": null,
     "active_lock_reason": null,
     "sub_issues_summary": {
