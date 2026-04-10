@@ -626,7 +626,7 @@
     "milestone": null,
     "comments": 15,
     "created_at": "2026-04-09T16:36:51Z",
-    "updated_at": "2026-04-10T04:46:08Z",
+    "updated_at": "2026-04-10T06:00:43Z",
     "closed_at": null,
     "assignee": {
       "login": "nyomanjyotisa",
@@ -819,7 +819,7 @@
       "blocking": 0,
       "total_blocking": 0
     },
-    "body": "If you haven��t already, check out our [contributing guidelines](https://github.com/Expensify/ReactNativeChat/blob/main/contributingGuides/CONTRIBUTING.md) for onboarding and email contributors@expensify.com to request to join our Slack channel!\n___\n\n**Version Number:** 9.3.55-0\n**Reproducible in staging?:** Yes\n**Reproducible in production?:** Yes\n**If this was caught during regression testing, add the test name, ID and link from BrowserStack:** https://github.com/Expensify/Expensify/issues/455022\n**Email or phone of affected tester (no customers):** -\n**Issue reported by:** Applause Internal Team\n**Bug source:** Regression TC Execution\n**Device used:** Windows 11\n**App Component:** Other\n\n## Action Performed:\nPreconditions: Logged in to any account\n\nSteps:\n1. Go to Settings -> Troubleshoot\n2. Export Onyx state\n3. Open a new browser / incognito window and log into a brand new account\n4. Go to Settings -> Troubleshoot\n5. Press Import Onyx state and select the exported file\n6. Wait until the file loads\n7. Compare the LHN numbers between the original account and the imported Onyx\n\n## Expected Result:\nthe LHN have an equally large number of items comparing to the original account\n\n## Actual Result:\nthe LHN of the new account after importing onyx have a larger number of items comparing to the original account\n\n## Workaround:\nUnknown\n\n## Platforms:\n- [ ] Android: App\n- [ ] Android: mWeb Chrome\n- [ ] iOS: App\n- [ ] iOS: mWeb Safari\n- [ ] iOS: mWeb Chrome\n- [x] Windows: Chrome\n- [x] MacOS: Chrome / Safari\n\n## Screenshots/Videos\n\nhttps://github.com/user-attachments/assets/a90df50d-5fbc-41a3-8d5f-4d4f5eaade0b\n\n[View all open jobs on GitHub](https://github.com/Expensify/App/issues?q=is%3Aopen+is%3Aissue+label%3A%22Help+Wanted%22)\n\n<details><summary>Issue Owner</summary>Current Issue Owner: @thelullabyy</details>\n<details><summary>Upwork Automation - Do Not Edit</summary>\n    <ul>\n        <li>Upwork Job URL: https://www.upwork.com/jobs/~022042283147103130905</li>\n        <li>Upwork Job ID: 2042283147103130905</li>\n        <li>Last Price Increase: 2026-04-09</li>\n    </ul>\n</details>",
+    "body": "If you haven’t already, check out our [contributing guidelines](https://github.com/Expensify/ReactNativeChat/blob/main/contributingGuides/CONTRIBUTING.md) for onboarding and email contributors@expensify.com to request to join our Slack channel!\n___\n\n**Version Number:** 9.3.55-0\n**Reproducible in staging?:** Yes\n**Reproducible in production?:** Yes\n**If this was caught during regression testing, add the test name, ID and link from BrowserStack:** https://github.com/Expensify/Expensify/issues/455022\n**Email or phone of affected tester (no customers):** -\n**Issue reported by:** Applause Internal Team\n**Bug source:** Regression TC Execution\n**Device used:** Windows 11\n**App Component:** Other\n\n## Action Performed:\nPreconditions: Logged in to any account\n\nSteps:\n1. Go to Settings -> Troubleshoot\n2. Export Onyx state\n3. Open a new browser / incognito window and log into a brand new account\n4. Go to Settings -> Troubleshoot\n5. Press Import Onyx state and select the exported file\n6. Wait until the file loads\n7. Compare the LHN numbers between the original account and the imported Onyx\n\n## Expected Result:\nthe LHN have an equally large number of items comparing to the original account\n\n## Actual Result:\nthe LHN of the new account after importing onyx have a larger number of items comparing to the original account\n\n## Workaround:\nUnknown\n\n## Platforms:\n- [ ] Android: App\n- [ ] Android: mWeb Chrome\n- [ ] iOS: App\n- [ ] iOS: mWeb Safari\n- [ ] iOS: mWeb Chrome\n- [x] Windows: Chrome\n- [x] MacOS: Chrome / Safari\n\n## Screenshots/Videos\n\nhttps://github.com/user-attachments/assets/a90df50d-5fbc-41a3-8d5f-4d4f5eaade0b\n\n[View all open jobs on GitHub](https://github.com/Expensify/App/issues?q=is%3Aopen+is%3Aissue+label%3A%22Help+Wanted%22)\n\n<details><summary>Issue Owner</summary>Current Issue Owner: @thelullabyy</details>\n<details><summary>Upwork Automation - Do Not Edit</summary>\n    <ul>\n        <li>Upwork Job URL: https://www.upwork.com/jobs/~022042283147103130905</li>\n        <li>Upwork Job ID: 2042283147103130905</li>\n        <li>Last Price Increase: 2026-04-09</li>\n    </ul>\n</details>",
     "closed_by": null,
     "reactions": {
       "url": "https://api.github.com/repos/Expensify/App/issues/87517/reactions",
@@ -2652,9 +2652,9 @@
       }
     ],
     "milestone": null,
-    "comments": 5,
+    "comments": 7,
     "created_at": "2026-04-09T06:17:02Z",
-    "updated_at": "2026-04-10T04:07:57Z",
+    "updated_at": "2026-04-10T06:57:45Z",
     "closed_at": null,
     "assignee": {
       "login": "ChavdaSachin",
