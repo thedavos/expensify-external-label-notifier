@@ -299,7 +299,7 @@
       "blocking": 0,
       "total_blocking": 0
     },
-    "body": "If you haven��t already, check out our [contributing guidelines](https://github.com/Expensify/ReactNativeChat/blob/main/contributingGuides/CONTRIBUTING.md) for onboarding and email contributors@expensify.com to request to join our Slack channel!\n___\n\n**Version Number:** 9.3.58-7\n**Reproducible in staging?:** Y\n**Reproducible in production?:** Y\n**If this was caught during regression testing, add the test name, ID and link from BrowserStack:**\n**Email or phone of affected tester (no customers):**\n**Logs:** https://stackoverflow.com/c/expensify/questions/4856\n**Expensify/Expensify Issue URL:**\n**Issue reported by:** @jmusial \n**Slack conversation** (hyperlinked to channel name): [#Expensify Bugs](https://expensify.slack.com/archives/C049HHMV9SM/p1775858930811969)\n\n## Action Performed:\n\n1. Enable Simulate failing network requests\n2. Navigate to Workspace > Members\n3. Attempt to change a member’s role\n4. Observe where the error message appears\n\n## Expected Result:\nError message should:\nBe displayed inline in the Members row where the action occurred\nClearly indicate failure of the role change\n## Actual Result:\nNo error shown in the Members row\nError appears in:\nWorkspace list\n\n\n## Workaround:\nUnknown\n## Platforms:\nSelect the officially supported platforms where the issue was reproduced:\n- [ ] Android: App\n- [ ] Android: mWeb Chrome\n- [ ] iOS: App\n- [ ] iOS: mWeb Safari\n- [ ] iOS: mWeb Chrome\n- [x] Windows: Chrome\n- [x] MacOS: Chrome / Safari\n\n## Screenshots/Videos\n\nhttps://github.com/user-attachments/assets/a5262722-abf1-466c-878a-516ea1ec9841\n\nhttps://github.com/user-attachments/assets/5c642b24-44b8-470e-af55-6a5b835486f5\n\n[View all open jobs on GitHub](https://github.com/Expensify/App/issues?q=is%3Aopen+is%3Aissue+label%3A%22Help+Wanted%22)\n\n\n<details><summary>Issue Owner</summary>Current Issue Owner: @shubham1206agra</details>\n<details><summary>Upwork Automation - Do Not Edit</summary>\n    <ul>\n        <li>Upwork Job URL: https://www.upwork.com/jobs/~022042968806609756138</li>\n        <li>Upwork Job ID: 2042968806609756138</li>\n        <li>Last Price Increase: 2026-04-11</li>\n    </ul>\n</details>",
+    "body": "If you haven’t already, check out our [contributing guidelines](https://github.com/Expensify/ReactNativeChat/blob/main/contributingGuides/CONTRIBUTING.md) for onboarding and email contributors@expensify.com to request to join our Slack channel!\n___\n\n**Version Number:** 9.3.58-7\n**Reproducible in staging?:** Y\n**Reproducible in production?:** Y\n**If this was caught during regression testing, add the test name, ID and link from BrowserStack:**\n**Email or phone of affected tester (no customers):**\n**Logs:** https://stackoverflow.com/c/expensify/questions/4856\n**Expensify/Expensify Issue URL:**\n**Issue reported by:** @jmusial \n**Slack conversation** (hyperlinked to channel name): [#Expensify Bugs](https://expensify.slack.com/archives/C049HHMV9SM/p1775858930811969)\n\n## Action Performed:\n\n1. Enable Simulate failing network requests\n2. Navigate to Workspace > Members\n3. Attempt to change a member’s role\n4. Observe where the error message appears\n\n## Expected Result:\nError message should:\nBe displayed inline in the Members row where the action occurred\nClearly indicate failure of the role change\n## Actual Result:\nNo error shown in the Members row\nError appears in:\nWorkspace list\n\n\n## Workaround:\nUnknown\n## Platforms:\nSelect the officially supported platforms where the issue was reproduced:\n- [ ] Android: App\n- [ ] Android: mWeb Chrome\n- [ ] iOS: App\n- [ ] iOS: mWeb Safari\n- [ ] iOS: mWeb Chrome\n- [x] Windows: Chrome\n- [x] MacOS: Chrome / Safari\n\n## Screenshots/Videos\n\nhttps://github.com/user-attachments/assets/a5262722-abf1-466c-878a-516ea1ec9841\n\nhttps://github.com/user-attachments/assets/5c642b24-44b8-470e-af55-6a5b835486f5\n\n[View all open jobs on GitHub](https://github.com/Expensify/App/issues?q=is%3Aopen+is%3Aissue+label%3A%22Help+Wanted%22)\n\n\n<details><summary>Issue Owner</summary>Current Issue Owner: @shubham1206agra</details>\n<details><summary>Upwork Automation - Do Not Edit</summary>\n    <ul>\n        <li>Upwork Job URL: https://www.upwork.com/jobs/~022042968806609756138</li>\n        <li>Upwork Job ID: 2042968806609756138</li>\n        <li>Last Price Increase: 2026-04-11</li>\n    </ul>\n</details>",
     "closed_by": null,
     "reactions": {
       "url": "https://api.github.com/repos/Expensify/App/issues/87709/reactions",
@@ -414,9 +414,9 @@
       }
     ],
     "milestone": null,
-    "comments": 13,
+    "comments": 14,
     "created_at": "2026-04-11T13:52:21Z",
-    "updated_at": "2026-04-11T15:21:34Z",
+    "updated_at": "2026-04-12T08:57:37Z",
     "closed_at": null,
     "assignee": {
       "login": "eVoloshchak",
@@ -1422,7 +1422,7 @@
     "milestone": null,
     "comments": 8,
     "created_at": "2026-04-10T18:27:16Z",
-    "updated_at": "2026-04-11T18:55:54Z",
+    "updated_at": "2026-04-12T09:30:07Z",
     "closed_at": null,
     "assignee": {
       "login": "parasharrajat",
