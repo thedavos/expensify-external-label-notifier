@@ -95,9 +95,9 @@
       }
     ],
     "milestone": null,
-    "comments": 8,
+    "comments": 11,
     "created_at": "2026-04-13T02:11:54Z",
-    "updated_at": "2026-04-13T03:10:01Z",
+    "updated_at": "2026-04-13T07:37:38Z",
     "closed_at": null,
     "assignee": {
       "login": "ShridharGoel",
@@ -414,9 +414,9 @@
       }
     ],
     "milestone": null,
-    "comments": 13,
+    "comments": 17,
     "created_at": "2026-04-11T14:08:26Z",
-    "updated_at": "2026-04-12T23:50:30Z",
+    "updated_at": "2026-04-13T07:52:43Z",
     "closed_at": null,
     "assignee": {
       "login": "shubham1206agra",
