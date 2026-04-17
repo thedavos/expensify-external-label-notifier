@@ -259,9 +259,9 @@
       }
     ],
     "milestone": null,
-    "comments": 9,
+    "comments": 12,
     "created_at": "2026-04-17T21:18:41Z",
-    "updated_at": "2026-04-17T21:47:19Z",
+    "updated_at": "2026-04-17T23:18:38Z",
     "closed_at": null,
     "assignee": {
       "login": "situchan",
@@ -735,6 +735,27 @@
         "site_admin": false
       },
       {
+        "login": "ShridharGoel",
+        "id": 35566748,
+        "node_id": "MDQ6VXNlcjM1NTY2NzQ4",
+        "avatar_url": "https://avatars.githubusercontent.com/u/35566748?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/ShridharGoel",
+        "html_url": "https://github.com/ShridharGoel",
+        "followers_url": "https://api.github.com/users/ShridharGoel/followers",
+        "following_url": "https://api.github.com/users/ShridharGoel/following{/other_user}",
+        "gists_url": "https://api.github.com/users/ShridharGoel/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/ShridharGoel/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/ShridharGoel/subscriptions",
+        "organizations_url": "https://api.github.com/users/ShridharGoel/orgs",
+        "repos_url": "https://api.github.com/users/ShridharGoel/repos",
+        "events_url": "https://api.github.com/users/ShridharGoel/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/ShridharGoel/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      {
         "login": "mountiny",
         "id": 36083550,
         "node_id": "MDQ6VXNlcjM2MDgzNTUw",
@@ -754,33 +775,12 @@
         "type": "User",
         "user_view_type": "public",
         "site_admin": false
-      },
-      {
-        "login": "situchan",
-        "id": 108292595,
-        "node_id": "U_kgDOBnRp8w",
-        "avatar_url": "https://avatars.githubusercontent.com/u/108292595?v=4",
-        "gravatar_id": "",
-        "url": "https://api.github.com/users/situchan",
-        "html_url": "https://github.com/situchan",
-        "followers_url": "https://api.github.com/users/situchan/followers",
-        "following_url": "https://api.github.com/users/situchan/following{/other_user}",
-        "gists_url": "https://api.github.com/users/situchan/gists{/gist_id}",
-        "starred_url": "https://api.github.com/users/situchan/starred{/owner}{/repo}",
-        "subscriptions_url": "https://api.github.com/users/situchan/subscriptions",
-        "organizations_url": "https://api.github.com/users/situchan/orgs",
-        "repos_url": "https://api.github.com/users/situchan/repos",
-        "events_url": "https://api.github.com/users/situchan/events{/privacy}",
-        "received_events_url": "https://api.github.com/users/situchan/received_events",
-        "type": "User",
-        "user_view_type": "public",
-        "site_admin": false
       }
     ],
     "milestone": null,
     "comments": 9,
     "created_at": "2026-04-17T20:35:58Z",
-    "updated_at": "2026-04-17T21:28:14Z",
+    "updated_at": "2026-04-17T22:47:48Z",
     "closed_at": null,
     "assignee": {
       "login": "Julesssss",
@@ -818,7 +818,7 @@
       "blocking": 0,
       "total_blocking": 0
     },
-    "body": "If you haven’t already, check out our [contributing guidelines](https://github.com/Expensify/ReactNativeChat/blob/main/contributingGuides/CONTRIBUTING.md) for onboarding and email contributors@expensify.com to request to join our Slack channel!\n___\n\n**Version Number:**\n**Reproducible in staging?:** Needs Reproduction (Unable to reproduce)\n**Reproducible in production?:** Needs Reproduction\n**If this was caught during regression testing, add the test name, ID and link from BrowserStack:**\n**Email or phone of affected tester (no customers):**\n**Logs:** https://stackoverflow.com/c/expensify/questions/4856\n**Expensify/Expensify Issue URL:**\n**Issue reported by:** @tgolen \n**Slack conversation** (hyperlinked to channel name): [#Contributor](https://expensify.slack.com/archives/C08CZDJFJ77/p1776456304702129?thread_ts=1776337234.248689&cid=C08CZDJFJ77)\n\n## Action Performed:\n\n1. Open New Expensify (staging web)\n2. Open a chat conversation\n3. Scroll up slightly (so you are not at the bottom)\n4. Have another user send a message\n5. Observe the chat window\n\n## Expected Result:\nWhen a new message is received chat should either:\nAuto-scroll to the latest message, or\nShow a clear “new message” indicator (e.g., banner or badge)\n\n## Actual Result:\nChat does not auto-scroll\nNo new message indicator is shown\n\n## Workaround:\nUnknown\n\nhttps://github.com/user-attachments/assets/90b13323-2ca7-46d1-a35a-1b5ae096c299\n\n## Platforms:\nSelect the officially supported platforms where the issue was reproduced:\n- [ ] Android: App\n- [ ] Android: mWeb Chrome\n- [ ] iOS: App\n- [ ] iOS: mWeb Safari\n- [ ] iOS: mWeb Chrome\n- [x] Windows: Chrome\n- [x] MacOS: Chrome / Safari\n\n## Screenshots/Videos\n\n\n[View all open jobs on GitHub](https://github.com/Expensify/App/issues?q=is%3Aopen+is%3Aissue+label%3A%22Help+Wanted%22)\n\n\n<details><summary>Issue Owner</summary>Current Issue Owner: @VickyStash</details>\n<details><summary>Upwork Automation - Do Not Edit</summary>\n    <ul>\n        <li>Upwork Job URL: https://www.upwork.com/jobs/~022045241031771664479</li>\n        <li>Upwork Job ID: 2045241031771664479</li>\n        <li>Last Price Increase: 2026-04-17</li>\n    </ul>\n</details>",
+    "body": "If you haven’t already, check out our [contributing guidelines](https://github.com/Expensify/ReactNativeChat/blob/main/contributingGuides/CONTRIBUTING.md) for onboarding and email contributors@expensify.com to request to join our Slack channel!\n___\n\n**Version Number:**\n**Reproducible in staging?:** Needs Reproduction (Unable to reproduce)\n**Reproducible in production?:** Needs Reproduction\n**If this was caught during regression testing, add the test name, ID and link from BrowserStack:**\n**Email or phone of affected tester (no customers):**\n**Logs:** https://stackoverflow.com/c/expensify/questions/4856\n**Expensify/Expensify Issue URL:**\n**Issue reported by:** @tgolen \n**Slack conversation** (hyperlinked to channel name): [#Contributor](https://expensify.slack.com/archives/C08CZDJFJ77/p1776456304702129?thread_ts=1776337234.248689&cid=C08CZDJFJ77)\n\n## Action Performed:\n\n1. Open New Expensify (staging web)\n2. Open a chat conversation\n3. Scroll up slightly (so you are not at the bottom)\n4. Have another user send a message\n5. Observe the chat window\n\n## Expected Result:\nWhen a new message is received chat should either:\nAuto-scroll to the latest message, or\nShow a clear “new message” indicator (e.g., banner or badge)\n\n## Actual Result:\nChat does not auto-scroll\nNo new message indicator is shown\n\n## Workaround:\nUnknown\n\nhttps://github.com/user-attachments/assets/90b13323-2ca7-46d1-a35a-1b5ae096c299\n\n## Platforms:\nSelect the officially supported platforms where the issue was reproduced:\n- [ ] Android: App\n- [ ] Android: mWeb Chrome\n- [ ] iOS: App\n- [ ] iOS: mWeb Safari\n- [ ] iOS: mWeb Chrome\n- [x] Windows: Chrome\n- [x] MacOS: Chrome / Safari\n\n## Screenshots/Videos\n\n\n[View all open jobs on GitHub](https://github.com/Expensify/App/issues?q=is%3Aopen+is%3Aissue+label%3A%22Help+Wanted%22)\n\n\n<details><summary>Issue Owner</summary>Current Issue Owner: @ShridharGoel</details>\n<details><summary>Upwork Automation - Do Not Edit</summary>\n    <ul>\n        <li>Upwork Job URL: https://www.upwork.com/jobs/~022045241031771664479</li>\n        <li>Upwork Job ID: 2045241031771664479</li>\n        <li>Last Price Increase: 2026-04-17</li>\n    </ul>\n</details>",
     "closed_by": null,
     "reactions": {
       "url": "https://api.github.com/repos/Expensify/App/issues/88238/reactions",
@@ -3254,7 +3254,7 @@
       "blocking": 0,
       "total_blocking": 0
     },
-    "body": "If you haven��t already, check out our [contributing guidelines](https://github.com/Expensify/ReactNativeChat/blob/main/contributingGuides/CONTRIBUTING.md) for onboarding and email contributors@expensify.com to request to join our Slack channel!\n___\n\n**Version Number:** v9.3.60-1\n**Reproducible in staging?:** Yes\n**Reproducible in production?:** Yes\n**If this was caught during regression testing, add the test name, ID and link from BrowserStack:** https://github.com/Expensify/App/pull/86915\n**Email or phone of affected tester (no customers):** negasofonias+sof@gmail.com\n**Issue reported by:** Applause Internal Team\n**Bug source:** Pull Request QA execution\n**Device used:** WIndows 10/Chrome, Android A14\n**App Component:** Other\n\n## Action Performed:\n1. Go to staging.new.expensify.com\n2. Go to workspace chat.\n3. Upload a video.\n4. Go to Reports>Chats.\n5. Click on the video.\n\n## Expected Result:\nVideo opens normally\n\n## Actual Result:\nVideo is corrupted and cant be opened\n\n## Workaround:\nUnknown\n\n## Platforms:\n- [x] Android: App\n- [ ] Android: mWeb Chrome\n- [ ] iOS: App\n- [ ] iOS: mWeb Safari\n- [ ] iOS: mWeb Chrome\n- [x] Windows: Chrome\n- [ ] MacOS: Chrome / Safari\n\n## Screenshots/Videos\n\nhttps://github.com/user-attachments/assets/817c1690-71d4-4063-838c-ba4b19fce3c7\n\n[View all open jobs on GitHub](https://github.com/Expensify/App/issues?q=is%3Aopen+is%3Aissue+label%3A%22Help+Wanted%22)\n\n<details><summary>Issue Owner</summary>Current Issue Owner: @eVoloshchak</details>\n<details><summary>Upwork Automation - Do Not Edit</summary>\n    <ul>\n        <li>Upwork Job URL: https://www.upwork.com/jobs/~022044763060052277225</li>\n        <li>Upwork Job ID: 2044763060052277225</li>\n        <li>Last Price Increase: 2026-04-16</li>\n    </ul>\n</details>",
+    "body": "If you haven’t already, check out our [contributing guidelines](https://github.com/Expensify/ReactNativeChat/blob/main/contributingGuides/CONTRIBUTING.md) for onboarding and email contributors@expensify.com to request to join our Slack channel!\n___\n\n**Version Number:** v9.3.60-1\n**Reproducible in staging?:** Yes\n**Reproducible in production?:** Yes\n**If this was caught during regression testing, add the test name, ID and link from BrowserStack:** https://github.com/Expensify/App/pull/86915\n**Email or phone of affected tester (no customers):** negasofonias+sof@gmail.com\n**Issue reported by:** Applause Internal Team\n**Bug source:** Pull Request QA execution\n**Device used:** WIndows 10/Chrome, Android A14\n**App Component:** Other\n\n## Action Performed:\n1. Go to staging.new.expensify.com\n2. Go to workspace chat.\n3. Upload a video.\n4. Go to Reports>Chats.\n5. Click on the video.\n\n## Expected Result:\nVideo opens normally\n\n## Actual Result:\nVideo is corrupted and cant be opened\n\n## Workaround:\nUnknown\n\n## Platforms:\n- [x] Android: App\n- [ ] Android: mWeb Chrome\n- [ ] iOS: App\n- [ ] iOS: mWeb Safari\n- [ ] iOS: mWeb Chrome\n- [x] Windows: Chrome\n- [ ] MacOS: Chrome / Safari\n\n## Screenshots/Videos\n\nhttps://github.com/user-attachments/assets/817c1690-71d4-4063-838c-ba4b19fce3c7\n\n[View all open jobs on GitHub](https://github.com/Expensify/App/issues?q=is%3Aopen+is%3Aissue+label%3A%22Help+Wanted%22)\n\n<details><summary>Issue Owner</summary>Current Issue Owner: @eVoloshchak</details>\n<details><summary>Upwork Automation - Do Not Edit</summary>\n    <ul>\n        <li>Upwork Job URL: https://www.upwork.com/jobs/~022044763060052277225</li>\n        <li>Upwork Job ID: 2044763060052277225</li>\n        <li>Last Price Increase: 2026-04-16</li>\n    </ul>\n</details>",
     "closed_by": null,
     "reactions": {
       "url": "https://api.github.com/repos/Expensify/App/issues/88108/reactions",
