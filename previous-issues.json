@@ -426,9 +426,9 @@
       }
     ],
     "milestone": null,
-    "comments": 8,
+    "comments": 12,
     "created_at": "2026-04-17T20:52:00Z",
-    "updated_at": "2026-04-17T21:28:12Z",
+    "updated_at": "2026-04-18T12:32:37Z",
     "closed_at": null,
     "assignee": {
       "login": "truph01",
@@ -1100,9 +1100,9 @@
       }
     ],
     "milestone": null,
-    "comments": 13,
+    "comments": 15,
     "created_at": "2026-04-17T20:09:03Z",
-    "updated_at": "2026-04-17T21:35:56Z",
+    "updated_at": "2026-04-18T11:51:05Z",
     "closed_at": null,
     "assignee": {
       "login": "truph01",
