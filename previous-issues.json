@@ -116,9 +116,9 @@
       }
     ],
     "milestone": null,
-    "comments": 6,
+    "comments": 12,
     "created_at": "2026-04-20T16:18:07Z",
-    "updated_at": "2026-04-20T17:25:51Z",
+    "updated_at": "2026-04-20T18:59:06Z",
     "closed_at": null,
     "assignee": {
       "login": "dannymcclain",
@@ -156,7 +156,7 @@
       "blocking": 0,
       "total_blocking": 0
     },
-    "body": "If you haven’t already, check out our [contributing guidelines](https://github.com/Expensify/ReactNativeChat/blob/main/contributingGuides/CONTRIBUTING.md) for onboarding and email contributors@expensify.com to request to join our Slack channel!\n___\n\n**Expensify/Expensify Issue URL:** https://github.com/Expensify/Expensify/issues/623994\n**Issue reported by:** @laurenreidexpensify \n**Slack conversation** (hyperlinked to channel name): [#product](https://expensify.slack.com/archives/C03U7DCU4/p1776088456469149) \n\n## Action Performed:\n1. Create a couple of expenses with the same merchant, date, amount but different receipts, categories and tags.\n2. Click \"Resolve duplicates\" to launch the RHP modal\n\n## Expected Result:\nThis is an improvement. \n\nWe'd like to update the first screen of the resolve duplicates flow in the RHP to look like this: \n\n<img width=\"2800\" height=\"1624\" alt=\"Image\" src=\"https://github.com/user-attachments/assets/bf46b858-c3d8-4588-8931-b7afd17e2642\" />\n\nCouple of notes:\n- Each row should still be clickable to view the full expense in the wide RHP like now.\n- Everything else about the onward steps through the flow if choosing to keep one or all selected expenses remains the same.\n\n## Actual Result:\nThe duplicate screens are a little outdated with big expense previews in the RHP:\n\n<img width=\"989\" height=\"650\" alt=\"Image\" src=\"https://github.com/user-attachments/assets/9913bc86-bb4f-4c81-a623-892c3de52334\" />\n\nFor other flows we've moved to more condensed rows. Couple of examples:\n\nMerge:\n\n<img width=\"435\" height=\"812\" alt=\"Image\" src=\"https://github.com/user-attachments/assets/fbbf90e9-15bb-4521-bf58-37ce195f02a9\" />\n\nAdd unreported expenses:\n\n<img width=\"697\" height=\"758\" alt=\"Image\" src=\"https://github.com/user-attachments/assets/c655fddf-4fe6-462b-9992-cb86ef602bf1\" />\n\n## Workaround:\nCan the user still use Expensify without this being fixed? Have you informed them of the workaround?\n\n## Platforms:\nSelect the officially supported platforms where the issue was reproduced:\n- [x] Android: App\n- [x] Android: mWeb Chrome\n- [x] iOS: App\n- [x] iOS: mWeb Safari\n- [x] iOS: mWeb Chrome\n- [x] Windows: Chrome\n- [x] MacOS: Chrome / Safari\n\n## Screenshots/Videos\nIn-line above\n\n[View all open jobs on GitHub](https://github.com/Expensify/App/issues?q=is%3Aopen+is%3Aissue+label%3A%22Help+Wanted%22)\n\n\n<details><summary>Issue Owner</summary>Current Issue Owner: @sobitneupane</details>\n<details><summary>Upwork Automation - Do Not Edit</summary>\n    <ul>\n        <li>Upwork Job URL: https://www.upwork.com/jobs/~022046262191452761329</li>\n        <li>Upwork Job ID: 2046262191452761329</li>\n        <li>Last Price Increase: 2026-04-20</li>\n    </ul>\n</details>",
+    "body": "If you haven’t already, check out our [contributing guidelines](https://github.com/Expensify/ReactNativeChat/blob/main/contributingGuides/CONTRIBUTING.md) for onboarding and email contributors@expensify.com to request to join our Slack channel!\n___\n\n**Expensify/Expensify Issue URL:** https://github.com/Expensify/Expensify/issues/623994\n**Issue reported by:** @laurenreidexpensify \n**Slack conversation** (hyperlinked to channel name): [#product](https://expensify.slack.com/archives/C03U7DCU4/p1776088456469149) \n\n## Action Performed:\n1. Create a couple of expenses with the same merchant, date, amount but different receipts, categories and tags.\n2. Click \"Resolve duplicates\" to launch the RHP modal\n\n## Expected Result:\nThis is an improvement. \n\nWe'd like to update the first screen of the resolve duplicates flow in the RHP to look like this: \n\n<img width=\"808\" height=\"468\" alt=\"Image\" src=\"https://github.com/user-attachments/assets/420989b8-13a6-410b-8274-6fd0ecc998f8\" />\n\nCouple of notes:\n- Each row should still be clickable to view the full expense in the wide RHP like now.\n- Everything else about the onward steps through the flow if choosing to keep one or all selected expenses remains the same.\n\n## Actual Result:\nThe duplicate screens are a little outdated with big expense previews in the RHP:\n\n<img width=\"804\" height=\"526\" alt=\"Image\" src=\"https://github.com/user-attachments/assets/9916763c-a750-4ae2-a263-086d848c12fc\" />\n\n\nFor other flows we've moved to more condensed rows. Couple of examples:\n\nMerge:\n\n<img width=\"327\" height=\"609\" alt=\"Image\" src=\"https://github.com/user-attachments/assets/bcd15220-00bf-43cd-8b23-48e36da8a1c6\" />\n\nAdd unreported expenses:\n\n<img width=\"531\" height=\"568\" alt=\"Image\" src=\"https://github.com/user-attachments/assets/d1a6cfc9-fe0e-4101-a02e-17570c7c4cef\" />\n\n## Workaround:\nCan the user still use Expensify without this being fixed? Have you informed them of the workaround?\n\n## Platforms:\nSelect the officially supported platforms where the issue was reproduced:\n- [x] Android: App\n- [x] Android: mWeb Chrome\n- [x] iOS: App\n- [x] iOS: mWeb Safari\n- [x] iOS: mWeb Chrome\n- [x] Windows: Chrome\n- [x] MacOS: Chrome / Safari\n\n## Screenshots/Videos\nIn-line above\n\n[View all open jobs on GitHub](https://github.com/Expensify/App/issues?q=is%3Aopen+is%3Aissue+label%3A%22Help+Wanted%22)\n\n\n<details><summary>Issue Owner</summary>Current Issue Owner: @sobitneupane</details>\n<details><summary>Upwork Automation - Do Not Edit</summary>\n    <ul>\n        <li>Upwork Job URL: https://www.upwork.com/jobs/~022046262191452761329</li>\n        <li>Upwork Job ID: 2046262191452761329</li>\n        <li>Last Price Increase: 2026-04-20</li>\n    </ul>\n</details>",
     "closed_by": null,
     "reactions": {
       "url": "https://api.github.com/repos/Expensify/App/issues/88342/reactions",
@@ -271,9 +271,9 @@
       }
     ],
     "milestone": null,
-    "comments": 7,
+    "comments": 10,
     "created_at": "2026-04-20T15:20:22Z",
-    "updated_at": "2026-04-20T15:38:51Z",
+    "updated_at": "2026-04-20T19:11:53Z",
     "closed_at": null,
     "assignee": {
       "login": "dmkt9",
@@ -2820,170 +2820,6 @@
       "eyes": 0
     },
     "timeline_url": "https://api.github.com/repos/Expensify/App/issues/88234/timeline",
-    "performed_via_github_app": null,
-    "state_reason": null,
-    "pinned_comment": null
-  },
-  {
-    "url": "https://api.github.com/repos/Expensify/App/issues/88229",
-    "repository_url": "https://api.github.com/repos/Expensify/App",
-    "labels_url": "https://api.github.com/repos/Expensify/App/issues/88229/labels{/name}",
-    "comments_url": "https://api.github.com/repos/Expensify/App/issues/88229/comments",
-    "events_url": "https://api.github.com/repos/Expensify/App/issues/88229/events",
-    "html_url": "https://github.com/Expensify/App/issues/88229",
-    "id": 4284842930,
-    "node_id": "I_kwDOEQqHYc7_ZYOy",
-    "number": 88229,
-    "title": "[$250] Expense-\"Create 2 expenses\" is shown on confirmation page after editing distance expense in DM",
-    "user": {
-      "login": "lanitochka17",
-      "id": 78819774,
-      "node_id": "MDQ6VXNlcjc4ODE5Nzc0",
-      "avatar_url": "https://avatars.githubusercontent.com/u/78819774?v=4",
-      "gravatar_id": "",
-      "url": "https://api.github.com/users/lanitochka17",
-      "html_url": "https://github.com/lanitochka17",
-      "followers_url": "https://api.github.com/users/lanitochka17/followers",
-      "following_url": "https://api.github.com/users/lanitochka17/following{/other_user}",
-      "gists_url": "https://api.github.com/users/lanitochka17/gists{/gist_id}",
-      "starred_url": "https://api.github.com/users/lanitochka17/starred{/owner}{/repo}",
-      "subscriptions_url": "https://api.github.com/users/lanitochka17/subscriptions",
-      "organizations_url": "https://api.github.com/users/lanitochka17/orgs",
-      "repos_url": "https://api.github.com/users/lanitochka17/repos",
-      "events_url": "https://api.github.com/users/lanitochka17/events{/privacy}",
-      "received_events_url": "https://api.github.com/users/lanitochka17/received_events",
-      "type": "User",
-      "user_view_type": "public",
-      "site_admin": false
-    },
-    "labels": [
-      {
-        "id": 2873246102,
-        "node_id": "MDU6TGFiZWwyODczMjQ2MTAy",
-        "url": "https://api.github.com/repos/Expensify/App/labels/External",
-        "name": "External",
-        "color": "a7b8ef",
-        "default": false,
-        "description": "Added to denote the issue can be worked on by a contributor"
-      },
-      {
-        "id": 2893455829,
-        "node_id": "MDU6TGFiZWwyODkzNDU1ODI5",
-        "url": "https://api.github.com/repos/Expensify/App/labels/Daily",
-        "name": "Daily",
-        "color": "eb6420",
-        "default": false,
-        "description": "KSv2"
-      },
-      {
-        "id": 3136662525,
-        "node_id": "MDU6TGFiZWwzMTM2NjYyNTI1",
-        "url": "https://api.github.com/repos/Expensify/App/labels/Help%20Wanted",
-        "name": "Help Wanted",
-        "color": "CFC8F1",
-        "default": false,
-        "description": "Apply this label when an issue is open to proposals by contributors"
-      },
-      {
-        "id": 3184150925,
-        "node_id": "MDU6TGFiZWwzMTg0MTUwOTI1",
-        "url": "https://api.github.com/repos/Expensify/App/labels/Overdue",
-        "name": "Overdue",
-        "color": "D93F0B",
-        "default": false,
-        "description": ""
-      },
-      {
-        "id": 4664850679,
-        "node_id": "LA_kwDOEQqHYc8AAAABFgv49w",
-        "url": "https://api.github.com/repos/Expensify/App/labels/Bug",
-        "name": "Bug",
-        "color": "93074F",
-        "default": false,
-        "description": "Something is broken. Auto assigns a BugZero manager."
-      }
-    ],
-    "state": "open",
-    "locked": false,
-    "assignees": [
-      {
-        "login": "ChavdaSachin",
-        "id": 81917707,
-        "node_id": "MDQ6VXNlcjgxOTE3NzA3",
-        "avatar_url": "https://avatars.githubusercontent.com/u/81917707?v=4",
-        "gravatar_id": "",
-        "url": "https://api.github.com/users/ChavdaSachin",
-        "html_url": "https://github.com/ChavdaSachin",
-        "followers_url": "https://api.github.com/users/ChavdaSachin/followers",
-        "following_url": "https://api.github.com/users/ChavdaSachin/following{/other_user}",
-        "gists_url": "https://api.github.com/users/ChavdaSachin/gists{/gist_id}",
-        "starred_url": "https://api.github.com/users/ChavdaSachin/starred{/owner}{/repo}",
-        "subscriptions_url": "https://api.github.com/users/ChavdaSachin/subscriptions",
-        "organizations_url": "https://api.github.com/users/ChavdaSachin/orgs",
-        "repos_url": "https://api.github.com/users/ChavdaSachin/repos",
-        "events_url": "https://api.github.com/users/ChavdaSachin/events{/privacy}",
-        "received_events_url": "https://api.github.com/users/ChavdaSachin/received_events",
-        "type": "User",
-        "user_view_type": "public",
-        "site_admin": false
-      }
-    ],
-    "milestone": null,
-    "comments": 12,
-    "created_at": "2026-04-17T19:24:23Z",
-    "updated_at": "2026-04-20T09:55:38Z",
-    "closed_at": null,
-    "assignee": {
-      "login": "ChavdaSachin",
-      "id": 81917707,
-      "node_id": "MDQ6VXNlcjgxOTE3NzA3",
-      "avatar_url": "https://avatars.githubusercontent.com/u/81917707?v=4",
-      "gravatar_id": "",
-      "url": "https://api.github.com/users/ChavdaSachin",
-      "html_url": "https://github.com/ChavdaSachin",
-      "followers_url": "https://api.github.com/users/ChavdaSachin/followers",
-      "following_url": "https://api.github.com/users/ChavdaSachin/following{/other_user}",
-      "gists_url": "https://api.github.com/users/ChavdaSachin/gists{/gist_id}",
-      "starred_url": "https://api.github.com/users/ChavdaSachin/starred{/owner}{/repo}",
-      "subscriptions_url": "https://api.github.com/users/ChavdaSachin/subscriptions",
-      "organizations_url": "https://api.github.com/users/ChavdaSachin/orgs",
-      "repos_url": "https://api.github.com/users/ChavdaSachin/repos",
-      "events_url": "https://api.github.com/users/ChavdaSachin/events{/privacy}",
-      "received_events_url": "https://api.github.com/users/ChavdaSachin/received_events",
-      "type": "User",
-      "user_view_type": "public",
-      "site_admin": false
-    },
-    "author_association": "NONE",
-    "issue_field_values": [],
-    "type": null,
-    "active_lock_reason": null,
-    "sub_issues_summary": {
-      "total": 0,
-      "completed": 0,
-      "percent_completed": 0
-    },
-    "issue_dependencies_summary": {
-      "blocked_by": 0,
-      "total_blocked_by": 0,
-      "blocking": 0,
-      "total_blocking": 0
-    },
-    "body": "If you haven’t already, check out our [contributing guidelines](https://github.com/Expensify/ReactNativeChat/blob/main/contributingGuides/CONTRIBUTING.md) for onboarding and email contributors@expensify.com to request to join our Slack channel!\n___\n\n**Version Number:** 9.3.60-14\n**Reproducible in staging?:** Yes\n**Reproducible in production?:** Yes\n**If this was caught during regression testing, add the test name, ID and link from BrowserStack:** https://test-management.browserstack.com/projects/2219752/folder/13177029/test-cases/68907543\n**Email or phone of affected tester (no customers):** N/A\n**Issue reported by:** Applause Internal Team\n**Bug source:** Exploratory - Significant User Experience Deterioration\n**Device used:** MacBook Air 15.7.4 Chrome, iPhone 15 iOS 26.3.1\n**App Component:** Money Requests\n\n## Action Performed:\n1. Sign in to ND as User A\n2.Create chat with User B\n3. Click + > Split expense >  Distance\n4. Enter waypoints and split the expense\n5. Open the distance expense, created for User B, edit the amount and save\n6. Navigate back to 1:1 chat, click \"+\" button > Create expense > Manual\n7. Enter the amount and click Next button\n8. Observe the \"Confirm details\" page\n\n## Expected Result:\nOnly one expense appears on the confirmation page, green button shows \"Create $XX expense\".\n\n## Actual Result:\nTwo expenses appear on the confirmation page, green button shows \"Create 2 expense\". When navigating through the expenses using < > buttons, second $0 expenses can be seen.\n\n## Workaround:\nUnknown\n\n## Platforms:\n- [ ] Android: App\n- [ ] Android: mWeb Chrome\n- [ ] iOS: App\n- [ ] iOS: mWeb Safari\n- [ ] iOS: mWeb Chrome\n- [x] Windows: Chrome\n- [ ] MacOS: Chrome / Safari\n\n## Screenshots/Videos\n\nhttps://github.com/user-attachments/assets/428d5a26-6421-4761-82b4-ad6bfa53f659\n\n[View all open jobs on GitHub](https://github.com/Expensify/App/issues?q=is%3Aopen+is%3Aissue+label%3A%22Help+Wanted%22)\n\n<details><summary>Issue Owner</summary>Current Issue Owner: @ChavdaSachin</details>\n<details><summary>Upwork Automation - Do Not Edit</summary>\n    <ul>\n        <li>Upwork Job URL: https://www.upwork.com/jobs/~022045229306057177065</li>\n        <li>Upwork Job ID: 2045229306057177065</li>\n        <li>Last Price Increase: 2026-04-17</li>\n    </ul>\n</details>",
-    "closed_by": null,
-    "reactions": {
-      "url": "https://api.github.com/repos/Expensify/App/issues/88229/reactions",
-      "total_count": 0,
-      "+1": 0,
-      "-1": 0,
-      "laugh": 0,
-      "hooray": 0,
-      "confused": 0,
-      "heart": 0,
-      "rocket": 0,
-      "eyes": 0
-    },
-    "timeline_url": "https://api.github.com/repos/Expensify/App/issues/88229/timeline",
     "performed_via_github_app": null,
     "state_reason": null,
     "pinned_comment": null
