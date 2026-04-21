@@ -1,5 +1,160 @@
 [
   {
+    "url": "https://api.github.com/repos/Expensify/App/issues/88383",
+    "repository_url": "https://api.github.com/repos/Expensify/App",
+    "labels_url": "https://api.github.com/repos/Expensify/App/issues/88383/labels{/name}",
+    "comments_url": "https://api.github.com/repos/Expensify/App/issues/88383/comments",
+    "events_url": "https://api.github.com/repos/Expensify/App/issues/88383/events",
+    "html_url": "https://github.com/Expensify/App/issues/88383",
+    "id": 4301274850,
+    "node_id": "I_kwDOEQqHYc8AAAABAGA-4g",
+    "number": 88383,
+    "title": "[$250] Travel - App crashes after clicking Book travel",
+    "user": {
+      "login": "jponikarchuk",
+      "id": 141990088,
+      "node_id": "U_kgDOCHaYyA",
+      "avatar_url": "https://avatars.githubusercontent.com/u/141990088?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/jponikarchuk",
+      "html_url": "https://github.com/jponikarchuk",
+      "followers_url": "https://api.github.com/users/jponikarchuk/followers",
+      "following_url": "https://api.github.com/users/jponikarchuk/following{/other_user}",
+      "gists_url": "https://api.github.com/users/jponikarchuk/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/jponikarchuk/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/jponikarchuk/subscriptions",
+      "organizations_url": "https://api.github.com/users/jponikarchuk/orgs",
+      "repos_url": "https://api.github.com/users/jponikarchuk/repos",
+      "events_url": "https://api.github.com/users/jponikarchuk/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/jponikarchuk/received_events",
+      "type": "User",
+      "user_view_type": "public",
+      "site_admin": false
+    },
+    "labels": [
+      {
+        "id": 2873246102,
+        "node_id": "MDU6TGFiZWwyODczMjQ2MTAy",
+        "url": "https://api.github.com/repos/Expensify/App/labels/External",
+        "name": "External",
+        "color": "a7b8ef",
+        "default": false,
+        "description": "Added to denote the issue can be worked on by a contributor"
+      },
+      {
+        "id": 2893455829,
+        "node_id": "MDU6TGFiZWwyODkzNDU1ODI5",
+        "url": "https://api.github.com/repos/Expensify/App/labels/Daily",
+        "name": "Daily",
+        "color": "eb6420",
+        "default": false,
+        "description": "KSv2"
+      },
+      {
+        "id": 3136662525,
+        "node_id": "MDU6TGFiZWwzMTM2NjYyNTI1",
+        "url": "https://api.github.com/repos/Expensify/App/labels/Help%20Wanted",
+        "name": "Help Wanted",
+        "color": "CFC8F1",
+        "default": false,
+        "description": "Apply this label when an issue is open to proposals by contributors"
+      },
+      {
+        "id": 4664850679,
+        "node_id": "LA_kwDOEQqHYc8AAAABFgv49w",
+        "url": "https://api.github.com/repos/Expensify/App/labels/Bug",
+        "name": "Bug",
+        "color": "93074F",
+        "default": false,
+        "description": "Something is broken. Auto assigns a BugZero manager."
+      }
+    ],
+    "state": "open",
+    "locked": false,
+    "assignees": [
+      {
+        "login": "ChavdaSachin",
+        "id": 81917707,
+        "node_id": "MDQ6VXNlcjgxOTE3NzA3",
+        "avatar_url": "https://avatars.githubusercontent.com/u/81917707?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/ChavdaSachin",
+        "html_url": "https://github.com/ChavdaSachin",
+        "followers_url": "https://api.github.com/users/ChavdaSachin/followers",
+        "following_url": "https://api.github.com/users/ChavdaSachin/following{/other_user}",
+        "gists_url": "https://api.github.com/users/ChavdaSachin/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/ChavdaSachin/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/ChavdaSachin/subscriptions",
+        "organizations_url": "https://api.github.com/users/ChavdaSachin/orgs",
+        "repos_url": "https://api.github.com/users/ChavdaSachin/repos",
+        "events_url": "https://api.github.com/users/ChavdaSachin/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/ChavdaSachin/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      }
+    ],
+    "milestone": null,
+    "comments": 4,
+    "created_at": "2026-04-21T08:22:25Z",
+    "updated_at": "2026-04-21T08:56:56Z",
+    "closed_at": null,
+    "assignee": {
+      "login": "ChavdaSachin",
+      "id": 81917707,
+      "node_id": "MDQ6VXNlcjgxOTE3NzA3",
+      "avatar_url": "https://avatars.githubusercontent.com/u/81917707?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/ChavdaSachin",
+      "html_url": "https://github.com/ChavdaSachin",
+      "followers_url": "https://api.github.com/users/ChavdaSachin/followers",
+      "following_url": "https://api.github.com/users/ChavdaSachin/following{/other_user}",
+      "gists_url": "https://api.github.com/users/ChavdaSachin/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/ChavdaSachin/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/ChavdaSachin/subscriptions",
+      "organizations_url": "https://api.github.com/users/ChavdaSachin/orgs",
+      "repos_url": "https://api.github.com/users/ChavdaSachin/repos",
+      "events_url": "https://api.github.com/users/ChavdaSachin/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/ChavdaSachin/received_events",
+      "type": "User",
+      "user_view_type": "public",
+      "site_admin": false
+    },
+    "author_association": "NONE",
+    "issue_field_values": [],
+    "type": null,
+    "active_lock_reason": null,
+    "sub_issues_summary": {
+      "total": 0,
+      "completed": 0,
+      "percent_completed": 0
+    },
+    "issue_dependencies_summary": {
+      "blocked_by": 0,
+      "total_blocked_by": 0,
+      "blocking": 0,
+      "total_blocking": 0
+    },
+    "body": "If you haven’t already, check out our [contributing guidelines](https://github.com/Expensify/ReactNativeChat/blob/main/contributingGuides/CONTRIBUTING.md) for onboarding and email contributors@expensify.com to request to join our Slack channel!\n___\n\n**Version Number:** 9.3.60-22\n**Reproducible in staging?:** Yes\n**Reproducible in production?:** Yes\n**If this was caught during regression testing, add the test name, ID and link from BrowserStack:** https://github.com/Expensify/Expensify/issues/431683\n**Email or phone of affected tester (no customers):** applausetester+sdjnoisjffd44222o@applause.expensifail.com\n**Issue reported by:** Applause Internal Team\n**Bug source:** Exploratory - Significant User Experience Deterioration\n**Device used:** Mac 26.2 / Chrome\n**App Component:** Other\n\n## Action Performed:\nPrecondition:\n- Log in with Expensifail account.\n- Enable Travel in workspace settings.\n\n1. Go to staging.new.expensify.com\n2. Open Inbox > FAB > Book travel.\n3. Click Book travel.\n\n## Expected Result:\nApp will not crash.\n\n## Actual Result:\nApp crashes after clicking Book travel.\n\n## Workaround:\nUnknown\n\n## Platforms:\n- [x] Android: App\n- [ ] Android: mWeb Chrome\n- [x] iOS: App\n- [ ] iOS: mWeb Safari\n- [ ] iOS: mWeb Chrome\n- [x] Windows: Chrome\n- [x] MacOS: Chrome / Safari\n\n## Screenshots/Videos\n\nhttps://github.com/user-attachments/assets/eaf92470-c476-41b1-8cb3-1df947ce731d\n\n[logs.txt](https://github.com/user-attachments/files/26925226/logs.txt)\n\n[View all open jobs on GitHub](https://github.com/Expensify/App/issues?q=is%3Aopen+is%3Aissue+label%3A%22Help+Wanted%22)\n\n<details><summary>Issue Owner</summary>Current Issue Owner: @ChavdaSachin</details>\n<details><summary>Upwork Automation - Do Not Edit</summary>\n    <ul>\n        <li>Upwork Job URL: https://www.upwork.com/jobs/~022046511903439571921</li>\n        <li>Upwork Job ID: 2046511903439571921</li>\n        <li>Last Price Increase: 2026-04-21</li>\n    </ul>\n</details>",
+    "closed_by": null,
+    "reactions": {
+      "url": "https://api.github.com/repos/Expensify/App/issues/88383/reactions",
+      "total_count": 0,
+      "+1": 0,
+      "-1": 0,
+      "laugh": 0,
+      "hooray": 0,
+      "confused": 0,
+      "heart": 0,
+      "rocket": 0,
+      "eyes": 0
+    },
+    "timeline_url": "https://api.github.com/repos/Expensify/App/issues/88383/timeline",
+    "performed_via_github_app": null,
+    "state_reason": null,
+    "pinned_comment": null
+  },
+  {
     "url": "https://api.github.com/repos/Expensify/App/issues/88375",
     "repository_url": "https://api.github.com/repos/Expensify/App",
     "labels_url": "https://api.github.com/repos/Expensify/App/issues/88375/labels{/name}",
@@ -250,9 +405,9 @@
       }
     ],
     "milestone": null,
-    "comments": 9,
+    "comments": 10,
     "created_at": "2026-04-20T20:58:25Z",
-    "updated_at": "2026-04-21T06:59:56Z",
+    "updated_at": "2026-04-21T08:18:56Z",
     "closed_at": null,
     "assignee": {
       "login": "brunovjk",
@@ -1055,9 +1210,9 @@
       }
     ],
     "milestone": null,
-    "comments": 13,
+    "comments": 14,
     "created_at": "2026-04-20T15:20:22Z",
-    "updated_at": "2026-04-21T02:10:54Z",
+    "updated_at": "2026-04-21T08:59:58Z",
     "closed_at": null,
     "assignee": {
       "login": "dmkt9",
@@ -2178,6 +2333,15 @@
     },
     "labels": [
       {
+        "id": 2283143991,
+        "node_id": "MDU6TGFiZWwyMjgzMTQzOTkx",
+        "url": "https://api.github.com/repos/Expensify/App/labels/Reviewing",
+        "name": "Reviewing",
+        "color": "dddddd",
+        "default": false,
+        "description": "Has a PR in review"
+      },
+      {
         "id": 2873246102,
         "node_id": "MDU6TGFiZWwyODczMjQ2MTAy",
         "url": "https://api.github.com/repos/Expensify/App/labels/External",
@@ -2187,11 +2351,11 @@
         "description": "Added to denote the issue can be worked on by a contributor"
       },
       {
-        "id": 2893455829,
-        "node_id": "MDU6TGFiZWwyODkzNDU1ODI5",
-        "url": "https://api.github.com/repos/Expensify/App/labels/Daily",
-        "name": "Daily",
-        "color": "eb6420",
+        "id": 2893515375,
+        "node_id": "MDU6TGFiZWwyODkzNTE1Mzc1",
+        "url": "https://api.github.com/repos/Expensify/App/labels/Weekly",
+        "name": "Weekly",
+        "color": "009800",
         "default": false,
         "description": "KSv2"
       },
@@ -2261,9 +2425,9 @@
       }
     ],
     "milestone": null,
-    "comments": 13,
+    "comments": 14,
     "created_at": "2026-04-18T17:57:29Z",
-    "updated_at": "2026-04-20T13:02:13Z",
+    "updated_at": "2026-04-21T08:02:31Z",
     "closed_at": null,
     "assignee": {
       "login": "shubham1206agra",
