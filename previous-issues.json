@@ -1169,15 +1169,6 @@
     },
     "labels": [
       {
-        "id": 2810597462,
-        "node_id": "MDU6TGFiZWwyODEwNTk3NDYy",
-        "url": "https://api.github.com/repos/Expensify/App/labels/DeployBlockerCash",
-        "name": "DeployBlockerCash",
-        "color": "000000",
-        "default": false,
-        "description": "This issue or pull request should block deployment"
-      },
-      {
         "id": 2873635554,
         "node_id": "MDU6TGFiZWwyODczNjM1NTU0",
         "url": "https://api.github.com/repos/Expensify/App/labels/Engineering",
@@ -1261,9 +1252,9 @@
       }
     ],
     "milestone": null,
-    "comments": 15,
+    "comments": 16,
     "created_at": "2026-04-22T02:51:35Z",
-    "updated_at": "2026-04-22T15:26:12Z",
+    "updated_at": "2026-04-22T21:16:11Z",
     "closed_at": null,
     "assignee": {
       "login": "rlinoz",
