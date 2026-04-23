@@ -1837,7 +1837,7 @@
     "id": 4306433366,
     "node_id": "I_kwDOEQqHYc8AAAABAK71Vg",
     "number": 88499,
-    "title": "DM chat cannot be exited after deleting an expense and tapping back button",
+    "title": "[$500] DM chat cannot be exited after deleting an expense and tapping back button",
     "user": {
       "login": "mitarachim",
       "id": 181838622,
@@ -1860,6 +1860,15 @@
       "site_admin": false
     },
     "labels": [
+      {
+        "id": 2873246102,
+        "node_id": "MDU6TGFiZWwyODczMjQ2MTAy",
+        "url": "https://api.github.com/repos/Expensify/App/labels/External",
+        "name": "External",
+        "color": "a7b8ef",
+        "default": false,
+        "description": "Added to denote the issue can be worked on by a contributor"
+      },
       {
         "id": 2873635554,
         "node_id": "MDU6TGFiZWwyODczNjM1NTU0",
@@ -1944,9 +1953,9 @@
       }
     ],
     "milestone": null,
-    "comments": 17,
+    "comments": 22,
     "created_at": "2026-04-22T02:51:35Z",
-    "updated_at": "2026-04-23T08:58:19Z",
+    "updated_at": "2026-04-23T18:25:01Z",
     "closed_at": null,
     "assignee": {
       "login": "rlinoz",
@@ -1984,7 +1993,7 @@
       "blocking": 0,
       "total_blocking": 0
     },
-    "body": "If you haven’t already, check out our [contributing guidelines](https://github.com/Expensify/ReactNativeChat/blob/main/contributingGuides/CONTRIBUTING.md) for onboarding and email contributors@expensify.com to request to join our Slack channel!\n___\n\n**Version Number:** 9.3.61-0\n**Reproducible in staging?:** Yes\n**Reproducible in production?:** No\n**If this was caught during regression testing, add the test name, ID and link from BrowserStack:** https://github.com/Expensify/App/pull/88053\n**Email or phone of affected tester (no customers):** N/A\n**Issue reported by:** Applause Internal Team\n**Bug source:** Exploratory - Significant User Experience Deterioration\n**Device used:** iPhone 15 iOS 26,3,1\n**App Component:** Money Requests\n\n## Action Performed:\n1. Sign in to ND with a new account\n2. Create a 1:1 chat with another user\n3. Create an expense in the chat\n4. Open the expense and tap the parent chat link in the header\n5. Tap the expense again, tap “More options,” and then tap “Delete.”\n6. Tap Back button\n\n## Expected Result:\nUser is able to navigate away from the chat after deleting an expense\n\n## Actual Result:\nUser is stuck in the DM chat. On Prod the app crashes\n\n## Workaround:\nUnknown\n\n## Platforms:\n- [ ] Android: App\n- [ ] Android: mWeb Chrome\n- [x] iOS: App\n- [ ] iOS: mWeb Safari\n- [ ] iOS: mWeb Chrome\n- [ ] Windows: Chrome\n- [ ] MacOS: Chrome / Safari\n\n## Screenshots/Videos\n\nhttps://github.com/user-attachments/assets/aa82a695-7726-4319-97f3-7befc780f67b\n\n[View all open jobs on GitHub](https://github.com/Expensify/App/issues?q=is%3Aopen+is%3Aissue+label%3A%22Help+Wanted%22)\n\n<details><summary>Issue Owner</summary>Current Issue Owner: @DylanDylann</details>",
+    "body": "If you haven’t already, check out our [contributing guidelines](https://github.com/Expensify/ReactNativeChat/blob/main/contributingGuides/CONTRIBUTING.md) for onboarding and email contributors@expensify.com to request to join our Slack channel!\n___\n\n**Version Number:** 9.3.61-0\n**Reproducible in staging?:** Yes\n**Reproducible in production?:** No\n**If this was caught during regression testing, add the test name, ID and link from BrowserStack:** https://github.com/Expensify/App/pull/88053\n**Email or phone of affected tester (no customers):** N/A\n**Issue reported by:** Applause Internal Team\n**Bug source:** Exploratory - Significant User Experience Deterioration\n**Device used:** iPhone 15 iOS 26,3,1\n**App Component:** Money Requests\n\n## Action Performed:\n1. Sign in to ND with a new account\n2. Create a 1:1 chat with another user\n3. Create an expense in the chat\n4. Open the expense and tap the parent chat link in the header\n5. Tap the expense again, tap “More options,” and then tap “Delete.”\n6. Tap Back button\n\n## Expected Result:\nUser is able to navigate away from the chat after deleting an expense\n\n## Actual Result:\nUser is stuck in the DM chat. On Prod the app crashes\n\n## Workaround:\nUnknown\n\n## Platforms:\n- [ ] Android: App\n- [ ] Android: mWeb Chrome\n- [x] iOS: App\n- [ ] iOS: mWeb Safari\n- [ ] iOS: mWeb Chrome\n- [ ] Windows: Chrome\n- [ ] MacOS: Chrome / Safari\n\n## Screenshots/Videos\n\nhttps://github.com/user-attachments/assets/aa82a695-7726-4319-97f3-7befc780f67b\n\n[View all open jobs on GitHub](https://github.com/Expensify/App/issues?q=is%3Aopen+is%3Aissue+label%3A%22Help+Wanted%22)\n\n<details><summary>Issue Owner</summary>Current Issue Owner: @DylanDylann</details>\n<details><summary>Upwork Automation - Do Not Edit</summary>\n    <ul>\n        <li>Upwork Job URL: https://www.upwork.com/jobs/~022047380710386412184</li>\n        <li>Upwork Job ID: 2047380710386412184</li>\n        <li>Last Price Increase: 2026-04-23</li>\n    </ul>\n</details>",
     "closed_by": null,
     "reactions": {
       "url": "https://api.github.com/repos/Expensify/App/issues/88499/reactions",
@@ -2154,161 +2163,6 @@
       "eyes": 0
     },
     "timeline_url": "https://api.github.com/repos/Expensify/App/issues/88496/timeline",
-    "performed_via_github_app": null,
-    "state_reason": null,
-    "pinned_comment": null
-  },
-  {
-    "url": "https://api.github.com/repos/Expensify/App/issues/88482",
-    "repository_url": "https://api.github.com/repos/Expensify/App",
-    "labels_url": "https://api.github.com/repos/Expensify/App/issues/88482/labels{/name}",
-    "comments_url": "https://api.github.com/repos/Expensify/App/issues/88482/comments",
-    "events_url": "https://api.github.com/repos/Expensify/App/issues/88482/events",
-    "html_url": "https://github.com/Expensify/App/issues/88482",
-    "id": 4305339616,
-    "node_id": "I_kwDOEQqHYc8AAAABAJ5E4A",
-    "number": 88482,
-    "title": "[$250] Home - Getting Started section not displayed after onboarding",
-    "user": {
-      "login": "lanitochka17",
-      "id": 78819774,
-      "node_id": "MDQ6VXNlcjc4ODE5Nzc0",
-      "avatar_url": "https://avatars.githubusercontent.com/u/78819774?v=4",
-      "gravatar_id": "",
-      "url": "https://api.github.com/users/lanitochka17",
-      "html_url": "https://github.com/lanitochka17",
-      "followers_url": "https://api.github.com/users/lanitochka17/followers",
-      "following_url": "https://api.github.com/users/lanitochka17/following{/other_user}",
-      "gists_url": "https://api.github.com/users/lanitochka17/gists{/gist_id}",
-      "starred_url": "https://api.github.com/users/lanitochka17/starred{/owner}{/repo}",
-      "subscriptions_url": "https://api.github.com/users/lanitochka17/subscriptions",
-      "organizations_url": "https://api.github.com/users/lanitochka17/orgs",
-      "repos_url": "https://api.github.com/users/lanitochka17/repos",
-      "events_url": "https://api.github.com/users/lanitochka17/events{/privacy}",
-      "received_events_url": "https://api.github.com/users/lanitochka17/received_events",
-      "type": "User",
-      "user_view_type": "public",
-      "site_admin": false
-    },
-    "labels": [
-      {
-        "id": 2873246102,
-        "node_id": "MDU6TGFiZWwyODczMjQ2MTAy",
-        "url": "https://api.github.com/repos/Expensify/App/labels/External",
-        "name": "External",
-        "color": "a7b8ef",
-        "default": false,
-        "description": "Added to denote the issue can be worked on by a contributor"
-      },
-      {
-        "id": 2893455829,
-        "node_id": "MDU6TGFiZWwyODkzNDU1ODI5",
-        "url": "https://api.github.com/repos/Expensify/App/labels/Daily",
-        "name": "Daily",
-        "color": "eb6420",
-        "default": false,
-        "description": "KSv2"
-      },
-      {
-        "id": 3136662525,
-        "node_id": "MDU6TGFiZWwzMTM2NjYyNTI1",
-        "url": "https://api.github.com/repos/Expensify/App/labels/Help%20Wanted",
-        "name": "Help Wanted",
-        "color": "CFC8F1",
-        "default": false,
-        "description": "Apply this label when an issue is open to proposals by contributors"
-      },
-      {
-        "id": 4664850679,
-        "node_id": "LA_kwDOEQqHYc8AAAABFgv49w",
-        "url": "https://api.github.com/repos/Expensify/App/labels/Bug",
-        "name": "Bug",
-        "color": "93074F",
-        "default": false,
-        "description": "Something is broken. Auto assigns a BugZero manager."
-      }
-    ],
-    "state": "open",
-    "locked": false,
-    "assignees": [
-      {
-        "login": "ShridharGoel",
-        "id": 35566748,
-        "node_id": "MDQ6VXNlcjM1NTY2NzQ4",
-        "avatar_url": "https://avatars.githubusercontent.com/u/35566748?v=4",
-        "gravatar_id": "",
-        "url": "https://api.github.com/users/ShridharGoel",
-        "html_url": "https://github.com/ShridharGoel",
-        "followers_url": "https://api.github.com/users/ShridharGoel/followers",
-        "following_url": "https://api.github.com/users/ShridharGoel/following{/other_user}",
-        "gists_url": "https://api.github.com/users/ShridharGoel/gists{/gist_id}",
-        "starred_url": "https://api.github.com/users/ShridharGoel/starred{/owner}{/repo}",
-        "subscriptions_url": "https://api.github.com/users/ShridharGoel/subscriptions",
-        "organizations_url": "https://api.github.com/users/ShridharGoel/orgs",
-        "repos_url": "https://api.github.com/users/ShridharGoel/repos",
-        "events_url": "https://api.github.com/users/ShridharGoel/events{/privacy}",
-        "received_events_url": "https://api.github.com/users/ShridharGoel/received_events",
-        "type": "User",
-        "user_view_type": "public",
-        "site_admin": false
-      }
-    ],
-    "milestone": null,
-    "comments": 8,
-    "created_at": "2026-04-21T21:17:04Z",
-    "updated_at": "2026-04-21T23:53:04Z",
-    "closed_at": null,
-    "assignee": {
-      "login": "ShridharGoel",
-      "id": 35566748,
-      "node_id": "MDQ6VXNlcjM1NTY2NzQ4",
-      "avatar_url": "https://avatars.githubusercontent.com/u/35566748?v=4",
-      "gravatar_id": "",
-      "url": "https://api.github.com/users/ShridharGoel",
-      "html_url": "https://github.com/ShridharGoel",
-      "followers_url": "https://api.github.com/users/ShridharGoel/followers",
-      "following_url": "https://api.github.com/users/ShridharGoel/following{/other_user}",
-      "gists_url": "https://api.github.com/users/ShridharGoel/gists{/gist_id}",
-      "starred_url": "https://api.github.com/users/ShridharGoel/starred{/owner}{/repo}",
-      "subscriptions_url": "https://api.github.com/users/ShridharGoel/subscriptions",
-      "organizations_url": "https://api.github.com/users/ShridharGoel/orgs",
-      "repos_url": "https://api.github.com/users/ShridharGoel/repos",
-      "events_url": "https://api.github.com/users/ShridharGoel/events{/privacy}",
-      "received_events_url": "https://api.github.com/users/ShridharGoel/received_events",
-      "type": "User",
-      "user_view_type": "public",
-      "site_admin": false
-    },
-    "author_association": "NONE",
-    "issue_field_values": [],
-    "type": null,
-    "active_lock_reason": null,
-    "sub_issues_summary": {
-      "total": 0,
-      "completed": 0,
-      "percent_completed": 0
-    },
-    "issue_dependencies_summary": {
-      "blocked_by": 0,
-      "total_blocked_by": 0,
-      "blocking": 0,
-      "total_blocking": 0
-    },
-    "body": "If you haven’t already, check out our [contributing guidelines](https://github.com/Expensify/ReactNativeChat/blob/main/contributingGuides/CONTRIBUTING.md) for onboarding and email contributors@expensify.com to request to join our Slack channel!\n___\n\n**Version Number:** 9.3.61-0\n**Reproducible in staging?:** Yes\n**Reproducible in production?:** Yes\n**If this was caught during regression testing, add the test name, ID and link from BrowserStack:** https://github.com/Expensify/App/pull/87739\n**Email or phone of affected tester (no customers):** testing210790@gmail.com\n**Issue reported by:** Applause Internal Team\n**Bug source:** Pull Request QA execution\n**Device used:** Windows 11\n**App Component:** Other\n\n## Action Performed:\n1. Open the app\n2. Complete onboarding as workspace admin\n3. Select an accounting integration (e.g. QuickBooks Online)\n4. Enter invalid credentials to force connection failure\n5. Navigate to Home page\n\n## Expected Result:\nThe \"Getting Started\" section is displayed on the Home page and includes the \"Connect to [integration]\" task, which remains visible and unchecked after a failed connection attempt.\n\n## Actual Result:\nThe \"Getting Started\" section is not displayed on the Home page after the failed accounting integration. As a result, the \"Connect to [integration]\" task is missing and the user is not prompted to complete the setup.\n\nThe issue was reproduced in Chile and also tested using a USA location (Miami) via VPN.\nIn both cases, the \"Getting Started\" section was not displayed after onboarding and failed accounting connection.\n\n## Workaround:\nUnknown\n\n## Platforms:\n- [ ] Android: App\n- [ ] Android: mWeb Chrome\n- [ ] iOS: App\n- [ ] iOS: mWeb Safari\n- [ ] iOS: mWeb Chrome\n- [x] Windows: Chrome\n- [ ] MacOS: Chrome / Safari\n\n## Screenshots/Videos\n\nhttps://github.com/user-attachments/assets/75918d93-aad9-412d-821b-5dda887c742a\n\n[View all open jobs on GitHub](https://github.com/Expensify/App/issues?q=is%3Aopen+is%3Aissue+label%3A%22Help+Wanted%22)\n\n<details><summary>Issue Owner</summary>Current Issue Owner: @ShridharGoel</details>\n<details><summary>Upwork Automation - Do Not Edit</summary>\n    <ul>\n        <li>Upwork Job URL: https://www.upwork.com/jobs/~022046703632608381905</li>\n        <li>Upwork Job ID: 2046703632608381905</li>\n        <li>Last Price Increase: 2026-04-21</li>\n    </ul>\n</details>",
-    "closed_by": null,
-    "reactions": {
-      "url": "https://api.github.com/repos/Expensify/App/issues/88482/reactions",
-      "total_count": 0,
-      "+1": 0,
-      "-1": 0,
-      "laugh": 0,
-      "hooray": 0,
-      "confused": 0,
-      "heart": 0,
-      "rocket": 0,
-      "eyes": 0
-    },
-    "timeline_url": "https://api.github.com/repos/Expensify/App/issues/88482/timeline",
     "performed_via_github_app": null,
     "state_reason": null,
     "pinned_comment": null
