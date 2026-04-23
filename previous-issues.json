@@ -125,9 +125,9 @@
       }
     ],
     "milestone": null,
-    "comments": 8,
+    "comments": 10,
     "created_at": "2026-04-23T00:45:47Z",
-    "updated_at": "2026-04-23T01:52:31Z",
+    "updated_at": "2026-04-23T04:57:20Z",
     "closed_at": null,
     "assignee": {
       "login": "marcaaron",
@@ -444,9 +444,9 @@
       }
     ],
     "milestone": null,
-    "comments": 6,
+    "comments": 8,
     "created_at": "2026-04-22T22:08:06Z",
-    "updated_at": "2026-04-22T23:15:33Z",
+    "updated_at": "2026-04-23T04:46:48Z",
     "closed_at": null,
     "assignee": {
       "login": "aimane-chnaif",
@@ -599,9 +599,9 @@
       }
     ],
     "milestone": null,
-    "comments": 12,
+    "comments": 14,
     "created_at": "2026-04-22T21:59:22Z",
-    "updated_at": "2026-04-23T02:13:04Z",
+    "updated_at": "2026-04-23T05:28:27Z",
     "closed_at": null,
     "assignee": {
       "login": "mkhutornyi",
@@ -754,9 +754,9 @@
       }
     ],
     "milestone": null,
-    "comments": 11,
+    "comments": 13,
     "created_at": "2026-04-22T20:07:55Z",
-    "updated_at": "2026-04-22T20:23:53Z",
+    "updated_at": "2026-04-23T03:15:49Z",
     "closed_at": null,
     "assignee": {
       "login": "abzokhattab",
@@ -887,6 +887,27 @@
     "locked": false,
     "assignees": [
       {
+        "login": "mollfpr",
+        "id": 25520267,
+        "node_id": "MDQ6VXNlcjI1NTIwMjY3",
+        "avatar_url": "https://avatars.githubusercontent.com/u/25520267?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/mollfpr",
+        "html_url": "https://github.com/mollfpr",
+        "followers_url": "https://api.github.com/users/mollfpr/followers",
+        "following_url": "https://api.github.com/users/mollfpr/following{/other_user}",
+        "gists_url": "https://api.github.com/users/mollfpr/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/mollfpr/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/mollfpr/subscriptions",
+        "organizations_url": "https://api.github.com/users/mollfpr/orgs",
+        "repos_url": "https://api.github.com/users/mollfpr/repos",
+        "events_url": "https://api.github.com/users/mollfpr/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/mollfpr/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      {
         "login": "ikevin127",
         "id": 56457735,
         "node_id": "MDQ6VXNlcjU2NDU3NzM1",
@@ -909,9 +930,9 @@
       }
     ],
     "milestone": null,
-    "comments": 11,
+    "comments": 13,
     "created_at": "2026-04-22T18:13:01Z",
-    "updated_at": "2026-04-22T19:00:34Z",
+    "updated_at": "2026-04-23T02:54:41Z",
     "closed_at": null,
     "assignee": {
       "login": "ikevin127",
@@ -949,7 +970,7 @@
       "blocking": 0,
       "total_blocking": 0
     },
-    "body": "If you haven’t already, check out our [contributing guidelines](https://github.com/Expensify/ReactNativeChat/blob/main/contributingGuides/CONTRIBUTING.md) for onboarding and email contributors@expensify.com to request to join our Slack channel!\n___\n\n**Version Number:** \n**Reproducible in staging?:** Needs Reproduction  (Unable to reproduction)\n**Reproducible in production?:** Needs Reproduction\n**If this was caught during regression testing, add the test name, ID and link from BrowserStack:**\n**Email or phone of affected tester (no customers):**\n**Logs:** https://stackoverflow.com/c/expensify/questions/4856\n**Expensify/Expensify Issue URL:**\n**Issue reported by:** @FitseTLT \n**Slack conversation** (hyperlinked to channel name): [#Expensify Bugs](https://expensify.slack.com/archives/C049HHMV9SM/p1776871014750489)\n\n## Action Performed:\n\n1. Sign out of the app\n2. Navigate to a public room URL (e.g., https://dev.new.expensify.com:8082/r/7075912447943023)\n3. Observe behavior\n\n## Expected Result:\nApp should Load the public room\n## Actual Result:\nApp crashes when accessing the link while signed out\n## Workaround:\nUnknown\n## Platforms:\nSelect the officially supported platforms where the issue was reproduced:\n- [ ] Android: App\n- [ ] Android: mWeb Chrome\n- [ ] iOS: App\n- [ ] iOS: mWeb Safari\n- [ ] iOS: mWeb Chrome\n- [x] Windows: Chrome\n- [x] MacOS: Chrome / Safari\n\n## Screenshots/Videos\n\nhttps://github.com/user-attachments/assets/82d4befd-3d3c-403c-be51-0d175b1670e5\n\n[View all open jobs on GitHub](https://github.com/Expensify/App/issues?q=is%3Aopen+is%3Aissue+label%3A%22Help+Wanted%22)\n\n\n<details><summary>Issue Owner</summary>Current Issue Owner: @ikevin127</details>\n<details><summary>Upwork Automation - Do Not Edit</summary>\n    <ul>\n        <li>Upwork Job URL: https://www.upwork.com/jobs/~022047021259145934599</li>\n        <li>Upwork Job ID: 2047021259145934599</li>\n        <li>Last Price Increase: 2026-04-22</li>\n    </ul>\n</details>",
+    "body": "If you haven’t already, check out our [contributing guidelines](https://github.com/Expensify/ReactNativeChat/blob/main/contributingGuides/CONTRIBUTING.md) for onboarding and email contributors@expensify.com to request to join our Slack channel!\n___\n\n**Version Number:** \n**Reproducible in staging?:** Needs Reproduction  (Unable to reproduction)\n**Reproducible in production?:** Needs Reproduction\n**If this was caught during regression testing, add the test name, ID and link from BrowserStack:**\n**Email or phone of affected tester (no customers):**\n**Logs:** https://stackoverflow.com/c/expensify/questions/4856\n**Expensify/Expensify Issue URL:**\n**Issue reported by:** @FitseTLT \n**Slack conversation** (hyperlinked to channel name): [#Expensify Bugs](https://expensify.slack.com/archives/C049HHMV9SM/p1776871014750489)\n\n## Action Performed:\n\n1. Sign out of the app\n2. Navigate to a public room URL (e.g., https://dev.new.expensify.com:8082/r/7075912447943023)\n3. Observe behavior\n\n## Expected Result:\nApp should Load the public room\n## Actual Result:\nApp crashes when accessing the link while signed out\n## Workaround:\nUnknown\n## Platforms:\nSelect the officially supported platforms where the issue was reproduced:\n- [ ] Android: App\n- [ ] Android: mWeb Chrome\n- [ ] iOS: App\n- [ ] iOS: mWeb Safari\n- [ ] iOS: mWeb Chrome\n- [x] Windows: Chrome\n- [x] MacOS: Chrome / Safari\n\n## Screenshots/Videos\n\nhttps://github.com/user-attachments/assets/82d4befd-3d3c-403c-be51-0d175b1670e5\n\n[View all open jobs on GitHub](https://github.com/Expensify/App/issues?q=is%3Aopen+is%3Aissue+label%3A%22Help+Wanted%22)\n\n\n<details><summary>Issue Owner</summary>Current Issue Owner: @mollfpr</details>\n<details><summary>Upwork Automation - Do Not Edit</summary>\n    <ul>\n        <li>Upwork Job URL: https://www.upwork.com/jobs/~022047021259145934599</li>\n        <li>Upwork Job ID: 2047021259145934599</li>\n        <li>Last Price Increase: 2026-04-22</li>\n    </ul>\n</details>",
     "closed_by": null,
     "reactions": {
       "url": "https://api.github.com/repos/Expensify/App/issues/88545/reactions",
@@ -3137,15 +3158,6 @@
         "description": "KSv2"
       },
       {
-        "id": 3136662525,
-        "node_id": "MDU6TGFiZWwzMTM2NjYyNTI1",
-        "url": "https://api.github.com/repos/Expensify/App/labels/Help%20Wanted",
-        "name": "Help Wanted",
-        "color": "CFC8F1",
-        "default": false,
-        "description": "Apply this label when an issue is open to proposals by contributors"
-      },
-      {
         "id": 4664850679,
         "node_id": "LA_kwDOEQqHYc8AAAABFgv49w",
         "url": "https://api.github.com/repos/Expensify/App/labels/Bug",
@@ -3181,9 +3193,9 @@
       }
     ],
     "milestone": null,
-    "comments": 17,
+    "comments": 19,
     "created_at": "2026-04-21T15:07:58Z",
-    "updated_at": "2026-04-22T22:02:45Z",
+    "updated_at": "2026-04-23T03:17:32Z",
     "closed_at": null,
     "assignee": {
       "login": "bernhardoj",
@@ -3336,9 +3348,9 @@
       }
     ],
     "milestone": null,
-    "comments": 9,
+    "comments": 10,
     "created_at": "2026-04-21T14:46:56Z",
-    "updated_at": "2026-04-21T15:11:47Z",
+    "updated_at": "2026-04-23T05:03:40Z",
     "closed_at": null,
     "assignee": {
       "login": "ZhenjaHorbach",
