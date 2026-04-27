@@ -1011,6 +1011,15 @@
         "description": "Apply this label when an issue is open to proposals by contributors"
       },
       {
+        "id": 3184150925,
+        "node_id": "MDU6TGFiZWwzMTg0MTUwOTI1",
+        "url": "https://api.github.com/repos/Expensify/App/labels/Overdue",
+        "name": "Overdue",
+        "color": "D93F0B",
+        "default": false,
+        "description": ""
+      },
+      {
         "id": 4664850679,
         "node_id": "LA_kwDOEQqHYc8AAAABFgv49w",
         "url": "https://api.github.com/repos/Expensify/App/labels/Bug",
@@ -1067,9 +1076,9 @@
       }
     ],
     "milestone": null,
-    "comments": 20,
+    "comments": 24,
     "created_at": "2026-04-24T12:13:21Z",
-    "updated_at": "2026-04-26T04:18:33Z",
+    "updated_at": "2026-04-27T00:47:49Z",
     "closed_at": null,
     "assignee": {
       "login": "marcaaron",
@@ -1918,170 +1927,6 @@
       "eyes": 0
     },
     "timeline_url": "https://api.github.com/repos/Expensify/App/issues/88695/timeline",
-    "performed_via_github_app": null,
-    "state_reason": null,
-    "pinned_comment": null
-  },
-  {
-    "url": "https://api.github.com/repos/Expensify/App/issues/88689",
-    "repository_url": "https://api.github.com/repos/Expensify/App",
-    "labels_url": "https://api.github.com/repos/Expensify/App/issues/88689/labels{/name}",
-    "comments_url": "https://api.github.com/repos/Expensify/App/issues/88689/comments",
-    "events_url": "https://api.github.com/repos/Expensify/App/issues/88689/events",
-    "html_url": "https://github.com/Expensify/App/issues/88689",
-    "id": 4321409824,
-    "node_id": "I_kwDOEQqHYc8AAAABAZN7IA",
-    "number": 88689,
-    "title": "[$250] Onboard - Onboarding tasks appear on #admins room of the new workspace",
-    "user": {
-      "login": "jponikarchuk",
-      "id": 141990088,
-      "node_id": "U_kgDOCHaYyA",
-      "avatar_url": "https://avatars.githubusercontent.com/u/141990088?v=4",
-      "gravatar_id": "",
-      "url": "https://api.github.com/users/jponikarchuk",
-      "html_url": "https://github.com/jponikarchuk",
-      "followers_url": "https://api.github.com/users/jponikarchuk/followers",
-      "following_url": "https://api.github.com/users/jponikarchuk/following{/other_user}",
-      "gists_url": "https://api.github.com/users/jponikarchuk/gists{/gist_id}",
-      "starred_url": "https://api.github.com/users/jponikarchuk/starred{/owner}{/repo}",
-      "subscriptions_url": "https://api.github.com/users/jponikarchuk/subscriptions",
-      "organizations_url": "https://api.github.com/users/jponikarchuk/orgs",
-      "repos_url": "https://api.github.com/users/jponikarchuk/repos",
-      "events_url": "https://api.github.com/users/jponikarchuk/events{/privacy}",
-      "received_events_url": "https://api.github.com/users/jponikarchuk/received_events",
-      "type": "User",
-      "user_view_type": "public",
-      "site_admin": false
-    },
-    "labels": [
-      {
-        "id": 2873246102,
-        "node_id": "MDU6TGFiZWwyODczMjQ2MTAy",
-        "url": "https://api.github.com/repos/Expensify/App/labels/External",
-        "name": "External",
-        "color": "a7b8ef",
-        "default": false,
-        "description": "Added to denote the issue can be worked on by a contributor"
-      },
-      {
-        "id": 2893455829,
-        "node_id": "MDU6TGFiZWwyODkzNDU1ODI5",
-        "url": "https://api.github.com/repos/Expensify/App/labels/Daily",
-        "name": "Daily",
-        "color": "eb6420",
-        "default": false,
-        "description": "KSv2"
-      },
-      {
-        "id": 3136662525,
-        "node_id": "MDU6TGFiZWwzMTM2NjYyNTI1",
-        "url": "https://api.github.com/repos/Expensify/App/labels/Help%20Wanted",
-        "name": "Help Wanted",
-        "color": "CFC8F1",
-        "default": false,
-        "description": "Apply this label when an issue is open to proposals by contributors"
-      },
-      {
-        "id": 3184150925,
-        "node_id": "MDU6TGFiZWwzMTg0MTUwOTI1",
-        "url": "https://api.github.com/repos/Expensify/App/labels/Overdue",
-        "name": "Overdue",
-        "color": "D93F0B",
-        "default": false,
-        "description": ""
-      },
-      {
-        "id": 4664850679,
-        "node_id": "LA_kwDOEQqHYc8AAAABFgv49w",
-        "url": "https://api.github.com/repos/Expensify/App/labels/Bug",
-        "name": "Bug",
-        "color": "93074F",
-        "default": false,
-        "description": "Something is broken. Auto assigns a BugZero manager."
-      }
-    ],
-    "state": "open",
-    "locked": false,
-    "assignees": [
-      {
-        "login": "truph01",
-        "id": 170341821,
-        "node_id": "U_kgDOCic1vQ",
-        "avatar_url": "https://avatars.githubusercontent.com/u/170341821?v=4",
-        "gravatar_id": "",
-        "url": "https://api.github.com/users/truph01",
-        "html_url": "https://github.com/truph01",
-        "followers_url": "https://api.github.com/users/truph01/followers",
-        "following_url": "https://api.github.com/users/truph01/following{/other_user}",
-        "gists_url": "https://api.github.com/users/truph01/gists{/gist_id}",
-        "starred_url": "https://api.github.com/users/truph01/starred{/owner}{/repo}",
-        "subscriptions_url": "https://api.github.com/users/truph01/subscriptions",
-        "organizations_url": "https://api.github.com/users/truph01/orgs",
-        "repos_url": "https://api.github.com/users/truph01/repos",
-        "events_url": "https://api.github.com/users/truph01/events{/privacy}",
-        "received_events_url": "https://api.github.com/users/truph01/received_events",
-        "type": "User",
-        "user_view_type": "public",
-        "site_admin": false
-      }
-    ],
-    "milestone": null,
-    "comments": 11,
-    "created_at": "2026-04-24T07:41:31Z",
-    "updated_at": "2026-04-26T18:45:30Z",
-    "closed_at": null,
-    "assignee": {
-      "login": "truph01",
-      "id": 170341821,
-      "node_id": "U_kgDOCic1vQ",
-      "avatar_url": "https://avatars.githubusercontent.com/u/170341821?v=4",
-      "gravatar_id": "",
-      "url": "https://api.github.com/users/truph01",
-      "html_url": "https://github.com/truph01",
-      "followers_url": "https://api.github.com/users/truph01/followers",
-      "following_url": "https://api.github.com/users/truph01/following{/other_user}",
-      "gists_url": "https://api.github.com/users/truph01/gists{/gist_id}",
-      "starred_url": "https://api.github.com/users/truph01/starred{/owner}{/repo}",
-      "subscriptions_url": "https://api.github.com/users/truph01/subscriptions",
-      "organizations_url": "https://api.github.com/users/truph01/orgs",
-      "repos_url": "https://api.github.com/users/truph01/repos",
-      "events_url": "https://api.github.com/users/truph01/events{/privacy}",
-      "received_events_url": "https://api.github.com/users/truph01/received_events",
-      "type": "User",
-      "user_view_type": "public",
-      "site_admin": false
-    },
-    "author_association": "NONE",
-    "issue_field_values": [],
-    "type": null,
-    "active_lock_reason": null,
-    "sub_issues_summary": {
-      "total": 0,
-      "completed": 0,
-      "percent_completed": 0
-    },
-    "issue_dependencies_summary": {
-      "blocked_by": 0,
-      "total_blocked_by": 0,
-      "blocking": 0,
-      "total_blocking": 0
-    },
-    "body": "If you haven’t already, check out our [contributing guidelines](https://github.com/Expensify/ReactNativeChat/blob/main/contributingGuides/CONTRIBUTING.md) for onboarding and email contributors@expensify.com to request to join our Slack channel!\n___\n\n**Version Number:** v9.3.62-1\n**Reproducible in staging?:** Yes\n**Reproducible in production?:** Yes\n**If this was caught during regression testing, add the test name, ID and link from BrowserStack:** https://test-management.browserstack.com/projects/2219752/test-runs/TR-22027/folder/13176677/41237675/1363741783\n**Email or phone of affected tester (no customers):** useronboarding@onboarding61404.com\n**Issue reported by:** Applause Internal Team\n**Bug source:** Regression TC Execution\n**Device used:** Win 11/Chrome\n**App Component:** Other\n\n## Action Performed:\n1. Open https://staging.new.expensify.com\n2. Create a new account with the following format - useronboarding@onboarding[unique numer].com (E.g useronboarding@onboarding0225.com)\n3. Sign up and choose \"Track and Budget\"\n4. Create a new workspace\n5. Navigate to the #admins room of the new workspace\n\n## Expected Result:\nVerify you do not see onboarding tasks\n\n## Actual Result:\nOnboarding tasks display on the #admins room of the new workspace\n\n## Workaround:\nUnknown\n\n## Platforms:\n- [x] Android: App\n- [ ] Android: mWeb Chrome\n- [x] iOS: App\n- [ ] iOS: mWeb Safari\n- [ ] iOS: mWeb Chrome\n- [x] Windows: Chrome\n- [ ] MacOS: Chrome / Safari\n\n## Screenshots/Videos\n\nhttps://github.com/user-attachments/assets/c97621e8-0c29-4ff4-ac0e-8ed7398438c7\n\n[View all open jobs on GitHub](https://github.com/Expensify/App/issues?q=is%3Aopen+is%3Aissue+label%3A%22Help+Wanted%22)\n\n<details><summary>Issue Owner</summary>Current Issue Owner: @truph01</details>\n<details><summary>Upwork Automation - Do Not Edit</summary>\n    <ul>\n        <li>Upwork Job URL: https://www.upwork.com/jobs/~022047734088902844373</li>\n        <li>Upwork Job ID: 2047734088902844373</li>\n        <li>Last Price Increase: 2026-04-24</li>\n    </ul>\n</details>",
-    "closed_by": null,
-    "reactions": {
-      "url": "https://api.github.com/repos/Expensify/App/issues/88689/reactions",
-      "total_count": 0,
-      "+1": 0,
-      "-1": 0,
-      "laugh": 0,
-      "hooray": 0,
-      "confused": 0,
-      "heart": 0,
-      "rocket": 0,
-      "eyes": 0
-    },
-    "timeline_url": "https://api.github.com/repos/Expensify/App/issues/88689/timeline",
     "performed_via_github_app": null,
     "state_reason": null,
     "pinned_comment": null
