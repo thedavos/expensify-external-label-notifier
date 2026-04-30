@@ -9,7 +9,7 @@
     "id": 4361227356,
     "node_id": "I_kwDOEQqHYc8AAAABA_MMXA",
     "number": 89309,
-    "title": "[$250] Send a message button on help site doesn't work",
+    "title": "[$125] Send a message button on help site doesn't work",
     "user": {
       "login": "m-natarajan",
       "id": 38435837,
@@ -95,9 +95,9 @@
       }
     ],
     "milestone": null,
-    "comments": 4,
+    "comments": 15,
     "created_at": "2026-04-30T20:59:12Z",
-    "updated_at": "2026-04-30T21:02:04Z",
+    "updated_at": "2026-04-30T21:56:39Z",
     "closed_at": null,
     "assignee": {
       "login": "brunovjk",
@@ -250,9 +250,9 @@
       }
     ],
     "milestone": null,
-    "comments": 5,
+    "comments": 11,
     "created_at": "2026-04-30T20:53:53Z",
-    "updated_at": "2026-04-30T20:58:31Z",
+    "updated_at": "2026-04-30T21:27:14Z",
     "closed_at": null,
     "assignee": {
       "login": "thesahindia",
@@ -405,9 +405,9 @@
       }
     ],
     "milestone": null,
-    "comments": 14,
+    "comments": 15,
     "created_at": "2026-04-30T20:33:55Z",
-    "updated_at": "2026-04-30T20:47:46Z",
+    "updated_at": "2026-04-30T21:18:28Z",
     "closed_at": null,
     "assignee": {
       "login": "shubham1206agra",
@@ -581,9 +581,9 @@
       }
     ],
     "milestone": null,
-    "comments": 6,
+    "comments": 8,
     "created_at": "2026-04-30T19:26:08Z",
-    "updated_at": "2026-04-30T20:01:59Z",
+    "updated_at": "2026-04-30T21:38:31Z",
     "closed_at": null,
     "assignee": {
       "login": "roryabraham",
@@ -1933,15 +1933,6 @@
         "description": "Has a PR in review"
       },
       {
-        "id": 2810597462,
-        "node_id": "MDU6TGFiZWwyODEwNTk3NDYy",
-        "url": "https://api.github.com/repos/Expensify/App/labels/DeployBlockerCash",
-        "name": "DeployBlockerCash",
-        "color": "000000",
-        "default": false,
-        "description": "This issue or pull request should block deployment"
-      },
-      {
         "id": 2873246102,
         "node_id": "MDU6TGFiZWwyODczMjQ2MTAy",
         "url": "https://api.github.com/repos/Expensify/App/labels/External",
@@ -1960,22 +1951,13 @@
         "description": ""
       },
       {
-        "id": 3008326907,
-        "node_id": "MDU6TGFiZWwzMDA4MzI2OTA3",
-        "url": "https://api.github.com/repos/Expensify/App/labels/Hourly",
-        "name": "Hourly",
-        "color": "EC0E2D",
+        "id": 2893455829,
+        "node_id": "MDU6TGFiZWwyODkzNDU1ODI5",
+        "url": "https://api.github.com/repos/Expensify/App/labels/Daily",
+        "name": "Daily",
+        "color": "eb6420",
         "default": false,
         "description": "KSv2"
-      },
-      {
-        "id": 3136662525,
-        "node_id": "MDU6TGFiZWwzMTM2NjYyNTI1",
-        "url": "https://api.github.com/repos/Expensify/App/labels/Help%20Wanted",
-        "name": "Help Wanted",
-        "color": "CFC8F1",
-        "default": false,
-        "description": "Apply this label when an issue is open to proposals by contributors"
       },
       {
         "id": 4664850679,
@@ -2094,12 +2076,33 @@
         "type": "User",
         "user_view_type": "public",
         "site_admin": false
+      },
+      {
+        "login": "mkhutornyi",
+        "id": 97676131,
+        "node_id": "U_kgDOBdJrYw",
+        "avatar_url": "https://avatars.githubusercontent.com/u/97676131?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/mkhutornyi",
+        "html_url": "https://github.com/mkhutornyi",
+        "followers_url": "https://api.github.com/users/mkhutornyi/followers",
+        "following_url": "https://api.github.com/users/mkhutornyi/following{/other_user}",
+        "gists_url": "https://api.github.com/users/mkhutornyi/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/mkhutornyi/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/mkhutornyi/subscriptions",
+        "organizations_url": "https://api.github.com/users/mkhutornyi/orgs",
+        "repos_url": "https://api.github.com/users/mkhutornyi/repos",
+        "events_url": "https://api.github.com/users/mkhutornyi/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/mkhutornyi/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
       }
     ],
     "milestone": null,
-    "comments": 11,
+    "comments": 13,
     "created_at": "2026-04-29T23:41:30Z",
-    "updated_at": "2026-04-30T20:56:55Z",
+    "updated_at": "2026-04-30T22:28:06Z",
     "closed_at": null,
     "assignee": {
       "login": "luacmartins",
@@ -2137,7 +2140,7 @@
       "blocking": 0,
       "total_blocking": 0
     },
-    "body": "If you haven’t already, check out our [contributing guidelines](https://github.com/Expensify/ReactNativeChat/blob/main/contributingGuides/CONTRIBUTING.md) for onboarding and email contributors@expensify.com to request to join our Slack channel!\n___\n\n**Version Number:** 9.3.64-18\n**Reproducible in staging?:** Yes\n**Reproducible in production?:** No\n**If this was caught during regression testing, add the test name, ID and link from BrowserStack:** https://github.com/Expensify/App/pull/85234\n**Email or phone of affected tester (no customers):** sdsodijnosdjoij@gmail.com\n**Issue reported by:** Applause Internal Team\n**Bug source:** Exploratory - Significant User Experience Deterioration\n**Device used:** iPhone 15 Pro Max / iOS 26.3\n**App Component:** Other\n\n## Action Performed:\n1. Launch Expensify app.\n2. Create a workspace if there’s no workspace.\n3. Kill and relaunch app (if you have opened Workspaces tab)\n4. Go to Home.\n5. Tap Create a workspace in Getting started section.\n6. Swipe back on workspace settings page.\n\n## Expected Result:\nApp will return to Home.\n\n## Actual Result:\nUser is unable to swipe back from workspace settings when opened from Home.\n\n## Workaround:\nUnknown\n\n## Platforms:\n- [ ] Android: App\n- [ ] Android: mWeb Chrome\n- [x] iOS: App\n- [ ] iOS: mWeb Safari\n- [ ] iOS: mWeb Chrome\n- [ ] Windows: Chrome\n- [ ] MacOS: Chrome / Safari\n\n## Screenshots/Videos\n\nhttps://github.com/user-attachments/assets/a2a6c818-a496-405b-92aa-04d2ceb9c458\n\n[View all open jobs on GitHub](https://github.com/Expensify/App/issues?q=is%3Aopen+is%3Aissue+label%3A%22Help+Wanted%22)\n<details><summary>Upwork Automation - Do Not Edit</summary>\n    <ul>\n        <li>Upwork Job URL: https://www.upwork.com/jobs/~022049636974572613841</li>\n        <li>Upwork Job ID: 2049636974572613841</li>\n        <li>Last Price Increase: 2026-04-29</li>\n    </ul>\n</details>",
+    "body": "If you haven’t already, check out our [contributing guidelines](https://github.com/Expensify/ReactNativeChat/blob/main/contributingGuides/CONTRIBUTING.md) for onboarding and email contributors@expensify.com to request to join our Slack channel!\n___\n\n**Version Number:** 9.3.64-18\n**Reproducible in staging?:** Yes\n**Reproducible in production?:** No\n**If this was caught during regression testing, add the test name, ID and link from BrowserStack:** https://github.com/Expensify/App/pull/85234\n**Email or phone of affected tester (no customers):** sdsodijnosdjoij@gmail.com\n**Issue reported by:** Applause Internal Team\n**Bug source:** Exploratory - Significant User Experience Deterioration\n**Device used:** iPhone 15 Pro Max / iOS 26.3\n**App Component:** Other\n\n## Action Performed:\n1. Launch Expensify app.\n2. Create a workspace if there’s no workspace.\n3. Kill and relaunch app (if you have opened Workspaces tab)\n4. Go to Home.\n5. Tap Create a workspace in Getting started section.\n6. Swipe back on workspace settings page.\n\n## Expected Result:\nApp will return to Home.\n\n## Actual Result:\nUser is unable to swipe back from workspace settings when opened from Home.\n\n## Workaround:\nUnknown\n\n## Platforms:\n- [ ] Android: App\n- [ ] Android: mWeb Chrome\n- [x] iOS: App\n- [ ] iOS: mWeb Safari\n- [ ] iOS: mWeb Chrome\n- [ ] Windows: Chrome\n- [ ] MacOS: Chrome / Safari\n\n## Screenshots/Videos\n\nhttps://github.com/user-attachments/assets/a2a6c818-a496-405b-92aa-04d2ceb9c458\n\n[View all open jobs on GitHub](https://github.com/Expensify/App/issues?q=is%3Aopen+is%3Aissue+label%3A%22Help+Wanted%22)\n<details><summary>Upwork Automation - Do Not Edit</summary>\n    <ul>\n        <li>Upwork Job URL: https://www.upwork.com/jobs/~022049636974572613841</li>\n        <li>Upwork Job ID: 2049636974572613841</li>\n        <li>Last Price Increase: 2026-04-29</li>\n    </ul>\n</details>\n\n<details><summary>Issue Owner</summary>Current Issue Owner: @mkhutornyi</details>",
     "closed_by": null,
     "reactions": {
       "url": "https://api.github.com/repos/Expensify/App/issues/89232/reactions",
