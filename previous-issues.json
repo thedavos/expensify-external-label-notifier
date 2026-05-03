@@ -51,15 +51,6 @@
         "description": "KSv2"
       },
       {
-        "id": 3136662525,
-        "node_id": "MDU6TGFiZWwzMTM2NjYyNTI1",
-        "url": "https://api.github.com/repos/Expensify/App/labels/Help%20Wanted",
-        "name": "Help Wanted",
-        "color": "CFC8F1",
-        "default": false,
-        "description": "Apply this label when an issue is open to proposals by contributors"
-      },
-      {
         "id": 4664850679,
         "node_id": "LA_kwDOEQqHYc8AAAABFgv49w",
         "url": "https://api.github.com/repos/Expensify/App/labels/Bug",
@@ -95,9 +86,9 @@
       }
     ],
     "milestone": null,
-    "comments": 27,
+    "comments": 29,
     "created_at": "2026-05-02T18:50:11Z",
-    "updated_at": "2026-05-03T13:08:34Z",
+    "updated_at": "2026-05-03T13:27:38Z",
     "closed_at": null,
     "assignee": {
       "login": "DylanDylann",
