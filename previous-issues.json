@@ -95,9 +95,9 @@
       }
     ],
     "milestone": null,
-    "comments": 12,
+    "comments": 15,
     "created_at": "2026-05-04T21:09:55Z",
-    "updated_at": "2026-05-04T22:38:46Z",
+    "updated_at": "2026-05-05T01:26:59Z",
     "closed_at": null,
     "assignee": {
       "login": "FitseTLT",
@@ -1640,15 +1640,6 @@
         "description": "KSv2"
       },
       {
-        "id": 3136662525,
-        "node_id": "MDU6TGFiZWwzMTM2NjYyNTI1",
-        "url": "https://api.github.com/repos/Expensify/App/labels/Help%20Wanted",
-        "name": "Help Wanted",
-        "color": "CFC8F1",
-        "default": false,
-        "description": "Apply this label when an issue is open to proposals by contributors"
-      },
-      {
         "id": 4664850679,
         "node_id": "LA_kwDOEQqHYc8AAAABFgv49w",
         "url": "https://api.github.com/repos/Expensify/App/labels/Bug",
@@ -1705,9 +1696,9 @@
       }
     ],
     "milestone": null,
-    "comments": 12,
+    "comments": 14,
     "created_at": "2026-05-04T16:50:49Z",
-    "updated_at": "2026-05-04T23:27:00Z",
+    "updated_at": "2026-05-05T02:40:14Z",
     "closed_at": null,
     "assignee": {
       "login": "roryabraham",
@@ -2078,9 +2069,9 @@
       }
     ],
     "milestone": null,
-    "comments": 17,
+    "comments": 19,
     "created_at": "2026-05-04T16:14:47Z",
-    "updated_at": "2026-05-04T20:42:03Z",
+    "updated_at": "2026-05-05T01:07:33Z",
     "closed_at": null,
     "assignee": {
       "login": "mountiny",
@@ -2198,15 +2189,6 @@
         "description": "Requires API changes or must be handled by Expensify staff"
       },
       {
-        "id": 3136662525,
-        "node_id": "MDU6TGFiZWwzMTM2NjYyNTI1",
-        "url": "https://api.github.com/repos/Expensify/App/labels/Help%20Wanted",
-        "name": "Help Wanted",
-        "color": "CFC8F1",
-        "default": false,
-        "description": "Apply this label when an issue is open to proposals by contributors"
-      },
-      {
         "id": 4664850679,
         "node_id": "LA_kwDOEQqHYc8AAAABFgv49w",
         "url": "https://api.github.com/repos/Expensify/App/labels/Bug",
@@ -2219,6 +2201,27 @@
     "state": "open",
     "locked": false,
     "assignees": [
+      {
+        "login": "dangrous",
+        "id": 5487802,
+        "node_id": "MDQ6VXNlcjU0ODc4MDI=",
+        "avatar_url": "https://avatars.githubusercontent.com/u/5487802?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/dangrous",
+        "html_url": "https://github.com/dangrous",
+        "followers_url": "https://api.github.com/users/dangrous/followers",
+        "following_url": "https://api.github.com/users/dangrous/following{/other_user}",
+        "gists_url": "https://api.github.com/users/dangrous/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/dangrous/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/dangrous/subscriptions",
+        "organizations_url": "https://api.github.com/users/dangrous/orgs",
+        "repos_url": "https://api.github.com/users/dangrous/repos",
+        "events_url": "https://api.github.com/users/dangrous/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/dangrous/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
       {
         "login": "ikevin127",
         "id": 56457735,
@@ -2242,9 +2245,9 @@
       }
     ],
     "milestone": null,
-    "comments": 13,
+    "comments": 19,
     "created_at": "2026-05-04T15:08:32Z",
-    "updated_at": "2026-05-04T16:24:39Z",
+    "updated_at": "2026-05-05T01:07:12Z",
     "closed_at": null,
     "assignee": {
       "login": "ikevin127",
@@ -2282,7 +2285,7 @@
       "blocking": 0,
       "total_blocking": 0
     },
-    "body": "If you haven’t already, check out our [contributing guidelines](https://github.com/Expensify/ReactNativeChat/blob/main/contributingGuides/CONTRIBUTING.md) for onboarding and email contributors@expensify.com to request to join our Slack channel!\n___\n\n**Version Number:** 9.3.66-1\n**Reproducible in staging?:** Yes\n**Reproducible in production?:** Yes\n**If this was caught during regression testing, add the test name, ID and link from BrowserStack:**\n**Email or phone of affected tester (no customers):**\n**Logs:** https://stackoverflow.com/c/expensify/questions/4856\n**Expensify/Expensify Issue URL:**\n**Issue reported by:** @gijoe0295 \n**Slack conversation** (hyperlinked to channel name): [#expensify_bugs](https://expensify.slack.com/archives/C049HHMV9SM/p1777436866249479)\n\n## Action Performed:\n1. Go to https://staging.new.expensify.com/\n2. Set workspace currency to one that is not supported by global reimbursements (VND or SGD for example)\n3. Go to Workflows > Add bank account\n4. Tap \"list of supported currencies\" hyperlink in \"Workspace currency not supported\" modal\n\n## Expected Result:\nThe help site should contain information about supported currencies\nOr the help site in the modal should be https://help.expensify.com/articles/new-expensify/wallet-and-payments/Enable-Global-Reimbursement that already has that information\n\n## Actual Result:\nThe hyperlinked help site https://help.expensify.com/articles/new-expensify/wallet-and-payments/Connect-a-Business-Bank-Account does not contain information about supported currencies\n\n## Workaround:\nUnknown\n\n## Platforms:\nSelect the officially supported platforms where the issue was reproduced:\n- [ ] Android: App\n- [ ] Android: mWeb Chrome\n- [ ] iOS: App\n- [ ] iOS: mWeb Safari\n- [ ] iOS: mWeb Chrome\n- [x] Windows: Chrome\n- [ ] MacOS: Chrome / Safari\n\n## Screenshots/Videos\n\nhttps://github.com/user-attachments/assets/fd68b26b-7776-45df-b1c5-4f5218ae5579\n\nhttps://github.com/user-attachments/assets/fe47f184-7616-499e-bdef-dfdc78a921d8\n\n[View all open jobs on GitHub](https://github.com/Expensify/App/issues?q=is%3Aopen+is%3Aissue+label%3A%22Help+Wanted%22)\n\n\n<details><summary>Issue Owner</summary>Current Issue Owner: @ikevin127</details>\n<details><summary>Upwork Automation - Do Not Edit</summary>\n    <ul>\n        <li>Upwork Job URL: https://www.upwork.com/jobs/~022051318847826774287</li>\n        <li>Upwork Job ID: 2051318847826774287</li>\n        <li>Last Price Increase: 2026-05-04</li>\n    </ul>\n</details>",
+    "body": "If you haven’t already, check out our [contributing guidelines](https://github.com/Expensify/ReactNativeChat/blob/main/contributingGuides/CONTRIBUTING.md) for onboarding and email contributors@expensify.com to request to join our Slack channel!\n___\n\n**Version Number:** 9.3.66-1\n**Reproducible in staging?:** Yes\n**Reproducible in production?:** Yes\n**If this was caught during regression testing, add the test name, ID and link from BrowserStack:**\n**Email or phone of affected tester (no customers):**\n**Logs:** https://stackoverflow.com/c/expensify/questions/4856\n**Expensify/Expensify Issue URL:**\n**Issue reported by:** @gijoe0295 \n**Slack conversation** (hyperlinked to channel name): [#expensify_bugs](https://expensify.slack.com/archives/C049HHMV9SM/p1777436866249479)\n\n## Action Performed:\n1. Go to https://staging.new.expensify.com/\n2. Set workspace currency to one that is not supported by global reimbursements (VND or SGD for example)\n3. Go to Workflows > Add bank account\n4. Tap \"list of supported currencies\" hyperlink in \"Workspace currency not supported\" modal\n\n## Expected Result:\nThe help site should contain information about supported currencies\nOr the help site in the modal should be https://help.expensify.com/articles/new-expensify/wallet-and-payments/Enable-Global-Reimbursement that already has that information\n\n## Actual Result:\nThe hyperlinked help site https://help.expensify.com/articles/new-expensify/wallet-and-payments/Connect-a-Business-Bank-Account does not contain information about supported currencies\n\n## Workaround:\nUnknown\n\n## Platforms:\nSelect the officially supported platforms where the issue was reproduced:\n- [ ] Android: App\n- [ ] Android: mWeb Chrome\n- [ ] iOS: App\n- [ ] iOS: mWeb Safari\n- [ ] iOS: mWeb Chrome\n- [x] Windows: Chrome\n- [ ] MacOS: Chrome / Safari\n\n## Screenshots/Videos\n\nhttps://github.com/user-attachments/assets/fd68b26b-7776-45df-b1c5-4f5218ae5579\n\nhttps://github.com/user-attachments/assets/fe47f184-7616-499e-bdef-dfdc78a921d8\n\n[View all open jobs on GitHub](https://github.com/Expensify/App/issues?q=is%3Aopen+is%3Aissue+label%3A%22Help+Wanted%22)\n\n\n<details><summary>Issue Owner</summary>Current Issue Owner: @dangrous</details>\n<details><summary>Upwork Automation - Do Not Edit</summary>\n    <ul>\n        <li>Upwork Job URL: https://www.upwork.com/jobs/~022051318847826774287</li>\n        <li>Upwork Job ID: 2051318847826774287</li>\n        <li>Last Price Increase: 2026-05-04</li>\n    </ul>\n</details>",
     "closed_by": null,
     "reactions": {
       "url": "https://api.github.com/repos/Expensify/App/issues/89516/reactions",
