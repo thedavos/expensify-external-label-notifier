@@ -1,5 +1,160 @@
 [
   {
+    "url": "https://api.github.com/repos/Expensify/App/issues/89886",
+    "repository_url": "https://api.github.com/repos/Expensify/App",
+    "labels_url": "https://api.github.com/repos/Expensify/App/issues/89886/labels{/name}",
+    "comments_url": "https://api.github.com/repos/Expensify/App/issues/89886/comments",
+    "events_url": "https://api.github.com/repos/Expensify/App/issues/89886/events",
+    "html_url": "https://github.com/Expensify/App/issues/89886",
+    "id": 4397149318,
+    "node_id": "I_kwDOEQqHYc8AAAABBhcshg",
+    "number": 89886,
+    "title": "[$250] Log in - \"Verify your work email\" is not displayed, unable to merge newAccount",
+    "user": {
+      "login": "jponikarchuk",
+      "id": 141990088,
+      "node_id": "U_kgDOCHaYyA",
+      "avatar_url": "https://avatars.githubusercontent.com/u/141990088?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/jponikarchuk",
+      "html_url": "https://github.com/jponikarchuk",
+      "followers_url": "https://api.github.com/users/jponikarchuk/followers",
+      "following_url": "https://api.github.com/users/jponikarchuk/following{/other_user}",
+      "gists_url": "https://api.github.com/users/jponikarchuk/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/jponikarchuk/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/jponikarchuk/subscriptions",
+      "organizations_url": "https://api.github.com/users/jponikarchuk/orgs",
+      "repos_url": "https://api.github.com/users/jponikarchuk/repos",
+      "events_url": "https://api.github.com/users/jponikarchuk/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/jponikarchuk/received_events",
+      "type": "User",
+      "user_view_type": "public",
+      "site_admin": false
+    },
+    "labels": [
+      {
+        "id": 2873246102,
+        "node_id": "MDU6TGFiZWwyODczMjQ2MTAy",
+        "url": "https://api.github.com/repos/Expensify/App/labels/External",
+        "name": "External",
+        "color": "a7b8ef",
+        "default": false,
+        "description": "Added to denote the issue can be worked on by a contributor"
+      },
+      {
+        "id": 2893455829,
+        "node_id": "MDU6TGFiZWwyODkzNDU1ODI5",
+        "url": "https://api.github.com/repos/Expensify/App/labels/Daily",
+        "name": "Daily",
+        "color": "eb6420",
+        "default": false,
+        "description": "KSv2"
+      },
+      {
+        "id": 3136662525,
+        "node_id": "MDU6TGFiZWwzMTM2NjYyNTI1",
+        "url": "https://api.github.com/repos/Expensify/App/labels/Help%20Wanted",
+        "name": "Help Wanted",
+        "color": "CFC8F1",
+        "default": false,
+        "description": "Apply this label when an issue is open to proposals by contributors"
+      },
+      {
+        "id": 4664850679,
+        "node_id": "LA_kwDOEQqHYc8AAAABFgv49w",
+        "url": "https://api.github.com/repos/Expensify/App/labels/Bug",
+        "name": "Bug",
+        "color": "93074F",
+        "default": false,
+        "description": "Something is broken. Auto assigns a BugZero manager."
+      }
+    ],
+    "state": "open",
+    "locked": false,
+    "assignees": [
+      {
+        "login": "truph01",
+        "id": 170341821,
+        "node_id": "U_kgDOCic1vQ",
+        "avatar_url": "https://avatars.githubusercontent.com/u/170341821?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/truph01",
+        "html_url": "https://github.com/truph01",
+        "followers_url": "https://api.github.com/users/truph01/followers",
+        "following_url": "https://api.github.com/users/truph01/following{/other_user}",
+        "gists_url": "https://api.github.com/users/truph01/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/truph01/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/truph01/subscriptions",
+        "organizations_url": "https://api.github.com/users/truph01/orgs",
+        "repos_url": "https://api.github.com/users/truph01/repos",
+        "events_url": "https://api.github.com/users/truph01/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/truph01/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      }
+    ],
+    "milestone": null,
+    "comments": 14,
+    "created_at": "2026-05-07T08:06:07Z",
+    "updated_at": "2026-05-07T09:13:44Z",
+    "closed_at": null,
+    "assignee": {
+      "login": "truph01",
+      "id": 170341821,
+      "node_id": "U_kgDOCic1vQ",
+      "avatar_url": "https://avatars.githubusercontent.com/u/170341821?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/truph01",
+      "html_url": "https://github.com/truph01",
+      "followers_url": "https://api.github.com/users/truph01/followers",
+      "following_url": "https://api.github.com/users/truph01/following{/other_user}",
+      "gists_url": "https://api.github.com/users/truph01/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/truph01/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/truph01/subscriptions",
+      "organizations_url": "https://api.github.com/users/truph01/orgs",
+      "repos_url": "https://api.github.com/users/truph01/repos",
+      "events_url": "https://api.github.com/users/truph01/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/truph01/received_events",
+      "type": "User",
+      "user_view_type": "public",
+      "site_admin": false
+    },
+    "author_association": "NONE",
+    "issue_field_values": [],
+    "type": null,
+    "active_lock_reason": null,
+    "sub_issues_summary": {
+      "total": 0,
+      "completed": 0,
+      "percent_completed": 0
+    },
+    "issue_dependencies_summary": {
+      "blocked_by": 0,
+      "total_blocked_by": 0,
+      "blocking": 0,
+      "total_blocking": 0
+    },
+    "body": "If you haven’t already, check out our [contributing guidelines](https://github.com/Expensify/ReactNativeChat/blob/main/contributingGuides/CONTRIBUTING.md) for onboarding and email contributors@expensify.com to request to join our Slack channel!\n___\n\n**Version Number:** v9.3.68-1\n**Reproducible in staging?:** Yes\n**Reproducible in production?:** Yes\n**If this was caught during regression testing, add the test name, ID and link from BrowserStack:** https://test-management.browserstack.com/projects/2219752/folder/13176924/test-cases/41237586\n**Email or phone of affected tester (no customers):** lattelover1412+070518@gmail.com\n**Issue reported by:** Applause Internal Team\n**Bug source:** Regression TC Execution\n**Device used:** Chrome, android\n**App Component:** Other\n\n## Action Performed:\nPrecondition:\nLogin to OD as a expensifail account A\nCreate a workspace\nAdd expensifail account B as a member\n\n1. Launch app\n2. User logged in with brand new account (gmail)\n3. When \"What’s your work email?\" modal display >> enter expensifail account B from the precondition\n4. Tap \"Add Work Email\" button\n\n## Expected Result:\nStep 5: a \"Verify your work email\" modal displayed with a field to enter magic code should be displayed,  the magic code received and user is able complete the onboarding flow\n\n## Actual Result:\nA page show \"Could not add work email\" displayed instead \"Verify your work email\" modal displayed with a field to enter magic code\n\n## Workaround:\nUnknown\n\n## Platforms:\n- [x] Android: App\n- [ ] Android: mWeb Chrome\n- [ ] iOS: App\n- [ ] iOS: mWeb Safari\n- [ ] iOS: mWeb Chrome\n- [ ] Windows: Chrome\n- [ ] MacOS: Chrome / Safari\n\n## Screenshots/Videos\n\nhttps://github.com/user-attachments/assets/6f66f046-ec8e-4093-8f05-4bf195ed7ea4\n\n[View all open jobs on GitHub](https://github.com/Expensify/App/issues?q=is%3Aopen+is%3Aissue+label%3A%22Help+Wanted%22)\n<details><summary>Upwork Automation - Do Not Edit</summary>\n    <ul>\n        <li>Upwork Job URL: https://www.upwork.com/jobs/~022052300928016840812</li>\n        <li>Upwork Job ID: 2052300928016840812</li>\n        <li>Last Price Increase: 2026-05-07</li>\n    </ul>\n</details>",
+    "closed_by": null,
+    "reactions": {
+      "url": "https://api.github.com/repos/Expensify/App/issues/89886/reactions",
+      "total_count": 0,
+      "+1": 0,
+      "-1": 0,
+      "laugh": 0,
+      "hooray": 0,
+      "confused": 0,
+      "heart": 0,
+      "rocket": 0,
+      "eyes": 0
+    },
+    "timeline_url": "https://api.github.com/repos/Expensify/App/issues/89886/timeline",
+    "performed_via_github_app": null,
+    "state_reason": null,
+    "pinned_comment": null
+  },
+  {
     "url": "https://api.github.com/repos/Expensify/App/issues/89814",
     "repository_url": "https://api.github.com/repos/Expensify/App",
     "labels_url": "https://api.github.com/repos/Expensify/App/issues/89814/labels{/name}",
@@ -95,9 +250,9 @@
       }
     ],
     "milestone": null,
-    "comments": 8,
+    "comments": 11,
     "created_at": "2026-05-06T20:34:31Z",
-    "updated_at": "2026-05-06T21:16:01Z",
+    "updated_at": "2026-05-07T07:17:28Z",
     "closed_at": null,
     "assignee": {
       "login": "sobitneupane",
@@ -250,9 +405,9 @@
       }
     ],
     "milestone": null,
-    "comments": 12,
+    "comments": 13,
     "created_at": "2026-05-06T20:10:45Z",
-    "updated_at": "2026-05-06T20:37:30Z",
+    "updated_at": "2026-05-07T07:57:37Z",
     "closed_at": null,
     "assignee": {
       "login": "abdulrahuman5196",
@@ -569,9 +724,9 @@
       }
     ],
     "milestone": null,
-    "comments": 14,
+    "comments": 16,
     "created_at": "2026-05-06T18:30:56Z",
-    "updated_at": "2026-05-06T20:28:02Z",
+    "updated_at": "2026-05-07T08:58:22Z",
     "closed_at": null,
     "assignee": {
       "login": "ZhenjaHorbach",
@@ -724,9 +879,9 @@
       }
     ],
     "milestone": null,
-    "comments": 15,
+    "comments": 17,
     "created_at": "2026-05-06T18:20:11Z",
-    "updated_at": "2026-05-06T20:18:13Z",
+    "updated_at": "2026-05-07T06:22:48Z",
     "closed_at": null,
     "assignee": {
       "login": "mkhutornyi",
