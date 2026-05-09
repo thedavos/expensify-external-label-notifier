@@ -104,9 +104,9 @@
       }
     ],
     "milestone": null,
-    "comments": 13,
+    "comments": 17,
     "created_at": "2026-05-09T08:57:08Z",
-    "updated_at": "2026-05-09T10:23:04Z",
+    "updated_at": "2026-05-09T15:51:57Z",
     "closed_at": null,
     "assignee": {
       "login": "brunovjk",
@@ -1076,9 +1076,9 @@
       }
     ],
     "milestone": null,
-    "comments": 20,
+    "comments": 21,
     "created_at": "2026-05-08T10:56:31Z",
-    "updated_at": "2026-05-08T12:36:45Z",
+    "updated_at": "2026-05-09T14:52:36Z",
     "closed_at": null,
     "assignee": {
       "login": "mountiny",
