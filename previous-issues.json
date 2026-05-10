@@ -711,6 +711,27 @@
     "locked": false,
     "assignees": [
       {
+        "login": "mountiny",
+        "id": 36083550,
+        "node_id": "MDQ6VXNlcjM2MDgzNTUw",
+        "avatar_url": "https://avatars.githubusercontent.com/u/36083550?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/mountiny",
+        "html_url": "https://github.com/mountiny",
+        "followers_url": "https://api.github.com/users/mountiny/followers",
+        "following_url": "https://api.github.com/users/mountiny/following{/other_user}",
+        "gists_url": "https://api.github.com/users/mountiny/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/mountiny/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/mountiny/subscriptions",
+        "organizations_url": "https://api.github.com/users/mountiny/orgs",
+        "repos_url": "https://api.github.com/users/mountiny/repos",
+        "events_url": "https://api.github.com/users/mountiny/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/mountiny/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      {
         "login": "ikevin127",
         "id": 56457735,
         "node_id": "MDQ6VXNlcjU2NDU3NzM1",
@@ -733,9 +754,9 @@
       }
     ],
     "milestone": null,
-    "comments": 16,
+    "comments": 18,
     "created_at": "2026-05-08T15:45:52Z",
-    "updated_at": "2026-05-09T13:25:39Z",
+    "updated_at": "2026-05-10T02:04:10Z",
     "closed_at": null,
     "assignee": {
       "login": "ikevin127",
@@ -773,7 +794,7 @@
       "blocking": 0,
       "total_blocking": 0
     },
-    "body": "**Reproducible in staging?:** Y\n\n**Reproducible in production?:** Y\n\n**Issue Reported by** : @brianlee-expensify \n\n**Slack Conversation**:  [#Expensify Bugs](https://expensify.slack.com/archives/C049HHMV9SM/p1777660082789929)\n\n**Expected Result:**\nManual edits made to report titles should not change back to the formula-generated report titles once \"Enforce Custom Report Names\" is toggled on\n\n**Actual Result:**\nManual edits made to report titles are changing back to the formula-generated report titles once \"Enforce Custom Report Names\" is toggled on\n\n**Actions Performed:**\n\n1. Go to Workspaces > Reports > Custom Report Names on Expensify Classic\n2. Toggle on \"Enforce Custom Report Names\" with the formula field set to {report:submit:from} Expense Report {report:startdate}\n3. Create a new report and make sure it follows that formula\n4. Go back and toggle off \"Enforce Custom Report Names\"\n5. Change the report title to something random\n6. Go back and toggle on \"Enforce Custom Report Names\"\n7. Refresh the report page to see the report title revert back to the formula-generated format\n\nMelvinBot analysis [here](https://github.com/Expensify/Expensify/issues/630935#issuecomment-4360783837)\n\n\nhttps://github.com/user-attachments/assets/52fb70cd-83bc-4846-b4e7-f78b2a6b635a\n\n\nhttps://github.com/user-attachments/assets/ede7adc6-0477-408d-a041-72aa593fe129\n\n\n\n\n<details><summary>Upwork Automation - Do Not Edit</summary>\n    <ul>\n        <li>Upwork Job URL: https://www.upwork.com/jobs/~022052778496628299696</li>\n        <li>Upwork Job ID: 2052778496628299696</li>\n        <li>Last Price Increase: 2026-05-08</li>\n    </ul>\n</details>",
+    "body": "**Reproducible in staging?:** Y\n\n**Reproducible in production?:** Y\n\n**Issue Reported by** : @brianlee-expensify \n\n**Slack Conversation**:  [#Expensify Bugs](https://expensify.slack.com/archives/C049HHMV9SM/p1777660082789929)\n\n**Expected Result:**\nManual edits made to report titles should not change back to the formula-generated report titles once \"Enforce Custom Report Names\" is toggled on\n\n**Actual Result:**\nManual edits made to report titles are changing back to the formula-generated report titles once \"Enforce Custom Report Names\" is toggled on\n\n**Actions Performed:**\n\n1. Go to Workspaces > Reports > Custom Report Names on Expensify Classic\n2. Toggle on \"Enforce Custom Report Names\" with the formula field set to {report:submit:from} Expense Report {report:startdate}\n3. Create a new report and make sure it follows that formula\n4. Go back and toggle off \"Enforce Custom Report Names\"\n5. Change the report title to something random\n6. Go back and toggle on \"Enforce Custom Report Names\"\n7. Refresh the report page to see the report title revert back to the formula-generated format\n\nMelvinBot analysis [here](https://github.com/Expensify/Expensify/issues/630935#issuecomment-4360783837)\n\n\nhttps://github.com/user-attachments/assets/52fb70cd-83bc-4846-b4e7-f78b2a6b635a\n\n\nhttps://github.com/user-attachments/assets/ede7adc6-0477-408d-a041-72aa593fe129\n\n\n\n\n<details><summary>Upwork Automation - Do Not Edit</summary>\n    <ul>\n        <li>Upwork Job URL: https://www.upwork.com/jobs/~022052778496628299696</li>\n        <li>Upwork Job ID: 2052778496628299696</li>\n        <li>Last Price Increase: 2026-05-08</li>\n    </ul>\n</details>\n\n<details><summary>Issue Owner</summary>Current Issue Owner: @mountiny</details>",
     "closed_by": null,
     "reactions": {
       "url": "https://api.github.com/repos/Expensify/App/issues/90020/reactions",
