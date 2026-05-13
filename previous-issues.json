@@ -95,9 +95,9 @@
       }
     ],
     "milestone": null,
-    "comments": 12,
+    "comments": 11,
     "created_at": "2026-05-12T22:12:32Z",
-    "updated_at": "2026-05-12T22:18:17Z",
+    "updated_at": "2026-05-13T00:36:43Z",
     "closed_at": null,
     "assignee": {
       "login": "parasharrajat",
@@ -318,8 +318,8 @@
     "closed_by": null,
     "reactions": {
       "url": "https://api.github.com/repos/Expensify/App/issues/90366/reactions",
-      "total_count": 1,
-      "+1": 1,
+      "total_count": 2,
+      "+1": 2,
       "-1": 0,
       "laugh": 0,
       "hooray": 0,
@@ -429,9 +429,9 @@
       }
     ],
     "milestone": null,
-    "comments": 22,
+    "comments": 24,
     "created_at": "2026-05-12T17:18:40Z",
-    "updated_at": "2026-05-12T17:52:07Z",
+    "updated_at": "2026-05-12T23:20:20Z",
     "closed_at": null,
     "assignee": {
       "login": "Pujan92",
