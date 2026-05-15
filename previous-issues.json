@@ -301,9 +301,9 @@
       }
     ],
     "milestone": null,
-    "comments": 21,
+    "comments": 24,
     "created_at": "2026-05-15T03:28:32Z",
-    "updated_at": "2026-05-15T10:20:24Z",
+    "updated_at": "2026-05-15T11:51:51Z",
     "closed_at": null,
     "assignee": {
       "login": "dubielzyk-expensify",
@@ -456,9 +456,9 @@
       }
     ],
     "milestone": null,
-    "comments": 18,
+    "comments": 23,
     "created_at": "2026-05-14T20:49:34Z",
-    "updated_at": "2026-05-15T04:44:09Z",
+    "updated_at": "2026-05-15T12:48:21Z",
     "closed_at": null,
     "assignee": {
       "login": "dmkt9",
@@ -496,7 +496,7 @@
       "blocking": 0,
       "total_blocking": 0
     },
-    "body": "If you haven’t already, check out our [contributing guidelines](https://github.com/Expensify/ReactNativeChat/blob/main/contributingGuides/CONTRIBUTING.md) for onboarding and email contributors@expensify.com to request to join our Slack channel!\n___\n\n**Version Number:** 9.3.74-0\n**Reproducible in staging?:** Y\n**Reproducible in production?:** Y\n**If this was caught during regression testing, add the test name, ID and link from BrowserStack:**\n**Email or phone of affected tester (no customers):**\n**Logs:** https://stackoverflow.com/c/expensify/questions/4856\n**Expensify/Expensify Issue URL:**\n**Issue reported by:** @allgandalf \n**Slack conversation** (hyperlinked to channel name): [#Expensify Bugs](https://expensify.slack.com/archives/C049HHMV9SM/p1778778599706609)\n\n## Action Performed:\n\n1. Scanned Expense via smartscan\n2. It was successful, then got the message from Concierge with link:\nFYI, I probably could have imported this receipt automatically. Would you be open to [connecting](https://new.expensify.com/settings/wallet) your personal or company card? I support over 10,000 banks around the world, so I can probably connect to yours!\n3. Tap on the link\n## Expected Result:\nUser redirected to the Wallet section \n\n## Actual Result:\nUser redirected to mWeb (New.expensify.com)\n\n## Workaround:\nUnknown\n\n## Platforms:\nSelect the officially supported platforms where the issue was reproduced:\n- [ ] Android: App\n- [ ] Android: mWeb Chrome\n- [x] iOS: App\n- [ ] iOS: mWeb Safari\n- [ ] iOS: mWeb Chrome\n- [ ] Windows: Chrome\n- [ ] MacOS: Chrome / Safari\n\n## Screenshots/Videos\n\nhttps://github.com/user-attachments/assets/4aae8b5e-418e-4113-9d8d-5fef2396d8c8\n\nhttps://github.com/user-attachments/assets/11ccd1e2-5b15-4161-8aad-22856570b803\n\n\n[View all open jobs on GitHub](https://github.com/Expensify/App/issues?q=is%3Aopen+is%3Aissue+label%3A%22Help+Wanted%22)\n\n<details><summary>Upwork Automation - Do Not Edit</summary>\n    <ul>\n        <li>Upwork Job URL: https://www.upwork.com/jobs/~022055030583107071379</li>\n        <li>Upwork Job ID: 2055030583107071379</li>\n        <li>Last Price Increase: 2026-05-14</li>\n    </ul>\n</details>",
+    "body": "If you haven’t already, check out our [contributing guidelines](https://github.com/Expensify/ReactNativeChat/blob/main/contributingGuides/CONTRIBUTING.md) for onboarding and email contributors@expensify.com to request to join our Slack channel!\n___\n\n**Version Number:** 9.3.74-0\n**Reproducible in staging?:** Y\n**Reproducible in production?:** Y\n**If this was caught during regression testing, add the test name, ID and link from BrowserStack:**\n**Email or phone of affected tester (no customers):**\n**Logs:** https://stackoverflow.com/c/expensify/questions/4856\n**Expensify/Expensify Issue URL:**\n**Issue reported by:** @allgandalf \n**Slack conversation** (hyperlinked to channel name): [#Expensify Bugs](https://expensify.slack.com/archives/C049HHMV9SM/p1778778599706609)\n\n## Action Performed:\n\n1. Scanned Expense via smartscan\n2. It was successful, then got the message from Concierge with link:\nFYI, I probably could have imported this receipt automatically. Would you be open to [connecting](https://new.expensify.com/settings/wallet) your personal or company card? I support over 10,000 banks around the world, so I can probably connect to yours!\n3. Tap on the link\n## Expected Result:\nUser redirected to the Wallet section \n\n## Actual Result:\nUser redirected to mWeb (New.expensify.com)\n\n## Workaround:\nUnknown\n\n## Platforms:\nSelect the officially supported platforms where the issue was reproduced:\n- [ ] Android: App\n- [ ] Android: mWeb Chrome\n- [x] iOS: App\n- [ ] iOS: mWeb Safari\n- [ ] iOS: mWeb Chrome\n- [ ] Windows: Chrome\n- [ ] MacOS: Chrome / Safari\n\n## Screenshots/Videos\n\nhttps://github.com/user-attachments/assets/4aae8b5e-418e-4113-9d8d-5fef2396d8c8\n\n\n[View all open jobs on GitHub](https://github.com/Expensify/App/issues?q=is%3Aopen+is%3Aissue+label%3A%22Help+Wanted%22)\n\n<details><summary>Upwork Automation - Do Not Edit</summary>\n    <ul>\n        <li>Upwork Job URL: https://www.upwork.com/jobs/~022055030583107071379</li>\n        <li>Upwork Job ID: 2055030583107071379</li>\n        <li>Last Price Increase: 2026-05-14</li>\n    </ul>\n</details>",
     "closed_by": null,
     "reactions": {
       "url": "https://api.github.com/repos/Expensify/App/issues/90729/reactions",
@@ -620,9 +620,9 @@
       }
     ],
     "milestone": null,
-    "comments": 12,
+    "comments": 15,
     "created_at": "2026-05-14T20:35:55Z",
-    "updated_at": "2026-05-15T06:42:09Z",
+    "updated_at": "2026-05-15T12:07:16Z",
     "closed_at": null,
     "assignee": {
       "login": "ahmedGaber93",
@@ -713,6 +713,15 @@
     },
     "labels": [
       {
+        "id": 2283143991,
+        "node_id": "MDU6TGFiZWwyMjgzMTQzOTkx",
+        "url": "https://api.github.com/repos/Expensify/App/labels/Reviewing",
+        "name": "Reviewing",
+        "color": "dddddd",
+        "default": false,
+        "description": "Has a PR in review"
+      },
+      {
         "id": 2873246102,
         "node_id": "MDU6TGFiZWwyODczMjQ2MTAy",
         "url": "https://api.github.com/repos/Expensify/App/labels/External",
@@ -731,11 +740,11 @@
         "description": ""
       },
       {
-        "id": 2893455829,
-        "node_id": "MDU6TGFiZWwyODkzNDU1ODI5",
-        "url": "https://api.github.com/repos/Expensify/App/labels/Daily",
-        "name": "Daily",
-        "color": "eb6420",
+        "id": 2893515375,
+        "node_id": "MDU6TGFiZWwyODkzNTE1Mzc1",
+        "url": "https://api.github.com/repos/Expensify/App/labels/Weekly",
+        "name": "Weekly",
+        "color": "009800",
         "default": false,
         "description": "KSv2"
       },
@@ -828,7 +837,7 @@
     "milestone": null,
     "comments": 22,
     "created_at": "2026-05-14T17:26:22Z",
-    "updated_at": "2026-05-15T06:54:51Z",
+    "updated_at": "2026-05-15T12:20:34Z",
     "closed_at": null,
     "assignee": {
       "login": "marcaaron",
@@ -972,9 +981,9 @@
       }
     ],
     "milestone": null,
-    "comments": 22,
+    "comments": 25,
     "created_at": "2026-05-14T16:58:55Z",
-    "updated_at": "2026-05-14T20:26:33Z",
+    "updated_at": "2026-05-15T12:46:25Z",
     "closed_at": null,
     "assignee": {
       "login": "daledah",
@@ -1923,9 +1932,9 @@
       }
     ],
     "milestone": null,
-    "comments": 31,
+    "comments": 34,
     "created_at": "2026-05-14T12:39:53Z",
-    "updated_at": "2026-05-15T08:58:19Z",
+    "updated_at": "2026-05-15T10:43:25Z",
     "closed_at": null,
     "assignee": {
       "login": "dmkt9",
@@ -2099,9 +2108,9 @@
       }
     ],
     "milestone": null,
-    "comments": 23,
+    "comments": 25,
     "created_at": "2026-05-14T11:18:13Z",
-    "updated_at": "2026-05-14T14:31:10Z",
+    "updated_at": "2026-05-15T12:25:41Z",
     "closed_at": null,
     "assignee": {
       "login": "mountiny",
@@ -2527,161 +2536,6 @@
       "eyes": 0
     },
     "timeline_url": "https://api.github.com/repos/Expensify/App/issues/90637/timeline",
-    "performed_via_github_app": null,
-    "state_reason": null,
-    "pinned_comment": null
-  },
-  {
-    "url": "https://api.github.com/repos/Expensify/App/issues/90628",
-    "repository_url": "https://api.github.com/repos/Expensify/App",
-    "labels_url": "https://api.github.com/repos/Expensify/App/issues/90628/labels{/name}",
-    "comments_url": "https://api.github.com/repos/Expensify/App/issues/90628/comments",
-    "events_url": "https://api.github.com/repos/Expensify/App/issues/90628/events",
-    "html_url": "https://github.com/Expensify/App/issues/90628",
-    "id": 4444469857,
-    "node_id": "I_kwDOEQqHYc8AAAABCOk6YQ",
-    "number": 90628,
-    "title": "[$250] Email - An email is sent to user B's inbox after user A send  message to user B",
-    "user": {
-      "login": "jponikarchuk",
-      "id": 141990088,
-      "node_id": "U_kgDOCHaYyA",
-      "avatar_url": "https://avatars.githubusercontent.com/u/141990088?v=4",
-      "gravatar_id": "",
-      "url": "https://api.github.com/users/jponikarchuk",
-      "html_url": "https://github.com/jponikarchuk",
-      "followers_url": "https://api.github.com/users/jponikarchuk/followers",
-      "following_url": "https://api.github.com/users/jponikarchuk/following{/other_user}",
-      "gists_url": "https://api.github.com/users/jponikarchuk/gists{/gist_id}",
-      "starred_url": "https://api.github.com/users/jponikarchuk/starred{/owner}{/repo}",
-      "subscriptions_url": "https://api.github.com/users/jponikarchuk/subscriptions",
-      "organizations_url": "https://api.github.com/users/jponikarchuk/orgs",
-      "repos_url": "https://api.github.com/users/jponikarchuk/repos",
-      "events_url": "https://api.github.com/users/jponikarchuk/events{/privacy}",
-      "received_events_url": "https://api.github.com/users/jponikarchuk/received_events",
-      "type": "User",
-      "user_view_type": "public",
-      "site_admin": false
-    },
-    "labels": [
-      {
-        "id": 2873246102,
-        "node_id": "MDU6TGFiZWwyODczMjQ2MTAy",
-        "url": "https://api.github.com/repos/Expensify/App/labels/External",
-        "name": "External",
-        "color": "a7b8ef",
-        "default": false,
-        "description": "Added to denote the issue can be worked on by a contributor"
-      },
-      {
-        "id": 2893455829,
-        "node_id": "MDU6TGFiZWwyODkzNDU1ODI5",
-        "url": "https://api.github.com/repos/Expensify/App/labels/Daily",
-        "name": "Daily",
-        "color": "eb6420",
-        "default": false,
-        "description": "KSv2"
-      },
-      {
-        "id": 3136662525,
-        "node_id": "MDU6TGFiZWwzMTM2NjYyNTI1",
-        "url": "https://api.github.com/repos/Expensify/App/labels/Help%20Wanted",
-        "name": "Help Wanted",
-        "color": "CFC8F1",
-        "default": false,
-        "description": "Apply this label when an issue is open to proposals by contributors"
-      },
-      {
-        "id": 4664850679,
-        "node_id": "LA_kwDOEQqHYc8AAAABFgv49w",
-        "url": "https://api.github.com/repos/Expensify/App/labels/Bug",
-        "name": "Bug",
-        "color": "93074F",
-        "default": false,
-        "description": "Something is broken. Auto assigns a BugZero manager."
-      }
-    ],
-    "state": "open",
-    "locked": false,
-    "assignees": [
-      {
-        "login": "gijoe0295",
-        "id": 153004152,
-        "node_id": "U_kgDOCR6oeA",
-        "avatar_url": "https://avatars.githubusercontent.com/u/153004152?v=4",
-        "gravatar_id": "",
-        "url": "https://api.github.com/users/gijoe0295",
-        "html_url": "https://github.com/gijoe0295",
-        "followers_url": "https://api.github.com/users/gijoe0295/followers",
-        "following_url": "https://api.github.com/users/gijoe0295/following{/other_user}",
-        "gists_url": "https://api.github.com/users/gijoe0295/gists{/gist_id}",
-        "starred_url": "https://api.github.com/users/gijoe0295/starred{/owner}{/repo}",
-        "subscriptions_url": "https://api.github.com/users/gijoe0295/subscriptions",
-        "organizations_url": "https://api.github.com/users/gijoe0295/orgs",
-        "repos_url": "https://api.github.com/users/gijoe0295/repos",
-        "events_url": "https://api.github.com/users/gijoe0295/events{/privacy}",
-        "received_events_url": "https://api.github.com/users/gijoe0295/received_events",
-        "type": "User",
-        "user_view_type": "public",
-        "site_admin": false
-      }
-    ],
-    "milestone": null,
-    "comments": 16,
-    "created_at": "2026-05-14T08:38:06Z",
-    "updated_at": "2026-05-15T05:39:44Z",
-    "closed_at": null,
-    "assignee": {
-      "login": "gijoe0295",
-      "id": 153004152,
-      "node_id": "U_kgDOCR6oeA",
-      "avatar_url": "https://avatars.githubusercontent.com/u/153004152?v=4",
-      "gravatar_id": "",
-      "url": "https://api.github.com/users/gijoe0295",
-      "html_url": "https://github.com/gijoe0295",
-      "followers_url": "https://api.github.com/users/gijoe0295/followers",
-      "following_url": "https://api.github.com/users/gijoe0295/following{/other_user}",
-      "gists_url": "https://api.github.com/users/gijoe0295/gists{/gist_id}",
-      "starred_url": "https://api.github.com/users/gijoe0295/starred{/owner}{/repo}",
-      "subscriptions_url": "https://api.github.com/users/gijoe0295/subscriptions",
-      "organizations_url": "https://api.github.com/users/gijoe0295/orgs",
-      "repos_url": "https://api.github.com/users/gijoe0295/repos",
-      "events_url": "https://api.github.com/users/gijoe0295/events{/privacy}",
-      "received_events_url": "https://api.github.com/users/gijoe0295/received_events",
-      "type": "User",
-      "user_view_type": "public",
-      "site_admin": false
-    },
-    "author_association": "NONE",
-    "issue_field_values": [],
-    "type": null,
-    "active_lock_reason": null,
-    "sub_issues_summary": {
-      "total": 0,
-      "completed": 0,
-      "percent_completed": 0
-    },
-    "issue_dependencies_summary": {
-      "blocked_by": 0,
-      "total_blocked_by": 0,
-      "blocking": 0,
-      "total_blocking": 0
-    },
-    "body": "If you haven’t already, check out our [contributing guidelines](https://github.com/Expensify/ReactNativeChat/blob/main/contributingGuides/CONTRIBUTING.md) for onboarding and email contributors@expensify.com to request to join our Slack channel!\n___\n\n**Version Number:** v9.3.74-0\n**Reproducible in staging?:** Yes\n**Reproducible in production?:** Yes\n**If this was caught during regression testing, add the test name, ID and link from BrowserStack:** https://test-management.browserstack.com/projects/2219752/test-runs/TR-28773/folder/13176725/41237082/1413059912?sort=%2Bidentifier\n**Email or phone of affected tester (no customers):** N/A\n**Issue reported by:** Applause Internal Team\n**Bug source:** Regression TC Execution\n**Device used:** Windows 11 / Chrome, iPhone 13 / iOS 26.5, Samsung Galaxy A52 / Android 14\n**App Component:** Other\n\n## Action Performed:\nPreconditions\n- Logged in to any user\n- Enable wallet on both account A and account B\n\nSteps:\n1. Make sure user B is offline or logged out\n2. As user A - create a chat with user B\n3. As user A - Send a message to user B\n\n## Expected Result:\nno email is sent to user B’s inbox after writing a message\n\n## Actual Result:\nAn email is sent to user B's inbox after user A send message to user B (in my case, the email arrived after 20 mins)\n\n## Workaround:\nUnknown\n\n## Platforms:\n- [x] Android: App\n- [ ] Android: mWeb Chrome\n- [x] iOS: App\n- [ ] iOS: mWeb Safari\n- [ ] iOS: mWeb Chrome\n- [x] Windows: Chrome\n- [x] MacOS: Chrome / Safari\n\n## Screenshots/Videos\n\nhttps://github.com/user-attachments/assets/24907599-c651-43c6-a294-65698f3e2d99\n\n[View all open jobs on GitHub](https://github.com/Expensify/App/issues?q=is%3Aopen+is%3Aissue+label%3A%22Help+Wanted%22)\n<details><summary>Upwork Automation - Do Not Edit</summary>\n    <ul>\n        <li>Upwork Job URL: https://www.upwork.com/jobs/~022054844787491556095</li>\n        <li>Upwork Job ID: 2054844787491556095</li>\n        <li>Last Price Increase: 2026-05-14</li>\n    </ul>\n</details>",
-    "closed_by": null,
-    "reactions": {
-      "url": "https://api.github.com/repos/Expensify/App/issues/90628/reactions",
-      "total_count": 0,
-      "+1": 0,
-      "-1": 0,
-      "laugh": 0,
-      "hooray": 0,
-      "confused": 0,
-      "heart": 0,
-      "rocket": 0,
-      "eyes": 0
-    },
-    "timeline_url": "https://api.github.com/repos/Expensify/App/issues/90628/timeline",
     "performed_via_github_app": null,
     "state_reason": null,
     "pinned_comment": null
